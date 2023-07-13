@@ -1,0 +1,924 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<toolbox>
+   <parametre id="defaultCategories1">CAT_LOGIC,CYCLESAR,CAT_MATH,CAT_TEXT,CAT_ARDUINO_TIME,CAT_ARDUINO,ATTACHE,CAT_VARIABLESN,CAT_TAB,CAT_FUNCTIONS,CAT_ARDUINO_IN,CAT_ARDUINO_COMM_SERIAL,CAT_MODEMX,CAT_BITEPROM,CAT_MOTORI,CAT_SENSOROUTP,CAT_SENSORINPT,CAT_SENSORDRUGIE,CAT_SENSORRECORD,CAT_INDIKATORI,CAT_INDIKATORI2,CAT_DISPLAYU,CAT_DISPLAYU_OLED,CAT_DISPLAYU_TTL,DWIN_BOX,CAT_DISPLAYU_ROBO,CAT_LEONARDO1,CAT_LEONARDO2,</parametre>
+ 
+
+<category  name="CAT_LEONARDO2"  colour="#71437A"   > 
+    <block type="leonardo1"> 
+  <value name="Sensor1"> <shadow type="math_number"> <field name="NUM">0</field> </shadow> </value>
+  <value name="Sensor2"> <shadow type="math_number"> <field name="NUM">0</field> </shadow> </value>
+    </block>
+    <block type="leonardo2"></block>
+    <block type="leonardo3"></block>
+    <block type="leonardo4"></block>
+</category>
+<category  name="CAT_LEONARDO1"  colour="#007700"   > 
+     <block type="leonardo5"></block>
+    <block type="leonardo6"></block>
+    <block type="leonardo7"></block>
+  <block type="leonardo9"></block>
+  <block type="leonardo10"></block>
+  <block type="leonardo11"></block>
+    <block type="leonardo8"></block>
+</category>
+
+ 
+
+ <category name="CAT_DISPLAYU_ROBO" colour="#936299">  <!--роботы-->  
+ 
+ <block type="ardublock_block1"></block>
+ <block type="ardublock_block"></block>
+
+   <block type="ardublock_block13"></block>
+ <block type="ardublock_block10"></block>
+  <block type="ardublock_block8"></block>
+  
+  <block type="ardublock_block4"></block>
+ <block type="ardublock_block12"> </block>
+  <!--<block type="piannobox"></block>-->
+  			<block type="otto_configuration">
+				<field name="PIN_YL">2</field>
+				<field name="PIN_YR">3</field>
+				<field name="PIN_RL">4</field>
+				<field name="PIN_RR">5</field>
+				<field name="PIN_Buzzer">13</field>
+			</block>
+			<block type="otto_home"></block>
+			<block type="otto_move"></block>
+			<block type="otto_dance"></block>
+			<block type="otto_do"></block>
+			<block type="otto_sound"></block>
+ 
+  </category>
+   
+  <category name="CAT_DISPLAYU_TTL" colour="#10760e">  <!--UART Дисплей-->    
+  <block type="soft_init_ttl"> <field name="PIN1">2</field> <field name="PIN2">3</field> <field name="SPEED">115200</field> </block>
+  <block type="soft_write_ttl_uart"> <value name="CONTENT"><shadow type="math_number"><field name="NUM">255</field></shadow></value> </block>
+    <block type="soft_write_ttl_uart2"> <value name="CONTENT"><shadow type="math_number"><field name="NUM">32129</field></shadow></value> </block>
+  <block type="soft_write_ttl_uart_g"> <value name="CONTENT"><shadow type="math_number"><field name="NUM">255</field></shadow></value> </block>
+   <block type="soft_write_ttl_uart_led"> <value name="CONTENT"><shadow type="math_number"><field name="NUM">100</field></shadow></value> </block>
+   <block type="soft_write_ttl_uart_reset"> </block>
+    <block type="base_define_ttl_uart_top"></block>
+  <block type="base_define_ttl_uart"></block>
+  <block type="soft_read_ttl_dis"></block>
+  </category>   
+ 
+  <category name="CAT_DISPLAYU_TVVGA" colour="#a7a217">  <!--TV VGA -->    
+    <block type="lcd_128x128px_spi_tv"> </block>
+
+  <block type="lcd_128x128px_spi_text_tv">
+  <value name="texttoprint"><shadow type="text"> <field name="TEXT">TarBlock</field> </shadow></value>
+  <value name="X_Nokia"><shadow type="math_number"><field name="NUM">0</field></shadow></value>
+   <value name="Y_Nokia"><shadow type="math_number"><field name="NUM">0</field></shadow></value> 
+ </block> 
+   <block type="lcd_128x128px_spi_text_tv_delay">
+   <value name="Y_Nokia"><shadow type="math_number"><field name="NUM">1000</field></shadow></value> 
+ </block> 
+ 
+ <block type="lcd_128x128px_spi_line_tv">
+  <value name="X_Nokia"><shadow type="math_number"><field name="NUM">0</field></shadow></value>
+   <value name="Y_Nokia"><shadow type="math_number"><field name="NUM">0</field></shadow></value>
+     <value name="X_Nokia1"><shadow type="math_number"><field name="NUM">0</field></shadow></value>
+   <value name="Y_Nokia1"><shadow type="math_number"><field name="NUM">0</field></shadow></value>
+ </block>  
+ 
+  <block type="lcd_128x128px_spi_line_tv_box">
+  <value name="X_Nokia"><shadow type="math_number"><field name="NUM">0</field></shadow></value>
+   <value name="Y_Nokia"><shadow type="math_number"><field name="NUM">0</field></shadow></value>
+     <value name="X_Nokia1"><shadow type="math_number"><field name="NUM">0</field></shadow></value>
+   <value name="Y_Nokia1"><shadow type="math_number"><field name="NUM">0</field></shadow></value>
+ </block>
+ 
+  <block type="lcd_128x128px_spi_line_tv_none"> </block> 
+ 
+ <block type="lcd_128x128px_spi_tv_vga"> </block>
+   <block type="lcd_128x128px_spi_text_tv_vga">
+  <value name="texttoprint"><shadow type="text"> <field name="TEXT">TarBlock</field> </shadow></value>
+  <value name="X_Nokia"><shadow type="math_number"><field name="NUM">0</field></shadow></value>
+   <value name="Y_Nokia"><shadow type="math_number"><field name="NUM">0</field></shadow></value> 
+ </block>
+  <block type="lcd_128x128px_spi_text_tv_vga1">  </block>
+  <block type="lcd_128x128px_spi_text_tv_vga2">  <value name="X_Nokia"><shadow type="math_number"><field name="NUM">1000</field></shadow></value> </block>
+ 
+ 
+  </category> 
+  
+  <category name="DWIN_BOX" colour="#00929f">
+	
+  <block type="dwin_box_ttl"></block>
+   <block type="dwin_box_none"></block>
+  <block type="dwin_box_data"></block>
+    <block type="dwin_box_icon"></block>
+	<block type="dwin_box_text"></block>  
+  <!--<block type="dwin_box_bot"></block>
+  <block type="dwin_box_bot_id"></block>-->
+   <block type="dwin_box_bot1"></block>
+  <!-- <block type="dwin_box_bot2"></block>-->
+  <block type="dwin_box_var"><value name="var_block"><shadow type="math_number"><field name="NUM">R</field></shadow></value></block>
+  <block type="dwin_box_varsl"><value name="var_block"><shadow type="math_number"><field name="NUM">R</field></shadow></value></block>
+    <block type="dwin_box_led"><value name="var_block"><shadow type="math_number"><field name="NUM">64</field></shadow></value></block>
+	<block type="dwin_box_zum"><value name="var_block"><shadow type="math_number"><field name="NUM">5</field></shadow></value></block>
+ 
+
+  </category>
+  
+  
+
+<category name="CAT_DISPLAYU_TFT" colour="#777777">  <!--tft Дисплей-->  
+
+  <block type="lcd_128x128px_spi">
+ <value name="pin1"><shadow type="math_number"><field name="NUM">10</field></shadow></value>
+ <value name="pin2"><shadow type="math_number"><field name="NUM">9</field></shadow></value>
+ <value name="pin3"><shadow type="math_number"><field name="NUM">8</field></shadow></value> 
+ </block>
+ 
+  <block type="lcd_128x128px_spi_text">
+  <value name="X_Nokia"><shadow type="math_number"><field name="NUM">0</field></shadow></value>
+   <value name="Y_Nokia"><shadow type="math_number"><field name="NUM">0</field></shadow></value>
+   <value name="texttoprint"><shadow type="text"> <field name="TEXT">TarBlock</field> </shadow></value>
+ </block> 
+ 
+<block type="lcd_128x128px_spi_pix">
+  <value name="X_Nokia"><shadow type="math_number"><field name="NUM">0</field></shadow></value>
+   <value name="Y_Nokia"><shadow type="math_number"><field name="NUM">0</field></shadow></value>
+ </block> 
+ 
+ <block type="lcd_128x128px_spi_line">
+  <value name="X_Nokia"><shadow type="math_number"><field name="NUM">0</field></shadow></value>
+   <value name="Y_Nokia"><shadow type="math_number"><field name="NUM">0</field></shadow></value>
+     <value name="X_Nokia1"><shadow type="math_number"><field name="NUM">0</field></shadow></value>
+   <value name="Y_Nokia1"><shadow type="math_number"><field name="NUM">0</field></shadow></value>
+ </block> 
+ 
+     <block type="lcd_128x128px_spi_box">
+  <value name="X_Nokia"><shadow type="math_number"><field name="NUM">0</field></shadow></value>
+   <value name="Y_Nokia"><shadow type="math_number"><field name="NUM">0</field></shadow></value>
+     <value name="X_Nokia2"><shadow type="math_number"><field name="NUM">0</field></shadow></value>
+   <value name="Y_Nokia2"><shadow type="math_number"><field name="NUM">0</field></shadow></value>
+      <value name="Y_Nokia3"><shadow type="math_number"><field name="NUM">0</field></shadow></value>
+ </block> 
+ 
+ 
+  <block type="lcd_tah_spi"> </block>
+   <block type="lcd_tah_spi_text">
+  <value name="X_Nokia"><shadow type="math_number"><field name="NUM">0</field></shadow></value>
+   <value name="Y_Nokia"><shadow type="math_number"><field name="NUM">0</field></shadow></value>
+   <value name="texttoprint"><shadow type="text"> <field name="TEXT">TarBlock</field> </shadow></value>
+ </block> 
+    <block type="lcd_tah_spi_int">
+  <value name="X_Nokia"><shadow type="math_number"><field name="NUM">0</field></shadow></value>
+   <value name="Y_Nokia"><shadow type="math_number"><field name="NUM">0</field></shadow></value>
+   <value name="texttoprint"><shadow type="text"> <field name="TEXT">R</field> </shadow></value>
+ </block> 
+      <block type="lcd_tah_spi_box">
+  <value name="X_Nokia"><shadow type="math_number"><field name="NUM">0</field></shadow></value>
+   <value name="Y_Nokia"><shadow type="math_number"><field name="NUM">0</field></shadow></value>
+     <value name="X_Nokia2"><shadow type="math_number"><field name="NUM">0</field></shadow></value>
+   <value name="Y_Nokia2"><shadow type="math_number"><field name="NUM">0</field></shadow></value>
+ </block> 
+ <block type="lcd_tah_spi_tah">
+  <value name="X_Nokia"><shadow type="math_number"><field name="NUM">0</field></shadow></value>
+   <value name="Y_Nokia"><shadow type="math_number"><field name="NUM">0</field></shadow></value>
+     <value name="X_Nokia2"><shadow type="math_number"><field name="NUM">0</field></shadow></value>
+   <value name="Y_Nokia2"><shadow type="math_number"><field name="NUM">0</field></shadow></value>
+ </block> 
+</category> 
+
+
+ <category name="CAT_DISPLAYU_OLED" colour="#333777">  <!--oled Дисплей-->   
+   
+    <block type="minilcdi2c_setup"> </block>  
+    <block type="minilcdi2c_setcursor"> 
+      <value name="print_x"> <shadow type="math_number"> <field name="NUM">0</field>  </shadow> </value>
+      <value name="print_y"> <shadow type="math_number"> <field name="NUM">0</field> </shadow>  </value>
+      <value name="texttoprint"><shadow type="text"> <field name="TEXT">TarBlock</field> </shadow></value>  
+    </block>
+    <block type="minilcdi2c_setcursorR"> 
+      <value name="print_x"> <shadow type="math_number"> <field name="NUM">0</field>  </shadow> </value>
+      <value name="print_y"> <shadow type="math_number"> <field name="NUM">0</field> </shadow>  </value>
+      <value name="print_R"><shadow type="math_number"> <field name="NUM">123</field> </shadow>  </value>  
+    </block>
+	
+    <block type="minilcdi2c_setcursor_draw_pl">
+	  <value name="print_x"> <shadow type="math_number"> <field name="NUM">0</field>  </shadow> </value>
+      <value name="print_y"> <shadow type="math_number"> <field name="NUM">0</field> </shadow>  </value>
+	  </block>
+	<block type="minilcdi2c_setcursor_draw"></block>
+	
+ </category> 
+ 
+ 
+  <category name="CAT_DISPLAYU_LCDP" colour="#123747">  <!--lsd Дисплей p--> 
+  
+ <block type="lcd_128x64px_spi">
+ <value name="pin1"><shadow type="math_number"><field name="NUM">10</field></shadow></value>
+ <value name="pin2"><shadow type="math_number"><field name="NUM">11</field></shadow></value>
+ <value name="pin3"><shadow type="math_number"><field name="NUM">12</field></shadow></value> 
+ </block>
+ 
+  <block type="lcd_128x64px_spi_mini">
+ <value name="pin1"><shadow type="math_number"><field name="NUM">8</field></shadow></value>
+ <value name="pin2"><shadow type="math_number"><field name="NUM">9</field></shadow></value>
+ <value name="pin3"><shadow type="math_number"><field name="NUM">10</field></shadow></value> 
+ <value name="pin4"><shadow type="math_number"><field name="NUM">11</field></shadow></value> 
+ <value name="pin5"><shadow type="math_number"><field name="NUM">12</field></shadow></value> 
+ </block>
+ 
+   <block type="lcd_128x64px_spi_top"></block>
+ 
+ <block type="lcd_128x64px_spi_b"></block>
+ 
+  <block type="lcd_128x64px_spi_text">
+  <value name="X_Nokia"><shadow type="math_number"><field name="NUM">0</field></shadow></value>
+   <value name="Y_Nokia"><shadow type="math_number"><field name="NUM">0</field></shadow></value>
+   <value name="texttoprint"><shadow type="text"> <field name="TEXT">TarBlock</field> </shadow></value>
+ </block> 
+   <block type="lcd_128x64px_spi_pix">
+  <value name="X_Nokia"><shadow type="math_number"><field name="NUM">0</field></shadow></value>
+   <value name="Y_Nokia"><shadow type="math_number"><field name="NUM">0</field></shadow></value>
+ </block> 
+   <block type="lcd_128x64px_spi_line">
+  <value name="X_Nokia"><shadow type="math_number"><field name="NUM">0</field></shadow></value>
+   <value name="Y_Nokia"><shadow type="math_number"><field name="NUM">0</field></shadow></value>
+     <value name="X_Nokia2"><shadow type="math_number"><field name="NUM">0</field></shadow></value>
+   <value name="Y_Nokia2"><shadow type="math_number"><field name="NUM">0</field></shadow></value>
+ </block> 
+ 
+    <block type="lcd_128x64px_spi_box">
+  <value name="X_Nokia"><shadow type="math_number"><field name="NUM">0</field></shadow></value>
+   <value name="Y_Nokia"><shadow type="math_number"><field name="NUM">0</field></shadow></value>
+     <value name="X_Nokia2"><shadow type="math_number"><field name="NUM">0</field></shadow></value>
+   <value name="Y_Nokia2"><shadow type="math_number"><field name="NUM">0</field></shadow></value>
+      <value name="Y_Nokia3"><shadow type="math_number"><field name="NUM">0</field></shadow></value>
+ </block> 
+ 
+     <block type="lcd_128x64px_spi_draw_pl">
+	  <value name="print_x"> <shadow type="math_number"> <field name="NUM">0</field>  </shadow> </value>
+      <value name="print_y"> <shadow type="math_number"> <field name="NUM">0</field> </shadow>  </value>
+	  </block>
+	<block type="lcd_128x64px_spi_draw"></block> 
+  </category>
+  
+   <category name="CAT_DISPLAYU" colour="#4B886A">  <!--LCD Дисплей-->
+    <block type="lcdm_setup">
+      <value name="PIN_RS"><shadow type="math_number"><field name="NUM">8</field></shadow></value>
+      <value name="PIN_E"><shadow type="math_number"><field name="NUM">9</field></shadow></value>
+      <value name="PIN_DB4"><shadow type="math_number"><field name="NUM">10</field></shadow></value>
+      <value name="PIN_DB5"><shadow type="math_number"><field name="NUM">11</field></shadow></value>
+      <value name="PIN_DB6"><shadow type="math_number"><field name="NUM">12</field></shadow></value>
+      <value name="PIN_DB7"><shadow type="math_number"><field name="NUM">13</field></shadow></value>
+      <value name="COLUMNS"><shadow type="math_number"><field name="NUM">16</field></shadow></value>
+      <value name="ROWS"><shadow type="math_number"><field name="NUM">2</field></shadow></value>
+    </block>
+    <block type="lcdm_setcursor">
+      <value name="column"> <shadow type="math_number"> <field name="NUM">0</field>  </shadow> </value>
+      <value name="row"> <shadow type="math_number"> <field name="NUM">0</field> </shadow>  </value>
+      <value name="texttoprint"><shadow type="text"> <field name="TEXT">TarBlock</field> </shadow></value>  
+        </block>
+		
+	<!--	<block type="lcd_bottom"></block>-->
+		
+	<block type="lcd_setcursor_draw_pl">
+	  <value name="print_x"> <shadow type="math_number"> <field name="NUM">0</field>  </shadow> </value>
+      <value name="print_y"> <shadow type="math_number"> <field name="NUM">0</field> </shadow>  </value>
+	  </block>
+	  
+    <block type="lcdi2c_setuprus">
+      <value name="COLUMNS"><shadow type="math_number"><field name="NUM">16</field></shadow></value>
+      <value name="ROWS"><shadow type="math_number"><field name="NUM">2</field></shadow></value>
+    </block>
+    <block type="lcdi2c_setcursor">
+      <value name="column"> <shadow type="math_number"> <field name="NUM">0</field>  </shadow> </value>
+      <value name="row"> <shadow type="math_number"> <field name="NUM">0</field> </shadow>  </value>
+      <value name="texttoprint"><shadow type="text"> <field name="TEXT">TarBlock</field> </shadow></value>  
+        </block>  
+	<block type="lcdi2c_setcursor_draw_pl">
+	  <value name="print_x"> <shadow type="math_number"> <field name="NUM">0</field>  </shadow> </value>
+      <value name="print_y"> <shadow type="math_number"> <field name="NUM">0</field> </shadow>  </value>
+	  </block>	
+	<block type="lcdi2c_setcursor_draw"></block>
+    
+	
+	<!--
+<block type="lcd_con_nokia">
+ <value name="SCK_N"><shadow type="math_number"><field name="NUM">8</field></shadow></value>
+ <value name="MOSI_N"><shadow type="math_number"><field name="NUM">9</field></shadow></value>
+ <value name="DC_N"><shadow type="math_number"><field name="NUM">10</field></shadow></value>
+ <value name="RST_N"><shadow type="math_number"><field name="NUM">11</field></shadow></value>
+ <value name="CS_N"><shadow type="math_number"><field name="NUM">12</field></shadow></value>
+ </block>
+ 
+ <block type="lcd_con_nokia_text">
+  <value name="X_Nokia"><shadow type="math_number"><field name="NUM">0</field></shadow></value>
+   <value name="Y_Nokia"><shadow type="math_number"><field name="NUM">0</field></shadow></value>
+   <value name="texttoprint"><shadow type="text"> <field name="TEXT">TarBlock</field> </shadow></value>
+ </block> 
+ 
+  <block type="lcd_con_nokia_number">
+   <value name="X_Nokia"><shadow type="math_number"><field name="NUM">0</field></shadow></value>
+   <value name="Y_Nokia"><shadow type="math_number"><field name="NUM">0</field></shadow></value>
+   <value name="Nokia_number"><shadow type="math_number"><field name="NUM">123</field></shadow></value>
+ </block>-->
+ 
+ 
+</category> 
+
+
+ <category name="CAT_INDIKATORI" colour="#D07100">  <!--индикаторы-->
+    <block type="lcdm7m_setup" >
+    <value name="PINe"><shadow type="math_number"><field name="NUM">2</field></shadow></value>
+    <value name="PINd"><shadow type="math_number"><field name="NUM">3</field></shadow></value>
+    <value name="PINdp"><shadow type="math_number"><field name="NUM">4</field></shadow></value>
+    <value name="PINc"><shadow type="math_number"><field name="NUM">5</field></shadow></value>
+    <value name="PINg"><shadow type="math_number"><field name="NUM">6</field></shadow></value>
+    <value name="PIND4"><shadow type="math_number"><field name="NUM">7</field></shadow></value>
+    <value name="PINb"><shadow type="math_number"><field name="NUM">8</field></shadow></value>
+    <value name="PIND3"><shadow type="math_number"><field name="NUM">9</field></shadow></value>
+    <value name="PIND2"><shadow type="math_number"><field name="NUM">10</field></shadow></value>
+    <value name="PINf"><shadow type="math_number"><field name="NUM">11</field></shadow></value>
+    <value name="PINa"><shadow type="math_number"><field name="NUM">12</field></shadow></value>
+    <value name="PIND1"><shadow type="math_number"><field name="NUM">13</field></shadow></value>
+    </block>
+    <block type="lcdm7m_setcursor" >
+    <value name="texttoprint"><shadow type="math_number"><field name="NUM">1234</field></shadow></value>
+    </block>
+    <block type="DisplayTM1637_init">
+      <value name="PIN_CLK"><shadow type="math_number"><field name="NUM">9</field></shadow></value>
+    <value name="PIN_DIO"><shadow type="math_number"><field name="NUM">10</field></shadow></value>
+        </block>    
+    <block type="DisplayTM1637_set_digit">
+    <value name="SSS"><shadow type="math_number"><field name="NUM">1</field></shadow></value>
+    <value name="NNN"><shadow type="math_number"><field name="NUM">0</field></shadow></value>
+    </block> 
+    <block type="DisplayTM1637_set_completenumber">
+    <value name="NNN"><shadow type="math_number"><field name="NUM">1234</field></shadow></value>
+    </block>
+    <block type="Init_MAX7219_7digit">
+    <value name="PIN_DAT"><shadow type="math_number"><field name="NUM">4</field></shadow></value>
+    <value name="PIN_CS"><shadow type="math_number"><field name="NUM">5</field></shadow></value>
+    <value name="PIN_CLK"><shadow type="math_number"><field name="NUM">6</field></shadow></value>
+       </block>
+       <block type="MAX7219_7digit_char">
+     <value name="SSS"><shadow type="math_number"><field name="NUM">1</field></shadow></value>
+     <value name="NNN"><shadow type="math_number"><field name="NUM">1</field></shadow></value>
+     </block>
+	 <block type="MAX7219_7digit_char_bm">
+     <value name="SSS"><shadow type="math_number"><field name="NUM">1</field></shadow></value>
+     </block>
+	 <block type="MAX7219_7digit_char_none"></block>
+	   </category> 
+	  <category name="CAT_INDIKATORI2" colour="#6D5B18">  <!--индикаторы матрицы-->
+	  
+     <block type="Init_MAX7219_ledmatrix">
+    <value name="PIN_DAT"><shadow type="math_number"><field name="NUM">4</field></shadow></value>
+    <value name="PIN_CS"><shadow type="math_number"><field name="NUM">5</field></shadow></value>
+    <value name="PIN_CLK"><shadow type="math_number"><field name="NUM">6</field></shadow></value>
+       </block>
+	 <block type="MAX7219_ledmatrix_draw_px">
+     <value name="xpx"><shadow type="math_number"><field name="NUM">0</field></shadow></value>
+     <value name="ypx"><shadow type="math_number"><field name="NUM">0</field></shadow></value>
+     </block>
+	   
+     <block type="MAX7219_ledmatrix_draw"></block>  
+	 
+	 
+ <block type="Init_MAX7219_ledmatrix4x">
+    <value name="PIN_DAT"><shadow type="math_number"><field name="NUM">1</field></shadow></value>
+    <value name="PIN_CS"><shadow type="math_number"><field name="NUM">4</field></shadow></value>
+    <value name="PIN_CLK"><shadow type="math_number"><field name="NUM">10</field></shadow></value>
+       </block>
+   <block type="Init_MAX7219_ledmatrix4x_text">
+  <value name="Y_Nokia"><shadow type="math_number"><field name="NUM">30</field></shadow></value>
+   <value name="texttoprint"><shadow type="text"> <field name="TEXT">TarBlock</field> </shadow></value>
+ </block>  
+	   
+	   
+  </category> 
+  
+  
+  
+ <category name="CAT_SENSORRECORD" colour="#A66E95">  <!--Аудио модули-->
+    <block type="actuator_tonedure"> 
+    <value name="PIN"><shadow type="math_number"> <field name="NUM">3</field></shadow></value>
+    <value name="NUM">  <shadow type="math_number"> <field name="NUM">440</field>   </shadow>   </value>
+    <value name="DUR">  <shadow type="math_number"> <field name="NUM">1000</field> </shadow>  </value>
+    </block>
+    <block type="frequency"></block>
+	
+	<block type="notone22"><value name="PIN"><shadow type="math_number"> <field name="NUM">3</field></shadow></value></block>
+   
+   <block type="RadioTEA5767_init12"><value name="NUM">  <shadow type="math_number"> <field name="NUM">101.9</field> </shadow>  </value></block>
+   <block type="RadioTEA5767_init1"></block>
+   <block type="RadioTEA5767_init2"></block>
+   <block type="RadioTEA5767_init3"></block>
+   
+	<block type="DFPplayerMp3_init_serial1">
+    <value name="VELL"><shadow type="math_number"><field name="NUM">30</field></shadow></value>
+    <value name="NOM"><shadow type="math_number"><field name="NUM">1</field></shadow></value>
+    <value name="DEL"><shadow type="math_number"><field name="NUM">5000</field></shadow></value>
+    </block>
+	
+	<block type="DFPplayerMp3_init_serial2">
+    <value name="NOM"><shadow type="math_number"><field name="NUM">1</field></shadow></value>
+    </block>
+	
+	<block type="DFPplayerMp3_init_serial3">
+    <value name="VELL"><shadow type="math_number"><field name="NUM">30</field></shadow></value>
+    </block>
+	
+	<block type="DFPplayerMp3_init_serial4"> </block>
+	
+  </category> 
+ 
+  
+ <category name="CAT_SENSORDRUGIE" colour="#826EA6">  <!--Другие сенсоры-->
+ <block type="ds1990_Write">
+        <value name="Writecounter"><shadow type="math_number"> <field name="NUM">1</field></shadow></value>
+    <value name="Writecounter1"><shadow type="math_number"><field name="NUM">2</field></shadow></value>
+    <value name="Writecounter2"><shadow type="math_number"><field name="NUM">3</field></shadow></value>
+    <value name="Writecounter3"><shadow type="math_number"><field name="NUM">4</field></shadow></value>
+    <value name="Writecounter4"><shadow type="math_number"><field name="NUM">5</field></shadow></value>
+    <value name="Writecounter5"><shadow type="math_number"><field name="NUM">6</field></shadow></value>
+    <value name="Writecounter6"><shadow type="math_number"><field name="NUM">7</field></shadow></value>
+    <value name="Writecounter7"><shadow type="math_number"><field name="NUM">8</field></shadow></value>
+  </block>
+   <block type="ds1990_Read">
+    <value name="Writecounter"><shadow type="math_number"> <field name="NUM">R1</field></shadow></value>
+    <value name="Writecounter1"><shadow type="math_number"><field name="NUM">R2</field></shadow></value>
+    <value name="Writecounter2"><shadow type="math_number"><field name="NUM">R3</field></shadow></value>
+    <value name="Writecounter3"><shadow type="math_number"><field name="NUM">R4</field></shadow></value>
+    <value name="Writecounter4"><shadow type="math_number"><field name="NUM">R5</field></shadow></value>
+    <value name="Writecounter5"><shadow type="math_number"><field name="NUM">R6</field></shadow></value>
+    <value name="Writecounter6"><shadow type="math_number"><field name="NUM">R7</field></shadow></value>
+    <value name="Writecounter7"><shadow type="math_number"><field name="NUM">R8</field></shadow></value>
+  </block>
+ <!-- <block type="rfid_init">
+    <value name="PIN_SDA"><shadow type="math_number"> <field name="NUM">10</field></shadow></value>
+    <value name="PIN_RST"><shadow type="math_number"> <field name="NUM">9</field></shadow></value>
+    <value name="PIN_KOD"><shadow type="math_number"> <field name="NUM">R</field></shadow></value>
+    </block>-->
+  <block type="Init_Keypad4x4">
+    <value name="PIN_C1"><shadow type="math_number"> <field name="NUM">2</field></shadow></value>
+    <value name="PIN_C2"><shadow type="math_number"> <field name="NUM">3</field></shadow></value>
+    <value name="PIN_C3"><shadow type="math_number"> <field name="NUM">4</field></shadow></value>
+    <value name="PIN_C4"><shadow type="math_number"> <field name="NUM">5</field></shadow></value>
+    <value name="PIN_R1"><shadow type="math_number"> <field name="NUM">6</field></shadow></value>
+    <value name="PIN_R2"><shadow type="math_number"> <field name="NUM">7</field></shadow></value>
+    <value name="PIN_R3"><shadow type="math_number"> <field name="NUM">8</field></shadow></value>
+    <value name="PIN_R4"><shadow type="math_number"> <field name="NUM">9</field></shadow></value>
+    <value name="PIN_RKOD"><shadow type="math_number"> <field name="NUM">R</field></shadow></value>
+   </block>
+  <!--  модель отпечатка пальцев просмотреть скан  <block type="Initread_fingerprinting"> </block>
+    <block type="Initread_fingerprintingD"> <value name="PIN_RKOD"><shadow type="math_number"> <field name="NUM">R</field></shadow></value> </block>
+    <block type="tensorsensor1"> <value name="PIN_RKOD"><shadow type="math_number"> <field name="NUM">R</field></shadow></value> </block>
+	-->
+	<block type="x9c103s"> <value name="_block"><shadow type="math_number"> <field name="NUM">R 0 - 50</field></shadow></value></block>
+	<block type="initread_acs712"> </block>
+	
+	<block type="pin_botton_pro"> </block>
+	<block type="pin_botton_pro2"> </block>
+	
+		<block type="lcdi2c_setcursor_draw_led"></block>
+	
+	</category> 
+	
+	
+  <category name="CAT_SENSORINPT" colour="#222E6C">  <!--Сенсоры выхода-->
+    <block type="inout_digital_writeD">    <value name="PIN"><shadow type="math_number"><field name="NUM">13</field></shadow></value>      <value name="STAT"><shadow type="math_number"><field name="NUM">1</field></shadow></value>   </block>
+    <block type="inout_analog_writeD">    <value name="NUM"><shadow type="math_number"><field name="NUM">255</field></shadow></value>       </block>
+    <block type="actuator_rgbled">
+      <value name="PINRed"><shadow type="math_number"><field name="NUM">3</field></shadow></value>
+      <value name="PINGreen"><shadow type="math_number"><field name="NUM">6</field></shadow></value>
+      <value name="PINBlue"><shadow type="math_number"><field name="NUM">5</field></shadow></value>
+    </block>
+  
+  <block type="actuator_rgbled595">
+    <value name="PINRed"><shadow type="math_number"><field name="NUM">10</field></shadow></value>
+      <value name="PINGreen"><shadow type="math_number"><field name="NUM">9</field></shadow></value>
+      <value name="PINBlue"><shadow type="math_number"><field name="NUM">8</field></shadow></value>
+    <value name="NUM">  <shadow type="math_number">  <field name="NUM">1</field> </shadow>   </value>
+    </block>
+  <block type="LedStrip_WS2812B_init">
+      <value name="PINR"><shadow type="math_number"><field name="NUM">12</field></shadow></value>
+    <value name="PIN"><shadow type="math_number"><field name="NUM">2</field></shadow></value>
+    <value name="LEDI"><shadow type="math_number"><field name="NUM">255</field></shadow></value>
+    <value name="Pixel_number"><shadow type="math_number"><field name="NUM">1</field></shadow></value>
+    </block>
+  <block type="LedStrip_WS2812B_initRGB">
+      <value name="PINR"><shadow type="math_number"><field name="NUM">12</field></shadow></value>
+    <value name="PIN"><shadow type="math_number"><field name="NUM">2</field></shadow></value>
+    <value name="LEDI"><shadow type="math_number"><field name="NUM">255</field></shadow></value>
+    <value name="Red"><shadow type="math_number"><field name="NUM">255</field></shadow></value>
+    <value name="Green"><shadow type="math_number"><field name="NUM">255</field></shadow></value>
+    <value name="Blue"><shadow type="math_number"><field name="NUM">255</field></shadow></value>
+    <value name="Pixel_number"><shadow type="math_number"><field name="NUM">1</field></shadow></value>
+    </block>
+ <block type="LedStrip_WS2812B_init_top">
+      <value name="PINR"><shadow type="math_number"><field name="NUM">12</field></shadow></value>
+    <value name="PIN"><shadow type="math_number"><field name="NUM">2</field></shadow></value>
+    <value name="Pixel_number"><shadow type="math_number"><field name="NUM">500</field></shadow></value>
+    </block>
+	
+		   <block type="LedStrip_WS2811B_init">
+      <value name="PINR"><shadow type="math_number"><field name="NUM">12</field></shadow></value>
+    <value name="PIN"><shadow type="math_number"><field name="NUM">2</field></shadow></value>
+    <value name="LEDI"><shadow type="math_number"><field name="NUM">255</field></shadow></value>
+    <value name="Pixel_number"><shadow type="math_number"><field name="NUM">1</field></shadow></value>
+    </block>
+	  <block type="LedStrip_WS2811B_initRGB">
+      <value name="PINR"><shadow type="math_number"><field name="NUM">12</field></shadow></value>
+    <value name="PIN"><shadow type="math_number"><field name="NUM">2</field></shadow></value>
+    <value name="LEDI"><shadow type="math_number"><field name="NUM">255</field></shadow></value>
+    <value name="Red"><shadow type="math_number"><field name="NUM">255</field></shadow></value>
+    <value name="Green"><shadow type="math_number"><field name="NUM">255</field></shadow></value>
+    <value name="Blue"><shadow type="math_number"><field name="NUM">255</field></shadow></value>
+    <value name="Pixel_number"><shadow type="math_number"><field name="NUM">1</field></shadow></value>
+    </block>
+	 <block type="LedStrip_WS2811B_init_top">
+      <value name="PINR"><shadow type="math_number"><field name="NUM">12</field></shadow></value>
+    <value name="PIN"><shadow type="math_number"><field name="NUM">2</field></shadow></value>
+    <value name="Pixel_number"><shadow type="math_number"><field name="NUM">500</field></shadow></value>
+    </block>
+	
+	
+	<block type="ledi_ws2812"></block>
+	<block type="ledi_ws2812x2"></block>
+	<block type="ledi_ws2812x4"></block>
+	
+
+    </category>    
+
+
+	
+  
+<category name="CAT_LOGIC" colour="#5B80A5"> <!--Логика -->
+    <block type="controls_if"></block>
+    <block type="logic_compare_log">
+    <value name="A"><shadow type="math_number"><field name="NUM">R</field></shadow></value>
+    <value name="B"><shadow type="math_number"><field name="NUM">10</field></shadow></value>
+    </block>
+     <block type="logic_operation">
+     <value name="A"><shadow type="math_number"><field name="NUM">X</field></shadow></value>
+     <value name="B"><shadow type="math_number"><field name="NUM">Y</field></shadow></value>
+     </block>
+    <block type="controls_switch"></block>
+	 <block type="logic_negate"></block>
+	<block type="logic_van"></block>	
+  </category>
+
+   <category name="CYCLESAR" colour="#308189">  <!--Циклы -->    
+   <block type="base_define_for"> <value name="variable"><shadow type="math_number"><field name="NUM">10</field></shadow></value> </block>
+      <block type="base_define_for_in"> 
+	  <value name="variable1"><shadow type="math_number"><field name="NUM">X</field></shadow></value> 
+	  <value name="variable2"><shadow type="math_number"><field name="NUM">1</field></shadow></value>
+	  <value name="variable3"><shadow type="math_number"><field name="NUM">10</field></shadow></value>
+	  <value name="variable4"><shadow type="math_number"><field name="NUM">1</field></shadow></value>
+	  </block>
+	        <block type="base_define_for_ino"> 
+	  <value name="variable1"><shadow type="math_number"><field name="NUM">X</field></shadow></value> 
+	  <value name="variable2"><shadow type="math_number"><field name="NUM">10</field></shadow></value>
+	  <value name="variable3"><shadow type="math_number"><field name="NUM">1</field></shadow></value>
+	  <value name="variable4"><shadow type="math_number"><field name="NUM">1</field></shadow></value>
+	  </block>
+  <block type="base_form_none"></block>
+		<block type="base_define_while"> 
+   	  <value name="variable1"><shadow type="math_number"><field name="NUM">X</field></shadow></value> 
+	  <value name="variable2"><shadow type="math_number"><field name="NUM">1</field></shadow></value>
+	  </block>  
+ 		<block type="base_define_while_do"> 
+   	  <value name="variable1"><shadow type="math_number"><field name="NUM">X</field></shadow></value> 
+	  <value name="variable2"><shadow type="math_number"><field name="NUM">1</field></shadow></value>
+	  </block>  
+  <block type="base_form_none2"></block>
+       <block type="base_form_RR" ><value name="texttoprint"><shadow type="math_number"><field name="NUM">R</field></shadow></value></block> 
+ <block type="base_form_none3"></block> 
+  </category>  
+ 
+  <category name="CAT_MATH" colour="#5B67A5"> <!--математика-->
+        <block type="math_number"></block>
+    <block type="inout_angle_maths"></block>
+       
+  
+       
+     <block type="math_arithmetic">
+    <value name="A"><shadow type="math_number"><field name="NUM">R</field></shadow></value>
+    <value name="B"><shadow type="math_number"><field name="NUM">1</field></shadow></value>
+     </block>
+ 
+  <block type="math_random_int">
+      <value name="FROM"><shadow type="math_number"><field name="NUM">0</field></shadow></value>
+      <value name="TO"><shadow type="math_number"><field name="NUM">100</field></shadow></value>
+    </block> 
+	<block type="math_random_int_g">
+      <value name="FROM"><shadow type="math_number"><field name="NUM">0</field></shadow></value>
+      <value name="TO"><shadow type="math_number"><field name="NUM">100</field></shadow></value>
+    </block>
+
+  <block type="math_random_int_map"> 
+    <value name="Mi1"><shadow type="math_number"><field name="NUM">R</field></shadow></value>
+    <value name="Mi2"><shadow type="math_number"><field name="NUM">0</field></shadow></value>
+    <value name="Mi3"><shadow type="math_number"><field name="NUM">1023</field></shadow></value>
+    <value name="Mi4"><shadow type="math_number"><field name="NUM">0</field></shadow></value>
+    <value name="Mi5"><shadow type="math_number"><field name="NUM">255</field></shadow></value>
+  </block>
+   <block type="math_single_int"><value name="PIN"><shadow type="math_number"><field name="NUM">R</field></shadow></value></block>
+ <block type="math_single_int_pi"><value name="PIN"><shadow type="math_number"><field name="NUM">R</field></shadow></value></block>
+ 
+  <block type="math_single_int_pi1"><value name="PIN"><shadow type="math_number"><field name="NUM">X</field></shadow></value><value name="PIN1"><shadow type="math_number"><field name="NUM">Y</field></shadow></value></block>
+   <block type="math_single_int_pi2"><value name="PIN"><shadow type="math_number"><field name="NUM">X</field></shadow></value><value name="PIN1"><shadow type="math_number"><field name="NUM">Y</field></shadow></value></block>
+   <block type="math_single_int_pi3"><value name="PIN"><shadow type="math_number"><field name="NUM">R</field></shadow></value><value name="PIN1"><shadow type="math_number"><field name="NUM">10</field></shadow></value><value name="PIN2"><shadow type="math_number"><field name="NUM">20</field></shadow></value></block>
+ 
+  <block type="math_single"></block>
+   <block type="math_single_pi"></block>
+  
+   
+    </category>
+  
+    <category name="CAT_TEXT" colour="#5BA58C"><!--текст-->
+    <block type="text"> <field name="TEXT">TarBlock</field>   </block>
+    <block type="text_char"> <field name="TEXT">TarBlock</field>   </block>
+    <block type="text_join"></block>
+	   <block type="math_single_int_text"><value name="PIN"><shadow type="math_number"><field name="NUM">R</field></shadow></value></block>
+      <block type="text_length"></block>
+        <block type="text_isEmpty"><value name="PIN"><shadow type="math_number"><field name="NUM">R</field></shadow></value> </block>
+
+ 
+
+ </category>
+ 
+  <category name="CAT_ARDUINO_TIME" colour="#5B99A5">    <!--время-->
+    <block type="base_delay">  <value name="DELAY_TIME"><shadow type="math_number">  <field name="NUM">1000</field>  </shadow></value>    <field name="unite">m</field>  </block>  
+    
+    <block type="tempo_sans_delay">
+    <value name="DELAY_TIME"><shadow type="math_number">  <field name="NUM">1</field></shadow></value></block>
+<!-- <block type="millis_start"></block>
+    <block type="millis"></block>      
+        <block type="inout_pulsein"> 
+    <value name="PIN"><shadow type="math_number"><field name="NUM">2</field></shadow></value>
+    </block>
+    
+    
+    <block type="Init_RTC_ds1302">
+    <value name="PIN_RST"><shadow type="math_number"><field name="NUM">8</field></shadow></value>
+    <value name="PIN_DAT"><shadow type="math_number"><field name="NUM">7</field></shadow></value>
+    <value name="PIN_CLK"><shadow type="math_number"><field name="NUM">6</field></shadow></value>
+    </block>
+    
+      <block type="DateTime_RTC_ds1302">
+        <value name="DS1302_DAY"><shadow type="math_number"><field name="NUM">19</field></shadow></value>
+        <value name="DS1302_MONTH"><shadow type="math_number"><field name="NUM">10</field></shadow></value>
+        <value name="DS1302_YEAR"><shadow type="math_number"><field name="NUM">21</field></shadow></value>
+        <value name="DS1302_HOUR"><shadow type="math_number"><field name="NUM">23</field></shadow></value>
+        <value name="DS1302_MINUTE"><shadow type="math_number"><field name="NUM">30</field></shadow></value>  
+        <value name="DS1302_SECOND"><shadow type="math_number"><field name="NUM">15</field></shadow></value>        
+    </block>
+     
+    <block type="values_ds1302"></block>-->
+    
+    <block type="Init_RTC_ds3231"></block>
+        <block type="DateTime_RTC_ds3231">
+    <value name="DS3231_DAY"><shadow type="math_number"> <field name="NUM">19</field></shadow></value>
+    <value name="DS3231_MONTH"><shadow type="math_number"><field name="NUM">10</field> </shadow></value>
+        <value name="DS3231_YEAR"><shadow type="math_number"><field name="NUM">21</field></shadow></value>
+        <value name="DS3231_HOUR"><shadow type="math_number"><field name="NUM">23</field></shadow></value>
+        <value name="DS3231_MINUTE"><shadow type="math_number"><field name="NUM">30</field></shadow></value>  
+        <value name="DS3231_SECOND"><shadow type="math_number"><field name="NUM">15</field></shadow></value>        
+    </block>
+     <block type="order_read_rtc_ds3231"></block>
+     <block type="values_ds3231"></block>
+    
+  </category>
+ 
+    <category name="CAT_ARDUINO" colour="#A5995B">  <!--основные блоки-->
+    
+    <block type="base_define"></block>
+    <block type="arduino_setup"></block>
+    <block type="interrupts_attach_yield"></block>
+    <block type="base_code"></block>
+    <block type="base_code_entree"></block>
+   <!-- <block type="base_code_reset"></block>-->
+    <block type="base_code_i2s"></block>
+    
+<!--
+  <block type="arduino_b_code" collapsed="true"></block>
+  <block type="arduino_a_code" collapsed="true"></block>
+  -->
+  </category>
+  
+  
+   <category name="ATTACHE" colour="#9b9b67">  <!--прерывание ардуино --> 
+  <block type="interrupts_attach"></block>
+    <block type="interrupts_attach1" ></block>
+	 <block type="interrupts_attach2" ></block>
+	  <block type="interrupts_attach3" ></block>
+  </category>  
+
+  <category name="CAT_VARIABLESN" custom="VARIABLE" colour="#A55B80">    </category> <!--переменные-->
+  
+     <category name="CAT_TAB" colour="#A55B80">  <!--массивы-->
+   <!-- <block type="creer_tableau">  </block>-->
+	
+	  <block type="creer_tableau" id="3uC,a+tda+BQ2Xbt?ZwA">
+    <mutation dim="1"></mutation>
+    <field name="VAR">R</field>
+    <field name="type">NUMBER</field>
+    <field name="dim">1</field>
+    <value name="D0">
+      <block type="math_number" id="?_D)9U~q-lB(cRX|Ac#m">
+        <field name="NUM">0</field>
+      </block>
+    </value>
+  </block>
+  
+   
+    <block type="fixer_tableau">
+    <value name="value"><shadow type="math_number"><field name="NUM">0</field></shadow></value>
+    </block>
+    <block type="array_getIndex"></block>
+	
+	<block type="array_create_with"></block> 
+    <block type="array_getsize"></block> 
+	<block type="base_code_entree_var"></block>
+	<block type="base_code_entree_var1"></block>
+    </category> 
+	
+	   <category name="CAT_FUNCTIONS" custom="PROCEDURE" colour="#995BA5"> </category> <!-- Функция -->
+	
+	   <category name="CAT_ARDUINO_IN" colour="#A5675B"><!-- входы и выходы -->
+    <block type="digital_read">    <value name="PIN"><shadow type="math_number"><field name="NUM">2</field></shadow></value>       </block>
+    <block type="digital_readbi">    <value name="PIN"><shadow type="math_number"><field name="NUM">2</field></shadow></value>       </block>
+    <block type="inout_analog_read"></block>
+    <block type="inout_digital_write">    <value name="PIN"><shadow type="math_number"><field name="NUM">13</field></shadow></value>      <value name="STAT"><shadow type="math_number"><field name="NUM">1</field></shadow></value>   </block>
+    <block type="inout_analog_write">    <value name="NUM"><shadow type="math_number"><field name="NUM">255</field></shadow></value>       </block>
+    <block type="inout_analog_write2">    <value name="PIN"><shadow type="math_number"><field name="NUM">3</field></shadow></value>      <value name="STAT"><shadow type="math_number"><field name="NUM">255</field></shadow></value>   </block>
+    <block type="inout_analog_aref"></block>
+	<block type="logic_hilov"></block>
+	<block type="logic_ONOFF"></block>
+	
+  </category>  
+  
+  
+    <category name="CAT_ARDUINO_COMM_SERIAL" colour="#5BA599"> <!--монитор порта-->
+      <block type="serial_init"> <field name="SPEED">9600</field> </block>  
+      <block type="serial_write">
+      <value name="CONTENT">  <shadow type="text">  <field name="TEXT">TarBlock</field>  </shadow></value>
+      </block>
+      <block type="serial_write_ln">  <value name="CONTENT">  <shadow type="text">  <field name="TEXT">TarBlock</field>  </shadow></value>  </block>
+     
+      <block type="serial_read"></block>
+      <block type="serial_available"></block>
+      
+ 
+      <block type="soft_init"> <value name="PIN1"><shadow type="math_number"><field name="NUM">2</field></shadow></value>  
+	  <value name="PIN2"><shadow type="math_number"><field name="NUM">3</field></shadow></value> <field name="SPEED">9600</field> </block>
+      <block type="soft_write"> <value name="CONTENT"><shadow type="math_number"><field name="NUM">123</field></shadow></value> </block>
+      <block type="soft_read"></block>
+      <block type="soft_available"></block>
+      
+ 
+      <block type="bluetooth_soft_init">  <value name="PIN1"><shadow type="math_number"><field name="NUM">2</field></shadow></value>  
+	  <value name="PIN2"><shadow type="math_number"><field name="NUM">3</field></shadow></value> <field name="SPEED">9600</field> </block>
+      <block type="bluetooth_soft_write"> <value name="CONTENT"><shadow type="math_number"><field name="NUM">123</field></shadow></value> </block>
+      <block type="bluetooth_soft_read"></block>
+      <block type="bluetooth_soft_available"></block>
+	  
+	  <block type="bluetooth_soft_serial_read"></block>
+	  
+	  <block type="hardware_monitor_serial_init"></block> 
+	  <block type="hardware_monitor_serial_read"></block>
+    </category>
+	
+	
+	  <category name="CAT_MODEMX" colour="#5B7AA5">  <!--Модули связи-->
+      <block type="init_generalremotecontrol">    <value name="PIN"><shadow type="math_number"><field name="NUM">2</field></shadow></value>  </block>
+	  <block type="init_generalremotecontrol1">  </block>
+      <block type="Init_remotecontrolMRT">   <value name="PIN"><shadow type="math_number"><field name="NUM">15</field></shadow></value>   </block>
+      <block type="Init_remotecontrolMRT1"> </block>
+	  <!--
+      <block type="catr433_sendvar">   <value name="PIN"><shadow type="math_number"><field name="NUM">2</field></shadow></value>  <value name="variable"><shadow type="math_number"><field name="NUM">70</field></shadow></value></block>
+      <block type="catr433_recvvar">   <value name="PIN"><shadow type="math_number"><field name="NUM">3</field></shadow></value> <value name="variable"><shadow type="math_number"><field name="NUM">R</field></shadow></value></block>
+    
+    <block type="nrf24l01_init">  <value name="PIN_CE"><shadow type="math_number"><field name="NUM">9</field></shadow></value> <value name="PIN_CS"><shadow type="math_number"><field name="NUM">10</field></shadow></value>  </block> 
+
+    <block type="nrf24l01_max"> </block> 
+   
+   <block type="nrf24l01_sendvar"> <value name="variable"><shadow type="text"><field name="TEXT">R</field></shadow></value>  </block>
+   <block type="nrf24l01_recvvar"> <value name="variable"><shadow type="text"><field name="TEXT">R</field></shadow></value>  </block>
+       
+    <block type="base_code_esp8266"><field name="PIN1">9</field> <field name="PIN2">10</field> <field name="SPEED1">9600</field> <field name="SPEED2">115200</field></block>
+    <block type="base_conect_esp8266"><field name="PIN1">9</field> <field name="PIN2">10</field> <field name="SPEED1">9600</field> <field name="SPEED2">115200</field> </block>
+    <block type="base_conect_esp8266_s"><field name="PIN1">9</field> <field name="PIN2">10</field> <field name="SPEED1">9600</field> <field name="SPEED2">115200</field> </block>
+    <block type="base_define_for_esp8266"></block>
+        <block type="base_conect_esp8266_text"></block>
+    <block type="base_conect_esp8266_button_r"><field name="SPEED">0</field></block>
+    <block type="base_code_entree_esp8266_button"></block>
+    <block type="base_conect_esp8266_text_kode"></block>
+    <block type="esp8266_setcursor" ><value name="texttoprint"><shadow type="math_number"><field name="NUM">R</field></shadow></value></block> 
+  -->  
+  	 	<block type="GPS_init_ss"></block> 
+ 		 <block type="GPS_read_save_values"></block>
+ 		 <block type="GPS_location"></block>
+ 		 <block type="GPS_speed"></block>
+	 	 <block type="GPS_datetime"></block>
+
+<block type="sim800_init_ss"></block> 
+<block type="sim800_send"><value name="text_block"><shadow type="text"> <field name="TEXT">TarBlock</field> </shadow></value></block>
+<block type="sim800_send_sms"></block> 
+<block type="sim800_init_sms"></block>  
+</category> 
+
+
+
+  <category name="CAT_BITEPROM" colour="#74A55B">  <!--Место хранения-->
+    <block type="eeprom_write_byte">  <value name="adr">    <shadow type="math_number">   <field name="NUM">0</field>   </shadow>   </value>   <value name="val"> <shadow type="math_number"> <field name="NUM">255</field>  </shadow>  </value>  </block>  
+        <block type="eeprom_read_byte"> <value name="ADDRESS">   <shadow type="math_number">   <field name="NUM">0</field>  </shadow>  </value> </block>
+
+                        <!--Место хранения запись в переменную
+    <block type="eeprom_write_byte_R">  <value name="adr">    <shadow type="math_number">   <field name="NUM">10</field>   </shadow>   </value>   <value name="val"> <shadow type="math_number"> <field name="NUM">R</field>  </shadow>  </value>  </block>  
+        <block type="eeprom_read_byte_R">  <value name="adr">    <shadow type="math_number">   <field name="NUM">10</field>   </shadow>   </value>   <value name="val"> <shadow type="math_number"> <field name="NUM">R</field>  </shadow>  </value>  </block>
+     <block type="sd_init"><value name="PIN_CS">   <shadow type="math_number">   <field name="NUM">10</field>  </shadow>  </value>  </block> 
+     <block type="sd_printfile"><value name="filename"> <shadow type="text"><field name="TEXT">NAME.TXT</field></shadow> </value>  <value name="texttoprint">  <shadow type="text"> <field name="TEXT">TarBlock</field> </shadow>  </value> </block> 
+	 <block type="sd_printfile1"><value name="filename"> <shadow type="text"><field name="TEXT">NAME.TXT</field></shadow> </value>    </block>  
+	 <block type="sd_printfile2"><value name="filename"> <shadow type="text"><field name="TEXT">NAME.TXT</field></shadow> </value>    </block> 
+	 <block type="sd_printfile3"><value name="filename"> <shadow type="text"><field name="TEXT">NAME</field></shadow> </value>    </block> 
+	 <block type="sd_printfile4"><value name="filename"> <shadow type="text"><field name="TEXT">NAME</field></shadow> </value>    </block> 
+ -->
+	 </category>
+	 
+	 
+	 
+	  <category name="CAT_MOTORI" colour="#8CA55B">  <!--Моторы-->
+    <block type="stepservo_continuos_move"> 
+    <value name="PIN"> <shadow type="math_number"><field name="NUM">4</field></shadow> </value>
+    <value name="PIN_GR"> <shadow type="math_number"><field name="NUM">255</field></shadow> </value>
+    <value name="SpeedServo"> <shadow type="math_number"> <field name="NUM">180</field> </shadow> </value> 
+    </block>
+    
+    <block type="stepcatServoRot_stop"><value name="PIN"> <shadow type="math_number"><field name="NUM">4</field></shadow> </value>  </block>   
+    <block type="servo_movebnn" x="55" y="38"><value name="DEGREE"><field name="NAME">0x40</field> <shadow type="math_number"> <field name="NUM">90</field> </shadow> </value> </block>
+    
+    <block type="motor_autoR" >
+    <value name="PIN_RM1"> <shadow type="math_number"><field name="NUM">12</field></shadow> </value>
+    <value name="PIN_RM2"> <shadow type="math_number"><field name="NUM">10</field></shadow> </value>
+    <value name="CONTENT"> <shadow type="math_number"><field name="NUM">255</field></shadow> </value>
+    </block>
+    <block type="motor_autoL" >
+    <value name="PIN_RM1"> <shadow type="math_number"><field name="NUM">5</field></shadow> </value>
+    <value name="PIN_RM2"> <shadow type="math_number"><field name="NUM">6</field></shadow> </value>
+    <value name="CONTENT"> <shadow type="math_number"><field name="NUM">255</field></shadow> </value>
+    </block>
+    <block type="motor_auto_stepper" >
+    <value name="STEP_RPM"> <shadow type="math_number"><field name="NUM">48</field></shadow> </value>
+    <value name="PIN_STEEPER1"> <shadow type="math_number"><field name="NUM">2</field></shadow> </value>
+    <value name="PIN_STEEPER2"> <shadow type="math_number"><field name="NUM">3</field></shadow> </value>
+    <value name="PIN_STEEPER3"> <shadow type="math_number"><field name="NUM">4</field></shadow> </value>
+    <value name="PIN_STEEPER4"> <shadow type="math_number"><field name="NUM">5</field></shadow> </value>
+    </block>
+      <block type="motor_auto_stepper_box" >
+    <value name="STEPPER_STEP_h"> <shadow type="math_number"><field name="NUM">650</field></shadow> </value>
+    <value name="STEPPER_STEP_j"> <shadow type="math_number"><field name="NUM">1000</field></shadow> </value>     
+    </block>
+    <block type="motor_auto_stepper_stop" >
+    <value name="PIN_STEEPER1"> <shadow type="math_number"><field name="NUM">2</field></shadow> </value>
+    <value name="PIN_STEEPER2"> <shadow type="math_number"><field name="NUM">3</field></shadow> </value>
+    <value name="PIN_STEEPER3"> <shadow type="math_number"><field name="NUM">4</field></shadow> </value>
+    <value name="PIN_STEEPER4"> <shadow type="math_number"><field name="NUM">5</field></shadow> </value>
+    </block>
+	
+	<block type="stepservo_continuos_move_ru">   
+    <value name="PIN"> <shadow type="math_number"><field name="NUM">4</field></shadow> </value>
+    <value name="SpeedServo"> <shadow type="math_number"> <field name="NUM">180</field> </shadow> </value> 
+    </block> 
+	
+	<block type="motor_step_dir" >
+	<value name="PIN_STEEPER1"> <shadow type="math_number"><field name="NUM">2</field></shadow> </value>
+    <value name="PIN_STEEPER2"> <shadow type="math_number"><field name="NUM">3</field></shadow> </value>
+    <value name="STEPPER_STEP_h"> <shadow type="math_number"><field name="NUM">100</field></shadow> </value>
+    <value name="STEPPER_STEP_j"> <shadow type="math_number"><field name="NUM">1000</field></shadow> </value>     
+    </block>	
+  </category>
+
+  <category name="CAT_SENSOROUTP" colour="#5662A0">  <!--Сенсоры входа-->
+     <block type="digital_readbiR">    <value name="PIN"><shadow type="math_number"><field name="NUM">2</field></shadow></value>       </block>
+     <block type="inout_analog_readR"></block>
+     <block type="ultrasonic_ranger_sensor">  <value name="PIN_TRIG"><shadow type="math_number"><field name="NUM">11</field></shadow></value>   <value name="PIN_ECHO"><shadow type="math_number"><field name="NUM">12</field></shadow></value> </block>
+    <block type="dht_sensor"><value name="PIN_DHT"><shadow type="math_number"><field name="NUM">4</field></shadow></value></block> 
+    <block type="RotaryEncoder_Read"> <value name="PINDT"><shadow type="math_number"><field name="NUM">4</field></shadow></value>  <value name="PINCLK"><shadow type="math_number"><field name="NUM">5</field></shadow></value>  </block>
+    <block type="RotaryEncoder_None"> <value name="PIN"><shadow type="math_number"><field name="NUM">0</field></shadow></value>  </block>
+    
+    <block type="bmpInit_Compass_HMC5883">  <field name="NAME">0x77</field>  <value name="PIN"><shadow type="math_number"><field name="NUM">R</field></shadow></value> </block> 
+    <block type="Init_Temp_ds18b20"><value name="PIN"><shadow type="math_number"><field name="NUM">4</field></shadow></value><value name="PINR"><shadow type="math_number"><field name="NUM">R</field></shadow></value></block>
+     <block type="Init_Accel_ADXL345"><value name="PIN"><shadow type="math_number"><field name="NUM">R</field></shadow></value></block>
+    <block type="Init_Compass_HMC5883"><value name="PIN"><shadow type="math_number"><field name="NUM">R</field></shadow></value></block>
+	<block type="Init_MPU6050_GY"><value name="PIN"><shadow type="math_number"><field name="NUM">R</field></shadow></value></block>
+	
+	<block type="init_temp_ds18b20_1"> </block>
+    <block type="init_temp_ds18b20_2"> </block>
+    <block type="init_temp_ds18b20_3"> </block>
+    <block type="init_temp_ds18b20_4"> </block>
+	
+    </category> 
+
+
+	
+</toolbox>
