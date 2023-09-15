@@ -8,10 +8,10 @@ if(!isset($_POST['submit']))
     $result=mysqli_query($con,$sql);
     $resultcheck=mysqli_num_rows($result);
     if($resultcheck>0) {
-        include('index.html');
+        include('codeasthram.html');
     }
     else {
-        echo "invalid user name or password" ;
+        echo "Invalid Mail or Password" ;
     }
 }
 ?>
