@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Code Asthram</title>
+	<link rel="stylesheet" href="Login.css"> 
+	<script type="text/javascript" src="Login.js"></script>
+	
+</head>
+<body>
+	<div class="container" id="container">
+		<div class="form-container sign-in-container">
+			<img src="Asthram.png" class="user">
+			<form method="POST" action="Login.php" name="Login" onsubmit="return vfun()">
+				<h1 type="text">Code Asthram !</h1>
+				<input type="email" name ="email" placeholder="Email" />
+				<input type="password" name = "password" placeholder="Password" />
+				<input type="submit" name="" value="Sign In">
+				<div id="errorBox"></div>
+			</form>
+		</div>
+		<div class="overlay-container">
+			<div class="overlay">
+				<div class="overlay-panel overlay-right">
+					<h1>Get Sign UP!</h1>
+					<p> Make Subscriptin With Us
+						Get Collabration with us </p>
+					<a href="https://wa.me/919884675586"><button class="ghost" id="signUp">Whatsapp</button></a>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<footer>
+		<p>
+			A Product <i class="fa fa-heart"></i> of
+			<a target="_blank" href="https://tarcin.in/">Tarcin</a>
+		</p>
+	</footer>
+	
+</body>
+</html>
