@@ -7,7 +7,7 @@
 	<link rel="stylesheet" href="login.css"> 
 	<script type="text/javascript" src="login.js"></script>
 	<script type="text/javascript" src="rightclick.js"></script>
-	<script type="text/javascript" src="shortcut.js"></script>
+
 	
 </head>
 <body>
