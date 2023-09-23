@@ -1,47 +1,33 @@
-from flask import Flask, request, render_template, redirect, url_for
+from flask import Flask, render_template, request, redirect, url_for
 import mysql.connector
 
 app = Flask(__name__)
 
-# MySQL database connection configuration
-db_config = {
-    'host': 'localhost',
-    'user': 'tarcin',
-    'password': 'Tarcin@123',
-    'database': 'code_asthram',
-}
+# MySQL configuration
+db = mysql.connector.connect(
+    host="localhost",
+    user="tarcin",
+    password="Tarcin@123",
+    database="code_asthram"
+)
 
-@app.route('/login', methods=['POST', 'GET'])
+@app.route('/')
+def index():
+    return render_template('login.html')
+
+@app.route('/login', methods=['POST'])
 def login():
-    if request.method == 'POST':
-        username = request.form['email']
-        password = request.form['password']
+    username = request.form['username']
+    password = request.form['password']
 
-        # Connect to the MySQL database
-        try:
-            conn = mysql.connector.connect(**db_config)
-            cursor = conn.cursor()
+    cursor = db.cursor()
+    cursor.execute("SELECT * FROM users WHERE username = %s AND password = %s", (username, password))
+    user = cursor.fetchone()
 
-            # Query to check login credentials
-            cursor.execute("SELECT * FROM login WHERE email = %s AND password = %s", (username, password))
-            user = cursor.fetchone()
-
-            if user:
-                # Successful login
-                return render_template('codeasthram.html')
-            else:
-                # Failed login
-                return "Login failed. Please check your credentials."
-
-        except mysql.connector.Error as e:
-            # Handle database connection or query errors here
-            return "Error: {}".format(e)
-
-        finally:
-            # Close the database connection
-            conn.close()
-
-    return render_template('index.html')
+    if user:
+        return "Login successful!"  # You can redirect to Ardublock here
+    else:
+        return "Login failed. Invalid username or password."
 
 if __name__ == '__main__':
     app.run(debug=True)
