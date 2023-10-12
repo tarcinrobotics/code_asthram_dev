@@ -1,0 +1,17 @@
+# mention the name of the file to be restricted directly from accessing it
+
+<Files "codeasthram.html">
+    Deny from all
+</Files>
+
+<Files "modalVar.html">
+    Deny from all
+</Files>
+
+<Files "repl.html">
+    Deny from all
+</Files>
+
+<Files "term.html">
+    Deny from all
+</Files>

@@ -31,8 +31,8 @@ if(!isset($_POST['submit']))
 
         if($resultcheck>0) {
             // validating the login information using session cache
-            $_SESSION['user'] = $mail;
-            include('code_asthram/codeasthram.html');
+            $_SESSION['user_id'] = $mail;
+            include('codeasthram.html');
             echo '<form action="logout.php" method="post">
                     <input type="submit" value="Logout">
                     </form>';
@@ -45,14 +45,14 @@ if(!isset($_POST['submit']))
 
 else {
         
-        if (isset($_SESSION['user'])) 
+        if (isset($_SESSION['user_id'])) 
         {
             // User is already logged in, display a logout button
-            echo "Welcome, " . $_SESSION['user'] . "!";
+            echo "Welcome, " . $_SESSION['user_id'] . "!";
             echo '<form action="logout.php" method="post">
                     <input type="submit" value="Logout">
                     </form>';
-            include('code_asthram/codeasthram.html');
+            include('codeasthram.html');
         } 
         else 
         {
