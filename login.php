@@ -32,7 +32,7 @@ if(!isset($_POST['submit']))
         if($resultcheck>0) {
             // validating the login information using session cache
             $_SESSION['user'] = $mail;
-            include('codeasthram.html');
+            include('code_asthram/codeasthram.html');
             echo '<form action="logout.php" method="post">
                     <input type="submit" value="Logout">
                     </form>';
@@ -52,7 +52,7 @@ else {
             echo '<form action="logout.php" method="post">
                     <input type="submit" value="Logout">
                     </form>';
-            include('codeasthram.html');
+            include('code_asthram/codeasthram.html');
         } 
         else 
         {

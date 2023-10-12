@@ -26,8 +26,8 @@
 			<div class="overlay">
 				<div class="overlay-panel overlay-right">
 					<h1>Get Sign UP!</h1>
-					<p> Make Subscriptin With Us
-						Get Collabration with us </p>
+					<p> Make Subscription With Us
+						Get Collaboration with us </p>
 					<a href="https://wa.me/917904321356"><button class="ghost" id="signUp">Whatsapp</button></a>
 				</div>
 			</div>
