@@ -38,7 +38,7 @@ if(!isset($_POST['submit']))
                     </form>';
         } 
         else {
-            include ('index.php');
+            include ('location:index.php');
             echo "Invalid Mail or Password";
         }
     } 
@@ -52,7 +52,7 @@ else {
             echo '<form action="logout.php" method="post">
                     <input type="submit" value="Logout">
                     </form>';
-            include('codeasthram.html');
+            include('location:codeasthram.html');
         } 
         else 
         {
