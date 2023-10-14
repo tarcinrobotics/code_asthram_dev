@@ -1,14 +1,13 @@
 <?php
-// Start or resume a session
+// starting the session
 session_start();
 
-// Unset all session variables
-$_SESSION = array();
+// Destroy the session and redirect to the login page
+if (isset($_SESSION['user_id'])) {
+    session_unset();
+    session_destroy();
+}
 
-// Destroy the session
-session_destroy();
-
-// Redirect the user to the login page or any other page you prefer
-header("login.php");
+header("Location: index.php"); // Redirect to the login page
 exit();
 ?>

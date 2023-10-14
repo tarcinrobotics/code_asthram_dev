@@ -119,6 +119,7 @@ BlocklyDuino.load = function(event) {
 				$('a[href="#content_code"]').tab('show');
 				$('#btn_print').addClass("hidden");
 				$('#btn_preview').addClass("hidden");
+//				$('#btn_logout').addClass("hidden");
 				$('#btn_search').removeClass("hidden");
 				window.localStorage.content="off";
 				editor.session.setMode("ace/mode/c_cpp");

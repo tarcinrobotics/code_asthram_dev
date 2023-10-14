@@ -30,9 +30,17 @@
 	<script type="text/javascript" src="js/hexlify.js"></script>
 	<script type="text/javascript" src="js/intel-hex.browser.js"></script>
 	<script type="text/javascript" src="js/ace.js"></script>
-	<script type="text/javascript" src="rightclick.js"></script>
+<!--	<script type="text/javascript" src="rightclick.js"></script> -->
 	<script type="text/javascript" src="shortcut.js"></script>
 	<script type="text/javascript" src="js/ext-language_tools.js"></script>
+<!--  log out script for an individual user  -->	
+	<script>
+		// Function to perform logout actions
+		function logout() {
+		  window.location.replace("logout.php");
+		}
+	</script>
+
 	<!-- CSS -->
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.3.3.6.css" />
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.toggle.min.css" />
@@ -103,7 +111,7 @@
 	<div id="mydiv" style="padding:0;margin:0;background-color: #62CDFF;">
 		<div class="outer" style="height:100%; width: 100%;">
 			<span class="inner" style="border:0px solid red">
-				<img src="media/menu/tarblock2.png" style="height: 45px; vertical-align: middle;">
+				<img src="media/menu/code_asthram.png" style="height: 45px; vertical-align: middle;">
 			</span>
 		</div>
 	</div>
@@ -280,28 +288,30 @@
 								filter: brightness(0.7);
 							}
 
+							
 							.b09{
-								background-image: url(media/menu/009.png);
+								background-image: url(media/menu/btn_logout.png);
 								background-size: cover;
 								width: 31px;
 								height: 31px;
-								border: 1px solid #001e36;
+								border: 0px solid #001e36;
 								margin: 0px;
 								padding: 0;
 								outline: none;
+								transition: 0.2s;
 							}
 
 							.b09:hover{
-								background-image: url(media/menu/009.png);
+								background-image: url(media/menu/btn_logout.png);
 								background-size: cover;
 								width: 31px;
 								height: 31px;
-								border: 1px solid #001e36;
+								border: 0px solid #001e36;
 								margin: 0px;
 								padding: 0;
 								outline: none;
+								filter: brightness(0.7);
 							}
-
 							.b10{
 								background-image: url(media/menu/010.png);
 								background-size: cover;
@@ -420,7 +430,7 @@
 						<button class="b03" id="btn_saveXML" 
 							style="background-color: transparent;">
 						<script>
-							var a =element.setAttribute("title", "Save .tarblock");
+							var a =element.setAttribute("title", "Save .codeasthram");
 							a();
 						</script>
 						
@@ -431,12 +441,14 @@
 							style="background-color: transparent;"><!--Сериал порт--></button>
 						<button class="b08" id="btn_preview" class="btn btn-default"
 							style="background-color: transparent;"><!--ino Код--></button>
+						<button class="b09" id="btn_logout" class="btn btn-default"
+							style="background-color: transparent;" onclick="logout()"><!--ino Код--></button>	
 
 					</td>
 
 					<td>
 						<div style="align-items: center;">
-							<img src="media/menu/tarblock2.png" style="height: 45px; vertical-align: middle;">
+							<img src="media/menu/code_asthram.png" style="height: 45px; vertical-align: middle;">
 						</div>
 	
 					</td>
@@ -593,7 +605,7 @@
 			<div class="modal-content">
 				<button type="button" class="close" style="padding:5px 10px;" data-dismiss="modal"
 					aria-label="Close"><span aria-hidden="true">&#215;</span></button>
-				<div style="padding:5px 10px; color:#000000;">TarBlock </div>
+				<div style="padding:5px 10px; color:#000000;">CodeAsthram </div>
 				<label id="span_languageMenu" style="padding:5px 10px; color:#000000;"></label>
 				<select id="languageMenu" style="color:#000000;"></select>
 				<div style="padding:10px; color:#000000;">
