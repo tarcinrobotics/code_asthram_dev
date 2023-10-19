@@ -22,3 +22,7 @@ changes made will be updated in the README.md file so that anyone can verify the
 * in code asthram logout button has been added
 * made some changes in codebase for corrections
 * spelling has been changed
+
+19-10-2023
+@vp
+* java Obfuscator has been implemented
