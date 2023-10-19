@@ -1,27 +1,3 @@
-<?php
-// Get the requested URL
-$request_uri = $_SERVER['REQUEST_URI'];
-
-// Remove any query string from the URL
-$request_uri = strtok($request_uri, '?');
-
-// Define custom routes
-$routes = [
-    '/' => 'login.php',
-
-];
-
-// Check if the requested URL matches a route
-if (array_key_exists($request_uri, $routes)) {
-    // Load the corresponding file
-    include($routes[$request_uri]);
-} else {
-    // Handle 404 error
-    http_response_code(404);
-    #echo "Page not found";
-}
-?>
-
 
 <!DOCTYPE html>
 <html lang="en">
