@@ -1,30 +1,12 @@
 <?php
 
-// starting the session
-session_start();
-// timeout
-$sessionTimeout = 60;
-
-if (isset($_SESSION['user_id']) && isset($_SESSION['last_activity']) && (time() - $_SESSION['last_activity']) > $sessionTimeout) {
-    // Session has expired, log the user out
-    session_unset();
-    session_destroy();
-    header("index.php"); // Redirect to the login page
-    exit();
-}
-
-// Update the last activity timestamp
-if (isset($_SESSION['user_id'])) {
-    $_SESSION['last_activity'] = time();
-}
-
 // post action after clicking the submit
 
 if(!isset($_POST['submit']))
     {
         $mail=$_POST['email'];
         $pass=$_POST['password'];
-        $con=mysqli_connect("localhost","root","","code_asthram");
+        $con=mysqli_connect("localhost","ca","Tarcin@123","code_asthram");
         $sql="SELECT * from login WHERE email='$mail' AND password='$pass' ";
         $result=mysqli_query($con,$sql);
         $resultcheck=mysqli_num_rows($result);
