@@ -428,7 +428,7 @@
 							style="background-color: transparent;"><!--Новый файл --></button>
 						<button class="b02" id="btn_fakeload"
 							style="background-color: transparent;"><!--Открыть--></button>
-						<input type="file" id="load" accept=".ardublock" style="display: none;" />
+						<input type="file" id="load" accept=".codeasthram" style="display: none;" />
 						<button class="b03" id="btn_saveXML" 
 							style="background-color: transparent;">
 						<script>
@@ -444,7 +444,12 @@
 						<button class="b08" id="btn_preview" class="btn btn-default"
 							style="background-color: transparent;"><!--ino Код--></button>
 						<button class="b09" id="btn_logout" class="btn btn-default"
-							style="background-color: transparent;" onclick="logout()"><!--ino Код--></button>	
+							style="background-color: transparent;" onclick="logout()">
+							<!--ino Код--></button>	
+							<script>
+								var b =element.setAttribute("title", "Log Out");
+								b();
+							</script>
 
 					</td>
 
