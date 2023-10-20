@@ -23,7 +23,7 @@ if(!isset($_POST['submit']))
                     </form>';
         } 
         else {
-            include ('location:index.php');
+            include ('location: index.php');
             echo "Invalid Mail or Password";
         }
     } 
