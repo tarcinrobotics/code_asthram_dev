@@ -9,7 +9,7 @@ var MSG = {
   btn_example: "Examples",
   btn_term: "Serial monitor",
   btn_factory: "Wiki - Textbook",
-  btn_saveXML: "Save .tarblock",
+  btn_saveXML: "Save .codeasthram",
   btn_print: "Screenshot  .png",
   btn_preview_ino: "Arduino Code Preview",
 btn_logout: "Log out",
