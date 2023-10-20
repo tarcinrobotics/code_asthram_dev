@@ -12,7 +12,7 @@ var MSG = {
   btn_saveXML: "Save .codeasthram",
   btn_print: "Screenshot  .png",
   btn_preview_ino: "Arduino Code Preview",
-btn_logout: "Log out",
+  btn_logout:"Log out",
   btn_preview_py: "Python Code Preview",
   btn_save_ino: "Save as .INO",
   btn_save_py: "Save as .PY",
