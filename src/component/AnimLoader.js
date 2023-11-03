@@ -6,18 +6,15 @@ import PreLogo from './code_asthram_logo.png'
 
 
 function AnimLoader() {
-    const [loading, setLoading] = useState(false);
+    const [loading, setLoading] = useState(true);
 
     useEffect(() => {
-                    setLoading(true)
     setTimeout(() => {
-                    setLoading(false)
-    
+                    setLoading(false);  
                 }, 2000)
-    }, [])
+    }, []);
     return (
         <div>
-            <div>
                 {loading ? (
 
                     <div  className='loader'>
@@ -31,9 +28,11 @@ function AnimLoader() {
                     </div>)
                     
                     : (
+                        <div className={`mainPageElements ${loading ? '' : 'visible'}`}>
                     <App />
+                    </div>
                 )}
-            </div>
+            
             </div>
 
     )

@@ -16,6 +16,15 @@
 
 }
 
+.mainPageElements {
+    display: none;
+}
+
+.mainPageElements.visible {
+  display: block;
+}
+
+
 /*.back {
     background-color: goldenrod;
     text-align: center;
