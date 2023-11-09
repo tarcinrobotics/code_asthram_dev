@@ -1,17 +1,78 @@
-import React, { useState, useEffect } from 'react';
-import './App.css';
+import "./App.css";
+import "./customBlocks/custom_Blocks";
+import React, { useState } from "react";
+import { BlocklyWorkspace } from "react-blockly";
+import Blockly from "blockly";
 import logo from './component/code_asthram.png';
-import './media/btn_add.png';
-import './css/buttons.css';
 
+export default function App() {
 
-function App() {
+  const [xml, setXml] = useState("");
+  const [javascriptCode, setJavascriptCode] = useState("");
+
+  const initialXml =
+    '<xml xmlns="http://www.w3.org/1999/xhtml"><block type="text" x="70" y="30"><field name="TEXT"></field></block></xml>';
+  const toolboxCategories = {
+    kind: "categoryToolbox",
+    contents: [
+      {
+        kind: "category",
+        name: "Logic",
+        colour: "#5C81A6",
+        contents: [
+          {
+            kind: "block",
+            type: "controls_if",
+          },
+          {
+            kind: "block",
+            type: "logic_compare",
+          },
+        ],
+      },
+      {
+        kind: "category",
+        name: "Math",
+        colour: "#5CA65C",
+        contents: [
+          {
+            kind: "block",
+            type: "math_round",
+          },
+          {
+            kind: "block",
+            type: "math_number",
+          },
+        ],
+      },
+      {
+        kind: "category",
+        name: "Custom",
+        colour: "#5CA699",
+        contents: [
+          {
+            kind: "block",
+            type: "new_boundary_function",
+          },
+          {
+            kind: "block",
+            type: "return",
+          },
+        ],
+      },
+    ],
+  };
+  function workspaceDidChange(workspace) {
+    const code = Blockly.JavaScript.workspaceToCode(workspace);
+    setJavascriptCode(code);
+  }
 
   return (
-    
-    <div>
-
-    <div className='div1'>
+    <>
+      <div>
+        <div>
+        <div>
+     <div className='div1'>
       <table className='maintable'>
         <tbody>
           <tr>
@@ -41,40 +102,40 @@ function App() {
             </td>
             <td className='td3'/>
               
-              {/*<select id="boards" className ="ard" onchange="BlocklyDuino.change_card();"
-                style="margin:3px;height:31px;width:180px;outline:none;border-radius: 10px;text-align: left;padding-lef: 18px">
-                <optgroup label="Arduino">
-                <option value="micro">Arduino Micro</option>
-                <option value="pro8">Arduino Pro Mini</option>
-                <option value="nanooptiboot">Arduino Nano</option>
-                <option value="nano">Arduino Nano Old</option>
-                <option value="nona4809">Arduino Nano Every</option>
-                <option value="uno">Arduino Uno</option>
-                <option value="leo32u4">Arduino leonardo</option>
-                <option value="yun">Arduino Yun</option>
-                <option value="mega">Arduino Mega</option>
-                </optgroup>
-                <optgroup label="ESP">
-                <option value="esp826601">ESP 8266 01</option>
-                <option value="esp826612">ESP 8266 12</option>
-                <option value="esp32">ESP 32</option>
-                </optgroup>
-    
-              </select>
-    
-              <select id="portserie" className ="ard" onchange="BlocklyDuino.save_com();" style="margin:3px;height:26px;width:170px;outline:none;border-radis: 10p"></select>*/}
-              
           </tr>
         </tbody>
       </table>
     </div>
     
+     </div>
 
-    
-    </div>
+        </div>
 
-
+        <div className="workspace">
+        <BlocklyWorkspace
+          toolboxConfiguration={toolboxCategories}
+          initialXml={initialXml}
+          className="fill-height"
+          workspaceConfiguration={{
+            grid: {
+              spacing: 20,
+              length: 3,
+              colour: "#ccc",
+              snap: true,
+            },
+          }}
+          onWorkspaceChange={workspaceDidChange}
+          onXmlChange={setXml}
+        />
+        <pre id="generated-xml">{xml}</pre>
+        <textarea
+          id="code"
+          style={{ height: "200px", width: "400px" }}
+          value={javascriptCode}
+          readOnly
+        ></textarea>
+        </div>
+      </div>
+    </>
   );
 }
-
-export default App;
