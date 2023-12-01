@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Changes made in this branch --> v3-dev
 
 Completed as of 01/12/23 (Arsath) -
@@ -12,3 +13,22 @@ Completed as of 01/12/23 (Arsath) -
 * Backend is set to start at port 2000 and the frontend will run in default port 3000.
 * In order for the backend to run, ensure that all the above mentioned libraries. 
 * 
+=======
+<p align="center">
+  <a href="https://tarcinacademy.in.io">
+    <img src="https://github.com/tarcinrobotics/code_asthram_dev/blob/v3/Asthram.png?raw=true" height="200px">
+  </a>
+</p>
+
+&nbsp;
+
+# Contributors
+
+Whether you're a student, teacher, hobbyist, or professional, CodeAsthram is your ultimate destination for exploring the realms of Python and Arduino coding. Join our growing community and embark on a coding adventure that will unlock your creativity.
+
+Discover the limitless possibilities of coding with CodeBlocks – Where Creativity Finds Expression in Code!
+
+
+## Changes made in this branch --> v3-dev
+
+>>>>>>> c95a0cc1c38bec4c23a0252bb474f5eda81e5a93
