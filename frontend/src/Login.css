@@ -8,22 +8,25 @@
 }
 
 body {
-	background: linear-gradient(90deg, #C7C5F4, #776BCC);		
+  height: 100vh;
+  background-image: url('./media/backgroundtexture.png') 
+  /*background: linear-gradient(90deg, #C7C5F4, #3b4648);*/
 }
 
 .container {
 	display: flex;
-	align-items: center;
-	justify-content: center;
+	position: absolute;
+	top: 10%;
+	left: 10%;
 	min-height: 100vh;
 }
 
 .screen {		
-	background: linear-gradient(90deg, #5D54A4, #7C78B8);		
+	background: transparent;		
 	position: relative;	
 	height: 600px;
 	width: 360px;	
-	box-shadow: 0px 0px 24px #5C5696;
+	box-shadow: 0px 0px 24px black;
 }
 
 .screen__content {
@@ -51,7 +54,7 @@ body {
 .screen__background__shape1 {
 	height: 520px;
 	width: 520px;
-	background: #FFF;	
+	background: linear-gradient(270deg, #dddfe2, #404348);
 	top: -50px;
 	right: 120px;	
 	border-radius: 0 72px 0 0;
@@ -60,7 +63,7 @@ body {
 .screen__background__shape2 {
 	height: 220px;
 	width: 220px;
-	background: #6C63AC;	
+	background: linear-gradient(270deg, #dddfe2, #404348);
 	top: -172px;
 	right: 0;	
 	border-radius: 32px;
@@ -69,7 +72,7 @@ body {
 .screen__background__shape3 {
 	height: 540px;
 	width: 190px;
-	background: linear-gradient(270deg, #5D54A4, #6A679E);
+	background: linear-gradient(60deg, #dddfe2, #404348);
 	top: -24px;
 	right: 0;	
 	border-radius: 32px;
@@ -78,7 +81,7 @@ body {
 .screen__background__shape4 {
 	height: 400px;
 	width: 200px;
-	background: #7E7BB9;	
+	background: linear-gradient(90deg, #dddfe2, #404348);	
 	top: 420px;
 	right: 50px;	
 	border-radius: 60px;
@@ -97,8 +100,8 @@ body {
 
 .login__icon {
 	position: absolute;
-	top: 30px;
-	color: #7875B5;
+	top: 24px;
+	color: #090909;
 }
 
 .login__input {
@@ -116,7 +119,7 @@ body {
 .login__input:focus,
 .login__input:hover {
 	outline: none;
-	border-bottom-color: #6A679E;
+	border-bottom-color: #060606;
 }
 
 .login__submit {
@@ -131,8 +134,8 @@ body {
   display: flex;
   align-items: center;
   width: 100%;
-  color: #4C489D;
-  box-shadow: 0px 2px 2px #5C5696;
+  color: #1c1c1c;
+  box-shadow: 0px 2px 2px #0f0f0f;
   cursor: pointer;
   transition: .2s;
 }
@@ -143,7 +146,7 @@ body {
 .register__submit:active,
 .register__submit:focus,
 .register__submit:hover {
-  border-color: #6A679E;
+  border-color: #3d69c1;
   outline: none;
 }
 
@@ -159,8 +162,8 @@ body {
   display: flex;
   align-items: center;
   width: 100%;
-  color: #4C489D;
-  box-shadow: 0px 2px 2px #5C5696;
+  color: #4267B2;
+  box-shadow: 0px 2px 2px #3d69c1;
   cursor: pointer;
   transition: .2s;
 }
@@ -168,17 +171,17 @@ body {
 .register__submit:active,
 .register__submit:focus,
 .register__submit:hover {
-  border-color: #6A679E;
+  border-color: #4267B2;
   outline: none;
 }
-
 
 
 .button__icon {
 	font-size: 24px;
 	margin-left: auto;
-	color: #7875B5;
+	color: rgb(0, 0, 0);
 }
+
 
 /*.social-login {	
 	position: absolute;

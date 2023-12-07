@@ -12,6 +12,5 @@ function toggleModal() {
     });
   }
   
-
-
 export { logout};
+

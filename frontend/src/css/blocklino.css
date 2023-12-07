@@ -221,6 +221,9 @@
 	height: 30px !important;
 	line-height: 30px !important
 }
+.blocklyTreeRow:hover {
+	cursor: pointer;
+}
 .blocklyTreeSeparator {
 	background: none repeat scroll 0 0 #fff !important;
 	border-bottom: none !important;
