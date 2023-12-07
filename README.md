@@ -24,9 +24,10 @@ cd code_asthram_dev
 ### Backend dependencies:
 
 cd backend
-Install all the dependencies mentioned below
-npm install blockly, npm install react-spinners.
-npm start (port 2000)
+Ensure all the dependencies mentioned below are installed
+npm install blockly, 
+npm install react-spinners.
+npm start (port 2000).
 
 #### Install all the dependencies mentioned below
 
@@ -41,9 +42,15 @@ npm start     # (by default the backend code runs on port 2000)
 ### Frontend dependencies:
 
 cd frontend
-Install all the dependencies below
-npm install axios, npm install @material-ui/core, npm install bcryptjs, npm install react-router-dom, npm install sweetalert, npm install --save @fortawesome/fontawesome-free, npm install react-icons.
-=======
+Ensure all the dependencies below are installed:
+npm install axios, 
+npm install @material-ui/core, 
+npm install bcryptjs, 
+npm install react-router-dom, 
+npm install sweetalert, 
+npm install --save @fortawesome/fontawesome-free, 
+npm install react-icons.
+
 
 #### Install all the dependencies below
 
