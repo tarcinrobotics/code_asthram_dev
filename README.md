@@ -71,7 +71,6 @@ Completed as of 01/12/23 (Arsath)
 * Code preview button function is added (More to be added soon)
 * Created a login page using MongoDB and added it before the login screen
 * Used libraries for the login page includes: " axios, @material-ui/core, bcryptjs, react-router-dom, sweetalert "
-<<<<<<< HEAD
 * Brought the entire code into a structure by splitting frontend and backend. 
 * Both backend and frontend has to be started individually using npm start.
 * Backend is set to start at port 2000 and the frontend will run in default port 3000.
@@ -98,7 +97,4 @@ Completed as of 01/12/23 (Arsath)
                If the react-router-dom version is below 6 then "useHistory" hook should be used instead.
 * btn_saveino : (New const derived as saveInoFile) - Saves the generated code as .ino file.
 * btn_copy : (New const derived as copyToClipboard) - Copies the code to the clipboard.
-* Brought the entire code into a structure by splitting frontend and backend.
-* Both backend and frontend has to be started individually using npm start.
-* Backend is set to start at port 2000 and the frontend will run in default port 3000.
-* In order for the backend to run, ensure that all the above mentioned libraries.
+
