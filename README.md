@@ -1,8 +1,7 @@
 
-=======
 <p align="center">
   <a href="https://tarcinacademy.in.io">
-    <img src="https://github.com/tarcinrobotics/code_asthram_dev/blob/v3/Asthram.png?raw=true" height="200px">
+    <img src="https://github.com/tarcinrobotics/code_asthram_dev/blob/v3/Asthram.png?raw=true" height="100px">
   </a>
 </p>
 
@@ -14,61 +13,41 @@ Whether you're a student, teacher, hobbyist, or professional, CodeAsthram is you
 
 Discover the limitless possibilities of coding with CodeBlocks – Where Creativity Finds Expression in Code!
 
-# instructions
+### instructions
 
 git clone https://github.com/tarcinrobotics/code_asthram_dev.git -b v3-dev
 
 cd code_asthram_dev
 
-# Backend dependencies:
+### Backend dependencies:
 
 cd backend
 Install all the dependencies mentioned below
-npm install blockly, npm install react-spinners.
+npm install axios, npm install @material-ui/core, npm install bcryptjs, npm install react-router-dom, npm install sweetalert.
 npm start (port 2000)
 
-# Frontend dependencies:
+### Frontend dependencies:
 
 cd frontend
 Install all the dependencies below
-npm install axios, npm install @material-ui/core, npm install bcryptjs, npm install react-router-dom, npm install sweetalert, npm install --save @fortawesome/fontawesome-free, npm install react-icons.
+npm install blockly, npm install react-spinners.
 npm start 
 
 
 ## Changes made in this branch --> v3-dev (Arsath)
 
+<<<<<<< HEAD
 
-Completed as of 01/12/23 (Arsath) -
+Completed as of 01/12/23 (Arsath) 
 
-* Complete UI of Code-Asthram is completed with workspace added to it.
-* Added a loading screen with simple animation as of now.
+* Complete UI of Code-Asthram is completed with workspace added to it
+* Added a loading screen with simple animation as of now
 * Code preview button function is added (More to be added soon)
-* Created a login page using MongoDB and added it before the login screen.
+* Created a login page using MongoDB and added it before the login screen
 * Used libraries for the login page includes: " axios, @material-ui/core, bcryptjs, react-router-dom, sweetalert "
 * Brought the entire code into a structure by splitting frontend and backend. 
 * Both backend and frontend has to be started individually using npm start.
 * Backend is set to start at port 2000 and the frontend will run in default port 3000.
 * In order for the backend to run, ensure that all the above mentioned libraries.  
 
-## Changes made as of 07/12/23 (Arsath) -
-
-* Completed setting functions to all the buttons.
-* Removed the register page and it's reference point's completely from the app.
-* Since registration is removed. bcrypt library is also removed which was used to encrypt the registered passwords to the database.
-* Removed all the data in the database.
-* Dependencies are clearly attached to the package.json.
-* Navigated and found the css files to change the style of the side bar. (blockino.css)
-
-## Buttons -
-
-* btn_new : (New const derived as handleNewButtonClick) - Refreshes the page and gives a new workspace.
-* btn_fakeload : (New const derived as handleOpenButtonClick) - Opens up file manager to select files.
-* btn_savexml : (New const derived as saveXmlFile) - Saves the current workspace as .xml file.
-* btn_print : (New const derived as takeScreenshot) , Used a library called "html2canvas" that assists in converting the workspace into an image.
-* btn_preview : Toggles he texarea where the codes get generated.
-* btn_logout : Used "useNavigate" hook from "react-router-dom" to switch the route from "/dashboard" to login page.
-               useNavigate hook is used because react-router-dom version is 6.20.0. 
-               If the react-router-dom version is below 6 then "useHistory" hook should be used instead.
-* btn_saveino : (New const derived as saveInoFile) - Saves the generated code as .ino file.
-* btn_copy : (New const derived as copyToClipboard) - Copies the code to the clipboard.
-            
+>>>>>>> c95a0cc1c38bec4c23a0252bb474f5eda81e5a93
