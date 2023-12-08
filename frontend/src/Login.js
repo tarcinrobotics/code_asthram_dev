@@ -30,16 +30,28 @@ class Login extends React.Component {
 
   login = () => {
     axios.post('http://localhost:2000/login', {
-    username: this.state.username,
-    password: this.state.password,  // Send the plain text password
-  }).then((res) => {
-    localStorage.setItem('token', res.data.token);
-    localStorage.setItem('user_id', res.data.id);
+  username: this.state.username,
+  password: this.state.password,
+})
+  .then(response => {
+    // Handle the successful response from the server
+    console.log('Login successful:', response.data);
+
+    // Assuming the server sends a token, you might want to store it in local storage
+    localStorage.setItem('token', response.data.token);
+    localStorage.setItem('user_id', response.data.id);
+
+    // Redirect the user to the dashboard or do other actions upon successful login
     this.props.navigate("/dashboard");
-  }).catch((err) => {
-    if (err.response && err.response.data && err.response.data.errorMessage) {
+  })
+  .catch(error => {
+    // Handle errors from the server or network issues
+    console.error('Login error:', error);
+
+    // Display an error message to the user
+    if (error.response && error.response.data && error.response.data.errorMessage) {
       swal({
-        text: err.response.data.errorMessage,
+        text: error.response.data.errorMessage,
         icon: "error",
         type: "error"
       });
@@ -136,7 +148,7 @@ class Login extends React.Component {
         </div>
     
         <div className="eva-gif" style={{position:'absolute', display:'flex' , right:'0'}}>
-            <img src={eve} style={{height: '100px', width: '100px'}}/>
+            <img src={eve} style={{height: '150px', width: '150px'}}/>
         </div>
         
         <footer style={{position:'absolute', bottom:'20%', left: '30%', display: 'flex'}}>
