@@ -3,7 +3,7 @@ import SyncLoader from "react-spinners/SyncLoader";
 import './animloader.css'
 import App from '../App';
 import PreLogo from './code_asthram_logo.png'
-import piggy from './0120.gif'
+// import piggy from './0120.gif'
 
 
 function AnimLoader() {
@@ -26,6 +26,7 @@ function AnimLoader() {
                         {/*<img src={piggy} loading={loading} size={10}/>*/}
                     <SyncLoader color={"#FFFFFF"} loading={loading} size={10} />
                     </div>
+                    
                     
                     </div>)
                     

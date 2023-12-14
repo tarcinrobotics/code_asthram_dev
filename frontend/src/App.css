@@ -63,13 +63,15 @@
   background-color: #ffffff;
 }*/
 
-.div1 {
+body .div1 {
   width: 100%;
   height: 74px;
   background-color: #1F2224;
   position: absolute;
   top: 0px;
+  transition: box-shadow 0.3s ease;
 }
+
 
 .maintable {
   width: 100%;

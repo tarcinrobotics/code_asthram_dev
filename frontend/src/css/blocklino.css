@@ -202,8 +202,14 @@
 	font-weight: bold;
 	margin-left: 5px;
 	width: 180px;
-	opacity: 0.7 
+	opacity: 0.7;
+	border-right: 1px solid #000000;
+	transition: box-shadow 0.3s ease;
 }
+
+.blocklyToolboxDiv:hover {
+	box-shadow: 10px 0px 10px -5px rgba(0, 0, 0, 0.4);
+  }
 .blocklyFlyoutBackground {
 	fill: #fff !important;
 }
@@ -237,6 +243,15 @@
 	width: 8px
 }
  
+.blocklyWorkspace {
+	background-color: #fff !important;
+  }
+  
+  /* To Remove grid pattern */
+  .blocklyMainBackground {
+	fill: none !important;
+  }
+  
  
 .vignette {
     max-width: 80px;

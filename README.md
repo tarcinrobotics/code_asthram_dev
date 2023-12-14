@@ -98,3 +98,18 @@ Completed as of 01/12/23 (Arsath)
 * btn_saveino : (New const derived as saveInoFile) - Saves the generated code as .ino file.
 * btn_copy : (New const derived as copyToClipboard) - Copies the code to the clipboard.
 
+
+## Changes as of 13/12/2023 (Arsath) : 
+
+* Navigated and Removed the dotted background and gave a white fill.
+* Fixed the side tool bar and added border to it.
+* Login fix is done and onsync with the Atlas.
+* created a proper schema and added a new file to backend - "userModel.js"
+* For Data insertion brought back bcrypt library to hash the passwords.
+* As of now added three methods for inserting data to the database: 
+* #1 - Directly through the code in Server.js. For this, Used an Async insert function to database and also added a feature to the function for checking if the data already exists in the database and if so then it will skip that data thus duplication will be avoided.
+* #2 - There's a tool called bcrypt hash generator online, We can directly type the password of our and it will provide us with a hashed password which we can directly insert into our Database and the pre-installed dependency in our project "bcrypt" will decrypt it automatically.
+* #3 - Final solution is the most optimal and hassle free method. Created a new Register.js which will handle the data insertion and it will be accessible only by a certain super user (Had set up a authentication middleware for this) and also added a table to display the inserted data in the same page for better experience. The data registered here will also get hashed and the encrypted password will be stored in our database intantly.
+* For the 3rd solution also added a library for displaying password strenth meter in our register page.
+* Added the package.lock.json file to the .gitignore in both frontend and backend folders.
+* Spl route cases are yet to implemented in the paths even after defining superusers, as it was not in the plan when i was elaborated about the project.

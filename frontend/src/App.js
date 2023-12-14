@@ -184,7 +184,7 @@ export default function App() {
                       ></button>
 
                       <button
-                        title="Save.tarblock"
+                        title="Save.xml"
                         className="b03"
                         id="btn_savexml"
                         onClick={saveXmlFile}
@@ -238,7 +238,7 @@ export default function App() {
           }}
           onWorkspaceChange={workspaceDidChange}
           onXmlChange={setXml}
-          style={{backGround: '#FFFFFF'}}
+          style={{backgroundColor: "#ffffff", border:"none"}}
         />
 
         <div id="toggle" class="modal-content" style={{ display: "none", top:"80px", bottom:"100px" }}>

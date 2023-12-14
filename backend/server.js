@@ -14,6 +14,36 @@ mongoose.connect(mongoURI, {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });
+ 
+const User = require('./userModel.js');
+
+async function insert(){
+  const usersToAdd = [
+    { username: 'admin@tarcin.com', password: await bcrypt.hash('tarcin301', 10), isSuperuser: true },
+    // Add more users as needed
+    { username: 'tarcinadmin', password: await bcrypt.hash('tarcinadmin', 10), isSuperuser: true },
+    // Add more users as needed
+    //{ username: 'alcarsath@gmail.com', password: await bcrypt.hash('arsath', 10)}
+  ];
+  
+  for (const user of usersToAdd) {
+    try {
+      const existingUser = await User.findOne({ username: user.username });
+      if (!existingUser) {
+        await User.create(user);
+        console.log(`User added successfully: ${user.username}`);
+      } else {
+        console.log(`User already exists: ${user.username}`);
+      }
+    } catch (err) {
+      console.error(`Error adding user ${user.username}:`, err);
+    }
+  }
+}
+
+
+insert();
+
 
 mongoose.connection.on("connected", () => {
   console.log("Connected to MongoDB Atlas");
@@ -71,6 +101,8 @@ app.use("/", (req, res, next) => {
       jwt.verify(req.headers.token, "shhhhh11111", function (err, decoded) {
         if (decoded && decoded.user) {
           req.user = decoded;
+          // Check if the user is a superuser
+          if (decoded.isSuperuser) {
           next();
         } else {
           return res.status(401).json({
@@ -78,7 +110,13 @@ app.use("/", (req, res, next) => {
             status: false,
           });
         }
-      });
+      }  else {
+        return res.status(401).json({
+          errorMessage: 'User unauthorized!',
+          status: false,
+        });
+      } 
+    });
     }
   } catch (e) {
     res.status(400).json({
@@ -97,6 +135,7 @@ app.get("/", (req, res) => {
 
 /* login api */
 app.post("/login", (req, res) => {
+  console.log('Received login request:', req.body);
   try {
     if (req.body && req.body.username && req.body.password) {
       // Query MongoDB to find the user
@@ -109,10 +148,17 @@ app.post("/login", (req, res) => {
           });
         }
 
+        console.log('Found user:', foundUser);
+
         if (
           foundUser &&
           bcrypt.compareSync(req.body.password, foundUser.password)
         ) {
+          console.log('Password matched, checking isSuperuser:', foundUser.isSuperuser);
+
+          // Add this line to log the complete user object
+          console.log('Complete user object:', foundUser);
+
           checkUserAndGenerateToken(foundUser, req, res);
         } else {
           console.error("Incorrect username or password");
@@ -137,7 +183,6 @@ app.post("/login", (req, res) => {
     });
   }
 });
-
 /* register api */
 app.post("/register", (req, res) => {
   try {
@@ -186,16 +231,21 @@ app.post("/register", (req, res) => {
 
 function checkUserAndGenerateToken(data, req, res) {
   jwt.sign(
-    { user: data.username, id: data._id },
+    { user: data.username, 
+      id: data._id, 
+      isSuperuser: data.isSuperuser,
+     },
     "shhhhh11111",
     { expiresIn: "1d" },
     (err, token) => {
       if (err) {
+        console.error('Token generation error:', err);
         res.status(400).json({
           status: false,
           errorMessage: err,
         });
       } else {
+        console.log('Generated token:', token);
         res.json({
           message: "Login Successfully.",
           token: token,

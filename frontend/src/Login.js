@@ -1,7 +1,8 @@
-import React, { Component } from "react";
+import React, { Component, useState } from "react";
 import swal from "sweetalert";
 import { Button, TextField, Link } from "@material-ui/core";
 import { withRouter } from "./utils";
+import { useLocation } from "react-router-dom";
 import axios from "axios";
 import mainLogo from "./media/code_asthram.png";
 import tarproduct from "./media/codeasthramproduct.png";
@@ -9,75 +10,106 @@ import eve from "./media/eve.gif";
 import quote from "./media/caption.png";
 import copy from "./media/copyright.png";
 import { FaUserAlt, FaLock, FaEye, FaEyeSlash } from 'react-icons/fa';
+import background from "./media/backgroundtexture.png";
 
-class Login extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      username: '',
-      password: '',
-      showPassword: false,
-    };
-  }
+const Login = (props) => {
+  const location = useLocation();
+  const isLoginPage = location.pathname === "/";
 
-  onChange = (e) => this.setState({ [e.target.name]: e.target.value });
-  
-  togglePasswordVisibility = () => {
-    this.setState((prevState) => ({
+  //Define setIsSuperuser state 
+  const [isSuperuser, setIsSuperuser] = useState(false);
+
+  const [state, setState] = useState({
+    username: "",
+    password: "",
+    showPassword: false,
+  });
+
+  const onChange = (e) => setState({ ...state, [e.target.name]: e.target.value });
+
+  const togglePasswordVisibility = () => {
+    setState((prevState) => ({
+      ...prevState,
       showPassword: !prevState.showPassword,
     }));
   };
 
-  login = () => {
+  const login = () => {
     axios.post('http://localhost:2000/login', {
-  username: this.state.username,
-  password: this.state.password,
-})
-  .then(response => {
-    // Handle the successful response from the server
-    console.log('Login successful:', response.data);
+      username: state.username,
+      password: state.password,
+    })
+      .then(response => {
+        // Handle the successful response from the server
+        console.log('Login successful:', response.data);
 
-    // Assuming the server sends a token, you might want to store it in local storage
-    localStorage.setItem('token', response.data.token);
-    localStorage.setItem('user_id', response.data.id);
+        // Assuming the server sends a token, you might want to store it in local storage
+        localStorage.setItem('token', response.data.token);
+        localStorage.setItem('user_id', response.data.id);
 
-    // Redirect the user to the dashboard or do other actions upon successful login
-    this.props.navigate("/dashboard");
-  })
-  .catch(error => {
-    // Handle errors from the server or network issues
-    console.error('Login error:', error);
+        
+        // Assuming the server sends information about whether the user is a superuser
+        const isSuperuser = response.data.isSuperuser;
+        console.log('isSuperuser:', isSuperuser);
 
-    // Display an error message to the user
-    if (error.response && error.response.data && error.response.data.errorMessage) {
-      swal({
-        text: error.response.data.errorMessage,
-        icon: "error",
-        type: "error"
+        // Set the isSuperuser state
+        setIsSuperuser(isSuperuser);
+        
+        // Check if the user is a superuser before making the /register request
+      if (isSuperuser) {
+
+       const superuserData = {
+        username: 'admin@tarcin.com',
+        password: 'tarcin301'
+       }
+       setIsSuperuser(true);
+
+        // Make a request to /register with the token
+        axios.post('http://localhost:2000/register', superuserData, {
+          headers: {
+            token: response.data.token,
+          },
+        })
+        .then(registerResponse => {
+          // Handle the response from the /register route
+          console.log('Registration successful:', registerResponse.data);
+        })
+        .catch(registerError => {
+          // Handle errors from the /register route
+          console.error('Registration error:', registerError);
+        });
+      }
+
+        // Redirect the user to the dashboard or do other actions upon successful login
+        props.navigate("/dashboard");
+      })
+      .catch(error => {
+        // Handle errors from the server or network issues
+        console.error('Login error:', error);
+
+        // Display an error message to the user
+        if (error.response && error.response.data && error.response.data.errorMessage) {
+          // handle error
+        }
       });
-    }
-  });
-}
+  };
 
-  
-  render() {
     return (
-
-      
+      <div className="whole" style={{height: '100vh', width: '100%' }}>
     <div className="container" >
       <div className="screen" style={{borderRadius: '20px'}}>
-        <div className="screen__content">
+        <div className="screen__content" >
           <img src={mainLogo} style={{ height: "50px", width: "200px", position: "relative", top: "120px", left: "15px" }} alt="Logo" />
           <form className="login">
-            <div className="login__field">
+            <div className="login__field" >
             <FaUserAlt className="login__icon" style={{ fontSize: '24px' }} />
               <TextField
                 id="standard-basic"
                 type="text"
                 autoComplete="off"
                 name="username"
-                value={this.state.username}
-                onChange={this.onChange}
+                value={state.username}
+                onChange={onChange}
                 placeholder="User Name / Email"
                 required
                 InputProps={{
@@ -89,18 +121,18 @@ class Login extends React.Component {
             <FaLock className="login__icon" style={{ fontSize: '24px' }} />
               <TextField
                 id="standard-basic"
-                type={this.state.showPassword ? 'text' : 'password'}
+                type={state.showPassword ? 'text' : 'password'}
                 autoComplete="off"
                 name="password"
-                value={this.state.password}
-                onChange={this.onChange}
+                value={state.password}
+                onChange={onChange}
                 placeholder="Password"
                 required
                 InputProps={{
                   style: { fontSize: 16, size: 50, left: '28px' },
                   endAdornment: (
-                    <span onClick={this.togglePasswordVisibility} style={{ cursor: 'pointer' }}>
-                      {this.state.showPassword ? <FaEyeSlash /> : <FaEye />}
+                    <span onClick={togglePasswordVisibility} style={{ cursor: 'pointer' }}>
+                      {state.showPassword ? <FaEyeSlash /> : <FaEye />}
                     </span>
                   ),
                 }}
@@ -111,8 +143,8 @@ class Login extends React.Component {
               variant="contained"
               
               size="small"
-              onClick={this.login}
-              style={{ fontSize: "16px", fontWeight: 'bolder', Color: 'black' }}
+              onClick={login}
+              style={{ fontSize: "16px", fontWeight: 'bolder', Color: 'black', borderRadius:'40px' }}
             >
               <span className="button__text">Log In</span>
               <i className="button__icon fas fa-chevron-right"></i>
@@ -158,8 +190,8 @@ class Login extends React.Component {
  
       </div>
 </div>
+</div>
     );
-  }
-}
+  };
 
 export default withRouter(Login);
