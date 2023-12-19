@@ -35,6 +35,8 @@ const Login = (props) => {
   };
 
   const login = () => {
+
+    console.log('Login state:', state);
     axios.post('http://localhost:2000/login', {
       username: state.username,
       password: state.password,
@@ -86,10 +88,13 @@ const Login = (props) => {
       .catch(error => {
         // Handle errors from the server or network issues
         console.error('Login error:', error);
-
-        // Display an error message to the user
+      
         if (error.response && error.response.data && error.response.data.errorMessage) {
-          // handle error
+          // Display an error message to the user
+          swal("Login Failed", error.response.data.errorMessage, "error");
+        } else {
+          // Display a generic error message
+          swal("Login Failed", "An error occurred during login.", "error");
         }
       });
   };

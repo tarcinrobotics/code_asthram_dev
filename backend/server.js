@@ -17,15 +17,22 @@ mongoose.connect(mongoURI, {
  
 const User = require('./userModel.js');
 
-async function insert(){
+async function insert() {
   const usersToAdd = [
-    { username: 'admin@tarcin.com', password: await bcrypt.hash('tarcin301', 10), isSuperuser: true },
+    {
+      username: 'admin@tarcin.com',
+      password: await bcrypt.hash('tarcin301', 10),
+      isSuperuser: true,
+    },
+    {
+      username: 'tarcinadmin',
+      password: await bcrypt.hash('tarcinadmin', 10),
+      isSuperuser: true,
+    },
     // Add more users as needed
-    { username: 'tarcinadmin', password: await bcrypt.hash('tarcinadmin', 10), isSuperuser: true },
-    // Add more users as needed
-    //{ username: 'alcarsath@gmail.com', password: await bcrypt.hash('arsath', 10)}
+    // { username: 'alcarsath@gmail.com', password: await bcrypt.hash('arsath', 10) }
   ];
-  
+
   for (const user of usersToAdd) {
     try {
       const existingUser = await User.findOne({ username: user.username });
@@ -40,7 +47,6 @@ async function insert(){
     }
   }
 }
-
 
 insert();
 
@@ -94,29 +100,40 @@ app.use(
 
 app.use("/", (req, res, next) => {
   try {
-    if (req.path == "/login" || req.path == "/register" || req.path == "/") {
+    if (req.path === "/login" || req.path === "/register" || req.path === "/") {
       next();
     } else {
       /* decode jwt token if authorized*/
       jwt.verify(req.headers.token, "shhhhh11111", function (err, decoded) {
+        console.log('Decoded token:', decoded); // Add this line for debugging
+      
         if (decoded && decoded.user) {
           req.user = decoded;
           // Check if the user is a superuser
-          if (decoded.isSuperuser) {
-          next();
+          if (decoded.isSuperuser !== undefined) {
+            if (decoded.isSuperuser) {
+              next();
+            } else {
+              return res.status(401).json({
+                errorMessage: "User unauthorized!",
+                status: false,
+              });
+            }
+          } else {
+            return res.status(401).json({
+              errorMessage: 'User unauthorized!',
+              status: false,
+            });
+          }
         } else {
           return res.status(401).json({
-            errorMessage: "User unauthorized!",
+            errorMessage: 'User unauthorized!',
             status: false,
           });
-        }
-      }  else {
-        return res.status(401).json({
-          errorMessage: 'User unauthorized!',
-          status: false,
-        });
-      } 
-    });
+        }        
+
+        
+      });
     }
   } catch (e) {
     res.status(400).json({
@@ -134,40 +151,52 @@ app.get("/", (req, res) => {
 });
 
 /* login api */
-app.post("/login", (req, res) => {
+/* login api */
+app.post("/login", async (req, res) => {
   console.log('Received login request:', req.body);
   try {
     if (req.body && req.body.username && req.body.password) {
       // Query MongoDB to find the user
-      user.findOne({ username: req.body.username }, (err, foundUser) => {
-        if (err) {
-          console.error("Error finding user", err);
-          return res.status(500).json({
-            errorMessage: "Login failed",
-            status: false,
-          });
-        }
+      const foundUser = await user.findOne({ username: req.body.username });
 
-        console.log('Found user:', foundUser);
+      console.log('Found user:', foundUser);
 
-        if (
-          foundUser &&
-          bcrypt.compareSync(req.body.password, foundUser.password)
-        ) {
-          console.log('Password matched, checking isSuperuser:', foundUser.isSuperuser);
+      if (foundUser && bcrypt.compareSync(req.body.password, foundUser.password)) {
+        console.log('Password matched');
 
-          // Add this line to log the complete user object
-          console.log('Complete user object:', foundUser);
-
-          checkUserAndGenerateToken(foundUser, req, res);
-        } else {
-          console.error("Incorrect username or password");
-          res.status(400).json({
-            errorMessage: "Username or password is incorrect!",
-            status: false,
-          });
-        }
-      });
+        // Generate token
+        jwt.sign(
+          {
+            user: foundUser.username,
+            id: foundUser._id,
+            isSuperuser: foundUser.isSuperuser || false,
+          },
+          "shhhhh11111",
+          { expiresIn: "1d" },
+          (err, token) => {
+            if (err) {
+              console.error('Token generation error:', err);
+              res.status(400).json({
+                status: false,
+                errorMessage: err,
+              });
+            } else {
+              console.log('Generated token:', token);
+              res.json({
+                message: "Login Successfully.",
+                token: token,
+                status: true,
+              });
+            }
+          }
+        );
+      } else {
+        console.error("Incorrect username or password");
+        res.status(400).json({
+          errorMessage: "Username or password is incorrect!",
+          status: false,
+        });
+      }
     } else {
       console.error("Invalid request parameters");
       res.status(400).json({
@@ -176,13 +205,15 @@ app.post("/login", (req, res) => {
       });
     }
   } catch (e) {
-    console.error("unexpected error:", e);
+    console.error("Unexpected error:", e);
     res.status(400).json({
       errorMessage: "Something went wrong!",
       status: false,
     });
   }
 });
+
+
 /* register api */
 app.post("/register", (req, res) => {
   try {
@@ -230,31 +261,34 @@ app.post("/register", (req, res) => {
 });
 
 function checkUserAndGenerateToken(data, req, res) {
-  jwt.sign(
-    { user: data.username, 
-      id: data._id, 
-      isSuperuser: data.isSuperuser,
-     },
-    "shhhhh11111",
-    { expiresIn: "1d" },
-    (err, token) => {
-      if (err) {
-        console.error('Token generation error:', err);
-        res.status(400).json({
-          status: false,
-          errorMessage: err,
-        });
-      } else {
-        console.log('Generated token:', token);
-        res.json({
-          message: "Login Successfully.",
-          token: token,
-          status: true,
-        });
+  if (data.isSuperuser) {
+    jwt.sign(
+      {
+        user: foundUser.username,
+        id: foundUser._id,
+        isSuperuser: foundUser.isSuperuser || false,
+      },
+      "shhhhh11111",
+      { expiresIn: "1d" },
+      (err, token) => {
+        if (err) {
+          console.error('Token generation error:', err);
+          res.status(400).json({
+            status: false,
+            errorMessage: err,
+          });
+        } else {
+          console.log('Generated token:', token);
+          res.json({
+            message: "Login Successfully.",
+            token: token,
+            status: true,
+          });
+        }
       }
-    }
-  );
-}
+    );
+  }}
+
 
 /* Api to add Product */
 app.post("/add-product", upload.any(), (req, res) => {

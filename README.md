@@ -21,6 +21,10 @@ cd code_asthram_dev
 
 (Just npm install is enough for both frontend and backend as he dependencies are added to the json file.)
 
+In order to run the build file:
+
+npx serve -s build
+
 ### Backend dependencies:
 
 cd backend

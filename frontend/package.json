@@ -20,6 +20,7 @@
     "react-router-dom": "^6.20.1",
     "react-scripts": "4.0.1",
     "react-spinners": "^0.13.8",
+    "serve": "^14.2.1",
     "sweetalert": "^2.1.2",
     "sweetalert2": "^11.10.1",
     "web-vitals": "^0.2.4"
