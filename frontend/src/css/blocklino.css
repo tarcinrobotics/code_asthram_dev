@@ -210,9 +210,29 @@
 .blocklyToolboxDiv:hover {
 	box-shadow: 10px 0px 10px -5px rgba(0, 0, 0, 0.4);
   }
-.blocklyFlyoutBackground {
+ /* Add continuous transition effect to the flyout */
+/* Add continuous transition effect to the flyout */
+.blocklyFlyout {
+	transform: translateX(100%); /* Initially off-screen */
+	transition: transform 0.3s ease-in-out;
+  }
+  
+  /* Style the flyout background */
+  .blocklyFlyoutBackground {
 	fill: #fff !important;
-}
+  }
+  
+  /* Style the flyout content and make it scrollable */
+  .blocklyFlyout .blocklyFlyoutContent {
+	overflow-y: auto;
+	max-height: 200px; /* Adjust the max height as needed */
+  }
+  
+  /* Apply styles when visible */
+  .blocklyFlyout.visible {
+	transform: translateX(0); /* Adjust the desired transition */
+  }
+  
 .blocklyTreeRoot {
 	padding: 0 !important
 }

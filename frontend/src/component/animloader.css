@@ -8,7 +8,7 @@
     height: 100vh;
 }
 
-.anim {
+/*.anim {
     position: absolute;
     align-items: center;
     bottom: 0;
@@ -24,7 +24,7 @@
   display: block;
 }
 
-/*.back {
+.back {
     background-color: goldenrod;
     text-align: center;
     display: flex;

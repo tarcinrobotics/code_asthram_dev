@@ -41,3 +41,46 @@ Blockly.Python['return'] = function (block) {
     var code = 'return ' + value_name + '\n';
     return code;
 };
+
+Blockly.Blocks['ardublock_logic_compare'] = {
+    init: function() {
+      this.setColour(210);
+      this.setOutput(true, 'Boolean');
+      this.appendValueInput('A')
+          .setCheck(['Number', 'Boolean'])
+          .appendField(new Blockly.FieldDropdown([['=', 'EQ'], ['<', 'LT'], ['>', 'GT']]), 'OP');
+      this.appendValueInput('B')
+          .setCheck(['Number', 'Boolean'])
+          .appendField('to');
+      this.setInputsInline(true);
+      this.setTooltip('');
+    }
+  };
+  
+  Blockly.Blocks['ardublock_logic_boolean'] = {
+    init: function() {
+      this.setColour(210);
+      this.setOutput(true, 'Boolean');
+      this.appendDummyInput()
+          .appendField(new Blockly.FieldDropdown([['True', 'TRUE'], ['False', 'FALSE']]), 'BOOL');
+      this.setTooltip('');
+    }
+  };
+
+  Blockly.Python['ardublock_logic_compare'] = function(block) {
+    var value_a = Blockly.Python.valueToCode(block, 'A', Blockly.Python.ORDER_ATOMIC) || '0';
+    var dropdown_op = block.getFieldValue('OP');
+    var value_b = Blockly.Python.valueToCode(block, 'B', Blockly.Python.ORDER_ATOMIC) || '0';
+    var code = value_a + ' ' + dropdown_op + ' ' + value_b;
+    return [code, Blockly.Python.ORDER_RELATIONAL];
+  };
+  
+  Blockly.Python['ardublock_logic_boolean'] = function(block) {
+    var dropdown_bool = block.getFieldValue('BOOL');
+    var code = (dropdown_bool === 'TRUE') ? 'True' : 'False';
+    return [code, Blockly.Python.ORDER_ATOMIC];
+  };
+  
+
+
+

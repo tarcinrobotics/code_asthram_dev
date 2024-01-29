@@ -1,6 +1,6 @@
-import React, { Component, useState } from "react";
+import React, { useState } from "react";
 import swal from "sweetalert";
-import { Button, TextField, Link } from "@material-ui/core";
+import { Button, TextField } from "@material-ui/core";
 import { withRouter } from "./utils";
 import { useLocation } from "react-router-dom";
 import axios from "axios";
@@ -10,7 +10,7 @@ import eve from "./media/eve.gif";
 import quote from "./media/caption.png";
 import copy from "./media/copyright.png";
 import { FaUserAlt, FaLock, FaEye, FaEyeSlash } from 'react-icons/fa';
-import background from "./media/backgroundtexture.png";
+
 
 const Login = (props) => {
   const location = useLocation();
@@ -99,6 +99,13 @@ const Login = (props) => {
       });
   };
 
+  const handleKeyDown = (e) => {
+    if (e.key === "Enter") {
+      e.preventDefault(); // Prevent the default form submission
+      login();
+    }
+  };
+
     return (
       <div className="whole" style={{height: '100vh', width: '100%' }}>
     <div className="container" >
@@ -131,6 +138,7 @@ const Login = (props) => {
                 name="password"
                 value={state.password}
                 onChange={onChange}
+                onKeyDown={handleKeyDown}
                 placeholder="Password"
                 required
                 InputProps={{
@@ -176,26 +184,41 @@ const Login = (props) => {
           <span className="screen__background__shape screen__background__shape1"></span>
         </div>
       </div>
-      <div className="rightbody" style={{display: 'flex',height: '600px', width: '850px', position: 'absolute', left: '400px'}}>
-        <div className="tarcin-product" style={{display: 'flex', position:'absolute', right:'0', top: '10%'}}> 
-        <img src={tarproduct} style={{height: '400px', width: '800px'}}/>
+      <div className="rightbody" style={{ display: 'flex', height: '100vh', width: '850px', position: 'absolute', left: '400px' }}>
+          <div className="tarcin-product" style={{ display: 'flex', position: 'absolute', right: '0', top: '10%' }}>
+            <img
+              src={tarproduct}
+              style={{ height: '400px', width: '800px', transition: 'transform 0.2s', cursor: 'pointer' }}
+              alt="tarproduct"
+              onMouseOver={(e) => e.target.style.transform = 'scale(1.1)'}
+              onMouseOut={(e) => e.target.style.transform = 'scale(1)'}
+            />
+          </div>
+          <div className="tarcin-quote" style={{ display: 'flex', position: 'absolute', right: '5%', top: '35%' }}>
+            <img
+              src={quote}
+              style={{ height: '300px', width: '700px', transition: 'transform 0.2s', cursor: 'pointer' }}
+              alt="quote"
+              onMouseOver={(e) => e.target.style.transform = 'scale(1.1)'}
+              onMouseOut={(e) => e.target.style.transform = 'scale(1)'}
+            />
+          </div>
+
+          <div className="eva-gif" style={{ position: 'absolute', display: 'flex', right: '0' }}>
+            <img src={eve} style={{ height: '150px', width: '150px' }} />
+          </div>
+
+          <footer style={{ position: 'absolute', bottom: '20%', left: '30%', display: 'flex' }}>
+            <img
+              src={copy}
+              style={{ height: '150px', width: '350px', transition: 'transform 0.2s', cursor: 'pointer' }}
+              onMouseOver={(e) => e.target.style.transform = 'scale(1.1)'}
+              onMouseOut={(e) => e.target.style.transform = 'scale(1)'}
+            />
+          </footer>
         </div>
-        <div className="tarcin-quote" style={{display: 'flex', position:'absolute', right:'5%', top: '30%'}} >
-        <img src={quote} style={{height: '300px', width:'700px'}}/>
-        </div>
-    
-        <div className="eva-gif" style={{position:'absolute', display:'flex' , right:'0'}}>
-            <img src={eve} style={{height: '150px', width: '150px'}}/>
-        </div>
-        
-        <footer style={{position:'absolute', bottom:'20%', left: '30%', display: 'flex'}}>
-          <img src={copy} style={{height: '150px', width:'350px'}}/>
-        </footer>
-  
- 
       </div>
-</div>
-</div>
+    </div>
     );
   };
 
