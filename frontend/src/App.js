@@ -266,19 +266,14 @@ export default function App() {
         contents: [
           {
             kind: "block",
-            type: "create_variable_button",
+            type: "set_variable",
           },
           {
             kind: "block",
-            type: "matplotlib_xlabel",
+            type: "plain_variable",
           },
-          { kind: "block", type: "matplotlib_ylabel",},
-          { kind: "block", type: "matplotlib_show",},
-          { kind: "block", type: "numpy_linspace",},
-          { kind: "block", type: "numpy_arange",},
-          { kind: "block", type: "numpy_array",},
-          { kind: "block", type: "numpy_trigonometric",},
-          { kind: "block", type: "numpy_exp",},
+          { kind: "block", type: "array_declaration",},
+
         ],
       },
       
