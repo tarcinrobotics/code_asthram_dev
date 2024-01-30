@@ -7,8 +7,7 @@ import Blockly from "blockly";
 import BlocklyDuino from "react-blockly";
 import "./customBlocks/LogicBlocks.js";
 import logo from './component/code_asthram.png';
-import html2canvas from 'html2canvas';// Assuming you have translations file
-import { IntlProvider, FormattedMessage } from "react-intl";
+import html2canvas from 'html2canvas';
 import "./css/bootstrap.min.3.3.6.css";
 import "./css/blocklino.css";
 import { toggleModal } from "./scripts/buttonFunctions";
@@ -22,17 +21,6 @@ import "./customBlocks/Variable.js";
 
 
 export default function App() {
-
-  const translations = {
-    en: {
-      // English translations
-      // Add your English messages here
-    },
-    ta: {
-      // Tamil translations
-      // Add your Tamil messages here
-    }
-  };
 
   const [xml, setXml] = useState("");
   const [javascriptCode, setJavascriptCode] = useState("");
@@ -692,19 +680,9 @@ export default function App() {
       }, 200);
     }
   };
-  
-  function LanguageSwitcher({ onChangeLanguage }) {
-    const [selectedLanguage, setSelectedLanguage] = useState("en");
-  
-    const handleLanguageChange = (language) => {
-      setSelectedLanguage(language);
-      onChangeLanguage(language);
-    };
-
 
 
   return (
-
     <>
     <input
   type="file"
@@ -713,12 +691,6 @@ export default function App() {
   style={{ display: 'none' }} // Hide the input element
   onChange={handleFileInputChange}
 />
-
-    
-<IntlProvider 
-locale={selectedLanguage} 
-messages={translations[selectedLanguage]}>
-      
       <div>
         <div>
           <div className="div1">
@@ -772,15 +744,7 @@ messages={translations[selectedLanguage]}>
                     </div>
                   </td>
                   <td>
-                    <div>
-                    <select 
-                    value={selectedLanguage} 
-                    onChange={handleLanguageChange}>
-    <option value="en">English</option>
-    <option value="ta">தமிழ்</option>
-  </select>
-  <LanguageSwitcher onChangeLanguage={handleLanguageChange} />
-                    </div>
+                  
                   </td>
                 </tr>
               </tbody>
@@ -846,8 +810,7 @@ messages={translations[selectedLanguage]}>
           </div>
         </div>
       </div>
-      </IntlProvider>
+
     </>
   );
-            }
-          }
+}
