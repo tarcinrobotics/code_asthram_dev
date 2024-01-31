@@ -18,6 +18,7 @@ Blockly.Blocks["cv2_readimage"] = {
     this.setPreviousStatement(true, null);
     this.setNextStatement(true, null);
     this.setTooltip("");
+    this.setColour("#6A5ACD");
     this.setHelpUrl("");
   },
 };
@@ -60,6 +61,8 @@ Blockly.Blocks["cv2_showimage"] = {
     this.setPreviousStatement(true, null);
     this.setNextStatement(true, null);
     this.setTooltip("");
+    
+    this.setColour("#6A5ACD");
     this.setHelpUrl("");
   },
 };
@@ -90,6 +93,7 @@ Blockly.Blocks["cv2_waitkey"] = {
       .appendField("Wait key: delay");
     this.setOutput(true, null);
     this.setTooltip("");
+    this.setColour("#6A5ACD");
     this.setHelpUrl("");
   },
 };
@@ -115,6 +119,7 @@ Blockly.Blocks["cv2_destroyall"] = {
     this.setPreviousStatement(true, null);
     this.setNextStatement(true, null);
     this.setTooltip("");
+    this.setColour("#6A5ACD");
     this.setHelpUrl("");
   },
 };
@@ -139,6 +144,7 @@ Blockly.Blocks["cv2_imagewrite"] = {
     this.setPreviousStatement(true, null);
     this.setNextStatement(true, null);
     this.setTooltip("");
+    this.setColour("#6A5ACD");
     this.setHelpUrl("");
   },
 };
@@ -172,6 +178,7 @@ Blockly.Blocks["cv2_capturevideo"] = {
     this.setPreviousStatement(true, null);
     this.setNextStatement(true, null);
     this.setTooltip("");
+    this.setColour("#6A5ACD");
     this.setHelpUrl("");
   },
 };
@@ -208,6 +215,7 @@ Blockly.Blocks["cv2_videoread"] = {
     this.setPreviousStatement(true, null);
     this.setNextStatement(true, null);
     this.setTooltip("");
+    this.setColour("#6A5ACD");
     this.setHelpUrl("");
   },
 };
@@ -240,6 +248,7 @@ Blockly.Blocks["cv2_cap_release"] = {
     this.setPreviousStatement(true, null);
     this.setNextStatement(true, null);
     this.setTooltip("");
+    this.setColour("#6A5ACD");
     this.setHelpUrl("");
   },
 };
@@ -268,6 +277,7 @@ Blockly.Blocks["cv2_capturevideo_file"] = {
     this.setPreviousStatement(true, null);
     this.setNextStatement(true, null);
     this.setTooltip("");
+    this.setColour("#6A5ACD");
     this.setHelpUrl("");
   },
 };
@@ -297,6 +307,7 @@ Blockly.Blocks["cv2_waitkey2"] = {
     this.setPreviousStatement(true, null);
     this.setNextStatement(true, null);
     this.setTooltip("");
+    this.setColour("#6A5ACD");
     this.setHelpUrl("");
   },
 };
@@ -327,6 +338,7 @@ Blockly.Blocks["cv2_createimage"] = {
       .appendField("Darkness");
     this.setOutput(true, null);
     this.setTooltip("");
+    this.setColour("#6A5ACD");
     this.setHelpUrl("");
   },
 };
@@ -386,6 +398,7 @@ Blockly.Blocks["cv2_drawline"] = {
     this.setPreviousStatement(true, null);
     this.setNextStatement(true, null);
     this.setTooltip("");
+    this.setColour("#6A5ACD");
     this.setHelpUrl("");
   },
 };
@@ -497,6 +510,7 @@ Blockly.Blocks["cv2_puttext"] = {
     this.setPreviousStatement(true, null);
     this.setNextStatement(true, null);
     this.setTooltip("");
+    this.setColour("#6A5ACD");
     this.setHelpUrl("");
   },
 };
@@ -574,6 +588,7 @@ Blockly.Blocks["cv2_roi"] = {
     this.appendValueInput("val4").setCheck("Number").appendField("X + Width");
     this.setOutput(true, null);
     this.setTooltip("");
+    this.setColour("#6A5ACD");
     this.setHelpUrl("");
   },
 };
@@ -635,6 +650,7 @@ Blockly.Blocks["cv2_roi_affect"] = {
     this.setPreviousStatement(true, null);
     this.setNextStatement(true, null);
     this.setTooltip("");
+    this.setColour("#6A5ACD");
     this.setHelpUrl("");
   },
 };
@@ -708,6 +724,7 @@ Blockly.Blocks["cv2_convertimage"] = {
     this.setInputsInline(false);
     this.setOutput(true, null);
     this.setTooltip("");
+    this.setColour("#6A5ACD");
     this.setHelpUrl("");
   },
 };
@@ -735,6 +752,7 @@ Blockly.Blocks["cv2_isopen"] = {
       .appendField("open?");
     this.setOutput(true, "Boolean");
     this.setTooltip("");
+    this.setColour("#6A5ACD");
     this.setHelpUrl("");
   },
 };
@@ -764,6 +782,7 @@ Blockly.Blocks["cv2_imageprop"] = {
     this.appendValueInput("image").setCheck(null).appendField("Image object");
     this.setOutput(true, null);
     this.setTooltip("");
+    this.setColour("#6A5ACD");
     this.setHelpUrl("");
   },
 };
@@ -791,6 +810,7 @@ Blockly.Blocks["cv2_imageadditionw"] = {
     this.appendValueInput("gamma").setCheck("Number").appendField("Gamma");
     this.setOutput(true, null);
     this.setTooltip("");
+    this.setColour("#6A5ACD");
     this.setHelpUrl("");
   },
 };
@@ -852,6 +872,7 @@ Blockly.Blocks["cv2_gettick"] = {
       );
     this.setOutput(true, null);
     this.setTooltip("");
+    this.setColour("#6A5ACD");
     this.setHelpUrl("");
   },
 };
@@ -871,6 +892,7 @@ Blockly.Blocks["cv2_cascadeclassifier"] = {
       .appendField("Cascade Classifier");
     this.setOutput(true, null);
     this.setTooltip("");
+    this.setColour("#6A5ACD");
     this.setHelpUrl("");
   },
 };
@@ -900,6 +922,7 @@ Blockly.Blocks["cv2_detectmultiscale_1p"] = {
     this.appendValueInput("p_image").setCheck(null).appendField("Image:");
     this.setOutput(true, null);
     this.setTooltip("");
+    this.setColour("#6A5ACD");
     this.setHelpUrl("");
   },
 };
@@ -936,6 +959,7 @@ Blockly.Blocks["cv2_detectmultiscale_3p"] = {
       .appendField("minNeighbors ");
     this.setOutput(true, null);
     this.setTooltip("");
+    this.setColour("#6A5ACD");
     this.setHelpUrl("");
   },
 };
@@ -981,6 +1005,7 @@ Blockly.Blocks["cv2_calculatediffpercentage"] = {
     this.appendValueInput("Image2").setCheck(null).appendField("Image 2");
     this.setOutput(true, null);
     this.setTooltip("");
+    this.setColour("#6A5ACD");
     this.setHelpUrl("");
   },
 };
@@ -1019,6 +1044,7 @@ Blockly.Blocks["qr_reader_decode"] = {
     this.setOutput(true, null);
     this.setColour(230);
     this.setTooltip("");
+    this.setColour("#6A5ACD");
     this.setHelpUrl("");
   },
 };
@@ -1048,6 +1074,7 @@ Blockly.Blocks["qr_reader_data"] = {
     this.setOutput(true, null);
     this.setColour(230);
     this.setTooltip("");
+    this.setColour("#6A5ACD");
     this.setHelpUrl("");
   },
 };
@@ -1084,6 +1111,7 @@ Blockly.Blocks["cv2_getproplist"] = {
       );
     this.setOutput(true, null);
     this.setTooltip("");
+    this.setColour("#6A5ACD");
     this.setHelpUrl("");
   },
 };
@@ -1113,6 +1141,7 @@ Blockly.Blocks["cv2_getpropnum"] = {
       .appendField("Number");
     this.setOutput(true, null);
     this.setTooltip("");
+    this.setColour("#6A5ACD");
     this.setHelpUrl("");
   },
 };
@@ -1157,6 +1186,7 @@ Blockly.Blocks["cv2_Setproplist"] = {
     this.setPreviousStatement(true, null);
     this.setNextStatement(true, null);
     this.setTooltip("");
+    this.setColour("#6A5ACD");
     this.setHelpUrl("");
   },
 };
@@ -1198,6 +1228,7 @@ Blockly.Blocks["cv2_SetpropVal"] = {
     this.setPreviousStatement(true, null);
     this.setNextStatement(true, null);
     this.setTooltip("");
+    this.setColour("#6A5ACD");
     this.setHelpUrl("");
   },
 };
@@ -1236,6 +1267,7 @@ Blockly.Blocks["ocr_image_to_string"] = {
     this.setOutput(true, "String");
     this.setColour(230);
     this.setTooltip("");
+    this.setColour("#6A5ACD");
     this.setHelpUrl("");
   },
 };
@@ -1267,6 +1299,7 @@ Blockly.Blocks["capture_image_stream"] = {
     this.setPreviousStatement(true, null);
     this.setNextStatement(true, null);
     this.setTooltip("");
+    this.setColour("#6A5ACD");
     this.setHelpUrl("");
   },
 };

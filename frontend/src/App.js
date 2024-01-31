@@ -18,6 +18,8 @@ import "./customBlocks/systemFunctions.js";
 import "./customBlocks/Structure.js";
 import "./customBlocks/fileHandling.js";
 import "./customBlocks/Variable.js";
+import "./customBlocks/Sorting.js";
+import "./customBlocks/Functions.js"
 
 
 export default function App() {
@@ -39,7 +41,7 @@ export default function App() {
       {
         kind: "category",
         name: "Logic",
-        colour: "rgb(91, 128, 165)",
+        colour: "#4169E1",
         contents: [
           { kind: "block", type: "controls_if",},
           {kind: "block", type: "logic_compare",},
@@ -52,7 +54,7 @@ export default function App() {
       {
         kind: "category",
         name: "Loops",
-        colour: "#5bb689",
+        colour: "#6A0DAD",
         contents: [
           {
             kind: "block",
@@ -79,7 +81,7 @@ export default function App() {
       {
         kind: "category",
         name: "Math",
-        colour: "#5bb689",
+        colour: "#ED2939",
         contents: [
           {
             kind: "block",
@@ -135,7 +137,7 @@ export default function App() {
       {
         kind: "category",
         name: "Text",
-        colour: "#5CA699",
+        colour: "#800000",
         contents: [
           {
             kind: "block",
@@ -190,7 +192,7 @@ export default function App() {
       {
         kind: "category",
         name: "Lists",
-        colour: "#5CA699",
+        colour: "#FFD700",
         contents: [
           {
             kind: "block",
@@ -237,24 +239,12 @@ export default function App() {
       {
         kind: "category",
         name: "Colours",
-        colour: "#5CA699",
+        colour: "#1D4E89",
         contents: [
-          {
-            kind: "block",
-            type: "colour_picker",
-          },
-          {
-            kind: "block",
-            type: "colour_random",
-          },
-          {
-            kind: "block",
-            type: "colour_rgb",
-          },
-          {
-            kind: "block",
-            type: "colour_blend",
-          },
+          {kind: "block",type: "colour_picker", },
+          { kind: "block",type: "colour_random", },
+          {kind: "block",type: "colour_rgb", },
+          { kind: "block",type: "colour_blend",},
           
         ],
       },
@@ -262,17 +252,21 @@ export default function App() {
       {
         kind: "category",
         name: "Variables",
-        colour: "#393938",
+        colour: "#CA2C92",
         contents: [
-          {
-            kind: "block",
-            type: "set_variable",
-          },
-          {
-            kind: "block",
-            type: "plain_variable",
-          },
+          { kind: "block", type: "set_variable", },
+          { kind: "block", type: "plain_variable", },
           { kind: "block", type: "array_declaration",},
+          { kind: "block", type: "check_variable_value", },
+          { kind: "block", type: "swap_variables", },
+          { kind: "block", type: "copy_variable",},
+
+          { kind: "block", type: "find_maximum_value", },
+          { kind: "block", type: "calculate_average", },
+          { kind: "block", type: "variable_scope",},
+          { kind: "block", type: "increment_variable", },
+          { kind: "block", type: "decrement_variable", },
+          { kind: "block", type: "reset_variable",},
 
         ],
       },
@@ -280,46 +274,46 @@ export default function App() {
       {
         kind: "category",
         name: "Structure",
-        colour: "#393938",
+        colour: "#FFD700",
         contents: [
-          {
-            kind: "block",
-            type: "variable_declaration",
-          },
-          {
-            kind: "block",
-            type: "matplotlib_xlabel",
-          },
-          { kind: "block", type: "matplotlib_ylabel",},
-          { kind: "block", type: "matplotlib_show",},
-          { kind: "block", type: "numpy_linspace",},
-          { kind: "block", type: "numpy_arange",},
-          { kind: "block", type: "numpy_array",},
-          { kind: "block", type: "numpy_trigonometric",},
-          { kind: "block", type: "numpy_exp",},
+          {kind: "block", type: "base_structure", },
+          { kind: "block",type: "declaration_structure", },
+          { kind: "block", type: "custom_yield",},
+          {kind: "block", type: "if_else_structure", },
+          { kind: "block",type: "for_loop_structure", },
+          { kind: "block", type: "while_loop_structure",},
+          {kind: "block", type: "do_while_loop_structure", },
+          { kind: "block",type: "class_structure", },
+          {kind: "block", type: "function_definition_structure", },
+          { kind: "block",type: "try_catch_structure", },
+          { kind: "block", type: "switch_case_structure",},
+          
         ],
       },
 
       {
         kind: "category",
-        name: "Custom",
-        colour: "#5CA699",
+        name: "Functions",
+        colour: "#4B0082",
         contents: [
-          {
-            kind: "block",
-            type: "new_boundary_function",
-          },
-          {
-            kind: "block",
-            type: "return",
-          },
+          { kind: "block",type: "new_boundary_function",colour:"#191970" },
+          {kind: "block",type: "return", },
+          { kind: "block",type: "calculate_average", },
+          {kind: "block",type: "find_maximum", },
+          { kind: "block",type: "calculate_factorial", },
+          { kind: "block",type: "calculate_sum", },
+          {kind: "block",type: "calculate_median", },
+          { kind: "block",type: "calculate_power", },
+          { kind: "block",type: "calculate_standard_deviation", },
+          {kind: "block",type: "calculate_variance", },
+          { kind: "block",type: "calculate_mean_absolute_deviation", },
         ],
       },
 
       {
         kind: "category",
         name: "Turtle",
-        colour: "#be0027",
+        colour: "#DC143C",
         contents: [
           {
             kind: "block",
@@ -345,7 +339,7 @@ export default function App() {
       {
         kind: "category",
         name: "Plotting",
-        colour: "#393938",
+        colour: "#008080",
         contents: [
           {
             kind: "block",
@@ -368,30 +362,59 @@ export default function App() {
       {
         kind: "category",
         name: "System Functions",
-        colour: "#393938",
+        colour: "#FF4500",
         contents: [
-          {
-            kind: "block",
-            type: "delay",
-          },
-          {
-            kind: "block",
-            type: "delayed_execution",
-          },
-          { kind: "block", type: "matplotlib_ylabel",},
-          { kind: "block", type: "matplotlib_show",},
-          { kind: "block", type: "numpy_linspace",},
-          { kind: "block", type: "numpy_arange",},
-          { kind: "block", type: "numpy_array",},
-          { kind: "block", type: "numpy_trigonometric",},
-          { kind: "block", type: "numpy_exp",},
+          {kind: "block",type: "delay",},
+          { kind: "block", type: "delayed_execution",},
+          {kind: "block",type: "file_system_functions",},
+          { kind: "block", type: "system_info_functions",},   
+          {kind: "block",type: "networking_functions",},
+          { kind: "block", type: "system_configuration_functions",},
+          {kind: "block",type: "system_monitoring_functions",},
+          {kind: "block",type: "system_command_execution_functions",},
+          {kind: "block",type: "system_time_functions",},
+          { kind: "block", type: "system_exit_function",},
+          {kind: "block",type: "system_reboot_function",},
+
+        ],
+      },
+
+      {
+        kind: "category",
+        name: "Sorting",
+        colour: "#800020",
+        contents: [
+          {kind: "block",type: "initialize_list",},
+          { kind: "block", type: "set_list_element",},
+          {kind: "block",type: "bubble_sort_logic",},
+          {kind: "block",type: "swap_elements",},
+          { kind: "block", type: "for_loop",},
+          
+          { kind: "block", type: "if_statement",},
+          {kind: "block",type: "return_statement",},
+
+          { kind: "block", type: "insertion_sort_logic",},
+          {kind: "block",type: "compare_elements",},
+
+          { kind: "block", type: "merge_sort_logic",},
+          {kind: "block",type: "merge",},
+
+          {kind: "block",type: "quick_sort_logic",},
+          { kind: "block", type: "partition",},
+          {kind: "block",type: "combine",},
+
+          {kind: "block",type: "bubble_sort",},
+          { kind: "block", type: "insertion_sort",},
+          {kind: "block",type: "merge_sort",},
+          {kind: "block",type: "quick_sort",},
+    
         ],
       },
 
       {
         kind: "category",
         name: "File Handling",
-        colour: "#393938",
+        colour: "#7851A9",
         contents: [
           {
             kind: "block",
@@ -406,194 +429,57 @@ export default function App() {
           { kind: "block", type: "get_file_contents",},
           { kind: "block", type: "file_handling_with_input",},
           { kind: "block", type: "print",},
-          { kind: "block", type: "numpy_trigonometric",},
-          { kind: "block", type: "numpy_exp",},
+          { kind: "block", type: "file_exists",},
+          { kind: "block", type: "file_rename",},
+          { kind: "block", type: "file_delete"},
+          { kind: "block", type: "file_size",},
+          { kind: "block", type: "file_extension",},
+          { kind: "block", type: "list_files"},
+          { kind: "block", type: "file_copy",},
+          { kind: "block", type: "file_move"},
         ],
       },
   
-              {
-                kind: "category",
-                name: "Logic Blocks",
-                colour: "rgb(91, 128, 165)",
-                contents: [
-                  {
-                    kind: "block",
-                    type: "arithmetic_operator",
-                  },
-                  {
-                    kind: "block",
-                    type: "comparison_operator",
-                  },
-                  {
-                    kind: "block",
-                    type: "logical_operator",
-                  },
-                  {
-                    kind: "block",
-                    type: "bitwise_operator",
-                  },
-                  {
-                    kind: "block",
-                    type: "assignment_operator",
-                  },
-                  {
-                    kind: "block",
-                    type: "identity_operator",
-                  },
-                  {
-                    kind: "block",
-                    type: "membership_operator",
-                  },
-                ],
-              },
-              {
-                kind: "category",
-                name: "Open CV",
-                colour: "#000",
-                contents: [
-                  {
-                    kind: "block",
-                    type: "cv2_readimage",
-                  },
-                  {
-                    kind: "block",
-                    type: "cv2_showimage",
-                  },
-                  {
-                    kind: "block",
-                    type: "cv2_waitkey",
-                  },
-                  {
-                    kind: "block",
-                    type: "cv2_destroyall",
-                  },
-                  {
-                    kind: "block",
-                    type: "cv2_imagewrite",
-                  },
-                  {
-                    kind: "block",
-                    type: "cv2_capturevideo",
-                  },
-                  {
-                    kind: "block",
-                    type: "cv2_videoread",
-                  },
-                  {
-                    kind: "block",
-                    type: "cv2_cap_release",
-                  },
-                  {
-                    kind: "block",
-                    type: "cv2_capturevideo_file",
-                  },
-                  {
-                    kind: "block",
-                    type: "cv2_waitkey2",
-                  },
-                  {
-                    kind: "block",
-                    type: "cv2_createimage",
-                  },
-                  /*{
-                    kind: "block",
-                    type: "cv2_drawline",
-                  },
-                  {
-                    kind: "block",
-                    type: "cv2_drawrectangle",
-                  },
-                  {
-                    kind: "block",
-                    type: "cv2_puttext",
-                  },
-                  {
-                    kind: "block",
-                    type: "cv2_roi",
-                  },
-                  {
-                    kind: "block",
-                    type: "cv2_roi_affect",
-                  },
-                  {
-                    kind: "block",
-                    type: "cv2_convertimage",
-                  },
-                  {
-                    kind: "block",
-                    type: "cv2_isopen",
-                  },
-                  {
-                    kind: "block",
-                    type: "cv2_imageprop",
-                  },
-                  {
-                    kind: "block",
-                    type: "cv2_imageadditionw",
-                  },
-                  {
-                    kind: "block",
-                    type: "cv2_gettick",
-                  },
-                  {
-                    kind: "block",
-                    type: "cv2_cascadeclassifier",
-                  },
-                  {
-                    kind: "block",
-                    type: "cv2_CascadeClassifier",
-                  },
-                  {
-                    kind: "block",
-                    type: "cv2_detectmultiscale_1p",
-                  },
-                  {
-                    kind: "block",
-                    type: "cv2_detectmultiscale_3p",
-                  },
-                  {
-                    kind: "block",
-                    type: "cv2_calculatediffpercentage",
-                  },
-                  {
-                    kind: "block",
-                    type: "qr_reader_decode",
-                  },
-                  {
-                    kind: "block",
-                    type: "qr_reader_data",
-                  },
-                  {
-                    kind: "block",
-                    type: "cv2_getproplist",
-                  },
-                  {
-                    kind: "block",
-                    type: "cv2_getpropnum",
-                  },
-                  {
-                    kind: "block",
-                    type: "cv2_Setproplist",
-                  },
-                  {
-                    kind: "block",
-                    type: "cv2_SetpropVal",
-                  },
-                  {
-                    kind: "block",
-                    type: "ocr_image_to_string",
-                  },
-                  {
-                    kind: "block",
-                    type: "capture_image_stream",
-                  },
-                  {
-                    kind: "block",
-                    type: "cv2_getproplist",
-                  },*/
-                  
-                ],
-              },
+      {
+        "kind": "category",
+        "name": "Open CV",
+        "colour": "#00AEEF",
+        "contents": [
+          { kind: "block", type: "cv2_readimage", colour: "#6A5ACD" },
+          { "kind": "block", "type": "cv2_showimage", "colour": "#6A5ACD" },
+          { "kind": "block", "type": "cv2_waitkey", "colour": "#6A5ACD" },
+          { "kind": "block", "type": "cv2_destroyall", "colour": "#6A5ACD" },
+          { "kind": "block", "type": "cv2_imagewrite", "colour": "#6A5ACD" },
+          { "kind": "block", "type": "cv2_capturevideo", "colour": "#6A5ACD" },
+          { "kind": "block", "type": "cv2_videoread", "colour": "#6A5ACD" },
+          { "kind": "block", "type": "cv2_cap_release", "colour": "#6A5ACD" },
+          { "kind": "block", "type": "cv2_capturevideo_file", "colour": "#6A5ACD" },
+          { "kind": "block", "type": "cv2_waitkey2", "colour": "#6A5ACD" },
+          { "kind": "block", "type": "cv2_createimage", "colour": "#6A5ACD" },
+          { "kind": "block", "type": "cv2_drawline", "colour": "#6A5ACD" },
+          { "kind": "block", "type": "cv2_puttext", "colour": "#6A5ACD" },
+          { "kind": "block", "type": "cv2_roi", "colour": "#6A5ACD" },
+          { "kind": "block", "type": "cv2_roi_affect", "colour": "#6A5ACD" },
+          { "kind": "block", "type": "cv2_convertimage", "colour": "#6A5ACD" },
+          { "kind": "block", "type": "cv2_isopen", "colour": "#6A5ACD" },
+          { "kind": "block", "type": "cv2_imageprop", "colour": "#6A5ACD" },
+          { "kind": "block", "type": "cv2_imageadditionw", "colour": "#6A5ACD" },
+          { "kind": "block", "type": "cv2_gettick", "colour": "#6A5ACD" },
+          { "kind": "block", "type": "cv2_cascadeclassifier", "colour": "#6A5ACD" },
+          { "kind": "block", "type": "cv2_detectmultiscale_1p", "colour": "#6A5ACD" },
+          { "kind": "block", "type": "cv2_detectmultiscale_3p", "colour": "#6A5ACD" },
+          { "kind": "block", "type": "cv2_calculatediffpercentage", "colour": "#6A5ACD" },
+          { "kind": "block", "type": "qr_reader_decode", "colour": "#6A5ACD" },
+          { "kind": "block", "type": "qr_reader_data", "colour": "#6A5ACD" },
+          { "kind": "block", "type": "cv2_getproplist", "colour": "#6A5ACD" },
+          { "kind": "block", "type": "cv2_getpropnum", "colour": "#6A5ACD" },
+          { "kind": "block", "type": "cv2_Setproplist", "colour": "#6A5ACD" },
+          { "kind": "block", "type": "cv2_SetpropVal", "colour": "#6A5ACD" },
+          { "kind": "block", "type": "ocr_image_to_string", "colour": "#6A5ACD" },
+          { "kind": "block", "type": "capture_image_stream", "colour": "#6A5ACD" }
+        ]
+      }
+      
     ],
   };
   function workspaceDidChange(workspace) {

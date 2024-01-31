@@ -14,7 +14,7 @@ Blockly.Blocks['file_open'] = {
             ['append', 'a']
           ]), 'MODE');
       this.setOutput(true, 'File');
-      this.setColour(230);
+      this.setColour("#3B2F5B");
       this.setTooltip('Open a file with the specified mode.');
     }
   };
@@ -32,7 +32,7 @@ Blockly.Blocks['file_open'] = {
           .setCheck('File')
           .appendField('Read file');
       this.setOutput(true, 'String');
-      this.setColour(230);
+      this.setColour("#3B2F5B");
       this.setTooltip('Read the contents of the file.');
     }
   };
@@ -52,7 +52,7 @@ Blockly.Blocks['file_open'] = {
           .appendField('to file');
       this.setPreviousStatement(true, null);
       this.setNextStatement(true, null);
-      this.setColour(230);
+      this.setColour("#3B2F5B");
       this.setTooltip('Write content to the file.');
     }
   };
@@ -70,7 +70,7 @@ Blockly.Blocks['file_open'] = {
           .appendField('Close file');
       this.setPreviousStatement(true, null);
       this.setNextStatement(true, null);
-      this.setColour(230);
+      this.setColour("#3B2F5B");
       this.setTooltip('Close the file.');
     }
   };
@@ -85,7 +85,7 @@ Blockly.Blocks['file_open'] = {
       this.appendDummyInput()
           .appendField('Enter the contents for the file:');
       this.setOutput(true, 'String');
-      this.setColour(230);
+      this.setColour("#3B2F5B");
       this.setTooltip('Get input for file contents.');
     }
   };
@@ -104,7 +104,7 @@ Blockly.Blocks['file_open'] = {
           .appendField(new Blockly.FieldTextInput('filename.txt'), 'FILENAME');
       this.setPreviousStatement(true, null);
       this.setNextStatement(true, null);
-      this.setColour(230);
+      this.setColour("#3B2F5B");
       this.setTooltip('Write contents to a file.');
     }
   };
@@ -123,7 +123,8 @@ Blockly.Blocks['file_open'] = {
           .appendField('Print');
       this.setPreviousStatement(true, null);
       this.setNextStatement(true, null);
-      this.setColour(160);
+    
+      this.setColour("#3B2F5B");
       this.setTooltip('Print a message.');
     }
   };
@@ -132,4 +133,147 @@ Blockly.Blocks['file_open'] = {
     return 'print(' + text + ')\n';
   };
   
+  Blockly.Blocks['file_exists'] = {
+    init: function() {
+      this.appendValueInput('FILENAME')
+          .setCheck('String')
+          .appendField('File exists?');
+      this.setOutput(true, 'Boolean');
+      this.setColour("#3B2F5B");
+      this.setTooltip('Check if a file exists.');
+    }
+  };
+
+  Blockly.Python['file_exists'] = function(block) {
+    var filename = Blockly.Python.valueToCode(block, 'FILENAME', Blockly.Python.ORDER_ATOMIC) || '""';
+    return [`os.path.exists(${filename})`, Blockly.Python.ORDER_ATOMIC];
+  };
+
+  Blockly.Blocks['file_rename'] = {
+    init: function() {
+      this.appendValueInput('OLD_FILENAME')
+          .setCheck('String')
+          .appendField('Rename file');
+      this.appendValueInput('NEW_FILENAME')
+          .setCheck('String')
+          .appendField('to');
+      this.setPreviousStatement(true, null);
+      this.setNextStatement(true, null);
+      this.setColour("#3B2F5B");
+      this.setTooltip('Rename a file.');
+    }
+  };
+
+  Blockly.Python['file_rename'] = function(block) {
+    var oldFilename = Blockly.Python.valueToCode(block, 'OLD_FILENAME', Blockly.Python.ORDER_ATOMIC) || '""';
+    var newFilename = Blockly.Python.valueToCode(block, 'NEW_FILENAME', Blockly.Python.ORDER_ATOMIC) || '""';
+    return `os.rename(${oldFilename}, ${newFilename})\n`;
+  };
+
+  Blockly.Blocks['file_delete'] = {
+    init: function() {
+      this.appendValueInput('FILENAME')
+          .setCheck('String')
+          .appendField('Delete file');
+      this.setPreviousStatement(true, null);
+      this.setNextStatement(true, null);
+      this.setColour("#3B2F5B");
+      this.setTooltip('Delete a file.');
+    }
+  };
+
+  Blockly.Python['file_delete'] = function(block) {
+    var filename = Blockly.Python.valueToCode(block, 'FILENAME', Blockly.Python.ORDER_ATOMIC) || '""';
+    return `os.remove(${filename})\n`;
+  };
+  
+  Blockly.Blocks['file_size'] = {
+    init: function() {
+      this.appendValueInput('FILENAME')
+          .setCheck('String')
+          .appendField('File size (bytes)');
+      this.setOutput(true, 'Number');
+      this.setColour("#3B2F5B");
+      this.setTooltip('Get the size of a file in bytes.');
+    }
+  };
+
+  Blockly.Python['file_size'] = function(block) {
+    var filename = Blockly.Python.valueToCode(block, 'FILENAME', Blockly.Python.ORDER_ATOMIC) || '""';
+    return [`os.path.getsize(${filename})`, Blockly.Python.ORDER_ATOMIC];
+  };
+
+  Blockly.Blocks['file_extension'] = {
+    init: function() {
+      this.appendValueInput('FILENAME')
+          .setCheck('String')
+          .appendField('File extension');
+      this.setOutput(true, 'String');
+      this.setColour("#3B2F5B");
+      this.setTooltip('Get the extension of a file.');
+    }
+  };
+
+  Blockly.Python['file_extension'] = function(block) {
+    var filename = Blockly.Python.valueToCode(block, 'FILENAME', Blockly.Python.ORDER_ATOMIC) || '""';
+    return [`os.path.splitext(${filename})[1]`, Blockly.Python.ORDER_ATOMIC];
+  };
+
+  Blockly.Blocks['list_files'] = {
+    init: function() {
+      this.appendValueInput('DIRECTORY')
+          .setCheck('String')
+          .appendField('List files in directory');
+      this.setOutput(true, 'Array');
+      this.setColour("#3B2F5B");
+      this.setTooltip('List all files in a directory.');
+    }
+  };
+
+  Blockly.Python['list_files'] = function(block) {
+    var directory = Blockly.Python.valueToCode(block, 'DIRECTORY', Blockly.Python.ORDER_ATOMIC) || '""';
+    return [`os.listdir(${directory})`, Blockly.Python.ORDER_ATOMIC];
+  };
+  
+  Blockly.Blocks['file_copy'] = {
+    init: function() {
+      this.appendValueInput('SOURCE')
+          .setCheck('String')
+          .appendField('Copy file');
+      this.appendValueInput('DESTINATION')
+          .setCheck('String')
+          .appendField('to destination');
+      this.setPreviousStatement(true, null);
+      this.setNextStatement(true, null);
+      this.setColour("#3B2F5B");
+      this.setTooltip('Copy a file from source to destination.');
+    }
+  };
+
+  Blockly.Python['file_copy'] = function(block) {
+    var source = Blockly.Python.valueToCode(block, 'SOURCE', Blockly.Python.ORDER_ATOMIC) || '""';
+    var destination = Blockly.Python.valueToCode(block, 'DESTINATION', Blockly.Python.ORDER_ATOMIC) || '""';
+    return `shutil.copy(${source}, ${destination})\n`;
+  };
+
+  Blockly.Blocks['file_move'] = {
+    init: function() {
+      this.appendValueInput('SOURCE')
+          .setCheck('String')
+          .appendField('Move file');
+      this.appendValueInput('DESTINATION')
+          .setCheck('String')
+          .appendField('to destination');
+      this.setPreviousStatement(true, null);
+      this.setNextStatement(true, null);
+      this.setColour("#3B2F5B");
+      this.setTooltip('Move or rename a file.');
+    }
+  };
+
+  Blockly.Python['file_move'] = function(block) {
+    var source = Blockly.Python.valueToCode(block, 'SOURCE', Blockly.Python.ORDER_ATOMIC) || '""';
+    var destination = Blockly.Python.valueToCode(block, 'DESTINATION', Blockly.Python.ORDER_ATOMIC) || '""';
+    return `shutil.move(${source}, ${destination})\n`;
+  };
   

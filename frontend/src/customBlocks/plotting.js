@@ -13,7 +13,7 @@ Blockly.Blocks['matplotlib_title'] = {
       this.setInputsInline(true);
       this.setPreviousStatement(true, null);
       this.setNextStatement(true, null);
-      this.setColour("#393938");
+      this.setColour("#004D3B");
       this.setTooltip("Set title for matplotlib plot");
       this.setHelpUrl("");
     }
@@ -38,7 +38,7 @@ Blockly.Blocks['matplotlib_title'] = {
       this.setInputsInline(true);
       this.setPreviousStatement(true, null);
       this.setNextStatement(true, null);
-      this.setColour("#393938");
+      this.setColour("#004D3B");
       this.setTooltip("Set X label for matplotlib plot");
       this.setHelpUrl("");
     }
@@ -63,7 +63,7 @@ Blockly.Blocks['matplotlib_title'] = {
       this.setInputsInline(true);
       this.setPreviousStatement(true, null);
       this.setNextStatement(true, null);
-      this.setColour("#393938");
+      this.setColour("#004D3B");
       this.setTooltip("Set Y label for matplotlib plot");
       this.setHelpUrl("");
     }
@@ -82,7 +82,7 @@ Blockly.Blocks['matplotlib_title'] = {
           .appendField("Show Plot");
       this.setPreviousStatement(true, null);
       this.setNextStatement(true, null);
-      this.setColour("#393938");
+      this.setColour("#004D3B");
       this.setTooltip("Display the matplotlib plot");
       this.setHelpUrl("");
     }
@@ -114,7 +114,7 @@ Blockly.Blocks['matplotlib_title'] = {
           .appendField("");
       this.setInputsInline(true);  // Set as inline block
       this.setOutput(true, null);  // This block can be used as an input
-      this.setColour("#393938");
+      this.setColour("#004D3B");
       this.setTooltip("Create an array of evenly spaced values using NumPy linspace");
       this.setHelpUrl("");
     }
@@ -149,7 +149,7 @@ Blockly.Blocks['matplotlib_title'] = {
           .appendField("");
       this.setInputsInline(true);  // Set as inline block
       this.setOutput(true, null);  // This block can be used as an input
-      this.setColour("#393938");
+      this.setColour("#004D3B");
       this.setTooltip("Create an array with evenly spaced values using NumPy arange");
       this.setHelpUrl("");
     }
@@ -175,7 +175,7 @@ Blockly.Blocks['matplotlib_title'] = {
           .appendField("");
       this.setInputsInline(true);  // Set as inline block
       this.setOutput(true, null);  // This block can be used as an input
-      this.setColour("#393938");
+      this.setColour("#004D3B");
       this.setTooltip("NumPy.array");
       this.setHelpUrl("");
     }
@@ -201,7 +201,7 @@ Blockly.Blocks['matplotlib_title'] = {
           ]), "FUNCTION");
       this.setInputsInline(true);  // Set as inline block
       this.setOutput(true, "Array");  // This block outputs an array
-      this.setColour("#393938");
+      this.setColour("#004D3B");
       this.setTooltip("Apply trigonometric function from NumPy");
       this.setHelpUrl("");
     }
@@ -224,7 +224,7 @@ Blockly.Blocks['matplotlib_title'] = {
           .appendField("");
       this.setInputsInline(true);  // Set as inline block
       this.setOutput(true, "Array");  // This block outputs an array
-      this.setColour("#393938");
+      this.setColour("#004D3B");
       this.setTooltip("Apply exponential function from NumPy");
       this.setHelpUrl("");
     }
