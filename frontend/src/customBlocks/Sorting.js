@@ -163,7 +163,7 @@ Blockly.Blocks['if_statement'] = {
   this.appendStatementInput('DO')
   .appendField('do');
   this.setPreviousStatement(true, null);
-  this.setColour(230);
+  this.setColour("#4C000C");
   this.setTooltip('If Statement');
   }
   };

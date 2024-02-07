@@ -1,16 +1,18 @@
 import "./App.css";
-import "./customBlocks/custom_Blocks";
 import React, { useRef, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { BlocklyWorkspace } from "react-blockly";
 import Blockly from "blockly";
 import BlocklyDuino from "react-blockly";
-import "./customBlocks/LogicBlocks.js";
 import logo from './component/code_asthram.png';
 import html2canvas from 'html2canvas';
 import "./css/bootstrap.min.3.3.6.css";
 import "./css/blocklino.css";
 import { toggleModal } from "./scripts/buttonFunctions";
+
+
+import "./customBlocks/custom_Blocks";
+import "./customBlocks/LogicBlocks.js";
 import "./customBlocks/openCv.js";
 import "./customBlocks/turtleBlocks.js";
 import "./customBlocks/plotting.js";
@@ -19,7 +21,7 @@ import "./customBlocks/Structure.js";
 import "./customBlocks/fileHandling.js";
 import "./customBlocks/Variable.js";
 import "./customBlocks/Sorting.js";
-import "./customBlocks/Functions.js"
+import "./customBlocks/Functions.js";
 
 
 export default function App() {
@@ -361,6 +363,33 @@ export default function App() {
 
       {
         kind: "category",
+        name: "Sorting",
+        colour: "#800020",
+        contents: [
+          {kind: "block",type: "initialize_array",},
+          { kind: "block", type: "set_list_element",},
+        {kind: "block",type: "bubble_sort_logic",},
+          {kind: "block",type: "swap_elements",},
+          { kind: "block", type: "for_loop",},
+          { kind: "block", type: "if_statement",},
+          {kind: "block",type: "return_statement",},
+          { kind: "block", type: "insertion_sort_logic",},
+          {kind: "block",type: "compare_elements",},
+          { kind: "block", type: "merge_sort_logic",},
+          {kind: "block",type: "merge",},
+          {kind: "block",type: "quick_sort_logic",},
+          { kind: "block", type: "partition",},
+          {kind: "block",type: "combine",},
+          {kind: "block",type: "bubble_sort",},
+          { kind: "block", type: "insertion_sort",},
+          {kind: "block",type: "merge_sort",},
+        {kind: "block",type: "quick_sort",}
+    
+        ],
+      },
+
+      {
+        kind: "category",
         name: "System Functions",
         colour: "#FF4500",
         contents: [
@@ -379,37 +408,7 @@ export default function App() {
         ],
       },
 
-      {
-        kind: "category",
-        name: "Sorting",
-        colour: "#800020",
-        contents: [
-          {kind: "block",type: "initialize_list",},
-          { kind: "block", type: "set_list_element",},
-          {kind: "block",type: "bubble_sort_logic",},
-          {kind: "block",type: "swap_elements",},
-          { kind: "block", type: "for_loop",},
-          
-          { kind: "block", type: "if_statement",},
-          {kind: "block",type: "return_statement",},
-
-          { kind: "block", type: "insertion_sort_logic",},
-          {kind: "block",type: "compare_elements",},
-
-          { kind: "block", type: "merge_sort_logic",},
-          {kind: "block",type: "merge",},
-
-          {kind: "block",type: "quick_sort_logic",},
-          { kind: "block", type: "partition",},
-          {kind: "block",type: "combine",},
-
-          {kind: "block",type: "bubble_sort",},
-          { kind: "block", type: "insertion_sort",},
-          {kind: "block",type: "merge_sort",},
-          {kind: "block",type: "quick_sort",},
-    
-        ],
-      },
+     
 
       {
         kind: "category",
