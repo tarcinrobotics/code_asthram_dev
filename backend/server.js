@@ -7,6 +7,10 @@ var multer = require("multer"),
   bodyParser = require("body-parser"),
   path = require("path");
 
+  const fs = require("fs");
+  const https = require("https");
+
+
 const mongoose = require("mongoose");
 const mongoURI =
   "mongodb+srv://tarcinrobotics301:tarcinrobotics301@cluster0.kpaipm9.mongodb.net/?retryWrites=true&w=majority";
@@ -15,6 +19,11 @@ mongoose.connect(mongoURI, {
   useUnifiedTopology: true,
 });
  
+app.use(cors({
+  origin: 'http://localhost:3000'
+}));
+
+
 const User = require('./userModel.js');
 
 async function insert() {
@@ -59,7 +68,6 @@ mongoose.connection.on("error", (err) => {
   console.error(`MongoDB connection error: ${err}`);
 });
 
-var fs = require("fs");
 var product = require("./model/product.js");
 var user = require("./model/user.js");
 
@@ -503,6 +511,10 @@ app.get("/get-product", (req, res) => {
   }
 });
 
-app.listen(2000, () => {
+
+// start HTTPS server
+const PORT = 2000;
+
+app.listen(PORT, () => {
   console.log("Server is Runing On port 2000");
 });

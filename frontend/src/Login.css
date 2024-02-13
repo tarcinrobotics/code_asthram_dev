@@ -13,6 +13,7 @@ body, html {
   }
 
   .whole {
+	/*background-color: #002244 ;*/
 	background-image: url(./media/backgroundtexture.png);
   }
 .container {

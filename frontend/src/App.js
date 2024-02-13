@@ -643,13 +643,13 @@ export default function App() {
             grid: {
               spacing: 20,
               length: 3,
-              colour: "#ccc",
+              colour: "#002244 ",
               snap: true,
             },
           }}
           onWorkspaceChange={workspaceDidChange}
           onXmlChange={setXml}
-          style={{backgroundColor: "#ffffff", border:"none"}}
+          style={{backgroundColor: "#002244 ", border:"none"}}
         >
         <div
     slot="toolbox"
