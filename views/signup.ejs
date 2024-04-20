@@ -3,24 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="public/style.css">
+    <link rel="stylesheet" href="/style.css">
     <title>Signup</title>
 </head>
 <body>
     <div class="form-container">
-        <h2>Signup</h2>
-        <form action="/signup" method="post">
+        <img src="code_asthram.png" alt="caption" class="img5">
+        <form action="/login" method="post">
             <div class="form-group">
-            <label for="group">Create a Name</label>
-            <input type="text" id="name" name="username" placeholder="Enter your name" required autocomplete="off">
+                <label for="name"><i class="fas fa-user" style="color: black;"></i></label>
+                <input type="text" id="name" name="username" placeholder="Enter your Username" required autocomplete="off">
             </div>
-            <div class="form-group">
-                <label for="password">Create a Password:</label>
+            <div class="form-group">    
+                <label for="password"><i class="fas fa-lock" style="color: black;"></i></label>
                 <input type="password"  name="password" id="password" placeholder="password" required>
             </div>
-            <button type="submit"  class="submit-btn">Signup</button>
+            <button type="submit" class="submit-btn">signup</button>
         </form>
-        
+        <p>already have an account <a href="/signup">login</a></p>
     </div>
 </body>
 </html>
