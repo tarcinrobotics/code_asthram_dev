@@ -1,0 +1,21 @@
+ <!-- Add the following HTML to include the images -->
+    <div class="screen__background">
+        <span class="screen__background__shape screen__background__shape4"></span>
+        <span class="screen__background__shape screen__background__shape3"></span>
+        <span class="screen__background__shape screen__background__shape2"></span>
+        <span class="screen__background__shape screen__background__shape1"></span>
+    </div>
+    <div class="rightbody" style="display: flex; height: 100vh; width: 850px; position: absolute; left: 400px;">
+        <div class="tarcin-product" style="display: flex; position: absolute; right: 0; top: 10%;">
+            <img src="./media/tarproduct.jpg" style="height: 400px; width: 800px; transition: transform 0.2s; cursor: pointer;" alt="tarproduct" onmouseover="this.style.transform='scale(1.1)'" onmouseout="this.style.transform='scale(1)'">
+        </div>
+        <div class="tarcin-quote" style="display: flex; position: absolute; right: 5%; top: 35%;">
+            <img src="./media/quote.jpg" style="height: 300px; width: 700px; transition: transform 0.2s; cursor: pointer;" alt="quote" onmouseover="this.style.transform='scale(1.1)'" onmouseout="this.style.transform='scale(1)'">
+        </div>
+        <div class="eva-gif" style="position: absolute; display: flex; right: 0;">
+            <img src="./media/eve.gif" style="height: 150px; width: 150px;">
+        </div>
+        <footer style="position: absolute; bottom: 20%; left: 30%; display: flex;">
+            <img src="./media/copy.png" style="height: 150px; width: 350px; transition: transform 0.2s; cursor: pointer;" onmouseover="this.style.transform='scale(1.1)'" onmouseout="this.style.transform='scale(1)'">
+        </footer>
+    </div>

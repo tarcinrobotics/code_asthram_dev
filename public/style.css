@@ -12,19 +12,18 @@ body {
 }
 
 .form-container {
-  background-color: rgba(209, 205, 205, 0.3); /* Semi-transparent white background */
-  border-radius: 8px;
+  top: 20%;
+  background-color: rgba(209, 205, 205, 0.1); /* Semi-transparent white background */
+  border-radius: 15px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.8); /* Stronger shadow */
-  border: 1px solid #ccc; /* Border */
+  border: 1px solid #212020; /* Border */
   padding: 20px;
   width: 360px;
   height: 500px;
   margin: 0; /* Remove default margin */
-  margin-left: 146px; /* Adjust to move the form container to the left */
-  text-align: center; /* Align text to the left */
+  margin-left: 127px; /* Adjust to move the form container to the left */
+  text-align: left; /* Align text to the left */
 }
-
-
 
 h2 {
   margin-bottom: 20px; /* Add space below the h2 */
@@ -43,45 +42,48 @@ label {
 }
 
 input {
-  width: calc(100% - 16px); /* Adjust for padding and border */
-  padding: 10px;
-  margin-bottom: 15px; /* Add space between each input field */
-  box-sizing: border-box;
-  border: 1px solid #ccc;
-  background-color: #f9f9f9; /* Light gray background */
-  border-radius: 4px;
+  width: calc(100% - 5px); /* Adjust for padding and border */
+  padding: 20px 0; /* Adjust vertical padding to center the content vertically */
+  margin-bottom: 10px; /* Add space between each input field */
+  border: none; /* Remove border */
+  border-bottom: 1px solid #000000; /* Add bottom border */
+  background-color: transparent; /* Make background transparent */
   font-size: 14px;
   transition: border-color 0.3s ease; /* Smooth transition for border color change */
+  outline: none; /* Remove default focus outline */
 }
 
 
 input:focus {
-  border-color: #4caf50; /* Change border color on focus */
-  outline: none; /* Remove default focus outline */
+  border-bottom-color: #dddddd; /* Change bottom border color on focus */
 }
 
 button {
-  background-color: #4caf50;
-  color: #fff;
-  padding: 10px 20px;
+  background-color: #c0c0c0;
+  color: #050505;
+  padding: 10px 100px;
   border: none;
-  border-radius: 4px;
+  border-radius: 10px;
   cursor: pointer;
-  font-size: 16px;
+  font-size: 14px;
+  font-weight: bold;
   transition: background-color 0.3s ease; /* Smooth transition for background color change */
 }
 
 button:hover {
-  background-color: #45a049;
+  background-color:  #070381;
+  color: #dddddd;
 }
 
 a {
   text-decoration: none;
-  color: #4caf50;
+  color: #ffffff;
+  font-weight: bolder;
 }
 
 a:hover {
   text-decoration: underline;
+  color:#756de4;
 }
 
 
@@ -127,7 +129,8 @@ a:hover {
 
 .img5{
   width: 50%;
-  color: #333;
+  
+  margin-top: 20%;
 } 
 /* Icon styles */
 label i {
