@@ -15,10 +15,10 @@ body {
   top: 20%;
   background-color: rgba(209, 205, 205, 0.1); /* Semi-transparent white background */
   border-radius: 15px;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.8); /* Stronger shadow */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.9); /* Stronger shadow */
   border: 1px solid #212020; /* Border */
   padding: 20px;
-  width: 360px;
+  width: 340px;
   height: 500px;
   margin: 0; /* Remove default margin */
   margin-left: 127px; /* Adjust to move the form container to the left */
@@ -44,7 +44,7 @@ label {
 input {
   width: calc(100% - 5px); /* Adjust for padding and border */
   padding: 20px 0; /* Adjust vertical padding to center the content vertically */
-  margin-bottom: 10px; /* Add space between each input field */
+  margin-bottom: 1px; /* Add space between each input field */
   border: none; /* Remove border */
   border-bottom: 1px solid #000000; /* Add bottom border */
   background-color: transparent; /* Make background transparent */
@@ -71,7 +71,7 @@ button {
 }
 
 button:hover {
-  background-color:  #070381;
+  background-color:  #4d4d4d;
   color: #dddddd;
 }
 
@@ -134,11 +134,62 @@ a:hover {
 } 
 /* Icon styles */
 label i {
-  margin-right: 10px; /* Adjust spacing between icon and input field */
+  margin-right: 1px; /* Adjust spacing between icon and input field */
+
 }
 
 /* Adjust input field width to accommodate icon */
 input {
   width: calc(100% - 40px); /* Adjust for icon width and padding */
   padding-left: 30px; /* Add padding to the left to create space for the icon */
+}
+.input-container {
+    position: relative;
+    margin-bottom: 20px; /* Adjust spacing between input fields */
+}
+
+.input-container label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+.input-container input {
+  width: calc(100% - 40px); /* Adjust input width */
+  padding: 10px 30px; /* Adjust input padding */
+  margin-bottom: 10px;
+  border: none;
+  border-bottom: 1px solid #000000;
+  background-color: transparent;
+  font-size: 14px;
+  transition: border-color 0.3s ease;
+  outline: none;
+}
+
+.input-container input:focus {
+    border-bottom-color: #dddddd;
+}
+
+.input-container i {
+    position: absolute;
+    top: 50%;
+    color: black;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.input-container i.fa-user {
+  left: 5px; /* Adjust left position */
+  transform: translateY(-50%);
+}
+
+.input-container i.fa-lock {
+  left: 5px; /* Adjust left position */
+  transform: translateY(-50%);
+}
+
+.input-container i.fa-eye {
+    right: 10px; /* Align to the right */
+    transform: translateY(-50%);
 }

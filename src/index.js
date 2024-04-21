@@ -45,8 +45,8 @@ app.post("/signup", async (req, res) => {
             const hashedPassword = await bcrypt.hash(data.password, saltRounds);
             data.password = hashedPassword;
 
-            // Insert user data into the database
-            await collection.insertOne(data);
+            // Insert user data into the database using Mongoose's create method
+            await collection.create(data);
             console.log("User registered successfully.");
 
             // Redirect to login page
