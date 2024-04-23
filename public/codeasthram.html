@@ -2,6 +2,17 @@
 <html>
 
 <head>
+	<script type="text/javascript">
+	// Check if developer tools are open
+	window.addEventListener('devtoolschange', event => {
+    // Developer tools opened, take action
+    alert("Developer tools are not allowed on this website.");
+    // Or redirect the user
+    window.location.href = "https://tarcin.in";
+});
+	
+	</script>
+
 	<link rel="icon" type="image/png" href="media/favicon.png" />
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<title>Code Asthram</title>
@@ -18,21 +29,22 @@
 	<script type="text/javascript" src="js/bootstrap.toggle.min.js"></script>
 	<script type="text/javascript" src="js/bootstrap.min.3.3.6.js"></script>
 	<script type="text/javascript" src="js/prettify.min.js"></script>
-	<script type="text/javascript" src="blocs&generateurs/blockly_blocs.js"></script>
-	<script type="text/javascript" src="blocs&generateurs/arduino_blocs.js"></script>
-	<script type="text/javascript" src="blocs&generateurs/arduino_generateurs_cpp.js"></script>
-	<script type="text/javascript" src="blocs&generateurs/arduino_generateurs_python.js"></script>
-	<script type="text/javascript" src="blocs&generateurs/blockly_generateurs_cpp.js"></script>
-	<script type="text/javascript" src="blocs&generateurs/blockly_generateurs_python.js"></script>
+	<script type="text/javascript" src="bl & gs/block_blocs.js"></script>
+	<script type="text/javascript" src="bl & gs/arduino_blocs.js"></script>
+	<script type="text/javascript" src="bl & gs/arduino_generateurs_cpp.js"></script>
+	<script type="text/javascript" src="bl & gs/arduino_generateurs_python.js"></script>
+	<script type="text/javascript" src="bl & gs/block_generateurs_cpp.js"></script>
+	<script type="text/javascript" src="bl & gs/blockly_generateurs_python.js"></script>
 
 	<script type="text/javascript" src="js/typing.js"></script>
 	<script type="text/javascript" src="lang/code.js"></script>
 	<script type="text/javascript" src="js/hexlify.js"></script>
 	<script type="text/javascript" src="js/intel-hex.browser.js"></script>
 	<script type="text/javascript" src="js/ace.js"></script>
-	<script type="text/javascript" src="rightclick.js"></script> 
-	<script type="text/javascript" src="shortcut.js"></script>
+	<script type="text/javascript" src="js/rightclick.js"></script> 
+	<script type="text/javascript" src="js/shortcut.js"></script>
 	<script type="text/javascript" src="js/ext-language_tools.js"></script>
+	<script type="text/javascript" src="js/developer.js"></script>
 <!--  log out script for an individual user  -->	
 	<script>
 		// Function to perform logout actions
@@ -53,6 +65,8 @@
 	<noscript>
 		<div><img src="https://mc.yandex.ru/watch/51834545" style="position:absolute; left:-9999px;" alt="" /></div>
 	</noscript> <!-- /Yandex.Metrika counter -->
+
+	
 
 </head>
 <style>
