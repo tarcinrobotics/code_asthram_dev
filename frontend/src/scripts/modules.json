@@ -1,0 +1,95 @@
+
+[
+    {
+      "name": "Loops",
+      "projects": [
+        {"id": "1", 
+        "name": "Factorial Calculator", 
+        "image": "https://github.com/mohamedarsath18/pyprojects/blob/main/Loop%20Functions/Factorial%20Calculator.png?raw=true",
+        "hints": [
+          "Hint 1: Consider the color palette.",
+          "Hint 2: Pay attention to symmetry.",
+          "Hint 3: Save your work frequently."
+        ]},
+        {"id": "2", 
+        "name": "Power Calculator", 
+        "image": "https://github.com/mohamedarsath18/pyprojects/blob/main/Loop%20Functions/Power%20Calculator.png?raw=true"},
+        {"id": "3", 
+        "name": "Prime Number Checker", 
+        "image": "https://github.com/mohamedarsath18/pyprojects/blob/main/Loop%20Functions/Prime%20Number%20Checker.png?raw=true"}
+
+      ]
+    },
+    {
+      "name": "Math Functions",
+      "projects": [
+        {"id": "4", "name": "Exponential Calculator", "image": "https://github.com/mohamedarsath18/pyprojects/blob/main/Math%20Functions/Exponential%20Calculator.png?raw=true"},
+        {"id": "5", "name": "Factorial Calculator", "image": "https://github.com/mohamedarsath18/pyprojects/blob/main/Math%20Functions/Factorial%20Calculator.png?raw=true"},
+        {"id": "6", "name": "Greatest Common Divisor (GCD) Finder", "image": "https://github.com/mohamedarsath18/pyprojects/blob/main/Math%20Functions/Greatest%20Common%20Divisor%20(GCD)%20Finder.png?raw=true"},
+        {"id": "7", "name": "Triangle Area Calculator.png", "image": "https://github.com/mohamedarsath18/pyprojects/blob/main/Math%20Functions/Triangle%20Area%20Calculator.png?raw=true"}
+      ]
+    },
+    {
+      "name": "Text functions",
+      "projects": [
+        {"id": "4", "name": "Character Count", "image": "https://github.com/mohamedarsath18/pyprojects/blob/main/Text%20functions/Character%20Count.png?raw=true"},
+        {"id": "5", "name": "List Length Calculator", "image": "https://github.com/mohamedarsath18/pyprojects/blob/main/Text%20functions/List%20Length%20Calculator.png?raw=true"},
+        {"id": "6", "name": "List Summation", "image": "https://github.com/mohamedarsath18/pyprojects/blob/main/Text%20functions/List%20Summation.png?raw=true"},
+        {"id": "4", "name": "Reverse Text", "image": "https://github.com/mohamedarsath18/pyprojects/blob/main/Text%20functions/Reverse%20Text.png?raw=true"},
+        {"id": "5", "name": "Text Capitalizer", "image": "https://github.com/mohamedarsath18/pyprojects/blob/main/Text%20functions/Text%20Capitalizer.png?raw=true"},
+        {"id": "6", "name": "Text Repeater", "image": "https://github.com/mohamedarsath18/pyprojects/blob/main/Text%20functions/Text%20Repeater.png?raw=true"},
+        {"id": "7", "name": "Word Count Tool", "image": "https://github.com/mohamedarsath18/pyprojects/blob/main/Text%20functions/Word%20Count%20Tool.png?raw=true"}
+      ]
+    },
+    {
+      "name": "Lists",
+      "projects": [
+        {"id": "4", "name": "List Length Calculator", "image": "https://github.com/mohamedarsath18/pyprojects/blob/main/Lists/List%20Length%20Calculator.png?raw=true"},
+        {"id": "5", "name": "List Summation", "image": "https://github.com/mohamedarsath18/pyprojects/blob/main/Lists/List%20Summation.png?raw=true"}
+      ]
+    },
+    {
+      "name": "Turtle",
+      "projects": [
+        {"id": "4", "name": "Draw a Circle", "image": "https://github.com/mohamedarsath18/pyprojects/blob/main/Turtle/Draw%20a%20Circle.png?raw=true"},
+        {"id": "5", "name": "Draw a Square", "image": "https://github.com/mohamedarsath18/pyprojects/blob/main/Turtle/turtle-square.png?raw=true"},
+        {"id": "6", "name": "Draw a Star", "image": "https://github.com/mohamedarsath18/pyprojects/blob/main/Turtle/turtle-square.png?raw=true"},
+        {"id": "4", "name": "Draw a Triangle", "image": "https://github.com/mohamedarsath18/pyprojects/blob/main/Turtle/Draw%20a%20Triangle.png?raw=true"},
+        {"id": "5", "name": "Draw a Parallelogram", "image": "https://github.com/mohamedarsath18/pyprojects/blob/main/Turtle/Draw%20a%20Parallelogram.png?raw=true"},
+        {"id": "6", "name": "Draw a Polygon", "image": "https://github.com/mohamedarsath18/pyprojects/blob/main/Turtle/Draw%20a%20Polygon.png?raw=true"},
+        {"id": "4", "name": "Drawing a alphabet A", "image": "https://github.com/mohamedarsath18/pyprojects/blob/main/Turtle/Drawing%20a%20alphabet%20A.png?raw=true"},
+        {"id": "5", "name": "Drawing a Concentric Circles", "image": "https://github.com/mohamedarsath18/pyprojects/blob/main/Turtle/Drawing%20a%20Concentric%20Circles.png?raw=true"},
+        {"id": "6", "name": "Drawing a Fractal tree", "image": "https://github.com/mohamedarsath18/pyprojects/blob/main/Turtle/Drawing%20a%20Fractal%20tree.png?raw=true"}
+      ]
+    },
+    {
+      "name": "Sorting",
+      "projects": [
+        {"id": "4", "name": "Sorting Alphabets and Random Numbers", "image": "https://github.com/mohamedarsath18/pyprojects/blob/main/Sorting/Sorting%20Alphabets%20and%20Random%20Numbers.png?raw=true"},
+        {"id": "5", "name": "Sorting by length", "image": "https://github.com/mohamedarsath18/pyprojects/blob/main/Sorting/Sorting%20by%20length.png?raw=true"},
+        {"id": "6", "name": "Bubble Sort", "image": "https://github.com/mohamedarsath18/pyprojects/blob/main/Plotting/Bubble%20Sort.png?raw=true"},
+        {"id": "7", "name": "Sorting List of Tuples by Second Element", "image": "https://github.com/mohamedarsath18/pyprojects/blob/main/Plotting/Sorting%20List%20of%20Tuples%20by%20Second%20Element.png?raw=true"}
+      ]
+    },
+    {
+      "name": "Plotting",
+      "projects": [
+        {"id": "4", "name": "Finding the average length of the String in the list", "image": "https://github.com/mohamedarsath18/pyprojects/blob/main/Plotting/Finding%20the%20average%20length%20of%20the%20String%20in%20the%20list.png?raw=true"},
+        {"id": "5", "name": "Plotting line graph using NUMPY AND MATPLOTLIB", "image": "https://github.com/mohamedarsath18/pyprojects/blob/main/Plotting/PLOTTING%20LINE%20GRAPH%20USING%20NUMPY%20AND%20MATPLOTLIB.png?raw=true"},
+        {"id": "6", "name": "Plot the Sine Function", "image": "https://github.com/mohamedarsath18/pyprojects/blob/main/Plotting/Plot%20the%20Sine%20Function.png?raw=true"},
+        {"id": "7", "name": "Reversing the array", "image": "https://github.com/mohamedarsath18/pyprojects/blob/main/Plotting/Reversing%20the%20array.png?raw=true"},
+        {"id": "4", "name": "simple line plot", "image": "https://github.com/mohamedarsath18/pyprojects/blob/main/Plotting/simple%20line%20plot.png?raw=true"},
+        {"id": "4", "name": "two subplots in a single figure", "image": "https://github.com/mohamedarsath18/pyprojects/blob/main/Plotting/two%20subplots%20in%20a%20single%20figure.png?raw=true"}
+      ]
+    },
+    {
+      "name": "Numpy",
+      "projects": [
+        {"id": "4", "name": "Arranging the elements within the range", "image": "https://github.com/mohamedarsath18/pyprojects/blob/main/Numpy/Arranging%20the%20elements%20within%20the%20range.png?raw=true"},
+        {"id": "5", "name": "Creating and accesing elements of Numpy Array", "image": "https://github.com/mohamedarsath18/pyprojects/blob/main/Numpy/Creating%20and%20accesing%20elements%20of%20Numpy%20Array.png?raw=true"},
+        {"id": "6", "name": "Linspace in Numpy", "image": "https://github.com/mohamedarsath18/pyprojects/blob/main/Numpy/Linspace%20in%20Numpy.png?raw=true"},
+        {"id": "7", "name": "Print Sum,Min,Max and Index of max Value", "image": "https://github.com/mohamedarsath18/pyprojects/blob/main/Numpy/Print%20Sum,Min,Max%20and%20Index%20of%20max%20Value.png?raw=true"}
+      ]
+    }
+  ]
+  

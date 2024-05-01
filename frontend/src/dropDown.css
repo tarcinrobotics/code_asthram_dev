@@ -1,0 +1,82 @@
+.dropdown-container {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  width: 100%;
+  margin-right: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  z-index: 100;
+}
+
+.dropdown-select {
+  width: 200px; /* Fixed width for dropdown */
+  padding: 8px 12px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between; /* Ensures space between text and icon */
+  align-items: center;
+  background-color: #ffffff;
+  color: #333;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  overflow: hidden; /* Hide overflow */
+  position: relative;
+}
+
+.dropdown-select-text {
+  flex-grow: 1;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis; /* Add ellipsis when text overflows */
+  margin-right: 10px; /* Space between text and icon */
+}
+
+.dropdown-select:hover, .dropdown-select:focus {
+  background-color: #001e36;
+  color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.dropdown-options {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 200px;
+  background: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+  transform-origin: top center;
+  transform: scaleY(0);
+  transition: transform 0.5s, visibility 0.5s;
+  visibility: hidden;
+  z-index: 1000;
+  overflow: hidden;
+}
+
+.dropdown-select:focus + .dropdown-options, .dropdown-select:hover + .dropdown-options,
+.dropdown-options:hover {
+  transform: scaleY(1);
+  visibility: visible;
+}
+
+.dropdown-option {
+  padding: 10px;
+  cursor: pointer;
+  color: #333;
+}
+
+.dropdown-option:hover {
+  background-color: #001e36;
+  color: #ffffff;
+}
+
+.fas { /* Icons styled to ensure visibility */
+  transition: transform 0.3s;
+}
+
+.dropdown-select:focus .fas, .dropdown-select:hover .fas {
+  transform: rotate(180deg); /* Rotate icon when active */
+}

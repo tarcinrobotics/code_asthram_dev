@@ -1,0 +1,277 @@
+.fill-height {
+ height:100vh;
+ width: 100%;
+  padding-top: 74px;
+}
+
+.workspace {
+  background-color: #002244 ;
+}
+/*.textspace {
+  width: 25%;
+  position: absolute;
+  z-index: 1;
+  right: 50px;
+  top: 100px;
+  bottom: 80px;
+  opacity: 0.9;
+  background-color: #ffffff;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  border: 1px solid #999;
+  border-radius: 6px;
+  outline: 0;
+  -webkit-box-shadow:0 3px 9px rgba(0,0,0,.5);
+  box-shadow: 0 3px 9px rgba(0,0,0,.5);
+
+}*/
+
+/*.textarea {
+  width: 25%;
+  height: 50%;
+  position: absolute;
+  z-index: 1;
+  right: 50px;
+  top: 100px;
+  bottom: 80px;
+  opacity: 0.9;
+  background-color: #ffffff;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  border: 1px solid #999;
+  border-radius: 6px;
+  outline: 0;
+  -webkit-box-shadow:0 3px 9px rgba(0,0,0,.5);
+  box-shadow: 0 3px 9px rgba(0,0,0,.5);
+  resize: none;
+  padding: 5px;
+  margin: 0;
+  font-size: 13px;
+  line-height: 1.42857143;
+  color: #333;
+  word-break: break-all;
+  word-wrap: break-word;
+  background-color: #ffffff;
+}*/
+
+/*pre {
+  display: block;
+  padding: 5px;
+  margin: 0;
+  font-size: 13px;
+  line-height: 1.42857143;
+  color:#333;
+  word-break: break-all;
+  word-wrap: break-word;
+  background-color: #ffffff;
+}*/
+
+body .div1 {
+  width: 100%;
+  height: 74px;
+ background-color: #001e36;
+  /*background-color: #1F2224;*/
+  position: absolute;
+  top: 0px;
+  transition: box-shadow 0.3s ease;
+}
+
+
+.maintable {
+  width: 100%;
+  height: 34px;
+  border: 0px;
+}
+
+.td1 {
+  width: 33%;
+  padding: 18px;
+  padding-top: 20px;
+  padding-bottom: 16px;  
+}
+
+.button-div {
+  display: flex;
+  gap: 16px;
+}
+
+.td2 {
+  width: 34%;
+  text-align: center;
+  vertical-align: middle;
+  
+}
+
+.logo-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo-main {
+  height: 45px;
+}
+
+
+.td3 {
+  width: 33%;
+  vertical-align: top;
+  text-align: right;
+  align-self: self-end;
+  padding: 18px;
+}
+
+.b01 {
+  background: transparent;
+  background-image: url(./media/btn_add.png);
+  background-size: cover;
+  width: 31px;
+  height: 31px;
+  border: 0px solid #001e36;
+  margin: 0px 0px 0px 0px;
+  padding: 0;
+  outline: none;
+  transition: 0.2s;
+}
+
+.b01:hover {
+  cursor: pointer;
+  filter: brightness(0.7);
+}
+
+.b01:active {
+  filter: invert(0.5);
+}
+
+.b02 {
+  background: transparent;
+  background-image: url(./media/btn_open.png);
+  background-size: cover;
+  width: 31px;
+  height: 31px;
+  border: 0px solid #001e36;
+  margin: 0px 0px 0px 0px;
+  padding: 0;
+  outline: none;
+  transition: 0.2s;
+}
+
+.b02:hover {
+  cursor: pointer;
+  filter: brightness(0.7);
+}
+
+.b02:active {
+  filter: invert(0.5);
+}
+
+.b03 {
+  background: transparent;
+  background: url(./media/btn_save.png);
+  background-size: cover;
+  width: 31px;
+  height: 31px;
+  border: 0px solid #001e36;
+  margin: 0px 0px 0px 0px;
+  padding: 0;
+  outline: none;
+  transition: 0.2s;
+}
+
+.b03:hover {
+  cursor: pointer;
+  filter: brightness(0.7);
+}
+
+.b03:active {
+  filter: invert(0.5);
+}
+
+.b04 {
+  background: transparent;
+  background: url(./media/btn_camera.png);
+  background-size: cover;
+  width: 31px;
+  height: 31px;
+  border: 0px solid #001e36;
+  margin: 0px 0px 0px 0px;
+  padding: 0;
+  outline: none;
+  transition: 0.2s;
+}
+
+.b04:hover {
+  cursor: pointer;
+  filter: brightness(0.7);
+}
+
+.b04:active {
+  filter: invert(0.5);
+}
+
+.b05 {
+  background: transparent;
+  background: url(./media/btn_monitor.png);
+  background-size: cover;
+  width: 31px;
+  height: 31px;
+  border: 0px solid #001e36;
+  margin: 0px 0px 0px 0px;
+  padding: 0;
+  outline: none;
+  transition: 0.2s;
+}
+
+.b05:hover {
+  cursor: pointer;
+  filter: brightness(0.7);
+}
+
+.b05:active {
+  filter: invert(0.5);
+}
+
+.b06 {
+  background: transparent;
+  background: url(./media/btn_code.png);
+  background-size: cover;
+  width: 31px;
+  height: 31px;
+  border: 0px solid #001e36;
+  margin: 0px 0px 0px 0px;
+  padding: 0;
+  outline: none;
+  transition: 0.2s;
+}
+
+.b06:hover {
+  cursor: pointer;
+  filter: brightness(0.7);
+}
+
+.b06:active {
+  filter: invert(0.5);
+}
+
+.b07 {
+  background: transparent;
+  background: url(./media/btn_logout.png);
+  background-size: cover;
+  width: 31px;
+  height: 31px;
+  border: 0px solid #001e36;
+  margin: 0px 0px 0px 0px;
+  padding: 0;
+  outline: none;
+  transition: 0.2s;
+}
+
+.b07:hover {
+  cursor: pointer;
+  filter: brightness(0.7);
+}
+
+.b07:active {
+  filter: invert(0.5);
+}
+

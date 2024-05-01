@@ -1,0 +1,60 @@
+{
+  "name": "reactblockly-customblocks",
+  "version": "0.1.0",
+  "private": true,
+  "proxy": "http://localhost:2000",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.5.1",
+    "@material-ui/core": "^4.12.4",
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "axios": "^1.6.2",
+    "bcryptjs": "^2.4.3",
+    "bootstrap": "^5.3.3",
+    "html2canvas": "^1.4.1",
+    "jquery": "^3.7.1",
+    "mongodb": "^6.3.0",
+    "react": "^17.0.1",
+    "react-blockly": "^7.0.0-alpha.1",
+    "react-bootstrap": "^2.10.1",
+    "react-dom": "^17.0.1",
+    "react-icons": "^4.12.0",
+    "react-intl": "^6.6.2",
+    "react-password-strength-bar": "^0.4.1",
+    "react-router-dom": "^6.22.3",
+    "react-scripts": "4.0.1",
+    "react-spinners": "^0.13.8",
+    "rimraf": "^5.0.5",
+    "serve": "^14.2.1",
+    "sweetalert": "^2.1.2",
+    "sweetalert2": "^11.10.1",
+    "web-vitals": "^0.2.4"
+  },
+  "scripts": {
+    "dev": "react-scripts start",
+    "start": "serve -s build",
+    "build": "set \"GENERATE_SOURCEMAP=false\" && react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "postbuild": "rimraf build/static/**/*.map"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

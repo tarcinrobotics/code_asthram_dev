@@ -1,0 +1,55 @@
+.floating-screen {
+  position: fixed;
+  bottom: 10%;
+  right: 10%;
+  width: 300px;
+  height: auto;
+  max-height: 90vh;
+  background: linear-gradient(135deg, #001e36, #20666b); /* Custom gradient with project colors */
+  border: none;
+  border-radius: 15px; /* Rounded corners for a softer look */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* More pronounced shadow for a pop-out effect */
+  z-index: 1000;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: auto;
+  color: #ffffff; /* White text color for better contrast */
+  font-family: 'Comic Neue', cursive; /* Fun, child-friendly font */
+}
+
+.floating-screen img {
+  margin-top: 20px;
+  max-width: 100%;
+  max-height: 80vh;
+  border-radius: 10px; /* Rounded corners for images */
+}
+
+.close-button, .toggle-view-button {
+  position: absolute;
+  top: 10px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 24px;
+  color: #ffffff; /* White icons to contrast with the background */
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.close-button:hover, .toggle-view-button:hover {
+  transform: scale(1.1);
+  color: #ffd700; /* Gold color on hover for a magical feel */
+}
+
+.close-button {
+  right: 10px;
+}
+
+.toggle-view-button {
+  left: 10px;
+}
+
+.project-hints p {
+  margin-bottom: 10px;
+}
