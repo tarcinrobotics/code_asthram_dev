@@ -1,1 +1,93 @@
-'use strict';var _0x192720=_0x2dfa;(function(_0x1d1a8a,_0x27af73){var _0x17343e=_0x2dfa,_0xe5c34a=_0x1d1a8a();while(!![]){try{var _0x836a3=parseInt(_0x17343e(0x1af))/0x1+-parseInt(_0x17343e(0x198))/0x2*(-parseInt(_0x17343e(0x1b0))/0x3)+-parseInt(_0x17343e(0x18a))/0x4*(parseInt(_0x17343e(0x18f))/0x5)+-parseInt(_0x17343e(0x196))/0x6+-parseInt(_0x17343e(0x193))/0x7*(parseInt(_0x17343e(0x18e))/0x8)+-parseInt(_0x17343e(0x19a))/0x9*(parseInt(_0x17343e(0x1b2))/0xa)+parseInt(_0x17343e(0x1a5))/0xb;if(_0x836a3===_0x27af73)break;else _0xe5c34a['push'](_0xe5c34a['shift']());}catch(_0x47bdc6){_0xe5c34a['push'](_0xe5c34a['shift']());}}}(_0x493e,0xcb52a));function _0x2dfa(_0xeb6f89,_0x165cac){var _0x493ecf=_0x493e();return _0x2dfa=function(_0x2dfaaa,_0x26f71a){_0x2dfaaa=_0x2dfaaa-0x188;var _0x5c0308=_0x493ecf[_0x2dfaaa];return _0x5c0308;},_0x2dfa(_0xeb6f89,_0x165cac);}function _0x493e(){var _0x2f8e36=['Type','Msg','\x22Blockly.Type\x22\x20property\x20\x22typeName\x22\x20is\x20not\x20allowed\x20to\x20be\x20set.','\x20you\x20','warn','1192399IXOhxA','3279KqrlIs','output','9830bWBgtx','\x20\x20typeMsgName:\x20Blockly.Msg\x20string\x20member\x20var\x20name\x20to\x0a','typeMsgName','array\x20of\x20Blockly.Type\x20items.','26184IlscsJ','must\x20point\x20to\x20a\x20Blockly.Type\x20object.','prototype','isArray','13062536BTcuKx','105bYvVWq','\x22Blockly.Type\x22\x20property\x20\x22check\x22\x20is\x20not\x20allowed\x20to\x20be\x20set.','The\x20compatible\x20types\x20for\x20a\x20Blockly\x20Types\x20needs\x20to\x20be\x20an\x20','push','7oCFgjY','compatibleTypes_','defineProperty','4030230BHsaHG','addCompatibleTypes','2726IIqjxM','typeMsgName_','9864GLYzZp','Blockly.Type','\x20provide\x20an\x20array\x20of\x20Blockly.Type\x20items.','To\x20add\x20compatible\x20types\x20to\x20the\x20Blockly\x20Type\x20','length','typeId','\x22Blockly.Type\x22\x20property\x20\x22output\x22\x20is\x20not\x20allowed\x20to\x20be\x20set.','generateCheckList_','generatedCheckList_','\x20\x20typeId:\x20string,\x0a','typeName','18370088KWnnGC','compatibleTypes','constructor','Creating\x20a\x20Type\x20requires\x20the\x20following\x20format:\x0a{\x0a','To\x20add\x20a\x20compatible\x20type\x20to\x20'];_0x493e=function(){return _0x2f8e36;};return _0x493e();}goog['provide'](_0x192720(0x19b)),goog['require']('goog.asserts'),Blockly[_0x192720(0x1aa)]=function(_0x12e77d){var _0x3c9010=_0x192720;if(_0x12e77d['typeId']===undefined||_0x12e77d[_0x3c9010(0x188)]===undefined||_0x12e77d['compatibleTypes']===undefined)throw new Error(_0x3c9010(0x1a8)+_0x3c9010(0x1a3)+_0x3c9010(0x1b3)+'\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20identify\x20the\x20translatable\x20Type\x20name.\x0a'+'\x20\x20compatibleTypes:\x20[Blockly.Type,]\x0a}');if(!goog[_0x3c9010(0x18d)](_0x12e77d[_0x3c9010(0x1a6)]))throw new Error(_0x3c9010(0x191)+_0x3c9010(0x189));this['typeId']=_0x12e77d[_0x3c9010(0x19f)],this[_0x3c9010(0x199)]=_0x12e77d[_0x3c9010(0x188)],this[_0x3c9010(0x194)]=_0x12e77d[_0x3c9010(0x1a6)],this[_0x3c9010(0x194)][_0x3c9010(0x192)](this),this['generatedCheckList_']=[],this[_0x3c9010(0x1a1)]();},Object[_0x192720(0x195)](Blockly[_0x192720(0x1aa)][_0x192720(0x18c)],_0x192720(0x1a4),{'get':function(){var _0x3eb4fe=_0x192720;return Blockly[_0x3eb4fe(0x1ab)][this['typeMsgName_']]||this['typeId'];},'set':function(_0x4a3199){var _0x1e9f68=_0x192720;console[_0x1e9f68(0x1ae)](_0x1e9f68(0x1ac));}}),Object[_0x192720(0x195)](Blockly[_0x192720(0x1aa)]['prototype'],_0x192720(0x1b1),{'get':function(){return this['typeId'];},'set':function(_0x30b713){var _0x3f3210=_0x192720;console[_0x3f3210(0x1ae)](_0x3f3210(0x1a0));}}),Object[_0x192720(0x195)](Blockly[_0x192720(0x1aa)]['prototype'],'checkList',{'get':function(){return this['generatedCheckList_'];},'set':function(_0x4c1fda){var _0x1f69ab=_0x192720;console[_0x1f69ab(0x1ae)](_0x1f69ab(0x190));}}),Blockly[_0x192720(0x1aa)][_0x192720(0x18c)][_0x192720(0x1a1)]=function(_0x4925e0){var _0x4d868c=_0x192720;this[_0x4d868c(0x1a2)]=[];for(var _0x3c5326=0x0;_0x3c5326<this[_0x4d868c(0x194)][_0x4d868c(0x19e)];_0x3c5326++){var _0x363403=!![];for(var _0x4fed3b=0x0;_0x4fed3b<this['generatedCheckList_'][_0x4d868c(0x19e)];_0x4fed3b++){this[_0x4d868c(0x1a2)][_0x4fed3b]===this[_0x4d868c(0x194)][_0x3c5326][_0x4d868c(0x19f)]&&(_0x363403=![]);}_0x363403&&this[_0x4d868c(0x1a2)][_0x4d868c(0x192)](this['compatibleTypes_'][_0x3c5326][_0x4d868c(0x19f)]);}},Blockly[_0x192720(0x1aa)]['prototype']['addCompatibleType']=function(_0x12751a){var _0x3ff6df=_0x192720;if(!_0x12751a||!_0x12751a['constructor']||!(_0x12751a instanceof Blockly[_0x3ff6df(0x1aa)]))throw new Error(_0x3ff6df(0x1a9)+this[_0x3ff6df(0x19f)]+'\x20provide\x20a\x20Blockly.Type\x20object.');this[_0x3ff6df(0x194)][_0x3ff6df(0x192)](_0x12751a),this[_0x3ff6df(0x1a1)]();},Blockly[_0x192720(0x1aa)][_0x192720(0x18c)][_0x192720(0x197)]=function(_0x2457ef){var _0x1f4cf0=_0x192720;if(!goog['isArray'](_0x2457ef))throw new Error(_0x1f4cf0(0x19d)+this[_0x1f4cf0(0x19f)]+_0x1f4cf0(0x19c));for(var _0x249b97=0x0;_0x249b97<_0x2457ef[_0x1f4cf0(0x19e)];_0x249b97++){if(!_0x2457ef[_0x249b97]||!_0x2457ef[_0x249b97][_0x1f4cf0(0x1a7)]||!(_0x2457ef[_0x249b97]instanceof Blockly['Type']))throw new Error(_0x1f4cf0(0x1a9)+this[_0x1f4cf0(0x19f)]+_0x1f4cf0(0x1ad)+_0x1f4cf0(0x18b));this[_0x1f4cf0(0x194)]['push'](_0x2457ef[_0x249b97]);}this[_0x1f4cf0(0x1a1)]();};
+'use strict';
+
+goog.provide('Blockly.Type');
+goog.require('goog.asserts');
+
+Blockly.Type = function(args) {
+  if ((args.typeId === undefined) || (args.typeMsgName === undefined) ||
+      (args.compatibleTypes === undefined)) {
+    throw new Error('Creating a Type requires the following format:\n{\n' +
+                    '  typeId: string,\n' +
+                    '  typeMsgName: Blockly.Msg string member var name to\n' +
+                    '               identify the translatable Type name.\n' +
+                    '  compatibleTypes: [Blockly.Type,]\n}');
+  }
+  if (!goog.isArray(args.compatibleTypes)) {
+    throw new Error('The compatible types for a Blockly Types needs to be an ' +
+                    'array of Blockly.Type items.');
+  }
+  this.typeId = args.typeId;
+  this.typeMsgName_ = args.typeMsgName;
+  this.compatibleTypes_ = args.compatibleTypes;
+  this.compatibleTypes_.push(this);
+  this.generatedCheckList_ = [];
+  this.generateCheckList_();
+};
+
+Object.defineProperty(Blockly.Type.prototype, 'typeName', {
+  get: function() {
+    return Blockly.Msg[this.typeMsgName_] || this.typeId;
+  },
+  set: function(value) {
+    console.warn('"Blockly.Type" property "typeName" is not allowed to be set.');
+  }
+});
+
+Object.defineProperty(Blockly.Type.prototype, 'output', {
+  get: function() {
+    return this.typeId;
+  },
+  set: function(value) {
+    console.warn('"Blockly.Type" property "output" is not allowed to be set.');
+  }
+});
+
+Object.defineProperty(Blockly.Type.prototype, 'checkList', {
+  get : function() {
+    return this.generatedCheckList_;
+  },
+  set: function(value) {
+    console.warn('"Blockly.Type" property "check" is not allowed to be set.');
+  }
+});
+
+Blockly.Type.prototype.generateCheckList_ = function(compatibleType) {
+  this.generatedCheckList_ = [];
+  for (var i = 0; i < this.compatibleTypes_.length; i++) {
+    var unique = true;
+    for (var j = 0; j < this.generatedCheckList_.length; j++) {
+      if (this.generatedCheckList_[j] === this.compatibleTypes_[i].typeId) {
+        unique = false;
+      }
+    }
+    if (unique) {
+      this.generatedCheckList_.push(this.compatibleTypes_[i].typeId);
+    }
+  }
+};
+
+Blockly.Type.prototype.addCompatibleType = function(compatibleType) {
+  if (!compatibleType || !compatibleType.constructor ||
+      !(compatibleType instanceof Blockly.Type)) {
+    throw new Error('To add a compatible type to ' + this.typeId +
+                    ' provide a Blockly.Type object.');
+  }
+  this.compatibleTypes_.push(compatibleType);
+  this.generateCheckList_();
+};
+
+Blockly.Type.prototype.addCompatibleTypes = function(compatibleTypeArray) {
+  if (!goog.isArray(compatibleTypeArray)) {
+    throw new Error('To add compatible types to the Blockly Type ' +
+                    this.typeId +' provide an array of Blockly.Type items.');
+  }
+  for (var i = 0; i < compatibleTypeArray.length; i++) {
+    if (!compatibleTypeArray[i] || !compatibleTypeArray[i].constructor ||
+        !(compatibleTypeArray[i] instanceof Blockly.Type)) {
+      throw new Error('To add a compatible type to ' + this.typeId + ' you ' +
+                      'must point to a Blockly.Type object.');
+    }
+    this.compatibleTypes_.push(compatibleTypeArray[i]);
+  }
+  this.generateCheckList_();
+};

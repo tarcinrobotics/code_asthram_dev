@@ -1,1 +1,515 @@
-'use strict';var _0x50ce4a=_0x7b04;function _0x4e60(){var _0x3ecbb4=['https://www.youtube.com/watch?v=s2_xaEvcVI0#t=55','targetBlock','text\x20for\x20user','setCheck','Numbers\x20(int/float)\x20are\x20allowed.','CPU2','field_dropdown_option','field_colour','↕\x20top\x20&\x20bottom\x20hooks','FieldDropdown','disabled','VALUE','field_variable','For\x20adding\x20fields\x20on\x20a\x20separate\x20row\x20with\x20no\x20','input_value','940532FzuvAi','type','https://www.youtube.com/watch?v=s2_xaEvcVI0#t=88','my\x20block','#696969','\x20field\x20blocks\x0a\x20with\x20this\x20name.','Block','Blocks','external\x20block','https://www.youtube.com/watch?v=s2_xaEvcVI0#t=510','appendDummyInput','toLowerCase','field_dropdown','USER0','height','SRC','https://www.youtube.com/watch?v=s2_xaEvcVI0#t=567','Static\x20text\x20that\x20serves\x20as\x20a\x20label.','NAME','option','LEFT','687338NAiTlP','CPU','https://www.youtube.com/watch?v=s2_xaEvcVI0#t=71','getAllBlocks','↓\x20hang\x20down','getInput','Custom\x20type\x20to\x20allow.','setAttribute','setMutator','_statement','VALUE1','Boolean','setNextStatement','FIELDNAME','field_image','data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAABA9pVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMDY3IDc5LjE1Nzc0NywgMjAxNS8wMy8zMC0yMzo0MDo0MiAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtbG5zOmRjPSJodHRwOi8vcHVybC5vcmcvZGMvZWxlbWVudHMvMS4xLyIgeG1wTU06T3JpZ2luYWxEb2N1bWVudElEPSJ1dWlkOjY1RTYzOTA2ODZDRjExREJBNkUyRDg4N0NFQUNCNDA3IiB4bXBNTTpEb2N1bWVudElEPSJ4bXAuZGlkOjkzNEFBOEU3ODUyRTExRTU4RTQwRkQwODFEOUZEMEE3IiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOjkzNEFBOEU2ODUyRTExRTU4RTQwRkQwODFEOUZEMEE3IiB4bXA6Q3JlYXRvclRvb2w9IkFkb2JlIFBob3Rvc2hvcCBDQyAyMDE1IChNYWNpbnRvc2gpIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6YmZlYzFmZjgtZjI0MS00MTdhLWJmYTQtMjZiOTdkYTJkZGI2IiBzdFJlZjpkb2N1bWVudElEPSJhZG9iZTpkb2NpZDpwaG90b3Nob3A6ZTJhODNmYmQtY2NkNC0xMTc4LTg4N2EtOWQ5MDZmZTFhNmQ0Ii8+IDxkYzp0aXRsZT4gPHJkZjpBbHQ+IDxyZGY6bGkgeG1sOmxhbmc9IngtZGVmYXVsdCI+Z2x5cGhpY29uc19zb2NpYWw8L3JkZjpsaT4gPC9yZGY6QWx0PiA8L2RjOnRpdGxlPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PlS4AF8AAADxSURBVHjatFbbDcMgDDRV/8sGzQjdoIySbtAROkpHyAiMwAjJBjABhcpIfBCwE0A6BSFzhx+YAACoABvgOyNyKoGTG4wZDk6ccCXaHSKeMbRDBGbv//sWiv31SGCFEDp8niTb5EYlSQbnOeGGHjwQ1SLZc+8bIGM4MCQy4B0J01q2vnBzoHOSFvAwLAHFIJ/ZVcQ8va4JXAo52Xpe5ZLAnclhWwYl1yZGiBQ3RGkTaQSRmINXamxUD1hlip6s3F7Uq1SrXVMSyGXjwapeEpNEsOd8EFNGbs62a7tDYihPbaubDrlo3QXcQH4Ho39bfgIMAMz8AJn0V4bRAAAAAElFTkSuQmCC','ALT','updateShape_','#ff0000','CONNECTIONS','There\x20are\x20','other','field_input','nextConnection','previousConnection','INPUTNAME','5506533QoqAsS','STACK','Field','optionCount_','Number','moveInputBefore','Colour','type_boolean','setHelpUrl','https://www.youtube.com/watch?v=s2_xaEvcVI0#t=319','workspace','Add,\x20remove,\x20or\x20reorder\x20options\x0ato\x20reconfigure\x20this\x20dropdown\x20menu.','BOTH','https://developers.google.com/blockly/custom-blocks/block-factory','OUTPUTTYPE','2682585FcTDjN','getAttribute','2662636QuDKSD','FieldColour','type_string','3191783KjisZc','USER','EXT','sourceBlock_','type_number','appendValueInput','Input','_check','connections.\x20Alignment\x20options\x20(left,\x20right,\x20centre)\x20','USER1','numberValidator','OPTION','FieldAngle','contextMenu','CHECKED','BOTTOM','Drop\x20down\x20menu\x20must\x0ahave\x20at\x20least\x20one\x20option.','Static\x20image.\x0aRetains\x20aspect\x20ratio\x20regardless\x20of\x20height\x20and\x20width.\x0aAlt\x20text\x20is\x20for\x20when\x20collapsed.','align','HUE','variable','colour','getColour','540DghIyJ','INLINE','Colour\x20input\x20field.','Top\x20type','initSvg','input_statement','setWarningText','HEIGHT','https://www.youtube.com/watch?v=s2_xaEvcVI0#t=386','Mutator','https://www.youtube.com/watch?v=s2_xaEvcVI0#t=372','Bottom\x20type','_number','mutation','RIGHT','USER2','setTooltip','check\x20box','COLOUR','OPTION0','Build\x20a\x20custom\x20block\x20by\x20plugging\x0afields,\x20inputs\x20and\x20other\x20blocks\x20here.','cpuData_','input_dummy','A\x20statement\x20socket\x20for\x20enclosed\x20vertical\x20stacks.','Dropdown\x20menu\x20for\x20variable\x20names.','\x20input\x20blocks\x0a\x20with\x20this\x20name.','setAlign','Dropdown\x20menu\x20with\x20a\x20list\x20of\x20options.','String','CPU1','https://www.youtube.com/watch?v=s2_xaEvcVI0#t=495','ALIGN_RIGHT','FIELDS','option2','setOutput','ALIGN','↑\x20hang\x20up','Checkbox\x20field.','Paint\x20the\x20block\x20with\x20this\x20colour.','https://www.youtube.com/watch?v=s2_xaEvcVI0#t=246','option3','#00cc00','TOP','_block','WIDTH','OPTION1','TEXT','_dropdown','text','getInputTargetBlock','width','FieldCheckbox','TOPTYPE','factory_base','TRUE','appendField','TYPE','alternative','removeInput','field_checkbox','number','ANGLE','https://www.youtube.com/watch?v=s2_xaEvcVI0#t=602','123','Type','createElement','field_math','angle','getFieldValue','options','item','connect','field_dropdown_container','connections','31788APHTit','userData_','center','declaration','binary','setPreviousStatement','color','CPU0','_text','appendStatementInput','BOTTOMTYPE','16LdokBL','setColour','CENTRE','An\x20input\x20field\x20for\x20the\x20user\x20to\x20enter\x20an\x20angle.','https://www.youtube.com/watch?v=s2_xaEvcVI0#t=485','getInheritedDisabled','FieldTextInput','Booleans\x20(true/false)\x20are\x20allowed.'];_0x4e60=function(){return _0x3ecbb4;};return _0x4e60();}function _0x7b04(_0x17ef93,_0x438ba1){var _0x4e6048=_0x4e60();return _0x7b04=function(_0x7b045a,_0x54e950){_0x7b045a=_0x7b045a-0xb5;var _0x489e89=_0x4e6048[_0x7b045a];return _0x489e89;},_0x7b04(_0x17ef93,_0x438ba1);}(function(_0x5b9037,_0x51ef67){var _0x47e235=_0x7b04,_0x57d964=_0x5b9037();while(!![]){try{var _0x239d71=-parseInt(_0x47e235(0x134))/0x1+parseInt(_0x47e235(0x11f))/0x2+-parseInt(_0x47e235(0x15d))/0x3+parseInt(_0x47e235(0x15f))/0x4+-parseInt(_0x47e235(0x179))/0x5*(parseInt(_0x47e235(0xfd))/0x6)+-parseInt(_0x47e235(0x162))/0x7*(-parseInt(_0x47e235(0x108))/0x8)+parseInt(_0x47e235(0x14e))/0x9;if(_0x239d71===_0x51ef67)break;else _0x57d964['push'](_0x57d964['shift']());}catch(_0x1b67f5){_0x57d964['push'](_0x57d964['shift']());}}}(_0x4e60,0x7b87f));var ALIGNMENT_OPTIONS=[['⟵',_0x50ce4a(0x133)],['⟶',_0x50ce4a(0xc1)],[_0x50ce4a(0xff),_0x50ce4a(0x10a)]];Blockly[_0x50ce4a(0x126)][_0x50ce4a(0xe8)]={'init':function(){var _0x5d1471=_0x50ce4a;this[_0x5d1471(0x109)]('#00929f'),this[_0x5d1471(0x129)]()['appendField'](new Blockly[(_0x5d1471(0x10e))](_0x5d1471(0x122)),_0x5d1471(0x131)),this[_0x5d1471(0x106)]('INPUTS')[_0x5d1471(0x113)](_0x5d1471(0x168));var _0x5ed559=new Blockly['FieldDropdown']([[_0x5d1471(0x127),_0x5d1471(0x164)],['internal\x20block','INT']]);this[_0x5d1471(0x129)]()[_0x5d1471(0xcd)](Blockly[_0x5d1471(0xd2)])[_0x5d1471(0xea)](_0x5ed559,_0x5d1471(0x17a)),_0x5ed559=new Blockly['FieldDropdown']([[_0x5d1471(0x118),_0x5d1471(0x15a)],['←\x20hang\x20on\x20the\x20left',_0x5d1471(0x133)],['\x20no\x20hooks','NONE'],[_0x5d1471(0xd7),_0x5d1471(0xdd)],[_0x5d1471(0x138),_0x5d1471(0x171)]],function(_0x3733bf){var _0x36bc96=_0x5d1471;this[_0x36bc96(0x165)][_0x36bc96(0x145)](_0x3733bf);}),this['appendDummyInput']()[_0x5d1471(0xcd)](Blockly[_0x5d1471(0xd2)])[_0x5d1471(0xea)](_0x5ed559,_0x5d1471(0x147)),this['appendValueInput']('COLOUR')[_0x5d1471(0xcd)](Blockly['ALIGN_RIGHT'])['setCheck'](_0x5d1471(0x154))['appendField']('color'),this[_0x5d1471(0xc3)](_0x5d1471(0xc7)),this[_0x5d1471(0x156)](_0x5d1471(0x15b));},'mutationToDom':function(){var _0x204808=_0x50ce4a,_0xb37b97=document[_0x204808(0xf4)](_0x204808(0xc0));return _0xb37b97[_0x204808(0x13b)](_0x204808(0xfc),this[_0x204808(0xf7)](_0x204808(0x147))),_0xb37b97;},'domToMutation':function(_0x475bd2){var _0x255519=_0x475bd2['getAttribute']('connections');this['updateShape_'](_0x255519);},'updateShape_':function(_0x439f54){var _0x3bd440=_0x50ce4a,_0x10b766=this[_0x3bd440(0x139)]('OUTPUTTYPE'),_0x12cf04=this['getInput'](_0x3bd440(0xe7)),_0x1407c8=this[_0x3bd440(0x139)](_0x3bd440(0x107));if(_0x439f54==_0x3bd440(0x133))!_0x10b766&&(this[_0x3bd440(0x167)]('OUTPUTTYPE')['setCheck'](_0x3bd440(0xf3))[_0x3bd440(0xcd)](Blockly[_0x3bd440(0xd2)])[_0x3bd440(0xea)](_0x3bd440(0x120)),this[_0x3bd440(0x153)](_0x3bd440(0x15c),_0x3bd440(0xc5)));else _0x10b766&&this[_0x3bd440(0xed)](_0x3bd440(0x15c));if(_0x439f54==_0x3bd440(0xdd)||_0x439f54==_0x3bd440(0x15a))!_0x12cf04&&(this[_0x3bd440(0x167)]('TOPTYPE')['setCheck']('Type')[_0x3bd440(0xcd)](Blockly['ALIGN_RIGHT'])[_0x3bd440(0xea)](_0x3bd440(0xb6)),this[_0x3bd440(0x153)]('TOPTYPE',_0x3bd440(0xc5)));else _0x12cf04&&this[_0x3bd440(0xed)](_0x3bd440(0xe7));if(_0x439f54==_0x3bd440(0x171)||_0x439f54==_0x3bd440(0x15a))!_0x1407c8&&(this[_0x3bd440(0x167)](_0x3bd440(0x107))[_0x3bd440(0x113)](_0x3bd440(0xf3))[_0x3bd440(0xcd)](Blockly['ALIGN_RIGHT'])[_0x3bd440(0xea)](_0x3bd440(0xbe)),this[_0x3bd440(0x153)]('BOTTOMTYPE',_0x3bd440(0xc5)));else _0x1407c8&&this[_0x3bd440(0xed)](_0x3bd440(0x107));}},Blockly['Blocks'][_0x50ce4a(0x11e)]={'init':function(){var _0x32b48d=_0x50ce4a;this[_0x32b48d(0x109)](_0x32b48d(0x123)),this[_0x32b48d(0x129)]()[_0x32b48d(0xea)]('block')[_0x32b48d(0xea)](new Blockly['FieldTextInput'](_0x32b48d(0xde)),_0x32b48d(0x14d)),this[_0x32b48d(0x106)](_0x32b48d(0xd3))[_0x32b48d(0x113)](_0x32b48d(0x150))[_0x32b48d(0xea)]('align')[_0x32b48d(0xea)](new Blockly[(_0x32b48d(0x119))](ALIGNMENT_OPTIONS),_0x32b48d(0xd6)),this[_0x32b48d(0x167)](_0x32b48d(0xeb))[_0x32b48d(0x113)](_0x32b48d(0xf3))[_0x32b48d(0xcd)](Blockly[_0x32b48d(0xd2)])['appendField'](_0x32b48d(0x120)),this[_0x32b48d(0x102)](!![],_0x32b48d(0x168)),this[_0x32b48d(0x140)](!![],_0x32b48d(0x168)),this[_0x32b48d(0xc3)]('A\x20value\x20socket\x20for\x20horizontal\x20connections.'),this[_0x32b48d(0x156)](_0x32b48d(0x136));},'onchange':function(){var _0x27493e=_0x50ce4a;if(!this[_0x27493e(0x158)])return;inputNameCheck(this);}},Blockly['Blocks'][_0x50ce4a(0xb8)]={'init':function(){var _0x4da1c3=_0x50ce4a;this[_0x4da1c3(0x109)](_0x4da1c3(0x123)),this[_0x4da1c3(0x129)]()['appendField'](_0x4da1c3(0x100))['appendField'](new Blockly[(_0x4da1c3(0x10e))](_0x4da1c3(0x13d)),_0x4da1c3(0x14d)),this[_0x4da1c3(0x106)]('FIELDS')[_0x4da1c3(0x113)](_0x4da1c3(0x150))[_0x4da1c3(0xea)]('align')[_0x4da1c3(0xea)](new Blockly['FieldDropdown'](ALIGNMENT_OPTIONS),'ALIGN'),this[_0x4da1c3(0x167)](_0x4da1c3(0xeb))[_0x4da1c3(0x113)](_0x4da1c3(0xf3))['setAlign'](Blockly[_0x4da1c3(0xd2)])[_0x4da1c3(0xea)](_0x4da1c3(0x120)),this[_0x4da1c3(0x102)](!![],'Input'),this['setNextStatement'](!![],_0x4da1c3(0x168)),this['setTooltip'](_0x4da1c3(0xca)),this[_0x4da1c3(0x156)](_0x4da1c3(0xda));},'onchange':function(){if(!this['workspace'])return;inputNameCheck(this);}},Blockly[_0x50ce4a(0x126)][_0x50ce4a(0xc9)]={'init':function(){var _0x1f43cf=_0x50ce4a;this[_0x1f43cf(0x109)](_0x1f43cf(0x123)),this[_0x1f43cf(0x129)]()[_0x1f43cf(0xea)]('entrance'),this[_0x1f43cf(0x106)](_0x1f43cf(0xd3))[_0x1f43cf(0x113)](_0x1f43cf(0x150))[_0x1f43cf(0xea)](_0x1f43cf(0x174))[_0x1f43cf(0xea)](new Blockly[(_0x1f43cf(0x119))](ALIGNMENT_OPTIONS),_0x1f43cf(0xd6)),this[_0x1f43cf(0x102)](!![],_0x1f43cf(0x168)),this[_0x1f43cf(0x140)](!![],_0x1f43cf(0x168)),this[_0x1f43cf(0xc3)](_0x1f43cf(0x11d)+_0x1f43cf(0x16a)+'apply\x20only\x20to\x20multi-line\x20fields.'),this[_0x1f43cf(0x156)]('https://www.youtube.com/watch?v=s2_xaEvcVI0#t=293');}},Blockly[_0x50ce4a(0x126)]['field_static']={'init':function(){var _0x218ed0=_0x50ce4a;this[_0x218ed0(0x109)](_0x218ed0(0xdc)),this[_0x218ed0(0x129)]()[_0x218ed0(0xea)](_0x218ed0(0xe3))[_0x218ed0(0xea)](new Blockly[(_0x218ed0(0x10e))](''),_0x218ed0(0xe1)),this['setPreviousStatement'](!![],_0x218ed0(0x150)),this['setNextStatement'](!![],_0x218ed0(0x150)),this[_0x218ed0(0xc3)](_0x218ed0(0x130)),this[_0x218ed0(0x156)](_0x218ed0(0x121));}},Blockly[_0x50ce4a(0x126)][_0x50ce4a(0x14a)]={'init':function(){var _0x52d2b2=_0x50ce4a;this[_0x52d2b2(0x109)](_0x52d2b2(0xdc)),this[_0x52d2b2(0x129)]()[_0x52d2b2(0xea)](_0x52d2b2(0x112))[_0x52d2b2(0xea)](new Blockly[(_0x52d2b2(0x10e))](''),_0x52d2b2(0xe1))[_0x52d2b2(0xea)](',')[_0x52d2b2(0xea)](new Blockly[(_0x52d2b2(0x10e))](_0x52d2b2(0x105)),_0x52d2b2(0x141)),this[_0x52d2b2(0x102)](!![],_0x52d2b2(0x150)),this[_0x52d2b2(0x140)](!![],_0x52d2b2(0x150)),this[_0x52d2b2(0xc3)]('An\x20input\x20field\x20for\x20the\x20user\x20to\x20enter\x20text.'),this[_0x52d2b2(0x156)](_0x52d2b2(0x157));},'onchange':function(){var _0x34d938=_0x50ce4a;if(!this[_0x34d938(0x158)])return;fieldNameCheck(this);}},Blockly[_0x50ce4a(0x126)][_0x50ce4a(0xf5)]={'init':function(){var _0x495e7c=_0x50ce4a;this[_0x495e7c(0x109)](_0x495e7c(0xdc)),this['appendDummyInput']()['appendField'](_0x495e7c(0xef))['appendField'](new Blockly[(_0x495e7c(0x10e))](_0x495e7c(0xf2)),'TEXT')['appendField'](',')[_0x495e7c(0xea)](new Blockly[(_0x495e7c(0x10e))](_0x495e7c(0xbf)),_0x495e7c(0x141)),this[_0x495e7c(0x102)](!![],_0x495e7c(0x150)),this[_0x495e7c(0x140)](!![],_0x495e7c(0x150)),this[_0x495e7c(0xc3)]('An\x20input\x20field\x20for\x20the\x20user\x20to\x20enter\x20number.'),this[_0x495e7c(0x156)](_0x495e7c(0x157));},'onchange':function(){if(!this['workspace'])return;fieldNameCheck(this);}},Blockly[_0x50ce4a(0x126)]['field_angle']={'init':function(){var _0x5f211e=_0x50ce4a;this[_0x5f211e(0x109)](_0x5f211e(0xdc)),this[_0x5f211e(0x129)]()[_0x5f211e(0xea)](_0x5f211e(0xf6))[_0x5f211e(0xea)](new Blockly['FieldAngle']('90'),_0x5f211e(0xf0))['appendField'](',')[_0x5f211e(0xea)](new Blockly[(_0x5f211e(0x10e))]('_angle'),_0x5f211e(0x141)),this[_0x5f211e(0x102)](!![],'Field'),this[_0x5f211e(0x140)](!![],_0x5f211e(0x150)),this[_0x5f211e(0xc3)](_0x5f211e(0x10b)),this[_0x5f211e(0x156)](_0x5f211e(0xbd));},'onchange':function(){var _0x433cf2=_0x50ce4a;if(!this[_0x433cf2(0x158)])return;fieldNameCheck(this);}},Blockly[_0x50ce4a(0x126)][_0x50ce4a(0x12b)]={'init':function(){var _0x5ee841=_0x50ce4a;this[_0x5ee841(0x109)]('#00cc00'),this[_0x5ee841(0x129)]()[_0x5ee841(0xea)]('menu')[_0x5ee841(0xea)](new Blockly[(_0x5ee841(0x10e))](_0x5ee841(0xe2)),_0x5ee841(0x141)),this[_0x5ee841(0x129)](_0x5ee841(0xc6))[_0x5ee841(0xea)](new Blockly[(_0x5ee841(0x10e))]('option1'),_0x5ee841(0x12c))['appendField'](',')[_0x5ee841(0xea)](new Blockly[(_0x5ee841(0x10e))](_0x5ee841(0x13e)),_0x5ee841(0x104)),this['appendDummyInput'](_0x5ee841(0xe0))[_0x5ee841(0xea)](new Blockly['FieldTextInput'](_0x5ee841(0xd4)),_0x5ee841(0x16b))['appendField'](',')['appendField'](new Blockly[(_0x5ee841(0x10e))]('VALUE2'),_0x5ee841(0xd0)),this[_0x5ee841(0x129)]('OPTION2')['appendField'](new Blockly['FieldTextInput'](_0x5ee841(0xdb)),_0x5ee841(0xc2))[_0x5ee841(0xea)](',')['appendField'](new Blockly[(_0x5ee841(0x10e))]('VALUE3'),_0x5ee841(0x115)),this[_0x5ee841(0x102)](!![],_0x5ee841(0x150)),this[_0x5ee841(0x140)](!![],_0x5ee841(0x150)),this[_0x5ee841(0x13c)](new Blockly[(_0x5ee841(0xbc))]([_0x5ee841(0x116)])),this[_0x5ee841(0xc3)](_0x5ee841(0xce)),this[_0x5ee841(0x156)](_0x5ee841(0xbb)),this['optionCount_']=0x3;},'mutationToDom':function(_0x5bfb4e){var _0x44dcfe=_0x50ce4a,_0x4378dc=document[_0x44dcfe(0xf4)](_0x44dcfe(0xc0));return _0x4378dc[_0x44dcfe(0x13b)](_0x44dcfe(0xf8),this[_0x44dcfe(0x151)]),_0x4378dc;},'domToMutation':function(_0x44e0bb){var _0x456a86=_0x50ce4a;for(var _0x4ac20c=0x0;_0x4ac20c<this[_0x456a86(0x151)];_0x4ac20c++){this[_0x456a86(0xed)](_0x456a86(0x16d)+_0x4ac20c);}this[_0x456a86(0x151)]=parseInt(_0x44e0bb[_0x456a86(0x15e)](_0x456a86(0xf8)),0xa);for(var _0x4ac20c=0x0;_0x4ac20c<this[_0x456a86(0x151)];_0x4ac20c++){var _0x43064f=this[_0x456a86(0x129)]('OPTION'+_0x4ac20c);_0x43064f[_0x456a86(0xea)](new Blockly[(_0x456a86(0x10e))]('option'),'USER'+_0x4ac20c),_0x43064f['appendField'](','),_0x43064f[_0x456a86(0xea)](new Blockly['FieldTextInput'](_0x456a86(0x11b)),_0x456a86(0x135)+_0x4ac20c);}},'decompose':function(_0x258ab8){var _0x160806=_0x50ce4a,_0x1ef875=Blockly[_0x160806(0x125)]['obtain'](_0x258ab8,'field_dropdown_container');_0x1ef875['initSvg']();var _0x14a87f=_0x1ef875[_0x160806(0x139)]('STACK')['connection'];for(var _0x5ed960=0x0;_0x5ed960<this[_0x160806(0x151)];_0x5ed960++){var _0x42beba=Blockly[_0x160806(0x125)]['obtain'](_0x258ab8,_0x160806(0x116));_0x42beba[_0x160806(0xb7)](),_0x14a87f[_0x160806(0xfa)](_0x42beba[_0x160806(0x14c)]),_0x14a87f=_0x42beba[_0x160806(0x14b)];}return _0x1ef875;},'compose':function(_0x57fa3f){var _0x29943c=_0x50ce4a;for(var _0x5d3bb5=this[_0x29943c(0x151)]-0x1;_0x5d3bb5>=0x0;_0x5d3bb5--){this['removeInput'](_0x29943c(0x16d)+_0x5d3bb5);}this[_0x29943c(0x151)]=0x0;var _0x31fe77=_0x57fa3f[_0x29943c(0xe4)](_0x29943c(0x14f));while(_0x31fe77){this[_0x29943c(0x129)](_0x29943c(0x16d)+this['optionCount_'])[_0x29943c(0xea)](new Blockly[(_0x29943c(0x10e))](_0x31fe77[_0x29943c(0xfe)]||_0x29943c(0x132)),_0x29943c(0x163)+this['optionCount_'])[_0x29943c(0xea)](',')[_0x29943c(0xea)](new Blockly[(_0x29943c(0x10e))](_0x31fe77[_0x29943c(0xc8)]||'VALUE'),_0x29943c(0x135)+this[_0x29943c(0x151)]),this[_0x29943c(0x151)]++,_0x31fe77=_0x31fe77['nextConnection']&&_0x31fe77[_0x29943c(0x14b)][_0x29943c(0x111)]();}},'saveConnections':function(_0x3cec80){var _0x2540b2=_0x50ce4a,_0x59b05e=_0x3cec80['getInputTargetBlock'](_0x2540b2(0x14f)),_0x24a0c2=0x0;while(_0x59b05e){_0x59b05e[_0x2540b2(0xfe)]=this[_0x2540b2(0xf7)](_0x2540b2(0x163)+_0x24a0c2),_0x59b05e[_0x2540b2(0xc8)]=this[_0x2540b2(0xf7)](_0x2540b2(0x135)+_0x24a0c2),_0x24a0c2++,_0x59b05e=_0x59b05e[_0x2540b2(0x14b)]&&_0x59b05e['nextConnection'][_0x2540b2(0x111)]();}},'onchange':function(){var _0x4b5ffe=_0x50ce4a;if(!this['workspace'])return;this[_0x4b5ffe(0x151)]<0x1?this['setWarningText'](_0x4b5ffe(0x172)):fieldNameCheck(this);}},Blockly['Blocks'][_0x50ce4a(0xfb)]={'init':function(){var _0x42e8d8=_0x50ce4a;this[_0x42e8d8(0x109)](_0x42e8d8(0xdc)),this['appendDummyInput']()[_0x42e8d8(0xea)]('menu'),this[_0x42e8d8(0x106)]('STACK'),this[_0x42e8d8(0xc3)](_0x42e8d8(0x159)),this[_0x42e8d8(0x156)](_0x42e8d8(0xbb)),this[_0x42e8d8(0x16f)]=![];}},Blockly['Blocks'][_0x50ce4a(0x116)]={'init':function(){var _0x32c02f=_0x50ce4a;this[_0x32c02f(0x109)](_0x32c02f(0xdc)),this[_0x32c02f(0x129)]()[_0x32c02f(0xea)](_0x32c02f(0x132)),this[_0x32c02f(0x102)](!![]),this[_0x32c02f(0x140)](!![]),this['setTooltip']('Add\x20a\x20new\x20option\x20to\x20the\x20dropdown\x20menu.'),this[_0x32c02f(0x156)]('https://www.youtube.com/watch?v=s2_xaEvcVI0#t=386'),this['contextMenu']=![];}},Blockly[_0x50ce4a(0x126)][_0x50ce4a(0xee)]={'init':function(){var _0x488cdc=_0x50ce4a;this[_0x488cdc(0x109)](_0x488cdc(0xdc)),this[_0x488cdc(0x129)]()['appendField'](_0x488cdc(0xc4))['appendField'](new Blockly[(_0x488cdc(0xe6))](_0x488cdc(0xe9)),_0x488cdc(0x170))[_0x488cdc(0xea)](',')[_0x488cdc(0xea)](new Blockly[(_0x488cdc(0x10e))](_0x488cdc(0x169)),_0x488cdc(0x141)),this[_0x488cdc(0x102)](!![],_0x488cdc(0x150)),this[_0x488cdc(0x140)](!![],_0x488cdc(0x150)),this[_0x488cdc(0xc3)](_0x488cdc(0xd8)),this[_0x488cdc(0x156)](_0x488cdc(0x10c));},'onchange':function(){if(!this['workspace'])return;fieldNameCheck(this);}},Blockly[_0x50ce4a(0x126)][_0x50ce4a(0x117)]={'init':function(){var _0x3472f2=_0x50ce4a;this['setColour'](_0x3472f2(0xdc)),this[_0x3472f2(0x129)]()[_0x3472f2(0xea)](_0x3472f2(0x103))[_0x3472f2(0xea)](new Blockly[(_0x3472f2(0x160))](_0x3472f2(0x146)),_0x3472f2(0xc5))[_0x3472f2(0xea)](',')[_0x3472f2(0xea)](new Blockly[(_0x3472f2(0x10e))]('_colour'),_0x3472f2(0x141)),this[_0x3472f2(0x102)](!![],_0x3472f2(0x150)),this[_0x3472f2(0x140)](!![],_0x3472f2(0x150)),this['setTooltip'](_0x3472f2(0xb5)),this[_0x3472f2(0x156)](_0x3472f2(0xd1));},'onchange':function(){var _0x5bbbcd=_0x50ce4a;if(!this[_0x5bbbcd(0x158)])return;fieldNameCheck(this);}},Blockly[_0x50ce4a(0x126)][_0x50ce4a(0x11c)]={'init':function(){var _0x1a581f=_0x50ce4a;this[_0x1a581f(0x109)](_0x1a581f(0xdc)),this[_0x1a581f(0x129)]()[_0x1a581f(0xea)](_0x1a581f(0x176))['appendField'](new Blockly['FieldTextInput'](_0x1a581f(0xf9)),_0x1a581f(0xe1))[_0x1a581f(0xea)](',')['appendField'](new Blockly[(_0x1a581f(0x10e))](_0x1a581f(0x131)),'FIELDNAME'),this[_0x1a581f(0x102)](!![],_0x1a581f(0x150)),this[_0x1a581f(0x140)](!![],_0x1a581f(0x150)),this[_0x1a581f(0xc3)](_0x1a581f(0xcb)),this['setHelpUrl'](_0x1a581f(0x128));},'onchange':function(){var _0x55fb0f=_0x50ce4a;if(!this[_0x55fb0f(0x158)])return;fieldNameCheck(this);}},Blockly[_0x50ce4a(0x126)][_0x50ce4a(0x142)]={'init':function(){var _0x23ee90=_0x50ce4a;this[_0x23ee90(0x109)](_0x23ee90(0xdc));var _0x36097=_0x23ee90(0x143);this[_0x23ee90(0x129)]()[_0x23ee90(0xea)]('image')[_0x23ee90(0xea)](new Blockly[(_0x23ee90(0x10e))](_0x36097),_0x23ee90(0x12e)),this['appendDummyInput']()[_0x23ee90(0xea)](_0x23ee90(0xe5))[_0x23ee90(0xea)](new Blockly[(_0x23ee90(0x10e))]('24',Blockly[_0x23ee90(0x10e)]['numberValidator']),_0x23ee90(0xdf))[_0x23ee90(0xea)](_0x23ee90(0x12d))[_0x23ee90(0xea)](new Blockly[(_0x23ee90(0x10e))]('24',Blockly[_0x23ee90(0x10e)][_0x23ee90(0x16c)]),_0x23ee90(0xba))[_0x23ee90(0xea)](_0x23ee90(0xec))[_0x23ee90(0xea)](new Blockly[(_0x23ee90(0x10e))]('*'),_0x23ee90(0x144)),this[_0x23ee90(0x102)](!![],_0x23ee90(0x150)),this[_0x23ee90(0x140)](!![],_0x23ee90(0x150)),this[_0x23ee90(0xc3)](_0x23ee90(0x173)),this[_0x23ee90(0x156)](_0x23ee90(0x12f));}},Blockly['Blocks'][_0x50ce4a(0x155)]={'valueType':_0x50ce4a(0x13f),'init':function(){var _0x49dfa1=_0x50ce4a;this['setColour'](_0x49dfa1(0x146)),this[_0x49dfa1(0x129)]()[_0x49dfa1(0xea)](_0x49dfa1(0x101)),this[_0x49dfa1(0xd5)](!![],_0x49dfa1(0xf3)),this[_0x49dfa1(0xc3)](_0x49dfa1(0x10f)),this[_0x49dfa1(0x156)](_0x49dfa1(0xf1));}},Blockly[_0x50ce4a(0x126)][_0x50ce4a(0x166)]={'valueType':_0x50ce4a(0x152),'init':function(){var _0x2752ec=_0x50ce4a;this['setColour'](_0x2752ec(0x146)),this[_0x2752ec(0x129)]()[_0x2752ec(0xea)]('number'),this[_0x2752ec(0xd5)](!![],'Type'),this['setTooltip'](_0x2752ec(0x114)),this[_0x2752ec(0x156)](_0x2752ec(0xf1));}},Blockly['Blocks'][_0x50ce4a(0x161)]={'valueType':_0x50ce4a(0xcf),'init':function(){var _0x45d6fc=_0x50ce4a;this[_0x45d6fc(0x109)](_0x45d6fc(0x146)),this['appendDummyInput']()[_0x45d6fc(0xea)](_0x45d6fc(0xe3)),this['setOutput'](!![],_0x45d6fc(0xf3)),this['setTooltip']('Strings\x20(text)\x20are\x20allowed.'),this['setHelpUrl'](_0x45d6fc(0xf1));}},Blockly[_0x50ce4a(0x126)]['type_other']={'init':function(){var _0x31e324=_0x50ce4a;this[_0x31e324(0x109)](_0x31e324(0x146)),this['appendDummyInput']()[_0x31e324(0xea)](_0x31e324(0x149))[_0x31e324(0xea)](new Blockly[(_0x31e324(0x10e))](''),_0x31e324(0xeb)),this['setOutput'](!![],'Type'),this[_0x31e324(0xc3)](_0x31e324(0x13a)),this[_0x31e324(0x156)]('https://www.youtube.com/watch?v=s2_xaEvcVI0#t=702');}},Blockly[_0x50ce4a(0x126)]['colour_hue']={'init':function(){var _0x3d0b1a=_0x50ce4a;this[_0x3d0b1a(0x129)]()['appendField'](new Blockly[(_0x3d0b1a(0x16e))]('0',this['validator']),_0x3d0b1a(0x175)),this['setOutput'](!![],_0x3d0b1a(0x154)),this[_0x3d0b1a(0xc3)](_0x3d0b1a(0xd9)),this[_0x3d0b1a(0x156)](_0x3d0b1a(0x110));},'validator':function(_0x5ce0b8){var _0x1e39ac=_0x50ce4a;this[_0x1e39ac(0x165)][_0x1e39ac(0x109)](_0x5ce0b8);},'mutationToDom':function(_0x5b1775){var _0x48a5e3=_0x50ce4a,_0x14b745=document['createElement'](_0x48a5e3(0xc0));return _0x14b745[_0x48a5e3(0x13b)](_0x48a5e3(0x177),this[_0x48a5e3(0x178)]()),_0x14b745;},'domToMutation':function(_0x5d5618){var _0x2bdef2=_0x50ce4a;this[_0x2bdef2(0x109)](_0x5d5618[_0x2bdef2(0x15e)](_0x2bdef2(0x177)));}};function fieldNameCheck(_0x209a3a){var _0x3c78ec=_0x50ce4a,_0x2242a4=_0x209a3a[_0x3c78ec(0xf7)](_0x3c78ec(0x141))['toLowerCase'](),_0x3537ba=0x0,_0x5a5893=_0x209a3a[_0x3c78ec(0x158)][_0x3c78ec(0x137)]();for(var _0x1dcd09=0x0,_0x458832;_0x458832=_0x5a5893[_0x1dcd09];_0x1dcd09++){var _0x582c0b=_0x458832[_0x3c78ec(0xf7)](_0x3c78ec(0x141));!_0x458832['disabled']&&!_0x458832[_0x3c78ec(0x10d)]()&&_0x582c0b&&_0x582c0b[_0x3c78ec(0x12a)]()==_0x2242a4&&_0x3537ba++;}var _0x1c2a35=_0x3537ba>0x1?_0x3c78ec(0x148)+_0x3537ba+_0x3c78ec(0x124):null;_0x209a3a[_0x3c78ec(0xb9)](_0x1c2a35);}function inputNameCheck(_0x26255d){var _0x4e4b6a=_0x50ce4a,_0x31da01=_0x26255d[_0x4e4b6a(0xf7)](_0x4e4b6a(0x14d))[_0x4e4b6a(0x12a)](),_0x4b315c=0x0,_0x32d62e=_0x26255d[_0x4e4b6a(0x158)][_0x4e4b6a(0x137)]();for(var _0x56a059=0x0,_0x5e2da4;_0x5e2da4=_0x32d62e[_0x56a059];_0x56a059++){var _0x57e93e=_0x5e2da4[_0x4e4b6a(0xf7)](_0x4e4b6a(0x14d));!_0x5e2da4[_0x4e4b6a(0x11a)]&&!_0x5e2da4['getInheritedDisabled']()&&_0x57e93e&&_0x57e93e[_0x4e4b6a(0x12a)]()==_0x31da01&&_0x4b315c++;}var _0x25abbe=_0x4b315c>0x1?'There\x20are\x20'+_0x4b315c+_0x4e4b6a(0xcc):null;_0x26255d[_0x4e4b6a(0xb9)](_0x25abbe);}
+'use strict';
+
+var ALIGNMENT_OPTIONS = [['⟵', 'LEFT'], ['⟶', 'RIGHT'], ['center', 'CENTRE']];
+Blockly.Blocks['factory_base'] = { init: function() {
+    this.setColour("#00929f");
+    this.appendDummyInput()
+        .appendField(new Blockly.FieldTextInput('my block'), 'NAME');
+    this.appendStatementInput('INPUTS').setCheck('Input');
+    var dropdown = new Blockly.FieldDropdown([
+        ['external block', 'EXT'],
+        ['internal block', 'INT']]);
+    this.appendDummyInput().setAlign(Blockly.ALIGN_RIGHT).appendField(dropdown, 'INLINE');
+    dropdown = new Blockly.FieldDropdown([
+        ['↕ top & bottom hooks', 'BOTH'],
+        ['← hang on the left', 'LEFT'],
+        [" no hooks", 'NONE'],
+        ['↑ hang up', 'TOP'],
+        ['↓ hang down', 'BOTTOM']],
+        function(option) {
+          this.sourceBlock_.updateShape_(option);
+        });
+    this.appendDummyInput().setAlign(Blockly.ALIGN_RIGHT).appendField(dropdown, 'CONNECTIONS');
+    this.appendValueInput('COLOUR').setAlign(Blockly.ALIGN_RIGHT).setCheck('Colour').appendField('color');
+    this.setTooltip('Build a custom block by plugging\nfields, inputs and other blocks here.');
+    this.setHelpUrl('https://developers.google.com/blockly/custom-blocks/block-factory');
+  },
+  mutationToDom: function() {
+    var container = document.createElement('mutation');
+    container.setAttribute('connections', this.getFieldValue('CONNECTIONS'));
+    return container;
+  },
+  domToMutation: function(xmlElement) {
+    var connections = xmlElement.getAttribute('connections');
+    this.updateShape_(connections);
+  },
+  updateShape_: function(option) {
+    var outputExists = this.getInput('OUTPUTTYPE');
+    var topExists = this.getInput('TOPTYPE');
+    var bottomExists = this.getInput('BOTTOMTYPE');
+    if (option == 'LEFT') {
+      if (!outputExists) {
+        this.appendValueInput('OUTPUTTYPE')
+            .setCheck('Type')
+			.setAlign(Blockly.ALIGN_RIGHT)
+            .appendField('type');
+        this.moveInputBefore('OUTPUTTYPE', 'COLOUR');
+      }
+    } else if (outputExists) {
+      this.removeInput('OUTPUTTYPE');
+    }
+    if (option == 'TOP' || option == 'BOTH') {
+      if (!topExists) {
+        this.appendValueInput('TOPTYPE')
+            .setCheck('Type')
+			.setAlign(Blockly.ALIGN_RIGHT)
+            .appendField('Top type');
+        this.moveInputBefore('TOPTYPE', 'COLOUR');
+      }
+    } else if (topExists) {
+      this.removeInput('TOPTYPE');
+    }
+    if (option == 'BOTTOM' || option == 'BOTH') {
+      if (!bottomExists) {
+        this.appendValueInput('BOTTOMTYPE')
+            .setCheck('Type')
+			.setAlign(Blockly.ALIGN_RIGHT)
+            .appendField('Bottom type');
+        this.moveInputBefore('BOTTOMTYPE', 'COLOUR');
+      }
+    } else if (bottomExists) {
+      this.removeInput('BOTTOMTYPE');
+    }
+  }
+};
+Blockly.Blocks['input_value'] = { init: function() {
+    this.setColour("#696969");
+    this.appendDummyInput()
+        .appendField('block')
+        .appendField(new Blockly.FieldTextInput('_block'), 'INPUTNAME');
+    this.appendStatementInput('FIELDS')
+        .setCheck('Field')
+        .appendField('align')
+        .appendField(new Blockly.FieldDropdown(ALIGNMENT_OPTIONS), 'ALIGN');
+    this.appendValueInput('TYPE')
+        .setCheck('Type')
+        .setAlign(Blockly.ALIGN_RIGHT)
+        .appendField('type');
+    this.setPreviousStatement(true, 'Input');
+    this.setNextStatement(true, 'Input');
+    this.setTooltip('A value socket for horizontal connections.');
+    this.setHelpUrl('https://www.youtube.com/watch?v=s2_xaEvcVI0#t=71');
+  },
+  onchange: function() {
+    if (!this.workspace) {
+      // Block has been deleted.
+      return;
+    }
+    inputNameCheck(this);
+  }
+};
+Blockly.Blocks['input_statement'] = { init: function() {
+    this.setColour("#696969");
+    this.appendDummyInput()
+        .appendField('declaration')
+        .appendField(new Blockly.FieldTextInput('_statement'), 'INPUTNAME');
+    this.appendStatementInput('FIELDS')
+        .setCheck('Field')
+        .appendField('align')
+        .appendField(new Blockly.FieldDropdown(ALIGNMENT_OPTIONS), 'ALIGN');
+    this.appendValueInput('TYPE')
+        .setCheck('Type')
+        .setAlign(Blockly.ALIGN_RIGHT)
+        .appendField('type');
+    this.setPreviousStatement(true, 'Input');
+    this.setNextStatement(true, 'Input');
+    this.setTooltip('A statement socket for enclosed vertical stacks.');
+    this.setHelpUrl('https://www.youtube.com/watch?v=s2_xaEvcVI0#t=246');
+  },
+  onchange: function() {
+    if (!this.workspace) {
+      // Block has been deleted.
+      return;
+    }
+    inputNameCheck(this);
+  }
+};
+Blockly.Blocks['input_dummy'] = { init: function() {
+    this.setColour("#696969");
+    this.appendDummyInput()
+        .appendField("entrance");
+    this.appendStatementInput('FIELDS')
+        .setCheck('Field')
+        .appendField('align')
+        .appendField(new Blockly.FieldDropdown(ALIGNMENT_OPTIONS), 'ALIGN');
+    this.setPreviousStatement(true, 'Input');
+    this.setNextStatement(true, 'Input');
+    this.setTooltip('For adding fields on a separate row with no ' +
+                    'connections. Alignment options (left, right, centre) ' +
+                    'apply only to multi-line fields.');
+    this.setHelpUrl('https://www.youtube.com/watch?v=s2_xaEvcVI0#t=293');
+  }
+};
+Blockly.Blocks['field_static'] = { init: function() {
+    this.setColour("#00cc00");
+    this.appendDummyInput()
+        .appendField('text')
+        .appendField(new Blockly.FieldTextInput(''), 'TEXT');
+    this.setPreviousStatement(true, 'Field');
+    this.setNextStatement(true, 'Field');
+    this.setTooltip('Static text that serves as a label.');
+    this.setHelpUrl('https://www.youtube.com/watch?v=s2_xaEvcVI0#t=88')}
+};
+Blockly.Blocks['field_input'] = { init: function() {
+    this.setColour("#00cc00");
+    this.appendDummyInput()
+        .appendField('text for user')
+        .appendField(new Blockly.FieldTextInput(''), 'TEXT')
+        .appendField(',')
+        .appendField(new Blockly.FieldTextInput('_text'), 'FIELDNAME');
+    this.setPreviousStatement(true, 'Field');
+    this.setNextStatement(true, 'Field');
+    this.setTooltip('An input field for the user to enter text.');
+    this.setHelpUrl('https://www.youtube.com/watch?v=s2_xaEvcVI0#t=319');
+  },
+  onchange: function() {
+    if (!this.workspace) {
+      // Block has been deleted.
+      return;
+    }
+    fieldNameCheck(this);
+  }
+};
+Blockly.Blocks['field_math'] = { init: function() {
+    this.setColour("#00cc00");
+    this.appendDummyInput()
+        .appendField('number')
+        .appendField(new Blockly.FieldTextInput('123'), 'TEXT')
+        .appendField(',')
+        .appendField(new Blockly.FieldTextInput('_number'), 'FIELDNAME');
+    this.setPreviousStatement(true, 'Field');
+    this.setNextStatement(true, 'Field');
+    this.setTooltip('An input field for the user to enter number.');
+    this.setHelpUrl('https://www.youtube.com/watch?v=s2_xaEvcVI0#t=319');
+  },
+  onchange: function() {
+    if (!this.workspace) {
+      // Block has been deleted.
+      return;
+    }
+    fieldNameCheck(this);
+  }
+};
+Blockly.Blocks['field_angle'] = { init: function() {
+    this.setColour("#00cc00");
+    this.appendDummyInput()
+        .appendField('angle')
+        .appendField(new Blockly.FieldAngle('90'), 'ANGLE')
+        .appendField(',')
+        .appendField(new Blockly.FieldTextInput('_angle'), 'FIELDNAME');
+    this.setPreviousStatement(true, 'Field');
+    this.setNextStatement(true, 'Field');
+    this.setTooltip('An input field for the user to enter an angle.');
+    this.setHelpUrl('https://www.youtube.com/watch?v=s2_xaEvcVI0#t=372');
+  },
+  onchange: function() {
+    if (!this.workspace) {
+      // Block has been deleted.
+      return;
+    }
+    fieldNameCheck(this);
+  }
+};
+Blockly.Blocks['field_dropdown'] = { init: function() {
+    this.setColour("#00cc00");
+    this.appendDummyInput()
+        .appendField('menu')
+        .appendField(new Blockly.FieldTextInput('_dropdown'), 'FIELDNAME');
+    this.appendDummyInput('OPTION0')
+        .appendField(new Blockly.FieldTextInput('option1'), 'USER0')
+        .appendField(',')
+        .appendField(new Blockly.FieldTextInput('VALUE1'), 'CPU0');
+    this.appendDummyInput('OPTION1')
+        .appendField(new Blockly.FieldTextInput('option2'), 'USER1')
+        .appendField(',')
+        .appendField(new Blockly.FieldTextInput('VALUE2'), 'CPU1');
+    this.appendDummyInput('OPTION2')
+        .appendField(new Blockly.FieldTextInput('option3'), 'USER2')
+        .appendField(',')
+        .appendField(new Blockly.FieldTextInput('VALUE3'), 'CPU2');
+    this.setPreviousStatement(true, 'Field');
+    this.setNextStatement(true, 'Field');
+    this.setMutator(new Blockly.Mutator(['field_dropdown_option']));
+    this.setTooltip('Dropdown menu with a list of options.');
+    this.setHelpUrl('https://www.youtube.com/watch?v=s2_xaEvcVI0#t=386');
+    this.optionCount_ = 3;
+  },
+  mutationToDom: function(workspace) {
+    var container = document.createElement('mutation');
+    container.setAttribute('options', this.optionCount_);
+    return container;
+  },
+  domToMutation: function(container) {
+    for (var x = 0; x < this.optionCount_; x++) {
+      this.removeInput('OPTION' + x);
+    }
+    this.optionCount_ = parseInt(container.getAttribute('options'), 10);
+    for (var x = 0; x < this.optionCount_; x++) {
+      var input = this.appendDummyInput('OPTION' + x);
+      input.appendField(new Blockly.FieldTextInput('option'), 'USER' + x);
+      input.appendField(',');
+      input.appendField(new Blockly.FieldTextInput('VALUE'), 'CPU' + x);
+    }
+  },
+  decompose: function(workspace) {
+    var containerBlock =
+        Blockly.Block.obtain(workspace, 'field_dropdown_container');
+    containerBlock.initSvg();
+    var connection = containerBlock.getInput('STACK').connection;
+    for (var x = 0; x < this.optionCount_; x++) {
+      var optionBlock =
+          Blockly.Block.obtain(workspace, 'field_dropdown_option');
+      optionBlock.initSvg();
+      connection.connect(optionBlock.previousConnection);
+      connection = optionBlock.nextConnection;
+    }
+    return containerBlock;
+  },
+  compose: function(containerBlock) {
+    // Disconnect all input blocks and remove all inputs.
+    for (var x = this.optionCount_ - 1; x >= 0; x--) {
+      this.removeInput('OPTION' + x);
+    }
+    this.optionCount_ = 0;
+    // Rebuild the block's inputs.
+    var optionBlock = containerBlock.getInputTargetBlock('STACK');
+    while (optionBlock) {
+      this.appendDummyInput('OPTION' + this.optionCount_)
+          .appendField(new Blockly.FieldTextInput(
+              optionBlock.userData_ || 'option'), 'USER' + this.optionCount_)
+          .appendField(',')
+          .appendField(new Blockly.FieldTextInput(
+              optionBlock.cpuData_ || 'VALUE'), 'CPU' + this.optionCount_);
+      this.optionCount_++;
+      optionBlock = optionBlock.nextConnection &&
+          optionBlock.nextConnection.targetBlock();
+    }
+  },
+  saveConnections: function(containerBlock) {
+    // Store names and values for each option.
+    var optionBlock = containerBlock.getInputTargetBlock('STACK');
+    var x = 0;
+    while (optionBlock) {
+      optionBlock.userData_ = this.getFieldValue('USER' + x);
+      optionBlock.cpuData_ = this.getFieldValue('CPU' + x);
+      x++;
+      optionBlock = optionBlock.nextConnection &&
+          optionBlock.nextConnection.targetBlock();
+    }
+  },
+  onchange: function() {
+    if (!this.workspace) {
+      // Block has been deleted.
+      return;
+    }
+    if (this.optionCount_ < 1) {
+      this.setWarningText('Drop down menu must\nhave at least one option.');
+    } else {
+      fieldNameCheck(this);
+    }
+  }
+};
+Blockly.Blocks['field_dropdown_container'] = {
+  // Container.
+  init: function() {
+    this.setColour("#00cc00");
+    this.appendDummyInput()
+        .appendField('menu');
+    this.appendStatementInput('STACK');
+    this.setTooltip('Add, remove, or reorder options\nto reconfigure this dropdown menu.');
+    this.setHelpUrl('https://www.youtube.com/watch?v=s2_xaEvcVI0#t=386');
+    this.contextMenu = false;
+  }
+};
+Blockly.Blocks['field_dropdown_option'] = {
+  // Add option.
+  init: function() {
+    this.setColour("#00cc00");
+    this.appendDummyInput()
+        .appendField('option');
+    this.setPreviousStatement(true);
+    this.setNextStatement(true);
+    this.setTooltip('Add a new option to the dropdown menu.');
+    this.setHelpUrl('https://www.youtube.com/watch?v=s2_xaEvcVI0#t=386');
+    this.contextMenu = false;
+  }
+};
+Blockly.Blocks['field_checkbox'] = { init: function() {
+    this.setColour("#00cc00");
+    this.appendDummyInput()
+        .appendField('check box')
+        .appendField(new Blockly.FieldCheckbox('TRUE'), 'CHECKED')
+        .appendField(',')
+        .appendField(new Blockly.FieldTextInput('_check'), 'FIELDNAME');
+    this.setPreviousStatement(true, 'Field');
+    this.setNextStatement(true, 'Field');
+    this.setTooltip('Checkbox field.');
+    this.setHelpUrl('https://www.youtube.com/watch?v=s2_xaEvcVI0#t=485');
+  },
+  onchange: function() {
+    if (!this.workspace) {
+      // Block has been deleted.
+      return;
+    }
+    fieldNameCheck(this);
+  }
+};
+Blockly.Blocks['field_colour'] = { init: function() {
+    this.setColour("#00cc00");
+    this.appendDummyInput()
+        .appendField('color')
+        .appendField(new Blockly.FieldColour('#ff0000'), 'COLOUR')
+        .appendField(',')
+        .appendField(new Blockly.FieldTextInput('_colour'), 'FIELDNAME');
+    this.setPreviousStatement(true, 'Field');
+    this.setNextStatement(true, 'Field');
+    this.setTooltip('Colour input field.');
+    this.setHelpUrl('https://www.youtube.com/watch?v=s2_xaEvcVI0#t=495');
+  },
+  onchange: function() {
+    if (!this.workspace) {
+      // Block has been deleted.
+      return;
+    }
+    fieldNameCheck(this);
+  }
+};
+Blockly.Blocks['field_variable'] = { init: function() {
+    this.setColour("#00cc00");
+    this.appendDummyInput()
+        .appendField('variable')
+        .appendField(new Blockly.FieldTextInput('item'), 'TEXT')
+        .appendField(',')
+        .appendField(new Blockly.FieldTextInput('NAME'), 'FIELDNAME');
+    this.setPreviousStatement(true, 'Field');
+    this.setNextStatement(true, 'Field');
+    this.setTooltip('Dropdown menu for variable names.');
+    this.setHelpUrl('https://www.youtube.com/watch?v=s2_xaEvcVI0#t=510');
+  },
+  onchange: function() {
+    if (!this.workspace) {
+      // Block has been deleted.
+      return;
+    }
+    fieldNameCheck(this);
+  }
+};
+Blockly.Blocks['field_image'] = { init: function() {
+    this.setColour("#00cc00");
+    var src = 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAABA9pVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMDY3IDc5LjE1Nzc0NywgMjAxNS8wMy8zMC0yMzo0MDo0MiAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtbG5zOmRjPSJodHRwOi8vcHVybC5vcmcvZGMvZWxlbWVudHMvMS4xLyIgeG1wTU06T3JpZ2luYWxEb2N1bWVudElEPSJ1dWlkOjY1RTYzOTA2ODZDRjExREJBNkUyRDg4N0NFQUNCNDA3IiB4bXBNTTpEb2N1bWVudElEPSJ4bXAuZGlkOjkzNEFBOEU3ODUyRTExRTU4RTQwRkQwODFEOUZEMEE3IiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOjkzNEFBOEU2ODUyRTExRTU4RTQwRkQwODFEOUZEMEE3IiB4bXA6Q3JlYXRvclRvb2w9IkFkb2JlIFBob3Rvc2hvcCBDQyAyMDE1IChNYWNpbnRvc2gpIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6YmZlYzFmZjgtZjI0MS00MTdhLWJmYTQtMjZiOTdkYTJkZGI2IiBzdFJlZjpkb2N1bWVudElEPSJhZG9iZTpkb2NpZDpwaG90b3Nob3A6ZTJhODNmYmQtY2NkNC0xMTc4LTg4N2EtOWQ5MDZmZTFhNmQ0Ii8+IDxkYzp0aXRsZT4gPHJkZjpBbHQ+IDxyZGY6bGkgeG1sOmxhbmc9IngtZGVmYXVsdCI+Z2x5cGhpY29uc19zb2NpYWw8L3JkZjpsaT4gPC9yZGY6QWx0PiA8L2RjOnRpdGxlPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PlS4AF8AAADxSURBVHjatFbbDcMgDDRV/8sGzQjdoIySbtAROkpHyAiMwAjJBjABhcpIfBCwE0A6BSFzhx+YAACoABvgOyNyKoGTG4wZDk6ccCXaHSKeMbRDBGbv//sWiv31SGCFEDp8niTb5EYlSQbnOeGGHjwQ1SLZc+8bIGM4MCQy4B0J01q2vnBzoHOSFvAwLAHFIJ/ZVcQ8va4JXAo52Xpe5ZLAnclhWwYl1yZGiBQ3RGkTaQSRmINXamxUD1hlip6s3F7Uq1SrXVMSyGXjwapeEpNEsOd8EFNGbs62a7tDYihPbaubDrlo3QXcQH4Ho39bfgIMAMz8AJn0V4bRAAAAAElFTkSuQmCC';
+    this.appendDummyInput()
+        .appendField('image')
+        .appendField(new Blockly.FieldTextInput(src), 'SRC');
+    this.appendDummyInput()
+        .appendField('width')
+        .appendField(new Blockly.FieldTextInput('24',
+            Blockly.FieldTextInput.numberValidator), 'WIDTH')
+        .appendField('height')
+        .appendField(new Blockly.FieldTextInput('24',
+            Blockly.FieldTextInput.numberValidator), 'HEIGHT')
+        .appendField('alternative')
+        .appendField(new Blockly.FieldTextInput('*'), 'ALT');
+    this.setPreviousStatement(true, 'Field');
+    this.setNextStatement(true, 'Field');
+    this.setTooltip('Static image.\nRetains aspect ratio regardless of height and width.\nAlt text is for when collapsed.');
+    this.setHelpUrl('https://www.youtube.com/watch?v=s2_xaEvcVI0#t=567');
+  }
+};
+Blockly.Blocks['type_boolean'] = {
+  // Boolean type.
+  valueType: 'Boolean',
+  init: function() {
+    this.setColour("#ff0000");
+    this.appendDummyInput()
+        .appendField('binary');
+    this.setOutput(true, 'Type');
+    this.setTooltip('Booleans (true/false) are allowed.');
+    this.setHelpUrl('https://www.youtube.com/watch?v=s2_xaEvcVI0#t=602');
+  }
+};
+Blockly.Blocks['type_number'] = {
+  // Number type.
+  valueType: 'Number',
+  init: function() {
+    this.setColour("#ff0000");
+    this.appendDummyInput()
+        .appendField('number');
+    this.setOutput(true, 'Type');
+    this.setTooltip('Numbers (int/float) are allowed.');
+    this.setHelpUrl('https://www.youtube.com/watch?v=s2_xaEvcVI0#t=602');
+  }
+};
+Blockly.Blocks['type_string'] = {
+  // String type.
+  valueType: 'String',
+  init: function() {
+    this.setColour("#ff0000");
+    this.appendDummyInput()
+        .appendField('text');
+    this.setOutput(true, 'Type');
+    this.setTooltip('Strings (text) are allowed.');
+    this.setHelpUrl('https://www.youtube.com/watch?v=s2_xaEvcVI0#t=602');
+  }
+};
+Blockly.Blocks['type_other'] = {
+  // Other type.
+  init: function() {
+    this.setColour("#ff0000");
+    this.appendDummyInput()
+        .appendField('other')
+        .appendField(new Blockly.FieldTextInput(''), 'TYPE');
+    this.setOutput(true, 'Type');
+    this.setTooltip('Custom type to allow.');
+    this.setHelpUrl('https://www.youtube.com/watch?v=s2_xaEvcVI0#t=702');
+  }
+};
+Blockly.Blocks['colour_hue'] = { init: function() {
+    this.appendDummyInput()
+        .appendField(new Blockly.FieldAngle('0', this.validator), 'HUE');
+    this.setOutput(true, 'Colour');
+    this.setTooltip('Paint the block with this colour.');
+    this.setHelpUrl('https://www.youtube.com/watch?v=s2_xaEvcVI0#t=55');
+  },
+  validator: function(text) {
+    // Update the current block's colour to match.
+    this.sourceBlock_.setColour(text);
+  },
+  mutationToDom: function(workspace) {
+    var container = document.createElement('mutation');
+    container.setAttribute('colour', this.getColour());
+    return container;
+  },
+  domToMutation: function(container) {
+    this.setColour(container.getAttribute('colour'));
+  }
+};
+function fieldNameCheck(referenceBlock) {
+  var name = referenceBlock.getFieldValue('FIELDNAME').toLowerCase();
+  var count = 0;
+  var blocks = referenceBlock.workspace.getAllBlocks();
+  for (var x = 0, block; block = blocks[x]; x++) {
+    var otherName = block.getFieldValue('FIELDNAME');
+    if (!block.disabled && !block.getInheritedDisabled() &&
+        otherName && otherName.toLowerCase() == name) {
+      count++;
+    }
+  }
+  var msg = (count > 1) ?
+      'There are ' + count + ' field blocks\n with this name.' : null;
+  referenceBlock.setWarningText(msg);
+}
+function inputNameCheck(referenceBlock) {
+  var name = referenceBlock.getFieldValue('INPUTNAME').toLowerCase();
+  var count = 0;
+  var blocks = referenceBlock.workspace.getAllBlocks();
+  for (var x = 0, block; block = blocks[x]; x++) {
+    var otherName = block.getFieldValue('INPUTNAME');
+    if (!block.disabled && !block.getInheritedDisabled() &&
+        otherName && otherName.toLowerCase() == name) {
+      count++;
+    }
+  }
+  var msg = (count > 1) ?
+      'There are ' + count + ' input blocks\n with this name.' : null;
+  referenceBlock.setWarningText(msg);
+}

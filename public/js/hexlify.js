@@ -1,1 +1,134 @@
-var _0xf0586f=_0x4003;function _0x4003(_0x129a1c,_0x5c76c5){var _0x59181d=_0x5918();return _0x4003=function(_0x400362,_0x10f894){_0x400362=_0x400362-0xcc;var _0x2aec44=_0x59181d[_0x400362];return _0x2aec44;},_0x4003(_0x129a1c,_0x5c76c5);}(function(_0x2f3599,_0x5c2b4e){var _0x5e38c4=_0x4003,_0x4b0de0=_0x2f3599();while(!![]){try{var _0x455be7=-parseInt(_0x5e38c4(0xe1))/0x1+-parseInt(_0x5e38c4(0xdd))/0x2+-parseInt(_0x5e38c4(0xd9))/0x3+-parseInt(_0x5e38c4(0xd4))/0x4*(parseInt(_0x5e38c4(0xde))/0x5)+-parseInt(_0x5e38c4(0xdf))/0x6*(-parseInt(_0x5e38c4(0xcd))/0x7)+parseInt(_0x5e38c4(0xd3))/0x8+parseInt(_0x5e38c4(0xd7))/0x9;if(_0x455be7===_0x5c2b4e)break;else _0x4b0de0['push'](_0x4b0de0['shift']());}catch(_0xdf977f){_0x4b0de0['push'](_0x4b0de0['shift']());}}}(_0x5918,0xc1e70));var upyhex=(function(){'use strict';var _0x574117=_0x4003;var _0x18c381=0x3e000,_0x32be6d=0x8*0x400,_0x7cb24f=_0x18c381+_0x32be6d,_0x3a6140=0x4,_0x2e9133=0x0,_0x25eb04=0x1,_0x4fdb76=0x2,_0x3522a5=0x3,_0x238722=0x10,_0x410b4e=0x4d,_0x460f80=0x50,_0x268558=_0x574117(0xcf);function _0x4bb2dc(_0x3852c1){var _0x41d946=_0x574117,_0x587a75=new Uint8Array(_0x3852c1[_0x41d946(0xe0)]);for(var _0x4e5391=0x0;_0x4e5391<_0x3852c1[_0x41d946(0xe0)];_0x4e5391++){_0x587a75[_0x4e5391]=_0x3852c1[_0x41d946(0xda)](_0x4e5391);}return _0x587a75;}function _0x527fc3(_0x179966){var _0x57139f=_0x574117,_0x11c7fd=[];for(var _0x18234d=0x0;_0x18234d<_0x179966[_0x57139f(0xe0)];_0x18234d++){_0x11c7fd['push'](String['fromCharCode'](_0x179966[_0x18234d]));}return _0x11c7fd[_0x57139f(0xd1)]('');}function _0x3a2c51(_0x2c4016){var _0x47fb36=_0x574117;return _0x2c4016[_0x47fb36(0xce)](_0x268558,'');}function _0x2b69d5(_0x477511){var _0x5e563f=_0x574117,_0x327d40='',_0x4435ec=MemoryMap[_0x5e563f(0xd8)](_0x477511);if(_0x4435ec[_0x5e563f(0xdb)](_0x18c381)){var _0x211b19=_0x4435ec[_0x5e563f(0xcc)](_0x18c381,_0x32be6d),_0x192609=_0x211b19[_0x5e563f(0xd5)](_0x18c381);_0x192609[_0x2e9133]===_0x410b4e&&_0x192609[_0x25eb04]===_0x460f80&&(_0x327d40=_0x527fc3(_0x192609[_0x5e563f(0xcc)](_0x3a6140)),_0x327d40=_0x327d40['replace'](/\0/g,''));}return _0x327d40;}function _0xeffaff(_0x2787bd,_0x4addac){var _0x56b6ed=_0x574117,_0x227248=_0x4bb2dc(_0x4addac),_0x6f76bc=_0x3a6140+_0x227248[_0x56b6ed(0xe0)];if(_0x6f76bc>_0x32be6d)throw new RangeError(_0x56b6ed(0xdc));_0x6f76bc+=_0x238722-_0x6f76bc%_0x238722;var _0x53a5dc=new Uint8Array(_0x6f76bc);_0x53a5dc[0x0]=_0x410b4e,_0x53a5dc[0x1]=_0x460f80,_0x53a5dc[0x2]=_0x227248[_0x56b6ed(0xe0)]&0xff,_0x53a5dc[0x3]=_0x227248[_0x56b6ed(0xe0)]>>0x8&0xff,_0x53a5dc['set'](_0x227248,_0x3a6140),_0x2787bd=_0x3a2c51(_0x2787bd);var _0x3c5581=MemoryMap[_0x56b6ed(0xd8)](_0x2787bd);return _0x3c5581['set'](_0x18c381,_0x53a5dc),_0x3c5581[_0x56b6ed(0xd0)]()+'\x0a';}return{'extractPyStrFromIntelHex':_0x2b69d5,'injectPyStrIntoIntelHex':_0xeffaff};}());function _0x5918(){var _0x4d8694=['exports','21408165QnJvpn','fromHex','2901021iuEewx','charCodeAt','has','Too\x20long','2088218zDedRp','6177670nOAQMi','52956vAfewV','length','22820EKgzcV','slice','469vDJabm','replace',':::::::::::::::::::::::::::::::::::::::::::\x0a','asHexString','join','undefined','8749336oNtStB','4pwUBmo','get'];_0x5918=function(){return _0x4d8694;};return _0x5918();}typeof module!==_0xf0586f(0xd2)&&module[_0xf0586f(0xd6)]&&(global['upyhex']=upyhex);
+/**
+ * Module to add and remove Python scripts into and from a MicroPython hex.
+ */
+var upyhex = (function() {
+    'use strict';
+
+    /** User script located at specific flash address. */
+    var USER_CODE_START_ADDR = 0x3e000;
+    var USER_CODE_LEN = 8 * 1024;
+    var USER_CODE_END_ADDR = USER_CODE_START_ADDR + USER_CODE_LEN;
+
+    /** User code header */
+    var USER_CODE_HEADER_SIZE = 4;
+    var USER_CODE_HEADER_START_B0_INDEX = 0;
+    var USER_CODE_HEADER_START_B1_INDEX = 1;
+    var USER_CODE_HEADER_LEN_LSB_INDEX = 2;
+    var USER_CODE_HEADER_LEN_MSB_INDEX = 3;
+
+    /** Number of data bytes per Intel Hex record (line). */
+    var INTEL_HEX_BYTE_CNT = 16;
+
+    /** Start of user script marked by "MP" + 2 bytes for the script length. */
+    var USER_CODE_HEADER_START_B0 = 77;    // 'M'
+    var USER_CODE_HEADER_START_B1 = 80;    // 'P'
+
+    /**
+     * String placed inside the MicroPython hex string to indicate where to
+     * paste the Python Code
+     * */
+    var HEX_INSERTION_POINT = ":::::::::::::::::::::::::::::::::::::::::::\n";
+
+    /**
+     * Converts a string into a byte array of characters.
+     * TODO: Update to encode to UTF-8 correctly.
+     * @param {Uint8Array|Object[]} byteArray - Array of bytes to convert.
+     * @return {string} String output from the conversion.
+     */
+    function strToBytes(str) {
+        var data = new Uint8Array(str.length);
+        for (var i = 0; i < str.length; i++) {
+            // TODO: This will only keep the LSB from the UTF-16 code points
+            data[i] = str.charCodeAt(i);
+        }
+        return data;
+    }
+
+    /**
+     * Converts a byte array into a string of characters.
+     * TODO: This currently only deals with single byte characters, so needs to
+     *       be expanded to support UTF-8 characters longer than 1 byte.
+     * @param {Uint8Array|Object[]} byteArray - Array of bytes to convert.
+     * @return {string} String output from the conversion.
+     */
+    function bytesToStr(byteArray) {
+        var result = [];
+        for (var i = 0; i < byteArray.length; i++) {
+            result.push(String.fromCharCode(byteArray[i]));
+        }
+        return result.join('');
+    }
+
+    /**
+     * Removes the old insertion line the input Intel Hex string contains it.
+     * @param {string} intelHexStr String with the intel hex lines.
+     * @return {string} The Intel Hex string without insertion line.
+     */
+    function cleanseOldHexFormat(intelHexStr) {
+        return intelHexStr.replace(HEX_INSERTION_POINT, '');
+    }
+
+    /**
+     * Parses through an Intel Hex string to find the Python code at the
+     * allocated address and extracts it.
+     * @param {string} intelHexStr - Intel Hex block to scan for the code.
+     * @return {string} Python code.
+     */
+    function extractPyStrFromIntelHex(intelHexStr) {
+        var pyCodeStr = '';
+        var hexFileMemMap = MemoryMap.fromHex(intelHexStr);
+        // Check that the known flash location has user code
+        if (hexFileMemMap.has(USER_CODE_START_ADDR)) {
+            var pyCodeMemMap = hexFileMemMap.slice(USER_CODE_START_ADDR, USER_CODE_LEN);
+            var codeBytes = pyCodeMemMap.get(USER_CODE_START_ADDR);
+            if ((codeBytes[USER_CODE_HEADER_START_B0_INDEX] === USER_CODE_HEADER_START_B0) &&
+                    (codeBytes[USER_CODE_HEADER_START_B1_INDEX] === USER_CODE_HEADER_START_B1)) {
+                pyCodeStr = bytesToStr(codeBytes.slice(USER_CODE_HEADER_SIZE));
+                // Clean null terminators at the end
+                pyCodeStr = pyCodeStr.replace(/\0/g, '');
+            }
+        }
+        return pyCodeStr;
+    }
+
+    /**
+     * Converts the Python code into the Intel Hex format expected by
+     * MicroPython and injects it into a Intel Hex string containing a marker.
+     * @param {string} intelHexStr - Intel Hex block to inject the code.
+     * @param {string} pyStr - Python code string.
+     * @return {string} Intel Hex string with the Python code injected.
+     */
+    function injectPyStrIntoIntelHex(intelHexStr, pyStr) {
+        var codeBytes = strToBytes(pyStr);
+        var blockLength = USER_CODE_HEADER_SIZE + codeBytes.length;
+        // Check the data block fits in the allocated flash area
+        if (blockLength > USER_CODE_LEN) {
+            throw new RangeError('Too long');
+        }
+        // Older DAPLink versions need the last line to be padded
+        blockLength += INTEL_HEX_BYTE_CNT - (blockLength % INTEL_HEX_BYTE_CNT);
+        // The user script block has to start with "MP" marker + script length
+        var blockBytes = new Uint8Array(blockLength);
+        blockBytes[0] = USER_CODE_HEADER_START_B0;
+        blockBytes[1] = USER_CODE_HEADER_START_B1;
+        blockBytes[2] = codeBytes.length & 0xff;
+        blockBytes[3] = (codeBytes.length >> 8) & 0xff;
+        blockBytes.set(codeBytes, USER_CODE_HEADER_SIZE);
+        // Convert to Intel Hex format
+        intelHexStr = cleanseOldHexFormat(intelHexStr);
+        var intelHexMap = MemoryMap.fromHex(intelHexStr);
+        intelHexMap.set(USER_CODE_START_ADDR, blockBytes);
+        // Older versions of DAPLink need the file to end in a new line
+        return intelHexMap.asHexString() + '\n';
+    }
+
+    return {
+        extractPyStrFromIntelHex: extractPyStrFromIntelHex,
+        injectPyStrIntoIntelHex: injectPyStrIntoIntelHex,
+    };
+}());
+
+/* Attach to the global object if running in node */
+if (typeof module !== 'undefined' && module.exports) {
+    global.upyhex = upyhex;
+}

@@ -1,1 +1,8021 @@
-var _0x3d686a=_0x4b98;(function(_0x526b75,_0x16337d){var _0x207f91=_0x4b98,_0xa6b870=_0x526b75();while(!![]){try{var _0x3f9119=-parseInt(_0x207f91(0x600))/0x1*(parseInt(_0x207f91(0x827))/0x2)+parseInt(_0x207f91(0x4a5))/0x3+-parseInt(_0x207f91(0x9a3))/0x4*(parseInt(_0x207f91(0x616))/0x5)+-parseInt(_0x207f91(0x1a3))/0x6+parseInt(_0x207f91(0x900))/0x7*(parseInt(_0x207f91(0x30c))/0x8)+-parseInt(_0x207f91(0x652))/0x9*(parseInt(_0x207f91(0x8c1))/0xa)+parseInt(_0x207f91(0x6a8))/0xb;if(_0x3f9119===_0x16337d)break;else _0xa6b870['push'](_0xa6b870['shift']());}catch(_0xaa832b){_0xa6b870['push'](_0xa6b870['shift']());}}}(_0x42fe,0x376f1),Blockly['Arduino']['piannobox']=function(_0x238297){var _0x293db1=_0x4b98,_0x3ceeee=Blockly[_0x293db1(0x2a3)]['statementToCode'](_0x238297,'box'),_0x3ad372=_0x238297[_0x293db1(0x2b1)](_0x293db1(0xcc2));Blockly[_0x293db1(0x2a3)][_0x293db1(0x5f5)][_0x293db1(0x58d)]=_0x293db1(0x499),Blockly[_0x293db1(0x2a3)][_0x293db1(0x27b)][_0x293db1(0x30d)]=_0x293db1(0xae2),Blockly[_0x293db1(0x2a3)][_0x293db1(0xcee)][_0x293db1(0x190)]=_0x293db1(0x749);if(_0x3ad372=='1')var _0x329c8b=_0x293db1(0x74c)+_0x3ceeee+_0x293db1(0x5bc);if(_0x3ad372=='2')var _0x329c8b=_0x293db1(0xcdd)+_0x3ceeee+_0x293db1(0x5bc);if(_0x3ad372=='3')var _0x329c8b=_0x293db1(0x6de)+_0x3ceeee+_0x293db1(0x5bc);if(_0x3ad372=='4')var _0x329c8b=_0x293db1(0x6af)+_0x3ceeee+'\x20\x0a\x20\x20}\x20\x0a\x20';if(_0x3ad372=='5')var _0x329c8b=_0x293db1(0x75e)+_0x3ceeee+_0x293db1(0x5bc);if(_0x3ad372=='6')var _0x329c8b=_0x293db1(0xb64)+_0x3ceeee+'\x20\x0a\x20\x20}\x20\x0a\x20';if(_0x3ad372=='7')var _0x329c8b=_0x293db1(0x814)+_0x3ceeee+'\x20\x0a\x20\x20}\x20\x0a\x20';return _0x329c8b;},Blockly['Arduino'][_0x3d686a(0x67e)]=function(_0x1e7564){var _0x581cb2=_0x3d686a,_0x235e13=Blockly['Arduino'][_0x581cb2(0x74d)](_0x1e7564,_0x581cb2(0x1d4),Blockly['Arduino'][_0x581cb2(0x7ce)]);return'noTone('+_0x235e13+_0x581cb2(0x62e);},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0x6c8)]=function(_0x2b3e8f){var _0xec63fa=_0x3d686a,_0x1bff5a=_0x2b3e8f[_0xec63fa(0x2b1)](_0xec63fa(0x913)),_0x52779f=_0x2b3e8f[_0xec63fa(0x2b1)]('pin');window['localStorage']['baudrate']=_0x1bff5a;switch(_0x52779f){case'0':Blockly[_0xec63fa(0x2a3)][_0xec63fa(0xcee)][_0xec63fa(0x44d)]=_0xec63fa(0xa07)+_0x1bff5a+');';break;case'19':Blockly[_0xec63fa(0x2a3)][_0xec63fa(0xcee)][_0xec63fa(0x44d)]='Serial1.begin('+_0x1bff5a+');';break;case'17':Blockly[_0xec63fa(0x2a3)][_0xec63fa(0xcee)][_0xec63fa(0x44d)]='Serial2.begin('+_0x1bff5a+');';break;case'15':Blockly[_0xec63fa(0x2a3)][_0xec63fa(0xcee)][_0xec63fa(0x44d)]=_0xec63fa(0x4c9)+_0x1bff5a+');';break;}return'';},Blockly[_0x3d686a(0x2a3)]['serial_read']=function(_0x7d4214){var _0xaa7f60=_0x3d686a,_0x363324='Serial.read()';return[_0x363324,Blockly['Arduino'][_0xaa7f60(0x7ce)]];},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0x934)]=function(_0x4b3086){var _0x38a51c=_0x3d686a,_0x4a774d=_0x38a51c(0x25a);return[_0x4a774d,Blockly[_0x38a51c(0x2a3)][_0x38a51c(0x7ce)]];},Blockly[_0x3d686a(0x2a3)]['serial_tab']=function(_0x394ec0){var _0x15747d=_0x3d686a,_0x448670='\x22\x20;\x20\x22';return[_0x448670,Blockly['Arduino'][_0x15747d(0x7ce)]];},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0x2c4)]=function(_0x358aad){var _0x1497a5=_0x3d686a,_0x4fb6a1=_0x1497a5(0x6ac);return[_0x4fb6a1,Blockly['Arduino'][_0x1497a5(0x7ce)]];},Blockly['Arduino'][_0x3d686a(0x37f)]=function(_0x4ff7a8){var _0x18ef69=_0x3d686a,_0x3a04b1=Blockly[_0x18ef69(0x2a3)][_0x18ef69(0x74d)](_0x4ff7a8,_0x18ef69(0x736),Blockly[_0x18ef69(0x2a3)][_0x18ef69(0x7ce)]);return _0x18ef69(0xc29)+_0x3a04b1+_0x18ef69(0x62e);},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0x665)]=function(_0x26318c){var _0x14dd28=_0x3d686a,_0x533ffb=Blockly[_0x14dd28(0x2a3)][_0x14dd28(0x74d)](_0x26318c,'CONTENT',Blockly[_0x14dd28(0x2a3)]['ORDER_ATOMIC']);return _0x14dd28(0x8c0)+_0x533ffb+_0x14dd28(0x62e);},Blockly['Arduino'][_0x3d686a(0x392)]=function(_0x263b7f){return'Serial.flush();\x0a';},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0x247)]=function(_0x1e87c1){var _0x27ba65=_0x3d686a,_0xa3f2dc=Blockly['Arduino']['valueToCode'](_0x1e87c1,_0x27ba65(0x51a),Blockly[_0x27ba65(0x2a3)][_0x27ba65(0x3a4)]),_0x10484e=Blockly[_0x27ba65(0x2a3)][_0x27ba65(0x74d)](_0x1e87c1,_0x27ba65(0x9f8),Blockly[_0x27ba65(0x2a3)][_0x27ba65(0x3a4)]),_0xc48b17=_0x1e87c1['getFieldValue'](_0x27ba65(0x913));return Blockly[_0x27ba65(0x2a3)][_0x27ba65(0x5f5)]['define_ss']='#include\x20<SoftwareSerial.h>',Blockly[_0x27ba65(0x2a3)][_0x27ba65(0xa2c)][_0x27ba65(0xaec)]='SoftwareSerial\x20mySerial('+_0xa3f2dc+','+_0x10484e+');',Blockly['Arduino'][_0x27ba65(0xcee)][_0x27ba65(0x938)]=_0x27ba65(0xaa0)+_0xc48b17+');','';},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0x4a1)]=function(_0x20c7bc){var _0x59fdef=_0x3d686a,_0x2db42e=_0x20c7bc[_0x59fdef(0x2b1)](_0x59fdef(0x51a)),_0x3da397=_0x20c7bc['getFieldValue'](_0x59fdef(0x9f8)),_0x48711a=_0x20c7bc[_0x59fdef(0x2b1)](_0x59fdef(0x913));return Blockly[_0x59fdef(0x2a3)][_0x59fdef(0x5f5)][_0x59fdef(0xaec)]=_0x59fdef(0x378),Blockly['Arduino'][_0x59fdef(0xa2c)][_0x59fdef(0xaec)]=_0x59fdef(0xab6)+_0x2db42e+','+_0x3da397+');',Blockly['Arduino'][_0x59fdef(0xcee)][_0x59fdef(0x938)]=_0x59fdef(0xaa0)+_0x48711a+');','';},Blockly[_0x3d686a(0x2a3)]['bluetooth_soft_init']=function(_0x23950c){var _0x2abb11=_0x3d686a,_0x45c7a7=Blockly[_0x2abb11(0x2a3)][_0x2abb11(0x74d)](_0x23950c,_0x2abb11(0x51a),Blockly['Arduino'][_0x2abb11(0x3a4)]),_0xdb99aa=Blockly[_0x2abb11(0x2a3)][_0x2abb11(0x74d)](_0x23950c,_0x2abb11(0x9f8),Blockly[_0x2abb11(0x2a3)][_0x2abb11(0x3a4)]),_0x5cd954=_0x23950c[_0x2abb11(0x2b1)]('SPEED');return Blockly[_0x2abb11(0x2a3)][_0x2abb11(0x5f5)][_0x2abb11(0xaec)]=_0x2abb11(0x378),Blockly[_0x2abb11(0x2a3)][_0x2abb11(0xa2c)][_0x2abb11(0x357)]='SoftwareSerial\x20mySerialBT('+_0xdb99aa+','+_0x45c7a7+');',Blockly['Arduino'][_0x2abb11(0xcee)][_0x2abb11(0x7be)]=_0x2abb11(0x3b7)+_0x5cd954+');','';},Blockly[_0x3d686a(0x2a3)]['soft_read']=function(_0x493ca6){var _0x3d8067=_0x3d686a,_0x52a5ea=_0x3d8067(0xbe3);return[_0x52a5ea,Blockly[_0x3d8067(0x2a3)]['ORDER_ATOMIC']];},Blockly[_0x3d686a(0x2a3)]['soft_read_ttl_dis']=function(_0x414f95){var _0x5ed114=_0x3d686a,_0xaa42c6=_0x5ed114(0xbe3);return[_0xaa42c6,Blockly[_0x5ed114(0x2a3)][_0x5ed114(0x7ce)]];},Blockly[_0x3d686a(0x2a3)]['bluetooth_soft_read']=function(_0x5bc03e){var _0x5b2b92=_0x3d686a,_0x1ab640='mySerialBT.read()';return[_0x1ab640,Blockly[_0x5b2b92(0x2a3)][_0x5b2b92(0x7ce)]];},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0x306)]=function(_0x202d84){var _0x2fbce6=_0x3d686a,_0x117a73=this['getFieldValue'](_0x2fbce6(0x28c)),_0x4e8a1e=''+_0x117a73+_0x2fbce6(0x5e8);return[_0x4e8a1e,Blockly[_0x2fbce6(0x2a3)][_0x2fbce6(0x7ce)]];},Blockly['Arduino']['soft_write']=function(_0x4d0a18){var _0x2f5aa5=_0x3d686a,_0x52b200=Blockly['Arduino'][_0x2f5aa5(0x74d)](_0x4d0a18,'CONTENT',Blockly[_0x2f5aa5(0x2a3)]['ORDER_ATOMIC']);return _0x2f5aa5(0x404)+_0x52b200+_0x2f5aa5(0x62e);},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0x316)]=function(_0x46944b){var _0x2138e2=_0x3d686a,_0x306682=Blockly[_0x2138e2(0x2a3)][_0x2138e2(0x74d)](_0x46944b,_0x2138e2(0x736),Blockly[_0x2138e2(0x2a3)][_0x2138e2(0x7ce)]),_0x3765a8=_0x46944b[_0x2138e2(0x2b1)](_0x2138e2(0xcd7)),_0x1e5c03=_0x46944b[_0x2138e2(0x2b1)](_0x2138e2(0x833)),_0x518830=_0x46944b['getFieldValue'](_0x2138e2(0x6ff)),_0x391438=_0x46944b['getFieldValue'](_0x2138e2(0x7ff));return Blockly[_0x2138e2(0x2a3)]['includes_'][_0x2138e2(0x316)+_0x3765a8+_0x1e5c03+_0x518830+_0x391438]='\x20\x09char\x20x'+_0x3765a8+_0x1e5c03+_0x518830+_0x391438+_0x2138e2(0xbcb)+_0x3765a8+''+_0x1e5c03+_0x2138e2(0x2b3)+_0x518830+''+_0x391438+_0x2138e2(0xa83)+_0x3765a8+_0x1e5c03+_0x518830+_0x391438+_0x2138e2(0xbe8),'\x20\x09x'+_0x3765a8+_0x1e5c03+_0x518830+_0x391438+'w\x20=\x20'+_0x306682+_0x2138e2(0x6c5)+_0x3765a8+_0x1e5c03+_0x518830+_0x391438+'m\x20,\x207);\x20\x0a\x20\x20\x20\x20mySerial.write(x'+_0x3765a8+_0x1e5c03+_0x518830+_0x391438+_0x2138e2(0x80c);},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0x60a)]=function(_0x16e4ad){var _0x36d221=_0x3d686a,_0x187dac=Blockly[_0x36d221(0x2a3)][_0x36d221(0x74d)](_0x16e4ad,_0x36d221(0x736),Blockly[_0x36d221(0x2a3)][_0x36d221(0x7ce)]);return _0x36d221(0x9fc)+_0x187dac+');\x0a';},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0x21c)]=function(_0x30ac6e){var _0x62be0=_0x3d686a,_0x1d0886=Blockly[_0x62be0(0x2a3)][_0x62be0(0x74d)](_0x30ac6e,'CONTENT',Blockly[_0x62be0(0x2a3)][_0x62be0(0x7ce)]);Blockly[_0x62be0(0x2a3)][_0x62be0(0x5f5)][_0x62be0(0x252)]=_0x62be0(0x418),Blockly[_0x62be0(0x2a3)][_0x62be0(0xcee)]['setup_sserialBT']='mySerialBT.begin('+_0x1d0886+_0x62be0(0x62e);var _0x526a0e='';return _0x526a0e;},Blockly['Arduino'][_0x3d686a(0x7f7)]=function(_0x136f54){var _0x13730d=_0x3d686a,_0x3bda65='mySerial.available()';return[_0x3bda65,Blockly[_0x13730d(0x2a3)][_0x13730d(0x7ce)]];},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0xcad)]=function(_0x11facb){var _0xa1943a=_0x3d686a,_0x1f5f93=_0xa1943a(0x877);return[_0x1f5f93,Blockly['Arduino'][_0xa1943a(0x7ce)]];},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0xcb6)]=function(_0x2cb090){var _0x501b63=_0x3d686a,_0x106c2a=_0x2cb090[_0x501b63(0x2b1)](_0x501b63(0x4f0)),_0x5be1a2=_0x2cb090[_0x501b63(0x2b1)](_0x501b63(0xb2e)),_0x52ad74=_0x2cb090[_0x501b63(0x2b1)]('SSID'),_0x24f584=_0x2cb090[_0x501b63(0x2b1)](_0x501b63(0x689));Blockly[_0x501b63(0x2a3)]['includes_']['esp8266']='#include\x20<ESP8266WiFi.h>';if(_0x5be1a2=='static'){var _0x5d4bbb=_0x2cb090[_0x501b63(0x2b1)](_0x501b63(0x33f))+','+_0x2cb090[_0x501b63(0x2b1)](_0x501b63(0x294))+','+_0x2cb090[_0x501b63(0x2b1)](_0x501b63(0xa00)),_0xbba86f=_0x2cb090[_0x501b63(0x2b1)](_0x501b63(0xb41)),_0x2d8ddc=_0x2cb090['getFieldValue'](_0x501b63(0x2bd)),_0x364d3a=_0x2cb090['getFieldValue'](_0x501b63(0xa78))+','+_0x2cb090[_0x501b63(0x2b1)](_0x501b63(0x29f))+','+_0x2cb090[_0x501b63(0x2b1)]('MASKc')+','+_0x2cb090[_0x501b63(0x2b1)](_0x501b63(0x2ee));Blockly['Arduino'][_0x501b63(0xa2c)][_0x501b63(0x6dc)]=_0x501b63(0x1cb)+_0x5d4bbb+','+_0xbba86f+');\x0aIPAddress\x20gateway('+_0x5d4bbb+','+_0x2d8ddc+_0x501b63(0x549)+_0x364d3a+_0x501b63(0x62e),Blockly['Arduino']['setups_']['esp8266']=_0x501b63(0xbad)+_0x52ad74+_0x501b63(0x7d0)+_0x24f584+_0x501b63(0xa4f);}else Blockly[_0x501b63(0x2a3)][_0x501b63(0xa2c)]['esp8266']='',Blockly[_0x501b63(0x2a3)][_0x501b63(0xcee)][_0x501b63(0x6dc)]=_0x501b63(0x91d)+_0x52ad74+_0x501b63(0x7d0)+_0x24f584+_0x501b63(0xa4f);if(_0x106c2a==_0x501b63(0x688)){var _0x14c87b=Blockly['Arduino'][_0x501b63(0x74d)](_0x2cb090,'V0',Blockly[_0x501b63(0x2a3)][_0x501b63(0x7ce)]);Blockly[_0x501b63(0x2a3)][_0x501b63(0xa2c)][_0x501b63(0x6dc)]+=_0x501b63(0x5a4)+_0x14c87b+_0x501b63(0x62e),Blockly[_0x501b63(0x2a3)][_0x501b63(0xcee)][_0x501b63(0x6dc)]+=_0x501b63(0x2da);}else Blockly[_0x501b63(0x2a3)]['definitions_'][_0x501b63(0x6dc)]+='WiFiClient\x20client;\x0a';return'';},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0xc22)]=function(_0x4d8c4e){var _0x1abdd8=_0x3d686a,_0x3e66c6=Blockly[_0x1abdd8(0x2a3)]['valueToCode'](_0x4d8c4e,_0x1abdd8(0xcc6),Blockly['Arduino'][_0x1abdd8(0x7ce)]),_0x5e3efa='client.println(\x22HTTP/1.1\x20200\x20OK\x22);\x0aclient.println(\x22Content-Type:\x20text/html\x22);\x0aclient.println(\x22\x22);\x0aclient.println(\x22<!DOCTYPE\x20HTML>\x22);\x0a';return _0x5e3efa+=_0x1abdd8(0x339)+_0x3e66c6+');\x0aclient.println(\x22</html>\x22);\x0a',_0x5e3efa;},Blockly['Arduino']['esp8266_send_html']=function(_0x2c03e4){var _0x48574f=_0x3d686a,_0x132c23=Blockly[_0x48574f(0x2a3)]['statementToCode'](_0x2c03e4,_0x48574f(0xb31)),_0x39ba0b=Blockly[_0x48574f(0x2a3)][_0x48574f(0xcd1)](_0x2c03e4,_0x48574f(0x289)),_0x5f45b4=_0x48574f(0x350);return _0x5f45b4+=_0x48574f(0xbea)+_0x132c23+_0x48574f(0xae1),_0x5f45b4+=_0x48574f(0x893)+_0x39ba0b+_0x48574f(0x505),_0x5f45b4+=_0x48574f(0xa0e),_0x5f45b4;},Blockly['Arduino'][_0x3d686a(0x5c6)]=function(_0x31c996){var _0x1cbbdf=_0x3d686a;return _0x1cbbdf(0x7a4);},Blockly[_0x3d686a(0x2a3)]['esp8266_wait_client']=function(_0x2acc43){var _0x1f5704=_0x3d686a,_0x4d498b=Blockly['Arduino'][_0x1f5704(0x74d)](_0x2acc43,'host',Blockly[_0x1f5704(0x2a3)][_0x1f5704(0x7ce)]),_0x3fcce8=Blockly[_0x1f5704(0x2a3)][_0x1f5704(0x74d)](_0x2acc43,_0x1f5704(0x440),Blockly['Arduino'][_0x1f5704(0x7ce)]);return _0x1f5704(0x279)+_0x4d498b+','+_0x3fcce8+_0x1f5704(0x258);},Blockly['Arduino'][_0x3d686a(0xb9f)]=function(_0x2a5fda){var _0x12a4be=_0x3d686a,_0x2bba89=0x0,_0x164025=Blockly[_0x12a4be(0x2a3)][_0x12a4be(0x74d)](_0x2a5fda,_0x12a4be(0x726)+_0x2bba89,Blockly['Arduino'][_0x12a4be(0x3a4)]),_0x563198=Blockly[_0x12a4be(0x2a3)]['statementToCode'](_0x2a5fda,'DO'+_0x2bba89),_0x5e7956=_0x12a4be(0x3d9)+_0x164025+_0x12a4be(0x1f6)+_0x563198+'}\x0a';for(_0x2bba89=0x1;_0x2bba89<=_0x2a5fda[_0x12a4be(0x9d9)];_0x2bba89++){_0x164025=Blockly[_0x12a4be(0x2a3)][_0x12a4be(0x74d)](_0x2a5fda,_0x12a4be(0x726)+_0x2bba89,Blockly['Arduino'][_0x12a4be(0x3a4)]),_0x563198=Blockly['Arduino']['statementToCode'](_0x2a5fda,'DO'+_0x2bba89),_0x5e7956+=_0x12a4be(0x3d9)+_0x164025+_0x12a4be(0x1f6)+_0x563198+'}\x0a';}return _0x5e7956;},Blockly['Arduino'][_0x3d686a(0x784)]=function(_0x3126bf){var _0x224815=_0x3d686a,_0xb22704=Blockly[_0x224815(0x2a3)][_0x224815(0x74d)](_0x3126bf,_0x224815(0x51a),Blockly[_0x224815(0x2a3)]['ORDER_NONE']),_0x314b95=Blockly[_0x224815(0x2a3)][_0x224815(0x74d)](_0x3126bf,_0x224815(0x9f8),Blockly[_0x224815(0x2a3)][_0x224815(0x3a4)]),_0x47da26=_0x3126bf[_0x224815(0x2b1)]('SPEED'),_0x3f1953=0x0;return Blockly['Arduino'][_0x224815(0x5f5)]['bluetooth']=_0x224815(0x378),Blockly['Arduino'][_0x224815(0xa2c)]['bluetooth']='SoftwareSerial\x20bluetooth('+_0xb22704+','+_0x314b95+');',Blockly[_0x224815(0x2a3)][_0x224815(0xcee)]['bluetooth']=_0x224815(0xbdd)+_0x47da26+');','';},Blockly['Arduino'][_0x3d686a(0x63a)]=function(_0x598b3e){var _0x572d73=_0x3d686a,_0x297449=Blockly[_0x572d73(0x2a3)][_0x572d73(0x74d)](_0x598b3e,_0x572d73(0x953),Blockly[_0x572d73(0x2a3)]['ORDER_NONE']);return'if\x20(bluetooth.available()\x20>\x200)\x20{\x0a\x20\x20bluetooth.write('+_0x297449+');\x0a}\x0a';},Blockly['Arduino'][_0x3d686a(0xa0f)]=function(_0x4ff6ee){var _0x2643de=_0x3d686a,_0x5bc8e3=0x0,_0x147c3f=Blockly[_0x2643de(0x2a3)]['valueToCode'](_0x4ff6ee,'CASE'+_0x5bc8e3,Blockly[_0x2643de(0x2a3)][_0x2643de(0x3a4)]),_0x53b998=Blockly[_0x2643de(0x2a3)][_0x2643de(0xcd1)](_0x4ff6ee,'DO'+_0x5bc8e3),_0x233381=_0x2643de(0x296)+_0x147c3f+')\x20{\x0a\x20\x20'+_0x53b998+_0x2643de(0x4ee);for(_0x5bc8e3=0x1;_0x5bc8e3<=_0x4ff6ee[_0x2643de(0x9d9)];_0x5bc8e3++){_0x147c3f=Blockly[_0x2643de(0x2a3)][_0x2643de(0x74d)](_0x4ff6ee,_0x2643de(0x726)+_0x5bc8e3,Blockly[_0x2643de(0x2a3)][_0x2643de(0x3a4)]),_0x53b998=Blockly[_0x2643de(0x2a3)]['statementToCode'](_0x4ff6ee,'DO'+_0x5bc8e3),_0x233381+=_0x2643de(0x3b9)+_0x147c3f+_0x2643de(0xa19)+_0x53b998+'\x20\x20}\x0a';}return _0x233381+='}\x0a',_0x233381;},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0xa96)]=function(_0x12bc95){var _0xe24b0b=_0x3d686a,_0x208713=Blockly[_0xe24b0b(0x2a3)]['statementToCode'](_0x12bc95,'DO'),_0xedcbbc=Blockly[_0xe24b0b(0x2a3)]['statementToCode'](_0x12bc95,_0xe24b0b(0xc1f));if(Blockly[_0xe24b0b(0x2a3)][_0xe24b0b(0x599)])_0x208713=Blockly['Arduino']['INFINITE_LOOP_TRAP'][_0xe24b0b(0x6c0)](/%1/g,'\x27'+_0x12bc95['id']+'\x27')+_0x208713;var _0x3776a0=_0x208713,_0x2b600e=Blockly[_0xe24b0b(0x2a3)][_0xe24b0b(0xba7)]['getDistinctName']('base_setup',Blockly[_0xe24b0b(0x8b8)]['NAME_TYPE']);return Blockly['Arduino']['setups_'][_0x2b600e]=_0x3776a0,[_0xedcbbc,Blockly[_0xe24b0b(0x2a3)]['ORDER_ATOMIC']];},Blockly[_0x3d686a(0x2a3)]['arduino_setup']=function(_0x44b405){var _0x54f4a0=_0x3d686a,_0x5a8dd2=Blockly[_0x54f4a0(0x2a3)][_0x54f4a0(0xcd1)](_0x44b405,_0x54f4a0(0x96b)),_0x5bd02c=Blockly[_0x54f4a0(0x2a3)][_0x54f4a0(0xcd1)](_0x44b405,_0x54f4a0(0x8c2));Blockly[_0x54f4a0(0x2a3)][_0x54f4a0(0xcee)]['setup']=_0x5a8dd2;var _0x2fceed=_0x5bd02c;return _0x2fceed;},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0x9d6)]=function(_0x5da9f9){function _0x50af3f(_0x388e3d,_0x192d60){var _0x2484c8=_0x4b98,_0x41df27=_0x388e3d[_0x2484c8(0x55f)](_0x192d60),_0x53dc1a=Blockly[_0x2484c8(0x2a3)]['blockToCode'](_0x41df27);if(!goog[_0x2484c8(0x9e0)](_0x53dc1a))throw _0x2484c8(0x37d)+_0x41df27['type']+'\x22.';return _0x53dc1a;}var _0x17971e=_0x50af3f(_0x5da9f9,'LOOP');return _0x17971e;},Blockly['Arduino'][_0x3d686a(0xb4b)]=function(_0x502841){var _0x3f73b5=_0x3d686a,_0x3e292e=Blockly[_0x3f73b5(0x2a3)][_0x3f73b5(0xcd1)](_0x502841,'DO');if(Blockly[_0x3f73b5(0x2a3)][_0x3f73b5(0x599)])_0x3e292e=Blockly[_0x3f73b5(0x2a3)]['INFINITE_LOOP_TRAP'][_0x3f73b5(0x6c0)](/%1/g,'\x27'+_0x502841['id']+'\x27')+_0x3e292e;var _0x14de86=_0x3e292e,_0x9a3f93=Blockly[_0x3f73b5(0x2a3)]['variableDB_'][_0x3f73b5(0xc5e)](_0x3f73b5(0x82a),Blockly[_0x3f73b5(0x8b8)]['NAME_TYPE']);return Blockly[_0x3f73b5(0x2a3)][_0x3f73b5(0xa2c)][_0x9a3f93]=_0x14de86,'';},Blockly['Arduino']['base_code']=function(_0xc1efc){var _0x3c475d=_0x3d686a;return _0xc1efc[_0x3c475d(0x2b1)](_0x3c475d(0xba2))+'\x0a';},Blockly[_0x3d686a(0x2a3)]['base_end']=function(_0x1731a1){var _0x1dd442=_0x3d686a;return _0x1dd442(0xcb3);},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0xc90)]=function(_0x12fd2d){return'';},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0xc4b)]=function(_0x2b4d85){var _0x3af14e=_0x3d686a,_0x3d7021=_0x2b4d85[_0x3af14e(0x2b1)](_0x3af14e(0xba2));return[_0x3d7021,Blockly['Arduino'][_0x3af14e(0x7ce)]];},Blockly['Arduino'][_0x3d686a(0x6c6)]=function(_0x1fbbe7){var _0x24ab8e=_0x3d686a,_0x4c017b=_0x1fbbe7['getFieldValue'](_0x24ab8e(0xba2));return[_0x4c017b,Blockly[_0x24ab8e(0x2a3)][_0x24ab8e(0x7ce)]];},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0x690)]=function(_0x599d03){var _0x3e8608=_0x3d686a,_0x451311=_0x599d03[_0x3e8608(0x2b1)](_0x3e8608(0xba2));return[_0x451311,Blockly[_0x3e8608(0x2a3)][_0x3e8608(0x7ce)]];},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0x4d4)]=function(_0x831b8d){var _0x25ff1a=_0x3d686a,_0x5e5f0f=_0x831b8d['getFieldValue'](_0x25ff1a(0xba2));return[_0x5e5f0f,Blockly['Arduino'][_0x25ff1a(0x7ce)]];},Blockly[_0x3d686a(0x2a3)]['inout_pulsein']=function(_0x330495){var _0x5f1af9=_0x3d686a,_0x5f1545=Blockly['Arduino'][_0x5f1af9(0x74d)](_0x330495,_0x5f1af9(0x1d4),Blockly['Arduino']['ORDER_ATOMIC']),_0x34705a=_0x330495[_0x5f1af9(0x2b1)](_0x5f1af9(0x49d));Blockly[_0x5f1af9(0x2a3)]['setups_'][_0x5f1af9(0xbef)+_0x5f1545]='pinMode('+_0x5f1545+_0x5f1af9(0x365);var _0x2d0ca2=_0x5f1af9(0x28e)+_0x5f1545+','+_0x34705a+')';return[_0x2d0ca2,Blockly[_0x5f1af9(0x2a3)][_0x5f1af9(0x7ce)]];},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0x9ef)]=function(_0x113fd2){var _0x162eef=_0x3d686a,_0x1cd9e6=_0x113fd2['getFieldValue'](_0x162eef(0x4fd));switch(_0x1cd9e6){case'u':var _0x308e81=_0x162eef(0x52e);break;case'm':var _0x308e81=_0x162eef(0xc76);break;case's':_0x308e81=_0x162eef(0xa3e);break;}return[_0x308e81,Blockly['Arduino']['ORDER_ATOMIC']];},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0xb53)]=function(_0xd2e124){var _0x2802d0=_0x3d686a,_0x1d652b=_0xd2e124[_0x2802d0(0x2b1)]('unite'),_0x2b2864=Blockly[_0x2802d0(0x2a3)][_0x2802d0(0x74d)](_0xd2e124,'DELAY_TIME',Blockly['Arduino'][_0x2802d0(0x7ce)]);switch(_0x1d652b){case'u':var _0x2e7444=_0x2802d0(0x3f4)+_0x2b2864+');\x0a';break;case'm':var _0x2e7444=_0x2802d0(0x2a0)+_0x2b2864+_0x2802d0(0x62e);break;case's':_0x2e7444=_0x2802d0(0x2a0)+_0x2b2864+_0x2802d0(0x878);break;};return _0x2e7444;},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0x906)]=function(_0x325750){var _0x153e87=_0x3d686a,_0x5d2c1b=_0x325750[_0x153e87(0x2b1)](_0x153e87(0x4fd)),_0x5122d0=Blockly[_0x153e87(0x2a3)][_0x153e87(0x74d)](_0x325750,_0x153e87(0xa39),Blockly[_0x153e87(0x2a3)][_0x153e87(0x7ce)]),_0x1344d7=Blockly['Arduino'][_0x153e87(0xcd1)](_0x325750,'branche'),_0x516219=_0x153e87(0xac0)+_0x5122d0;Blockly[_0x153e87(0x2a3)][_0x153e87(0xa2c)][_0x153e87(0xb85)+_0x5122d0]=_0x153e87(0x472)+_0x516219+_0x153e87(0xb4a);switch(_0x5d2c1b){case'u':var _0x26fdaf=_0x153e87(0x1d0)+_0x516219+_0x153e87(0x3e9)+_0x5122d0+')\x20{\x0a\x20\x20'+_0x516219+_0x153e87(0x7e5)+_0x1344d7+'}\x0a';break;case'm':var _0x26fdaf=_0x153e87(0xca9)+_0x516219+')>='+_0x5122d0+_0x153e87(0xa19)+_0x516219+_0x153e87(0x642)+_0x1344d7+'}\x0a';break;case's':_0x26fdaf=_0x153e87(0xca9)+_0x516219+_0x153e87(0x3e9)+_0x5122d0+_0x153e87(0x967)+_0x516219+_0x153e87(0x642)+_0x1344d7+'}\x0a';break;};return _0x26fdaf;},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0x1cf)]=function(_0x29e0b2){var _0x207022=_0x3d686a,_0x26a0c2=_0x29e0b2[_0x207022(0x2b1)](_0x207022(0x1d4)),_0x33b665=_0x29e0b2['getFieldValue']('mode'),_0x546ec1=_0x207022(0x2a5)+_0x26a0c2;Blockly['Arduino'][_0x207022(0xcee)][_0x207022(0xc01)+_0x26a0c2]=_0x207022(0x7ed)+_0x26a0c2+_0x207022(0x56e)+_0x26a0c2+','+_0x546ec1+','+_0x33b665+');';var _0x433103=Blockly[_0x207022(0x2a3)][_0x207022(0xcd1)](_0x29e0b2,'DO');return Blockly[_0x207022(0x2a3)]['codeFunctions_'][_0x546ec1]=_0x207022(0x8e0)+_0x546ec1+_0x207022(0x740)+_0x433103+'}','';},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0x6fe)]=function(_0x1a5688){var _0x5c582a=_0x3d686a,_0x1d2856=_0x1a5688[_0x5c582a(0x2b1)](_0x5c582a(0x1d4));return'detachInterrupt('+_0x1d2856+_0x5c582a(0x62e);},Blockly['Arduino'][_0x3d686a(0x84b)]=function(_0x557192){var _0x2b9c24=_0x3d686a,_0x3a7e81=Blockly[_0x2b9c24(0x2a3)][_0x2b9c24(0x74d)](_0x557192,'PIN',Blockly[_0x2b9c24(0x2a3)][_0x2b9c24(0x7ce)]),_0x4846a0=Blockly['Arduino'][_0x2b9c24(0x74d)](_0x557192,_0x2b9c24(0x49d),Blockly[_0x2b9c24(0x2a3)][_0x2b9c24(0x7ce)]),_0x481e82=_0x2b9c24(0x7ed)+_0x3a7e81+_0x2b9c24(0x2cc)+_0x3a7e81+',\x20'+_0x4846a0+_0x2b9c24(0x62e);return _0x481e82;},Blockly[_0x3d686a(0x2a3)]['inout_digital_read']=function(_0x11ea5f){var _0x592cc3=_0x3d686a,_0x548da4=Blockly[_0x592cc3(0x2a3)]['valueToCode'](_0x11ea5f,_0x592cc3(0x1d4),Blockly[_0x592cc3(0x2a3)][_0x592cc3(0x7ce)]);Blockly[_0x592cc3(0x2a3)][_0x592cc3(0xcee)][_0x592cc3(0xbef)+_0x548da4]=_0x592cc3(0x7ed)+_0x548da4+_0x592cc3(0x679);var _0x3aaa84=_0x592cc3(0x2d3)+_0x548da4+')';return[_0x3aaa84,Blockly['Arduino'][_0x592cc3(0x7ce)]];},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0x822)]=function(_0x40e5ff){var _0x2ce8ea=_0x3d686a,_0x5841c3=_0x40e5ff['getFieldValue'](_0x2ce8ea(0x9f4))==_0x2ce8ea(0x77d),_0x425301=Blockly[_0x2ce8ea(0x2a3)]['valueToCode'](_0x40e5ff,_0x2ce8ea(0x1d4),Blockly[_0x2ce8ea(0x2a3)][_0x2ce8ea(0x7ce)]);_0x5841c3?Blockly[_0x2ce8ea(0x2a3)][_0x2ce8ea(0xcee)][_0x2ce8ea(0xbef)+_0x425301]=_0x2ce8ea(0x7ed)+_0x425301+_0x2ce8ea(0x679):Blockly[_0x2ce8ea(0x2a3)][_0x2ce8ea(0xcee)][_0x2ce8ea(0xbef)+_0x425301]=_0x2ce8ea(0x7ed)+_0x425301+_0x2ce8ea(0x365);;var _0x5550bf=_0x2ce8ea(0x2d3)+_0x425301+')';return[_0x5550bf,Blockly['Arduino']['ORDER_ATOMIC']];},Blockly['Arduino'][_0x3d686a(0xb12)]=function(_0x497b56){var _0x399461=_0x3d686a,_0x2206e5=_0x497b56[_0x399461(0x2b1)](_0x399461(0x9f4))==_0x399461(0x77d),_0x84d19d=Blockly[_0x399461(0x2a3)]['valueToCode'](_0x497b56,_0x399461(0x1d4),Blockly[_0x399461(0x2a3)][_0x399461(0x7ce)]);if(_0x2206e5){Blockly[_0x399461(0x2a3)][_0x399461(0xcee)][_0x399461(0xbef)+_0x84d19d]=_0x399461(0x7ed)+_0x84d19d+_0x399461(0x679);var _0x27f5de=_0x399461(0x38b)+_0x84d19d+')';}else{Blockly[_0x399461(0x2a3)][_0x399461(0xcee)][_0x399461(0xbef)+_0x84d19d]='pinMode('+_0x84d19d+',\x20INPUT_PULLUP);';var _0x27f5de=_0x399461(0x2d3)+_0x84d19d+')';};return[_0x27f5de,Blockly[_0x399461(0x2a3)][_0x399461(0x7ce)]];},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0x32f)]=function(_0x217d5b){var _0x49edca=_0x3d686a,_0x4ecb90=_0x217d5b[_0x49edca(0x2b1)](_0x49edca(0x8fe)),_0x271e3e=Blockly[_0x49edca(0x2a3)][_0x49edca(0x74d)](_0x217d5b,_0x49edca(0x6a5),Blockly[_0x49edca(0x2a3)][_0x49edca(0x7ce)]);Blockly['Arduino'][_0x49edca(0xcee)][_0x49edca(0xca5)+_0x4ecb90]='pinMode('+_0x4ecb90+_0x49edca(0x817);var _0x1c8aa8=_0x49edca(0xc51)+_0x4ecb90+',\x20'+_0x271e3e+');\x0a';return _0x1c8aa8;},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0x3d7)]=function(_0x392d85){var _0x13390c=_0x3d686a,_0x573248=Blockly[_0x13390c(0x2a3)][_0x13390c(0x74d)](_0x392d85,'PIN',Blockly['Arduino']['ORDER_ATOMIC']),_0x4ac9bf=Blockly[_0x13390c(0x2a3)][_0x13390c(0x74d)](_0x392d85,_0x13390c(0x49d),Blockly[_0x13390c(0x2a3)][_0x13390c(0x7ce)]);Blockly[_0x13390c(0x2a3)]['setups_'][_0x13390c(0xca5)+_0x573248]=_0x13390c(0x7ed)+_0x573248+_0x13390c(0x817);var _0x3d6fe0='\x20analogWrite('+_0x573248+',\x20'+_0x4ac9bf+');\x0a';return _0x3d6fe0;},Blockly[_0x3d686a(0x2a3)]['inout_analog_write3']=function(_0x553556){var _0x2944bd=_0x3d686a,_0x3d46d1=Blockly[_0x2944bd(0x2a3)]['valueToCode'](_0x553556,'PIN',Blockly[_0x2944bd(0x2a3)]['ORDER_ATOMIC']),_0x257c70=_0x553556[_0x2944bd(0x2b1)]('PIN1'),_0x3f7153=_0x553556[_0x2944bd(0x2b1)]('PIN2'),_0xdb1498=_0x553556[_0x2944bd(0x2b1)](_0x2944bd(0x35c)),_0x5f461e=Blockly[_0x2944bd(0x2a3)][_0x2944bd(0x74d)](_0x553556,_0x2944bd(0x49d),Blockly[_0x2944bd(0x2a3)]['ORDER_ATOMIC']);Blockly[_0x2944bd(0x2a3)][_0x2944bd(0xcee)][_0x2944bd(0xca5)+_0x3d46d1]=_0x2944bd(0x1d7)+_0x257c70+',\x20'+_0x3f7153+',\x20'+_0xdb1498+_0x2944bd(0x66e)+_0x3d46d1+',\x20'+_0x257c70+');\x20\x0a\x20';var _0x1b2ab3=_0x2944bd(0x9b1)+_0x257c70+',\x20'+_0x5f461e+_0x2944bd(0x62e);return _0x1b2ab3;},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0x4e3)]=function(_0x404298){var _0x342f89=_0x3d686a,_0x268799=_0x404298[_0x342f89(0x2b1)](_0x342f89(0x8fe)),_0x23cf31=_0x342f89(0x70a)+_0x268799+')';return[_0x23cf31,Blockly[_0x342f89(0x2a3)]['ORDER_ATOMIC']];},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0x787)]=function(_0x22cfdb){var _0x4f0f4b=_0x3d686a,_0x1dd95c=Blockly['Arduino']['valueToCode'](_0x22cfdb,_0x4f0f4b(0x1d4),Blockly[_0x4f0f4b(0x2a3)]['ORDER_ATOMIC']),_0x26162b=_0x4f0f4b(0x70a)+_0x1dd95c+')';return[_0x26162b,Blockly[_0x4f0f4b(0x2a3)][_0x4f0f4b(0x7ce)]];},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0x4f3)]=function(_0xc44737){var _0x455a34=_0x3d686a,_0x436135=_0xc44737['getFieldValue'](_0x455a34(0x944));Blockly[_0x455a34(0x2a3)][_0x455a34(0x27b)][_0x455a34(0x93a)]=_0x455a34(0xad2),Blockly[_0x455a34(0x2a3)][_0x455a34(0xcee)][_0x455a34(0x329)]=_0x455a34(0x9c1)+_0x436135+');';var _0x534a9f='analogRead(14)';return[_0x534a9f,Blockly[_0x455a34(0x2a3)][_0x455a34(0x7ce)]];},Blockly[_0x3d686a(0x2a3)]['inout_angle_maths']=function(_0x49ae6b){var _0x28136a=_0x3d686a,_0x449609=_0x49ae6b[_0x28136a(0x2b1)]('ANGLE');return[_0x449609,Blockly[_0x28136a(0x2a3)][_0x28136a(0x7ce)]];},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0x9e6)]=function(_0x6c2470){var _0x349cdc=_0x3d686a,_0x419013=Blockly['Arduino']['valueToCode'](_0x6c2470,_0x349cdc(0x1d4),Blockly[_0x349cdc(0x2a3)][_0x349cdc(0x7ce)]);return Blockly[_0x349cdc(0x2a3)][_0x349cdc(0xa2c)]['toggle'+_0x419013]=_0x349cdc(0x6d5)+_0x419013+_0x349cdc(0xbc1),Blockly[_0x349cdc(0x2a3)][_0x349cdc(0xcee)][_0x349cdc(0x38f)+_0x419013]='pinMode('+_0x419013+_0x349cdc(0x817),_0x349cdc(0x26b)+_0x419013+_0x349cdc(0xc20)+_0x419013+_0x349cdc(0xa90)+_0x419013+'=!etat_'+_0x419013+';\x0a';},Blockly['Arduino']['eeprom_write_byte']=function(_0x51486f){var _0x142324=_0x3d686a,_0x27f60c=Blockly['Arduino'][_0x142324(0x74d)](_0x51486f,_0x142324(0xa34),Blockly['Arduino'][_0x142324(0x7ce)]),_0x456001=Blockly[_0x142324(0x2a3)][_0x142324(0x74d)](_0x51486f,'val',Blockly[_0x142324(0x2a3)]['ORDER_ATOMIC']);return Blockly[_0x142324(0x2a3)]['includes_']['eeprom']='#include\x20<EEPROM.h>\x20\x0a\x20\x20',_0x142324(0x347)+_0x27f60c+','+_0x456001+_0x142324(0x4d8);},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0x54f)]=function(_0x229f98){var _0x3d4866=_0x3d686a,_0x2338c9=Blockly[_0x3d4866(0x2a3)][_0x3d4866(0x74d)](this,_0x3d4866(0x272),Blockly[_0x3d4866(0x2a3)][_0x3d4866(0x7ce)])||'0';Blockly[_0x3d4866(0x2a3)]['includes_'][_0x3d4866(0xc11)]='#include\x20<EEPROM.h>\x20\x0a\x20';var _0x29bfa8='EEPROM.read('+_0x2338c9+')';return[_0x29bfa8,Blockly[_0x3d4866(0x2a3)][_0x3d4866(0x7ce)]];},Blockly['Arduino'][_0x3d686a(0x8b3)]=function(_0x5a8437){var _0x2c2129=_0x3d686a,_0x546b99=Blockly['Arduino']['valueToCode'](_0x5a8437,'adr',Blockly['Arduino']['ORDER_ATOMIC']),_0x52e571=Blockly['Arduino'][_0x2c2129(0x74d)](_0x5a8437,'val',Blockly[_0x2c2129(0x2a3)][_0x2c2129(0x7ce)]);return Blockly[_0x2c2129(0x2a3)][_0x2c2129(0x5f5)][_0x2c2129(0xc11)]='#include\x20<EEPROM.h>',_0x2c2129(0x8f6)+_0x546b99+','+_0x52e571+_0x2c2129(0x62e);},Blockly[_0x3d686a(0x2a3)]['eeprom_read_byte_R']=function(_0x566b8a){var _0x459cba=_0x3d686a,_0x372820=Blockly[_0x459cba(0x2a3)][_0x459cba(0x74d)](_0x566b8a,_0x459cba(0xa34),Blockly['Arduino'][_0x459cba(0x7ce)]),_0x199f24=Blockly[_0x459cba(0x2a3)][_0x459cba(0x74d)](_0x566b8a,'val',Blockly['Arduino'][_0x459cba(0x7ce)]);return Blockly[_0x459cba(0x2a3)]['includes_']['eeprom']='#include\x20<EEPROM.h>',_0x459cba(0x8d3)+_0x372820+','+_0x199f24+_0x459cba(0x62e);},Blockly['Arduino'][_0x3d686a(0xa13)]=function(_0x158f5d){var _0x34c843=_0x3d686a,_0x113207=Blockly[_0x34c843(0x2a3)][_0x34c843(0x74d)](_0x158f5d,_0x34c843(0x1d4),Blockly[_0x34c843(0x2a3)][_0x34c843(0x7ce)]);Blockly[_0x34c843(0x2a3)][_0x34c843(0xa2c)]['include_enableinterrupt']=_0x34c843(0x60f),Blockly[_0x34c843(0x2a3)][_0x34c843(0xa2c)]['reception_function']=_0x34c843(0x54c)+_0x113207+');\x0a'+_0x34c843(0xbf8)+'\x0a'+_0x34c843(0x1fb)+_0x34c843(0xa52)+_0x34c843(0xbfb)+'\x20\x20if(\x20ir_rx.decode(&ir_rx_results))\x0a'+_0x34c843(0xb76)+'\x09\x09decoded=true;\x0a'+_0x34c843(0x3a2)+_0x34c843(0x8cf)+_0x34c843(0x5fe)+'\x09\x09return\x20ir_rx_results.value;\x20\x0a'+_0x34c843(0x407)+'\x09\x09return\x200;\x0a'+_0x34c843(0x63e),Blockly[_0x34c843(0x2a3)][_0x34c843(0xcee)]['setup_genericRC']=_0x34c843(0x6ce);var _0x5681ba=_0x34c843(0x23b);return[_0x5681ba,Blockly[_0x34c843(0x2a3)]['ORDER_ATOMIC']];},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0x1f0)]=function(_0x581e48){var _0x485fa9=_0x3d686a,_0x5e79dc=_0x485fa9(0x756);return[_0x5e79dc,Blockly[_0x485fa9(0x2a3)][_0x485fa9(0x7ce)]];},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0x896)]=function(_0x3e696e){var _0x117f93=_0x3d686a,_0x353945=Blockly['Arduino'][_0x117f93(0x74d)](_0x3e696e,_0x117f93(0x1d4),Blockly[_0x117f93(0x2a3)]['ORDER_ATOMIC']);Blockly[_0x117f93(0x2a3)]['definitions_'][_0x117f93(0x6e1)]=_0x117f93(0x60f);var _0x503e22=_0x117f93(0x9e7)+_0x353945+_0x117f93(0x2b8);return _0x503e22;},Blockly['Arduino'][_0x3d686a(0x42f)]=function(_0x1ce111){var _0x50f4e5=_0x3d686a,_0x3ea6c9=_0x1ce111['getFieldValue']('PIN'),_0x8db8dc=_0x1ce111[_0x50f4e5(0x2b1)](_0x50f4e5(0xba2));Blockly[_0x50f4e5(0x2a3)][_0x50f4e5(0xa2c)][_0x50f4e5(0x6e1)]='#include\x20<IRremote.h>\x20\x20\x0a\x20IRsend\x20irsend;\x20\x0a';if(_0x3ea6c9=='0')var _0x40866b=_0x50f4e5(0x6f4)+_0x8db8dc+',\x2032);\x20\x0a';if(_0x3ea6c9=='1')var _0x40866b='irsend.sendSony('+_0x8db8dc+',\x2012);\x20\x0a';if(_0x3ea6c9=='2')var _0x40866b=_0x50f4e5(0xb0c)+_0x8db8dc+',\x2012);\x20\x0a';if(_0x3ea6c9=='3')var _0x40866b=_0x50f4e5(0x9e7)+_0x8db8dc+_0x50f4e5(0x358);if(_0x3ea6c9=='4')var _0x40866b=_0x50f4e5(0xa69)+_0x8db8dc+_0x50f4e5(0xb03);if(_0x3ea6c9=='5')var _0x40866b='irsend.sendSAMSUNG('+_0x8db8dc+_0x50f4e5(0x358);if(_0x3ea6c9=='6')var _0x40866b=_0x50f4e5(0x26c)+_0x8db8dc+_0x50f4e5(0x834);if(_0x3ea6c9=='7')var _0x40866b=_0x50f4e5(0x916)+_0x8db8dc+_0x50f4e5(0x64f);return _0x40866b;},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0x78c)]=function(_0x33e468){var _0x2570ce=_0x3d686a,_0x2d45c3=Blockly[_0x2570ce(0x2a3)]['valueToCode'](_0x33e468,_0x2570ce(0x1d4),Blockly['Arduino'][_0x2570ce(0x7ce)]),_0x5c7aaf=Blockly['Arduino'][_0x2570ce(0x74d)](_0x33e468,_0x2570ce(0xbcc),Blockly['Arduino']['ORDER_ATOMIC']);Blockly[_0x2570ce(0x2a3)][_0x2570ce(0xa2c)][_0x2570ce(0x461)]=_0x2570ce(0x3de)+_0x2d45c3+_0x2570ce(0x21f),Blockly['Arduino'][_0x2570ce(0xcee)]['catr433_sendvar']='\x20vw_set_tx_pin(transmit_pin);\x20\x0a\x20\x20\x20\x20vw_set_ptt_inverted(true);\x20\x0a\x20\x20\x20\x20vw_setup(2000);\x20\x20\x0a\x20\x20';var _0x45768c=_0x2570ce(0x3cd)+_0x5c7aaf+_0x2570ce(0x873);return _0x45768c;},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0x6c1)]=function(_0x575dbf){var _0x44687d=_0x3d686a,_0x35689=Blockly[_0x44687d(0x2a3)][_0x44687d(0x74d)](_0x575dbf,_0x44687d(0x1d4),Blockly[_0x44687d(0x2a3)]['ORDER_ATOMIC']),_0x1bc08e=Blockly[_0x44687d(0x2a3)][_0x44687d(0x74d)](_0x575dbf,_0x44687d(0xbcc),Blockly[_0x44687d(0x2a3)][_0x44687d(0x7ce)]);Blockly['Arduino'][_0x44687d(0xa2c)][_0x44687d(0x461)]=_0x44687d(0x812)+_0x35689+_0x44687d(0x696),Blockly[_0x44687d(0x2a3)][_0x44687d(0xcee)][_0x44687d(0x78c)]='\x20\x20\x20\x20vw_set_rx_pin(receive_pin);\x20\x0a\x20vw_set_ptt_inverted(true);\x20\x20\x0a\x20\x20\x20\x20\x20vw_setup(2000);\x20\x20\x0a\x20\x20\x20\x20vw_rx_start();\x20\x20\x20\x0a\x20\x20';var _0x5c2406=_0x44687d(0x2f7)+_0x1bc08e+'\x20=\x20ivins;\x20\x20\x0a';return _0x5c2406;},Blockly['Arduino'][_0x3d686a(0xbf7)]=function(_0x4d8f7e){var _0xceb4f3=_0x3d686a,_0x476ff3=Blockly[_0xceb4f3(0x2a3)]['valueToCode'](_0x4d8f7e,_0xceb4f3(0x954),Blockly['Arduino'][_0xceb4f3(0x7ce)]),_0x10c9a5=Blockly[_0xceb4f3(0x2a3)][_0xceb4f3(0x74d)](_0x4d8f7e,'PIN_CS',Blockly[_0xceb4f3(0x2a3)][_0xceb4f3(0x7ce)]);Blockly[_0xceb4f3(0x2a3)]['definitions_'][_0xceb4f3(0xad6)]=_0xceb4f3(0x487),Blockly[_0xceb4f3(0x2a3)][_0xceb4f3(0xa2c)][_0xceb4f3(0xbe1)]=_0xceb4f3(0x776),Blockly[_0xceb4f3(0x2a3)][_0xceb4f3(0xa2c)][_0xceb4f3(0xbf3)]='#include\x20<RF24.h>\x0a',Blockly[_0xceb4f3(0x2a3)][_0xceb4f3(0xa2c)]['define_var_NRF24L01']=_0xceb4f3(0x879)+_0x476ff3+','+_0x10c9a5+_0xceb4f3(0x62e),Blockly[_0xceb4f3(0x2a3)][_0xceb4f3(0xcee)][_0xceb4f3(0x72e)]=_0xceb4f3(0xcaa);var _0xbc0d65='';return _0xbc0d65;},Blockly[_0x3d686a(0x2a3)]['nrf24l01_max']=function(_0x26d318){var _0x36150c=_0x3d686a,_0x229195=_0x26d318[_0x36150c(0x2b1)](_0x36150c(0xb0b)),_0x4a178f=_0x26d318[_0x36150c(0x2b1)](_0x36150c(0x59d)),_0x31651b=_0x26d318['getFieldValue']('pal'),_0x3223e9=_0x26d318[_0x36150c(0x2b1)]('pip');Blockly[_0x36150c(0x2a3)]['setups_'][_0x36150c(0x7e6)]='radio.setChannel('+_0x229195+_0x36150c(0xb34)+_0x4a178f+');\x20\x0a\x20radio.setPALevel(RF24_PA_'+_0x31651b+_0x36150c(0x7bd)+_0x3223e9+_0x36150c(0x23c);var _0x4271c0='';return _0x4271c0;},Blockly[_0x3d686a(0x2a3)]['nrf24l01_sendvar']=function(_0x195cb7){var _0x51c9f8=_0x3d686a,_0x4536ca=Blockly[_0x51c9f8(0x2a3)][_0x51c9f8(0x74d)](_0x195cb7,_0x51c9f8(0xbcc),Blockly['Arduino']['ORDER_ATOMIC']),_0x446891='\x20radio.write(&'+_0x4536ca+_0x51c9f8(0x2f8)+_0x4536ca+'));\x0a';return _0x446891;},Blockly['Arduino'][_0x3d686a(0xa27)]=function(_0x398434){var _0x4f2887=_0x3d686a,_0x31e8b9=Blockly[_0x4f2887(0x2a3)][_0x4f2887(0x74d)](_0x398434,'variable',Blockly[_0x4f2887(0x2a3)][_0x4f2887(0x7ce)]);Blockly[_0x4f2887(0x2a3)][_0x4f2887(0xcee)][_0x4f2887(0x4d9)]=_0x4f2887(0x591);var _0x10d38e=_0x4f2887(0xc3d)+_0x31e8b9+_0x4f2887(0x2f8)+_0x31e8b9+_0x4f2887(0xb97);return _0x10d38e;},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0x79d)]=function(_0x1493c8){var _0xa708d7=_0x3d686a,_0x20038c=Blockly['Arduino']['valueToCode'](_0x1493c8,_0xa708d7(0xbcc),Blockly['Arduino'][_0xa708d7(0x7ce)]),_0x41ecdd=Blockly[_0xa708d7(0x2a3)][_0xa708d7(0xcd1)](this,'DO');Blockly[_0xa708d7(0x2a3)][_0xa708d7(0x599)]&&(_0x41ecdd=Blockly['Arduino']['INFINITE_LOOP_TRAP'][_0xa708d7(0x6c0)](/%1/g,'\x27'+this['id']+'\x27')+_0x41ecdd);var _0x2e9f30=Blockly[_0xa708d7(0x2a3)][_0xa708d7(0xba7)]['getName'](_0xa708d7(0x28a),Blockly['Variables'][_0xa708d7(0x856)]),_0x2ab4c6=_0xa708d7(0x5dc)+_0x2e9f30+_0xa708d7(0x223)+_0x2e9f30+_0xa708d7(0x613)+_0x20038c+';\x20'+_0x2e9f30+_0xa708d7(0xc8a)+_0x41ecdd+'}\x0a';return _0x2ab4c6;},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0x981)]=function(_0x4df80e){var _0x24aa28=_0x3d686a,_0x2d4cf1=Blockly[_0x24aa28(0x2a3)][_0x24aa28(0x74d)](_0x4df80e,_0x24aa28(0xa3a),Blockly[_0x24aa28(0x2a3)][_0x24aa28(0x7ce)]),_0x4eb72e=Blockly[_0x24aa28(0x2a3)][_0x24aa28(0x74d)](_0x4df80e,_0x24aa28(0x9c2),Blockly[_0x24aa28(0x2a3)][_0x24aa28(0x7ce)]),_0x4e6776=_0x4df80e[_0x24aa28(0x2b1)](_0x24aa28(0x913)),_0x352b17=Blockly['Arduino'][_0x24aa28(0xcd1)](this,'DO');Blockly[_0x24aa28(0x2a3)][_0x24aa28(0x599)]&&(_0x352b17=Blockly['Arduino'][_0x24aa28(0x599)][_0x24aa28(0x6c0)](/%1/g,'\x27'+this['id']+'\x27')+_0x352b17);var _0x18d9d8=Blockly[_0x24aa28(0x2a3)][_0x24aa28(0xba7)][_0x24aa28(0xad3)](_0x24aa28(0x28a),Blockly[_0x24aa28(0x8b8)]['NAME_TYPE']),_0x596e36=_0x24aa28(0xae8)+_0x2d4cf1+'\x20'+_0x4e6776+'\x20'+_0x4eb72e+_0x24aa28(0xb9e)+_0x352b17+'}\x0a';return _0x596e36;},Blockly['Arduino'][_0x3d686a(0x2cb)]=function(_0x439a01){var _0x3332a0=_0x3d686a,_0x5d5c83=Blockly[_0x3332a0(0x2a3)][_0x3332a0(0x74d)](_0x439a01,_0x3332a0(0xa3a),Blockly['Arduino'][_0x3332a0(0x7ce)]),_0x3aa3a5=Blockly['Arduino'][_0x3332a0(0x74d)](_0x439a01,_0x3332a0(0x9c2),Blockly[_0x3332a0(0x2a3)][_0x3332a0(0x7ce)]),_0x17e093=_0x439a01[_0x3332a0(0x2b1)](_0x3332a0(0x913)),_0x1b768d=Blockly[_0x3332a0(0x2a3)]['statementToCode'](this,'DO');Blockly[_0x3332a0(0x2a3)][_0x3332a0(0x599)]&&(_0x1b768d=Blockly[_0x3332a0(0x2a3)][_0x3332a0(0x599)][_0x3332a0(0x6c0)](/%1/g,'\x27'+this['id']+'\x27')+_0x1b768d);var _0x85e4=Blockly[_0x3332a0(0x2a3)][_0x3332a0(0xba7)]['getName'](_0x3332a0(0x28a),Blockly[_0x3332a0(0x8b8)][_0x3332a0(0x856)]),_0x281c46=_0x3332a0(0x681)+_0x1b768d+_0x3332a0(0x8ba)+_0x5d5c83+'\x20'+_0x17e093+'\x20'+_0x3aa3a5+_0x3332a0(0x62e);return _0x281c46;},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0x8e4)]=function(_0x4f6222){var _0x48f94a=_0x3d686a,_0x15867c=Blockly['Arduino'][_0x48f94a(0x74d)](_0x4f6222,'variable1',Blockly[_0x48f94a(0x2a3)][_0x48f94a(0x7ce)]),_0x10462e=Blockly['Arduino'][_0x48f94a(0x74d)](_0x4f6222,_0x48f94a(0x9c2),Blockly[_0x48f94a(0x2a3)]['ORDER_ATOMIC']),_0x2aaed4=Blockly[_0x48f94a(0x2a3)][_0x48f94a(0x74d)](_0x4f6222,'variable3',Blockly[_0x48f94a(0x2a3)][_0x48f94a(0x7ce)]),_0x4b2472=Blockly['Arduino'][_0x48f94a(0x74d)](_0x4f6222,'variable4',Blockly[_0x48f94a(0x2a3)][_0x48f94a(0x7ce)]),_0x1b31fe=Blockly['Arduino'][_0x48f94a(0xcd1)](this,'DO');Blockly[_0x48f94a(0x2a3)][_0x48f94a(0x599)]&&(_0x1b31fe=Blockly[_0x48f94a(0x2a3)]['INFINITE_LOOP_TRAP'][_0x48f94a(0x6c0)](/%1/g,'\x27'+this['id']+'\x27')+_0x1b31fe);var _0x34bb13=Blockly[_0x48f94a(0x2a3)][_0x48f94a(0xba7)][_0x48f94a(0xad3)]('count',Blockly[_0x48f94a(0x8b8)][_0x48f94a(0x856)]),_0x2b9864=_0x48f94a(0x5dc)+_0x15867c+'='+_0x10462e+';\x20'+_0x15867c+'<='+_0x2aaed4+';\x20'+_0x15867c+'='+_0x15867c+'+'+_0x4b2472+')\x20{\x0a'+_0x1b31fe+'}\x0a';return _0x2b9864;},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0x502)]=function(_0x11df70){var _0xb513d2=_0x3d686a,_0x3cd998=Blockly[_0xb513d2(0x2a3)][_0xb513d2(0x74d)](_0x11df70,_0xb513d2(0xa3a),Blockly[_0xb513d2(0x2a3)][_0xb513d2(0x7ce)]),_0x2ddfd1=Blockly[_0xb513d2(0x2a3)][_0xb513d2(0x74d)](_0x11df70,_0xb513d2(0x9c2),Blockly[_0xb513d2(0x2a3)][_0xb513d2(0x7ce)]),_0x565548=Blockly[_0xb513d2(0x2a3)][_0xb513d2(0x74d)](_0x11df70,_0xb513d2(0x18d),Blockly[_0xb513d2(0x2a3)][_0xb513d2(0x7ce)]),_0x205d51=Blockly[_0xb513d2(0x2a3)]['valueToCode'](_0x11df70,'variable4',Blockly[_0xb513d2(0x2a3)]['ORDER_ATOMIC']),_0x539925=Blockly[_0xb513d2(0x2a3)][_0xb513d2(0xcd1)](this,'DO');Blockly[_0xb513d2(0x2a3)][_0xb513d2(0x599)]&&(_0x539925=Blockly[_0xb513d2(0x2a3)][_0xb513d2(0x599)][_0xb513d2(0x6c0)](/%1/g,'\x27'+this['id']+'\x27')+_0x539925);var _0x55e616=Blockly[_0xb513d2(0x2a3)][_0xb513d2(0xba7)][_0xb513d2(0xad3)]('count',Blockly[_0xb513d2(0x8b8)][_0xb513d2(0x856)]),_0x277a2f=_0xb513d2(0x5dc)+_0x3cd998+'='+_0x2ddfd1+';\x20'+_0x3cd998+'>='+_0x565548+';\x20'+_0x3cd998+'='+_0x3cd998+'-'+_0x205d51+')\x20{\x0a'+_0x539925+'}\x0a';return _0x277a2f;},Blockly[_0x3d686a(0x2a3)]['math_single']=function(_0x32d183){var _0x3dbbba=_0x3d686a,_0x8dd1aa=_0x32d183['getFieldValue']('OP'),_0x549108,_0x53a19a;if(_0x8dd1aa=='NEG'){var _0x549108=Blockly['Arduino'][_0x3dbbba(0x74d)](_0x32d183,_0x3dbbba(0x6a5),Blockly[_0x3dbbba(0x2a3)]['ORDER_UNARY_SIGN'])||'0';return['-'+_0x549108,Blockly[_0x3dbbba(0x2a3)][_0x3dbbba(0x4b6)]];}_0x8dd1aa=='SIN'||_0x8dd1aa==_0x3dbbba(0xa36)||_0x8dd1aa=='TAN'?_0x53a19a=Blockly[_0x3dbbba(0x2a3)][_0x3dbbba(0x74d)](_0x32d183,'NUM',Blockly[_0x3dbbba(0x2a3)][_0x3dbbba(0x237)])||'0':_0x53a19a=Blockly[_0x3dbbba(0x2a3)][_0x3dbbba(0x74d)](_0x32d183,_0x3dbbba(0x6a5),Blockly[_0x3dbbba(0x2a3)][_0x3dbbba(0x3a4)])||'0';if(_0x549108)return[_0x549108,Blockly[_0x3dbbba(0x2a3)][_0x3dbbba(0xb04)]];return[_0x549108,Blockly[_0x3dbbba(0x2a3)][_0x3dbbba(0x237)]];},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0xa5b)]=function(_0xbe3940){var _0xa48391=_0x3d686a,_0x401414=Blockly[_0xa48391(0x2a3)]['valueToCode'](_0xbe3940,_0xa48391(0x1d4),Blockly[_0xa48391(0x2a3)][_0xa48391(0x7ce)]),_0x59b5f9=this[_0xa48391(0x2b1)](_0xa48391(0xc1b)),_0x27f5aa=''+_0x59b5f9+'('+_0x401414+')';return[_0x27f5aa,Blockly[_0xa48391(0x2a3)][_0xa48391(0x7ce)]];},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0x6bb)]=function(_0x9d0618){var _0x4778f5=_0x3d686a,_0x2bb09f=Blockly[_0x4778f5(0x2a3)][_0x4778f5(0x74d)](_0x9d0618,_0x4778f5(0x1d4),Blockly[_0x4778f5(0x2a3)][_0x4778f5(0x7ce)]),_0x56749b=this[_0x4778f5(0x2b1)]('dim'),_0x555492=''+_0x56749b+'('+_0x2bb09f+')';return[_0x555492,Blockly[_0x4778f5(0x2a3)][_0x4778f5(0x7ce)]];},Blockly[_0x3d686a(0x2a3)]['math_single_pi']=function(_0x566518){var _0x173fbf=_0x3d686a,_0x291b98=this[_0x173fbf(0x2b1)](_0x173fbf(0xc1b));if(_0x291b98=='1')var _0xbe9b81='PI';if(_0x291b98=='2')var _0xbe9b81='EULER';if(_0x291b98=='3')var _0xbe9b81='(1\x20+\x20sqrt(5))\x20/\x202';if(_0x291b98=='4')var _0xbe9b81=_0x173fbf(0x933);if(_0x291b98=='5')var _0xbe9b81=_0x173fbf(0x4c3);if(_0x291b98=='6')var _0xbe9b81='INFINITY';return[_0xbe9b81,Blockly[_0x173fbf(0x2a3)]['ORDER_ATOMIC']];},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0xca7)]=function(_0x841896){var _0x3b70a9=_0x3d686a,_0x2a7965=Blockly[_0x3b70a9(0x2a3)]['valueToCode'](_0x841896,_0x3b70a9(0x1d4),Blockly[_0x3b70a9(0x2a3)][_0x3b70a9(0x7ce)]),_0x48691d=this['getFieldValue'](_0x3b70a9(0xc1b));if(_0x48691d=='1')var _0x544fba='('+_0x2a7965+_0x3b70a9(0x3c5);if(_0x48691d=='2')var _0x544fba='('+_0x2a7965+_0x3b70a9(0xa46);if(_0x48691d=='3')var _0x544fba='('+_0x2a7965+_0x3b70a9(0x193);if(_0x48691d=='4')var _0x544fba='('+_0x2a7965+'\x20>\x200)';if(_0x48691d=='5')var _0x544fba='('+_0x2a7965+_0x3b70a9(0x443);return[_0x544fba,Blockly[_0x3b70a9(0x2a3)][_0x3b70a9(0x7ce)]];},Blockly[_0x3d686a(0x2a3)]['math_single_int_pi1']=function(_0x3a5106){var _0x5cd27b=_0x3d686a,_0x214530=Blockly[_0x5cd27b(0x2a3)][_0x5cd27b(0x74d)](_0x3a5106,_0x5cd27b(0x1d4),Blockly['Arduino'][_0x5cd27b(0x7ce)]),_0x42ae43=Blockly[_0x5cd27b(0x2a3)][_0x5cd27b(0x74d)](_0x3a5106,'PIN1',Blockly['Arduino'][_0x5cd27b(0x7ce)]),_0x7960cf='('+_0x214530+_0x5cd27b(0x351)+_0x42ae43+_0x5cd27b(0x300);return[_0x7960cf,Blockly[_0x5cd27b(0x2a3)][_0x5cd27b(0x7ce)]];},Blockly['Arduino'][_0x3d686a(0x6d1)]=function(_0x255356){var _0xa27840=_0x3d686a,_0x1fe5c3=Blockly[_0xa27840(0x2a3)]['valueToCode'](_0x255356,_0xa27840(0x1d4),Blockly[_0xa27840(0x2a3)][_0xa27840(0x7ce)]),_0x10d12b=Blockly[_0xa27840(0x2a3)]['valueToCode'](_0x255356,_0xa27840(0x51a),Blockly[_0xa27840(0x2a3)][_0xa27840(0x7ce)]),_0x57e6c6=_0xa27840(0x21d)+_0x1fe5c3+_0xa27840(0x2af)+_0x10d12b+'';return[_0x57e6c6,Blockly[_0xa27840(0x2a3)]['ORDER_ATOMIC']];},Blockly[_0x3d686a(0x2a3)]['math_single_int_pi3']=function(_0x3313a9){var _0x4601a7=_0x3d686a,_0x5d2b4d=Blockly[_0x4601a7(0x2a3)][_0x4601a7(0x74d)](_0x3313a9,'PIN',Blockly[_0x4601a7(0x2a3)][_0x4601a7(0x7ce)]),_0x11a51c=Blockly[_0x4601a7(0x2a3)]['valueToCode'](_0x3313a9,_0x4601a7(0x51a),Blockly[_0x4601a7(0x2a3)][_0x4601a7(0x7ce)]),_0x4804cc=Blockly[_0x4601a7(0x2a3)]['valueToCode'](_0x3313a9,_0x4601a7(0x9f8),Blockly[_0x4601a7(0x2a3)][_0x4601a7(0x7ce)]),_0x3ccc94='(constrain('+_0x5d2b4d+','+_0x11a51c+','+_0x4804cc+'))';return[_0x3ccc94,Blockly['Arduino'][_0x4601a7(0x7ce)]];},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0x50b)]=function(_0x202eec){var _0x4c002f=_0x3d686a,_0x43f50d=Blockly[_0x4c002f(0x2a3)]['valueToCode'](_0x202eec,'PIN_RST',Blockly['Arduino'][_0x4c002f(0x7ce)]),_0x195559=Blockly[_0x4c002f(0x2a3)][_0x4c002f(0x74d)](_0x202eec,_0x4c002f(0xa63),Blockly[_0x4c002f(0x2a3)][_0x4c002f(0x7ce)]),_0x1a714c=Blockly[_0x4c002f(0x2a3)]['valueToCode'](_0x202eec,'PIN_CLK',Blockly[_0x4c002f(0x2a3)][_0x4c002f(0x7ce)]);Blockly['Arduino'][_0x4c002f(0xa2c)][_0x4c002f(0x367)]=_0x4c002f(0xce0),Blockly[_0x4c002f(0x2a3)]['definitions_']['init_ds1302']=_0x4c002f(0xa6d)+_0x43f50d+','+_0x1a714c+','+_0x195559+_0x4c002f(0x62e);var _0x585bdb=_0x4c002f(0x7aa);return _0x585bdb;},Blockly[_0x3d686a(0x2a3)]['DateTime_RTC_ds1302']=function(_0xe1347a){var _0x24a2ea=_0x3d686a,_0x557b5b=Blockly['Arduino']['valueToCode'](_0xe1347a,'DS1302_DAY',Blockly[_0x24a2ea(0x2a3)][_0x24a2ea(0x7ce)]),_0x445d52=Blockly[_0x24a2ea(0x2a3)][_0x24a2ea(0x74d)](_0xe1347a,'DS1302_MONTH',Blockly[_0x24a2ea(0x2a3)][_0x24a2ea(0x7ce)]),_0x1ca183=Blockly[_0x24a2ea(0x2a3)][_0x24a2ea(0x74d)](_0xe1347a,_0x24a2ea(0xa9d),Blockly[_0x24a2ea(0x2a3)][_0x24a2ea(0x7ce)]),_0x9b54af=Blockly[_0x24a2ea(0x2a3)][_0x24a2ea(0x74d)](_0xe1347a,_0x24a2ea(0x5ef),Blockly[_0x24a2ea(0x2a3)][_0x24a2ea(0x7ce)]),_0x33dc62=Blockly[_0x24a2ea(0x2a3)]['valueToCode'](_0xe1347a,_0x24a2ea(0xb8f),Blockly[_0x24a2ea(0x2a3)][_0x24a2ea(0x7ce)]),_0x3f7a7e=Blockly[_0x24a2ea(0x2a3)][_0x24a2ea(0x74d)](_0xe1347a,_0x24a2ea(0x30b),Blockly['Arduino'][_0x24a2ea(0x7ce)]),_0x51ff69='time.settime('+_0x3f7a7e+','+_0x33dc62+','+_0x9b54af+','+_0x557b5b+','+_0x445d52+','+_0x1ca183+_0x24a2ea(0x25d);return _0x51ff69;},Blockly[_0x3d686a(0x2a3)]['values_ds1302']=function(_0x17a7e0){var _0x32310a=_0x3d686a,_0x21f753=this[_0x32310a(0x2b1)](_0x32310a(0x697));if(_0x21f753==0x5)var _0x131cc1=_0x32310a(0x3f3);else{if(_0x21f753==0x4)var _0x131cc1=_0x32310a(0x1b8);else{if(_0x21f753==0x3)var _0x131cc1=_0x32310a(0xb2d);else{if(_0x21f753==0x2)var _0x131cc1=_0x32310a(0xb66);else{if(_0x21f753==0x1)var _0x131cc1=_0x32310a(0x8e7);else var _0x131cc1=_0x32310a(0x7b6);}}}}return[_0x131cc1,Blockly[_0x32310a(0x2a3)][_0x32310a(0x7ce)]];},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0x5de)]=function(_0xe86b81){var _0x124642=_0x3d686a;Blockly[_0x124642(0x2a3)][_0x124642(0xa2c)][_0x124642(0x510)]=_0x124642(0xae7),Blockly[_0x124642(0x2a3)][_0x124642(0xa2c)][_0x124642(0x28b)]=_0x124642(0xc0c)+_0x124642(0xc9a)+'String\x20daysOfTheWeek[7]={\x22Domingo\x22,\x22Lunes\x22,\x22Martes\x22,\x22Miercoles\x22,\x22Jueves\x22,\x22Viernes\x22,\x22Sabado\x22};\x0a'+'String\x20monthsNames[12]={\x22Enero\x22,\x22Febrero\x22,\x22Marzo\x22,\x22Abril\x22,\x22Mayo\x22,\x22Junio\x22,\x22Julio\x22,\x22Agosto\x22,\x22Septiembre\x22,\x22Octubre\x22,\x22Noviembre\x22,\x22Diciembre\x22};\x0a',Blockly[_0x124642(0x2a3)]['setups_']['setup_ds3232']=_0x124642(0x984);var _0x32cc5e='';return _0x32cc5e;},Blockly['Arduino'][_0x3d686a(0x1f7)]=function(_0x35cd8a){var _0x5c23be=_0x3d686a;Blockly[_0x5c23be(0x2a3)][_0x5c23be(0xa2c)][_0x5c23be(0x510)]=_0x5c23be(0xae7),Blockly[_0x5c23be(0x2a3)][_0x5c23be(0xa2c)][_0x5c23be(0x28b)]=_0x5c23be(0xc0c)+_0x5c23be(0xc9a)+_0x5c23be(0x9c8)+_0x5c23be(0xb70),Blockly[_0x5c23be(0x2a3)][_0x5c23be(0xcee)][_0x5c23be(0x83f)]=_0x5c23be(0x984);var _0x151cdb='';return _0x151cdb;},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0x5f2)]=function(_0x1d365c){var _0x49a314=_0x3d686a,_0x5c0197=Blockly[_0x49a314(0x2a3)]['valueToCode'](this,'DS3231_DAY',Blockly['Arduino']['ORDER_ATOMIC']),_0x17a9be=Blockly[_0x49a314(0x2a3)][_0x49a314(0x74d)](this,_0x49a314(0x2df),Blockly[_0x49a314(0x2a3)][_0x49a314(0x7ce)]),_0x45ef96=Blockly[_0x49a314(0x2a3)][_0x49a314(0x74d)](this,_0x49a314(0xc36),Blockly[_0x49a314(0x2a3)]['ORDER_ATOMIC']),_0x14da32=Blockly[_0x49a314(0x2a3)][_0x49a314(0x74d)](this,'DS3231_HOUR',Blockly[_0x49a314(0x2a3)][_0x49a314(0x7ce)]),_0x15ad59=Blockly['Arduino']['valueToCode'](this,_0x49a314(0x450),Blockly[_0x49a314(0x2a3)][_0x49a314(0x7ce)]),_0x49a5a5=Blockly[_0x49a314(0x2a3)][_0x49a314(0x74d)](this,'DS3231_SECOND',Blockly[_0x49a314(0x2a3)]['ORDER_ATOMIC']),_0x2dc0f9='rtc.adjust(DateTime('+_0x45ef96+','+_0x17a9be+','+_0x5c0197+','+_0x14da32+','+_0x15ad59+','+_0x49a5a5+_0x49a314(0xb97);return _0x2dc0f9;},Blockly['Arduino'][_0x3d686a(0x341)]=function(_0x15135a){var _0x43a017=_0x3d686a,_0x26b78e=Blockly[_0x43a017(0x2a3)][_0x43a017(0x74d)](this,_0x43a017(0x8cc),Blockly[_0x43a017(0x2a3)][_0x43a017(0x7ce)]),_0x52d454=Blockly[_0x43a017(0x2a3)][_0x43a017(0x74d)](this,_0x43a017(0x2df),Blockly[_0x43a017(0x2a3)][_0x43a017(0x7ce)]),_0xe7a0d0=Blockly['Arduino']['valueToCode'](this,'DS3231_YEAR',Blockly[_0x43a017(0x2a3)][_0x43a017(0x7ce)]),_0x264664=Blockly['Arduino'][_0x43a017(0x74d)](this,_0x43a017(0x7bb),Blockly[_0x43a017(0x2a3)]['ORDER_ATOMIC']),_0x15893d=Blockly[_0x43a017(0x2a3)]['valueToCode'](this,_0x43a017(0x450),Blockly[_0x43a017(0x2a3)]['ORDER_ATOMIC']),_0x1e23ea=Blockly[_0x43a017(0x2a3)]['valueToCode'](this,_0x43a017(0xb7f),Blockly[_0x43a017(0x2a3)][_0x43a017(0x7ce)]),_0x225ac8=_0x43a017(0xaa5)+_0xe7a0d0+','+_0x52d454+','+_0x26b78e+','+_0x264664+','+_0x15893d+','+_0x1e23ea+'));\x0a';return _0x225ac8;},Blockly[_0x3d686a(0x2a3)]['order_read_rtc_ds3231w']=function(_0x45f2eb){var _0x3d7bab='t=rtc.now();\x0a';return _0x3d7bab;},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0xbf9)]=function(_0x24651b){var _0x515593=_0x3d686a,_0x5ebc78=_0x515593(0x470);return _0x5ebc78;},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0x3ba)]=function(_0x50705c){var _0x59df85=_0x3d686a,_0x911f45=this[_0x59df85(0x2b1)]('OUTPUT_VALUE');if(_0x911f45==0x5)var _0x21ee9e='t.second()';else{if(_0x911f45==0x4)var _0x21ee9e=_0x59df85(0x869);else{if(_0x911f45==0x3)var _0x21ee9e=_0x59df85(0x5e3);else{if(_0x911f45==0x2)var _0x21ee9e=_0x59df85(0xca6);else{if(_0x911f45==0x1)var _0x21ee9e=_0x59df85(0x500);else{if(_0x911f45==0x0)var _0x21ee9e=_0x59df85(0x77c);else var _0x21ee9e=_0x59df85(0xae5);}}}}}return[_0x21ee9e,Blockly['Arduino'][_0x59df85(0x7ce)]];},Blockly[_0x3d686a(0x2a3)]['values_ds3231']=function(_0x326d3c){var _0xf43dcb=_0x3d686a,_0xed103=this[_0xf43dcb(0x2b1)]('OUTPUT_VALUE');if(_0xed103==0x5)var _0x2d1412='t.second()';else{if(_0xed103==0x4)var _0x2d1412=_0xf43dcb(0x869);else{if(_0xed103==0x3)var _0x2d1412=_0xf43dcb(0x5e3);else{if(_0xed103==0x2)var _0x2d1412=_0xf43dcb(0xca6);else{if(_0xed103==0x1)var _0x2d1412=_0xf43dcb(0x500);else{if(_0xed103==0x0)var _0x2d1412=_0xf43dcb(0x77c);else var _0x2d1412=_0xf43dcb(0xae5);}}}}}return[_0x2d1412,Blockly[_0xf43dcb(0x2a3)][_0xf43dcb(0x7ce)]];},Blockly['Arduino'][_0x3d686a(0x3ff)]=function(_0x14e2e3){var _0x26d42d='\x20ESP.restart();\x20\x0a';return _0x26d42d;},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0xaa1)]=function(_0x258b1d){var _0x304cb2=_0x3d686a,_0x187fe6=Blockly['Arduino'][_0x304cb2(0x74d)](this,_0x304cb2(0x7c0),Blockly[_0x304cb2(0x2a3)]['ORDER_ATOMIC']);Blockly[_0x304cb2(0x2a3)][_0x304cb2(0xa2c)]['define_spi']=_0x304cb2(0x487),Blockly[_0x304cb2(0x2a3)][_0x304cb2(0xa2c)][_0x304cb2(0x1bf)]=_0x304cb2(0x265),Blockly[_0x304cb2(0x2a3)][_0x304cb2(0xcee)]['setup_sd']=_0x304cb2(0x6e6)+_0x187fe6+_0x304cb2(0x62e);var _0x3a45d1='';return _0x3a45d1;},Blockly['Arduino']['sd_printfile']=function(_0x59aa4c){var _0x35d9c5=_0x3d686a,_0x32d2d1=Blockly[_0x35d9c5(0x2a3)][_0x35d9c5(0x74d)](_0x59aa4c,_0x35d9c5(0x20a),Blockly[_0x35d9c5(0x2a3)][_0x35d9c5(0x7ce)]),_0x360da1=Blockly['Arduino'][_0x35d9c5(0x74d)](_0x59aa4c,_0x35d9c5(0x854),Blockly[_0x35d9c5(0x2a3)][_0x35d9c5(0x7ce)]),_0x11d521=this[_0x35d9c5(0x2b1)](_0x35d9c5(0x71a));Blockly[_0x35d9c5(0x2a3)]['definitions_']['define_sd_print']=_0x35d9c5(0x669)+'\x09{\x0a'+_0x35d9c5(0xb69)+_0x35d9c5(0xc88)+_0x35d9c5(0xcc4)+'\x09\x09if(lf)sd_file.println(texttoprint);\x0a'+_0x35d9c5(0x753)+'\x09\x09sd_file.close();\x0a'+_0x35d9c5(0x8cf)+'}\x0a\x20';if(_0x11d521==_0x35d9c5(0x77d))var _0x1a7bfc=_0x35d9c5(0x8d2)+_0x360da1+','+_0x32d2d1+',true);\x0a';else var _0x1a7bfc=_0x35d9c5(0x8d2)+_0x360da1+','+_0x32d2d1+_0x35d9c5(0xc80);return _0x1a7bfc;},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0x583)]=function(_0x2a3e5d){var _0xe2b0dc=_0x3d686a,_0x215b12=Blockly[_0xe2b0dc(0x2a3)][_0xe2b0dc(0x74d)](_0x2a3e5d,_0xe2b0dc(0x854),Blockly[_0xe2b0dc(0x2a3)][_0xe2b0dc(0x7ce)]);Blockly[_0xe2b0dc(0x2a3)]['definitions_'][_0xe2b0dc(0x3e6)]=_0xe2b0dc(0x88e),Blockly[_0xe2b0dc(0x2a3)][_0xe2b0dc(0xcee)][_0xe2b0dc(0x3e6)]='File\x20myFile\x20=\x20SD.open('+_0x215b12+');\x20\x20\x0a\x20\x20\x20\x20if\x20(myFile)\x20\x20\x0a\x20\x20{\x20\x20\x0a\x20\x20\x20\x20byte\x20h\x20=\x200;\x20\x20\x0a\x20\x20\x20\x20char\x20text[]\x20=\x20{};\x20\x20\x0a\x20\x20\x20\x20while\x20(myFile.available())\x20\x20\x0a\x20\x20\x20\x20{\x20\x20\x0a\x20\x20\x20\x20\x20text[h]\x20=\x20myFile.read();\x20\x20\x0a\x20\x20\x20\x20\x20\x20h++;\x20\x20\x0a\x20\x20\x20\x20}\x20\x20\x0a\x20\x20\x20\x20values\x20=\x20text;\x20\x20\x0a\x20\x20\x20\x20myFile.close();\x20\x20\x0a\x20}\x20\x20\x0a\x20\x20\x0a';var _0x3a90c1='values';return[_0x3a90c1,Blockly[_0xe2b0dc(0x2a3)][_0xe2b0dc(0x7ce)]];},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0x5bd)]=function(_0x190088){var _0x1df15b=_0x3d686a,_0x2c461f=Blockly[_0x1df15b(0x2a3)]['valueToCode'](_0x190088,_0x1df15b(0x854),Blockly['Arduino']['ORDER_ATOMIC']),_0x1664a8=_0x1df15b(0xaa9)+_0x2c461f+_0x1df15b(0x23c);return _0x1664a8;},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0x7d1)]=function(_0x3c6c22){var _0xf3399e=_0x3d686a,_0x305b65=Blockly[_0xf3399e(0x2a3)]['valueToCode'](_0x3c6c22,_0xf3399e(0x854),Blockly['Arduino']['ORDER_ATOMIC']),_0x634d99=_0xf3399e(0xa84)+_0x305b65+_0xf3399e(0x23c);return _0x634d99;},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0xb49)]=function(_0x2dcc04){var _0x8a728b=_0x3d686a,_0x413572=Blockly[_0x8a728b(0x2a3)][_0x8a728b(0x74d)](_0x2dcc04,_0x8a728b(0x854),Blockly[_0x8a728b(0x2a3)][_0x8a728b(0x7ce)]),_0x5e9e67='\x20SD.rmdir('+_0x413572+');\x20\x0a';return _0x5e9e67;},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0x871)]=function(_0x21ce15){var _0x476104=_0x3d686a,_0x1058aa=Blockly[_0x476104(0x2a3)][_0x476104(0x74d)](this,_0x476104(0x1d4),Blockly['Arduino'][_0x476104(0x7ce)]),_0x23bbbe=Blockly[_0x476104(0x2a3)][_0x476104(0x74d)](this,_0x476104(0x3ad),Blockly[_0x476104(0x2a3)][_0x476104(0x7ce)]),_0x401fc2=Blockly[_0x476104(0x2a3)][_0x476104(0x74d)](this,_0x476104(0x570),Blockly[_0x476104(0x2a3)]['ORDER_ATOMIC']);if(_0x401fc2>=0xb4)_0x401fc2=0xb4;Blockly['Arduino'][_0x476104(0xa2c)][_0x476104(0xb6c)]=_0x476104(0x8eb),Blockly[_0x476104(0x2a3)]['definitions_'][_0x476104(0xab7)+_0x1058aa]=_0x476104(0xcbd)+_0x1058aa+';\x0a',Blockly['Arduino']['setups_'][_0x476104(0x4aa)+_0x1058aa]='myServo'+_0x1058aa+'.attach('+_0x1058aa+_0x476104(0x62e);var _0x23a3a5=_0x476104(0x464)+_0x1058aa+'.attach('+_0x1058aa+_0x476104(0xabb)+_0x1058aa+_0x476104(0x439)+_0x401fc2+','+_0x23bbbe+_0x476104(0x62e);return _0x23a3a5;},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0xbb5)]=function(_0x4612ad){var _0x32f6fa=_0x3d686a,_0x4f856c=Blockly[_0x32f6fa(0x2a3)][_0x32f6fa(0x74d)](this,'PIN',Blockly[_0x32f6fa(0x2a3)][_0x32f6fa(0x7ce)]),_0x147ca9=Blockly[_0x32f6fa(0x2a3)]['valueToCode'](this,_0x32f6fa(0x570),Blockly[_0x32f6fa(0x2a3)]['ORDER_ATOMIC']);if(_0x147ca9>=0xb4)_0x147ca9=0xb4;Blockly[_0x32f6fa(0x2a3)]['definitions_'][_0x32f6fa(0xaeb)]='',Blockly[_0x32f6fa(0x2a3)][_0x32f6fa(0xa2c)]['var_servo_ru']='',Blockly['Arduino'][_0x32f6fa(0xcee)]['setup_servo_ru']='';var _0x573a58=_0x32f6fa(0x924)+_0x4f856c+_0x32f6fa(0x2cc)+_0x4f856c+_0x32f6fa(0x517)+_0x147ca9+'\x20+\x20500));\x20\x0a\x20pinMode('+_0x4f856c+_0x32f6fa(0x2cc)+_0x4f856c+_0x32f6fa(0xa40);return _0x573a58;},Blockly['Arduino']['stepcatServoRot_stop']=function(_0x5c75e0){var _0x41ef19=_0x3d686a,_0x2197f0=Blockly[_0x41ef19(0x2a3)][_0x41ef19(0x74d)](this,'PIN',Blockly[_0x41ef19(0x2a3)][_0x41ef19(0x7ce)]),_0xd3c983=_0x41ef19(0x464)+_0x2197f0+_0x41ef19(0x2c3);return _0xd3c983;},Blockly[_0x3d686a(0x2a3)]['base_code_i2s']=function(_0x3187e4){var _0x475b87=_0x3d686a;Blockly['Arduino'][_0x475b87(0xa2c)][_0x475b87(0x97e)]='#include\x20<Wire.h>\x0a',Blockly[_0x475b87(0x2a3)]['setups_'][_0x475b87(0x97e)]=_0x475b87(0x6b6);var _0x22f58d=_0x475b87(0xabe);return _0x22f58d;},Blockly[_0x3d686a(0x2a3)]['servo_movebnn']=function(_0x1dcbbd){var _0x41a0cc=_0x3d686a,_0xce1c3b=_0x1dcbbd[_0x41a0cc(0x2b1)](_0x41a0cc(0x6d0)),_0x5e1787=this[_0x41a0cc(0x2b1)](_0x41a0cc(0x1d4)),_0x48f091=Blockly[_0x41a0cc(0x2a3)][_0x41a0cc(0x74d)](this,_0x41a0cc(0xb65),Blockly[_0x41a0cc(0x2a3)][_0x41a0cc(0x7ce)]);if(_0x48f091>=0xb4)_0x48f091=0xb4;Blockly[_0x41a0cc(0x2a3)]['definitions_'][_0x41a0cc(0xb6c)]=_0x41a0cc(0x445)+_0xce1c3b+';',Blockly[_0x41a0cc(0x2a3)]['setups_'][_0x41a0cc(0xab7)+_0xce1c3b]=_0x41a0cc(0x5df)+_0xce1c3b+_0x41a0cc(0xa28)+_0xce1c3b+_0x41a0cc(0xb95)+_0xce1c3b+_0x41a0cc(0xb3c)+_0xce1c3b+'.servoSet(3,\x20SERVO_SG90);\x20\x0a\x20MSS'+_0xce1c3b+'.servoSet(4,\x20SERVO_SG90);\x20\x0a\x20MSS'+_0xce1c3b+_0x41a0cc(0x79c)+_0xce1c3b+_0x41a0cc(0x31e)+_0xce1c3b+_0x41a0cc(0x9b8)+_0xce1c3b+_0x41a0cc(0xbdc)+_0xce1c3b+_0x41a0cc(0xad5)+_0xce1c3b+_0x41a0cc(0x50a)+_0xce1c3b+_0x41a0cc(0xc5a)+_0xce1c3b+_0x41a0cc(0xc98)+_0xce1c3b+'.servoSet(13,\x20SERVO_SG90);\x20\x0a\x20MSS'+_0xce1c3b+_0x41a0cc(0x62d)+_0xce1c3b+_0x41a0cc(0x888)+_0xce1c3b+_0x41a0cc(0x546)+_0xce1c3b+_0x41a0cc(0xa80)+_0xce1c3b+_0x41a0cc(0x23c);var _0x1f8659=_0x41a0cc(0x865)+_0xce1c3b+_0x41a0cc(0xa2d)+_0x5e1787+_0x41a0cc(0x234)+_0x48f091+_0x41a0cc(0x46a);return _0x1f8659;},Blockly['Arduino'][_0x3d686a(0xa4a)]=function(_0x355055){var _0x26277e=_0x3d686a,_0xee7af6=Blockly['Arduino'][_0x26277e(0x74d)](this,_0x26277e(0x9b9),Blockly['Arduino']['ORDER_ATOMIC']),_0x327dbb=Blockly[_0x26277e(0x2a3)]['valueToCode'](this,_0x26277e(0x5cd),Blockly[_0x26277e(0x2a3)]['ORDER_ATOMIC']),_0x138ac0=this['getFieldValue'](_0x26277e(0x661)),_0x3c6e56=Blockly[_0x26277e(0x2a3)][_0x26277e(0x74d)](this,_0x26277e(0x736),Blockly[_0x26277e(0x2a3)][_0x26277e(0x7ce)]),_0x540d85=_0x26277e(0x7ed)+_0xee7af6+_0x26277e(0x249)+_0x327dbb+_0x26277e(0x419)+_0xee7af6+','+_0x138ac0+_0x26277e(0x4fb)+_0x327dbb+','+_0x3c6e56+_0x26277e(0x4d8);return _0x540d85;},Blockly['Arduino'][_0x3d686a(0xa7a)]=function(_0x1a490b){var _0x5214b9=_0x3d686a,_0x2ff1a=Blockly[_0x5214b9(0x2a3)]['valueToCode'](this,_0x5214b9(0x9b9),Blockly['Arduino'][_0x5214b9(0x7ce)]),_0x93a216=Blockly[_0x5214b9(0x2a3)]['valueToCode'](this,_0x5214b9(0x5cd),Blockly[_0x5214b9(0x2a3)][_0x5214b9(0x7ce)]),_0x1b434e=this[_0x5214b9(0x2b1)]('MOTOR_DIR'),_0x4e260e=Blockly[_0x5214b9(0x2a3)][_0x5214b9(0x74d)](this,'CONTENT',Blockly[_0x5214b9(0x2a3)]['ORDER_ATOMIC']);if(_0x1b434e=='1')var _0x1a8f3e=_0x5214b9(0x7ed)+_0x2ff1a+_0x5214b9(0x249)+_0x93a216+_0x5214b9(0x6da)+_0x2ff1a+','+_0x4e260e+_0x5214b9(0xbe5)+_0x93a216+_0x5214b9(0x81f);if(_0x1b434e=='0')var _0x1a8f3e=_0x5214b9(0x7ed)+_0x2ff1a+',OUTPUT);\x20\x0a\x20pinMode('+_0x93a216+_0x5214b9(0x6da)+_0x2ff1a+_0x5214b9(0xa70)+_0x93a216+','+_0x4e260e+_0x5214b9(0x62e);return _0x1a8f3e;},Blockly['Arduino']['motor_auto_stepper']=function(_0x4f2596){var _0x48e69b=_0x3d686a,_0x134084=this['getFieldValue']('STEEPER_NUMBER'),_0x27f9e4=Blockly[_0x48e69b(0x2a3)]['valueToCode'](this,'PIN_STEEPER1',Blockly[_0x48e69b(0x2a3)][_0x48e69b(0x7ce)]),_0x300aed=Blockly[_0x48e69b(0x2a3)][_0x48e69b(0x74d)](this,'PIN_STEEPER2',Blockly[_0x48e69b(0x2a3)][_0x48e69b(0x7ce)]),_0x1c2c10=Blockly['Arduino'][_0x48e69b(0x74d)](this,_0x48e69b(0x476),Blockly[_0x48e69b(0x2a3)]['ORDER_ATOMIC']),_0x220e0d=Blockly['Arduino'][_0x48e69b(0x74d)](this,_0x48e69b(0x50c),Blockly[_0x48e69b(0x2a3)][_0x48e69b(0x7ce)]),_0x10467a=Blockly[_0x48e69b(0x2a3)]['valueToCode'](this,_0x48e69b(0x198),Blockly[_0x48e69b(0x2a3)][_0x48e69b(0x7ce)]);Blockly['Arduino']['definitions_'][_0x48e69b(0x1db)]=_0x48e69b(0x3ea),Blockly[_0x48e69b(0x2a3)]['definitions_'][_0x48e69b(0x196)+_0x134084]=_0x48e69b(0x81b)+_0x134084+'('+_0x10467a+','+_0x27f9e4+','+_0x300aed+','+_0x1c2c10+','+_0x220e0d+');\x20\x0a';var _0x55ff79='';return _0x55ff79;},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0x90e)]=function(_0x51c928){var _0x86eeda=_0x3d686a,_0x210b28=Blockly['Arduino'][_0x86eeda(0x74d)](this,_0x86eeda(0x228),Blockly['Arduino'][_0x86eeda(0x7ce)]),_0x40ccfa=Blockly[_0x86eeda(0x2a3)][_0x86eeda(0x74d)](this,_0x86eeda(0x7e4),Blockly[_0x86eeda(0x2a3)][_0x86eeda(0x7ce)]),_0x3698f2=Blockly[_0x86eeda(0x2a3)]['valueToCode'](this,_0x86eeda(0x6b9),Blockly[_0x86eeda(0x2a3)][_0x86eeda(0x7ce)]),_0x466ef2=Blockly[_0x86eeda(0x2a3)]['valueToCode'](this,_0x86eeda(0xccc),Blockly[_0x86eeda(0x2a3)][_0x86eeda(0x7ce)]);Blockly[_0x86eeda(0x2a3)]['definitions_'][_0x86eeda(0x1db)+_0x40ccfa+_0x3698f2]=_0x86eeda(0xb30)+_0x40ccfa+''+_0x3698f2+_0x86eeda(0x9f0)+_0x40ccfa+''+_0x3698f2+'\x20=\x200;\x20\x0a',Blockly['Arduino'][_0x86eeda(0xcee)][_0x86eeda(0x1db)+_0x40ccfa+_0x3698f2]=_0x86eeda(0x6a6)+_0x40ccfa+_0x86eeda(0x8ea)+_0x3698f2+',\x20OUTPUT);\x20\x0a\x20';var _0x48ae67='\x20\x20'+_0x86eeda(0x9f5)+_0x40ccfa+''+_0x3698f2+_0x86eeda(0x330)+_0x466ef2+_0x86eeda(0x4a4)+'\x20spedn'+_0x40ccfa+''+_0x3698f2+_0x86eeda(0x330)+_0x210b28+_0x86eeda(0x4a4)+_0x86eeda(0x919)+_0x40ccfa+''+_0x3698f2+_0x86eeda(0xcc3)+_0x40ccfa+''+_0x3698f2+_0x86eeda(0x85a)+'\x20\x20\x20\x20\x20stepn'+_0x40ccfa+''+_0x3698f2+_0x86eeda(0x1da)+_0x40ccfa+''+_0x3698f2+_0x86eeda(0x4d0)+'\x20\x20\x20\x20\x20for\x20(int\x20count\x20=\x200;\x20count\x20<\x20stepn'+_0x40ccfa+''+_0x3698f2+';\x20count++)\x20{\x20\x20\x0a'+'\x20\x20\x20\x20\x20\x20\x20digitalWrite('+_0x40ccfa+',\x200);\x20\x20\x0a'+_0x86eeda(0xa75)+_0x3698f2+_0x86eeda(0x90d)+_0x86eeda(0x5f1)+_0x40ccfa+''+_0x3698f2+',\x20100,\x201,\x204000,\x2010000));\x20\x20\x0a'+_0x86eeda(0xa75)+_0x3698f2+',\x200);\x20\x20\x0a'+_0x86eeda(0x5f1)+_0x40ccfa+''+_0x3698f2+_0x86eeda(0x887)+_0x86eeda(0x635)+'\x20\x20\x20\x20stepn'+_0x40ccfa+''+_0x3698f2+_0x86eeda(0x1da)+_0x40ccfa+''+_0x3698f2+_0x86eeda(0x4d0)+_0x86eeda(0xc71)+_0x86eeda(0x919)+_0x40ccfa+''+_0x3698f2+'\x20>\x200\x20&&\x20spedn'+_0x40ccfa+''+_0x3698f2+_0x86eeda(0x85a)+_0x86eeda(0x619)+_0x40ccfa+''+_0x3698f2+_0x86eeda(0x874)+_0x86eeda(0xa75)+_0x40ccfa+_0x86eeda(0x90d)+_0x86eeda(0xa75)+_0x3698f2+',\x201);\x20\x20\x0a'+_0x86eeda(0x5f1)+_0x40ccfa+''+_0x3698f2+_0x86eeda(0x887)+_0x86eeda(0xa75)+_0x3698f2+_0x86eeda(0x3fb)+'\x20\x20\x20\x20\x20\x20\x20delayMicroseconds(map(spedn'+_0x40ccfa+''+_0x3698f2+_0x86eeda(0x887)+_0x86eeda(0x635)+_0x86eeda(0xc71)+_0x86eeda(0x919)+_0x40ccfa+''+_0x3698f2+_0x86eeda(0xa3f)+_0x40ccfa+''+_0x3698f2+_0x86eeda(0x5f3)+_0x86eeda(0xa75)+_0x40ccfa+',\x200);\x20\x20\x0a'+_0x86eeda(0xa75)+_0x3698f2+_0x86eeda(0x3fb)+_0x86eeda(0xc71)+_0x86eeda(0x5d8);return _0x48ae67;},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0x667)]=function(_0xd095d){var _0x37dcba=_0x3d686a,_0x3e04b3=Blockly[_0x37dcba(0x2a3)][_0x37dcba(0x74d)](this,_0x37dcba(0x228),Blockly[_0x37dcba(0x2a3)][_0x37dcba(0x7ce)]),_0x1a7254=this['getFieldValue'](_0x37dcba(0x4b9)),_0x2c9079=Blockly[_0x37dcba(0x2a3)]['valueToCode'](this,'STEPPER_STEP_j',Blockly['Arduino'][_0x37dcba(0x7ce)]),_0x4d87da=_0x37dcba(0xc4f)+_0x1a7254+_0x37dcba(0x8e1)+_0x3e04b3+_0x37dcba(0x542)+_0x1a7254+'.step('+_0x2c9079+_0x37dcba(0x1df);return _0x4d87da;},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0x9bc)]=function(_0x30bed4){var _0x157f3e=_0x3d686a,_0x13e85a=Blockly[_0x157f3e(0x2a3)][_0x157f3e(0x74d)](this,_0x157f3e(0x7e4),Blockly[_0x157f3e(0x2a3)][_0x157f3e(0x7ce)]),_0x136d44=Blockly[_0x157f3e(0x2a3)][_0x157f3e(0x74d)](this,'PIN_STEEPER2',Blockly[_0x157f3e(0x2a3)]['ORDER_ATOMIC']),_0x5244ee=Blockly['Arduino'][_0x157f3e(0x74d)](this,_0x157f3e(0x476),Blockly[_0x157f3e(0x2a3)][_0x157f3e(0x7ce)]),_0x36a126=Blockly[_0x157f3e(0x2a3)][_0x157f3e(0x74d)](this,_0x157f3e(0x50c),Blockly[_0x157f3e(0x2a3)][_0x157f3e(0x7ce)]);Blockly[_0x157f3e(0x2a3)][_0x157f3e(0xcee)][_0x13e85a]='pinMode('+_0x13e85a+',\x20OUTPUT);\x20',Blockly[_0x157f3e(0x2a3)][_0x157f3e(0xcee)][_0x136d44]=_0x157f3e(0x7ed)+_0x136d44+_0x157f3e(0x513),Blockly[_0x157f3e(0x2a3)][_0x157f3e(0xcee)][_0x5244ee]=_0x157f3e(0x7ed)+_0x5244ee+_0x157f3e(0x513),Blockly[_0x157f3e(0x2a3)]['setups_'][_0x36a126]=_0x157f3e(0x7ed)+_0x36a126+_0x157f3e(0x513);var _0x5daff2=_0x157f3e(0x26b)+_0x13e85a+_0x157f3e(0x3bd)+_0x136d44+_0x157f3e(0x3bd)+_0x5244ee+',LOW);\x20\x0a\x20digitalWrite('+_0x36a126+_0x157f3e(0x312);return _0x5daff2;},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0x826)]=function(_0x2b3ecd){var _0x887c13=_0x3d686a,_0x40f347=Blockly['Arduino'][_0x887c13(0x74d)](_0x2b3ecd,_0x887c13(0x1d4),Blockly['Arduino']['ORDER_ATOMIC']);Blockly[_0x887c13(0x2a3)][_0x887c13(0xcee)]['setup_input_'+_0x40f347]=_0x887c13(0x7ed)+_0x40f347+',\x20INPUT_PULLUP);';var _0x2316af=_0x887c13(0x2d3)+_0x40f347+')';return[_0x2316af,Blockly[_0x887c13(0x2a3)]['ORDER_ATOMIC']];},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0x20d)]=function(_0x56e8ed){var _0x3bb46f=_0x3d686a,_0x279a66=_0x56e8ed['getFieldValue'](_0x3bb46f(0x8fe)),_0x55ec83='analogRead('+_0x279a66+')';return[_0x55ec83,Blockly[_0x3bb46f(0x2a3)][_0x3bb46f(0x7ce)]];},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0x2e8)]=function(_0x2e62da){var _0x2160e6=_0x3d686a,_0x151b3c=Blockly['Arduino'][_0x2160e6(0x74d)](_0x2e62da,'PIN_TRIG',Blockly[_0x2160e6(0x2a3)][_0x2160e6(0x7ce)]),_0x441077=Blockly['Arduino'][_0x2160e6(0x74d)](_0x2e62da,'PIN_ECHO',Blockly[_0x2160e6(0x2a3)][_0x2160e6(0x7ce)]);Blockly[_0x2160e6(0x2a3)][_0x2160e6(0xcee)][_0x2160e6(0x38f)+_0x151b3c]='pinMode('+_0x151b3c+',\x20OUTPUT);',Blockly[_0x2160e6(0x2a3)][_0x2160e6(0xcee)][_0x2160e6(0xbef)+_0x441077]=_0x2160e6(0x7ed)+_0x441077+',\x20INPUT);',Blockly['Arduino'][_0x2160e6(0xa2c)][_0x2160e6(0x76e)+_0x151b3c]=_0x2160e6(0xb13)+_0x151b3c+'()\x20{\x0a'+_0x2160e6(0x199)+_0x2160e6(0x569)+_0x151b3c+_0x2160e6(0x673)+'\x20\x20\x20delayMicroseconds(2);\x0a'+_0x2160e6(0x569)+_0x151b3c+_0x2160e6(0x2ff)+_0x2160e6(0x85c)+_0x2160e6(0x569)+_0x151b3c+',\x20LOW);\x0a'+'\x20\x20\x20duration\x20=\x20pulseIn('+_0x441077+_0x2160e6(0x2ff)+_0x2160e6(0xbca)+_0x2160e6(0x3b3)+'}\x0a';;var _0x1de08b;return _0x1de08b=_0x2160e6(0x3a5)+_0x151b3c+'()',[_0x1de08b,Blockly[_0x2160e6(0x2a3)][_0x2160e6(0x7ce)]];},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0x52d)]=function(_0x35b7e6){var _0x53e652=_0x3d686a,_0x260d98=Blockly[_0x53e652(0x2a3)][_0x53e652(0x74d)](_0x35b7e6,_0x53e652(0xbdf),Blockly[_0x53e652(0x2a3)][_0x53e652(0x7ce)]),_0x273d2a=this['getFieldValue']('OUTPUT_TYPE'),_0x177dc4=this[_0x53e652(0x2b1)](_0x53e652(0x697)),_0x39d8fc;Blockly[_0x53e652(0x2a3)][_0x53e652(0xa2c)][_0x53e652(0x65b)]=_0x53e652(0x620);if(_0x273d2a=='0')Blockly[_0x53e652(0x2a3)][_0x53e652(0xa2c)]['begin_dht_'+_0x260d98]=_0x53e652(0x8b6)+_0x260d98+'('+_0x260d98+_0x53e652(0x273);else _0x273d2a=='1'?Blockly[_0x53e652(0x2a3)][_0x53e652(0xa2c)][_0x53e652(0x99e)+_0x260d98]=_0x53e652(0x8b6)+_0x260d98+'('+_0x260d98+_0x53e652(0x2d6):Blockly[_0x53e652(0x2a3)][_0x53e652(0xa2c)][_0x53e652(0x99e)+_0x260d98]=_0x53e652(0x8b6)+_0x260d98+'('+_0x260d98+',DHT22);\x0a';Blockly['Arduino']['setups_'][_0x53e652(0xbef)+_0x260d98]='dht_'+_0x260d98+_0x53e652(0xcca);if(_0x177dc4=='0')var _0x39d8fc='dht_'+_0x260d98+'.readTemperature()';else{if(_0x177dc4=='1')var _0x39d8fc=_0x53e652(0x78f)+_0x260d98+'.readHumidity()';else var _0x39d8fc=_0x53e652(0x78f)+_0x260d98+_0x53e652(0x77a)+_0x260d98+'.readTemperature(),dht_'+_0x260d98+_0x53e652(0x52f);}return[_0x39d8fc,Blockly[_0x53e652(0x2a3)][_0x53e652(0x7ce)]];},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0xaf6)]=function(_0x2174cf){var _0x1ba1c1=_0x3d686a,_0x37baf5=Blockly[_0x1ba1c1(0x2a3)][_0x1ba1c1(0x74d)](_0x2174cf,_0x1ba1c1(0x990),Blockly[_0x1ba1c1(0x2a3)][_0x1ba1c1(0x7ce)]),_0x4cdea4=Blockly['Arduino']['valueToCode'](_0x2174cf,_0x1ba1c1(0x47c),Blockly[_0x1ba1c1(0x2a3)]['ORDER_ATOMIC']);Blockly[_0x1ba1c1(0x2a3)][_0x1ba1c1(0xa2c)][_0x1ba1c1(0x6c7)]=_0x1ba1c1(0x92b),Blockly['Arduino']['definitions_']['rotaryencoder_1']='Encoder\x20encoder_1('+_0x37baf5+','+_0x4cdea4+');\x0a';var _0x549dd4=_0x1ba1c1(0x575);return[_0x549dd4,Blockly['Arduino'][_0x1ba1c1(0x7ce)]];},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0x5ee)]=function(_0x791ded){var _0x35141e=_0x3d686a,_0x479ebb=_0x791ded['getFieldValue'](_0x35141e(0x6d0)),_0x262d55=Blockly[_0x35141e(0x2a3)]['valueToCode'](_0x791ded,_0x35141e(0x1d4),Blockly['Arduino']['ORDER_ATOMIC']);Blockly[_0x35141e(0x2a3)][_0x35141e(0xa2c)][_0x35141e(0x7d8)]='#include\x20<iarduino_Pressure_BMP.h>\x20\x0a\x20iarduino_Pressure_BMP\x20sensor('+_0x479ebb+_0x35141e(0x405),Blockly['Arduino'][_0x35141e(0xcee)][_0x35141e(0x5e7)]=_0x35141e(0x6ad);var _0x5388cd=_0x35141e(0x923)+_0x262d55+_0x35141e(0x6d6);return _0x5388cd;},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0xa09)]=function(_0x364bba){var _0x5dc1d3=_0x3d686a,_0x1ac7cd=Blockly[_0x5dc1d3(0x2a3)][_0x5dc1d3(0x74d)](_0x364bba,_0x5dc1d3(0x1d4),Blockly['Arduino']['ORDER_ATOMIC']),_0x4dcc4f=Blockly['Arduino'][_0x5dc1d3(0x74d)](_0x364bba,_0x5dc1d3(0xb67),Blockly[_0x5dc1d3(0x2a3)][_0x5dc1d3(0x7ce)]);Blockly[_0x5dc1d3(0x2a3)][_0x5dc1d3(0xa2c)][_0x5dc1d3(0x8c6)]=_0x5dc1d3(0xce8),Blockly[_0x5dc1d3(0x2a3)][_0x5dc1d3(0xa2c)][_0x5dc1d3(0x637)]=_0x5dc1d3(0x18f),Blockly[_0x5dc1d3(0x2a3)][_0x5dc1d3(0xa2c)][_0x5dc1d3(0x336)]=_0x5dc1d3(0x448)+_0x1ac7cd+');\x0aDallasTemperature\x20sensors(&oneWireBus);\x0a',Blockly[_0x5dc1d3(0x2a3)][_0x5dc1d3(0xcee)]['setup_ds18b20']='sensors.begin();\x0a';var _0x20d2d4='sensors.requestTemperatures();\x0a\x20'+_0x4dcc4f+_0x5dc1d3(0xa23);return _0x20d2d4;},Blockly['Arduino'][_0x3d686a(0x9a9)]=function(_0x304922){var _0x27ad6a=_0x3d686a,_0x476e62=this[_0x27ad6a(0x2b1)](_0x27ad6a(0x697)),_0x45922a=Blockly[_0x27ad6a(0x2a3)][_0x27ad6a(0x74d)](_0x304922,_0x27ad6a(0x1d4),Blockly['Arduino'][_0x27ad6a(0x7ce)]);Blockly[_0x27ad6a(0x2a3)]['definitions_'][_0x27ad6a(0x9cc)]=_0x27ad6a(0x5c9),Blockly['Arduino'][_0x27ad6a(0xa2c)]['include_Adafruit_Sensor77']='#include\x20<Adafruit_Sensor.h>',Blockly[_0x27ad6a(0x2a3)]['definitions_'][_0x27ad6a(0x5ca)]=_0x27ad6a(0x87d),Blockly['Arduino'][_0x27ad6a(0xa2c)]['init_ADXL345']='Adafruit_ADXL345_Unified\x20accel\x20=\x20Adafruit_ADXL345_Unified(12345);\x0a',Blockly['Arduino'][_0x27ad6a(0xa2c)][_0x27ad6a(0x6a2)]=_0x27ad6a(0x810),Blockly[_0x27ad6a(0x2a3)][_0x27ad6a(0xcee)][_0x27ad6a(0x9db)]='accel.begin();\x20\x0a\x20\x20accel.setRange(ADXL345_RANGE_16_G);\x20\x0a';var _0x4b3599=_0x27ad6a(0xa94)+_0x45922a+_0x27ad6a(0x483)+_0x476e62+';\x20\x0a';return _0x4b3599;},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0xafd)]=function(_0x416d18){var _0x2d111c=_0x3d686a,_0x1310dc=this[_0x2d111c(0x2b1)](_0x2d111c(0x697)),_0x28dc66=Blockly['Arduino'][_0x2d111c(0x74d)](_0x416d18,_0x2d111c(0x1d4),Blockly[_0x2d111c(0x2a3)][_0x2d111c(0x7ce)]);Blockly[_0x2d111c(0x2a3)]['definitions_'][_0x2d111c(0x9cc)]=_0x2d111c(0x5c9),Blockly[_0x2d111c(0x2a3)]['definitions_'][_0x2d111c(0x7f0)]=_0x2d111c(0xc03),Blockly[_0x2d111c(0x2a3)][_0x2d111c(0xa2c)]['include_Adafruit_HMC5883_U']='DFRobot_QMC5883\x20compass;',Blockly[_0x2d111c(0x2a3)][_0x2d111c(0xcee)][_0x2d111c(0x5e7)]=_0x2d111c(0x4cf);var _0x4c431f='\x20Vector\x20mag\x20=\x20compass.readRaw();\x20\x0a\x20\x20float\x20heading\x20=\x20atan2(mag.YAxis,\x20mag.XAxis);\x20\x0a\x20float\x20declinationAngle\x20=\x20(4.0\x20+\x20(26.0\x20/\x2060.0))\x20/\x20(180\x20/\x20PI);\x20\x0a\x20\x20heading\x20+=\x20declinationAngle;\x20\x0a\x20if\x20(heading\x20<\x200){\x20\x0a\x20\x20\x20heading\x20+=\x202\x20*\x20PI;\x20\x0a\x20\x20}\x20\x0a\x20\x20if\x20(heading\x20>\x202\x20*\x20PI){\x20\x0a\x20\x20\x20\x20heading\x20-=\x202\x20*\x20PI;\x20\x0a\x20\x20}\x20\x0a\x20\x20float\x20headingDegrees\x20=\x20heading\x20*\x20180/PI;\x20\x0a\x20\x20'+_0x28dc66+_0x2d111c(0x330)+_0x1310dc+_0x2d111c(0x6aa);return _0x4c431f;},Blockly['Arduino'][_0x3d686a(0x9ab)]=function(_0x12c9b7){var _0x13be00=_0x3d686a,_0x487c53=this[_0x13be00(0x2b1)](_0x13be00(0x697)),_0x541bd1=Blockly['Arduino']['valueToCode'](_0x12c9b7,_0x13be00(0x1d4),Blockly[_0x13be00(0x2a3)]['ORDER_ATOMIC']);Blockly[_0x13be00(0x2a3)][_0x13be00(0xa2c)]['include_MPU6050_GY']=_0x13be00(0x5ad),Blockly['Arduino'][_0x13be00(0xcee)][_0x13be00(0xcb7)]=_0x13be00(0xcd8);var _0x4e924e=_0x13be00(0x777)+_0x541bd1+'\x20=\x20'+_0x487c53+_0x13be00(0x366);return _0x4e924e;},Blockly[_0x3d686a(0x2a3)]['inout_digital_writeD']=function(_0x378773){var _0x562cde=_0x3d686a,_0x1cc1b0=this[_0x562cde(0x2b1)](_0x562cde(0x697)),_0x71dd79=this[_0x562cde(0x2b1)](_0x562cde(0x49d)),_0x486502=Blockly[_0x562cde(0x2a3)][_0x562cde(0x74d)](_0x378773,'PIN',Blockly['Arduino']['ORDER_ATOMIC']);_0x1cc1b0=='3'&&(_0x71dd79=='1'?_0x71dd79='0':_0x71dd79='1');var _0x2f627f='pinMode('+_0x486502+_0x562cde(0x2cc)+_0x486502+',\x20'+_0x71dd79+_0x562cde(0x62e);return _0x2f627f;},Blockly['Arduino'][_0x3d686a(0x969)]=function(_0x199ff1){var _0x4f4a3c=_0x3d686a,_0x541494=_0x199ff1['getFieldValue'](_0x4f4a3c(0x8fe)),_0x43ced5=Blockly['Arduino'][_0x4f4a3c(0x74d)](_0x199ff1,_0x4f4a3c(0x6a5),Blockly[_0x4f4a3c(0x2a3)]['ORDER_ATOMIC']);Blockly[_0x4f4a3c(0x2a3)]['setups_'][_0x4f4a3c(0xca5)+_0x541494]='pinMode('+_0x541494+',\x20OUTPUT);';var _0x24b3ea=_0x4f4a3c(0xc51)+_0x541494+',\x20'+_0x43ced5+_0x4f4a3c(0x62e);return _0x24b3ea;},Blockly['Arduino'][_0x3d686a(0x694)]=function(_0x458d5b){var _0x5920f7=_0x3d686a,_0x55ec9f=_0x458d5b['getFieldValue'](_0x5920f7(0x6dd)),_0x365074=Blockly['Arduino'][_0x5920f7(0x74d)](_0x458d5b,_0x5920f7(0xab2),Blockly[_0x5920f7(0x2a3)][_0x5920f7(0x7ce)]),_0x2d7377=Blockly[_0x5920f7(0x2a3)]['valueToCode'](_0x458d5b,_0x5920f7(0x2e6),Blockly[_0x5920f7(0x2a3)][_0x5920f7(0x7ce)]),_0x3958d6=Blockly['Arduino']['valueToCode'](_0x458d5b,_0x5920f7(0x51b),Blockly['Arduino'][_0x5920f7(0x7ce)]),_0x39ca1f=_0x458d5b[_0x5920f7(0x2b1)]('RGBCOLOR'),_0x522a44=parseInt(_0x39ca1f[_0x5920f7(0x69d)](0x1,0x3),0x10),_0x5ef7f5=parseInt(_0x39ca1f[_0x5920f7(0x69d)](0x3,0x5),0x10),_0x97617b=parseInt(_0x39ca1f[_0x5920f7(0x69d)](0x5,0x7),0x10);_0x55ec9f=='1'&&(_0x522a44=0xff-_0x522a44,_0x5ef7f5=0xff-_0x5ef7f5,_0x97617b=0xff-_0x97617b);Blockly[_0x5920f7(0x2a3)][_0x5920f7(0xcee)][_0x5920f7(0x38f)+_0x365074]=_0x5920f7(0x7ed)+_0x365074+_0x5920f7(0x817),Blockly[_0x5920f7(0x2a3)][_0x5920f7(0xcee)][_0x5920f7(0x38f)+_0x2d7377]=_0x5920f7(0x7ed)+_0x2d7377+_0x5920f7(0x817),Blockly['Arduino'][_0x5920f7(0xcee)][_0x5920f7(0x38f)+_0x3958d6]=_0x5920f7(0x7ed)+_0x3958d6+',\x20OUTPUT);';var _0x1a986d=_0x5920f7(0x82d)+_0x365074+','+_0x522a44+_0x5920f7(0x4da)+_0x2d7377+','+_0x5ef7f5+_0x5920f7(0x4da)+_0x3958d6+','+_0x97617b+_0x5920f7(0x62e);return _0x1a986d;},Blockly[_0x3d686a(0x2a3)]['actuator_rgbled595']=function(_0x813aca){var _0x4f6b28=_0x3d686a,_0x2a80da=_0x813aca[_0x4f6b28(0x2b1)](_0x4f6b28(0x6dd)),_0x239e1b=Blockly[_0x4f6b28(0x2a3)][_0x4f6b28(0x74d)](_0x813aca,_0x4f6b28(0xab2),Blockly['Arduino'][_0x4f6b28(0x7ce)]),_0x9ecf00=Blockly[_0x4f6b28(0x2a3)][_0x4f6b28(0x74d)](_0x813aca,_0x4f6b28(0x2e6),Blockly['Arduino'][_0x4f6b28(0x7ce)]),_0x13f78f=Blockly[_0x4f6b28(0x2a3)][_0x4f6b28(0x74d)](_0x813aca,_0x4f6b28(0x51b),Blockly[_0x4f6b28(0x2a3)][_0x4f6b28(0x7ce)]),_0x8e5dcd=Blockly[_0x4f6b28(0x2a3)][_0x4f6b28(0x74d)](_0x813aca,_0x4f6b28(0x6a5),Blockly['Arduino'][_0x4f6b28(0x7ce)]),_0x1aa8c6=_0x813aca[_0x4f6b28(0x2b1)](_0x4f6b28(0xb82));Blockly[_0x4f6b28(0x2a3)][_0x4f6b28(0xa2c)][_0x4f6b28(0x60d)]=_0x4f6b28(0x6e0)+_0x239e1b+_0x4f6b28(0x821)+_0x9ecf00+'\x20\x20\x0a\x20\x20\x20#define\x20\x20\x20clockPin\x20'+_0x13f78f+_0x4f6b28(0x809)+_0x2a80da+_0x4f6b28(0x39c);var _0x59dedf=_0x4f6b28(0x42e)+_0x8e5dcd+',\x20'+_0x1aa8c6+_0x4f6b28(0x4d8);return _0x59dedf;},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0x7ec)]=function(_0x969d27){var _0xba12d7=_0x3d686a,_0x4f852a=Blockly[_0xba12d7(0x2a3)][_0xba12d7(0x74d)](_0x969d27,_0xba12d7(0x1d4),Blockly[_0xba12d7(0x2a3)][_0xba12d7(0x7ce)]),_0x57fead=Blockly['Arduino']['valueToCode'](_0x969d27,_0xba12d7(0x1d4),Blockly['Arduino'][_0xba12d7(0x7ce)]),_0x4dd395=Blockly['Arduino'][_0xba12d7(0x74d)](_0x969d27,'PINR',Blockly[_0xba12d7(0x2a3)]['ORDER_ATOMIC']),_0x3cff4c=Blockly[_0xba12d7(0x2a3)][_0xba12d7(0x74d)](this,_0xba12d7(0x42d),Blockly[_0xba12d7(0x2a3)][_0xba12d7(0x7ce)]),_0x16fc9b=Blockly[_0xba12d7(0x2a3)][_0xba12d7(0x74d)](this,'LEDI',Blockly[_0xba12d7(0x2a3)][_0xba12d7(0x7ce)]);Blockly[_0xba12d7(0x2a3)]['definitions_'][_0xba12d7(0x772)]=_0xba12d7(0x468),Blockly[_0xba12d7(0x2a3)]['definitions_'][_0xba12d7(0x964)+_0x4f852a]='Adafruit_NeoPixel\x20pixels_'+_0x4f852a+_0xba12d7(0xc97)+_0x4dd395+',\x20'+_0x57fead+_0xba12d7(0xc99),Blockly[_0xba12d7(0x2a3)][_0xba12d7(0xcee)]['setup_ledRGB_WS2812B'+_0x4f852a]=_0xba12d7(0x444)+_0x4f852a+'.begin();\x0a';var _0x5d35cd=_0x969d27[_0xba12d7(0x2b1)]('RGBCOLOR'),_0x1ea886=parseInt(_0x5d35cd[_0xba12d7(0x69d)](0x1,0x3),0x10),_0x40aa5=parseInt(_0x5d35cd['substring'](0x3,0x5),0x10),_0x3361f3=parseInt(_0x5d35cd[_0xba12d7(0x69d)](0x5,0x7),0x10),_0x22f412=_0xba12d7(0x444)+_0x4f852a+_0xba12d7(0x59f)+_0x16fc9b+_0xba12d7(0x442)+_0x4f852a+'.setPixelColor('+_0x3cff4c+_0xba12d7(0xae0)+_0x4f852a+_0xba12d7(0x831)+_0x1ea886+','+_0x40aa5+','+_0x3361f3+'));\x0a\x20pixels_'+_0x4f852a+'.show();\x0a\x20';return _0x22f412;},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0x6df)]=function(_0x30e123){var _0x45134f=_0x3d686a,_0x251fce=Blockly[_0x45134f(0x2a3)]['valueToCode'](_0x30e123,_0x45134f(0x1d4),Blockly[_0x45134f(0x2a3)]['ORDER_ATOMIC']),_0x4c5809=Blockly[_0x45134f(0x2a3)][_0x45134f(0x74d)](_0x30e123,_0x45134f(0x1d4),Blockly['Arduino']['ORDER_ATOMIC']),_0x22b474=Blockly[_0x45134f(0x2a3)][_0x45134f(0x74d)](_0x30e123,_0x45134f(0xb67),Blockly[_0x45134f(0x2a3)][_0x45134f(0x7ce)]),_0x2ecb34=Blockly[_0x45134f(0x2a3)][_0x45134f(0x74d)](this,_0x45134f(0x42d),Blockly[_0x45134f(0x2a3)][_0x45134f(0x7ce)]),_0x5107ac=Blockly[_0x45134f(0x2a3)][_0x45134f(0x74d)](this,_0x45134f(0x573),Blockly['Arduino'][_0x45134f(0x7ce)]);Blockly[_0x45134f(0x2a3)][_0x45134f(0xa2c)][_0x45134f(0x772)]='\x20#include\x20<Adafruit_NeoPixel.h>\x20\x0a\x20#ifdef\x20__AVR__\x20\x0a\x20\x20#include\x20<avr/power.h>\x20\x20\x0a\x20#endif\x20\x0a\x20',Blockly[_0x45134f(0x2a3)][_0x45134f(0xa2c)][_0x45134f(0x964)+_0x251fce]=_0x45134f(0x3d8)+_0x251fce+_0x45134f(0xc97)+_0x22b474+',\x20'+_0x4c5809+_0x45134f(0xc99),Blockly[_0x45134f(0x2a3)][_0x45134f(0xcee)][_0x45134f(0xc67)+_0x251fce]=_0x45134f(0x444)+_0x251fce+'.begin();\x0a';var _0x18e24b=_0x30e123[_0x45134f(0x2b1)]('RGBCOLOR'),_0xb6d279=parseInt(_0x18e24b[_0x45134f(0x69d)](0x1,0x3),0x10),_0x27c2f8=parseInt(_0x18e24b[_0x45134f(0x69d)](0x3,0x5),0x10),_0x13f136=parseInt(_0x18e24b['substring'](0x5,0x7),0x10),_0x42a34c=_0x45134f(0x444)+_0x251fce+_0x45134f(0x59f)+_0x5107ac+_0x45134f(0x442)+_0x251fce+'.setPixelColor('+_0x2ecb34+_0x45134f(0xae0)+_0x251fce+_0x45134f(0x831)+_0xb6d279+','+_0x13f136+','+_0x27c2f8+'));\x0a\x20pixels_'+_0x251fce+_0x45134f(0xc07);return _0x42a34c;},Blockly['Arduino'][_0x3d686a(0x270)]=function(_0x10a7cd){var _0x4189a4=_0x3d686a,_0x37e92=Blockly[_0x4189a4(0x2a3)][_0x4189a4(0x74d)](_0x10a7cd,_0x4189a4(0x1d4),Blockly['Arduino'][_0x4189a4(0x7ce)]),_0x38ba07=Blockly[_0x4189a4(0x2a3)][_0x4189a4(0x74d)](_0x10a7cd,'PIN',Blockly[_0x4189a4(0x2a3)][_0x4189a4(0x7ce)]),_0x386996=Blockly['Arduino'][_0x4189a4(0x74d)](_0x10a7cd,_0x4189a4(0xb67),Blockly[_0x4189a4(0x2a3)][_0x4189a4(0x7ce)]),_0x284867=Blockly['Arduino'][_0x4189a4(0x74d)](this,_0x4189a4(0x42d),Blockly['Arduino'][_0x4189a4(0x7ce)]),_0x320067=this[_0x4189a4(0x2b1)](_0x4189a4(0xbc3));Blockly['Arduino']['definitions_'][_0x4189a4(0x772)]=_0x4189a4(0xb8d),Blockly['Arduino'][_0x4189a4(0xa2c)][_0x4189a4(0xa5c)+_0x37e92]=_0x4189a4(0x324)+_0x37e92+'('+_0x386996+',\x20'+_0x38ba07+',\x20NEO_GRB\x20+\x20NEO_KHZ800);\x20\x0a\x20\x20'+'\x20void\x20theaterChaseD'+_0x37e92+_0x4189a4(0x83b)+_0x4189a4(0x702)+_0x4189a4(0x4f1)+_0x4189a4(0x9fb)+_0x37e92+_0x4189a4(0x89c)+'\x20\x20\x20\x20\x20\x20for(int\x20c=b;\x20c<strip'+_0x37e92+'.numPixels();\x20c\x20+=\x203)\x20{\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x0a\x20'+_0x4189a4(0x80e)+_0x37e92+_0x4189a4(0x2ea)+'\x20\x20\x20\x20\x20\x20}\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x0a\x20'+_0x4189a4(0x9fb)+_0x37e92+_0x4189a4(0x550)+'\x20\x20\x20\x20\x20\x20delay(wait);\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x0a\x20\x20'+_0x4189a4(0x720)+'\x20\x20\x20}\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x0a\x20'+_0x4189a4(0x1b1)+_0x4189a4(0x370)+_0x37e92+'(uint32_t\x20color,\x20int\x20wait)\x20{\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x0a\x20\x20'+_0x4189a4(0x409)+_0x37e92+_0x4189a4(0x5d9)+_0x4189a4(0x6c4)+_0x37e92+_0x4189a4(0xa0b)+'\x20\x20\x20\x20\x20strip'+_0x37e92+_0x4189a4(0x693)+'\x20\x20\x20\x20\x20delay(wait);\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x0a\x20\x20\x20'+'\x20\x20\x20}\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x0a\x20'+_0x4189a4(0xbe0)+_0x4189a4(0x609)+_0x37e92+'(uint32_t\x20color,\x20int\x20wait)\x20{\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x0a\x20\x20'+_0x4189a4(0x868)+_0x37e92+'.numPixels();\x20i++)\x20{\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x0a\x20\x20\x20\x20'+_0x4189a4(0x6c4)+_0x37e92+_0x4189a4(0xcdf)+_0x4189a4(0x6c4)+_0x37e92+'.show();\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x0a\x20\x20\x20'+'\x20\x20\x20\x20\x20delay(wait);\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x0a\x20\x20\x20\x20'+'\x20\x20\x20}\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x0a\x20\x20'+_0x4189a4(0x1b1)+'\x20void\x20theaterChase'+_0x37e92+_0x4189a4(0x57e)+_0x4189a4(0x55b)+_0x4189a4(0xb7e)+_0x4189a4(0xa6b)+_0x37e92+_0x4189a4(0xbbc)+_0x4189a4(0xcd3)+_0x37e92+_0x4189a4(0x33d)+_0x4189a4(0x4d6)+_0x37e92+_0x4189a4(0x8d5)+_0x4189a4(0xc43)+'\x20\x20\x20\x20\x20\x20\x20strip'+_0x37e92+'.show();\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x0a\x20\x20\x20\x20'+_0x4189a4(0x675)+_0x4189a4(0x5a5)+_0x4189a4(0x19d)+'\x20}\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x0a\x20\x20'+_0x4189a4(0x276)+_0x37e92+'(int\x20wait)\x20{\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x0a\x20\x20'+'\x20\x20\x20for(long\x20firstPixelHue\x20=\x200;\x20firstPixelHue\x20<\x205*65536;\x20firstPixelHue\x20+=\x20256)\x20{\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x0a\x20\x20\x20'+_0x4189a4(0xb9d)+_0x37e92+_0x4189a4(0xcbb)+_0x4189a4(0xa88)+_0x37e92+'.numPixels());\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x0a\x20\x20\x20\x20'+_0x4189a4(0xa6b)+_0x37e92+_0x4189a4(0x7d2)+_0x37e92+_0x4189a4(0x489)+_0x37e92+'.ColorHSV(pixelHue)));\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x0a\x20\x20\x20'+'\x20\x20\x20\x20\x20}\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x0a\x20\x20'+_0x4189a4(0x6c4)+_0x37e92+_0x4189a4(0x550)+_0x4189a4(0x57f)+_0x4189a4(0x95a)+_0x4189a4(0xbe0)+'\x20void\x20theaterChaseRainbow'+_0x37e92+_0x4189a4(0x264)+_0x4189a4(0x34f)+_0x4189a4(0xc82)+_0x4189a4(0xb23)+_0x4189a4(0xa6b)+_0x37e92+'.clear();\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x0a\x20\x20'+_0x4189a4(0xcd3)+_0x37e92+_0x4189a4(0x911)+_0x4189a4(0x32c)+_0x37e92+_0x4189a4(0xb01)+'\x20\x20\x20\x20\x20\x20\x20\x20\x20uint32_t\x20color\x20=\x20strip'+_0x37e92+'.gamma32(strip'+_0x37e92+_0x4189a4(0xc6e)+'\x20\x20\x20\x20\x20\x20\x20\x20\x20strip'+_0x37e92+_0x4189a4(0x9aa)+'\x20\x20\x20\x20\x20\x20\x20}\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x0a\x20\x20\x20\x20'+_0x4189a4(0xa6b)+_0x37e92+_0x4189a4(0x4cd)+_0x4189a4(0x26f)+_0x4189a4(0xc0b)+_0x4189a4(0x5a5)+_0x4189a4(0x20c)+_0x4189a4(0xb77)+_0x4189a4(0x71e),Blockly[_0x4189a4(0x2a3)]['setups_'][_0x4189a4(0x6a4)]='\x20#if\x20defined(__AVR_ATtiny85__)\x20&&\x20(F_CPU\x20==\x2016000000)\x20\x0a\x20\x20\x20clock_prescale_set(clock_div_1);\x20\x0a\x20#endif\x20\x0a\x20',Blockly[_0x4189a4(0x2a3)][_0x4189a4(0xcee)][_0x4189a4(0x6a4)+_0x37e92]=_0x4189a4(0xaaa)+_0x37e92+_0x4189a4(0x578)+_0x37e92+_0x4189a4(0x9d7)+_0x37e92+_0x4189a4(0xc87);var _0x236fae=_0x10a7cd[_0x4189a4(0x2b1)]('RGBCOLOR'),_0x49af2e=parseInt(_0x236fae['substring'](0x1,0x3),0x10),_0x5ca2ea=parseInt(_0x236fae[_0x4189a4(0x69d)](0x3,0x5),0x10),_0x5272dc=parseInt(_0x236fae['substring'](0x5,0x7),0x10);if(_0x320067==0x0)var _0x1dd7f4=_0x4189a4(0x83d)+_0x37e92+_0x4189a4(0x38e)+_0x37e92+_0x4189a4(0x831)+_0x49af2e+','+_0x5ca2ea+','+_0x5272dc+'),\x20'+_0x284867+_0x4189a4(0x28f);if(_0x320067==0x1)var _0x1dd7f4='\x20colorWipeD'+_0x37e92+'(strip'+_0x37e92+_0x4189a4(0x831)+_0x49af2e+','+_0x5ca2ea+','+_0x5272dc+_0x4189a4(0xcc1)+_0x284867+_0x4189a4(0x28f);if(_0x320067==0x2)var _0x1dd7f4=_0x4189a4(0x96e)+_0x37e92+_0x4189a4(0x38e)+_0x37e92+_0x4189a4(0x831)+_0x49af2e+','+_0x5ca2ea+','+_0x5272dc+_0x4189a4(0xcc1)+_0x284867+_0x4189a4(0x28f);if(_0x320067==0x3)var _0x1dd7f4='\x20theaterChaseD'+_0x37e92+'(strip'+_0x37e92+_0x4189a4(0x831)+_0x49af2e+','+_0x5ca2ea+','+_0x5272dc+_0x4189a4(0xcc1)+_0x284867+_0x4189a4(0x28f);if(_0x320067==0x4)var _0x1dd7f4='\x20theaterChaseRainbow'+_0x37e92+'('+_0x284867+_0x4189a4(0x4d8);if(_0x320067==0x5)var _0x1dd7f4=_0x4189a4(0x9fe)+_0x37e92+'('+_0x284867+_0x4189a4(0x28f);if(_0x320067==0x6)var _0x1dd7f4='\x20Pixcil\x20=\x200;\x20\x0a\x20NeoPix\x20=\x20'+_0x386996+_0x4189a4(0x86e)+_0x37e92+'.setBrightness(255);\x20\x0a\x20\x20\x20\x20\x20strip'+_0x37e92+_0x4189a4(0xb25)+_0x37e92+_0x4189a4(0x831)+_0x49af2e+','+_0x5ca2ea+','+_0x5272dc+_0x4189a4(0x6c9)+_0x37e92+'.show();\x20\x0a\x20\x20\x20\x20\x20\x20}\x20\x0a\x20\x20\x20Pixcil\x20=\x200;\x20\x0a\x20\x20\x20delay('+_0x284867+_0x4189a4(0x4d8);if(_0x320067==0x7)var _0x1dd7f4=_0x4189a4(0x66b)+_0x386996+_0x4189a4(0x61c)+_0x37e92+_0x4189a4(0x215)+_0x37e92+_0x4189a4(0xb25)+_0x37e92+_0x4189a4(0x831)+_0x49af2e+','+_0x5ca2ea+','+_0x5272dc+_0x4189a4(0xa99)+_0x37e92+_0x4189a4(0x191)+_0x284867+_0x4189a4(0x1e6)+_0x37e92+_0x4189a4(0x215)+_0x37e92+_0x4189a4(0xb25)+_0x37e92+_0x4189a4(0x995)+_0x37e92+_0x4189a4(0x221);if(_0x320067==0x8)var _0x1dd7f4='\x20Pixcil\x20=\x200;\x20\x0a\x20NeoPix\x20=\x20'+_0x386996+_0x4189a4(0x209)+_0x37e92+_0x4189a4(0x215)+_0x37e92+'.setPixelColor(Pixcil-1,\x20strip'+_0x37e92+_0x4189a4(0x831)+_0x49af2e+','+_0x5ca2ea+','+_0x5272dc+_0x4189a4(0xa99)+_0x37e92+_0x4189a4(0x733)+_0x284867+_0x4189a4(0x1e6)+_0x37e92+_0x4189a4(0x215)+_0x37e92+_0x4189a4(0xb25)+_0x37e92+_0x4189a4(0x995)+_0x37e92+_0x4189a4(0xa1b);if(_0x320067==0x9)var _0x1dd7f4='\x20Pixcil\x20=\x200;\x20\x0a\x20NeoPix\x20=\x20'+_0x386996+_0x4189a4(0x86e)+_0x37e92+'.setBrightness(255);\x20\x0a\x20\x20\x20\x20\x20strip'+_0x37e92+_0x4189a4(0xb25)+_0x37e92+_0x4189a4(0x26d)+_0x37e92+_0x4189a4(0xbeb)+_0x284867+_0x4189a4(0x692);if(_0x320067==0xa)var _0x1dd7f4=_0x4189a4(0x66b)+_0x386996+';\x20\x0a\x20\x20Pixcil\x20=\x20NeoPix\x20+\x201;\x20\x0a\x20\x20\x20for\x20(int\x20count\x20=\x200;\x20count\x20<\x20NeoPix;\x20count++)\x20{\x20\x0a\x20\x20\x20\x20for\x20(int\x20count\x20=\x200;\x20count\x20<\x20NeoPix;\x20count++)\x20{\x20\x0a\x20\x20\x20\x20\x20\x20\x20Pixcil\x20=\x20Pixcil\x20-\x201;\x20\x0a\x20\x20\x20\x20\x20\x20\x20strip'+_0x37e92+_0x4189a4(0xa7d)+_0x37e92+_0x4189a4(0xb25)+_0x37e92+_0x4189a4(0x831)+_0x49af2e+','+_0x5ca2ea+','+_0x5272dc+_0x4189a4(0x2ec)+_0x37e92+'.show();\x20\x0a\x20\x20\x20\x20\x20\x20\x20delay('+_0x284867+_0x4189a4(0x284)+_0x37e92+_0x4189a4(0x825)+_0x37e92+_0x4189a4(0xb25)+_0x37e92+_0x4189a4(0x580)+_0x37e92+'.show();\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20}\x20\x0a\x20\x20\x20\x20\x20strip'+_0x37e92+_0x4189a4(0x215)+_0x37e92+'.setPixelColor(Pixcil-1,\x20strip'+_0x37e92+_0x4189a4(0x831)+_0x49af2e+','+_0x5ca2ea+','+_0x5272dc+'));\x20\x0a\x20\x20\x20\x20\x20\x20strip'+_0x37e92+_0x4189a4(0x1ee);if(_0x320067==0xb)var _0x1dd7f4=_0x4189a4(0x66b)+_0x386996+_0x4189a4(0x57c)+_0x386996+_0x4189a4(0xa22)+_0x37e92+_0x4189a4(0x825)+_0x37e92+_0x4189a4(0xb25)+_0x37e92+_0x4189a4(0x831)+_0x49af2e+','+_0x5ca2ea+','+_0x5272dc+'));\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20strip'+_0x37e92+'.show();\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20delay('+_0x284867+_0x4189a4(0x435)+_0x37e92+_0x4189a4(0xa7d)+_0x37e92+_0x4189a4(0xb25)+_0x37e92+_0x4189a4(0xa17)+_0x37e92+_0x4189a4(0x9a6)+_0x37e92+_0x4189a4(0x215)+_0x37e92+_0x4189a4(0xb25)+_0x37e92+_0x4189a4(0x831)+_0x49af2e+','+_0x5ca2ea+','+_0x5272dc+_0x4189a4(0xa99)+_0x37e92+'.show();\x20\x0a\x20\x20\x20\x20\x20\x20Pixcil\x20=\x200;\x20\x0a\x20\x20\x20\x20\x20NeoPix\x20=\x20NeoPix\x20-\x201;\x20\x0a\x20\x20\x20}\x20\x0a\x20\x20\x20Pixcil\x20=\x200;\x20\x0a\x20\x20\x20';if(_0x320067==0xc)var _0x1dd7f4=_0x4189a4(0x66b)+_0x386996+_0x4189a4(0x515)+_0x37e92+_0x4189a4(0x277)+_0x37e92+_0x4189a4(0xb25)+_0x37e92+_0x4189a4(0x831)+_0x49af2e+','+_0x5ca2ea+','+_0x5272dc+'));\x20\x0a\x20\x20\x20\x20\x20strip'+_0x37e92+_0x4189a4(0x20f)+_0x284867+_0x4189a4(0x4a8);if(_0x320067==0xd)var _0x1dd7f4=_0x4189a4(0x66b)+_0x386996+_0x4189a4(0x8c7)+_0x37e92+_0x4189a4(0x277)+_0x37e92+_0x4189a4(0xb25)+_0x37e92+_0x4189a4(0x831)+_0x49af2e+','+_0x5ca2ea+','+_0x5272dc+'));\x20\x0a\x20\x20\x20\x20\x20strip'+_0x37e92+_0x4189a4(0x191)+_0x284867+_0x4189a4(0x32d);return _0x1dd7f4;},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0x761)]=function(_0x5798be){var _0x520de4=_0x3d686a,_0x47f8a5=Blockly['Arduino']['valueToCode'](_0x5798be,_0x520de4(0x1d4),Blockly[_0x520de4(0x2a3)][_0x520de4(0x7ce)]),_0x1ccce7=Blockly[_0x520de4(0x2a3)][_0x520de4(0x74d)](_0x5798be,'PIN',Blockly['Arduino'][_0x520de4(0x7ce)]),_0x12f446=Blockly['Arduino'][_0x520de4(0x74d)](_0x5798be,_0x520de4(0xb67),Blockly[_0x520de4(0x2a3)][_0x520de4(0x7ce)]),_0x6c305d=Blockly['Arduino']['valueToCode'](this,_0x520de4(0x42d),Blockly[_0x520de4(0x2a3)][_0x520de4(0x7ce)]),_0x29b845=this[_0x520de4(0x2b1)](_0x520de4(0xbc3));Blockly[_0x520de4(0x2a3)][_0x520de4(0xa2c)][_0x520de4(0x772)]='\x20#include\x20<Adafruit_NeoPixel.h>\x20\x0a\x20#ifdef\x20__AVR__\x20\x0a\x20\x20#include\x20<avr/power.h>\x20\x20\x0a\x20#endif\x20\x0a\x20long\x20Pixcil\x20=\x200;\x20\x0a\x20long\x20NeoPix\x20=\x200;\x20\x0a',Blockly[_0x520de4(0x2a3)][_0x520de4(0xa2c)][_0x520de4(0xa5c)+_0x47f8a5]=_0x520de4(0x324)+_0x47f8a5+'('+_0x12f446+',\x20'+_0x1ccce7+_0x520de4(0x73b)+'\x20void\x20theaterChaseD'+_0x47f8a5+'(uint32_t\x20color,\x20int\x20wait)\x20{\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x0a\x20'+'\x20\x20for(int\x20a=10;\x20a>0;\x20a--)\x20{\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x0a\x20'+_0x520de4(0x4f1)+'\x20\x20\x20\x20\x20\x20strip'+_0x47f8a5+_0x520de4(0x89c)+_0x520de4(0x9c4)+_0x47f8a5+_0x520de4(0xc3e)+'\x20\x20\x20\x20\x20\x20\x20\x20strip'+_0x47f8a5+_0x520de4(0x2ea)+_0x520de4(0xb38)+_0x520de4(0x9fb)+_0x47f8a5+_0x520de4(0x550)+_0x520de4(0x705)+_0x520de4(0x720)+_0x520de4(0x6ba)+'\x20}\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x0a\x20'+_0x520de4(0x370)+_0x47f8a5+_0x520de4(0x310)+_0x520de4(0x409)+_0x47f8a5+_0x520de4(0x5d9)+'\x20\x20\x20\x20\x20strip'+_0x47f8a5+_0x520de4(0xa0b)+_0x520de4(0x6c4)+_0x47f8a5+_0x520de4(0x693)+_0x520de4(0x737)+'\x20\x20\x20}\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x0a\x20'+_0x520de4(0xbe0)+_0x520de4(0x609)+_0x47f8a5+'(uint32_t\x20color,\x20int\x20wait)\x20{\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x0a\x20\x20'+'\x20\x20\x20for(int\x20i=0;\x20i<strip'+_0x47f8a5+'.numPixels();\x20i++)\x20{\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x0a\x20\x20\x20\x20'+_0x520de4(0x6c4)+_0x47f8a5+_0x520de4(0xcdf)+_0x520de4(0x6c4)+_0x47f8a5+_0x520de4(0x74b)+_0x520de4(0x2bc)+_0x520de4(0x19d)+_0x520de4(0x1b1)+'\x20void\x20theaterChase'+_0x47f8a5+'(uint32_t\x20color,\x20int\x20wait)\x20{\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x0a\x20\x20\x20'+'\x20\x20\x20for(int\x20a=0;\x20a<10;\x20a++)\x20{\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x0a\x20\x20\x20\x20'+'\x20\x20\x20\x20\x20for(int\x20b=0;\x20b<3;\x20b++)\x20{\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x0a\x20\x20\x20\x20'+_0x520de4(0xa6b)+_0x47f8a5+_0x520de4(0xbbc)+'\x20\x20\x20\x20\x20\x20\x20for(int\x20c=b;\x20c<strip'+_0x47f8a5+_0x520de4(0x33d)+'\x20\x20\x20\x20\x20\x20\x20\x20\x20strip'+_0x47f8a5+'.setPixelColor(c,\x20color);\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x0a\x20\x20\x20\x20'+_0x520de4(0xc43)+_0x520de4(0xa6b)+_0x47f8a5+_0x520de4(0xb27)+_0x520de4(0x675)+_0x520de4(0x5a5)+'\x20\x20\x20}\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x0a\x20\x20'+_0x520de4(0xbe0)+_0x520de4(0x276)+_0x47f8a5+_0x520de4(0x44b)+_0x520de4(0x360)+'\x20\x20\x20\x20\x20for(int\x20i=0;\x20i<strip'+_0x47f8a5+_0x520de4(0xcbb)+'\x20\x20\x20\x20\x20\x20\x20int\x20pixelHue\x20=\x20firstPixelHue\x20+\x20(i\x20*\x2065536L\x20/\x20strip'+_0x47f8a5+_0x520de4(0xc91)+_0x520de4(0xa6b)+_0x47f8a5+_0x520de4(0x7d2)+_0x47f8a5+_0x520de4(0x489)+_0x47f8a5+_0x520de4(0xaa4)+'\x20\x20\x20\x20\x20}\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x0a\x20\x20'+_0x520de4(0x6c4)+_0x47f8a5+_0x520de4(0x550)+_0x520de4(0x57f)+_0x520de4(0x95a)+_0x520de4(0xbe0)+'\x20void\x20theaterChaseRainbow'+_0x47f8a5+_0x520de4(0x264)+_0x520de4(0x34f)+_0x520de4(0xc82)+_0x520de4(0xb23)+_0x520de4(0xa6b)+_0x47f8a5+_0x520de4(0xacf)+_0x520de4(0xcd3)+_0x47f8a5+_0x520de4(0x911)+'\x20\x20\x20\x20\x20\x20\x20\x20\x20int\x20\x20\x20\x20\x20\x20hue\x20\x20\x20=\x20firstPixelHue\x20+\x20c\x20*\x2065536L\x20/\x20strip'+_0x47f8a5+_0x520de4(0xb01)+'\x20\x20\x20\x20\x20\x20\x20\x20\x20uint32_t\x20color\x20=\x20strip'+_0x47f8a5+_0x520de4(0x489)+_0x47f8a5+'.ColorHSV(hue));\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x0a\x20\x20\x20\x20\x20\x20'+_0x520de4(0x4d6)+_0x47f8a5+_0x520de4(0x9aa)+_0x520de4(0xa47)+'\x20\x20\x20\x20\x20\x20\x20strip'+_0x47f8a5+_0x520de4(0x4cd)+_0x520de4(0x26f)+_0x520de4(0xc0b)+_0x520de4(0x5a5)+_0x520de4(0x20c)+_0x520de4(0xb77)+_0x520de4(0x71e),Blockly[_0x520de4(0x2a3)][_0x520de4(0xcee)][_0x520de4(0x6a4)]=_0x520de4(0x864),Blockly['Arduino'][_0x520de4(0xcee)][_0x520de4(0x6a4)+_0x47f8a5]=_0x520de4(0xaaa)+_0x47f8a5+_0x520de4(0x578)+_0x47f8a5+_0x520de4(0x9d7)+_0x47f8a5+_0x520de4(0xc87);var _0x3abbd4=_0x5798be[_0x520de4(0x2b1)]('RGBCOLOR'),_0x50acae=parseInt(_0x3abbd4[_0x520de4(0x69d)](0x1,0x3),0x10),_0x539b17=parseInt(_0x3abbd4[_0x520de4(0x69d)](0x3,0x5),0x10),_0x4be879=parseInt(_0x3abbd4['substring'](0x5,0x7),0x10);if(_0x29b845==0x0)var _0x480fde=_0x520de4(0x83d)+_0x47f8a5+'(strip'+_0x47f8a5+_0x520de4(0x831)+_0x50acae+','+_0x4be879+','+_0x539b17+'),\x20'+_0x6c305d+_0x520de4(0x28f);if(_0x29b845==0x1)var _0x480fde='\x20colorWipeD'+_0x47f8a5+_0x520de4(0x38e)+_0x47f8a5+_0x520de4(0x831)+_0x50acae+','+_0x4be879+','+_0x539b17+'),\x20'+_0x6c305d+_0x520de4(0x28f);if(_0x29b845==0x2)var _0x480fde=_0x520de4(0x96e)+_0x47f8a5+_0x520de4(0x38e)+_0x47f8a5+_0x520de4(0x831)+_0x50acae+','+_0x4be879+','+_0x539b17+_0x520de4(0xcc1)+_0x6c305d+_0x520de4(0x28f);if(_0x29b845==0x3)var _0x480fde='\x20theaterChaseD'+_0x47f8a5+'(strip'+_0x47f8a5+_0x520de4(0x831)+_0x50acae+','+_0x4be879+','+_0x539b17+'),\x20'+_0x6c305d+_0x520de4(0x28f);if(_0x29b845==0x4)var _0x480fde=_0x520de4(0xbba)+_0x47f8a5+'('+_0x6c305d+');\x20\x0a\x20';if(_0x29b845==0x5)var _0x480fde='rainbow'+_0x47f8a5+'('+_0x6c305d+_0x520de4(0x28f);if(_0x29b845==0x6)var _0x480fde=_0x520de4(0x66b)+_0x12f446+_0x520de4(0x86e)+_0x47f8a5+_0x520de4(0x277)+_0x47f8a5+'.setPixelColor(Pixcil-1,\x20strip'+_0x47f8a5+_0x520de4(0x831)+_0x50acae+','+_0x4be879+','+_0x539b17+_0x520de4(0x6c9)+_0x47f8a5+_0x520de4(0x8c3)+_0x6c305d+');\x20\x0a\x20';if(_0x29b845==0x7)var _0x480fde=_0x520de4(0x66b)+_0x12f446+_0x520de4(0x61c)+_0x47f8a5+_0x520de4(0x215)+_0x47f8a5+_0x520de4(0xb25)+_0x47f8a5+'.Color('+_0x50acae+','+_0x4be879+','+_0x539b17+_0x520de4(0xa99)+_0x47f8a5+'.show();\x20\x0a\x20\x20\x20\x20\x20delay('+_0x6c305d+_0x520de4(0x1e6)+_0x47f8a5+_0x520de4(0x215)+_0x47f8a5+_0x520de4(0xb25)+_0x47f8a5+_0x520de4(0x995)+_0x47f8a5+_0x520de4(0x221);if(_0x29b845==0x8)var _0x480fde='\x20Pixcil\x20=\x200;\x20\x0a\x20NeoPix\x20=\x20'+_0x12f446+_0x520de4(0x209)+_0x47f8a5+'.setBrightness(255);\x20\x0a\x20\x20\x20\x20\x20\x20strip'+_0x47f8a5+_0x520de4(0xb25)+_0x47f8a5+_0x520de4(0x831)+_0x50acae+','+_0x4be879+','+_0x539b17+'));\x20\x0a\x20\x20\x20\x20\x20strip'+_0x47f8a5+_0x520de4(0x733)+_0x6c305d+_0x520de4(0x1e6)+_0x47f8a5+'.setBrightness(255);\x20\x0a\x20\x20\x20\x20\x20\x20strip'+_0x47f8a5+_0x520de4(0xb25)+_0x47f8a5+_0x520de4(0x995)+_0x47f8a5+_0x520de4(0xa1b);if(_0x29b845==0x9)var _0x480fde=_0x520de4(0x66b)+_0x12f446+_0x520de4(0x86e)+_0x47f8a5+'.setBrightness(255);\x20\x0a\x20\x20\x20\x20\x20strip'+_0x47f8a5+_0x520de4(0xb25)+_0x47f8a5+'.Color(0,0,0));\x20\x0a\x20\x20\x20\x20strip'+_0x47f8a5+_0x520de4(0xbeb)+_0x6c305d+_0x520de4(0x692);if(_0x29b845==0xa)var _0x480fde='\x20Pixcil\x20=\x200;\x20\x0a\x20NeoPix\x20=\x20'+_0x12f446+_0x520de4(0x5d1)+_0x47f8a5+'.setBrightness(255);\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20strip'+_0x47f8a5+_0x520de4(0xb25)+_0x47f8a5+_0x520de4(0x831)+_0x50acae+','+_0x4be879+','+_0x539b17+'));\x20\x0a\x20\x20\x20\x20\x20\x20\x20strip'+_0x47f8a5+_0x520de4(0x8f4)+_0x6c305d+');\x20\x0a\x20\x20\x20\x20\x20\x20strip'+_0x47f8a5+_0x520de4(0x825)+_0x47f8a5+_0x520de4(0xb25)+_0x47f8a5+_0x520de4(0x580)+_0x47f8a5+_0x520de4(0x65f)+_0x47f8a5+'.setBrightness(255);\x20\x0a\x20\x20\x20\x20\x20\x20strip'+_0x47f8a5+_0x520de4(0xb25)+_0x47f8a5+_0x520de4(0x831)+_0x50acae+','+_0x4be879+','+_0x539b17+'));\x20\x0a\x20\x20\x20\x20\x20\x20strip'+_0x47f8a5+'.show();\x20\x0a\x20\x20\x20\x20\x20\x20Pixcil\x20=\x20NeoPix\x20+\x20(Pixcil\x20+\x201);\x20\x0a\x20\x20\x20}\x20\x0a\x20\x20\x20Pixcil\x20=\x200;\x20\x0a\x20\x20';if(_0x29b845==0xb)var _0x480fde=_0x520de4(0x66b)+_0x12f446+';\x20\x0a\x20\x20\x20\x20\x20for\x20(int\x20count\x20=\x200;\x20count\x20<\x20'+_0x12f446+';\x20count++)\x20{\x20\x0a\x20\x20\x20\x20\x20for\x20(int\x20count\x20=\x200;\x20count\x20<\x20NeoPix;\x20count++)\x20{\x20\x0a\x20\x20\x20\x20\x20\x20strip'+_0x47f8a5+_0x520de4(0x825)+_0x47f8a5+'.setPixelColor(Pixcil-1,\x20strip'+_0x47f8a5+_0x520de4(0x831)+_0x50acae+','+_0x4be879+','+_0x539b17+_0x520de4(0xbc2)+_0x47f8a5+_0x520de4(0x807)+_0x6c305d+_0x520de4(0x435)+_0x47f8a5+_0x520de4(0xa7d)+_0x47f8a5+'.setPixelColor(Pixcil-1,\x20strip'+_0x47f8a5+_0x520de4(0xa17)+_0x47f8a5+_0x520de4(0x9a6)+_0x47f8a5+_0x520de4(0x215)+_0x47f8a5+_0x520de4(0xb25)+_0x47f8a5+_0x520de4(0x831)+_0x50acae+','+_0x4be879+','+_0x539b17+'));\x20\x0a\x20\x20\x20\x20\x20strip'+_0x47f8a5+'.show();\x20\x0a\x20\x20\x20\x20\x20\x20Pixcil\x20=\x200;\x20\x0a\x20\x20\x20\x20\x20NeoPix\x20=\x20NeoPix\x20-\x201;\x20\x0a\x20\x20\x20}\x20\x0a\x20\x20\x20Pixcil\x20=\x200;\x20\x0a\x20\x20\x20';if(_0x29b845==0xc)var _0x480fde='\x20Pixcil\x20=\x200;\x20\x0a\x20NeoPix\x20=\x20'+_0x12f446+';\x20\x0a\x20\x20\x20\x20\x20for\x20(int\x20count\x20=\x200;\x20count\x20<\x20NeoPix;\x20count++)\x20{\x20\x0a\x20\x20\x20\x20\x20Pixcil\x20=\x20Pixcil\x20+\x201;\x20\x0a\x20\x20\x20\x20\x20strip'+_0x47f8a5+'.setBrightness(255);\x20\x0a\x20\x20\x20\x20\x20strip'+_0x47f8a5+_0x520de4(0xb25)+_0x47f8a5+_0x520de4(0x831)+_0x50acae+','+_0x4be879+','+_0x539b17+'));\x20\x0a\x20\x20\x20\x20\x20strip'+_0x47f8a5+'.show();\x20\x0a\x20\x20\x20\x20\x20\x20delay('+_0x6c305d+_0x520de4(0x4a8);if(_0x29b845==0xd)var _0x480fde=_0x520de4(0x66b)+_0x12f446+_0x520de4(0x8c7)+_0x47f8a5+_0x520de4(0x277)+_0x47f8a5+_0x520de4(0xb25)+_0x47f8a5+_0x520de4(0x831)+_0x50acae+','+_0x4be879+','+_0x539b17+_0x520de4(0xa99)+_0x47f8a5+'.show();\x20\x0a\x20\x20\x20\x20\x20delay('+_0x6c305d+_0x520de4(0x32d);return _0x480fde;},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0x5e1)]=function(_0x2608c9){var _0xe6856e=_0x3d686a,_0x3ba519=Blockly[_0xe6856e(0x2a3)][_0xe6856e(0x74d)](_0x2608c9,_0xe6856e(0x1d4),Blockly['Arduino'][_0xe6856e(0x7ce)]),_0x38b6b9=Blockly[_0xe6856e(0x2a3)][_0xe6856e(0x74d)](_0x2608c9,_0xe6856e(0x1d4),Blockly[_0xe6856e(0x2a3)]['ORDER_ATOMIC']),_0x2e77a2=Blockly[_0xe6856e(0x2a3)][_0xe6856e(0x74d)](_0x2608c9,_0xe6856e(0xb67),Blockly[_0xe6856e(0x2a3)][_0xe6856e(0x7ce)]),_0x10fdd6=Blockly['Arduino'][_0xe6856e(0x74d)](this,_0xe6856e(0x42d),Blockly[_0xe6856e(0x2a3)][_0xe6856e(0x7ce)]),_0x41b5d9=_0xe6856e(0x3f2);Blockly['Arduino'][_0xe6856e(0xa2c)][_0xe6856e(0x772)]='\x20#include\x20<Adafruit_NeoPixel.h>\x20\x0a\x20#ifdef\x20__AVR__\x20\x0a\x20\x20#include\x20<avr/power.h>\x20\x20\x0a\x20#endif\x20\x0a\x20',Blockly[_0xe6856e(0x2a3)]['definitions_'][_0xe6856e(0x964)+_0x3ba519]=_0xe6856e(0x3d8)+_0x3ba519+_0xe6856e(0xc97)+_0x2e77a2+',\x20'+_0x38b6b9+_0xe6856e(0xc99),Blockly[_0xe6856e(0x2a3)][_0xe6856e(0xcee)][_0xe6856e(0xc67)+_0x3ba519]='pixels_'+_0x3ba519+_0xe6856e(0xcca);var _0x53e258=Blockly['Arduino'][_0xe6856e(0x74d)](_0x2608c9,'Red',Blockly['Arduino'][_0xe6856e(0x7ce)]),_0x3a4904=Blockly['Arduino'][_0xe6856e(0x74d)](_0x2608c9,_0xe6856e(0x18b),Blockly[_0xe6856e(0x2a3)][_0xe6856e(0x7ce)]),_0x840797=Blockly[_0xe6856e(0x2a3)][_0xe6856e(0x74d)](_0x2608c9,'Blue',Blockly[_0xe6856e(0x2a3)][_0xe6856e(0x7ce)]),_0xb85862=_0xe6856e(0x444)+_0x3ba519+'.setBrightness('+_0x41b5d9+_0xe6856e(0x442)+_0x3ba519+_0xe6856e(0x899)+_0x10fdd6+_0xe6856e(0xae0)+_0x3ba519+_0xe6856e(0x831)+_0x53e258+','+_0x3a4904+','+_0x840797+_0xe6856e(0x1a9)+_0x3ba519+_0xe6856e(0xc07);return _0xb85862;},Blockly[_0x3d686a(0x2a3)]['LedStrip_WS2811B_initRGB']=function(_0x24e229){var _0x3c58ae=_0x3d686a,_0x1b49c3=Blockly[_0x3c58ae(0x2a3)][_0x3c58ae(0x74d)](_0x24e229,_0x3c58ae(0x1d4),Blockly[_0x3c58ae(0x2a3)][_0x3c58ae(0x7ce)]),_0x1d6e1a=Blockly[_0x3c58ae(0x2a3)][_0x3c58ae(0x74d)](_0x24e229,_0x3c58ae(0x1d4),Blockly[_0x3c58ae(0x2a3)]['ORDER_ATOMIC']),_0x5dece8=Blockly[_0x3c58ae(0x2a3)]['valueToCode'](_0x24e229,_0x3c58ae(0xb67),Blockly[_0x3c58ae(0x2a3)][_0x3c58ae(0x7ce)]),_0x2cd4b4=Blockly[_0x3c58ae(0x2a3)][_0x3c58ae(0x74d)](this,'Pixel_number',Blockly[_0x3c58ae(0x2a3)][_0x3c58ae(0x7ce)]),_0x57b2a4='255';Blockly[_0x3c58ae(0x2a3)]['definitions_'][_0x3c58ae(0x772)]=_0x3c58ae(0x468),Blockly[_0x3c58ae(0x2a3)][_0x3c58ae(0xa2c)]['define_ledRGB_WS2812B_'+_0x1b49c3]=_0x3c58ae(0x3d8)+_0x1b49c3+_0x3c58ae(0xc97)+_0x5dece8+',\x20'+_0x1d6e1a+',\x20NEO_GRB\x20+\x20NEO_KHZ800);\x0a',Blockly[_0x3c58ae(0x2a3)][_0x3c58ae(0xcee)]['setup_ledRGB_WS2812B'+_0x1b49c3]='pixels_'+_0x1b49c3+_0x3c58ae(0xcca);var _0x4f6707=Blockly[_0x3c58ae(0x2a3)][_0x3c58ae(0x74d)](_0x24e229,'Red',Blockly['Arduino'][_0x3c58ae(0x7ce)]),_0xe79138=Blockly[_0x3c58ae(0x2a3)][_0x3c58ae(0x74d)](_0x24e229,_0x3c58ae(0x18b),Blockly[_0x3c58ae(0x2a3)][_0x3c58ae(0x7ce)]),_0x4397af=Blockly[_0x3c58ae(0x2a3)][_0x3c58ae(0x74d)](_0x24e229,_0x3c58ae(0xccb),Blockly[_0x3c58ae(0x2a3)][_0x3c58ae(0x7ce)]),_0x5e7bd8=_0x3c58ae(0x444)+_0x1b49c3+_0x3c58ae(0x59f)+_0x57b2a4+_0x3c58ae(0x442)+_0x1b49c3+_0x3c58ae(0x899)+_0x2cd4b4+'-1,\x20pixels_'+_0x1b49c3+_0x3c58ae(0x831)+_0x4f6707+','+_0x4397af+','+_0xe79138+_0x3c58ae(0x1a9)+_0x1b49c3+_0x3c58ae(0xc07);return _0x5e7bd8;},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0xad0)]=function(_0x2e362a){var _0x3d236a=_0x3d686a,_0x52af29=this[_0x3d236a(0x2b1)](_0x3d236a(0xbc3)),_0x2e98d2=Blockly[_0x3d236a(0x2a3)][_0x3d236a(0x74d)](_0x2e362a,_0x3d236a(0x2ac),Blockly['Arduino']['ORDER_ATOMIC']),_0x1ce529=Blockly[_0x3d236a(0x2a3)][_0x3d236a(0x74d)](_0x2e362a,_0x3d236a(0xa9f),Blockly[_0x3d236a(0x2a3)]['ORDER_ATOMIC']),_0x587d39=Blockly[_0x3d236a(0x2a3)][_0x3d236a(0x74d)](_0x2e362a,_0x3d236a(0x9c6),Blockly[_0x3d236a(0x2a3)][_0x3d236a(0x7ce)]),_0x5049b4=Blockly['Arduino'][_0x3d236a(0x74d)](_0x2e362a,_0x3d236a(0xb6a),Blockly[_0x3d236a(0x2a3)][_0x3d236a(0x7ce)]),_0x1a23a7=Blockly[_0x3d236a(0x2a3)][_0x3d236a(0x74d)](_0x2e362a,_0x3d236a(0x67c),Blockly['Arduino'][_0x3d236a(0x7ce)]),_0x5b4c6b=Blockly[_0x3d236a(0x2a3)][_0x3d236a(0x74d)](_0x2e362a,'Writecounter5',Blockly['Arduino'][_0x3d236a(0x7ce)]),_0xa7757b=Blockly[_0x3d236a(0x2a3)][_0x3d236a(0x74d)](_0x2e362a,_0x3d236a(0x536),Blockly['Arduino'][_0x3d236a(0x7ce)]),_0x1fd140=Blockly[_0x3d236a(0x2a3)][_0x3d236a(0x74d)](_0x2e362a,'Writecounter7',Blockly[_0x3d236a(0x2a3)][_0x3d236a(0x7ce)]);Blockly['Arduino'][_0x3d236a(0xa2c)]['include_ds1990_Write']=_0x3d236a(0x9b7)+_0x52af29+_0x3d236a(0x206),Blockly['Arduino'][_0x3d236a(0xcee)][_0x3d236a(0x5e0)]='Serial.begin(9600);\x0a';var _0x30a1d8=_0x3d236a(0xc8c)+_0x2e98d2+';\x20\x0a\x20\x20newID[1]\x20=\x20'+_0x1ce529+_0x3d236a(0x92c)+_0x587d39+';\x20\x0a\x20\x20newID[3]\x20=\x20'+_0x5049b4+_0x3d236a(0x508)+_0x1a23a7+';\x20\x0a\x20\x20newID[5]\x20=\x20'+_0x5b4c6b+_0x3d236a(0x89b)+_0xa7757b+_0x3d236a(0x59b)+_0x1fd140+_0x3d236a(0xb63);return _0x30a1d8;},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0xce3)]=function(_0x4d3b2c){var _0x204961=_0x3d686a,_0x562278=this[_0x204961(0x2b1)](_0x204961(0xbc3)),_0x4f92ac=this[_0x204961(0x2b1)](_0x204961(0x506)),_0x5561ad=Blockly[_0x204961(0x2a3)]['valueToCode'](_0x4d3b2c,_0x204961(0x2ac),Blockly[_0x204961(0x2a3)][_0x204961(0x7ce)]),_0x4e277e=Blockly[_0x204961(0x2a3)][_0x204961(0x74d)](_0x4d3b2c,_0x204961(0xa9f),Blockly['Arduino'][_0x204961(0x7ce)]),_0x2f2902=Blockly[_0x204961(0x2a3)][_0x204961(0x74d)](_0x4d3b2c,_0x204961(0x9c6),Blockly[_0x204961(0x2a3)][_0x204961(0x7ce)]),_0x3d4706=Blockly[_0x204961(0x2a3)][_0x204961(0x74d)](_0x4d3b2c,_0x204961(0xb6a),Blockly[_0x204961(0x2a3)][_0x204961(0x7ce)]),_0x5408d2=Blockly[_0x204961(0x2a3)][_0x204961(0x74d)](_0x4d3b2c,_0x204961(0x67c),Blockly['Arduino']['ORDER_ATOMIC']),_0x196fba=Blockly['Arduino'][_0x204961(0x74d)](_0x4d3b2c,_0x204961(0x895),Blockly[_0x204961(0x2a3)][_0x204961(0x7ce)]),_0x38f18f=Blockly['Arduino'][_0x204961(0x74d)](_0x4d3b2c,'Writecounter6',Blockly['Arduino']['ORDER_ATOMIC']),_0x45b91b=Blockly[_0x204961(0x2a3)]['valueToCode'](_0x4d3b2c,_0x204961(0x99d),Blockly[_0x204961(0x2a3)][_0x204961(0x7ce)]);Blockly[_0x204961(0x2a3)][_0x204961(0xa2c)][_0x204961(0x2be)]='long\x20NaN\x20=\x200;\x20\x0a\x20#include\x20<OneWire.h>\x20\x0a\x20#define\x20pin\x20'+_0x4f92ac+_0x204961(0x206);var _0x120b96=_0x204961(0xbd6)+_0x5561ad+_0x204961(0xc48)+_0x4e277e+_0x204961(0x677)+_0x2f2902+_0x204961(0x5f7)+_0x3d4706+_0x204961(0x24f)+_0x5408d2+_0x204961(0x5d7)+_0x196fba+_0x204961(0xc96)+_0x38f18f+_0x204961(0x3c9)+_0x45b91b+_0x204961(0xc9c);return _0x120b96;},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0xb81)]=function(_0x1c92a1){var _0xfb5b53=_0x3d686a,_0x19f2c3=_0x1c92a1[_0xfb5b53(0x2b1)](_0xfb5b53(0x59e)),_0x4d146d=_0x1c92a1['getFieldValue']('pin_text');Blockly['Arduino'][_0xfb5b53(0x5f5)]['includes_initread_acs712']=_0xfb5b53(0x8e5)+_0x19f2c3+',\x20'+_0x4d146d+_0xfb5b53(0xaa7),Blockly[_0xfb5b53(0x2a3)][_0xfb5b53(0xcee)]['setups_initread_acs712']=_0xfb5b53(0x663);var _0x4a0ad9='sensor.getCurrentDC()';return[_0x4a0ad9,Blockly[_0xfb5b53(0x2a3)]['ORDER_ATOMIC']];},Blockly[_0x3d686a(0x2a3)]['pin_botton_pro']=function(_0x43ac6e){var _0xecfdc3=_0x3d686a,_0x377428=_0x43ac6e[_0xecfdc3(0x2b1)](_0xecfdc3(0xce2)),_0x3082f9=_0x43ac6e['getFieldValue']('bb_dropdown'),_0x1911c6=Blockly[_0xecfdc3(0x2a3)]['statementToCode'](_0x43ac6e,_0xecfdc3(0x9b4)),_0xa769b9=Blockly[_0xecfdc3(0x2a3)][_0xecfdc3(0xcd1)](_0x43ac6e,_0xecfdc3(0xa37));Blockly[_0xecfdc3(0x2a3)]['includes_'][_0xecfdc3(0xbd0)+_0x377428]='\x20int\x20bt'+_0x377428+_0xecfdc3(0x463)+_0x377428+_0xecfdc3(0x66d)+_0x377428+_0xecfdc3(0x7fc),Blockly['Arduino']['setups_'][_0xecfdc3(0xbd0)+_0x377428]=_0xecfdc3(0x1a1)+_0x377428+',\x20INPUT_PULLUP);\x20\x20\x0a';if(_0x3082f9==0x0)var _0x12fbfc=_0xecfdc3(0x8d7)+_0xecfdc3(0xb88)+_0x377428+_0xecfdc3(0x816)+_0x377428+_0xecfdc3(0x5a8)+_0xecfdc3(0x335)+_0x377428+'\x20=\x20bc'+_0x377428+_0xecfdc3(0x5c2)+_0xecfdc3(0xbd8)+_0x377428+_0xecfdc3(0x8b7)+'\x20\x20'+_0x1911c6+_0xecfdc3(0x496)+'\x20\x20\x20}\x20\x0a\x20\x20\x20'+_0xecfdc3(0xc86)+_0x377428+_0xecfdc3(0x596)+'\x20\x20'+_0xa769b9+_0xecfdc3(0x496)+_0xecfdc3(0x432)+'\x20\x20\x20\x20delay(150);\x20\x0a\x20\x20\x20'+'\x20\x20\x20\x20bn'+_0x377428+_0xecfdc3(0x553)+_0xecfdc3(0x1e8)+_0xecfdc3(0xb88)+_0x377428+')\x20==\x201\x20&\x20bn'+_0x377428+_0xecfdc3(0x8b7)+'\x20\x20\x20\x20bn'+_0x377428+'\x20=\x200;\x20\x0a\x20\x20\x20'+_0xecfdc3(0xa1d)+_0xecfdc3(0x37e);else var _0x12fbfc='\x20\x20\x0a\x20\x20\x20'+_0xecfdc3(0xb88)+_0x377428+_0xecfdc3(0x37a)+_0x377428+_0xecfdc3(0x2f9)+_0xecfdc3(0x1ac)+_0x377428+'\x20=\x201;\x20\x0a\x20\x20\x20\x20\x20\x20\x20'+'\x20\x20'+_0x1911c6+_0xecfdc3(0x496)+_0xecfdc3(0xb56)+'\x20if\x20(digitalRead('+_0x377428+_0xecfdc3(0x4cb)+_0x377428+'\x20==\x201)\x20{\x20\x0a\x20\x20\x20\x20\x20\x20\x20'+_0xecfdc3(0x7b3)+_0x377428+_0xecfdc3(0x8a9)+'\x20\x20'+_0xa769b9+_0xecfdc3(0x496)+'\x20}\x20\x0a\x20\x20\x20\x20\x20\x20\x20'+_0xecfdc3(0x928);return _0x12fbfc;},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0xbc5)]=function(_0x3962b8){var _0x23beb5=_0x3d686a,_0x446aae=_0x3962b8[_0x23beb5(0x2b1)](_0x23beb5(0xce2)),_0x43ef4f=_0x3962b8[_0x23beb5(0x2b1)]('bb_dropdown'),_0x2c2290=Blockly[_0x23beb5(0x2a3)][_0x23beb5(0xcd1)](_0x3962b8,'bot_statement'),_0x57c8b6=Blockly['Arduino']['statementToCode'](_0x3962b8,_0x23beb5(0xa37));Blockly[_0x23beb5(0x2a3)][_0x23beb5(0x5f5)][_0x23beb5(0xbd0)+_0x446aae]=_0x23beb5(0xce7)+_0x446aae+'\x20=\x200;\x20\x0a\x20\x20int\x20bn'+_0x446aae+_0x23beb5(0x66d)+_0x446aae+_0x23beb5(0x7fc),Blockly[_0x23beb5(0x2a3)][_0x23beb5(0xcee)][_0x23beb5(0xbd0)+_0x446aae]=_0x23beb5(0x1a1)+_0x446aae+_0x23beb5(0x597);if(_0x43ef4f==0x0)var _0x39120b=_0x23beb5(0x8d7)+_0x23beb5(0xb88)+_0x446aae+_0x23beb5(0x3bf)+_0x446aae+_0x23beb5(0x5a8)+_0x23beb5(0x335)+_0x446aae+_0x23beb5(0x24d)+_0x446aae+_0x23beb5(0x5c2)+_0x23beb5(0xbd8)+_0x446aae+'\x20==\x201)\x20{\x20\x0a\x20\x20\x20'+'\x20\x20'+_0x2c2290+_0x23beb5(0x496)+_0x23beb5(0x5ab)+_0x23beb5(0xc86)+_0x446aae+_0x23beb5(0x596)+'\x20\x20'+_0x57c8b6+_0x23beb5(0x496)+_0x23beb5(0x432)+_0x23beb5(0x63d)+_0x23beb5(0xb2f)+_0x446aae+_0x23beb5(0x553)+_0x23beb5(0x1e8)+_0x23beb5(0xb88)+_0x446aae+_0x23beb5(0x816)+_0x446aae+_0x23beb5(0x8b7)+_0x23beb5(0xb2f)+_0x446aae+'\x20=\x200;\x20\x0a\x20\x20\x20'+'\x20}\x20\x0a\x20\x20\x20'+'\x20\x20\x20\x09\x0a\x09';else var _0x39120b=_0x23beb5(0x8d7)+_0x23beb5(0xb88)+_0x446aae+_0x23beb5(0x4cb)+_0x446aae+'\x20==\x200)\x20{\x20\x0a\x20\x20\x20\x20\x20\x20\x20'+_0x23beb5(0x1ac)+_0x446aae+_0x23beb5(0x537)+'\x20\x20'+_0x2c2290+'\x20\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20'+'\x20}\x20\x0a\x20\x20\x20\x20\x20\x20\x20'+_0x23beb5(0x2c9)+_0x446aae+_0x23beb5(0x37a)+_0x446aae+_0x23beb5(0x53d)+'\x20\x20\x20bt'+_0x446aae+'\x20=\x200;\x20\x0a\x20\x20\x20\x20\x20\x20\x20'+'\x20\x20'+_0x57c8b6+_0x23beb5(0x496)+'\x20}\x20\x0a\x20\x20\x20\x20\x20\x20\x20'+_0x23beb5(0x928);return _0x39120b;},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0x484)]=function(_0x1a375b){var _0x2dc296=_0x3d686a,_0x3496ab=Blockly[_0x2dc296(0x2a3)][_0x2dc296(0x74d)](_0x1a375b,_0x2dc296(0x287),Blockly[_0x2dc296(0x2a3)][_0x2dc296(0x7ce)]),_0x1c45ea=Blockly['Arduino'][_0x2dc296(0x74d)](_0x1a375b,_0x2dc296(0x3e3),Blockly[_0x2dc296(0x2a3)]['ORDER_ATOMIC']),_0x2de82c=Blockly[_0x2dc296(0x2a3)][_0x2dc296(0x74d)](_0x1a375b,_0x2dc296(0x4af),Blockly[_0x2dc296(0x2a3)]['ORDER_ATOMIC']);Blockly['Arduino'][_0x2dc296(0xa2c)][_0x2dc296(0xad6)]='#include\x20<SPI.h>',Blockly[_0x2dc296(0x2a3)][_0x2dc296(0xa2c)][_0x2dc296(0xa6f)]=_0x2dc296(0x5a9),Blockly[_0x2dc296(0x2a3)][_0x2dc296(0xa2c)][_0x2dc296(0xbc4)]=_0x2dc296(0x4f9)+_0x1c45ea+','+_0x3496ab+');\x20\x0a\x20byte\x20cardx[4]=\x20{0x3F,0x01,0x23,0x44};\x20\x0a\x20String\x20cardreaded(byte\x20*buffer,byte\x20bufferSize)\x20\x0a\x20{\x20\x0a\x20String\x20card=\x22\x22;\x20\x0a\x20for\x20(byte\x20i=0;\x20i<bufferSize;\x20i++)\x20\x0a\x20{\x20\x0a\x20card+=String(buffer[i]<0x10\x20?\x20\x22\x200\x22\x20:\x20\x22\x20\x22);\x20\x0a\x20card+=String(buffer[i],HEX);\x20\x0a\x20}\x20\x0a\x20return\x20card;\x20\x0a\x20\x20}\x20\x0a\x20',Blockly[_0x2dc296(0x2a3)][_0x2dc296(0xcee)][_0x2dc296(0x531)]='SPI.begin();\x0a\x20',Blockly[_0x2dc296(0x2a3)][_0x2dc296(0xcee)]['setup_mrfc522']=_0x2dc296(0x7ab);var _0x5c7726=_0x2dc296(0xb91)+_0x2de82c+_0x2dc296(0x90f);return _0x5c7726;},Blockly[_0x3d686a(0x2a3)]['Init_Keypad4x4']=function(_0x161248){var _0x4a8102=_0x3d686a,_0x5235bd=Blockly[_0x4a8102(0x2a3)][_0x4a8102(0x74d)](_0x161248,'PIN_R1',Blockly['Arduino'][_0x4a8102(0x7ce)]),_0x22ebca=Blockly[_0x4a8102(0x2a3)][_0x4a8102(0x74d)](_0x161248,_0x4a8102(0x84a),Blockly[_0x4a8102(0x2a3)]['ORDER_ATOMIC']),_0x45a9ee=Blockly[_0x4a8102(0x2a3)][_0x4a8102(0x74d)](_0x161248,_0x4a8102(0x353),Blockly[_0x4a8102(0x2a3)][_0x4a8102(0x7ce)]),_0x448992=Blockly[_0x4a8102(0x2a3)][_0x4a8102(0x74d)](_0x161248,_0x4a8102(0x73f),Blockly[_0x4a8102(0x2a3)][_0x4a8102(0x7ce)]),_0x1947eb=Blockly[_0x4a8102(0x2a3)][_0x4a8102(0x74d)](_0x161248,_0x4a8102(0x25f),Blockly[_0x4a8102(0x2a3)][_0x4a8102(0x7ce)]),_0x588cd4=Blockly[_0x4a8102(0x2a3)][_0x4a8102(0x74d)](_0x161248,_0x4a8102(0x6a1),Blockly['Arduino'][_0x4a8102(0x7ce)]),_0x32ba47=Blockly[_0x4a8102(0x2a3)][_0x4a8102(0x74d)](_0x161248,_0x4a8102(0xc8d),Blockly[_0x4a8102(0x2a3)][_0x4a8102(0x7ce)]),_0x24bce6=Blockly[_0x4a8102(0x2a3)]['valueToCode'](_0x161248,_0x4a8102(0xb17),Blockly['Arduino'][_0x4a8102(0x7ce)]),_0x28897a=Blockly[_0x4a8102(0x2a3)][_0x4a8102(0x74d)](_0x161248,_0x4a8102(0x1c8),Blockly[_0x4a8102(0x2a3)][_0x4a8102(0x7ce)]);Blockly[_0x4a8102(0x2a3)][_0x4a8102(0xa2c)]['include_keypad']=_0x4a8102(0x60b),Blockly[_0x4a8102(0x2a3)][_0x4a8102(0xa2c)][_0x4a8102(0x940)]='byte\x20Pins_Rows[]={'+_0x448992+','+_0x45a9ee+','+_0x22ebca+','+_0x5235bd+_0x4a8102(0x92a)+_0x4a8102(0xb1b)+_0x24bce6+','+_0x32ba47+','+_0x588cd4+','+_0x1947eb+_0x4a8102(0x92a)+_0x4a8102(0xc21)+_0x4a8102(0x840);var _0x4b6a5f=''+_0x28897a+_0x4a8102(0xc09);return _0x4b6a5f;},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0x3c7)]=function(_0x55c963){var _0x2f3445=_0x3d686a;Blockly[_0x2f3445(0x2a3)][_0x2f3445(0xa2c)][_0x2f3445(0x1ed)]=_0x2f3445(0x632),Blockly[_0x2f3445(0x2a3)]['definitions_'][_0x2f3445(0x1ed)]=_0x2f3445(0xbbf),Blockly[_0x2f3445(0x2a3)]['setups_']['include_Adafruit_Sensor55']='\x20Serial.begin(9600);\x20\x0a\x20\x20while\x20(!Serial);\x20\x20\x0a\x20\x20delay(100);\x20\x0a\x20\x20Serial.println(\x22ArduBlock.ru\x22);\x20\x0a\x20Serial.println(\x22Adafruit\x20Fingerprint\x20sensor\x20enrollment\x22);\x20\x0a\x20\x20finger.begin(57600);\x20\x0a\x20if\x20(finger.verifyPassword())\x20{\x20\x0a\x20\x20\x20\x20Serial.println(\x22Found\x20fingerprint\x20sensor!\x22);\x20\x0a\x20}\x20else\x20{\x20\x0a\x20\x20\x20Serial.println(\x22Did\x20not\x20find\x20fingerprint\x20sensor\x20:(\x22);\x20\x0a\x20\x20\x20while\x20(1)\x20{\x20delay(1);\x20}\x20\x0a\x20}\x20\x0a\x20';var _0x58dbce=_0x2f3445(0x291);return _0x58dbce;},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0x2bb)]=function(_0x5a0da1){var _0x1affbc=_0x3d686a,_0x2c403d=Blockly[_0x1affbc(0x2a3)][_0x1affbc(0x74d)](_0x5a0da1,_0x1affbc(0x1c8),Blockly[_0x1affbc(0x2a3)][_0x1affbc(0x7ce)]);Blockly[_0x1affbc(0x2a3)]['definitions_'][_0x1affbc(0x2a2)]=_0x1affbc(0x632),Blockly[_0x1affbc(0x2a3)]['definitions_']['include_Adafruit_Sensor66']=_0x1affbc(0x632),Blockly[_0x1affbc(0x2a3)][_0x1affbc(0xcee)][_0x1affbc(0x2a2)]='\x20finger.begin(57600);\x20\x0a\x20delay(5);\x20\x0a\x20\x20\x20finger.getTemplateCount();\x20\x0a';var _0x43579e=_0x1affbc(0x6c3)+_0x2c403d+_0x1affbc(0x27a);return _0x43579e;},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0x4ef)]=function(_0x486b64){var _0x4e8764=_0x3d686a,_0x29d86c=Blockly['Arduino'][_0x4e8764(0x74d)](_0x486b64,'PIN_RKOD',Blockly[_0x4e8764(0x2a3)][_0x4e8764(0x7ce)]);Blockly[_0x4e8764(0x2a3)]['definitions_'][_0x4e8764(0x1c7)]=_0x4e8764(0x7d3),Blockly[_0x4e8764(0x2a3)][_0x4e8764(0xcee)]['include_Adafruit_Sensor2']=_0x4e8764(0x2ca);var _0x3798f9='\x20'+_0x29d86c+_0x4e8764(0x1bd);return _0x3798f9;},Blockly['Arduino']['actuator_tonedure']=function(_0x5280c5){var _0x410011=_0x3d686a,_0x14e81e=Blockly[_0x410011(0x2a3)]['valueToCode'](_0x5280c5,_0x410011(0x1d4),Blockly[_0x410011(0x2a3)]['ORDER_ATOMIC']),_0x33563c=Blockly[_0x410011(0x2a3)][_0x410011(0x74d)](this,'NUM',Blockly[_0x410011(0x2a3)][_0x410011(0x7ce)]),_0x7f897f=Blockly[_0x410011(0x2a3)][_0x410011(0x74d)](this,'DUR',Blockly[_0x410011(0x2a3)][_0x410011(0x7ce)]);Blockly['Arduino'][_0x410011(0xcee)][_0x410011(0x38f)+_0x14e81e]=_0x410011(0x7ed)+_0x14e81e+_0x410011(0x817);var _0x5d1ba9=_0x410011(0x98a)+_0x14e81e+','+_0x33563c+','+_0x7f897f+');\x20\x0a\x20delay('+_0x7f897f+_0x410011(0x62e);return _0x5d1ba9;},Blockly['Arduino'][_0x3d686a(0x8f5)]=function(_0xdbc6ff){var _0x36da4c=_0x3d686a,_0x30005a=this[_0x36da4c(0x2b1)](_0x36da4c(0x962)),_0x4cdece=this['getFieldValue'](_0x36da4c(0x3c3)),_0x3f9277;switch(_0x30005a){case'C':switch(_0x4cdece){case'2':_0x3f9277='65';break;case'3':_0x3f9277=_0x36da4c(0x23d);break;case'4':_0x3f9277=_0x36da4c(0x977);break;case'5':_0x3f9277='523';break;case'6':_0x3f9277=_0x36da4c(0x797);break;case'7':_0x3f9277=_0x36da4c(0x2c0);break;case'8':_0x3f9277='4186';break;default:_0x3f9277=_0x36da4c(0x381);break;}break;case'C#':switch(_0x4cdece){case'2':_0x3f9277='69';break;case'3':_0x3f9277=_0x36da4c(0xcd9);break;case'4':_0x3f9277=_0x36da4c(0x4ab);break;case'5':_0x3f9277='554';break;case'6':_0x3f9277=_0x36da4c(0xca8);break;case'7':_0x3f9277=_0x36da4c(0xaf2);break;case'8':_0x3f9277=_0x36da4c(0x921);break;default:_0x3f9277=_0x36da4c(0x921);break;}break;case'D':switch(_0x4cdece){case'2':_0x3f9277='73';break;case'3':_0x3f9277='147';break;case'4':_0x3f9277=_0x36da4c(0x8ee);break;case'5':_0x3f9277=_0x36da4c(0x6ca);break;case'6':_0x3f9277='1175';break;case'7':_0x3f9277='2349';break;case'8':_0x3f9277='4699';break;default:_0x3f9277=_0x36da4c(0x251);break;}break;case'D#':switch(_0x4cdece){case'2':_0x3f9277='78';break;case'3':_0x3f9277=_0x36da4c(0x815);break;case'4':_0x3f9277=_0x36da4c(0xbe4);break;case'5':_0x3f9277=_0x36da4c(0x1ba);break;case'6':_0x3f9277=_0x36da4c(0x985);break;case'7':_0x3f9277=_0x36da4c(0x839);break;case'8':_0x3f9277=_0x36da4c(0x76a);break;default:_0x3f9277=_0x36da4c(0x76a);break;}break;case'E':switch(_0x4cdece){case'2':_0x3f9277='82';break;case'3':_0x3f9277=_0x36da4c(0xaca);break;case'4':_0x3f9277=_0x36da4c(0xa4b);break;case'5':_0x3f9277=_0x36da4c(0x7ad);break;case'6':_0x3f9277=_0x36da4c(0x7dd);break;case'7':_0x3f9277='2637';break;case'8':_0x3f9277=_0x36da4c(0x49f);break;default:_0x3f9277=_0x36da4c(0x49f);break;}break;case'F':switch(_0x4cdece){case'2':_0x3f9277='87';break;case'3':_0x3f9277=_0x36da4c(0xc70);break;case'4':_0x3f9277=_0x36da4c(0x80a);break;case'5':_0x3f9277=_0x36da4c(0x36b);break;case'6':_0x3f9277=_0x36da4c(0x6e5);break;case'7':_0x3f9277=_0x36da4c(0x973);break;case'8':_0x3f9277='5588';break;default:_0x3f9277=_0x36da4c(0xc7c);break;}break;case'F#':switch(_0x4cdece){case'2':_0x3f9277='92';break;case'3':_0x3f9277=_0x36da4c(0xb9c);break;case'4':_0x3f9277=_0x36da4c(0x4df);break;case'5':_0x3f9277=_0x36da4c(0x202);break;case'6':_0x3f9277='1480';break;case'7':_0x3f9277=_0x36da4c(0x2fe);break;case'8':_0x3f9277=_0x36da4c(0xb18);break;default:_0x3f9277=_0x36da4c(0xb18);break;}break;case'G':switch(_0x4cdece){case'2':_0x3f9277='98';break;case'3':_0x3f9277=_0x36da4c(0x2f2);break;case'4':_0x3f9277=_0x36da4c(0x3d4);break;case'5':_0x3f9277=_0x36da4c(0x2dd);break;case'6':_0x3f9277='1568';break;case'7':_0x3f9277=_0x36da4c(0x960);break;case'8':_0x3f9277=_0x36da4c(0xafa);break;default:_0x3f9277=_0x36da4c(0xafa);break;}break;case'G#':switch(_0x4cdece){case'2':_0x3f9277=_0x36da4c(0x393);break;case'3':_0x3f9277='208';break;case'4':_0x3f9277=_0x36da4c(0x31f);break;case'5':_0x3f9277=_0x36da4c(0x92e);break;case'6':_0x3f9277=_0x36da4c(0x1a4);break;case'7':_0x3f9277=_0x36da4c(0x722);break;case'8':_0x3f9277=_0x36da4c(0xaa6);break;default:_0x3f9277=_0x36da4c(0xaa6);break;}break;case'A':switch(_0x4cdece){case'2':_0x3f9277='110';break;case'3':_0x3f9277=_0x36da4c(0x434);break;case'4':_0x3f9277=_0x36da4c(0x557);break;case'5':_0x3f9277=_0x36da4c(0x891);break;case'6':_0x3f9277='1760';break;case'7':_0x3f9277=_0x36da4c(0x413);break;case'8':_0x3f9277=_0x36da4c(0x5b5);break;default:_0x3f9277=_0x36da4c(0x5b5);break;}break;case'A#':switch(_0x4cdece){case'2':_0x3f9277=_0x36da4c(0x975);break;case'3':_0x3f9277=_0x36da4c(0x226);break;case'4':_0x3f9277=_0x36da4c(0x66a);break;case'5':_0x3f9277=_0x36da4c(0x7e0);break;case'6':_0x3f9277='1867';break;case'7':_0x3f9277=_0x36da4c(0x9e8);break;case'8':_0x3f9277=_0x36da4c(0x7de);break;default:_0x3f9277=_0x36da4c(0x7de);break;}break;case'B':switch(_0x4cdece){case'2':_0x3f9277='123';break;case'3':_0x3f9277=_0x36da4c(0x84d);break;case'4':_0x3f9277=_0x36da4c(0x795);break;case'5':_0x3f9277=_0x36da4c(0x2fa);break;case'6':_0x3f9277=_0x36da4c(0x845);break;case'7':_0x3f9277=_0x36da4c(0x7da);break;case'8':_0x3f9277='7902';break;default:_0x3f9277='7902';break;}break;default:_0x3f9277='7040';break;}return[_0x3f9277,Blockly[_0x36da4c(0x2a3)][_0x36da4c(0x7ce)]];},Blockly['Arduino'][_0x3d686a(0x27d)]=function(_0xb730f3){var _0x84fad2=_0x3d686a,_0x31e1d8=Blockly['Arduino'][_0x84fad2(0x74d)](_0xb730f3,_0x84fad2(0x6a5),Blockly[_0x84fad2(0x2a3)][_0x84fad2(0x7ce)]);Blockly['Arduino'][_0x84fad2(0xa2c)]['define_TEA5767_library']=_0x84fad2(0x6f6),Blockly[_0x84fad2(0x2a3)][_0x84fad2(0xa2c)][_0x84fad2(0x3cb)]=_0x84fad2(0x462);var _0x50e96d=_0x84fad2(0x40d)+_0x31e1d8+');\x0a';return _0x50e96d;},Blockly[_0x3d686a(0x2a3)]['RadioTEA5767_init1']=function(_0x435f92){var _0xb0fed3=_0x3d686a,_0x71619=_0xb0fed3(0x87f);return[_0x71619,Blockly[_0xb0fed3(0x2a3)][_0xb0fed3(0x7ce)]];},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0x1e0)]=function(_0x1cc397){var _0x53193d=_0x3d686a,_0x3b5ee6=_0x53193d(0x3b6);return _0x3b5ee6;},Blockly['Arduino']['RadioTEA5767_init3']=function(_0x4f489f){var _0xc748e='radio.turnTheSoundBackOn();\x20\x0a';return _0xc748e;},Blockly['Arduino'][_0x3d686a(0x263)]=function(_0x13f2ef){var _0x3dc4d9=_0x3d686a,_0x3be7cb=Blockly[_0x3dc4d9(0x2a3)]['valueToCode'](_0x13f2ef,_0x3dc4d9(0x224),Blockly[_0x3dc4d9(0x2a3)][_0x3dc4d9(0x7ce)]),_0x2487eb=Blockly[_0x3dc4d9(0x2a3)][_0x3dc4d9(0x74d)](_0x13f2ef,_0x3dc4d9(0x274),Blockly['Arduino']['ORDER_ATOMIC']),_0x3a63ee=Blockly['Arduino'][_0x3dc4d9(0x74d)](_0x13f2ef,_0x3dc4d9(0x67f),Blockly['Arduino'][_0x3dc4d9(0x7ce)]);Blockly['Arduino']['definitions_']['define_dfplayermp3_library']=_0x3dc4d9(0x24a),Blockly[_0x3dc4d9(0x2a3)][_0x3dc4d9(0xcee)][_0x3dc4d9(0xa61)]='Serial.begin\x20(9600);\x20\x0a',Blockly[_0x3dc4d9(0x2a3)][_0x3dc4d9(0xcee)]['setup_dfplayermp3']=_0x3dc4d9(0x9d3);var _0x214770=_0x3dc4d9(0xa1a)+_0x2487eb+_0x3dc4d9(0x1ae)+_0x3be7cb+');\x20\x0a\x20delay('+_0x3a63ee+');\x20\x0a';return _0x214770;},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0x952)]=function(_0x20ac29){var _0x2f8916=_0x3d686a,_0x474b1e=Blockly[_0x2f8916(0x2a3)][_0x2f8916(0x74d)](_0x20ac29,_0x2f8916(0x224),Blockly[_0x2f8916(0x2a3)][_0x2f8916(0x7ce)]);Blockly['Arduino'][_0x2f8916(0xa2c)][_0x2f8916(0xb39)]=_0x2f8916(0x24a),Blockly['Arduino'][_0x2f8916(0xcee)]['setup_serial1_baudios']=_0x2f8916(0xb5f),Blockly['Arduino']['setups_'][_0x2f8916(0x6f2)]=_0x2f8916(0x9d3);var _0x4f1452=_0x2f8916(0x417)+_0x474b1e+_0x2f8916(0x692);return _0x4f1452;},Blockly['Arduino'][_0x3d686a(0x862)]=function(_0x18a062){var _0x4470cb=_0x3d686a,_0x2e2dfc=Blockly[_0x4470cb(0x2a3)]['valueToCode'](_0x18a062,_0x4470cb(0x274),Blockly[_0x4470cb(0x2a3)][_0x4470cb(0x7ce)]);Blockly[_0x4470cb(0x2a3)][_0x4470cb(0xa2c)][_0x4470cb(0xb39)]=_0x4470cb(0x24a),Blockly['Arduino'][_0x4470cb(0xcee)][_0x4470cb(0xa61)]=_0x4470cb(0xb5f),Blockly[_0x4470cb(0x2a3)][_0x4470cb(0xcee)][_0x4470cb(0x6f2)]=_0x4470cb(0x9d3);var _0x39de09=_0x4470cb(0xa1a)+_0x2e2dfc+_0x4470cb(0x4d8);return _0x39de09;},Blockly['Arduino'][_0x3d686a(0x38d)]=function(_0x1b4fd2){var _0x566bc0=_0x3d686a,_0x5357f5=_0x1b4fd2[_0x566bc0(0x2b1)]('dp'),_0xf338b9=''+_0x5357f5+_0x566bc0(0xa49);return _0xf338b9;},Blockly[_0x3d686a(0x2a3)]['lcdm7m_setup']=function(_0x4c1fee){var _0x2d18ed=_0x3d686a,_0x4ea0be=Blockly[_0x2d18ed(0x2a3)][_0x2d18ed(0x74d)](_0x4c1fee,'PINe',Blockly[_0x2d18ed(0x2a3)][_0x2d18ed(0x7ce)]),_0x4e844d=Blockly['Arduino'][_0x2d18ed(0x74d)](_0x4c1fee,_0x2d18ed(0xc63),Blockly['Arduino'][_0x2d18ed(0x7ce)]),_0x234f02=Blockly[_0x2d18ed(0x2a3)][_0x2d18ed(0x74d)](_0x4c1fee,_0x2d18ed(0xaef),Blockly[_0x2d18ed(0x2a3)][_0x2d18ed(0x7ce)]),_0x5183a6=Blockly['Arduino'][_0x2d18ed(0x74d)](_0x4c1fee,_0x2d18ed(0x1f1),Blockly[_0x2d18ed(0x2a3)][_0x2d18ed(0x7ce)]),_0x4d1025=Blockly[_0x2d18ed(0x2a3)][_0x2d18ed(0x74d)](_0x4c1fee,_0x2d18ed(0xaf1),Blockly[_0x2d18ed(0x2a3)]['ORDER_ATOMIC']),_0x38f6d0=Blockly[_0x2d18ed(0x2a3)][_0x2d18ed(0x74d)](_0x4c1fee,_0x2d18ed(0x548),Blockly[_0x2d18ed(0x2a3)][_0x2d18ed(0x7ce)]),_0x20570c=Blockly[_0x2d18ed(0x2a3)][_0x2d18ed(0x74d)](_0x4c1fee,'PINb',Blockly[_0x2d18ed(0x2a3)]['ORDER_ATOMIC']),_0x47efab=Blockly[_0x2d18ed(0x2a3)][_0x2d18ed(0x74d)](_0x4c1fee,_0x2d18ed(0xbff),Blockly[_0x2d18ed(0x2a3)]['ORDER_ATOMIC']),_0x5f3f95=Blockly[_0x2d18ed(0x2a3)]['valueToCode'](_0x4c1fee,_0x2d18ed(0x283),Blockly[_0x2d18ed(0x2a3)][_0x2d18ed(0x7ce)]),_0x27902c=Blockly[_0x2d18ed(0x2a3)][_0x2d18ed(0x74d)](_0x4c1fee,_0x2d18ed(0xa3d),Blockly[_0x2d18ed(0x2a3)][_0x2d18ed(0x7ce)]),_0x129bc5=Blockly[_0x2d18ed(0x2a3)][_0x2d18ed(0x74d)](_0x4c1fee,'PINa',Blockly[_0x2d18ed(0x2a3)][_0x2d18ed(0x7ce)]),_0xb66aca=Blockly[_0x2d18ed(0x2a3)][_0x2d18ed(0x74d)](_0x4c1fee,_0x2d18ed(0x3ce),Blockly[_0x2d18ed(0x2a3)]['ORDER_ATOMIC']);Blockly[_0x2d18ed(0x2a3)][_0x2d18ed(0xa2c)]['define_lcdm7m_setup']=_0x2d18ed(0x2e7),Blockly['Arduino'][_0x2d18ed(0xa2c)][_0x2d18ed(0x210)]=_0x2d18ed(0x8d0)+_0x4ea0be+','+_0x4e844d+','+_0x234f02+','+_0x5183a6+','+_0x4d1025+','+_0x38f6d0+','+_0x20570c+','+_0x47efab+','+_0x5f3f95+','+_0x27902c+','+_0x129bc5+','+_0xb66aca+_0x2d18ed(0x4d8),Blockly[_0x2d18ed(0x2a3)][_0x2d18ed(0xcee)][_0x2d18ed(0xc73)]='Display.begin();\x20\x0a\x20Display.doPrint_lastDot\x20=\x201;\x20\x0a\x20Display.doPrint_firstZero\x20=\x201;\x20\x0a\x20Display.doReport_overRange\x20=\x200;\x20\x0a\x20';var _0x99db9b='';return _0x99db9b;},Blockly['Arduino'][_0x3d686a(0xcb2)]=function(_0x95181f){var _0x5e03dd=_0x3d686a,_0x18b529=Blockly['Arduino'][_0x5e03dd(0x74d)](_0x95181f,_0x5e03dd(0x20a),Blockly[_0x5e03dd(0x2a3)][_0x5e03dd(0x7ce)]),_0x3d8fa5='Display.print('+_0x18b529+_0x5e03dd(0x23c);return _0x3d8fa5;},Blockly['Arduino']['DisplayTM1637_init']=function(_0x3f4a13){var _0x2c8088=_0x3d686a,_0x77cc87=Blockly[_0x2c8088(0x2a3)][_0x2c8088(0x74d)](_0x3f4a13,'PIN_CLK',Blockly[_0x2c8088(0x2a3)][_0x2c8088(0x7ce)]),_0xd3c840=Blockly['Arduino'][_0x2c8088(0x74d)](_0x3f4a13,_0x2c8088(0x62c),Blockly[_0x2c8088(0x2a3)]['ORDER_ATOMIC']);Blockly['Arduino'][_0x2c8088(0xa2c)]['define_TM1637_library']=_0x2c8088(0x789),Blockly[_0x2c8088(0x2a3)][_0x2c8088(0xa2c)][_0x2c8088(0x3ef)]='TM1637\x20tm1637('+_0x77cc87+','+_0xd3c840+_0x2c8088(0x62e),Blockly[_0x2c8088(0x2a3)]['setups_']['define_TM1637_2']=_0x2c8088(0x95e);var _0x130912='\x20';return _0x130912;},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0x958)]=function(_0x5a1d9a){var _0x164f15=_0x3d686a,_0x3065d7=Blockly[_0x164f15(0x2a3)][_0x164f15(0x74d)](_0x5a1d9a,_0x164f15(0x535),Blockly[_0x164f15(0x2a3)][_0x164f15(0x7ce)]),_0x5d4e94=Blockly[_0x164f15(0x2a3)]['valueToCode'](_0x5a1d9a,_0x164f15(0x257),Blockly['Arduino'][_0x164f15(0x7ce)]),_0x5d4e94=_0x5d4e94-'1',_0x50ea02=this[_0x164f15(0x2b1)](_0x164f15(0xb52)),_0x3e8bbb=_0x164f15(0x849)+_0x50ea02+_0x164f15(0x7b9)+_0x5d4e94+','+_0x3065d7+');\x20\x0a';return _0x3e8bbb;},Blockly['Arduino'][_0x3d686a(0x925)]=function(_0x14ccec){var _0x27e1c7=_0x3d686a,_0x18fd8a=Blockly[_0x27e1c7(0x2a3)][_0x27e1c7(0x74d)](_0x14ccec,_0x27e1c7(0x535),Blockly[_0x27e1c7(0x2a3)][_0x27e1c7(0x7ce)]),_0x3b9b68=this[_0x27e1c7(0x2b1)](_0x27e1c7(0xb52)),_0x4d68f1=_0x27e1c7(0x849)+_0x3b9b68+_0x27e1c7(0x7b9)+_0x18fd8a+');\x20\x0a\x20';return _0x4d68f1;},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0xac9)]=function(_0x5cfb74){var _0x549811=_0x3d686a,_0x5a0aa1=Blockly[_0x549811(0x2a3)]['valueToCode'](_0x5cfb74,_0x549811(0x8dc),Blockly[_0x549811(0x2a3)][_0x549811(0x7ce)]),_0x9849ee=Blockly[_0x549811(0x2a3)][_0x549811(0x74d)](_0x5cfb74,_0x549811(0xa63),Blockly['Arduino'][_0x549811(0x7ce)]),_0x54f2a9=Blockly['Arduino'][_0x549811(0x74d)](_0x5cfb74,_0x549811(0x7c0),Blockly[_0x549811(0x2a3)][_0x549811(0x7ce)]);Blockly[_0x549811(0x2a3)][_0x549811(0xa2c)][_0x549811(0x4bb)]='#include\x20<LedControl.h>\x0a',Blockly['Arduino']['definitions_']['init_Ledcontrol_7d']=_0x549811(0xb05)+_0x9849ee+','+_0x5a0aa1+','+_0x54f2a9+_0x549811(0xbbe);var _0x3ef10f='';return _0x3ef10f;},Blockly[_0x3d686a(0x2a3)]['MAX7219_7digit_char']=function(_0x4117bb){var _0x251621=_0x3d686a,_0x65e0a9=Blockly[_0x251621(0x2a3)]['valueToCode'](_0x4117bb,'SSS',Blockly[_0x251621(0x2a3)]['ORDER_ATOMIC']),_0x65e0a9=_0x65e0a9-'1',_0x4860e7=Blockly[_0x251621(0x2a3)][_0x251621(0x74d)](_0x4117bb,_0x251621(0x535),Blockly['Arduino'][_0x251621(0x7ce)]),_0xba389d=this[_0x251621(0x2b1)]('dp'),_0x3b3963='lc7d.setIntensity(0,15);\x20\x0a\x20lc7d.shutdown(0,false);\x20\x0a\x20lc7d.setDigit(0,'+_0x65e0a9+','+_0x4860e7+','+_0xba389d+_0x251621(0x4d8);return _0x3b3963;},Blockly[_0x3d686a(0x2a3)]['MAX7219_7digit_char_bm']=function(_0x22d93d){var _0xa3f39a=_0x3d686a,_0xed955b=Blockly[_0xa3f39a(0x2a3)][_0xa3f39a(0x74d)](_0x22d93d,_0xa3f39a(0x257),Blockly['Arduino'][_0xa3f39a(0x7ce)]),_0x8fab33=this[_0xa3f39a(0x2b1)]('dp');if(_0x8fab33==0x1)var _0x39bed9=_0xa3f39a(0x80b)+_0xed955b+_0xa3f39a(0x78d)+_0xed955b+'\x20/\x201000000\x20-\x20('+_0xed955b+'\x20/\x2010000000)\x20*\x2010),false);\x20\x0a\x20\x20lc7d.setDigit(0,5,('+_0xed955b+_0xa3f39a(0xb3a)+_0xed955b+_0xa3f39a(0x86d)+_0xed955b+_0xa3f39a(0xa4d)+_0xed955b+_0xa3f39a(0x86f)+_0xed955b+_0xa3f39a(0x8f9)+_0xed955b+'\x20/\x2010000)\x20*\x2010),false);\x20\x0a\x20\x20lc7d.setDigit(0,2,('+_0xed955b+'\x20/\x20100\x20-\x20('+_0xed955b+'\x20/\x201000)\x20*\x2010),false);\x20\x0a\x20\x20\x20lc7d.setDigit(0,1,('+_0xed955b+_0xa3f39a(0xbdb)+_0xed955b+'\x20/\x20100)\x20*\x2010),false);\x20\x0a\x20\x20lc7d.setDigit(0,0,('+_0xed955b+_0xa3f39a(0x98c)+_0xed955b+_0xa3f39a(0x738);if(_0x8fab33==0x2)var _0x39bed9=_0xa3f39a(0x480)+_0xed955b+_0xa3f39a(0x82c)+_0xed955b+_0xa3f39a(0xbd7)+_0xed955b+_0xa3f39a(0x643)+_0xed955b+_0xa3f39a(0xbdb)+_0xed955b+_0xa3f39a(0x5cf)+_0xed955b+_0xa3f39a(0x98c)+_0xed955b+_0xa3f39a(0x66c);if(_0x8fab33==0x3)var _0x39bed9=_0xa3f39a(0x9eb)+_0xed955b+_0xa3f39a(0x7c7)+_0xed955b+'\x20/\x20100\x20-\x20('+_0xed955b+'\x20/\x201000)\x20*\x2010),false);\x09\x0a\x20\x20\x20\x20lc7d.setDigit(0,1,('+_0xed955b+_0xa3f39a(0xbdb)+_0xed955b+_0xa3f39a(0x280)+_0xed955b+_0xa3f39a(0x98c)+_0xed955b+_0xa3f39a(0x66c);if(_0x8fab33==0x4)var _0x39bed9='\x20\x20\x20\x20lc7d.setIntensity(0,15);\x20\x20\x0a\x20\x20\x20\x20lc7d.shutdown(0,false);\x20\x20\x0a\x20\x20\x20lc7d.setDigit(0,7,('+_0xed955b+'\x20/\x2010\x20-\x20('+_0xed955b+_0xa3f39a(0xb1e)+_0xed955b+_0xa3f39a(0x98c)+_0xed955b+_0xa3f39a(0x773);if(_0x8fab33==0x5)var _0x39bed9=_0xa3f39a(0xb5b)+_0xed955b+_0xa3f39a(0xbdb)+_0xed955b+_0xa3f39a(0x894)+_0xed955b+'\x20/\x201\x20-\x20('+_0xed955b+_0xa3f39a(0x773);if(_0x8fab33==0x6)var _0x39bed9=_0xa3f39a(0x441)+_0xed955b+_0xa3f39a(0xbdb)+_0xed955b+_0xa3f39a(0x650)+_0xed955b+_0xa3f39a(0x98c)+_0xed955b+'\x20/\x2010)\x20*\x2010),false);\x20\x20\x0a\x20';if(_0x8fab33==0x7)var _0x39bed9=_0xa3f39a(0xc41)+_0xed955b+_0xa3f39a(0xbd7)+_0xed955b+_0xa3f39a(0x5e9)+_0xed955b+_0xa3f39a(0xbdb)+_0xed955b+_0xa3f39a(0xcb0)+_0xed955b+'\x20/\x201\x20-\x20('+_0xed955b+_0xa3f39a(0x90c);if(_0x8fab33==0x8)var _0x39bed9=_0xa3f39a(0x45b)+_0xed955b+_0xa3f39a(0xbd7)+_0xed955b+_0xa3f39a(0x42b)+_0xed955b+_0xa3f39a(0xbdb)+_0xed955b+_0xa3f39a(0xbd3)+_0xed955b+'\x20/\x201\x20-\x20('+_0xed955b+_0xa3f39a(0x90c);if(_0x8fab33==0x9)var _0x39bed9='\x20\x20lc7d.setIntensity(0,15);\x20\x20\x20lc7d.shutdown(0,false);\x20\x20\x20lc7d.setDigit(0,2,('+_0xed955b+_0xa3f39a(0xbd7)+_0xed955b+_0xa3f39a(0xc8f)+_0xed955b+_0xa3f39a(0xbdb)+_0xed955b+_0xa3f39a(0x4cc)+_0xed955b+_0xa3f39a(0x98c)+_0xed955b+'\x20/\x2010)\x20*\x2010),false);\x20\x20\x20\x0a\x20';return _0x39bed9;},Blockly['Arduino']['MAX7219_7digit_char_none']=function(_0x4144da){var _0x2b28fb='lc7d.clearDisplay(0);\x20\x0a\x20';return _0x2b28fb;},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0x519)]=function(_0x3ca140){var _0x40e350=_0x3d686a,_0x2974bf=Blockly[_0x40e350(0x2a3)][_0x40e350(0x74d)](_0x3ca140,_0x40e350(0x8dc),Blockly[_0x40e350(0x2a3)][_0x40e350(0x7ce)]),_0x8b0bb2=Blockly[_0x40e350(0x2a3)][_0x40e350(0x74d)](_0x3ca140,_0x40e350(0xa63),Blockly[_0x40e350(0x2a3)][_0x40e350(0x7ce)]),_0xa17dcd=Blockly[_0x40e350(0x2a3)][_0x40e350(0x74d)](_0x3ca140,'PIN_CS',Blockly[_0x40e350(0x2a3)]['ORDER_ATOMIC']);Blockly['Arduino'][_0x40e350(0xa2c)]['include_LedControl']=_0x40e350(0x617),Blockly[_0x40e350(0x2a3)][_0x40e350(0xa2c)]['init_Ledcontrol_LM']=_0x40e350(0x1a7)+_0x8b0bb2+','+_0x2974bf+','+_0xa17dcd+_0x40e350(0xbbe);var _0x1af1de='';return _0x1af1de;},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0x1b6)]=function(_0x4f38a6){var _0x37fa0d=_0x3d686a,_0x368430=Blockly[_0x37fa0d(0x2a3)][_0x37fa0d(0x74d)](_0x4f38a6,_0x37fa0d(0x64e),Blockly[_0x37fa0d(0x2a3)][_0x37fa0d(0x7ce)]),_0x3bb4cf=Blockly[_0x37fa0d(0x2a3)][_0x37fa0d(0x74d)](_0x4f38a6,_0x37fa0d(0x411),Blockly['Arduino'][_0x37fa0d(0x7ce)]),_0x198f74=this[_0x37fa0d(0x2b1)]('px');if(_0x198f74==0x1)var _0x5f3cea=_0x37fa0d(0x388)+_0x368430+','+_0x3bb4cf+',true);\x20\x0a\x20';if(_0x198f74==0x2)var _0x5f3cea=_0x37fa0d(0x97d)+_0x368430+','+_0x3bb4cf+_0x37fa0d(0xb89);return _0x5f3cea;},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0x806)]=function(_0x1b7b40){var _0x39b529=_0x3d686a,_0x3896d0='lclm.setIntensity(0,15);\x20\x0a\x20lclm.shutdown(0,false);\x20\x0a',_0x5986b4=0x0,_0x17ee96='B',_0x1403a6=0x0;for(var _0x12afb5=0x0;_0x12afb5<0x40;_0x12afb5++){if(this['getFieldValue'](_0x39b529(0x6e8)+_0x12afb5)!='#ffffff')_0x17ee96=_0x17ee96+'1';else _0x17ee96=_0x17ee96+'0';_0x5986b4+=0x1,_0x5986b4==0x8&&(_0x3896d0+=_0x39b529(0xad1)+_0x1403a6+','+_0x17ee96+');',_0x5986b4=0x0,_0x17ee96='B',_0x1403a6=_0x1403a6+0x1);};return _0x3896d0+='\x0a\x20',_0x3896d0;},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0x79f)]=function(_0x3501c4){var _0x389742=_0x3d686a,_0x2da44b=_0x389742(0x53f),_0x2aef1f=0x0,_0x35cee9='B',_0x36a50a=0x0;for(var _0x552b48=0x0;_0x552b48<0x40;_0x552b48++){if(this[_0x389742(0x2b1)]('Pixel'+_0x552b48)!=_0x389742(0xaba))_0x35cee9=_0x35cee9+'1';else _0x35cee9=_0x35cee9+'0';_0x2aef1f+=0x1,_0x2aef1f==0x8&&(_0x2da44b+=_0x389742(0xad1)+_0x36a50a+','+_0x35cee9+');',_0x2aef1f=0x0,_0x35cee9='B',_0x36a50a=_0x36a50a+0x1);};return _0x2da44b+='\x0a\x20',_0x2da44b;},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0x29c)]=function(_0x5b9298){var _0x5a689e=_0x3d686a,_0x3f4bd9=Blockly[_0x5a689e(0x2a3)][_0x5a689e(0x74d)](_0x5b9298,_0x5a689e(0x431),Blockly[_0x5a689e(0x2a3)]['ORDER_ATOMIC']),_0x542eb5=Blockly[_0x5a689e(0x2a3)][_0x5a689e(0x74d)](_0x5b9298,'PIN_E',Blockly[_0x5a689e(0x2a3)][_0x5a689e(0x7ce)]),_0x34705e=Blockly[_0x5a689e(0x2a3)][_0x5a689e(0x74d)](_0x5b9298,_0x5a689e(0x8fb),Blockly[_0x5a689e(0x2a3)][_0x5a689e(0x7ce)]),_0x4211f9=Blockly[_0x5a689e(0x2a3)]['valueToCode'](_0x5b9298,_0x5a689e(0x84c),Blockly[_0x5a689e(0x2a3)][_0x5a689e(0x7ce)]),_0x1a8577=Blockly[_0x5a689e(0x2a3)][_0x5a689e(0x74d)](_0x5b9298,'PIN_DB6',Blockly[_0x5a689e(0x2a3)][_0x5a689e(0x7ce)]),_0x28ab98=Blockly[_0x5a689e(0x2a3)][_0x5a689e(0x74d)](_0x5b9298,_0x5a689e(0x5bb),Blockly[_0x5a689e(0x2a3)][_0x5a689e(0x7ce)]),_0x31689e=Blockly[_0x5a689e(0x2a3)][_0x5a689e(0x74d)](_0x5b9298,_0x5a689e(0x655),Blockly[_0x5a689e(0x2a3)][_0x5a689e(0x7ce)]),_0x44a6fb=Blockly[_0x5a689e(0x2a3)][_0x5a689e(0x74d)](_0x5b9298,_0x5a689e(0xbb6),Blockly[_0x5a689e(0x2a3)][_0x5a689e(0x7ce)]);Blockly['Arduino']['definitions_'][_0x5a689e(0x79a)]=_0x5a689e(0x980),Blockly['Arduino']['definitions_'][_0x5a689e(0x903)]=_0x5a689e(0xabf)+_0x3f4bd9+_0x5a689e(0x4bc)+_0x542eb5+','+_0x34705e+','+_0x4211f9+','+_0x1a8577+','+_0x28ab98+_0x5a689e(0x23c),Blockly['Arduino'][_0x5a689e(0xcee)][_0x5a689e(0xc10)]='lcd.begin('+_0x31689e+','+_0x44a6fb+_0x5a689e(0x23c);var _0x50eeaf='';return _0x50eeaf;},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0x560)]=function(_0x1119fe){var _0x2e5e3d=_0x3d686a,_0x1c9697=Blockly[_0x2e5e3d(0x2a3)][_0x2e5e3d(0x74d)](_0x1119fe,_0x2e5e3d(0x7c9),Blockly['Arduino']['ORDER_ATOMIC']),_0x895678=Blockly[_0x2e5e3d(0x2a3)][_0x2e5e3d(0x74d)](_0x1119fe,_0x2e5e3d(0x253),Blockly['Arduino'][_0x2e5e3d(0x7ce)]),_0xb241cf=Blockly[_0x2e5e3d(0x2a3)]['valueToCode'](_0x1119fe,'texttoprint',Blockly['Arduino'][_0x2e5e3d(0x7ce)]),_0x18b702=_0x2e5e3d(0xa54)+_0x1c9697+',\x20'+_0x895678+');\x20\x0a\x20lcd.print('+_0xb241cf+_0x2e5e3d(0x1df);return _0x18b702;},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0x6e9)]=function(_0x175c31){var _0x21a432=_0x3d686a,_0x1a4375=_0x175c31[_0x21a432(0x2b1)](_0x21a432(0xba2)),_0x3ea59f=Blockly[_0x21a432(0x2a3)][_0x21a432(0x74d)](_0x175c31,_0x21a432(0x978),Blockly[_0x21a432(0x2a3)][_0x21a432(0x7ce)]),_0x192605=Blockly['Arduino'][_0x21a432(0x74d)](_0x175c31,_0x21a432(0xbd4),Blockly['Arduino']['ORDER_ATOMIC']),_0x19c6b3=_0x21a432(0x4c7)+_0x1a4375+_0x21a432(0x302)+_0x1a4375+_0x21a432(0x9c0)+_0x3ea59f+',\x20'+_0x192605+_0x21a432(0x610)+_0x1a4375+_0x21a432(0x4d8);return _0x19c6b3;},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0x98d)]=function(_0x5a2802){var _0x47e0f7=_0x3d686a,_0x5b1401=_0x5a2802[_0x47e0f7(0x2b1)](_0x47e0f7(0x6d0));Blockly[_0x47e0f7(0x2a3)]['definitions_']['define_lcd_2c']='#include\x20<Wire.h>\x20\x0a\x20#include\x20<LCD_1602_RUS.h>\x0a';var _0x229cc7=Blockly['Arduino'][_0x47e0f7(0x74d)](_0x5a2802,_0x47e0f7(0x655),Blockly['Arduino'][_0x47e0f7(0x7ce)]),_0x3b5659=Blockly[_0x47e0f7(0x2a3)][_0x47e0f7(0x74d)](_0x5a2802,'ROWS',Blockly[_0x47e0f7(0x2a3)][_0x47e0f7(0x7ce)]);Blockly[_0x47e0f7(0x2a3)][_0x47e0f7(0xa2c)][_0x47e0f7(0x976)]=_0x47e0f7(0x79b)+_0x5b1401+','+_0x229cc7+','+_0x3b5659+');\x0a',Blockly[_0x47e0f7(0x2a3)][_0x47e0f7(0xcee)][_0x47e0f7(0x710)]=_0x47e0f7(0x6fa);var _0x3d8a59='';return _0x3d8a59;},Blockly['Arduino']['lcdi2c_setcursor']=function(_0x28c3b0){var _0x403754=_0x3d686a,_0x3dd21d=Blockly[_0x403754(0x2a3)][_0x403754(0x74d)](_0x28c3b0,_0x403754(0x7c9),Blockly[_0x403754(0x2a3)]['ORDER_ATOMIC']),_0x476c8c=Blockly[_0x403754(0x2a3)][_0x403754(0x74d)](_0x28c3b0,_0x403754(0x253),Blockly[_0x403754(0x2a3)][_0x403754(0x7ce)]),_0x14c033=Blockly[_0x403754(0x2a3)]['valueToCode'](_0x28c3b0,_0x403754(0x20a),Blockly[_0x403754(0x2a3)][_0x403754(0x7ce)]),_0x28dc59=_0x403754(0xa54)+_0x3dd21d+',\x20'+_0x476c8c+');\x20\x0a\x20lcd.print('+_0x14c033+_0x403754(0x1df);return _0x28dc59;},Blockly['Arduino'][_0x3d686a(0x540)]=function(_0x5eec31){var _0x12e3de=_0x3d686a,_0x38ffe6=_0x5eec31[_0x12e3de(0x2b1)](_0x12e3de(0xba2)),_0x15e111=this[_0x12e3de(0x2b1)](_0x12e3de(0x71c));_0x15e111==_0x12e3de(0xaba)?_0x15e111=0x0:_0x15e111=0x1;var _0x4f439b=this['getFieldValue']('Pix0e1');_0x4f439b==_0x12e3de(0xaba)?_0x4f439b=0x0:_0x4f439b=0x1;var _0x4444c0=this['getFieldValue'](_0x12e3de(0x7a5));_0x4444c0==_0x12e3de(0xaba)?_0x4444c0=0x0:_0x4444c0=0x1;var _0x39dcb3=this[_0x12e3de(0x2b1)](_0x12e3de(0x829));_0x39dcb3==_0x12e3de(0xaba)?_0x39dcb3=0x0:_0x39dcb3=0x1;var _0x2ee8d5=this[_0x12e3de(0x2b1)](_0x12e3de(0xc0d));_0x2ee8d5==_0x12e3de(0xaba)?_0x2ee8d5=0x0:_0x2ee8d5=0x1;var _0x54855c=this[_0x12e3de(0x2b1)]('Pix1e0');_0x54855c==_0x12e3de(0xaba)?_0x54855c=0x0:_0x54855c=0x1;var _0x898c25=this[_0x12e3de(0x2b1)](_0x12e3de(0x2cd));_0x898c25=='FALSE'?_0x898c25=0x0:_0x898c25=0x1;var _0x3d2804=this[_0x12e3de(0x2b1)](_0x12e3de(0x7a8));_0x3d2804==_0x12e3de(0xaba)?_0x3d2804=0x0:_0x3d2804=0x1;var _0xf9bb77=this[_0x12e3de(0x2b1)](_0x12e3de(0x746));_0xf9bb77==_0x12e3de(0xaba)?_0xf9bb77=0x0:_0xf9bb77=0x1;var _0x3a64f7=this[_0x12e3de(0x2b1)](_0x12e3de(0xc13));_0x3a64f7==_0x12e3de(0xaba)?_0x3a64f7=0x0:_0x3a64f7=0x1;var _0x2c17d2=this[_0x12e3de(0x2b1)](_0x12e3de(0x4dc));_0x2c17d2==_0x12e3de(0xaba)?_0x2c17d2=0x0:_0x2c17d2=0x1;var _0x8b8871=this['getFieldValue'](_0x12e3de(0xa8d));_0x8b8871==_0x12e3de(0xaba)?_0x8b8871=0x0:_0x8b8871=0x1;var _0x290e82=this['getFieldValue'](_0x12e3de(0xcb4));_0x290e82==_0x12e3de(0xaba)?_0x290e82=0x0:_0x290e82=0x1;var _0x541d28=this['getFieldValue'](_0x12e3de(0x9b0));_0x541d28==_0x12e3de(0xaba)?_0x541d28=0x0:_0x541d28=0x1;var _0x62b9b6=this[_0x12e3de(0x2b1)](_0x12e3de(0x75b));_0x62b9b6=='FALSE'?_0x62b9b6=0x0:_0x62b9b6=0x1;var _0x1b9a08=this[_0x12e3de(0x2b1)]('Pix3e0');_0x1b9a08==_0x12e3de(0xaba)?_0x1b9a08=0x0:_0x1b9a08=0x1;var _0xbcb2b5=this[_0x12e3de(0x2b1)](_0x12e3de(0x3d3));_0xbcb2b5==_0x12e3de(0xaba)?_0xbcb2b5=0x0:_0xbcb2b5=0x1;var _0x529034=this[_0x12e3de(0x2b1)]('Pix3e2');_0x529034==_0x12e3de(0xaba)?_0x529034=0x0:_0x529034=0x1;var _0x3db573=this[_0x12e3de(0x2b1)](_0x12e3de(0xa04));_0x3db573=='FALSE'?_0x3db573=0x0:_0x3db573=0x1;var _0x26cf42=this['getFieldValue'](_0x12e3de(0x420));_0x26cf42==_0x12e3de(0xaba)?_0x26cf42=0x0:_0x26cf42=0x1;var _0x452077=this['getFieldValue'](_0x12e3de(0x82e));_0x452077==_0x12e3de(0xaba)?_0x452077=0x0:_0x452077=0x1;var _0x4b69d8=this['getFieldValue'](_0x12e3de(0xc39));_0x4b69d8==_0x12e3de(0xaba)?_0x4b69d8=0x0:_0x4b69d8=0x1;var _0x42d9a1=this['getFieldValue'](_0x12e3de(0xada));_0x42d9a1==_0x12e3de(0xaba)?_0x42d9a1=0x0:_0x42d9a1=0x1;var _0x22878d=this[_0x12e3de(0x2b1)](_0x12e3de(0x5c0));_0x22878d==_0x12e3de(0xaba)?_0x22878d=0x0:_0x22878d=0x1;var _0x4bcfdf=this['getFieldValue'](_0x12e3de(0xbab));_0x4bcfdf==_0x12e3de(0xaba)?_0x4bcfdf=0x0:_0x4bcfdf=0x1;var _0x347573=this[_0x12e3de(0x2b1)](_0x12e3de(0x741));_0x347573==_0x12e3de(0xaba)?_0x347573=0x0:_0x347573=0x1;var _0x42f4d4=this[_0x12e3de(0x2b1)]('Pix5e1');_0x42f4d4==_0x12e3de(0xaba)?_0x42f4d4=0x0:_0x42f4d4=0x1;var _0x2a5faf=this[_0x12e3de(0x2b1)](_0x12e3de(0x5b4));_0x2a5faf==_0x12e3de(0xaba)?_0x2a5faf=0x0:_0x2a5faf=0x1;var _0x4a87c4=this[_0x12e3de(0x2b1)](_0x12e3de(0x937));_0x4a87c4==_0x12e3de(0xaba)?_0x4a87c4=0x0:_0x4a87c4=0x1;var _0x31a18e=this[_0x12e3de(0x2b1)](_0x12e3de(0x29e));_0x31a18e==_0x12e3de(0xaba)?_0x31a18e=0x0:_0x31a18e=0x1;var _0x805d4d=this[_0x12e3de(0x2b1)](_0x12e3de(0xa72));_0x805d4d=='FALSE'?_0x805d4d=0x0:_0x805d4d=0x1;var _0x3fea81=this[_0x12e3de(0x2b1)](_0x12e3de(0x579));_0x3fea81==_0x12e3de(0xaba)?_0x3fea81=0x0:_0x3fea81=0x1;var _0x11c1c2=this[_0x12e3de(0x2b1)](_0x12e3de(0x639));_0x11c1c2==_0x12e3de(0xaba)?_0x11c1c2=0x0:_0x11c1c2=0x1;var _0x4d13c2=this[_0x12e3de(0x2b1)]('Pix6e3');_0x4d13c2==_0x12e3de(0xaba)?_0x4d13c2=0x0:_0x4d13c2=0x1;var _0x5aa36c=this[_0x12e3de(0x2b1)](_0x12e3de(0x657));_0x5aa36c==_0x12e3de(0xaba)?_0x5aa36c=0x0:_0x5aa36c=0x1;var _0x5ad354=this[_0x12e3de(0x2b1)](_0x12e3de(0x2d2));_0x5ad354==_0x12e3de(0xaba)?_0x5ad354=0x0:_0x5ad354=0x1;var _0x10f36a=this[_0x12e3de(0x2b1)](_0x12e3de(0x6b0));_0x10f36a==_0x12e3de(0xaba)?_0x10f36a=0x0:_0x10f36a=0x1;var _0x52f53f=this[_0x12e3de(0x2b1)](_0x12e3de(0xaf5));_0x52f53f==_0x12e3de(0xaba)?_0x52f53f=0x0:_0x52f53f=0x1;var _0x12d89f=this[_0x12e3de(0x2b1)](_0x12e3de(0x40b));_0x12d89f==_0x12e3de(0xaba)?_0x12d89f=0x0:_0x12d89f=0x1;var _0x16fc71=this[_0x12e3de(0x2b1)](_0x12e3de(0xa5a));_0x16fc71==_0x12e3de(0xaba)?_0x16fc71=0x0:_0x16fc71=0x1;Blockly[_0x12e3de(0x2a3)][_0x12e3de(0xa2c)][_0x12e3de(0xcd5)+_0x38ffe6]='byte\x20customChar'+_0x38ffe6+_0x12e3de(0x41e)+'\x20B'+_0x15e111+''+_0x4f439b+''+_0x4444c0+''+_0x39dcb3+''+_0x2ee8d5+',\x20\x0a'+'\x20\x20B'+_0x54855c+''+_0x898c25+''+_0x3d2804+''+_0xf9bb77+''+_0x3a64f7+_0x12e3de(0xb58)+_0x12e3de(0x6bc)+_0x2c17d2+''+_0x8b8871+''+_0x290e82+''+_0x541d28+''+_0x62b9b6+_0x12e3de(0xb58)+'\x20\x20B'+_0x1b9a08+''+_0xbcb2b5+''+_0x529034+''+_0x3db573+''+_0x26cf42+_0x12e3de(0xb58)+_0x12e3de(0x6bc)+_0x452077+''+_0x4b69d8+''+_0x42d9a1+''+_0x22878d+''+_0x4bcfdf+_0x12e3de(0xb58)+_0x12e3de(0x6bc)+_0x347573+''+_0x42f4d4+''+_0x2a5faf+''+_0x4a87c4+''+_0x31a18e+',\x20\x0a'+_0x12e3de(0x6bc)+_0x805d4d+''+_0x3fea81+''+_0x11c1c2+''+_0x4d13c2+''+_0x5aa36c+',\x20\x0a'+_0x12e3de(0x6bc)+_0x5ad354+''+_0x10f36a+''+_0x52f53f+''+_0x12d89f+''+_0x16fc71+'\x20\x0a'+_0x12e3de(0x588);var _0x26615c='\x20';return _0x26615c;},Blockly[_0x3d686a(0x2a3)]['lcdi2c_setcursor_draw_led']=function(_0xc09440){var _0x464d62=_0x3d686a,_0x45d197=_0xc09440[_0x464d62(0x2b1)](_0x464d62(0xba2)),_0x118155=_0xc09440[_0x464d62(0x2b1)](_0x464d62(0xcd7)),_0x1b4ad3=this[_0x464d62(0x2b1)](_0x464d62(0x71c));_0x1b4ad3=='FALSE'?_0x1b4ad3=0x0:_0x1b4ad3=0x1;var _0xb205fd=this[_0x464d62(0x2b1)]('Pix0e1');_0xb205fd==_0x464d62(0xaba)?_0xb205fd=0x0:_0xb205fd=0x1;var _0x1a5552=this[_0x464d62(0x2b1)](_0x464d62(0x7a5));_0x1a5552==_0x464d62(0xaba)?_0x1a5552=0x0:_0x1a5552=0x1;var _0x50f772=this['getFieldValue'](_0x464d62(0x829));_0x50f772==_0x464d62(0xaba)?_0x50f772=0x0:_0x50f772=0x1;var _0x26c6e7=this[_0x464d62(0x2b1)]('Pix0e4');_0x26c6e7==_0x464d62(0xaba)?_0x26c6e7=0x0:_0x26c6e7=0x1;var _0x305348=this['getFieldValue'](_0x464d62(0x23e));_0x305348=='FALSE'?_0x305348=0x0:_0x305348=0x1;var _0x2af0c3=this[_0x464d62(0x2b1)](_0x464d62(0x2cd));_0x2af0c3==_0x464d62(0xaba)?_0x2af0c3=0x0:_0x2af0c3=0x1;var _0x4ef922=this[_0x464d62(0x2b1)](_0x464d62(0x7a8));_0x4ef922=='FALSE'?_0x4ef922=0x0:_0x4ef922=0x1;var _0x566247=this[_0x464d62(0x2b1)](_0x464d62(0x746));_0x566247==_0x464d62(0xaba)?_0x566247=0x0:_0x566247=0x1;var _0x44c99e=this['getFieldValue'](_0x464d62(0xc13));_0x44c99e=='FALSE'?_0x44c99e=0x0:_0x44c99e=0x1;var _0x532009=this[_0x464d62(0x2b1)](_0x464d62(0x4dc));_0x532009==_0x464d62(0xaba)?_0x532009=0x0:_0x532009=0x1;var _0x29a175=this[_0x464d62(0x2b1)](_0x464d62(0xa8d));_0x29a175==_0x464d62(0xaba)?_0x29a175=0x0:_0x29a175=0x1;var _0x4068f5=this[_0x464d62(0x2b1)](_0x464d62(0xcb4));_0x4068f5==_0x464d62(0xaba)?_0x4068f5=0x0:_0x4068f5=0x1;var _0x19ce68=this[_0x464d62(0x2b1)](_0x464d62(0x9b0));_0x19ce68==_0x464d62(0xaba)?_0x19ce68=0x0:_0x19ce68=0x1;var _0x3677b4=this[_0x464d62(0x2b1)](_0x464d62(0x75b));_0x3677b4==_0x464d62(0xaba)?_0x3677b4=0x0:_0x3677b4=0x1;var _0x385d45=this[_0x464d62(0x2b1)](_0x464d62(0x64b));_0x385d45==_0x464d62(0xaba)?_0x385d45=0x0:_0x385d45=0x1;var _0x14dfb9=this[_0x464d62(0x2b1)](_0x464d62(0x3d3));_0x14dfb9==_0x464d62(0xaba)?_0x14dfb9=0x0:_0x14dfb9=0x1;var _0x337eeb=this[_0x464d62(0x2b1)](_0x464d62(0xb48));_0x337eeb=='FALSE'?_0x337eeb=0x0:_0x337eeb=0x1;var _0x3aa5ce=this[_0x464d62(0x2b1)](_0x464d62(0xa04));_0x3aa5ce==_0x464d62(0xaba)?_0x3aa5ce=0x0:_0x3aa5ce=0x1;var _0x101874=this[_0x464d62(0x2b1)](_0x464d62(0x420));_0x101874=='FALSE'?_0x101874=0x0:_0x101874=0x1;var _0x5c0d81=this[_0x464d62(0x2b1)](_0x464d62(0x82e));_0x5c0d81==_0x464d62(0xaba)?_0x5c0d81=0x0:_0x5c0d81=0x1;var _0x35e617=this['getFieldValue']('Pix4e1');_0x35e617==_0x464d62(0xaba)?_0x35e617=0x0:_0x35e617=0x1;var _0x29d503=this[_0x464d62(0x2b1)](_0x464d62(0xada));_0x29d503==_0x464d62(0xaba)?_0x29d503=0x0:_0x29d503=0x1;var _0x4a4810=this[_0x464d62(0x2b1)](_0x464d62(0x5c0));_0x4a4810==_0x464d62(0xaba)?_0x4a4810=0x0:_0x4a4810=0x1;var _0x4e7975=this['getFieldValue'](_0x464d62(0xbab));_0x4e7975==_0x464d62(0xaba)?_0x4e7975=0x0:_0x4e7975=0x1;var _0x4489c9=this['getFieldValue'](_0x464d62(0x741));_0x4489c9==_0x464d62(0xaba)?_0x4489c9=0x0:_0x4489c9=0x1;var _0x1f4642=this['getFieldValue']('Pix5e1');_0x1f4642==_0x464d62(0xaba)?_0x1f4642=0x0:_0x1f4642=0x1;var _0x58d8d9=this['getFieldValue'](_0x464d62(0x5b4));_0x58d8d9=='FALSE'?_0x58d8d9=0x0:_0x58d8d9=0x1;var _0x574510=this['getFieldValue']('Pix5e3');_0x574510==_0x464d62(0xaba)?_0x574510=0x0:_0x574510=0x1;var _0x4efa12=this['getFieldValue'](_0x464d62(0x29e));_0x4efa12==_0x464d62(0xaba)?_0x4efa12=0x0:_0x4efa12=0x1;var _0x358ed8=this[_0x464d62(0x2b1)](_0x464d62(0xa72));_0x358ed8==_0x464d62(0xaba)?_0x358ed8=0x0:_0x358ed8=0x1;var _0x5aaab0=this[_0x464d62(0x2b1)](_0x464d62(0x579));_0x5aaab0==_0x464d62(0xaba)?_0x5aaab0=0x0:_0x5aaab0=0x1;var _0x3ac27e=this['getFieldValue'](_0x464d62(0x639));_0x3ac27e=='FALSE'?_0x3ac27e=0x0:_0x3ac27e=0x1;var _0x4a0f64=this[_0x464d62(0x2b1)]('Pix6e3');_0x4a0f64=='FALSE'?_0x4a0f64=0x0:_0x4a0f64=0x1;var _0x4a345b=this[_0x464d62(0x2b1)]('Pix6e4');_0x4a345b==_0x464d62(0xaba)?_0x4a345b=0x0:_0x4a345b=0x1;var _0x225544=this[_0x464d62(0x2b1)]('Pix7e0');_0x225544==_0x464d62(0xaba)?_0x225544=0x0:_0x225544=0x1;var _0x356180=this[_0x464d62(0x2b1)](_0x464d62(0x6b0));_0x356180=='FALSE'?_0x356180=0x0:_0x356180=0x1;var _0x50e5c0=this[_0x464d62(0x2b1)](_0x464d62(0xaf5));_0x50e5c0==_0x464d62(0xaba)?_0x50e5c0=0x0:_0x50e5c0=0x1;var _0xb2713b=this['getFieldValue']('Pix7e3');_0xb2713b==_0x464d62(0xaba)?_0xb2713b=0x0:_0xb2713b=0x1;var _0x5ed9ef=this[_0x464d62(0x2b1)](_0x464d62(0xa5a));_0x5ed9ef==_0x464d62(0xaba)?_0x5ed9ef=0x0:_0x5ed9ef=0x1;Blockly['Arduino'][_0x464d62(0xa2c)][_0x464d62(0x242)+_0x45d197]='byte\x20customChar'+_0x45d197+_0x464d62(0x585)+_0x464d62(0x67d)+_0x225544+''+_0x358ed8+''+_0x4489c9+''+_0x5c0d81+''+_0x385d45+''+_0x532009+''+_0x305348+''+_0x1b4ad3+',\x20\x0a'+_0x464d62(0x290)+_0x356180+''+_0x5aaab0+''+_0x1f4642+''+_0x35e617+''+_0x14dfb9+''+_0x29a175+''+_0x2af0c3+''+_0xb205fd+_0x464d62(0xb58)+_0x464d62(0x290)+_0x50e5c0+''+_0x3ac27e+''+_0x58d8d9+''+_0x29d503+''+_0x337eeb+''+_0x4068f5+''+_0x4ef922+''+_0x1a5552+_0x464d62(0xb58)+_0x464d62(0x290)+_0xb2713b+''+_0x4a0f64+''+_0x574510+''+_0x4a4810+''+_0x3aa5ce+''+_0x19ce68+''+_0x566247+''+_0x50f772+',\x20\x0a'+_0x464d62(0x290)+_0x5ed9ef+''+_0x4a345b+''+_0x4efa12+''+_0x4e7975+''+_0x101874+''+_0x3677b4+''+_0x44c99e+''+_0x26c6e7+_0x464d62(0xb58)+_0x464d62(0xbd2)+_0x464d62(0xbd2)+_0x464d62(0x222)+_0x464d62(0x588),Blockly[_0x464d62(0x2a3)][_0x464d62(0xcee)][_0x464d62(0x242)]=_0x464d62(0x391);var _0x179cb5=_0x464d62(0x2b4)+_0x45d197+'[i];\x20\x0a\x20\x20\x20delay('+_0x118155+_0x464d62(0x74e);return _0x179cb5;},Blockly['Arduino'][_0x3d686a(0x951)]=function(_0x17817c){var _0x43ed5b=_0x3d686a,_0xa226ea=_0x17817c[_0x43ed5b(0x2b1)](_0x43ed5b(0xba2)),_0x2a57ca=Blockly[_0x43ed5b(0x2a3)][_0x43ed5b(0x74d)](_0x17817c,'print_x',Blockly[_0x43ed5b(0x2a3)][_0x43ed5b(0x7ce)]),_0x2e5121=Blockly[_0x43ed5b(0x2a3)][_0x43ed5b(0x74d)](_0x17817c,_0x43ed5b(0xbd4),Blockly[_0x43ed5b(0x2a3)]['ORDER_ATOMIC']),_0x18115d=_0x43ed5b(0xcd6)+_0xa226ea+_0x43ed5b(0x302)+_0xa226ea+_0x43ed5b(0x9c0)+_0x2a57ca+',\x20'+_0x2e5121+_0x43ed5b(0xb7a)+_0xa226ea+_0x43ed5b(0x4d8);return _0x18115d;},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0xbed)]=function(_0x1b7541){var _0x17c758=_0x3d686a;Blockly[_0x17c758(0x2a3)][_0x17c758(0xa2c)][_0x17c758(0x709)]=_0x17c758(0x460),Blockly[_0x17c758(0x2a3)][_0x17c758(0xcee)][_0x17c758(0xcd0)]=_0x17c758(0x7cd);var _0x576035='';return _0x576035;},Blockly[_0x3d686a(0x2a3)]['minilcdi2c_setcursor']=function(_0x2f3e80){var _0x1c7656=_0x3d686a,_0x46fb9d=Blockly[_0x1c7656(0x2a3)]['valueToCode'](_0x2f3e80,_0x1c7656(0x978),Blockly[_0x1c7656(0x2a3)][_0x1c7656(0x7ce)]),_0x55cc5c=Blockly[_0x1c7656(0x2a3)][_0x1c7656(0x74d)](_0x2f3e80,'print_y',Blockly[_0x1c7656(0x2a3)][_0x1c7656(0x7ce)]),_0x305ae9=Blockly[_0x1c7656(0x2a3)][_0x1c7656(0x74d)](_0x2f3e80,'texttoprint',Blockly[_0x1c7656(0x2a3)][_0x1c7656(0x7ce)]),_0xc47b20=this['getFieldValue']('dp'),_0x16a893=_0x1c7656(0x751)+_0xc47b20+'('+_0x305ae9+',\x20'+_0x46fb9d+',\x20'+_0x55cc5c+_0x1c7656(0x62e);return _0x16a893;},Blockly['Arduino'][_0x3d686a(0xc6d)]=function(_0x27f275){var _0x4485ca=_0x3d686a,_0x28632c=Blockly[_0x4485ca(0x2a3)][_0x4485ca(0x74d)](_0x27f275,_0x4485ca(0x978),Blockly[_0x4485ca(0x2a3)][_0x4485ca(0x7ce)]),_0x36433f=Blockly[_0x4485ca(0x2a3)]['valueToCode'](_0x27f275,_0x4485ca(0xbd4),Blockly[_0x4485ca(0x2a3)][_0x4485ca(0x7ce)]),_0x172857=Blockly[_0x4485ca(0x2a3)][_0x4485ca(0x74d)](_0x27f275,_0x4485ca(0x584),Blockly['Arduino'][_0x4485ca(0x7ce)]),_0x3c4be4=this['getFieldValue']('dp'),_0x174d1b=this[_0x4485ca(0x2b1)](_0x4485ca(0x7c5));if(_0x174d1b=='long')var _0x301c52=_0x4485ca(0x751)+_0x3c4be4+'(\x22\x22,\x20'+_0x28632c+',\x20'+_0x36433f+');\x20\x0a\x20LD.printNumber((long)'+_0x172857+_0x4485ca(0x23c);if(_0x174d1b=='float-1')var _0x301c52=_0x4485ca(0x751)+_0x3c4be4+'(\x22\x22,\x20'+_0x28632c+',\x20'+_0x36433f+_0x4485ca(0x3e0)+_0x172857+',1);\x20\x0a';if(_0x174d1b==_0x4485ca(0x28d))var _0x301c52='LD.printString_'+_0x3c4be4+_0x4485ca(0x8fd)+_0x28632c+',\x20'+_0x36433f+_0x4485ca(0x3e0)+_0x172857+',2);\x20\x0a';if(_0x174d1b==_0x4485ca(0x8b0))var _0x301c52=_0x4485ca(0x751)+_0x3c4be4+_0x4485ca(0x8fd)+_0x28632c+',\x20'+_0x36433f+_0x4485ca(0x3e0)+_0x172857+_0x4485ca(0x319);if(_0x174d1b==_0x4485ca(0x8bb))var _0x301c52='LD.printString_'+_0x3c4be4+_0x4485ca(0x8fd)+_0x28632c+',\x20'+_0x36433f+_0x4485ca(0x3e0)+_0x172857+_0x4485ca(0x60c);if(_0x174d1b==_0x4485ca(0x479))var _0x301c52=_0x4485ca(0x751)+_0x3c4be4+'('+_0x172857+_0x4485ca(0x71f)+_0x28632c+',\x20'+_0x36433f+_0x4485ca(0x62e);return _0x301c52;},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0xcd5)]=function(_0x50ca4e){var _0x49e890=_0x3d686a,_0x15b877=_0x50ca4e['getFieldValue'](_0x49e890(0xba2)),_0x52e41c=this['getFieldValue'](_0x49e890(0x71c));_0x52e41c=='FALSE'?_0x52e41c=0x0:_0x52e41c=0x1;var _0x4a0753=this[_0x49e890(0x2b1)](_0x49e890(0x4ed));_0x4a0753==_0x49e890(0xaba)?_0x4a0753=0x0:_0x4a0753=0x1;var _0x17d4c0=this[_0x49e890(0x2b1)](_0x49e890(0x7a5));_0x17d4c0==_0x49e890(0xaba)?_0x17d4c0=0x0:_0x17d4c0=0x1;var _0x26a60b=this[_0x49e890(0x2b1)](_0x49e890(0x829));_0x26a60b==_0x49e890(0xaba)?_0x26a60b=0x0:_0x26a60b=0x1;var _0x3d17c3=this['getFieldValue']('Pix0e4');_0x3d17c3=='FALSE'?_0x3d17c3=0x0:_0x3d17c3=0x1;var _0x2209ae=this[_0x49e890(0x2b1)](_0x49e890(0xca0));_0x2209ae=='FALSE'?_0x2209ae=0x0:_0x2209ae=0x1;var _0x410899=this[_0x49e890(0x2b1)](_0x49e890(0x717));_0x410899=='FALSE'?_0x410899=0x0:_0x410899=0x1;var _0x18485c=this[_0x49e890(0x2b1)]('Pix0e7');_0x18485c==_0x49e890(0xaba)?_0x18485c=0x0:_0x18485c=0x1;var _0x5c525a=this[_0x49e890(0x2b1)](_0x49e890(0x47f));_0x5c525a==_0x49e890(0xaba)?_0x5c525a=0x0:_0x5c525a=0x1;var _0xaa9b51=this['getFieldValue'](_0x49e890(0xb37));_0xaa9b51==_0x49e890(0xaba)?_0xaa9b51=0x0:_0xaa9b51=0x1;var _0x392e02=this[_0x49e890(0x2b1)](_0x49e890(0x349));_0x392e02==_0x49e890(0xaba)?_0x392e02=0x0:_0x392e02=0x1;var _0x458dcb=this[_0x49e890(0x2b1)](_0x49e890(0xc66));_0x458dcb=='FALSE'?_0x458dcb=0x0:_0x458dcb=0x1;var _0x3692d4=this[_0x49e890(0x2b1)](_0x49e890(0x374));_0x3692d4=='FALSE'?_0x3692d4=0x0:_0x3692d4=0x1;var _0x2f9202=this[_0x49e890(0x2b1)]('Pix0e13');_0x2f9202==_0x49e890(0xaba)?_0x2f9202=0x0:_0x2f9202=0x1;var _0x53aec7=this['getFieldValue'](_0x49e890(0x8f3));_0x53aec7==_0x49e890(0xaba)?_0x53aec7=0x0:_0x53aec7=0x1;var _0x351142=this[_0x49e890(0x2b1)]('Pix0e15');_0x351142==_0x49e890(0xaba)?_0x351142=0x0:_0x351142=0x1;var _0x1659a4=this[_0x49e890(0x2b1)](_0x49e890(0x23e));_0x1659a4==_0x49e890(0xaba)?_0x1659a4=0x0:_0x1659a4=0x1;var _0x45a0d3=this[_0x49e890(0x2b1)](_0x49e890(0x2cd));_0x45a0d3==_0x49e890(0xaba)?_0x45a0d3=0x0:_0x45a0d3=0x1;var _0x3cd2f2=this[_0x49e890(0x2b1)](_0x49e890(0x7a8));_0x3cd2f2=='FALSE'?_0x3cd2f2=0x0:_0x3cd2f2=0x1;var _0x118201=this[_0x49e890(0x2b1)](_0x49e890(0x746));_0x118201==_0x49e890(0xaba)?_0x118201=0x0:_0x118201=0x1;var _0x5d406e=this[_0x49e890(0x2b1)](_0x49e890(0xc13));_0x5d406e==_0x49e890(0xaba)?_0x5d406e=0x0:_0x5d406e=0x1;var _0x12c6ca=this[_0x49e890(0x2b1)](_0x49e890(0x259));_0x12c6ca=='FALSE'?_0x12c6ca=0x0:_0x12c6ca=0x1;var _0x3f1706=this[_0x49e890(0x2b1)](_0x49e890(0x31b));_0x3f1706=='FALSE'?_0x3f1706=0x0:_0x3f1706=0x1;var _0xb34ab2=this[_0x49e890(0x2b1)]('Pix1e7');_0xb34ab2==_0x49e890(0xaba)?_0xb34ab2=0x0:_0xb34ab2=0x1;var _0x431769=this['getFieldValue'](_0x49e890(0x774));_0x431769==_0x49e890(0xaba)?_0x431769=0x0:_0x431769=0x1;var _0x5ee471=this[_0x49e890(0x2b1)](_0x49e890(0xa25));_0x5ee471=='FALSE'?_0x5ee471=0x0:_0x5ee471=0x1;var _0x29aeda=this[_0x49e890(0x2b1)](_0x49e890(0x796));_0x29aeda==_0x49e890(0xaba)?_0x29aeda=0x0:_0x29aeda=0x1;var _0x254698=this[_0x49e890(0x2b1)]('Pix1e11');_0x254698==_0x49e890(0xaba)?_0x254698=0x0:_0x254698=0x1;var _0x2b9543=this[_0x49e890(0x2b1)](_0x49e890(0xb92));_0x2b9543=='FALSE'?_0x2b9543=0x0:_0x2b9543=0x1;var _0x5aefe8=this[_0x49e890(0x2b1)](_0x49e890(0x8df));_0x5aefe8==_0x49e890(0xaba)?_0x5aefe8=0x0:_0x5aefe8=0x1;var _0x5a3d7d=this['getFieldValue'](_0x49e890(0xc0e));_0x5a3d7d==_0x49e890(0xaba)?_0x5a3d7d=0x0:_0x5a3d7d=0x1;var _0x25fd3e=this['getFieldValue'](_0x49e890(0x683));_0x25fd3e=='FALSE'?_0x25fd3e=0x0:_0x25fd3e=0x1;var _0x1717a4=this['getFieldValue'](_0x49e890(0x4dc));_0x1717a4=='FALSE'?_0x1717a4=0x0:_0x1717a4=0x1;var _0x3cb267=this[_0x49e890(0x2b1)](_0x49e890(0xa8d));_0x3cb267==_0x49e890(0xaba)?_0x3cb267=0x0:_0x3cb267=0x1;var _0x3736af=this[_0x49e890(0x2b1)](_0x49e890(0xcb4));_0x3736af==_0x49e890(0xaba)?_0x3736af=0x0:_0x3736af=0x1;var _0x14228f=this[_0x49e890(0x2b1)](_0x49e890(0x9b0));_0x14228f==_0x49e890(0xaba)?_0x14228f=0x0:_0x14228f=0x1;var _0x544cf2=this[_0x49e890(0x2b1)]('Pix2e4');_0x544cf2==_0x49e890(0xaba)?_0x544cf2=0x0:_0x544cf2=0x1;var _0x162339=this[_0x49e890(0x2b1)]('Pix2e5');_0x162339=='FALSE'?_0x162339=0x0:_0x162339=0x1;var _0x3cf3fc=this[_0x49e890(0x2b1)](_0x49e890(0x851));_0x3cf3fc==_0x49e890(0xaba)?_0x3cf3fc=0x0:_0x3cf3fc=0x1;var _0x8f5b65=this['getFieldValue']('Pix2e7');_0x8f5b65==_0x49e890(0xaba)?_0x8f5b65=0x0:_0x8f5b65=0x1;var _0x117391=this[_0x49e890(0x2b1)](_0x49e890(0x98e));_0x117391=='FALSE'?_0x117391=0x0:_0x117391=0x1;var _0x2b31f0=this[_0x49e890(0x2b1)](_0x49e890(0xc7b));_0x2b31f0==_0x49e890(0xaba)?_0x2b31f0=0x0:_0x2b31f0=0x1;var _0xfae67e=this[_0x49e890(0x2b1)](_0x49e890(0x414));_0xfae67e==_0x49e890(0xaba)?_0xfae67e=0x0:_0xfae67e=0x1;var _0x274cf7=this[_0x49e890(0x2b1)](_0x49e890(0x87b));_0x274cf7==_0x49e890(0xaba)?_0x274cf7=0x0:_0x274cf7=0x1;var _0x1801ad=this[_0x49e890(0x2b1)]('Pix2e12');_0x1801ad==_0x49e890(0xaba)?_0x1801ad=0x0:_0x1801ad=0x1;var _0x3e9fe9=this['getFieldValue'](_0x49e890(0x5ff));_0x3e9fe9=='FALSE'?_0x3e9fe9=0x0:_0x3e9fe9=0x1;var _0x3f1440=this[_0x49e890(0x2b1)]('Pix2e14');_0x3f1440=='FALSE'?_0x3f1440=0x0:_0x3f1440=0x1;var _0x225f2b=this['getFieldValue'](_0x49e890(0xc3c));_0x225f2b==_0x49e890(0xaba)?_0x225f2b=0x0:_0x225f2b=0x1;var _0x399c93=this[_0x49e890(0x2b1)](_0x49e890(0x64b));_0x399c93==_0x49e890(0xaba)?_0x399c93=0x0:_0x399c93=0x1;var _0x52e6ca=this['getFieldValue'](_0x49e890(0x3d3));_0x52e6ca=='FALSE'?_0x52e6ca=0x0:_0x52e6ca=0x1;var _0x31a923=this['getFieldValue'](_0x49e890(0xb48));_0x31a923==_0x49e890(0xaba)?_0x31a923=0x0:_0x31a923=0x1;var _0xaae89c=this[_0x49e890(0x2b1)](_0x49e890(0xa04));_0xaae89c=='FALSE'?_0xaae89c=0x0:_0xaae89c=0x1;var _0x31a5f4=this['getFieldValue'](_0x49e890(0x420));_0x31a5f4==_0x49e890(0xaba)?_0x31a5f4=0x0:_0x31a5f4=0x1;var _0x319777=this[_0x49e890(0x2b1)](_0x49e890(0xb06));_0x319777==_0x49e890(0xaba)?_0x319777=0x0:_0x319777=0x1;var _0x2be40b=this[_0x49e890(0x2b1)](_0x49e890(0x4e5));_0x2be40b==_0x49e890(0xaba)?_0x2be40b=0x0:_0x2be40b=0x1;var _0x496f61=this['getFieldValue'](_0x49e890(0x85d));_0x496f61==_0x49e890(0xaba)?_0x496f61=0x0:_0x496f61=0x1;var _0x4769ad=this[_0x49e890(0x2b1)]('Pix3e8');_0x4769ad==_0x49e890(0xaba)?_0x4769ad=0x0:_0x4769ad=0x1;var _0x4efe47=this[_0x49e890(0x2b1)](_0x49e890(0x6b8));_0x4efe47==_0x49e890(0xaba)?_0x4efe47=0x0:_0x4efe47=0x1;var _0x5ddf2d=this[_0x49e890(0x2b1)](_0x49e890(0x51c));_0x5ddf2d=='FALSE'?_0x5ddf2d=0x0:_0x5ddf2d=0x1;var _0x34a571=this[_0x49e890(0x2b1)](_0x49e890(0x731));_0x34a571==_0x49e890(0xaba)?_0x34a571=0x0:_0x34a571=0x1;var _0x2af9ab=this[_0x49e890(0x2b1)](_0x49e890(0x356));_0x2af9ab==_0x49e890(0xaba)?_0x2af9ab=0x0:_0x2af9ab=0x1;var _0x3313b5=this[_0x49e890(0x2b1)](_0x49e890(0x4f4));_0x3313b5=='FALSE'?_0x3313b5=0x0:_0x3313b5=0x1;var _0x27b382=this['getFieldValue'](_0x49e890(0x6bd));_0x27b382==_0x49e890(0xaba)?_0x27b382=0x0:_0x27b382=0x1;var _0x1baf22=this[_0x49e890(0x2b1)](_0x49e890(0x48e));_0x1baf22==_0x49e890(0xaba)?_0x1baf22=0x0:_0x1baf22=0x1;var _0xcdf136=this['getFieldValue'](_0x49e890(0x82e));_0xcdf136==_0x49e890(0xaba)?_0xcdf136=0x0:_0xcdf136=0x1;var _0x39e79c=this[_0x49e890(0x2b1)]('Pix4e1');_0x39e79c==_0x49e890(0xaba)?_0x39e79c=0x0:_0x39e79c=0x1;var _0xd6292a=this['getFieldValue'](_0x49e890(0xada));_0xd6292a==_0x49e890(0xaba)?_0xd6292a=0x0:_0xd6292a=0x1;var _0xb52890=this['getFieldValue'](_0x49e890(0x5c0));_0xb52890==_0x49e890(0xaba)?_0xb52890=0x0:_0xb52890=0x1;var _0x45d86e=this['getFieldValue'](_0x49e890(0xbab));_0x45d86e=='FALSE'?_0x45d86e=0x0:_0x45d86e=0x1;var _0x31ee42=this[_0x49e890(0x2b1)](_0x49e890(0x532));_0x31ee42==_0x49e890(0xaba)?_0x31ee42=0x0:_0x31ee42=0x1;var _0x1458fd=this[_0x49e890(0x2b1)]('Pix4e6');_0x1458fd==_0x49e890(0xaba)?_0x1458fd=0x0:_0x1458fd=0x1;var _0x9078c7=this['getFieldValue'](_0x49e890(0xb46));_0x9078c7=='FALSE'?_0x9078c7=0x0:_0x9078c7=0x1;var _0x2eb9de=this[_0x49e890(0x2b1)]('Pix4e8');_0x2eb9de==_0x49e890(0xaba)?_0x2eb9de=0x0:_0x2eb9de=0x1;var _0x4a4dad=this['getFieldValue'](_0x49e890(0x2c8));_0x4a4dad=='FALSE'?_0x4a4dad=0x0:_0x4a4dad=0x1;var _0x5f5fd=this[_0x49e890(0x2b1)](_0x49e890(0xad4));_0x5f5fd==_0x49e890(0xaba)?_0x5f5fd=0x0:_0x5f5fd=0x1;var _0x5abd92=this[_0x49e890(0x2b1)](_0x49e890(0x562));_0x5abd92==_0x49e890(0xaba)?_0x5abd92=0x0:_0x5abd92=0x1;var _0x37a207=this[_0x49e890(0x2b1)](_0x49e890(0xa7f));_0x37a207==_0x49e890(0xaba)?_0x37a207=0x0:_0x37a207=0x1;var _0x52a021=this[_0x49e890(0x2b1)](_0x49e890(0x87e));_0x52a021==_0x49e890(0xaba)?_0x52a021=0x0:_0x52a021=0x1;var _0x142616=this['getFieldValue'](_0x49e890(0x7d4));_0x142616=='FALSE'?_0x142616=0x0:_0x142616=0x1;var _0x4ec28a=this[_0x49e890(0x2b1)](_0x49e890(0xc27));_0x4ec28a==_0x49e890(0xaba)?_0x4ec28a=0x0:_0x4ec28a=0x1;var _0x531fd9=this[_0x49e890(0x2b1)](_0x49e890(0x741));_0x531fd9==_0x49e890(0xaba)?_0x531fd9=0x0:_0x531fd9=0x1;var _0x371b06=this[_0x49e890(0x2b1)]('Pix5e1');_0x371b06==_0x49e890(0xaba)?_0x371b06=0x0:_0x371b06=0x1;var _0x2381ba=this[_0x49e890(0x2b1)]('Pix5e2');_0x2381ba==_0x49e890(0xaba)?_0x2381ba=0x0:_0x2381ba=0x1;var _0x52f89b=this['getFieldValue'](_0x49e890(0x937));_0x52f89b=='FALSE'?_0x52f89b=0x0:_0x52f89b=0x1;var _0xd200ad=this['getFieldValue'](_0x49e890(0x29e));_0xd200ad==_0x49e890(0xaba)?_0xd200ad=0x0:_0xd200ad=0x1;var _0x36e028=this[_0x49e890(0x2b1)](_0x49e890(0xbd9));_0x36e028==_0x49e890(0xaba)?_0x36e028=0x0:_0x36e028=0x1;var _0x3974de=this[_0x49e890(0x2b1)](_0x49e890(0x76d));_0x3974de==_0x49e890(0xaba)?_0x3974de=0x0:_0x3974de=0x1;var _0x428735=this[_0x49e890(0x2b1)](_0x49e890(0x225));_0x428735==_0x49e890(0xaba)?_0x428735=0x0:_0x428735=0x1;var _0x360ad2=this[_0x49e890(0x2b1)](_0x49e890(0x74f));_0x360ad2==_0x49e890(0xaba)?_0x360ad2=0x0:_0x360ad2=0x1;var _0x4d64d2=this[_0x49e890(0x2b1)](_0x49e890(0x19f));_0x4d64d2=='FALSE'?_0x4d64d2=0x0:_0x4d64d2=0x1;var _0x3e993a=this['getFieldValue']('Pix5e10');_0x3e993a=='FALSE'?_0x3e993a=0x0:_0x3e993a=0x1;var _0x1e42df=this[_0x49e890(0x2b1)](_0x49e890(0xc2f));_0x1e42df==_0x49e890(0xaba)?_0x1e42df=0x0:_0x1e42df=0x1;var _0xdc54af=this['getFieldValue'](_0x49e890(0x3c4));_0xdc54af=='FALSE'?_0xdc54af=0x0:_0xdc54af=0x1;var _0x356bad=this[_0x49e890(0x2b1)](_0x49e890(0x94c));_0x356bad=='FALSE'?_0x356bad=0x0:_0x356bad=0x1;var _0x529d02=this['getFieldValue'](_0x49e890(0x3ab));_0x529d02=='FALSE'?_0x529d02=0x0:_0x529d02=0x1;var _0x56e9f1=this[_0x49e890(0x2b1)](_0x49e890(0xa86));_0x56e9f1=='FALSE'?_0x56e9f1=0x0:_0x56e9f1=0x1;var _0x3c613d=this[_0x49e890(0x2b1)]('Pix6e0');_0x3c613d=='FALSE'?_0x3c613d=0x0:_0x3c613d=0x1;var _0x80ca60=this[_0x49e890(0x2b1)]('Pix6e1');_0x80ca60==_0x49e890(0xaba)?_0x80ca60=0x0:_0x80ca60=0x1;var _0x5c7264=this[_0x49e890(0x2b1)](_0x49e890(0x639));_0x5c7264=='FALSE'?_0x5c7264=0x0:_0x5c7264=0x1;var _0x2db6fe=this[_0x49e890(0x2b1)](_0x49e890(0xaea));_0x2db6fe==_0x49e890(0xaba)?_0x2db6fe=0x0:_0x2db6fe=0x1;var _0x3b3e05=this['getFieldValue']('Pix6e4');_0x3b3e05==_0x49e890(0xaba)?_0x3b3e05=0x0:_0x3b3e05=0x1;var _0x51bef5=this[_0x49e890(0x2b1)](_0x49e890(0xc2c));_0x51bef5==_0x49e890(0xaba)?_0x51bef5=0x0:_0x51bef5=0x1;var _0x4eaa62=this[_0x49e890(0x2b1)](_0x49e890(0x313));_0x4eaa62=='FALSE'?_0x4eaa62=0x0:_0x4eaa62=0x1;var _0x3073ae=this[_0x49e890(0x2b1)](_0x49e890(0x41d));_0x3073ae==_0x49e890(0xaba)?_0x3073ae=0x0:_0x3073ae=0x1;var _0x46fa24=this[_0x49e890(0x2b1)](_0x49e890(0x8cd));_0x46fa24==_0x49e890(0xaba)?_0x46fa24=0x0:_0x46fa24=0x1;var _0x5e58fb=this[_0x49e890(0x2b1)](_0x49e890(0xced));_0x5e58fb=='FALSE'?_0x5e58fb=0x0:_0x5e58fb=0x1;var _0x6cf0c6=this[_0x49e890(0x2b1)]('Pix6e10');_0x6cf0c6==_0x49e890(0xaba)?_0x6cf0c6=0x0:_0x6cf0c6=0x1;var _0x434502=this[_0x49e890(0x2b1)](_0x49e890(0x538));_0x434502=='FALSE'?_0x434502=0x0:_0x434502=0x1;var _0x450407=this[_0x49e890(0x2b1)]('Pix6e12');_0x450407==_0x49e890(0xaba)?_0x450407=0x0:_0x450407=0x1;var _0x520619=this[_0x49e890(0x2b1)](_0x49e890(0x8a6));_0x520619==_0x49e890(0xaba)?_0x520619=0x0:_0x520619=0x1;var _0x3b48e6=this[_0x49e890(0x2b1)](_0x49e890(0xa57));_0x3b48e6==_0x49e890(0xaba)?_0x3b48e6=0x0:_0x3b48e6=0x1;var _0x2047ce=this['getFieldValue'](_0x49e890(0x6f3));_0x2047ce==_0x49e890(0xaba)?_0x2047ce=0x0:_0x2047ce=0x1;var _0x430801=this[_0x49e890(0x2b1)](_0x49e890(0x2d2));_0x430801==_0x49e890(0xaba)?_0x430801=0x0:_0x430801=0x1;var _0x4764c9=this[_0x49e890(0x2b1)](_0x49e890(0x6b0));_0x4764c9==_0x49e890(0xaba)?_0x4764c9=0x0:_0x4764c9=0x1;var _0x26486e=this[_0x49e890(0x2b1)](_0x49e890(0xaf5));_0x26486e=='FALSE'?_0x26486e=0x0:_0x26486e=0x1;var _0x4c544e=this[_0x49e890(0x2b1)]('Pix7e3');_0x4c544e==_0x49e890(0xaba)?_0x4c544e=0x0:_0x4c544e=0x1;var _0x2a38b5=this[_0x49e890(0x2b1)](_0x49e890(0xa5a));_0x2a38b5==_0x49e890(0xaba)?_0x2a38b5=0x0:_0x2a38b5=0x1;var _0x2cd7e1=this[_0x49e890(0x2b1)](_0x49e890(0xa44));_0x2cd7e1=='FALSE'?_0x2cd7e1=0x0:_0x2cd7e1=0x1;var _0x24909a=this[_0x49e890(0x2b1)]('Pix7e6');_0x24909a==_0x49e890(0xaba)?_0x24909a=0x0:_0x24909a=0x1;var _0x24ae71=this[_0x49e890(0x2b1)]('Pix7e7');_0x24ae71=='FALSE'?_0x24ae71=0x0:_0x24ae71=0x1;var _0x1d50ef=this[_0x49e890(0x2b1)](_0x49e890(0x543));_0x1d50ef==_0x49e890(0xaba)?_0x1d50ef=0x0:_0x1d50ef=0x1;var _0x9dd0eb=this[_0x49e890(0x2b1)](_0x49e890(0xaf3));_0x9dd0eb=='FALSE'?_0x9dd0eb=0x0:_0x9dd0eb=0x1;var _0x516738=this[_0x49e890(0x2b1)](_0x49e890(0x4f5));_0x516738=='FALSE'?_0x516738=0x0:_0x516738=0x1;var _0x2a8a11=this[_0x49e890(0x2b1)](_0x49e890(0x860));_0x2a8a11=='FALSE'?_0x2a8a11=0x0:_0x2a8a11=0x1;var _0x5813ec=this[_0x49e890(0x2b1)]('Pix7e12');_0x5813ec==_0x49e890(0xaba)?_0x5813ec=0x0:_0x5813ec=0x1;var _0x22f7e3=this[_0x49e890(0x2b1)](_0x49e890(0x93f));_0x22f7e3==_0x49e890(0xaba)?_0x22f7e3=0x0:_0x22f7e3=0x1;var _0x24508f=this[_0x49e890(0x2b1)](_0x49e890(0x7ca));_0x24508f=='FALSE'?_0x24508f=0x0:_0x24508f=0x1;var _0x35bfd2=this[_0x49e890(0x2b1)](_0x49e890(0x21b));_0x35bfd2=='FALSE'?_0x35bfd2=0x0:_0x35bfd2=0x1;var _0x280d5e=this['getFieldValue'](_0x49e890(0xc6a));_0x280d5e==_0x49e890(0xaba)?_0x280d5e=0x0:_0x280d5e=0x1;var _0x52e731=this['getFieldValue'](_0x49e890(0xc40));_0x52e731==_0x49e890(0xaba)?_0x52e731=0x0:_0x52e731=0x1;var _0x6ca76=this[_0x49e890(0x2b1)]('Pix8e2');_0x6ca76=='FALSE'?_0x6ca76=0x0:_0x6ca76=0x1;var _0x710e5c=this['getFieldValue'](_0x49e890(0x7d7));_0x710e5c==_0x49e890(0xaba)?_0x710e5c=0x0:_0x710e5c=0x1;var _0x8a53c7=this['getFieldValue']('Pix8e4');_0x8a53c7==_0x49e890(0xaba)?_0x8a53c7=0x0:_0x8a53c7=0x1;var _0x16756e=this[_0x49e890(0x2b1)](_0x49e890(0x7d9));_0x16756e==_0x49e890(0xaba)?_0x16756e=0x0:_0x16756e=0x1;var _0x23ee07=this['getFieldValue'](_0x49e890(0x2b9));_0x23ee07==_0x49e890(0xaba)?_0x23ee07=0x0:_0x23ee07=0x1;var _0x549a45=this[_0x49e890(0x2b1)](_0x49e890(0x2fc));_0x549a45=='FALSE'?_0x549a45=0x0:_0x549a45=0x1;var _0x42f6f4=this[_0x49e890(0x2b1)](_0x49e890(0x7e9));_0x42f6f4==_0x49e890(0xaba)?_0x42f6f4=0x0:_0x42f6f4=0x1;var _0x394c79=this['getFieldValue'](_0x49e890(0x4ae));_0x394c79==_0x49e890(0xaba)?_0x394c79=0x0:_0x394c79=0x1;var _0xcc25c9=this[_0x49e890(0x2b1)]('Pix8e10');_0xcc25c9==_0x49e890(0xaba)?_0xcc25c9=0x0:_0xcc25c9=0x1;var _0x44382a=this[_0x49e890(0x2b1)](_0x49e890(0x8cb));_0x44382a==_0x49e890(0xaba)?_0x44382a=0x0:_0x44382a=0x1;var _0xd98b35=this[_0x49e890(0x2b1)](_0x49e890(0x965));_0xd98b35==_0x49e890(0xaba)?_0xd98b35=0x0:_0xd98b35=0x1;var _0x4497a2=this[_0x49e890(0x2b1)](_0x49e890(0x530));_0x4497a2=='FALSE'?_0x4497a2=0x0:_0x4497a2=0x1;var _0x3b8bd1=this[_0x49e890(0x2b1)](_0x49e890(0xb84));_0x3b8bd1==_0x49e890(0xaba)?_0x3b8bd1=0x0:_0x3b8bd1=0x1;var _0x45eb83=this[_0x49e890(0x2b1)](_0x49e890(0x1d1));_0x45eb83=='FALSE'?_0x45eb83=0x0:_0x45eb83=0x1;var _0x51d61c=this[_0x49e890(0x2b1)]('Pix9e0');_0x51d61c==_0x49e890(0xaba)?_0x51d61c=0x0:_0x51d61c=0x1;var _0x59c897=this[_0x49e890(0x2b1)](_0x49e890(0xac1));_0x59c897=='FALSE'?_0x59c897=0x0:_0x59c897=0x1;var _0x714157=this[_0x49e890(0x2b1)](_0x49e890(0x39b));_0x714157==_0x49e890(0xaba)?_0x714157=0x0:_0x714157=0x1;var _0x3cf859=this['getFieldValue'](_0x49e890(0x3ee));_0x3cf859=='FALSE'?_0x3cf859=0x0:_0x3cf859=0x1;var _0x42c7fc=this[_0x49e890(0x2b1)](_0x49e890(0x53b));_0x42c7fc==_0x49e890(0xaba)?_0x42c7fc=0x0:_0x42c7fc=0x1;var _0x1afd8d=this[_0x49e890(0x2b1)](_0x49e890(0x5a3));_0x1afd8d==_0x49e890(0xaba)?_0x1afd8d=0x0:_0x1afd8d=0x1;var _0x12ad8c=this[_0x49e890(0x2b1)](_0x49e890(0x2dc));_0x12ad8c==_0x49e890(0xaba)?_0x12ad8c=0x0:_0x12ad8c=0x1;var _0x5a3ea2=this[_0x49e890(0x2b1)](_0x49e890(0x7c8));_0x5a3ea2==_0x49e890(0xaba)?_0x5a3ea2=0x0:_0x5a3ea2=0x1;var _0x2f0eed=this[_0x49e890(0x2b1)]('Pix9e8');_0x2f0eed==_0x49e890(0xaba)?_0x2f0eed=0x0:_0x2f0eed=0x1;var _0x1fb3e8=this['getFieldValue']('Pix9e9');_0x1fb3e8==_0x49e890(0xaba)?_0x1fb3e8=0x0:_0x1fb3e8=0x1;var _0x1e4af1=this['getFieldValue'](_0x49e890(0x452));_0x1e4af1=='FALSE'?_0x1e4af1=0x0:_0x1e4af1=0x1;var _0x513576=this[_0x49e890(0x2b1)](_0x49e890(0x477));_0x513576==_0x49e890(0xaba)?_0x513576=0x0:_0x513576=0x1;var _0x2acfe4=this['getFieldValue'](_0x49e890(0x5fd));_0x2acfe4==_0x49e890(0xaba)?_0x2acfe4=0x0:_0x2acfe4=0x1;var _0x38a4cb=this[_0x49e890(0x2b1)]('Pix9e13');_0x38a4cb==_0x49e890(0xaba)?_0x38a4cb=0x0:_0x38a4cb=0x1;var _0x376b0f=this['getFieldValue']('Pix9e14');_0x376b0f==_0x49e890(0xaba)?_0x376b0f=0x0:_0x376b0f=0x1;var _0x546e2a=this[_0x49e890(0x2b1)](_0x49e890(0xbac));_0x546e2a=='FALSE'?_0x546e2a=0x0:_0x546e2a=0x1;var _0x301a8f=this['getFieldValue'](_0x49e890(0xb5e));_0x301a8f=='FALSE'?_0x301a8f=0x0:_0x301a8f=0x1;var _0x1ae6ab=this[_0x49e890(0x2b1)](_0x49e890(0x23a));_0x1ae6ab==_0x49e890(0xaba)?_0x1ae6ab=0x0:_0x1ae6ab=0x1;var _0x8ac368=this[_0x49e890(0x2b1)](_0x49e890(0x9d4));_0x8ac368==_0x49e890(0xaba)?_0x8ac368=0x0:_0x8ac368=0x1;var _0x5c86e3=this[_0x49e890(0x2b1)](_0x49e890(0xbb7));_0x5c86e3==_0x49e890(0xaba)?_0x5c86e3=0x0:_0x5c86e3=0x1;var _0xf36e7c=this[_0x49e890(0x2b1)](_0x49e890(0xb4f));_0xf36e7c==_0x49e890(0xaba)?_0xf36e7c=0x0:_0xf36e7c=0x1;var _0x26b5a9=this[_0x49e890(0x2b1)](_0x49e890(0x2c5));_0x26b5a9==_0x49e890(0xaba)?_0x26b5a9=0x0:_0x26b5a9=0x1;var _0x25401b=this[_0x49e890(0x2b1)](_0x49e890(0xcb5));_0x25401b==_0x49e890(0xaba)?_0x25401b=0x0:_0x25401b=0x1;var _0x15cfd7=this['getFieldValue'](_0x49e890(0x7c2));_0x15cfd7==_0x49e890(0xaba)?_0x15cfd7=0x0:_0x15cfd7=0x1;var _0x506482=this['getFieldValue']('Pix10e8');_0x506482==_0x49e890(0xaba)?_0x506482=0x0:_0x506482=0x1;var _0x3aa9a0=this[_0x49e890(0x2b1)](_0x49e890(0x3dc));_0x3aa9a0==_0x49e890(0xaba)?_0x3aa9a0=0x0:_0x3aa9a0=0x1;var _0x12648e=this[_0x49e890(0x2b1)](_0x49e890(0x48d));_0x12648e=='FALSE'?_0x12648e=0x0:_0x12648e=0x1;var _0x206a66=this[_0x49e890(0x2b1)]('Pix10e11');_0x206a66==_0x49e890(0xaba)?_0x206a66=0x0:_0x206a66=0x1;var _0xfd7c94=this[_0x49e890(0x2b1)](_0x49e890(0x2ce));_0xfd7c94==_0x49e890(0xaba)?_0xfd7c94=0x0:_0xfd7c94=0x1;var _0x4706e2=this[_0x49e890(0x2b1)](_0x49e890(0x488));_0x4706e2==_0x49e890(0xaba)?_0x4706e2=0x0:_0x4706e2=0x1;var _0x325fb8=this[_0x49e890(0x2b1)](_0x49e890(0x8bd));_0x325fb8==_0x49e890(0xaba)?_0x325fb8=0x0:_0x325fb8=0x1;var _0x120363=this[_0x49e890(0x2b1)](_0x49e890(0xb79));_0x120363==_0x49e890(0xaba)?_0x120363=0x0:_0x120363=0x1;var _0x51b230=this[_0x49e890(0x2b1)](_0x49e890(0x1c2));_0x51b230=='FALSE'?_0x51b230=0x0:_0x51b230=0x1;var _0x3baefa=this[_0x49e890(0x2b1)](_0x49e890(0xc89));_0x3baefa==_0x49e890(0xaba)?_0x3baefa=0x0:_0x3baefa=0x1;var _0x447e99=this[_0x49e890(0x2b1)](_0x49e890(0x9ca));_0x447e99==_0x49e890(0xaba)?_0x447e99=0x0:_0x447e99=0x1;var _0x1eced7=this[_0x49e890(0x2b1)](_0x49e890(0x96d));_0x1eced7==_0x49e890(0xaba)?_0x1eced7=0x0:_0x1eced7=0x1;var _0x40584d=this[_0x49e890(0x2b1)](_0x49e890(0x8e3));_0x40584d==_0x49e890(0xaba)?_0x40584d=0x0:_0x40584d=0x1;var _0x1bbf74=this['getFieldValue'](_0x49e890(0x3be));_0x1bbf74==_0x49e890(0xaba)?_0x1bbf74=0x0:_0x1bbf74=0x1;var _0x5361b9=this[_0x49e890(0x2b1)](_0x49e890(0x706));_0x5361b9==_0x49e890(0xaba)?_0x5361b9=0x0:_0x5361b9=0x1;var _0x5de2ca=this[_0x49e890(0x2b1)](_0x49e890(0x859));_0x5de2ca==_0x49e890(0xaba)?_0x5de2ca=0x0:_0x5de2ca=0x1;var _0x3c96a6=this[_0x49e890(0x2b1)](_0x49e890(0xa8a));_0x3c96a6=='FALSE'?_0x3c96a6=0x0:_0x3c96a6=0x1;var _0x2f5527=this[_0x49e890(0x2b1)](_0x49e890(0x6f9));_0x2f5527==_0x49e890(0xaba)?_0x2f5527=0x0:_0x2f5527=0x1;var _0xae02a9=this[_0x49e890(0x2b1)](_0x49e890(0x982));_0xae02a9=='FALSE'?_0xae02a9=0x0:_0xae02a9=0x1;var _0xae3af1=this['getFieldValue'](_0x49e890(0x3c0));_0xae3af1==_0x49e890(0xaba)?_0xae3af1=0x0:_0xae3af1=0x1;var _0x318650=this['getFieldValue']('Pix11e12');_0x318650==_0x49e890(0xaba)?_0x318650=0x0:_0x318650=0x1;var _0x9322c2=this['getFieldValue'](_0x49e890(0x72f));_0x9322c2=='FALSE'?_0x9322c2=0x0:_0x9322c2=0x1;var _0x5186b9=this[_0x49e890(0x2b1)](_0x49e890(0xad9));_0x5186b9==_0x49e890(0xaba)?_0x5186b9=0x0:_0x5186b9=0x1;var _0x1c3472=this[_0x49e890(0x2b1)](_0x49e890(0x40e));_0x1c3472==_0x49e890(0xaba)?_0x1c3472=0x0:_0x1c3472=0x1;var _0x184237=this['getFieldValue'](_0x49e890(0x201));_0x184237==_0x49e890(0xaba)?_0x184237=0x0:_0x184237=0x1;var _0x46fb79=this[_0x49e890(0x2b1)]('Pix12e1');_0x46fb79=='FALSE'?_0x46fb79=0x0:_0x46fb79=0x1;var _0x3e07b5=this[_0x49e890(0x2b1)](_0x49e890(0x4b4));_0x3e07b5==_0x49e890(0xaba)?_0x3e07b5=0x0:_0x3e07b5=0x1;var _0x22e193=this[_0x49e890(0x2b1)](_0x49e890(0x8d1));_0x22e193==_0x49e890(0xaba)?_0x22e193=0x0:_0x22e193=0x1;var _0x127c5c=this[_0x49e890(0x2b1)](_0x49e890(0x1f2));_0x127c5c=='FALSE'?_0x127c5c=0x0:_0x127c5c=0x1;var _0x342ac2=this[_0x49e890(0x2b1)](_0x49e890(0x56d));_0x342ac2==_0x49e890(0xaba)?_0x342ac2=0x0:_0x342ac2=0x1;var _0x4d4a7b=this[_0x49e890(0x2b1)](_0x49e890(0x9d2));_0x4d4a7b==_0x49e890(0xaba)?_0x4d4a7b=0x0:_0x4d4a7b=0x1;var _0x573cbf=this[_0x49e890(0x2b1)](_0x49e890(0xc1c));_0x573cbf=='FALSE'?_0x573cbf=0x0:_0x573cbf=0x1;var _0x971331=this[_0x49e890(0x2b1)](_0x49e890(0x301));_0x971331==_0x49e890(0xaba)?_0x971331=0x0:_0x971331=0x1;var _0x5b7622=this[_0x49e890(0x2b1)](_0x49e890(0x6be));_0x5b7622=='FALSE'?_0x5b7622=0x0:_0x5b7622=0x1;var _0x151451=this[_0x49e890(0x2b1)](_0x49e890(0x8e6));_0x151451=='FALSE'?_0x151451=0x0:_0x151451=0x1;var _0x21c411=this[_0x49e890(0x2b1)](_0x49e890(0xb4d));_0x21c411==_0x49e890(0xaba)?_0x21c411=0x0:_0x21c411=0x1;var _0x586763=this['getFieldValue'](_0x49e890(0x24b));_0x586763==_0x49e890(0xaba)?_0x586763=0x0:_0x586763=0x1;var _0x53c962=this[_0x49e890(0x2b1)](_0x49e890(0x5fb));_0x53c962==_0x49e890(0xaba)?_0x53c962=0x0:_0x53c962=0x1;var _0x39416d=this[_0x49e890(0x2b1)]('Pix12e14');_0x39416d=='FALSE'?_0x39416d=0x0:_0x39416d=0x1;var _0x2a718f=this[_0x49e890(0x2b1)](_0x49e890(0x56f));_0x2a718f==_0x49e890(0xaba)?_0x2a718f=0x0:_0x2a718f=0x1;var _0x30d6a7=this[_0x49e890(0x2b1)](_0x49e890(0x3b8));_0x30d6a7==_0x49e890(0xaba)?_0x30d6a7=0x0:_0x30d6a7=0x1;var _0x2a990d=this[_0x49e890(0x2b1)](_0x49e890(0x959));_0x2a990d=='FALSE'?_0x2a990d=0x0:_0x2a990d=0x1;var _0xf97fde=this['getFieldValue'](_0x49e890(0xb2b));_0xf97fde=='FALSE'?_0xf97fde=0x0:_0xf97fde=0x1;var _0x1c10ed=this['getFieldValue'](_0x49e890(0x322));_0x1c10ed==_0x49e890(0xaba)?_0x1c10ed=0x0:_0x1c10ed=0x1;var _0xa7fc3d=this[_0x49e890(0x2b1)](_0x49e890(0xb57));_0xa7fc3d==_0x49e890(0xaba)?_0xa7fc3d=0x0:_0xa7fc3d=0x1;var _0x4d43bb=this[_0x49e890(0x2b1)](_0x49e890(0x1f8));_0x4d43bb==_0x49e890(0xaba)?_0x4d43bb=0x0:_0x4d43bb=0x1;var _0x5935e4=this[_0x49e890(0x2b1)]('Pix13e6');_0x5935e4=='FALSE'?_0x5935e4=0x0:_0x5935e4=0x1;var _0x3a6f21=this['getFieldValue'](_0x49e890(0xc2d));_0x3a6f21==_0x49e890(0xaba)?_0x3a6f21=0x0:_0x3a6f21=0x1;var _0x5b1c23=this[_0x49e890(0x2b1)](_0x49e890(0x53e));_0x5b1c23==_0x49e890(0xaba)?_0x5b1c23=0x0:_0x5b1c23=0x1;var _0x48ef36=this[_0x49e890(0x2b1)]('Pix13e9');_0x48ef36==_0x49e890(0xaba)?_0x48ef36=0x0:_0x48ef36=0x1;var _0x5c9e7e=this[_0x49e890(0x2b1)](_0x49e890(0x50e));_0x5c9e7e=='FALSE'?_0x5c9e7e=0x0:_0x5c9e7e=0x1;var _0x11f3b4=this[_0x49e890(0x2b1)](_0x49e890(0x533));_0x11f3b4==_0x49e890(0xaba)?_0x11f3b4=0x0:_0x11f3b4=0x1;var _0x1b76c9=this[_0x49e890(0x2b1)](_0x49e890(0x1fe));_0x1b76c9==_0x49e890(0xaba)?_0x1b76c9=0x0:_0x1b76c9=0x1;var _0x3b131e=this[_0x49e890(0x2b1)](_0x49e890(0x6f8));_0x3b131e==_0x49e890(0xaba)?_0x3b131e=0x0:_0x3b131e=0x1;var _0x3cac63=this['getFieldValue'](_0x49e890(0x561));_0x3cac63=='FALSE'?_0x3cac63=0x0:_0x3cac63=0x1;var _0x3419ad=this[_0x49e890(0x2b1)](_0x49e890(0x844));_0x3419ad==_0x49e890(0xaba)?_0x3419ad=0x0:_0x3419ad=0x1;var _0x34b470=this['getFieldValue'](_0x49e890(0xaab));_0x34b470==_0x49e890(0xaba)?_0x34b470=0x0:_0x34b470=0x1;var _0x2ffdbb=this['getFieldValue']('Pix14e1');_0x2ffdbb==_0x49e890(0xaba)?_0x2ffdbb=0x0:_0x2ffdbb=0x1;var _0x59c808=this[_0x49e890(0x2b1)](_0x49e890(0x4c4));_0x59c808==_0x49e890(0xaba)?_0x59c808=0x0:_0x59c808=0x1;var _0x5a2bab=this[_0x49e890(0x2b1)](_0x49e890(0x19e));_0x5a2bab==_0x49e890(0xaba)?_0x5a2bab=0x0:_0x5a2bab=0x1;var _0x5a581f=this[_0x49e890(0x2b1)](_0x49e890(0xb20));_0x5a581f=='FALSE'?_0x5a581f=0x0:_0x5a581f=0x1;var _0x27cb3=this[_0x49e890(0x2b1)](_0x49e890(0xabd));_0x27cb3==_0x49e890(0xaba)?_0x27cb3=0x0:_0x27cb3=0x1;var _0xa5d14=this[_0x49e890(0x2b1)](_0x49e890(0x35f));_0xa5d14==_0x49e890(0xaba)?_0xa5d14=0x0:_0xa5d14=0x1;var _0x27af1d=this[_0x49e890(0x2b1)](_0x49e890(0xb9a));_0x27af1d==_0x49e890(0xaba)?_0x27af1d=0x0:_0x27af1d=0x1;var _0x5153d5=this['getFieldValue'](_0x49e890(0x68c));_0x5153d5==_0x49e890(0xaba)?_0x5153d5=0x0:_0x5153d5=0x1;var _0x30f3b1=this[_0x49e890(0x2b1)]('Pix14e9');_0x30f3b1==_0x49e890(0xaba)?_0x30f3b1=0x0:_0x30f3b1=0x1;var _0x39b972=this[_0x49e890(0x2b1)](_0x49e890(0x46c));_0x39b972==_0x49e890(0xaba)?_0x39b972=0x0:_0x39b972=0x1;var _0x6b88ea=this['getFieldValue'](_0x49e890(0x2e1));_0x6b88ea=='FALSE'?_0x6b88ea=0x0:_0x6b88ea=0x1;var _0x1e2856=this[_0x49e890(0x2b1)](_0x49e890(0x2c6));_0x1e2856==_0x49e890(0xaba)?_0x1e2856=0x0:_0x1e2856=0x1;var _0x1e4988=this['getFieldValue'](_0x49e890(0x1e3));_0x1e4988==_0x49e890(0xaba)?_0x1e4988=0x0:_0x1e4988=0x1;var _0x3bf0df=this[_0x49e890(0x2b1)](_0x49e890(0xafb));_0x3bf0df==_0x49e890(0xaba)?_0x3bf0df=0x0:_0x3bf0df=0x1;var _0x29c9d7=this[_0x49e890(0x2b1)]('Pix14e15');_0x29c9d7==_0x49e890(0xaba)?_0x29c9d7=0x0:_0x29c9d7=0x1;var _0xe16b1f=this[_0x49e890(0x2b1)]('Pix15e0');_0xe16b1f==_0x49e890(0xaba)?_0xe16b1f=0x0:_0xe16b1f=0x1;var _0x40c728=this[_0x49e890(0x2b1)]('Pix15e1');_0x40c728==_0x49e890(0xaba)?_0x40c728=0x0:_0x40c728=0x1;var _0x1963b9=this[_0x49e890(0x2b1)](_0x49e890(0x45a));_0x1963b9==_0x49e890(0xaba)?_0x1963b9=0x0:_0x1963b9=0x1;var _0x1363df=this['getFieldValue']('Pix15e3');_0x1363df==_0x49e890(0xaba)?_0x1363df=0x0:_0x1363df=0x1;var _0x6cfb3d=this[_0x49e890(0x2b1)](_0x49e890(0x4a2));_0x6cfb3d=='FALSE'?_0x6cfb3d=0x0:_0x6cfb3d=0x1;var _0x42d76c=this[_0x49e890(0x2b1)](_0x49e890(0x3cf));_0x42d76c=='FALSE'?_0x42d76c=0x0:_0x42d76c=0x1;var _0x19cdd7=this[_0x49e890(0x2b1)](_0x49e890(0x18a));_0x19cdd7==_0x49e890(0xaba)?_0x19cdd7=0x0:_0x19cdd7=0x1;var _0x159416=this[_0x49e890(0x2b1)](_0x49e890(0x2ed));_0x159416==_0x49e890(0xaba)?_0x159416=0x0:_0x159416=0x1;var _0x591c19=this[_0x49e890(0x2b1)](_0x49e890(0x348));_0x591c19==_0x49e890(0xaba)?_0x591c19=0x0:_0x591c19=0x1;var _0x599307=this[_0x49e890(0x2b1)](_0x49e890(0x3ae));_0x599307==_0x49e890(0xaba)?_0x599307=0x0:_0x599307=0x1;var _0x5a0e7d=this[_0x49e890(0x2b1)]('Pix15e10');_0x5a0e7d=='FALSE'?_0x5a0e7d=0x0:_0x5a0e7d=0x1;var _0x175497=this[_0x49e890(0x2b1)](_0x49e890(0x8a1));_0x175497==_0x49e890(0xaba)?_0x175497=0x0:_0x175497=0x1;var _0x2d5fce=this[_0x49e890(0x2b1)]('Pix15e12');_0x2d5fce==_0x49e890(0xaba)?_0x2d5fce=0x0:_0x2d5fce=0x1;var _0x354c7f=this[_0x49e890(0x2b1)]('Pix15e13');_0x354c7f==_0x49e890(0xaba)?_0x354c7f=0x0:_0x354c7f=0x1;var _0x34ca17=this[_0x49e890(0x2b1)](_0x49e890(0x909));_0x34ca17=='FALSE'?_0x34ca17=0x0:_0x34ca17=0x1;var _0x30b07e=this[_0x49e890(0x2b1)](_0x49e890(0xae3));_0x30b07e=='FALSE'?_0x30b07e=0x0:_0x30b07e=0x1;Blockly['Arduino'][_0x49e890(0xa2c)][_0x49e890(0xcd5)+_0x15b877]='static\x20const\x20unsigned\x20char\x20PROGMEM\x20Logo_BMP'+_0x15b877+_0x49e890(0x97c)+'\x20{\x200x10,\x200x10,\x200xff,\x200x01,\x20\x20\x0a\x20'+_0x49e890(0x1d6)+_0x430801+''+_0x3c613d+''+_0x531fd9+''+_0xcdf136+''+_0x399c93+''+_0x1717a4+''+_0x1659a4+''+_0x52e41c+_0x49e890(0x22d)+'\x09B'+_0x4764c9+''+_0x80ca60+''+_0x371b06+''+_0x39e79c+''+_0x52e6ca+''+_0x3cb267+''+_0x45a0d3+''+_0x4a0753+_0x49e890(0x22d)+'\x09B'+_0x26486e+''+_0x5c7264+''+_0x2381ba+''+_0xd6292a+''+_0x31a923+''+_0x3736af+''+_0x3cd2f2+''+_0x17d4c0+',\x20\x20'+'\x09B'+_0x4c544e+''+_0x2db6fe+''+_0x52f89b+''+_0xb52890+''+_0xaae89c+''+_0x14228f+''+_0x118201+''+_0x26a60b+_0x49e890(0x22d)+'\x09B'+_0x2a38b5+''+_0x3b3e05+''+_0xd200ad+''+_0x45d86e+''+_0x31a5f4+''+_0x544cf2+''+_0x5d406e+''+_0x3d17c3+_0x49e890(0x22d)+'\x09B'+_0x2cd7e1+''+_0x51bef5+''+_0x36e028+''+_0x31ee42+''+_0x319777+''+_0x162339+''+_0x12c6ca+''+_0x2209ae+_0x49e890(0x22d)+'\x09B'+_0x24909a+''+_0x4eaa62+''+_0x3974de+''+_0x1458fd+''+_0x2be40b+''+_0x3cf3fc+''+_0x3f1706+''+_0x410899+_0x49e890(0x22d)+'\x09B'+_0x24ae71+''+_0x3073ae+''+_0x428735+''+_0x9078c7+''+_0x496f61+''+_0x8f5b65+''+_0xb34ab2+''+_0x18485c+_0x49e890(0xcba)+_0x49e890(0x1d6)+_0x1d50ef+''+_0x46fa24+''+_0x360ad2+''+_0x2eb9de+''+_0x4769ad+''+_0x117391+''+_0x431769+''+_0x5c525a+_0x49e890(0x22d)+'\x20\x20\x20B'+_0x9dd0eb+''+_0x5e58fb+''+_0x4d64d2+''+_0x4a4dad+''+_0x4efe47+''+_0x2b31f0+''+_0x5ee471+''+_0xaa9b51+_0x49e890(0x22d)+_0x49e890(0x1d6)+_0x516738+''+_0x6cf0c6+''+_0x3e993a+''+_0x5f5fd+''+_0x5ddf2d+''+_0xfae67e+''+_0x29aeda+''+_0x392e02+_0x49e890(0x22d)+'\x20\x20\x20B'+_0x2a8a11+''+_0x434502+''+_0x1e42df+''+_0x5abd92+''+_0x34a571+''+_0x274cf7+''+_0x254698+''+_0x458dcb+_0x49e890(0x22d)+_0x49e890(0x1d6)+_0x5813ec+''+_0x450407+''+_0xdc54af+''+_0x37a207+''+_0x2af9ab+''+_0x1801ad+''+_0x2b9543+''+_0x3692d4+_0x49e890(0x22d)+'\x20\x20\x20B'+_0x22f7e3+''+_0x520619+''+_0x356bad+''+_0x52a021+''+_0x3313b5+''+_0x3e9fe9+''+_0x5aefe8+''+_0x2f9202+_0x49e890(0x22d)+'\x20\x20\x20B'+_0x24508f+''+_0x3b48e6+''+_0x529d02+''+_0x142616+''+_0x27b382+''+_0x3f1440+''+_0x5a3d7d+''+_0x53aec7+_0x49e890(0x22d)+'\x20\x20\x20B'+_0x35bfd2+''+_0x2047ce+''+_0x56e9f1+''+_0x4ec28a+''+_0x1baf22+''+_0x225f2b+''+_0x25fd3e+''+_0x351142+_0x49e890(0xcba)+'\x20\x20\x20B'+_0xe16b1f+''+_0x34b470+''+_0x30d6a7+''+_0x184237+''+_0x51b230+''+_0x301a8f+''+_0x51d61c+''+_0x280d5e+',\x20\x20'+'\x09B'+_0x40c728+''+_0x2ffdbb+''+_0x2a990d+''+_0x46fb79+''+_0x3baefa+''+_0x1ae6ab+''+_0x59c897+''+_0x52e731+_0x49e890(0x22d)+'\x09B'+_0x1963b9+''+_0x59c808+''+_0xf97fde+''+_0x3e07b5+''+_0x447e99+''+_0x8ac368+''+_0x714157+''+_0x6ca76+_0x49e890(0x22d)+'\x09B'+_0x1363df+''+_0x5a2bab+''+_0x1c10ed+''+_0x22e193+''+_0x1eced7+''+_0x5c86e3+''+_0x3cf859+''+_0x710e5c+_0x49e890(0x22d)+'\x09B'+_0x6cfb3d+''+_0x5a581f+''+_0xa7fc3d+''+_0x127c5c+''+_0x40584d+''+_0xf36e7c+''+_0x42c7fc+''+_0x8a53c7+_0x49e890(0x22d)+'\x09B'+_0x42d76c+''+_0x27cb3+''+_0x4d43bb+''+_0x342ac2+''+_0x1bbf74+''+_0x26b5a9+''+_0x1afd8d+''+_0x16756e+',\x20\x20'+'\x09B'+_0x19cdd7+''+_0xa5d14+''+_0x5935e4+''+_0x4d4a7b+''+_0x5361b9+''+_0x25401b+''+_0x12ad8c+''+_0x23ee07+_0x49e890(0x22d)+'\x09B'+_0x159416+''+_0x27af1d+''+_0x3a6f21+''+_0x573cbf+''+_0x5de2ca+''+_0x15cfd7+''+_0x5a3ea2+''+_0x549a45+_0x49e890(0xcba)+_0x49e890(0x1d6)+_0x591c19+''+_0x5153d5+''+_0x5b1c23+''+_0x971331+''+_0x3c96a6+''+_0x506482+''+_0x2f0eed+''+_0x42f6f4+_0x49e890(0x22d)+_0x49e890(0x1d6)+_0x599307+''+_0x30f3b1+''+_0x48ef36+''+_0x5b7622+''+_0x2f5527+''+_0x3aa9a0+''+_0x1fb3e8+''+_0x394c79+_0x49e890(0x22d)+_0x49e890(0x1d6)+_0x5a0e7d+''+_0x39b972+''+_0x5c9e7e+''+_0x151451+''+_0xae02a9+''+_0x12648e+''+_0x1e4af1+''+_0xcc25c9+_0x49e890(0x22d)+_0x49e890(0x1d6)+_0x175497+''+_0x6b88ea+''+_0x11f3b4+''+_0x21c411+''+_0xae3af1+''+_0x206a66+''+_0x513576+''+_0x44382a+_0x49e890(0x22d)+_0x49e890(0x1d6)+_0x2d5fce+''+_0x1e2856+''+_0x1b76c9+''+_0x586763+''+_0x318650+''+_0xfd7c94+''+_0x2acfe4+''+_0xd98b35+_0x49e890(0x22d)+_0x49e890(0x1d6)+_0x354c7f+''+_0x1e4988+''+_0x3b131e+''+_0x53c962+''+_0x9322c2+''+_0x4706e2+''+_0x38a4cb+''+_0x4497a2+_0x49e890(0x22d)+_0x49e890(0x1d6)+_0x34ca17+''+_0x3bf0df+''+_0x3cac63+''+_0x39416d+''+_0x5186b9+''+_0x325fb8+''+_0x376b0f+''+_0x3b8bd1+_0x49e890(0x22d)+_0x49e890(0x1d6)+_0x30b07e+''+_0x29c9d7+''+_0x3419ad+''+_0x2a718f+''+_0x1c3472+''+_0x120363+''+_0x546e2a+''+_0x45eb83+'\x20\x0a\x20'+_0x49e890(0xa24);var _0x2338f1='\x20';return _0x2338f1;},Blockly['Arduino'][_0x3d686a(0x2e3)]=function(_0x148b29){var _0x5888e2=_0x3d686a,_0x11b6d3=_0x148b29['getFieldValue'](_0x5888e2(0xba2)),_0x433928=Blockly[_0x5888e2(0x2a3)][_0x5888e2(0x74d)](_0x148b29,_0x5888e2(0x978),Blockly[_0x5888e2(0x2a3)][_0x5888e2(0x7ce)]),_0x5e0d28=Blockly['Arduino']['valueToCode'](_0x148b29,'print_y',Blockly['Arduino']['ORDER_ATOMIC']),_0xc6baed=_0x5888e2(0xb93)+_0x11b6d3+',\x20'+_0x433928+',\x20'+_0x5e0d28+');\x20\x20\x0a';return _0xc6baed;},Blockly['Arduino']['lcd_con_nokia']=function(_0x5ddf49){var _0x445764=_0x3d686a,_0x32a58b=Blockly[_0x445764(0x2a3)][_0x445764(0x74d)](_0x5ddf49,_0x445764(0x192),Blockly['Arduino'][_0x445764(0x7ce)]),_0x3474fd=Blockly[_0x445764(0x2a3)][_0x445764(0x74d)](_0x5ddf49,'MOSI_N',Blockly[_0x445764(0x2a3)][_0x445764(0x7ce)]),_0x273e9a=Blockly[_0x445764(0x2a3)]['valueToCode'](_0x5ddf49,_0x445764(0x1c9),Blockly[_0x445764(0x2a3)][_0x445764(0x7ce)]),_0x1cd838=Blockly[_0x445764(0x2a3)]['valueToCode'](_0x5ddf49,_0x445764(0x743),Blockly[_0x445764(0x2a3)]['ORDER_ATOMIC']),_0x2d2353=Blockly[_0x445764(0x2a3)]['valueToCode'](_0x5ddf49,_0x445764(0x3a6),Blockly[_0x445764(0x2a3)][_0x445764(0x7ce)]);Blockly['Arduino'][_0x445764(0xa2c)][_0x445764(0x534)]=_0x445764(0x346)+_0x32a58b+','+_0x3474fd+','+_0x273e9a+','+_0x1cd838+','+_0x2d2353+_0x445764(0x884),Blockly[_0x445764(0x2a3)][_0x445764(0xcee)]['setup_lcd_con_nokia']=_0x445764(0x58e);var _0x193a0a='\x20';return _0x193a0a;},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0xa3c)]=function(_0x4ded5f){var _0x54b971=_0x3d686a,_0xbce3fc=Blockly[_0x54b971(0x2a3)][_0x54b971(0x74d)](_0x4ded5f,_0x54b971(0x376),Blockly['Arduino'][_0x54b971(0x7ce)]),_0x597cab=Blockly[_0x54b971(0x2a3)][_0x54b971(0x74d)](_0x4ded5f,'Y_Nokia',Blockly[_0x54b971(0x2a3)][_0x54b971(0x7ce)]),_0x338ce6=Blockly[_0x54b971(0x2a3)][_0x54b971(0x74d)](_0x4ded5f,_0x54b971(0x20a),Blockly[_0x54b971(0x2a3)][_0x54b971(0x7ce)]),_0x2629a3=_0x54b971(0x5b2)+_0x338ce6+',\x20'+_0xbce3fc+',\x20'+_0x597cab+_0x54b971(0x205);return _0x2629a3;},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0x5b3)]=function(_0x2602ca){var _0x4206b6=_0x3d686a,_0x327fab=Blockly[_0x4206b6(0x2a3)][_0x4206b6(0x74d)](_0x2602ca,_0x4206b6(0x376),Blockly['Arduino'][_0x4206b6(0x7ce)]),_0xb0ce60=Blockly[_0x4206b6(0x2a3)][_0x4206b6(0x74d)](_0x2602ca,_0x4206b6(0xa42),Blockly[_0x4206b6(0x2a3)]['ORDER_ATOMIC']),_0xb15350=Blockly[_0x4206b6(0x2a3)][_0x4206b6(0x74d)](_0x2602ca,_0x4206b6(0x240),Blockly[_0x4206b6(0x2a3)]['ORDER_ATOMIC']),_0x18c3af=this['getFieldValue']('dp'),_0x4f12d8='\x270\x27',_0x2018d5=_0x4206b6(0xceb)+_0xb15350+_0x4206b6(0xa15)+_0x18c3af+_0x4206b6(0xa9a)+_0x327fab+',\x20'+_0xb0ce60+',\x202,\x20'+_0x4f12d8+_0x4206b6(0x205);return _0x2018d5;},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0x212)]=function(_0x3c042e){var _0x22ba99=_0x3d686a,_0x52102a=Blockly[_0x22ba99(0x2a3)][_0x22ba99(0x74d)](_0x3c042e,_0x22ba99(0xcc0),Blockly[_0x22ba99(0x2a3)][_0x22ba99(0x7ce)]),_0x238d39=Blockly[_0x22ba99(0x2a3)][_0x22ba99(0x74d)](_0x3c042e,_0x22ba99(0x343),Blockly[_0x22ba99(0x2a3)][_0x22ba99(0x7ce)]),_0xd69bd0=Blockly['Arduino']['valueToCode'](_0x3c042e,_0x22ba99(0x231),Blockly[_0x22ba99(0x2a3)]['ORDER_ATOMIC']),_0x2080f7=this[_0x22ba99(0x2b1)]('dp');Blockly['Arduino'][_0x22ba99(0xa2c)][_0x22ba99(0x212)]=_0x22ba99(0x6bf)+_0xd69bd0+',\x20'+_0x238d39+',\x20'+_0x52102a+_0x22ba99(0x4d8);_0x2080f7==0x0?Blockly[_0x22ba99(0x2a3)][_0x22ba99(0xcee)]['setups_lcd_128x64px_spi']='\x20\x0a':Blockly[_0x22ba99(0x2a3)]['setups_'][_0x22ba99(0xc81)]='u8g.setRot'+_0x2080f7+_0x22ba99(0x262);var _0x41f964='\x20';return _0x41f964;},Blockly[_0x3d686a(0x2a3)]['lcd_128x64px_spi_mini']=function(_0x22e270){var _0x30b0c5=_0x3d686a,_0x23451d=Blockly[_0x30b0c5(0x2a3)][_0x30b0c5(0x74d)](_0x22e270,_0x30b0c5(0xcc0),Blockly['Arduino'][_0x30b0c5(0x7ce)]),_0xa7f212=Blockly['Arduino'][_0x30b0c5(0x74d)](_0x22e270,_0x30b0c5(0x343),Blockly[_0x30b0c5(0x2a3)]['ORDER_ATOMIC']),_0x3ef6ba=Blockly['Arduino'][_0x30b0c5(0x74d)](_0x22e270,_0x30b0c5(0x231),Blockly['Arduino']['ORDER_ATOMIC']),_0x1deb64=Blockly['Arduino'][_0x30b0c5(0x74d)](_0x22e270,_0x30b0c5(0x64d),Blockly[_0x30b0c5(0x2a3)]['ORDER_ATOMIC']),_0x2c81fd=Blockly[_0x30b0c5(0x2a3)][_0x30b0c5(0x74d)](_0x22e270,_0x30b0c5(0xbb0),Blockly[_0x30b0c5(0x2a3)][_0x30b0c5(0x7ce)]),_0x1b74a6=this[_0x30b0c5(0x2b1)]('dp');Blockly[_0x30b0c5(0x2a3)][_0x30b0c5(0xa2c)][_0x30b0c5(0x212)]=_0x30b0c5(0x8fc)+_0x2c81fd+',\x20'+_0x1deb64+',\x20'+_0x23451d+',\x20'+_0xa7f212+',\x20'+_0x3ef6ba+_0x30b0c5(0x4d8);_0x1b74a6==0x0?Blockly[_0x30b0c5(0x2a3)][_0x30b0c5(0xcee)][_0x30b0c5(0xc81)]='\x20\x0a':Blockly[_0x30b0c5(0x2a3)][_0x30b0c5(0xcee)][_0x30b0c5(0xc81)]=_0x30b0c5(0x7af)+_0x1b74a6+_0x30b0c5(0x262);var _0xe6a954='\x20';return _0xe6a954;},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0x332)]=function(_0x4c1e5a){var _0xf760d4=_0x3d686a,_0x11a260=this[_0xf760d4(0x2b1)]('dp2'),_0x5d256f=this[_0xf760d4(0x2b1)]('dp');Blockly[_0xf760d4(0x2a3)]['definitions_'][_0xf760d4(0x212)]=_0xf760d4(0x29d)+_0x11a260+';\x20\x0a\x20';_0x5d256f==0x0?Blockly[_0xf760d4(0x2a3)][_0xf760d4(0xcee)][_0xf760d4(0xc81)]='\x20\x0a':Blockly[_0xf760d4(0x2a3)][_0xf760d4(0xcee)][_0xf760d4(0xc81)]=_0xf760d4(0x7af)+_0x5d256f+_0xf760d4(0x262);var _0x3dbffb='\x20';return _0x3dbffb;},Blockly[_0x3d686a(0x2a3)]['lcd_128x64px_spi_b']=function(_0x591e7e){var _0x2051ee=_0x3d686a,_0x13bb4d=Blockly[_0x2051ee(0x2a3)][_0x2051ee(0xcd1)](this,'CONTENT'),_0x6bce16=_0x2051ee(0xc02)+_0x13bb4d+_0x2051ee(0x211);return _0x6bce16;return'';},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0x892)]=function(_0x369a03){var _0x3ed9eb=_0x3d686a,_0x4ab4de=Blockly[_0x3ed9eb(0x2a3)][_0x3ed9eb(0x74d)](_0x369a03,_0x3ed9eb(0x376),Blockly[_0x3ed9eb(0x2a3)]['ORDER_ATOMIC']),_0x568e41=Blockly[_0x3ed9eb(0x2a3)][_0x3ed9eb(0x74d)](_0x369a03,_0x3ed9eb(0xa42),Blockly['Arduino']['ORDER_ATOMIC']),_0x3148f2=Blockly[_0x3ed9eb(0x2a3)][_0x3ed9eb(0x74d)](_0x369a03,_0x3ed9eb(0x20a),Blockly[_0x3ed9eb(0x2a3)][_0x3ed9eb(0x7ce)]),_0x371668=this[_0x3ed9eb(0x2b1)]('dp'),_0x37a46b=_0x3ed9eb(0xbe2)+_0x371668+_0x3ed9eb(0x5b1)+_0x4ab4de+',\x20'+_0x568e41+');\x20\x0a\x20\x20\x20u8g.print('+_0x3148f2+_0x3ed9eb(0x205);return _0x37a46b;},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0x691)]=function(_0x5ab1c8){var _0x44faa5=_0x3d686a,_0x5cd75c=Blockly[_0x44faa5(0x2a3)][_0x44faa5(0x74d)](_0x5ab1c8,_0x44faa5(0x376),Blockly[_0x44faa5(0x2a3)][_0x44faa5(0x7ce)]),_0xf086a1=Blockly[_0x44faa5(0x2a3)][_0x44faa5(0x74d)](_0x5ab1c8,_0x44faa5(0xa42),Blockly[_0x44faa5(0x2a3)][_0x44faa5(0x7ce)]),_0x3da007='\x20\x20u8g.drawPixel('+_0x5cd75c+',\x20'+_0xf086a1+_0x44faa5(0x205);return _0x3da007;},Blockly[_0x3d686a(0x2a3)]['lcd_128x64px_spi_line']=function(_0x36927e){var _0x568e66=_0x3d686a,_0x443955=Blockly['Arduino'][_0x568e66(0x74d)](_0x36927e,'X_Nokia',Blockly[_0x568e66(0x2a3)]['ORDER_ATOMIC']),_0x5896ec=Blockly[_0x568e66(0x2a3)][_0x568e66(0x74d)](_0x36927e,_0x568e66(0xa42),Blockly[_0x568e66(0x2a3)][_0x568e66(0x7ce)]),_0x330bf2=Blockly['Arduino'][_0x568e66(0x74d)](_0x36927e,_0x568e66(0x8a4),Blockly[_0x568e66(0x2a3)][_0x568e66(0x7ce)]),_0xecc430=Blockly[_0x568e66(0x2a3)][_0x568e66(0x74d)](_0x36927e,_0x568e66(0x804),Blockly[_0x568e66(0x2a3)][_0x568e66(0x7ce)]),_0x19fb9a=_0x568e66(0x37c)+_0x443955+',\x20'+_0x5896ec+',\x20'+_0x330bf2+',\x20'+_0xecc430+_0x568e66(0x466);return _0x19fb9a;},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0x8a3)]=function(_0x258a8d){var _0xe9b4cc=_0x3d686a,_0x13b018=Blockly[_0xe9b4cc(0x2a3)][_0xe9b4cc(0x74d)](_0x258a8d,_0xe9b4cc(0x376),Blockly['Arduino'][_0xe9b4cc(0x7ce)]),_0x3396ec=Blockly[_0xe9b4cc(0x2a3)]['valueToCode'](_0x258a8d,'Y_Nokia',Blockly[_0xe9b4cc(0x2a3)][_0xe9b4cc(0x7ce)]),_0xcd6db7=Blockly['Arduino'][_0xe9b4cc(0x74d)](_0x258a8d,_0xe9b4cc(0x8a4),Blockly[_0xe9b4cc(0x2a3)]['ORDER_ATOMIC']),_0x2a7e6a=Blockly[_0xe9b4cc(0x2a3)][_0xe9b4cc(0x74d)](_0x258a8d,'Y_Nokia2',Blockly[_0xe9b4cc(0x2a3)][_0xe9b4cc(0x7ce)]),_0xe1f1f1=Blockly[_0xe9b4cc(0x2a3)][_0xe9b4cc(0x74d)](_0x258a8d,_0xe9b4cc(0xb78),Blockly[_0xe9b4cc(0x2a3)][_0xe9b4cc(0x7ce)]),_0x356c2e=this[_0xe9b4cc(0x2b1)]('LOGIC');if(_0x356c2e==_0xe9b4cc(0xaba))var _0x40ec35='\x20u8g.drawRFrame('+_0x13b018+',\x20'+_0x3396ec+',\x20'+_0x2a7e6a+',\x20'+_0xcd6db7+',\x20'+_0xe1f1f1+_0xe9b4cc(0x4c0);else var _0x40ec35=_0xe9b4cc(0x629)+_0x13b018+',\x20'+_0x3396ec+',\x20'+_0x2a7e6a+',\x20'+_0xcd6db7+',\x20'+_0xe1f1f1+');\x20\x20\x20\x0a\x09';return _0x40ec35;},Blockly['Arduino'][_0x3d686a(0x34c)]=function(_0x5d9e3d){var _0x4b757f=_0x3d686a,_0x536523=_0x5d9e3d['getFieldValue']('TEXT'),_0x5e92bf=this[_0x4b757f(0x2b1)](_0x4b757f(0x71c));_0x5e92bf==_0x4b757f(0xaba)?_0x5e92bf=0x0:_0x5e92bf=0x1;var _0x34a18b=this['getFieldValue'](_0x4b757f(0x4ed));_0x34a18b=='FALSE'?_0x34a18b=0x0:_0x34a18b=0x1;var _0x380dd6=this['getFieldValue'](_0x4b757f(0x7a5));_0x380dd6==_0x4b757f(0xaba)?_0x380dd6=0x0:_0x380dd6=0x1;var _0x52a885=this[_0x4b757f(0x2b1)](_0x4b757f(0x829));_0x52a885==_0x4b757f(0xaba)?_0x52a885=0x0:_0x52a885=0x1;var _0x542871=this[_0x4b757f(0x2b1)](_0x4b757f(0xc0d));_0x542871=='FALSE'?_0x542871=0x0:_0x542871=0x1;var _0x216741=this[_0x4b757f(0x2b1)](_0x4b757f(0xca0));_0x216741==_0x4b757f(0xaba)?_0x216741=0x0:_0x216741=0x1;var _0x3a2963=this['getFieldValue'](_0x4b757f(0x717));_0x3a2963==_0x4b757f(0xaba)?_0x3a2963=0x0:_0x3a2963=0x1;var _0x59c01a=this[_0x4b757f(0x2b1)](_0x4b757f(0xb51));_0x59c01a==_0x4b757f(0xaba)?_0x59c01a=0x0:_0x59c01a=0x1;var _0x2be8d0=this[_0x4b757f(0x2b1)](_0x4b757f(0x23e));_0x2be8d0=='FALSE'?_0x2be8d0=0x0:_0x2be8d0=0x1;var _0x162048=this[_0x4b757f(0x2b1)](_0x4b757f(0x2cd));_0x162048=='FALSE'?_0x162048=0x0:_0x162048=0x1;var _0x458f83=this[_0x4b757f(0x2b1)](_0x4b757f(0x7a8));_0x458f83==_0x4b757f(0xaba)?_0x458f83=0x0:_0x458f83=0x1;var _0x5e2073=this['getFieldValue'](_0x4b757f(0x746));_0x5e2073==_0x4b757f(0xaba)?_0x5e2073=0x0:_0x5e2073=0x1;var _0x211a21=this[_0x4b757f(0x2b1)]('Pix1e4');_0x211a21=='FALSE'?_0x211a21=0x0:_0x211a21=0x1;var _0x503531=this[_0x4b757f(0x2b1)](_0x4b757f(0x259));_0x503531==_0x4b757f(0xaba)?_0x503531=0x0:_0x503531=0x1;var _0x3b1250=this['getFieldValue']('Pix1e6');_0x3b1250==_0x4b757f(0xaba)?_0x3b1250=0x0:_0x3b1250=0x1;var _0x4c1bf5=this[_0x4b757f(0x2b1)]('Pix1e7');_0x4c1bf5==_0x4b757f(0xaba)?_0x4c1bf5=0x0:_0x4c1bf5=0x1;var _0x20e712=this[_0x4b757f(0x2b1)](_0x4b757f(0x4dc));_0x20e712==_0x4b757f(0xaba)?_0x20e712=0x0:_0x20e712=0x1;var _0x59cbd8=this[_0x4b757f(0x2b1)](_0x4b757f(0xa8d));_0x59cbd8==_0x4b757f(0xaba)?_0x59cbd8=0x0:_0x59cbd8=0x1;var _0x444ed6=this['getFieldValue'](_0x4b757f(0xcb4));_0x444ed6==_0x4b757f(0xaba)?_0x444ed6=0x0:_0x444ed6=0x1;var _0x92d332=this[_0x4b757f(0x2b1)]('Pix2e3');_0x92d332==_0x4b757f(0xaba)?_0x92d332=0x0:_0x92d332=0x1;var _0x1c7d8f=this['getFieldValue'](_0x4b757f(0x75b));_0x1c7d8f==_0x4b757f(0xaba)?_0x1c7d8f=0x0:_0x1c7d8f=0x1;var _0x1d1a15=this['getFieldValue']('Pix2e5');_0x1d1a15==_0x4b757f(0xaba)?_0x1d1a15=0x0:_0x1d1a15=0x1;var _0x44ac9c=this[_0x4b757f(0x2b1)](_0x4b757f(0x851));_0x44ac9c==_0x4b757f(0xaba)?_0x44ac9c=0x0:_0x44ac9c=0x1;var _0x43c309=this['getFieldValue'](_0x4b757f(0xb0f));_0x43c309==_0x4b757f(0xaba)?_0x43c309=0x0:_0x43c309=0x1;var _0x52eb21=this['getFieldValue'](_0x4b757f(0x64b));_0x52eb21=='FALSE'?_0x52eb21=0x0:_0x52eb21=0x1;var _0x19481f=this[_0x4b757f(0x2b1)]('Pix3e1');_0x19481f==_0x4b757f(0xaba)?_0x19481f=0x0:_0x19481f=0x1;var _0x4b95fc=this[_0x4b757f(0x2b1)](_0x4b757f(0xb48));_0x4b95fc=='FALSE'?_0x4b95fc=0x0:_0x4b95fc=0x1;var _0x1a3e76=this[_0x4b757f(0x2b1)]('Pix3e3');_0x1a3e76==_0x4b757f(0xaba)?_0x1a3e76=0x0:_0x1a3e76=0x1;var _0xc7794e=this[_0x4b757f(0x2b1)](_0x4b757f(0x420));_0xc7794e==_0x4b757f(0xaba)?_0xc7794e=0x0:_0xc7794e=0x1;var _0x509aa8=this['getFieldValue'](_0x4b757f(0xb06));_0x509aa8==_0x4b757f(0xaba)?_0x509aa8=0x0:_0x509aa8=0x1;var _0x290e45=this['getFieldValue'](_0x4b757f(0x4e5));_0x290e45==_0x4b757f(0xaba)?_0x290e45=0x0:_0x290e45=0x1;var _0x3211fa=this[_0x4b757f(0x2b1)]('Pix3e7');_0x3211fa==_0x4b757f(0xaba)?_0x3211fa=0x0:_0x3211fa=0x1;var _0x48c7b6=this[_0x4b757f(0x2b1)](_0x4b757f(0x82e));_0x48c7b6==_0x4b757f(0xaba)?_0x48c7b6=0x0:_0x48c7b6=0x1;var _0xd66c8d=this[_0x4b757f(0x2b1)](_0x4b757f(0xc39));_0xd66c8d=='FALSE'?_0xd66c8d=0x0:_0xd66c8d=0x1;var _0x3d841a=this['getFieldValue']('Pix4e2');_0x3d841a==_0x4b757f(0xaba)?_0x3d841a=0x0:_0x3d841a=0x1;var _0x2691a4=this[_0x4b757f(0x2b1)]('Pix4e3');_0x2691a4==_0x4b757f(0xaba)?_0x2691a4=0x0:_0x2691a4=0x1;var _0x47d210=this[_0x4b757f(0x2b1)](_0x4b757f(0xbab));_0x47d210==_0x4b757f(0xaba)?_0x47d210=0x0:_0x47d210=0x1;var _0x557818=this[_0x4b757f(0x2b1)](_0x4b757f(0x532));_0x557818==_0x4b757f(0xaba)?_0x557818=0x0:_0x557818=0x1;var _0x3a5694=this[_0x4b757f(0x2b1)](_0x4b757f(0x660));_0x3a5694==_0x4b757f(0xaba)?_0x3a5694=0x0:_0x3a5694=0x1;var _0x3bc480=this[_0x4b757f(0x2b1)](_0x4b757f(0xb46));_0x3bc480==_0x4b757f(0xaba)?_0x3bc480=0x0:_0x3bc480=0x1;var _0x6fcb8a=this[_0x4b757f(0x2b1)](_0x4b757f(0x741));_0x6fcb8a=='FALSE'?_0x6fcb8a=0x0:_0x6fcb8a=0x1;var _0x3dfcd9=this[_0x4b757f(0x2b1)]('Pix5e1');_0x3dfcd9=='FALSE'?_0x3dfcd9=0x0:_0x3dfcd9=0x1;var _0x1d74e0=this[_0x4b757f(0x2b1)]('Pix5e2');_0x1d74e0=='FALSE'?_0x1d74e0=0x0:_0x1d74e0=0x1;var _0x125df8=this[_0x4b757f(0x2b1)](_0x4b757f(0x937));_0x125df8==_0x4b757f(0xaba)?_0x125df8=0x0:_0x125df8=0x1;var _0x20a20d=this['getFieldValue'](_0x4b757f(0x29e));_0x20a20d==_0x4b757f(0xaba)?_0x20a20d=0x0:_0x20a20d=0x1;var _0x115dba=this['getFieldValue'](_0x4b757f(0xbd9));_0x115dba=='FALSE'?_0x115dba=0x0:_0x115dba=0x1;var _0x41a2d6=this[_0x4b757f(0x2b1)](_0x4b757f(0x76d));_0x41a2d6==_0x4b757f(0xaba)?_0x41a2d6=0x0:_0x41a2d6=0x1;var _0x253e84=this[_0x4b757f(0x2b1)]('Pix5e7');_0x253e84=='FALSE'?_0x253e84=0x0:_0x253e84=0x1;var _0x2f3ab5=this[_0x4b757f(0x2b1)](_0x4b757f(0xa72));_0x2f3ab5=='FALSE'?_0x2f3ab5=0x0:_0x2f3ab5=0x1;var _0x51c393=this[_0x4b757f(0x2b1)](_0x4b757f(0x579));_0x51c393==_0x4b757f(0xaba)?_0x51c393=0x0:_0x51c393=0x1;var _0x4a54a5=this[_0x4b757f(0x2b1)]('Pix6e2');_0x4a54a5==_0x4b757f(0xaba)?_0x4a54a5=0x0:_0x4a54a5=0x1;var _0xab1ee0=this[_0x4b757f(0x2b1)](_0x4b757f(0xaea));_0xab1ee0=='FALSE'?_0xab1ee0=0x0:_0xab1ee0=0x1;var _0x23a8b0=this[_0x4b757f(0x2b1)](_0x4b757f(0x657));_0x23a8b0==_0x4b757f(0xaba)?_0x23a8b0=0x0:_0x23a8b0=0x1;var _0x57fd23=this[_0x4b757f(0x2b1)](_0x4b757f(0xc2c));_0x57fd23=='FALSE'?_0x57fd23=0x0:_0x57fd23=0x1;var _0x12a30c=this[_0x4b757f(0x2b1)](_0x4b757f(0x313));_0x12a30c=='FALSE'?_0x12a30c=0x0:_0x12a30c=0x1;var _0x31e322=this[_0x4b757f(0x2b1)]('Pix6e7');_0x31e322==_0x4b757f(0xaba)?_0x31e322=0x0:_0x31e322=0x1;var _0xe7b5cc=this[_0x4b757f(0x2b1)](_0x4b757f(0x2d2));_0xe7b5cc==_0x4b757f(0xaba)?_0xe7b5cc=0x0:_0xe7b5cc=0x1;var _0x33389e=this[_0x4b757f(0x2b1)](_0x4b757f(0x6b0));_0x33389e==_0x4b757f(0xaba)?_0x33389e=0x0:_0x33389e=0x1;var _0x116de4=this[_0x4b757f(0x2b1)]('Pix7e2');_0x116de4==_0x4b757f(0xaba)?_0x116de4=0x0:_0x116de4=0x1;var _0x1c641a=this[_0x4b757f(0x2b1)](_0x4b757f(0x40b));_0x1c641a==_0x4b757f(0xaba)?_0x1c641a=0x0:_0x1c641a=0x1;var _0x5b5597=this['getFieldValue']('Pix7e4');_0x5b5597==_0x4b757f(0xaba)?_0x5b5597=0x0:_0x5b5597=0x1;var _0x4a45bf=this[_0x4b757f(0x2b1)]('Pix7e5');_0x4a45bf==_0x4b757f(0xaba)?_0x4a45bf=0x0:_0x4a45bf=0x1;var _0x3bb561=this[_0x4b757f(0x2b1)](_0x4b757f(0x3a1));_0x3bb561=='FALSE'?_0x3bb561=0x0:_0x3bb561=0x1;var _0x454794=this['getFieldValue'](_0x4b757f(0xc78));_0x454794==_0x4b757f(0xaba)?_0x454794=0x0:_0x454794=0x1;Blockly[_0x4b757f(0x2a3)]['definitions_']['minilcdi2c_setcursor_draw'+_0x536523]=_0x4b757f(0x99a)+_0x536523+_0x4b757f(0x73a)+'\x20B'+_0x5e92bf+''+_0x34a18b+''+_0x380dd6+''+_0x52a885+''+_0x542871+''+_0x216741+''+_0x3a2963+''+_0x59c01a+_0x4b757f(0xb58)+_0x4b757f(0x6bc)+_0x2be8d0+''+_0x162048+''+_0x458f83+''+_0x5e2073+''+_0x211a21+''+_0x503531+''+_0x3b1250+''+_0x4c1bf5+_0x4b757f(0xb58)+'\x20\x20B'+_0x20e712+''+_0x59cbd8+''+_0x444ed6+''+_0x92d332+''+_0x1c7d8f+''+_0x1d1a15+''+_0x44ac9c+''+_0x43c309+_0x4b757f(0xb58)+_0x4b757f(0x6bc)+_0x52eb21+''+_0x19481f+''+_0x4b95fc+''+_0x1a3e76+''+_0xc7794e+''+_0x509aa8+''+_0x290e45+''+_0x3211fa+',\x20\x0a'+'\x20\x20B'+_0x48c7b6+''+_0xd66c8d+''+_0x3d841a+''+_0x2691a4+''+_0x47d210+''+_0x557818+''+_0x3a5694+''+_0x3bc480+',\x20\x0a'+_0x4b757f(0x6bc)+_0x6fcb8a+''+_0x3dfcd9+''+_0x1d74e0+''+_0x125df8+''+_0x20a20d+''+_0x115dba+''+_0x41a2d6+''+_0x253e84+_0x4b757f(0xb58)+'\x20\x20B'+_0x2f3ab5+''+_0x51c393+''+_0x4a54a5+''+_0xab1ee0+''+_0x23a8b0+''+_0x57fd23+''+_0x12a30c+''+_0x31e322+_0x4b757f(0xb58)+_0x4b757f(0x6bc)+_0xe7b5cc+''+_0x33389e+''+_0x116de4+''+_0x1c641a+''+_0x5b5597+''+_0x4a45bf+''+_0x3bb561+''+_0x454794+'\x20\x0a'+'};\x20\x0a';var _0x22dc8a='\x20';return _0x22dc8a;},Blockly['Arduino'][_0x3d686a(0x63f)]=function(_0x26b2f2){var _0x36d009=_0x3d686a,_0x50b1ba=_0x26b2f2['getFieldValue']('TEXT'),_0x4a3110=Blockly[_0x36d009(0x2a3)][_0x36d009(0x74d)](_0x26b2f2,_0x36d009(0x978),Blockly[_0x36d009(0x2a3)]['ORDER_ATOMIC']),_0x4b44a0=Blockly[_0x36d009(0x2a3)]['valueToCode'](_0x26b2f2,_0x36d009(0xbd4),Blockly['Arduino'][_0x36d009(0x7ce)]),_0x1b3b70=_0x36d009(0x288)+_0x4a3110+',\x20'+_0x4b44a0+_0x36d009(0x5be)+_0x50b1ba+_0x36d009(0x4d8);return _0x1b3b70;},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0x3f8)]=function(_0x2465b0){var _0x53870e=_0x3d686a,_0x5b7672=Blockly[_0x53870e(0x2a3)][_0x53870e(0x74d)](_0x2465b0,_0x53870e(0xcc0),Blockly[_0x53870e(0x2a3)][_0x53870e(0x7ce)]),_0x8424b3=Blockly[_0x53870e(0x2a3)]['valueToCode'](_0x2465b0,'pin2',Blockly[_0x53870e(0x2a3)]['ORDER_ATOMIC']),_0x38d2c4=Blockly[_0x53870e(0x2a3)]['valueToCode'](_0x2465b0,_0x53870e(0x231),Blockly[_0x53870e(0x2a3)][_0x53870e(0x7ce)]),_0x2b8f81=this[_0x53870e(0x2b1)](_0x53870e(0x28c)),_0x5ca931=this[_0x53870e(0x2b1)]('dp');Blockly[_0x53870e(0x2a3)][_0x53870e(0xa2c)][_0x53870e(0x3f8)]=_0x53870e(0x858)+_0x5b7672+','+_0x8424b3+','+_0x38d2c4+');\x20\x20\x0a\x20',Blockly[_0x53870e(0x2a3)][_0x53870e(0xcee)][_0x53870e(0x73d)]=_0x53870e(0xc24)+_0x2b8f81+');\x20\x20\x0a\x20\x20tft1.setRotation('+_0x5ca931+_0x53870e(0x232);var _0x20ac9d='\x20';return _0x20ac9d;},Blockly['Arduino']['lcd_128x128px_spi_tv']=function(_0x40bde6){var _0x312f8e=_0x3d686a,_0x708265=this['getFieldValue'](_0x312f8e(0xa74));Blockly['Arduino'][_0x312f8e(0xa2c)]['lcd_128x128px_spi_tv']=_0x312f8e(0x4b2),Blockly[_0x312f8e(0x2a3)]['setups_'][_0x312f8e(0x3fd)]='\x20TV.begin('+_0x708265+_0x312f8e(0x2e0);var _0xdda68f='\x20';return _0xdda68f;},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0x836)]=function(_0x195cb5){var _0x52c5bb=_0x3d686a,_0x187a48=this['getFieldValue']('format');Blockly['Arduino']['definitions_'][_0x52c5bb(0x7a2)]='\x20\x20\x0a'+_0x52c5bb(0xa9c)+_0x52c5bb(0x5b0)+_0x52c5bb(0xc00)+_0x52c5bb(0x6cb)+'\x20\x20const\x20unsigned\x20char\x20fnt_ufont_data[FNT_UFONT_SYMBOLS_COUNT][1+FNT_UFONT_HEIGHT]\x20PROGMEM={\x20\x20\x20\x0a'+_0x52c5bb(0xc9b)+_0x52c5bb(0x5c3)+_0x52c5bb(0xbe9)+_0x52c5bb(0x929)+_0x52c5bb(0x674)+_0x52c5bb(0x4c6)+'\x20\x20{\x202,\x20128,\x20\x2064,\x20\x20\x200,\x20\x20\x200,\x20\x20\x200,\x20\x20\x200,\x20},\x20//glyph\x20\x20code=6\x20\x20\x20\x0a'+_0x52c5bb(0x217)+_0x52c5bb(0x1e2)+_0x52c5bb(0x344)+'\x20\x20{\x203,\x20\x20\x200,\x20\x2064,\x20224,\x20\x2064,\x20\x20\x200,\x20\x20\x200,\x20},\x20//glyph\x20+\x20code=10\x20\x20\x20\x0a'+_0x52c5bb(0x716)+'\x20\x20{\x203,\x20\x20\x200,\x20\x20\x200,\x20224,\x20\x20\x200,\x20\x20\x200,\x20\x20\x200,\x20},\x20//glyph\x20-\x20code=12\x20\x20\x20\x0a'+_0x52c5bb(0x75c)+_0x52c5bb(0x99f)+_0x52c5bb(0xba3)+_0x52c5bb(0x2bf)+_0x52c5bb(0x334)+_0x52c5bb(0x9ac)+_0x52c5bb(0x8ec)+_0x52c5bb(0x85f)+'\x20\x20{\x204,\x20\x2096,\x20128,\x20224,\x20144,\x20\x2096,\x20\x20\x200,\x20},\x20//glyph\x206\x20code=21\x20\x20\x20\x0a'+_0x52c5bb(0x727)+_0x52c5bb(0x760)+'\x20\x20{\x204,\x20\x2096,\x20144,\x20112,\x20\x2016,\x20\x2096,\x20\x20\x200,\x20},\x20//glyph\x209\x20code=24\x20\x20\x20\x0a'+_0x52c5bb(0x38a)+_0x52c5bb(0xce6)+_0x52c5bb(0x2f6)+_0x52c5bb(0x5bf)+_0x52c5bb(0xc3a)+_0x52c5bb(0x3da)+_0x52c5bb(0x384)+'\x20\x20{\x204,\x20\x2096,\x20144,\x20240,\x20144,\x20144,\x20\x20\x200,\x20},\x20//glyph\x20A\x20code=32\x20\x20\x20\x0a'+_0x52c5bb(0xbb9)+_0x52c5bb(0x4ad)+_0x52c5bb(0xa97)+'\x20\x20{\x204,\x20240,\x20128,\x20224,\x20128,\x20240,\x20\x20\x200,\x20},\x20//glyph\x20E\x20code=36\x20\x20\x20\x0a'+_0x52c5bb(0x641)+_0x52c5bb(0x97f)+_0x52c5bb(0x799)+_0x52c5bb(0x368)+_0x52c5bb(0x7f9)+_0x52c5bb(0x902)+_0x52c5bb(0x6f5)+_0x52c5bb(0x21a)+_0x52c5bb(0x939)+_0x52c5bb(0x612)+_0x52c5bb(0x9e9)+_0x52c5bb(0x333)+_0x52c5bb(0x69b)+_0x52c5bb(0xc2b)+_0x52c5bb(0x84f)+_0x52c5bb(0xbfe)+_0x52c5bb(0x3ec)+_0x52c5bb(0x390)+_0x52c5bb(0xb72)+'\x20\x20{\x203,\x20160,\x20160,\x20\x2064,\x20\x2064,\x20\x2064,\x20\x20\x200,\x20},\x20//glyph\x20Y\x20code=56\x20\x20\x20\x0a'+_0x52c5bb(0xa16)+_0x52c5bb(0x86a)+_0x52c5bb(0x6ef)+_0x52c5bb(0x819)+_0x52c5bb(0x3fa)+_0x52c5bb(0x1de)+_0x52c5bb(0x576)+_0x52c5bb(0x9a7)+'\x20\x20{\x203,\x20128,\x20224,\x20160,\x20160,\x20224,\x20\x20\x200,\x20},\x20//glyph\x20b\x20code=65\x20\x20\x20\x0a'+'\x20\x20{\x203,\x20\x20\x200,\x20224,\x20128,\x20128,\x20224,\x20\x20\x200,\x20},\x20//glyph\x20c\x20code=66\x20\x20\x20\x0a'+'\x20\x20{\x203,\x20\x2032,\x20224,\x20160,\x20160,\x20224,\x20\x20\x200,\x20},\x20//glyph\x20d\x20code=67\x20\x20\x20\x0a'+_0x52c5bb(0x482)+_0x52c5bb(0x58b)+_0x52c5bb(0x88c)+_0x52c5bb(0x5c5)+'\x20\x20{\x201,\x20128,\x20\x20\x200,\x20\x20\x20128,\x20128,\x20128,\x200,\x20},\x20//glyph\x20i\x20code=72\x20\x20\x20\x0a'+_0x52c5bb(0x5fc)+_0x52c5bb(0x9be)+_0x52c5bb(0x582)+'\x20\x20{\x205,\x20\x20\x200,\x20248,\x20168,\x20168,\x20168,\x20\x20\x200,\x20},\x20//glyph\x20m\x20code=76\x20\x20\x20\x0a'+_0x52c5bb(0x87c)+_0x52c5bb(0x997)+_0x52c5bb(0x757)+_0x52c5bb(0xb47)+_0x52c5bb(0x9b2)+_0x52c5bb(0x90b)+'\x20\x20{\x203,\x20\x2064,\x20224,\x20\x2064,\x20\x2064,\x20\x2064,\x20\x20\x200,\x20},\x20//glyph\x20t\x20code=83\x20\x20\x20\x0a'+_0x52c5bb(0x456)+_0x52c5bb(0xb5a)+_0x52c5bb(0x917)+_0x52c5bb(0xc14)+_0x52c5bb(0x94f)+_0x52c5bb(0x19b)+'\x20\x20{\x203,\x20\x2096,\x20\x2064,\x20192,\x20\x2064,\x20\x2096,\x20\x20\x200,\x20},\x20//glyph\x20{\x20code=90\x20\x20\x20\x0a'+'\x20\x20{\x201,\x20128,\x20128,\x20128,\x20128,\x20128,\x20\x20\x200,\x20},\x20//glyph\x20|\x20code=91\x20\x20\x20\x0a'+_0x52c5bb(0x385)+_0x52c5bb(0x40f)+_0x52c5bb(0x841)+'\x20\x20};\x20\x20\x20\x0a'+_0x52c5bb(0x9df)+_0x52c5bb(0x46d),Blockly[_0x52c5bb(0x2a3)]['setups_'][_0x52c5bb(0x3fd)]=_0x52c5bb(0xce1);var _0x18e4c9='\x20';return _0x18e4c9;},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0x7c4)]=function(_0x1c2a88){var _0x50d128=_0x3d686a,_0x5dee99=Blockly[_0x50d128(0x2a3)]['valueToCode'](_0x1c2a88,'X_Nokia',Blockly[_0x50d128(0x2a3)][_0x50d128(0x7ce)]),_0x3b7830=Blockly['Arduino'][_0x50d128(0x74d)](_0x1c2a88,_0x50d128(0xa42),Blockly[_0x50d128(0x2a3)][_0x50d128(0x7ce)]),_0x5e1adc=Blockly['Arduino'][_0x50d128(0x74d)](_0x1c2a88,'texttoprint',Blockly['Arduino']['ORDER_ATOMIC']),_0x5ae3d4=this[_0x50d128(0x2b1)]('color'),_0x1e085b=this[_0x50d128(0x2b1)](_0x50d128(0x342)),_0x57b434=_0x50d128(0x1ff)+_0x5dee99+',\x20'+_0x3b7830+_0x50d128(0x6cf)+_0x5ae3d4+_0x50d128(0xbb3)+_0x1e085b+_0x50d128(0x848)+_0x5e1adc+');\x20\x20\x0a\x09';return _0x57b434;},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0x7fe)]=function(_0xacd708){var _0x3f53e7=_0x3d686a,_0x28d3af=Blockly[_0x3f53e7(0x2a3)]['valueToCode'](_0xacd708,_0x3f53e7(0x376),Blockly[_0x3f53e7(0x2a3)][_0x3f53e7(0x7ce)]),_0x3167d0=Blockly['Arduino']['valueToCode'](_0xacd708,_0x3f53e7(0xa42),Blockly[_0x3f53e7(0x2a3)][_0x3f53e7(0x7ce)]),_0x63f7ec=Blockly[_0x3f53e7(0x2a3)][_0x3f53e7(0x74d)](_0xacd708,_0x3f53e7(0x20a),Blockly[_0x3f53e7(0x2a3)][_0x3f53e7(0x7ce)]),_0x21ccde=this[_0x3f53e7(0x2b1)](_0x3f53e7(0x36a)),_0x500292=_0x3f53e7(0x69f)+_0x21ccde+');\x20\x0a\x20\x20TV.println('+_0x28d3af+',\x20'+_0x3167d0+','+_0x63f7ec+_0x3f53e7(0x4d8);return _0x500292;},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0xbce)]=function(_0x5f0d3b){var _0x129d21=_0x3d686a,_0x310a6a=Blockly[_0x129d21(0x2a3)][_0x129d21(0x74d)](_0x5f0d3b,'X_Nokia',Blockly[_0x129d21(0x2a3)]['ORDER_ATOMIC']),_0x30831f=Blockly['Arduino'][_0x129d21(0x74d)](_0x5f0d3b,_0x129d21(0xa42),Blockly['Arduino']['ORDER_ATOMIC']),_0x6c2a55=Blockly[_0x129d21(0x2a3)][_0x129d21(0x74d)](_0x5f0d3b,_0x129d21(0x20a),Blockly[_0x129d21(0x2a3)][_0x129d21(0x7ce)]),_0x239af7=this['getFieldValue'](_0x129d21(0x36a)),_0x30fa63=Math[_0x129d21(0x95f)](Math[_0x129d21(0x67b)]()*0x98967f)+0x1,_0x192eb1=_0x129d21(0x715)+_0x30fa63+'[]\x20PROGMEM='+_0x6c2a55+_0x129d21(0x5d6)+_0x30fa63+',\x20'+_0x310a6a+',\x20'+_0x30831f+',\x20'+_0x239af7+_0x129d21(0x28f);return _0x192eb1;},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0x734)]=function(_0x4c9955){var _0x56f6a8='\x20vga.clear(0);\x20\x20\x0a\x20';return _0x56f6a8;},Blockly['Arduino']['lcd_128x128px_spi_text_tv_vga2']=function(_0x42b6c5){var _0x246ca0=_0x3d686a,_0x204c0f=Blockly[_0x246ca0(0x2a3)][_0x246ca0(0x74d)](_0x42b6c5,_0x246ca0(0x376),Blockly[_0x246ca0(0x2a3)][_0x246ca0(0x7ce)]),_0x2ff761=_0x246ca0(0xb7c)+_0x204c0f+_0x246ca0(0xc9d);return _0x2ff761;},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0x2a7)]=function(_0x71b5a6){var _0x2b189f=_0x3d686a,_0xa2dfa1=Blockly['Arduino'][_0x2b189f(0x74d)](_0x71b5a6,'Y_Nokia',Blockly[_0x2b189f(0x2a3)][_0x2b189f(0x7ce)]),_0x2b1f7f=_0x2b189f(0x77b)+_0xa2dfa1+_0x2b189f(0x28f);return _0x2b1f7f;},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0x65e)]=function(_0x48242d){var _0x2f9d15=_0x3d686a,_0x268819=Blockly[_0x2f9d15(0x2a3)][_0x2f9d15(0x74d)](_0x48242d,_0x2f9d15(0x376),Blockly[_0x2f9d15(0x2a3)][_0x2f9d15(0x7ce)]),_0x27d2b2=Blockly[_0x2f9d15(0x2a3)][_0x2f9d15(0x74d)](_0x48242d,_0x2f9d15(0xa42),Blockly[_0x2f9d15(0x2a3)][_0x2f9d15(0x7ce)]),_0x3af079=this[_0x2f9d15(0x2b1)](_0x2f9d15(0x28c)),_0x52b6be='\x20tft1.drawPixel('+_0x268819+',\x20'+_0x27d2b2+','+_0x3af079+_0x2f9d15(0x205);return _0x52b6be;},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0x718)]=function(_0x88ca08){var _0x550cf5=_0x3d686a,_0x2b8d6d=Blockly['Arduino'][_0x550cf5(0x74d)](_0x88ca08,_0x550cf5(0x376),Blockly[_0x550cf5(0x2a3)][_0x550cf5(0x7ce)]),_0x5a0589=Blockly[_0x550cf5(0x2a3)]['valueToCode'](_0x88ca08,_0x550cf5(0xa42),Blockly[_0x550cf5(0x2a3)][_0x550cf5(0x7ce)]),_0x530272=Blockly['Arduino']['valueToCode'](_0x88ca08,'X_Nokia1',Blockly[_0x550cf5(0x2a3)][_0x550cf5(0x7ce)]),_0xac15cc=Blockly[_0x550cf5(0x2a3)][_0x550cf5(0x74d)](_0x88ca08,'Y_Nokia1',Blockly[_0x550cf5(0x2a3)][_0x550cf5(0x7ce)]),_0x11ef81=this[_0x550cf5(0x2b1)](_0x550cf5(0x28c)),_0x3dfc00=_0x550cf5(0x8bc)+_0x2b8d6d+',\x20'+_0x5a0589+','+_0x530272+',\x20'+_0xac15cc+','+_0x11ef81+_0x550cf5(0x53c);return _0x3dfc00;},Blockly[_0x3d686a(0x2a3)]['lcd_128x128px_spi_line_tv']=function(_0x31042e){var _0x406935=_0x3d686a,_0x3e257f=Blockly[_0x406935(0x2a3)]['valueToCode'](_0x31042e,'X_Nokia',Blockly[_0x406935(0x2a3)]['ORDER_ATOMIC']),_0x1768f5=Blockly['Arduino'][_0x406935(0x74d)](_0x31042e,_0x406935(0xa42),Blockly[_0x406935(0x2a3)][_0x406935(0x7ce)]),_0xb6cb5a=Blockly['Arduino'][_0x406935(0x74d)](_0x31042e,'X_Nokia1',Blockly['Arduino'][_0x406935(0x7ce)]),_0x3c1656=Blockly[_0x406935(0x2a3)]['valueToCode'](_0x31042e,_0x406935(0x1d2),Blockly[_0x406935(0x2a3)][_0x406935(0x7ce)]),_0x223957='TV.draw_line('+_0x3e257f+',\x20'+_0x1768f5+','+_0xb6cb5a+','+_0x3c1656+',INVERT);\x20\x20\x0a\x09';return _0x223957;},Blockly[_0x3d686a(0x2a3)]['lcd_128x128px_spi_line_tv_none']=function(_0x232c95){var _0x1d143e='\x20TV.clear_screen();\x20\x20\x0a\x09';return _0x1d143e;},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0x1a0)]=function(_0x1ad1ad){var _0x110c61=_0x3d686a,_0x11b963=Blockly[_0x110c61(0x2a3)]['valueToCode'](_0x1ad1ad,_0x110c61(0x376),Blockly['Arduino'][_0x110c61(0x7ce)]),_0x424234=Blockly['Arduino'][_0x110c61(0x74d)](_0x1ad1ad,'Y_Nokia',Blockly[_0x110c61(0x2a3)]['ORDER_ATOMIC']),_0x22e995=Blockly['Arduino'][_0x110c61(0x74d)](_0x1ad1ad,_0x110c61(0x890),Blockly[_0x110c61(0x2a3)][_0x110c61(0x7ce)]),_0x365518=Blockly['Arduino'][_0x110c61(0x74d)](_0x1ad1ad,_0x110c61(0x1d2),Blockly[_0x110c61(0x2a3)][_0x110c61(0x7ce)]),_0x55d9d1=this[_0x110c61(0x2b1)](_0x110c61(0x28c));if(_0x55d9d1==0x1)var _0x47e808=_0x110c61(0x33b)+_0x11b963+',\x20'+_0x424234+','+_0x22e995+','+_0x365518+_0x110c61(0x2f4);if(_0x55d9d1==0x0)var _0x47e808='\x20TV.draw_rect('+_0x11b963+',\x20'+_0x424234+','+_0x22e995+','+_0x365518+_0x110c61(0x3af);return _0x47e808;},Blockly[_0x3d686a(0x2a3)]['lcd_128x128px_spi_box']=function(_0x99eb17){var _0x1f90ef=_0x3d686a,_0x2c1826=Blockly[_0x1f90ef(0x2a3)]['valueToCode'](_0x99eb17,'X_Nokia',Blockly[_0x1f90ef(0x2a3)][_0x1f90ef(0x7ce)]),_0x59bde1=Blockly[_0x1f90ef(0x2a3)][_0x1f90ef(0x74d)](_0x99eb17,'Y_Nokia',Blockly['Arduino'][_0x1f90ef(0x7ce)]),_0xd8bf1e=Blockly[_0x1f90ef(0x2a3)][_0x1f90ef(0x74d)](_0x99eb17,_0x1f90ef(0x8a4),Blockly[_0x1f90ef(0x2a3)][_0x1f90ef(0x7ce)]),_0x8905b9=Blockly['Arduino'][_0x1f90ef(0x74d)](_0x99eb17,_0x1f90ef(0x804),Blockly[_0x1f90ef(0x2a3)][_0x1f90ef(0x7ce)]),_0x30e776=Blockly[_0x1f90ef(0x2a3)][_0x1f90ef(0x74d)](_0x99eb17,_0x1f90ef(0xb78),Blockly[_0x1f90ef(0x2a3)][_0x1f90ef(0x7ce)]),_0x190f86=this['getFieldValue']('color'),_0x365758=this[_0x1f90ef(0x2b1)](_0x1f90ef(0x71a));if(_0x365758==_0x1f90ef(0xaba))var _0x3413dc=_0x1f90ef(0xa3b)+_0x2c1826+',\x20'+_0x59bde1+',\x20'+_0x8905b9+',\x20'+_0xd8bf1e+',\x20'+_0x30e776+',\x20'+_0x190f86+_0x1f90ef(0x4c0);else var _0x3413dc='\x20tft1.fillRoundRect('+_0x2c1826+',\x20'+_0x59bde1+',\x20'+_0x8905b9+',\x20'+_0xd8bf1e+',\x20'+_0x30e776+',\x20'+_0x190f86+');\x20\x20\x20\x0a\x09';return _0x3413dc;},Blockly['Arduino'][_0x3d686a(0x5b8)]=function(_0x108e4a){var _0x4fadf8=_0x3d686a;Blockly[_0x4fadf8(0x2a3)][_0x4fadf8(0xa2c)]['lcd_tah_spi']='\x20\x20#include\x20<stdint.h>\x20\x0a\x20\x20#include\x20<LCD.h>\x20\x0a\x20\x20#include\x20<SPI.h>\x20\x0a\x20\x20#include\x20<XPT2046.h>\x20\x0a\x20\x20#include\x20<Touch.h>\x20\x0a\x20\x20#include\x20<EEPROM.h>\x20\x0a\x20',Blockly[_0x4fadf8(0x2a3)][_0x4fadf8(0xcee)][_0x4fadf8(0xab5)]='\x20\x20\x20SPI.setDataMode(SPI_MODE3);\x20\x0a\x20SPI.setBitOrder(MSBFIRST);\x20\x0a\x20SPI.setClockDivider(SPI_CLOCK_DIV4);\x20\x0a\x20\x20SPI.begin();\x20\x0a\x20\x20Tft.lcd_init();\x20\x0a\x20Tft.lcd_clear_screen(BLACK);\x20\x20\x20\x0a\x20\x20';var _0x198072='\x20';return _0x198072;},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0xb60)]=function(_0x420c45){var _0x3dc341=_0x3d686a,_0x4083c5=Blockly[_0x3dc341(0x2a3)]['valueToCode'](_0x420c45,_0x3dc341(0x376),Blockly[_0x3dc341(0x2a3)][_0x3dc341(0x7ce)]),_0x5c3e6c=Blockly[_0x3dc341(0x2a3)]['valueToCode'](_0x420c45,'Y_Nokia',Blockly[_0x3dc341(0x2a3)][_0x3dc341(0x7ce)]),_0x42b59c=Blockly[_0x3dc341(0x2a3)][_0x3dc341(0x74d)](_0x420c45,'texttoprint',Blockly['Arduino'][_0x3dc341(0x7ce)]),_0x4e0eb1=this[_0x3dc341(0x2b1)]('color'),_0x5cdd8b=this[_0x3dc341(0x2b1)](_0x3dc341(0x342)),_0x5d8ddb=_0x3dc341(0x3eb)+_0x4083c5+',\x20'+_0x5c3e6c+_0x3dc341(0x94b)+_0x42b59c+_0x3dc341(0xb5d)+_0x5cdd8b+',\x20'+_0x4e0eb1+_0x3dc341(0x53c);return _0x5d8ddb;},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0x604)]=function(_0x4f76fc){var _0x2235d9=_0x3d686a,_0x1b8022=Blockly['Arduino']['valueToCode'](_0x4f76fc,_0x2235d9(0x376),Blockly[_0x2235d9(0x2a3)]['ORDER_ATOMIC']),_0x3b4eff=Blockly[_0x2235d9(0x2a3)][_0x2235d9(0x74d)](_0x4f76fc,_0x2235d9(0xa42),Blockly[_0x2235d9(0x2a3)][_0x2235d9(0x7ce)]),_0x5c92ca=Blockly[_0x2235d9(0x2a3)][_0x2235d9(0x74d)](_0x4f76fc,_0x2235d9(0x20a),Blockly['Arduino'][_0x2235d9(0x7ce)]),_0x38b316=this[_0x2235d9(0x2b1)](_0x2235d9(0x28c)),_0x22505a=this[_0x2235d9(0x2b1)](_0x2235d9(0x342)),_0x37e6fd=_0x2235d9(0xac6)+_0x1b8022+',\x20'+_0x3b4eff+',\x20'+_0x5c92ca+_0x2235d9(0x315)+_0x22505a+',\x20'+_0x38b316+');\x20\x20\x0a\x09';return _0x37e6fd;},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0x3bc)]=function(_0x421f76){var _0x5695c7=_0x3d686a,_0x546181=Blockly[_0x5695c7(0x2a3)][_0x5695c7(0x74d)](_0x421f76,'X_Nokia',Blockly[_0x5695c7(0x2a3)][_0x5695c7(0x7ce)]),_0x517692=Blockly[_0x5695c7(0x2a3)][_0x5695c7(0x74d)](_0x421f76,_0x5695c7(0xa42),Blockly[_0x5695c7(0x2a3)]['ORDER_ATOMIC']),_0x5e7a0d=Blockly[_0x5695c7(0x2a3)]['valueToCode'](_0x421f76,'X_Nokia2',Blockly[_0x5695c7(0x2a3)][_0x5695c7(0x7ce)]),_0x149385=Blockly[_0x5695c7(0x2a3)][_0x5695c7(0x74d)](_0x421f76,_0x5695c7(0x804),Blockly['Arduino'][_0x5695c7(0x7ce)]),_0x1f38f3=this['getFieldValue'](_0x5695c7(0x28c)),_0x3f0f3b=this[_0x5695c7(0x2b1)](_0x5695c7(0x71a));if(_0x3f0f3b==_0x5695c7(0xaba))var _0x525936='\x20Tft.lcd_draw_rect('+_0x546181+',\x20'+_0x517692+',\x20'+_0x149385+',\x20'+_0x5e7a0d+',\x20'+_0x1f38f3+_0x5695c7(0x4c0);else var _0x525936=_0x5695c7(0x936)+_0x546181+',\x20'+_0x517692+',\x20'+_0x149385+',\x20'+_0x5e7a0d+',\x20'+_0x1f38f3+');\x20\x20\x20\x0a\x09';return _0x525936;},Blockly[_0x3d686a(0x2a3)]['lcd_tah_spi_tah']=function(_0x5ab240){var _0x3e1bd5=_0x3d686a,_0x2d432c=Blockly['Arduino'][_0x3e1bd5(0xcd1)](this,'CONTENT'),_0x33e4a5=Blockly[_0x3e1bd5(0x2a3)]['valueToCode'](_0x5ab240,_0x3e1bd5(0x376),Blockly[_0x3e1bd5(0x2a3)][_0x3e1bd5(0x7ce)]),_0x4f0ea2=Blockly['Arduino'][_0x3e1bd5(0x74d)](_0x5ab240,_0x3e1bd5(0xa42),Blockly[_0x3e1bd5(0x2a3)][_0x3e1bd5(0x7ce)]),_0x472b83=Blockly[_0x3e1bd5(0x2a3)][_0x3e1bd5(0x74d)](_0x5ab240,_0x3e1bd5(0x8a4),Blockly[_0x3e1bd5(0x2a3)][_0x3e1bd5(0x7ce)]),_0x3e11ad=Blockly['Arduino'][_0x3e1bd5(0x74d)](_0x5ab240,_0x3e1bd5(0x804),Blockly['Arduino'][_0x3e1bd5(0x7ce)]);Blockly[_0x3e1bd5(0x2a3)][_0x3e1bd5(0xa2c)][_0x3e1bd5(0x3d0)]=_0x3e1bd5(0x4eb),Blockly[_0x3e1bd5(0x2a3)][_0x3e1bd5(0xcee)]['setups_lcd_tah_spi_tah']=_0x3e1bd5(0xce9);var _0x21bc6c=_0x3e1bd5(0xb1a)+_0x4f0ea2+_0x3e1bd5(0x529)+_0x3e11ad+'\x20&&\x20hwXpos\x20>\x20'+_0x33e4a5+_0x3e1bd5(0xc32)+_0x472b83+_0x3e1bd5(0x2d5)+_0x2d432c+_0x3e1bd5(0x5ce);return _0x21bc6c;return'';},Blockly[_0x3d686a(0x2a3)]['leonardo1']=function(_0x4e62c7){var _0x2c5768=_0x3d686a,_0x2e51f2=Blockly[_0x2c5768(0x2a3)][_0x2c5768(0x74d)](this,'Sensor1',Blockly[_0x2c5768(0x2a3)][_0x2c5768(0x7ce)]),_0x55fbf8=Blockly['Arduino'][_0x2c5768(0x74d)](this,_0x2c5768(0xb6f),Blockly[_0x2c5768(0x2a3)][_0x2c5768(0x7ce)]);Blockly['Arduino']['definitions_']['include_leonardo']=_0x2c5768(0x29a),Blockly['Arduino'][_0x2c5768(0xcee)][_0x2c5768(0xc33)]=_0x2c5768(0xb42);var _0x1ff5dc=_0x2c5768(0xcb8)+_0x2e51f2+','+_0x55fbf8+_0x2c5768(0x23c);return _0x1ff5dc;},Blockly[_0x3d686a(0x2a3)]['leonardo2']=function(_0x42b304){var _0x685a45=_0x3d686a,_0x315c1e=this['getFieldValue'](_0x685a45(0x241));Blockly['Arduino']['definitions_']['include_leonardo']=_0x685a45(0x29a),Blockly['Arduino']['setups_'][_0x685a45(0xc33)]='\x20\x20Mouse.begin();\x20\x0a\x20\x20Keyboard.begin();\x20\x0a\x20\x20delay(500);\x20\x0a\x20Serial.begin(9600);\x20\x0a';var _0x49ccb9=_0x685a45(0x644)+_0x315c1e+');\x20\x0a';return _0x49ccb9;},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0x255)]=function(_0x2e1393){var _0x2c0b23=_0x3d686a,_0x3990ec=this[_0x2c0b23(0x2b1)]('maus_DIR');Blockly[_0x2c0b23(0x2a3)]['definitions_'][_0x2c0b23(0x5c4)]=_0x2c0b23(0x29a),Blockly[_0x2c0b23(0x2a3)][_0x2c0b23(0xcee)][_0x2c0b23(0xc33)]='\x20\x20Mouse.begin();\x20\x0a\x20\x20Keyboard.begin();\x20\x0a\x20\x20delay(500);\x20\x0a\x20Serial.begin(9600);\x20\x0a';var _0x5a96ca='Mouse.press('+_0x3990ec+_0x2c0b23(0x23c);return _0x5a96ca;},Blockly['Arduino'][_0x3d686a(0x781)]=function(_0x170571){var _0x158da8=_0x3d686a,_0x56675b=this[_0x158da8(0x2b1)](_0x158da8(0x241));Blockly['Arduino']['definitions_'][_0x158da8(0x5c4)]='#include\x20\x22Keyboard.h\x22\x20\x0a\x20#include\x20\x22Mouse.h\x22\x20\x0a',Blockly[_0x158da8(0x2a3)][_0x158da8(0xcee)]['setup_leonardo']=_0x158da8(0xb42);var _0x2e1b5e=_0x158da8(0xc0a)+_0x56675b+_0x158da8(0x23c);return _0x2e1b5e;},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0x458)]=function(_0xb5f191){var _0x401845=_0x3d686a,_0x4411e5=this[_0x401845(0x2b1)]('maus_DIR');Blockly[_0x401845(0x2a3)]['definitions_'][_0x401845(0x5c4)]=_0x401845(0x29a),Blockly['Arduino'][_0x401845(0xcee)][_0x401845(0xc33)]=_0x401845(0xb42);var _0x1f34ed='Keyboard.write(\x27'+_0x4411e5+_0x401845(0x8fa);return _0x1f34ed;},Blockly[_0x3d686a(0x2a3)]['leonardo6']=function(_0x32315b){var _0x2ac7ba=_0x3d686a,_0x18eef9=this[_0x2ac7ba(0x2b1)](_0x2ac7ba(0x241));Blockly[_0x2ac7ba(0x2a3)][_0x2ac7ba(0xa2c)][_0x2ac7ba(0x5c4)]=_0x2ac7ba(0x29a),Blockly[_0x2ac7ba(0x2a3)][_0x2ac7ba(0xcee)][_0x2ac7ba(0xc33)]=_0x2ac7ba(0xb42);var _0x3e17aa=_0x2ac7ba(0x3f0)+_0x18eef9+_0x2ac7ba(0x8fa);return _0x3e17aa;},Blockly['Arduino'][_0x3d686a(0x298)]=function(_0x1f2282){var _0x1478e0=_0x3d686a,_0x45e0e9=this['getFieldValue'](_0x1478e0(0x241));Blockly['Arduino'][_0x1478e0(0xa2c)][_0x1478e0(0x5c4)]=_0x1478e0(0x29a),Blockly[_0x1478e0(0x2a3)][_0x1478e0(0xcee)][_0x1478e0(0xc33)]=_0x1478e0(0xb42);var _0xf55c5d=_0x1478e0(0xa98)+_0x45e0e9+'\x27);\x20\x0a';return _0xf55c5d;},Blockly['Arduino'][_0x3d686a(0x680)]=function(_0x27311c){var _0x1f06e8=_0x3d686a;Blockly[_0x1f06e8(0x2a3)]['definitions_'][_0x1f06e8(0x5c4)]='#include\x20\x22Keyboard.h\x22\x20\x0a\x20#include\x20\x22Mouse.h\x22\x20\x0a',Blockly['Arduino'][_0x1f06e8(0xcee)][_0x1f06e8(0xc33)]=_0x1f06e8(0xb42);var _0x156f2d=_0x1f06e8(0x6fb);return _0x156f2d;},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0xc75)]=function(_0x2c4708){var _0xc225cf=_0x3d686a,_0x2011f5=this[_0xc225cf(0x2b1)]('maus_DIR');Blockly['Arduino'][_0xc225cf(0xa2c)][_0xc225cf(0x5c4)]=_0xc225cf(0x29a),Blockly['Arduino'][_0xc225cf(0xcee)]['setup_leonardo']='\x20\x20Mouse.begin();\x20\x0a\x20\x20Keyboard.begin();\x20\x0a\x20\x20delay(500);\x20\x0a\x20Serial.begin(9600);\x20\x0a';var _0x1ab4d9=_0xc225cf(0x54a)+_0x2011f5+');\x20\x0a';return _0x1ab4d9;},Blockly['Arduino'][_0x3d686a(0x7f4)]=function(_0x11e588){var _0x14a30b=_0x3d686a,_0x540d4c=this[_0x14a30b(0x2b1)](_0x14a30b(0x241));Blockly['Arduino'][_0x14a30b(0xa2c)][_0x14a30b(0x5c4)]=_0x14a30b(0x29a),Blockly[_0x14a30b(0x2a3)][_0x14a30b(0xcee)][_0x14a30b(0xc33)]='\x20\x20Mouse.begin();\x20\x0a\x20\x20Keyboard.begin();\x20\x0a\x20\x20delay(500);\x20\x0a\x20Serial.begin(9600);\x20\x0a';var _0x10582b='Keyboard.press('+_0x540d4c+_0x14a30b(0x23c);return _0x10582b;},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0x3e1)]=function(_0x201d19){var _0x2cdbe8=_0x3d686a,_0x1a3434=this['getFieldValue'](_0x2cdbe8(0x241));Blockly[_0x2cdbe8(0x2a3)][_0x2cdbe8(0xa2c)][_0x2cdbe8(0x5c4)]=_0x2cdbe8(0x29a),Blockly[_0x2cdbe8(0x2a3)]['setups_'][_0x2cdbe8(0xc33)]=_0x2cdbe8(0xb42);var _0x261817=_0x2cdbe8(0x8e2)+_0x1a3434+_0x2cdbe8(0x23c);return _0x261817;},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0x1dd)]=function(_0x4a3522){var _0x260de3=_0x3d686a,_0x441cfa=this['getFieldValue'](_0x260de3(0x1d4)),_0x2455d2=this['getFieldValue'](_0x260de3(0x914)),_0x194867=Blockly[_0x260de3(0x2a3)][_0x260de3(0xcd1)](this,_0x260de3(0x736));return Blockly[_0x260de3(0x2a3)][_0x260de3(0xcee)]['setup_interrupt_'+_0x441cfa]=_0x260de3(0xab0)+_0x441cfa+'),interrupt_'+_0x441cfa+','+_0x2455d2+');',Blockly[_0x260de3(0x2a3)]['definitions_']['define_interrupt_'+_0x441cfa]='void\x20interrupt_'+_0x441cfa+_0x260de3(0x403)+_0x194867+'}\x0a','';},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0x8ed)]=function(_0x55536a){var _0x2b52b5=_0x3d686a,_0x4fa73b=Blockly['Arduino'][_0x2b52b5(0xcd1)](this,_0x2b52b5(0x736));return Blockly['Arduino'][_0x2b52b5(0xa2c)][_0x2b52b5(0x400)]=_0x2b52b5(0x8b1)+_0x4fa73b+'}\x0a','';},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0xba8)]=function(_0x13811f){var _0x38d2f5=_0x3d686a,_0x11c792=Blockly[_0x38d2f5(0x2a3)][_0x38d2f5(0x74d)](_0x13811f,_0x38d2f5(0x1d4),Blockly[_0x38d2f5(0x2a3)]['ORDER_ATOMIC']),_0xad2de7=_0x38d2f5(0x1ca)+_0x11c792+_0x38d2f5(0x62e);return _0xad2de7;},Blockly[_0x3d686a(0x2a3)]['base_code_esp8266']=function(_0xff3116){var _0x1a9ed6=_0x3d686a,_0x20c377=_0xff3116[_0x1a9ed6(0x2b1)](_0x1a9ed6(0x51a)),_0x1f3b56=_0xff3116['getFieldValue'](_0x1a9ed6(0x9f8)),_0x15f0d2=_0xff3116[_0x1a9ed6(0x2b1)](_0x1a9ed6(0x6ee)),_0x347908=_0xff3116[_0x1a9ed6(0x2b1)](_0x1a9ed6(0xb44)),_0x3e00ae=_0x1a9ed6(0x380);Blockly[_0x1a9ed6(0x2a3)][_0x1a9ed6(0xa2c)]['define_base_code_esp8266']='#include\x20<SoftwareSerial.h>\x20\x0a\x20SoftwareSerial\x20esp8266('+_0x20c377+','+_0x1f3b56+_0x1a9ed6(0x2a1),Blockly['Arduino'][_0x1a9ed6(0xcee)][_0x1a9ed6(0x22b)]=_0x1a9ed6(0xaf7)+_0x15f0d2+_0x1a9ed6(0xc64)+_0x347908+');\x20\x0a\x20sendData(\x22AT+RST'+_0x3e00ae+_0x1a9ed6(0x7b8)+_0x3e00ae+_0x1a9ed6(0x59a)+_0x3e00ae+_0x1a9ed6(0xa08);},Blockly['Arduino']['base_conect_esp8266']=function(_0x4036a2){var _0x5d1de4=_0x3d686a,_0x8740d2=_0x4036a2[_0x5d1de4(0x2b1)]('PIN1'),_0x3b3ee4=_0x4036a2[_0x5d1de4(0x2b1)](_0x5d1de4(0x9f8)),_0x31e935=_0x4036a2[_0x5d1de4(0x2b1)]('SPEED1'),_0x1b5386=_0x4036a2[_0x5d1de4(0x2b1)]('SPEED2'),_0x210fb6=_0x4036a2[_0x5d1de4(0x2b1)]('TEXT1'),_0xe3532d=_0x4036a2['getFieldValue'](_0x5d1de4(0x833)),_0x194897=_0x5d1de4(0x380);Blockly[_0x5d1de4(0x2a3)][_0x5d1de4(0xa2c)][_0x5d1de4(0x6d3)]=_0x5d1de4(0xc68)+_0x8740d2+','+_0x3b3ee4+_0x5d1de4(0x2a1);var _0x4bf30a=_0x5d1de4(0x2db)+_0x31e935+_0x5d1de4(0x3a3)+_0x1b5386+_0x5d1de4(0x1e1)+_0x194897+'\x22,\x202000,\x201);\x20\x0a\x20delay(1000);\x20\x0a\x20sendData(\x22AT+CWJAP=\x5c\x22'+_0x210fb6+_0x5d1de4(0xa0c)+_0xe3532d+'\x5c\x22'+_0x194897+_0x5d1de4(0x35b)+_0x194897+_0x5d1de4(0xbfc)+_0x194897+_0x5d1de4(0x3db)+_0x194897+_0x5d1de4(0x4e6)+_0x194897+_0x5d1de4(0x1fc);return _0x4bf30a;},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0x285)]=function(_0x4bfe93){var _0x43f403=_0x3d686a,_0x8b7cd3=_0x4bfe93[_0x43f403(0x2b1)](_0x43f403(0xba2)),_0x103632=Blockly['Arduino'][_0x43f403(0xcd1)](this,'DO'),_0x4ff664=_0x43f403(0xacc)+_0x8b7cd3+_0x43f403(0x830)+_0x103632+_0x43f403(0x6f1);return _0x4ff664;},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0x4a7)]=function(_0x5ea14c){var _0x5ed394=_0x3d686a,_0x48cc18=_0x5ea14c[_0x5ed394(0x2b1)](_0x5ed394(0xba2)),_0xe684b7='<p>'+_0x48cc18+_0x5ed394(0x634);return _0xe684b7;},Blockly['Arduino'][_0x3d686a(0x1e4)]=function(_0x4b099f){var _0x24ac3c=_0x3d686a,_0x32a4df=_0x4b099f[_0x24ac3c(0x2b1)](_0x24ac3c(0x913)),_0x5b1e96=_0x4b099f['getFieldValue'](_0x24ac3c(0xba2));switch(_0x32a4df){case'0':var _0x298353=_0x24ac3c(0x44e);break;case'1':var _0x298353=_0x24ac3c(0xb45);break;case'2':var _0x298353=_0x24ac3c(0xc5b);break;case'3':var _0x298353=_0x24ac3c(0x208);break;case'4':var _0x298353=_0x24ac3c(0x2f5);break;case'5':var _0x298353=_0x24ac3c(0xc0f);break;case'6':var _0x298353=_0x24ac3c(0x775);break;case'7':var _0x298353=_0x24ac3c(0x4fa);break;case'8':var _0x298353=_0x24ac3c(0x24e);break;case'9':var _0x298353='\x27/i/9\x27';break;default:throw'\x20';}var _0x9ba291='\x27',_0x3a3150=_0x24ac3c(0xa7e)+_0x298353+_0x24ac3c(0xb6b)+_0x9ba291+_0x24ac3c(0x8ca)+_0x9ba291+'>'+_0x5b1e96+_0x24ac3c(0x6ed);return _0x3a3150;},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0xa4c)]=function(_0x15e38d){var _0x30c008=_0x3d686a,_0x19b2f1=_0x30c008(0x18c);return[_0x19b2f1,Blockly[_0x30c008(0x2a3)]['ORDER_ATOMIC']];},Blockly['Arduino']['base_conect_esp8266_text_kode']=function(_0x33d79b){var _0x7cde4a=_0x3d686a,_0x373566=_0x33d79b[_0x7cde4a(0x2b1)](_0x7cde4a(0xba2)),_0x3e708b=''+_0x373566+'';return _0x3e708b;},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0x2e2)]=function(_0x2e7de2){var _0x588c6d=_0x3d686a,_0x384133=Blockly[_0x588c6d(0x2a3)][_0x588c6d(0x74d)](_0x2e7de2,_0x588c6d(0x20a),Blockly['Arduino']['ORDER_ATOMIC']),_0x41f700=_0x588c6d(0x824)+_0x384133+_0x588c6d(0xbbd);return _0x41f700;},Blockly[_0x3d686a(0x2a3)]['base_conect_esp8266_s']=function(_0x564c98){var _0x4635ba=_0x3d686a,_0x2bac5f=_0x564c98[_0x4635ba(0x2b1)](_0x4635ba(0x51a)),_0x2f4f02=_0x564c98[_0x4635ba(0x2b1)](_0x4635ba(0x9f8)),_0x195b46=_0x564c98[_0x4635ba(0x2b1)](_0x4635ba(0x6ee)),_0x3283a3=_0x564c98[_0x4635ba(0x2b1)](_0x4635ba(0xb44)),_0x15f830=_0x4635ba(0x380);Blockly[_0x4635ba(0x2a3)][_0x4635ba(0xa2c)]['define_base_codemm_esp8266']='\x20\x20#include\x20<EEPROM.h>\x20\x0a\x20int\x20esp\x20=\x200;\x20\x0a\x20#include\x20<SoftwareSerial.h>\x20\x0a\x20SoftwareSerial\x20esp8266('+_0x2bac5f+','+_0x2f4f02+_0x4635ba(0x2a1);var _0x3c98b1=_0x4635ba(0x2db)+_0x195b46+_0x4635ba(0x3a3)+_0x3283a3+_0x4635ba(0x1e1)+_0x15f830+_0x4635ba(0x957)+_0x15f830+_0x4635ba(0xbfc)+_0x15f830+'\x22,\x201500,\x201);\x20\x0a\x20delay\x20(1000);\x20\x0a\x20sendData(\x22AT+CIPMUX=1'+_0x15f830+_0x4635ba(0x4e6)+_0x15f830+_0x4635ba(0x1fc);return _0x3c98b1;},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0x95b)]=function(_0x33c1d9){var _0x952e2e=_0x3d686a,_0x510484=_0x33c1d9[_0x952e2e(0x2b1)](_0x952e2e(0xcd7)),_0x20055e=_0x33c1d9[_0x952e2e(0x2b1)](_0x952e2e(0x833)),_0x31710f=_0x952e2e(0x380),_0x1e29a1=_0x952e2e(0xcec);Blockly[_0x952e2e(0x2a3)]['definitions_'][_0x952e2e(0x95b)]=_0x952e2e(0x61b),Blockly[_0x952e2e(0x2a3)][_0x952e2e(0xcee)][_0x952e2e(0x309)]=_0x952e2e(0xa91)+_0x510484+_0x952e2e(0x362)+_0x20055e+_0x952e2e(0xcce);var _0x4cd9fd='\x20\x20\x20WiFiClient\x20client\x20=\x20server.available();\x20\x20\x0a\x20\x20String\x20lineal\x20=\x20client.\x20readStringUntil'+_0x1e29a1+_0x952e2e(0x4a4);return _0x4cd9fd;},Blockly['Arduino'][_0x3d686a(0xa20)]=function(_0x5199eb){var _0xb114ec=_0x3d686a,_0xa9aa42=_0x5199eb[_0xb114ec(0x2b1)](_0xb114ec(0xcd7)),_0x2a4a72=_0x5199eb[_0xb114ec(0x2b1)](_0xb114ec(0x833));Blockly[_0xb114ec(0x2a3)][_0xb114ec(0xa2c)][_0xb114ec(0x95b)]='\x20#include\x20<WiFi.h>\x20\x0a\x20#include\x20<WebServer.h>\x20\x0a\x20WebServer\x20server(80);\x20\x20\x0a\x20\x20',Blockly[_0xb114ec(0x2a3)][_0xb114ec(0xcee)][_0xb114ec(0x309)]=_0xb114ec(0x39e)+_0xa9aa42+'\x22,\x20\x22'+_0x2a4a72+_0xb114ec(0x568);var _0x161dbb=_0xb114ec(0x43a);return _0x161dbb;},Blockly[_0x3d686a(0x2a3)]['base_define_for_esp8266_12f']=function(_0xa5e6){var _0xc2dd92=_0x3d686a,_0x3905a1=_0xa5e6['getFieldValue'](_0xc2dd92(0xba2)),_0x596c45=Blockly[_0xc2dd92(0x2a3)][_0xc2dd92(0xcd1)](this,'DO'),_0x4da8df='\x20\x20if(lineal.indexOf(\x22ID='+_0x3905a1+_0xc2dd92(0xc35)+_0x596c45+_0xc2dd92(0xae9);return _0x4da8df;},Blockly[_0x3d686a(0x2a3)]['base_define_for_esp8266_12f_esp']=function(_0x1ad17b){var _0x188193=_0x3d686a,_0x583abf=_0x1ad17b[_0x188193(0x2b1)]('TEXT'),_0x48b35e=Blockly[_0x188193(0x2a3)][_0x188193(0xcd1)](this,'DO'),_0x361c72=_0x188193(0xbf4)+_0x583abf+'\x22)>0){\x20\x20\x20\x0a\x20\x20'+_0x48b35e+'\x20}\x20\x20\x0a';return _0x361c72;},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0x99c)]=function(_0x22c43d){var _0x116cdd=_0x3d686a;Blockly[_0x116cdd(0x2a3)][_0x116cdd(0xa2c)][_0x116cdd(0x99c)]=_0x116cdd(0x3d2);var _0x1a4677=_0x116cdd(0x9e1);return _0x1a4677;},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0x41c)]=function(_0x408822){var _0x7e0725=_0x3d686a,_0x37ab90=_0x408822['getFieldValue'](_0x7e0725(0xba2)),_0x5a59ba=Blockly[_0x7e0725(0x2a3)][_0x7e0725(0xcd1)](this,'DO'),_0x4e41f2=_0x7e0725(0xa29)+_0x37ab90+'\x22)\x20{\x0a\x20'+_0x5a59ba+_0x7e0725(0x54d);return _0x4e41f2;},Blockly['Arduino'][_0x3d686a(0xa92)]=function(_0x2a3fd2){var _0x4518dc=_0x3d686a,_0x281dca=_0x2a3fd2['getFieldValue'](_0x4518dc(0x833)),_0x24aca2=_0x2a3fd2['getFieldValue'](_0x4518dc(0xba2)),_0x23d8b3='\x27',_0x8aeb28=_0x4518dc(0xa38)+_0x23d8b3+'./?ID='+_0x281dca+''+_0x23d8b3+'\x20style='+_0x23d8b3+'padding:10px\x2015px;mergin:10px;border:1px\x20solid\x20#777;color:#777;text-decoration:none;'+_0x23d8b3+'>'+_0x24aca2+_0x4518dc(0x19c);return _0x8aeb28;},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0x9ff)]=function(_0x256c16){var _0x272961=_0x3d686a,_0x2cf5a1=_0x256c16[_0x272961(0x2b1)](_0x272961(0xba2)),_0x301cc4=_0x272961(0x4a9)+_0x2cf5a1+_0x272961(0x295);return _0x301cc4;},Blockly[_0x3d686a(0x2a3)]['base_conect_esp8266_title_12f_esp']=function(_0xcd947b){var _0x4cb494=_0x3d686a,_0x599498=_0xcd947b['getFieldValue'](_0x4cb494(0xba2)),_0x2ac4e3=_0x4cb494(0x41b)+_0x599498+_0x4cb494(0x295);return _0x2ac4e3;},Blockly['Arduino']['base_conect_esp8266_par_12f']=function(_0x576277){var _0x1e49a7=_0x3d686a,_0x1f8b57=_0x576277[_0x1e49a7(0x2b1)](_0x1e49a7(0xba2)),_0x2322ae='client.println(\x22\x20<p>'+_0x1f8b57+_0x1e49a7(0x5d4);return _0x2322ae;},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0x3a8)]=function(_0x1054d5){var _0xbaf3d=_0x3d686a,_0x1c0333=_0x1054d5[_0xbaf3d(0x2b1)](_0xbaf3d(0xba2)),_0x11792c=_0xbaf3d(0xa32)+_0x1c0333+_0xbaf3d(0x5d4);return _0x11792c;},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0xa76)]=function(_0x300f20){var _0x1a0789=_0x3d686a,_0x57724d=_0x300f20['getFieldValue'](_0x1a0789(0xba2)),_0x529d81='client.println(\x22'+_0x57724d+_0x1a0789(0x518);return _0x529d81;},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0x889)]=function(_0xfcc552){var _0x3763e7=_0x3d686a,_0x4b73d6=_0x3763e7(0x36f);return _0x4b73d6;},Blockly['Arduino'][_0x3d686a(0x1b7)]=function(_0x5a68a5){var _0x47fa2f=_0x3d686a,_0x35f21b=_0x47fa2f(0x559);return _0x35f21b;},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0xa6a)]=function(_0x5f48a2){var _0x478a0a=_0x3d686a,_0x192292=Blockly[_0x478a0a(0x2a3)][_0x478a0a(0xcd1)](this,'DO');Blockly[_0x478a0a(0x2a3)][_0x478a0a(0x599)]&&(_0x192292=Blockly[_0x478a0a(0x2a3)][_0x478a0a(0x599)][_0x478a0a(0x6c0)](/%1/g,'\x27'+this['id']+'\x27')+_0x192292);var _0x150cac=Blockly[_0x478a0a(0x2a3)]['variableDB_'][_0x478a0a(0xad3)](_0x478a0a(0x28a),Blockly[_0x478a0a(0x8b8)][_0x478a0a(0x856)]),_0x273dd6='while\x20(1){\x20\x0a'+_0x192292+'}\x0a';return _0x273dd6;},Blockly['Arduino']['esp8266_setcursor_12f']=function(_0x2770fb){var _0x165b9e=_0x3d686a,_0x31f71b=Blockly['Arduino'][_0x165b9e(0x74d)](_0x2770fb,_0x165b9e(0x20a),Blockly[_0x165b9e(0x2a3)][_0x165b9e(0x7ce)]),_0x415c6e=_0x165b9e(0x7bc)+_0x31f71b+');\x20\x0a\x20';return _0x415c6e;},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0x881)]=function(_0x4b7183){var _0x497a4d=_0x3d686a,_0x4a7316=Blockly['Arduino']['valueToCode'](_0x4b7183,_0x497a4d(0x20a),Blockly[_0x497a4d(0x2a3)][_0x497a4d(0x7ce)]),_0x511b81=_0x4b7183[_0x497a4d(0x2b1)]('SPEED'),_0x4a41a6='\x20'+_0x4a7316+''+_0x511b81+'\x20;\x20\x0a\x20';return _0x4a41a6;},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0x7f6)]=function(_0x3be460){var _0x2e0fbe=_0x3d686a,_0x46e872=_0x3be460[_0x2e0fbe(0x2b1)]('PIN'),_0x27c874='\x20detachInterrupt('+_0x46e872+_0x2e0fbe(0x4d8);return _0x27c874;},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0x43c)]=function(_0x375607){var _0x5de5a1=_0x3d686a,_0x3fd480=_0x5de5a1(0x76c);return _0x3fd480;},Blockly[_0x3d686a(0x2a3)]['interrupts_attach3']=function(_0x43cc79){var _0x461b46='\x20noInterrupts();\x20\x0a\x20';return _0x461b46;},Blockly['Arduino'][_0x3d686a(0x39a)]=function(_0xc9adfa){var _0x4a55a9=_0x3d686a,_0x1009bf=_0xc9adfa[_0x4a55a9(0x2b1)](_0x4a55a9(0x6ee)),_0x107a26=''+_0x1009bf+'';return[_0x107a26,Blockly['Arduino']['ORDER_ATOMIC']];},Blockly['Arduino']['logic_hilov']=function(_0x12eb47){var _0x1c00ed=_0x3d686a,_0x1042c8=_0x12eb47[_0x1c00ed(0x2b1)](_0x1c00ed(0x6ee)),_0x25db36=''+_0x1042c8+'';return[_0x25db36,Blockly[_0x1c00ed(0x2a3)][_0x1c00ed(0x7ce)]];},Blockly['Arduino'][_0x3d686a(0xc30)]=function(_0x5ae46f){var _0x3d0f20=_0x3d686a,_0x36fcdf=_0x5ae46f[_0x3d0f20(0x2b1)](_0x3d0f20(0x6ee)),_0x5451ce=''+_0x36fcdf+'';return[_0x5451ce,Blockly[_0x3d0f20(0x2a3)][_0x3d0f20(0x7ce)]];},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0x66f)]=function(_0x21edeb){var _0x5592dc=_0x3d686a,_0x2377fe=_0x21edeb[_0x5592dc(0x2b1)](_0x5592dc(0x6ee)),_0x4e20fa=''+_0x2377fe+'';return[_0x4e20fa,Blockly[_0x5592dc(0x2a3)]['ORDER_ATOMIC']];},Blockly[_0x3d686a(0x2a3)]['logic_N_pin2']=function(_0x1295b6){var _0x5ea150=_0x3d686a,_0x4bb83b=_0x1295b6[_0x5ea150(0x2b1)](_0x5ea150(0x6ee)),_0x55a2ef=''+_0x4bb83b+'';return[_0x55a2ef,Blockly[_0x5ea150(0x2a3)]['ORDER_ATOMIC']];},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0x70c)]=function(_0x51c543){var _0x337da9=_0x3d686a,_0x1d6501=_0x51c543['getFieldValue']('SPEED1'),_0x2f04c0=''+_0x1d6501+'';return[_0x2f04c0,Blockly[_0x337da9(0x2a3)][_0x337da9(0x7ce)]];},Blockly[_0x3d686a(0x2a3)]['logic_N_pinESP']=function(_0x51f3a8){var _0x21941c=_0x3d686a,_0x4f3a4b=_0x51f3a8[_0x21941c(0x2b1)](_0x21941c(0x6ee)),_0x2f7b1c=''+_0x4f3a4b+'';return[_0x2f7b1c,Blockly[_0x21941c(0x2a3)]['ORDER_ATOMIC']];},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0x926)]=function(_0x34016c){var _0xe42250=_0x3d686a,_0x520ad8=_0x34016c[_0xe42250(0x2b1)](_0xe42250(0x833)),_0x5e8046=_0x34016c[_0xe42250(0x2b1)](_0xe42250(0xcd7)),_0x2ed95c=_0x34016c[_0xe42250(0x2b1)](_0xe42250(0x6ff)),_0x2099a1=Blockly[_0xe42250(0x2a3)][_0xe42250(0xcd1)](this,'DO');Blockly[_0xe42250(0x2a3)][_0xe42250(0xa2c)][_0xe42250(0x58a)]=_0xe42250(0xa79)+_0x5e8046+_0xe42250(0x31c)+_0x520ad8+'\x22\x20\x0a\x20#define\x20BOT_TOKEN\x20\x22'+_0x2ed95c+_0xe42250(0x945)+_0x2099a1+_0xe42250(0xa01),Blockly['Arduino'][_0xe42250(0xcee)]['setup_Universal-Arduino-Telegram-Bot-master']=_0xe42250(0xc34);var _0x2daac4=_0xe42250(0x75a);return _0x2daac4;},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0xb3f)]=function(_0x3e641a){var _0x100dca=_0x3d686a,_0x1d321f=_0x3e641a[_0x100dca(0x2b1)]('TEXT2'),_0x3cb93f=_0x3e641a[_0x100dca(0x2b1)](_0x100dca(0xcd7)),_0xd6bbf9=_0x3e641a['getFieldValue'](_0x100dca(0x6ff)),_0x607290=Blockly[_0x100dca(0x2a3)]['statementToCode'](this,'DO');Blockly[_0x100dca(0x2a3)][_0x100dca(0xa2c)][_0x100dca(0x58a)]=_0x100dca(0x592)+_0x100dca(0x8ac)+_0x100dca(0xaaf)+_0x100dca(0x250)+_0x3cb93f+_0x100dca(0x7c6)+_0x100dca(0x3e2)+_0x1d321f+_0x100dca(0x7c6)+_0x100dca(0x87a)+_0xd6bbf9+_0x100dca(0x7c6)+_0x100dca(0x89f)+_0x100dca(0xc93)+_0x100dca(0x2d0)+_0x100dca(0x3e5)+_0x100dca(0xb32)+_0x100dca(0xb68)+'\x20\x20\x20Serial.print(\x22handleNewMessages\x20\x22);\x20\x20\x0a\x20'+_0x100dca(0x408)+_0x100dca(0x422)+_0x100dca(0x2f1)+_0x100dca(0x671)+_0x100dca(0x1c4)+_0x100dca(0xb33)+_0x100dca(0x45f)+_0x100dca(0xa60)+_0x100dca(0x91a)+_0x607290+'\x20}\x20\x20\x0a\x20}\x20\x20\x0a',Blockly['Arduino'][_0x100dca(0xcee)][_0x100dca(0x963)]=_0x100dca(0xaf8)+_0x100dca(0x4b5)+_0x100dca(0xcef)+_0x100dca(0x363)+_0x100dca(0xac7)+_0x100dca(0xa85)+_0x100dca(0x607)+'\x20\x20\x20{\x20\x0a\x20'+_0x100dca(0x7fb)+_0x100dca(0x811)+_0x100dca(0x790)+_0x100dca(0x81d)+_0x100dca(0x449)+'\x20\x20\x20Serial.print(\x22Retrieving\x20time:\x20\x22);\x20\x0a\x20'+'\x20\x20\x20configTime(0,\x200,\x20\x22pool.ntp.org\x22);\x20\x20\x0a\x20'+'\x20\x20\x20time_t\x20now\x20=\x20time(nullptr);\x20\x0a\x20'+_0x100dca(0x424)+_0x100dca(0x2aa)+_0x100dca(0x7fb)+'\x20\x20\x20\x20\x20delay(100);\x20\x0a\x20'+_0x100dca(0x2a4)+_0x100dca(0x790)+_0x100dca(0x238)+_0x100dca(0x451);var _0x614364=_0x100dca(0x2f0)+_0x100dca(0x2aa)+_0x100dca(0x5a2)+_0x100dca(0x94d)+_0x100dca(0x593)+_0x100dca(0xaff)+_0x100dca(0x8c4)+_0x100dca(0x6d4)+'\x20\x20\x20\x20\x20}\x20\x0a\x20'+'\x20\x20\x20\x20\x20bot_lasttime\x20=\x20millis();\x20\x0a\x20'+_0x100dca(0x790)+_0x100dca(0x5d8);return _0x614364;},Blockly[_0x3d686a(0x2a3)]['telegram_otvet']=function(_0x27778c){var _0x3c0f3c=_0x3d686a,_0x107e7c=_0x27778c['getFieldValue'](_0x3c0f3c(0xba2)),_0x3698ef=Blockly[_0x3c0f3c(0x2a3)]['statementToCode'](this,'DO'),_0xbbf56f='\x20\x20if(text\x20==\x20\x22'+_0x107e7c+'\x22){\x20\x20\x20\x0a\x20\x20'+_0x3698ef+_0x3c0f3c(0xae9);return _0xbbf56f;},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0x4f7)]=function(_0x5b844c){var _0x36e104=_0x3d686a,_0x5ae5ba=Blockly[_0x36e104(0x2a3)][_0x36e104(0x74d)](_0x5b844c,_0x36e104(0x429),Blockly['Arduino'][_0x36e104(0x7ce)]),_0x116b43='bot.sendMessage(chat_id,\x20'+_0x5ae5ba+',\x20\x22\x22);\x0a';return _0x116b43;},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0x5ec)]=function(_0x2aa1b5){var _0x21accf=_0x3d686a,_0xd10946=Blockly[_0x21accf(0x2a3)][_0x21accf(0x74d)](_0x2aa1b5,_0x21accf(0x45d),Blockly['Arduino']['ORDER_ATOMIC']),_0x1f8522=Blockly[_0x21accf(0x2a3)]['valueToCode'](_0x2aa1b5,_0x21accf(0x20e),Blockly[_0x21accf(0x2a3)][_0x21accf(0x7ce)]),_0x2e0c9e='bot.sendMessage('+_0xd10946+',\x20'+_0x1f8522+_0x21accf(0x5ba);return _0x2e0c9e;},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0x941)]=function(_0x5f5bae){var _0x4057e9=_0x3d686a,_0xc1d55='text';return[_0xc1d55,Blockly[_0x4057e9(0x2a3)][_0x4057e9(0x7ce)]];return _0xc1d55;},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0x857)]=function(_0x22644e){var _0x1707a6=_0x3d686a,_0x53c4f2=_0x1707a6(0x45d);return[_0x53c4f2,Blockly[_0x1707a6(0x2a3)][_0x1707a6(0x7ce)]];return _0x53c4f2;},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0x930)]=function(_0x2693ca){var _0x350515=_0x3d686a,_0x1bbaf0=_0x350515(0xa66);return[_0x1bbaf0,Blockly[_0x350515(0x2a3)][_0x350515(0x7ce)]];return _0x1bbaf0;},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0x5dd)]=function(_0x69905b){var _0x831e62=_0x3d686a,_0x250fe3=Blockly['Arduino'][_0x831e62(0x74d)](_0x69905b,_0x831e62(0xa63),Blockly[_0x831e62(0x2a3)]['ORDER_ATOMIC']),_0x8e0951=Blockly['Arduino'][_0x831e62(0x74d)](_0x69905b,_0x831e62(0x7c0),Blockly[_0x831e62(0x2a3)][_0x831e62(0x7ce)]),_0x13eca2=Blockly[_0x831e62(0x2a3)][_0x831e62(0x74d)](_0x69905b,_0x831e62(0x8dc),Blockly[_0x831e62(0x2a3)][_0x831e62(0x7ce)]),_0x62d959=this[_0x831e62(0x2b1)]('dp'),_0x91ec03=this[_0x831e62(0x2b1)]('dp2'),_0x41cc67='\x27',_0x3e2eee='\x5c';Blockly[_0x831e62(0x2a3)][_0x831e62(0xa2c)][_0x831e62(0x5dd)]='#include\x20<SPI.h>\x20\x0a\x20'+_0x831e62(0x983)+_0x831e62(0x1cd)+_0x831e62(0x4be)+_0x13eca2+';\x20\x20\x0a\x20'+_0x831e62(0x4a6)+_0x250fe3+';\x20\x20\x0a\x20'+_0x831e62(0x389)+_0x8e0951+_0x831e62(0x5e6)+_0x831e62(0x74a)+_0x831e62(0x465)+_0x831e62(0x25c)+'\x20int\x20spacer\x20=\x201;\x20\x20\x0a\x20'+'\x20int\x20width\x20=\x205\x20+\x20spacer;\x20\x20\x0a\x20'+_0x831e62(0x327)+_0x831e62(0x758)+_0x831e62(0x4f6)+'\x20\x20\x20int\x20i,k;\x20\x0a\x20'+'\x20\x20\x20String\x20target;\x20\x0a\x20'+_0x831e62(0x51f)+_0x831e62(0x401)+_0x41cc67+'0'+_0x41cc67+',\x20'+_0x41cc67+''+_0x3e2eee+'0'+_0x41cc67+_0x831e62(0xaa3)+_0x831e62(0x2f3)+_0x831e62(0x5b6)+_0x831e62(0x4fe)+'\x20\x20\x20\x20\x20if\x20(n\x20>=\x200xC0)\x20{\x20\x0a\x20'+_0x831e62(0x9cf)+_0x831e62(0x8aa)+_0x831e62(0x1ea)+_0x831e62(0x8f2)+_0x831e62(0x1cc)+_0x831e62(0x1dc)+'\x20\x20\x20\x20\x20\x20\x20\x20\x20}\x20\x0a\x20'+_0x831e62(0x375)+_0x831e62(0x1ea)+_0x831e62(0x2a8)+_0x831e62(0x88a)+_0x831e62(0x1dc)+_0x831e62(0x9f6)+_0x831e62(0x83e)+_0x831e62(0x835)+_0x831e62(0xc06)+_0x831e62(0x790)+_0x831e62(0x3ed)+'\x20}\x20\x0a',Blockly['Arduino']['setups_'][_0x831e62(0x61f)]='\x20\x20\x20matrix.setIntensity('+_0x91ec03+_0x831e62(0x467)+_0x62d959+_0x831e62(0x23c);var _0x451857='';return _0x451857;},Blockly[_0x3d686a(0x2a3)]['Init_MAX7219_ledmatrix4x_text']=function(_0x15ef1b){var _0x424bb2=_0x3d686a,_0x11b2e5=Blockly[_0x424bb2(0x2a3)][_0x424bb2(0x74d)](_0x15ef1b,_0x424bb2(0xa42),Blockly[_0x424bb2(0x2a3)]['ORDER_ATOMIC']),_0x4fccdc=Blockly[_0x424bb2(0x2a3)][_0x424bb2(0x74d)](_0x15ef1b,_0x424bb2(0x20a),Blockly[_0x424bb2(0x2a3)][_0x424bb2(0x7ce)]),_0x2e5ab5=this[_0x424bb2(0x2b1)]('size');Blockly[_0x424bb2(0x2a3)][_0x424bb2(0xa2c)][_0x424bb2(0x855)]=_0x424bb2(0x739);if(_0x2e5ab5==0x0)var _0xb39ff2=_0x424bb2(0x9ea)+_0x4fccdc+_0x424bb2(0x1f3)+_0x11b2e5+');\x20\x0a\x09\x20\x20}\x20\x0a\x09';if(_0x2e5ab5==0x1)var _0xb39ff2=_0x424bb2(0x1d5)+_0x4fccdc+_0x424bb2(0x410)+_0x11b2e5+_0x424bb2(0x818);return _0xb39ff2;},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0xbf5)]=function(_0x22b0a2){var _0x55276e=_0x3d686a,_0x113ed4=_0x22b0a2[_0x55276e(0x2b1)](_0x55276e(0x427)),_0x23f1b0=_0x22b0a2[_0x55276e(0x2b1)](_0x55276e(0x786)),_0x3e721a=_0x22b0a2[_0x55276e(0x2b1)]('title'),_0x3c0642=Blockly['Arduino'][_0x55276e(0xcd1)](_0x22b0a2,_0x55276e(0x6cc));Blockly[_0x55276e(0x2a3)][_0x55276e(0x4b0)][_0x55276e(0xbfa)]='\x20\x0a\x20'+'\x20#include\x20<WiFi.h>\x20\x0a\x20'+_0x55276e(0x7f3)+_0x55276e(0xb4e)+_0x113ed4+_0x55276e(0x56b)+_0x55276e(0x93e)+_0x23f1b0+_0x55276e(0x56b)+_0x55276e(0x785)+_0x55276e(0x608)+_0x55276e(0x71e)+_0x55276e(0x60e)+_0x55276e(0x243)+'\x20\x20\x20server.send(200,\x20\x22text/html\x22,\x20SendHTML(false,0));\x20\x20\x0a\x20'+_0x55276e(0x459)+_0x55276e(0xcae)+_0x55276e(0xbaf)+_0x55276e(0x4d1)+_0x55276e(0x459)+'\x20void\x20handle_led3off()\x20{\x20\x0a\x20'+_0x55276e(0x2b2)+_0x55276e(0x4d1)+'\x20}\x20\x0a\x20'+_0x55276e(0xc77)+_0x55276e(0xaa2)+'\x20\x20\x20server.send(200,\x20\x22text/html\x22,\x20SendHTML(false,0));\x20\x20\x0a\x20'+_0x55276e(0x459)+_0x55276e(0xb08)+_0x55276e(0xb3d)+_0x55276e(0x4e1)+'\x20}\x20\x0a\x20'+_0x55276e(0x842)+_0x55276e(0x246)+'\x20\x20\x20server.send(200,\x20\x22text/html\x22,\x20SendHTML(false,0));\x20\x20\x0a\x20'+_0x55276e(0x459)+_0x55276e(0x3e4)+'\x20a\x20=\x207;\x20\x0a\x20'+'\x20\x20\x20server.send(200,\x20\x22text/html\x22,\x20SendHTML(false,0));\x20\x20\x0a\x20'+_0x55276e(0x459)+_0x55276e(0x649)+_0x55276e(0x5da)+_0x55276e(0x4d1)+'\x20}\x20\x0a\x20'+_0x55276e(0xace)+_0x55276e(0xa77)+_0x55276e(0x4d1)+_0x55276e(0x459)+_0x55276e(0xadb)+_0x55276e(0xbec)+_0x55276e(0x4e1)+_0x55276e(0x459)+'\x20void\x20handle_NotFound(){\x20\x0a\x20'+_0x55276e(0x9a4)+'\x20}\x20\x0a\x20'+_0x55276e(0x65d)+'\x20\x20\x20server.send(200,\x20\x22text/html\x22,\x20SendHTML(false,0));\x20\x0a\x20'+'\x20}\x20\x20\x0a\x20'+_0x55276e(0x838)+_0x55276e(0x297)+_0x55276e(0x317)+_0x55276e(0x1b0)+_0x3e721a+'</title>\x22;\x20\x0a\x20'+'\x20\x20\x20ptr\x20+=\x22<style>html\x20{\x20font-family:\x20Helvetica;\x20display:\x20inline-block;\x20margin:\x200px\x20auto;\x20text-align:\x20center;}\x22;\x20\x0a\x20'+_0x55276e(0xb75)+_0x55276e(0x991)+_0x55276e(0x395)+_0x55276e(0x759)+_0x55276e(0x77f)+_0x55276e(0x54e)+_0x55276e(0x57a)+_0x55276e(0x7e1)+'\x20\x20\x20ptr\x20+=\x22{\x20\x20\x20\x20\x20\x20\x20\x20\x22;\x20\x0a\x20'+_0x55276e(0x853)+_0x55276e(0x55d)+_0x55276e(0x590)+_0x55276e(0x684)+_0x55276e(0xae6)+_0x55276e(0xc56)+_0x55276e(0x7ea)+_0x55276e(0x8b5)+_0x55276e(0xbf6)+_0x55276e(0x771)+_0x55276e(0x214)+'\x20\x20\x20ptr\x20+=\x22\x20\x20getData();\x20\x20\x20\x20\x22;\x20\x20\x0a\x20'+'\x20\x20\x20ptr\x20+=\x22},\x202000);\x20\x20\x20\x20\x20\x20\x20\x22;\x20\x20\x0a\x20'+_0x55276e(0x9b6)+_0x55276e(0x70f)+_0x55276e(0xc9e)+_0x55276e(0xc55)+_0x55276e(0x1c6)+_0x55276e(0xae6)+'\x20\x20\x20ptr\x20+=\x22\x20\x20};\x20\x20\x20\x20\x20\x20\x20\x20\x22;\x20\x0a\x20'+_0x55276e(0x62b)+_0x55276e(0x3f7)+'\x20\x20\x20ptr\x20+=\x22}\x20\x20\x20\x20\x20\x20\x20\x20\x22;\x20\x0a\x20'+_0x55276e(0x779)+_0x55276e(0x92f)+'\x20\x20\x20ptr\x20+=\x22<body>\x22;\x20\x0a\x20'+'\x20\x20'+_0x3c0642+'\x20'+'\x20\x20\x20ptr\x20+=\x22</body>\x22;\x20\x0a\x20'+_0x55276e(0x233)+_0x55276e(0xbc9)+_0x55276e(0xa2e),Blockly[_0x55276e(0x2a3)][_0x55276e(0xcee)]['setups_web_esp_conect']=_0x55276e(0xbcf)+_0x55276e(0x528)+'\x20\x20\x20delay(100);\x20\x0a\x20'+_0x55276e(0x6a0)+'\x20\x20\x20Serial.println(ssid);\x20\x0a\x20'+_0x55276e(0x72d)+_0x55276e(0x48c)+_0x55276e(0x326)+_0x55276e(0x58f)+_0x55276e(0x790)+_0x55276e(0x843)+_0x55276e(0xb8e)+_0x55276e(0x1ad)+_0x55276e(0x33c)+_0x55276e(0xc50)+_0x55276e(0xc83)+_0x55276e(0x5ae)+_0x55276e(0xc4e)+_0x55276e(0x512)+_0x55276e(0x303)+_0x55276e(0x95d)+_0x55276e(0x27e)+'\x20\x20\x20server.on(\x22/led9\x22,\x20handle_led9off);\x20\x0a\x20'+_0x55276e(0x8d4)+_0x55276e(0x71e)+_0x55276e(0x3b2)+_0x55276e(0xcdb)+_0x55276e(0x598);var _0x416304=_0x55276e(0x792);return _0x416304;},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0xc94)]=function(_0x89d2a2){var _0x356f96=_0x3d686a,_0x354069=_0x89d2a2[_0x356f96(0x2b1)](_0x356f96(0x427)),_0x431551=_0x89d2a2[_0x356f96(0x2b1)](_0x356f96(0x786)),_0x32a491=_0x89d2a2[_0x356f96(0x2b1)]('title'),_0x53b50=Blockly[_0x356f96(0x2a3)]['statementToCode'](_0x89d2a2,'esp_statement');Blockly['Arduino'][_0x356f96(0x4b0)][_0x356f96(0xbfa)]='\x20\x0a\x20'+_0x356f96(0x6ec)+_0x356f96(0x994)+'\x20const\x20char*\x20ssid\x20=\x20\x22'+_0x354069+_0x356f96(0x56b)+_0x356f96(0x93e)+_0x431551+_0x356f96(0x56b)+_0x356f96(0x3df)+_0x356f96(0x608)+_0x356f96(0x71e)+_0x356f96(0x60e)+_0x356f96(0x243)+_0x356f96(0x4d1)+'\x20}\x20\x0a\x20'+_0x356f96(0xcae)+_0x356f96(0xbaf)+'\x20\x20\x20server.send(200,\x20\x22text/html\x22,\x20SendHTML(false,0));\x20\x20\x0a\x20'+_0x356f96(0x459)+_0x356f96(0x293)+_0x356f96(0x2b2)+_0x356f96(0x4d1)+_0x356f96(0x459)+'\x20void\x20handle_led4off()\x20{\x20\x0a\x20'+_0x356f96(0xaa2)+_0x356f96(0x4d1)+_0x356f96(0x459)+_0x356f96(0xb08)+'\x20a\x20=\x205;\x20\x0a\x20'+_0x356f96(0x4e1)+_0x356f96(0x459)+'\x20void\x20handle_led6off()\x20{\x20\x0a\x20'+_0x356f96(0x246)+_0x356f96(0x4d1)+_0x356f96(0x459)+_0x356f96(0x3e4)+'\x20a\x20=\x207;\x20\x0a\x20'+_0x356f96(0x4d1)+'\x20}\x20\x0a\x20'+'\x20void\x20handle_led8off()\x20{\x20\x0a\x20'+_0x356f96(0x5da)+_0x356f96(0x4d1)+_0x356f96(0x459)+_0x356f96(0xace)+_0x356f96(0xa77)+_0x356f96(0x4d1)+_0x356f96(0x459)+_0x356f96(0xadb)+_0x356f96(0xbec)+_0x356f96(0x4e1)+'\x20}\x20\x0a\x20'+_0x356f96(0x8be)+_0x356f96(0x9a4)+_0x356f96(0x459)+'\x20void\x20handle_OnConnect()\x20{\x0a\x20'+_0x356f96(0x4e1)+'\x20}\x20\x20\x0a\x20'+'\x20\x20String\x20SendHTML(uint8_t\x20led1stat,uint8_t\x20led2stat){\x20\x0a\x20'+_0x356f96(0x297)+_0x356f96(0x317)+_0x356f96(0x1b0)+_0x32a491+_0x356f96(0x805)+'\x20\x20\x20ptr\x20+=\x22<style>html\x20{\x20font-family:\x20Helvetica;\x20display:\x20inline-block;\x20margin:\x200px\x20auto;\x20text-align:\x20center;}\x22;\x20\x0a\x20'+_0x356f96(0xb75)+_0x356f96(0x991)+_0x356f96(0x395)+_0x356f96(0x759)+_0x356f96(0x77f)+_0x356f96(0x54e)+_0x356f96(0x92f)+_0x356f96(0x78e)+'\x20\x20'+_0x53b50+'\x20'+_0x356f96(0x97a)+'\x20\x20\x20ptr\x20+=\x22</html>\x22;\x20\x0a\x20'+'\x20\x20\x20return\x20ptr;\x20\x0a\x20'+'\x20}\x20\x0a',Blockly['Arduino'][_0x356f96(0xcee)][_0x356f96(0xa82)]=_0x356f96(0xbcf)+_0x356f96(0x528)+_0x356f96(0x62a)+'\x20\x20\x20Serial.println(\x22Connecting\x20to\x20\x22);\x20\x0a\x20'+'\x20\x20\x20Serial.println(ssid);\x20\x0a\x20'+_0x356f96(0x72d)+_0x356f96(0x48c)+'\x20\x20\x20delay(1000);\x20\x0a\x20'+_0x356f96(0x58f)+_0x356f96(0x790)+_0x356f96(0x843)+_0x356f96(0xb8e)+_0x356f96(0x1ad)+_0x356f96(0x33c)+_0x356f96(0xc50)+'\x20\x20\x20server.on(\x22/led2\x22,\x20handle_led2off);\x20\x0a\x20'+_0x356f96(0x5ae)+'\x20\x20\x20server.on(\x22/led4\x22,\x20handle_led4off);\x20\x0a\x20'+_0x356f96(0x512)+_0x356f96(0x303)+_0x356f96(0x95d)+_0x356f96(0x27e)+_0x356f96(0x7a3)+'\x20\x20\x20server.on(\x22/led10\x22,\x20handle_led10off);\x20\x0a\x20'+_0x356f96(0x71e)+_0x356f96(0x3b2)+_0x356f96(0xcdb)+_0x356f96(0x598);var _0x104d73=_0x356f96(0x792);return _0x104d73;},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0x61a)]=function(_0x438af0){var _0x5d7f26=_0x3d686a,_0x3315f6=_0x438af0['getFieldValue']('name'),_0x1c510a=_0x438af0[_0x5d7f26(0x2b1)]('pass'),_0x3de56a=_0x438af0[_0x5d7f26(0x2b1)](_0x5d7f26(0x9c3)),_0x2e467c=Blockly[_0x5d7f26(0x2a3)][_0x5d7f26(0xcd1)](_0x438af0,_0x5d7f26(0x6cc));Blockly['Arduino'][_0x5d7f26(0x4b0)][_0x5d7f26(0xbfa)]=_0x5d7f26(0xbcf)+'\x20#include\x20<WiFi.h>\x20\x0a\x20'+'\x20#include\x20<WebServer.h>\x20\x0a\x20'+_0x5d7f26(0xb4e)+_0x3315f6+_0x5d7f26(0x56b)+_0x5d7f26(0x93e)+_0x1c510a+_0x5d7f26(0x56b)+_0x5d7f26(0x6ea)+_0x5d7f26(0x2d7)+_0x5d7f26(0x970)+_0x5d7f26(0x785)+_0x5d7f26(0x608)+_0x5d7f26(0x71e)+_0x5d7f26(0x60e)+_0x5d7f26(0x243)+_0x5d7f26(0x4d1)+_0x5d7f26(0x459)+'\x20void\x20handle_led2off()\x20{\x20\x0a\x20'+'\x20a\x20=\x202;\x20\x0a\x20'+_0x5d7f26(0x4d1)+_0x5d7f26(0x459)+'\x20void\x20handle_led3off()\x20{\x20\x0a\x20'+_0x5d7f26(0x2b2)+'\x20\x20\x20server.send(200,\x20\x22text/html\x22,\x20SendHTML(false,0));\x20\x20\x0a\x20'+_0x5d7f26(0x459)+_0x5d7f26(0xc77)+_0x5d7f26(0xaa2)+_0x5d7f26(0x4d1)+'\x20}\x20\x0a\x20'+_0x5d7f26(0xb08)+'\x20a\x20=\x205;\x20\x0a\x20'+'\x20\x20\x20server.send(200,\x20\x22text/html\x22,\x20SendHTML(false,0));\x20\x0a\x20'+_0x5d7f26(0x459)+'\x20void\x20handle_led6off()\x20{\x20\x0a\x20'+_0x5d7f26(0x246)+_0x5d7f26(0x4d1)+_0x5d7f26(0x459)+_0x5d7f26(0x3e4)+_0x5d7f26(0xc05)+_0x5d7f26(0x4d1)+_0x5d7f26(0x459)+_0x5d7f26(0x649)+_0x5d7f26(0x5da)+_0x5d7f26(0x4d1)+'\x20}\x20\x0a\x20'+_0x5d7f26(0xace)+_0x5d7f26(0xa77)+_0x5d7f26(0x4d1)+_0x5d7f26(0x459)+_0x5d7f26(0xadb)+_0x5d7f26(0xbec)+_0x5d7f26(0x4e1)+'\x20}\x20\x0a\x20'+'\x20void\x20handle_NotFound(){\x20\x0a\x20'+_0x5d7f26(0x9a4)+_0x5d7f26(0x459)+_0x5d7f26(0x65d)+_0x5d7f26(0x4e1)+_0x5d7f26(0xca1)+_0x5d7f26(0x838)+_0x5d7f26(0x297)+_0x5d7f26(0x317)+'\x20\x20\x20ptr\x20+=\x22<title>'+_0x3de56a+'</title>\x22;\x20\x0a\x20'+_0x5d7f26(0x932)+_0x5d7f26(0xb75)+_0x5d7f26(0x991)+'\x20\x20\x20ptr\x20+=\x22.button-off\x20{background-color:\x20#ffffff;}\x22;\x20\x0a\x20'+_0x5d7f26(0x759)+_0x5d7f26(0x77f)+'\x20\x20\x20ptr\x20+=\x22</style>\x22;\x20\x0a\x20'+'\x20\x20\x20ptr\x20+=\x22<script>\x20\x20\x20\x20\x20\x20\x20\x20\x22;\x20\x0a\x20'+'\x20\x20\x20ptr\x20+=\x22function\x20send(led_sts)\x20\x20\x20\x20\x20\x20\x22;\x20\x20\x20\x20\x0a\x20'+_0x5d7f26(0x214)+_0x5d7f26(0x853)+_0x5d7f26(0x55d)+_0x5d7f26(0x590)+_0x5d7f26(0x684)+_0x5d7f26(0xae6)+_0x5d7f26(0xc56)+_0x5d7f26(0x7ea)+_0x5d7f26(0x8b5)+_0x5d7f26(0xbf6)+_0x5d7f26(0x771)+_0x5d7f26(0x214)+'\x20\x20\x20ptr\x20+=\x22\x20\x20getData();\x20\x20\x20\x20\x22;\x20\x20\x0a\x20'+_0x5d7f26(0x998)+_0x5d7f26(0x9b6)+_0x5d7f26(0x70f)+_0x5d7f26(0xc9e)+'\x20\x20\x20ptr\x20+=\x22\x20\x20\x20\x20if\x20(this.readyState\x20==\x204\x20&&\x20this.status\x20==\x20200)\x20{\x20\x20\x20\x20\x20\x20\x20\x20\x22;\x20\x0a\x20'+_0x5d7f26(0x1c6)+_0x5d7f26(0xae6)+_0x5d7f26(0xc56)+'\x20\x20\x20ptr\x20+=\x22\x20\x20xhttp.open(\x5c\x22GET\x5c\x22,\x20\x5c\x22adcread\x5c\x22,\x20true);\x20\x20\x20\x20\x22;\x20\x20\x20\x20\x0a\x20'+_0x5d7f26(0x3f7)+'\x20\x20\x20ptr\x20+=\x22}\x20\x20\x20\x20\x20\x20\x20\x20\x22;\x20\x0a\x20'+_0x5d7f26(0x779)+_0x5d7f26(0x92f)+_0x5d7f26(0x78e)+'\x20\x20'+_0x2e467c+'\x20'+_0x5d7f26(0x97a)+_0x5d7f26(0x233)+_0x5d7f26(0xbc9)+_0x5d7f26(0xa2e),Blockly[_0x5d7f26(0x2a3)]['setups_']['setups_web_esp_conect']=_0x5d7f26(0xbcf)+_0x5d7f26(0x528)+_0x5d7f26(0x62a)+'\x20\x20\x20WiFi.softAP(ssid,\x20password);\x20\x0a\x20'+_0x5d7f26(0x627)+'\x20\x20\x20delay(100);\x20\x0a\x20'+_0x5d7f26(0x33c)+_0x5d7f26(0xc50)+_0x5d7f26(0xc83)+_0x5d7f26(0x5ae)+_0x5d7f26(0xc4e)+_0x5d7f26(0x512)+'\x20\x20\x20server.on(\x22/led6\x22,\x20handle_led6off);\x20\x0a\x20'+_0x5d7f26(0x95d)+'\x20\x20\x20server.on(\x22/led8\x22,\x20handle_led8off);\x20\x0a\x20'+'\x20\x20\x20server.on(\x22/led9\x22,\x20handle_led9off);\x20\x0a\x20'+_0x5d7f26(0x8d4)+'\x20\x20\x0a\x20'+_0x5d7f26(0x3b2)+_0x5d7f26(0xcdb)+'\x20\x20\x20Serial.println(\x22HTTP\x20server\x20started\x22);\x20\x0a\x20';var _0x16d8bb=_0x5d7f26(0x792);return _0x16d8bb;},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0x968)]=function(_0x19a58a){var _0x101d17=_0x3d686a,_0x23e1dc=_0x19a58a[_0x101d17(0x2b1)](_0x101d17(0x427)),_0x27830a=_0x19a58a['getFieldValue'](_0x101d17(0x786)),_0x4198fb=_0x19a58a[_0x101d17(0x2b1)](_0x101d17(0x9c3)),_0x155e43=Blockly[_0x101d17(0x2a3)]['statementToCode'](_0x19a58a,'esp_statement');Blockly[_0x101d17(0x2a3)][_0x101d17(0x4b0)][_0x101d17(0xbfa)]=_0x101d17(0xbcf)+_0x101d17(0x6ec)+_0x101d17(0x994)+_0x101d17(0xb4e)+_0x23e1dc+_0x101d17(0x56b)+_0x101d17(0x93e)+_0x27830a+_0x101d17(0x56b)+_0x101d17(0x6ea)+_0x101d17(0x2d7)+'\x20IPAddress\x20subnet(255,255,255,0);\x20\x20\x0a\x20'+_0x101d17(0x3df)+_0x101d17(0x608)+'\x20\x20\x0a\x20'+_0x101d17(0x60e)+'\x20a\x20=\x201;\x20\x0a\x20'+_0x101d17(0x4d1)+'\x20}\x20\x0a\x20'+_0x101d17(0xcae)+_0x101d17(0xbaf)+_0x101d17(0x4d1)+_0x101d17(0x459)+_0x101d17(0x293)+_0x101d17(0x2b2)+_0x101d17(0x4d1)+_0x101d17(0x459)+_0x101d17(0xc77)+_0x101d17(0xaa2)+_0x101d17(0x4d1)+'\x20}\x20\x0a\x20'+_0x101d17(0xb08)+_0x101d17(0xb3d)+_0x101d17(0x4e1)+_0x101d17(0x459)+_0x101d17(0x842)+'\x20a\x20=\x206;\x20\x0a\x20'+_0x101d17(0x4d1)+_0x101d17(0x459)+'\x20void\x20handle_led7off()\x20{\x20\x0a\x20'+_0x101d17(0xc05)+'\x20\x20\x20server.send(200,\x20\x22text/html\x22,\x20SendHTML(false,0));\x20\x20\x0a\x20'+_0x101d17(0x459)+_0x101d17(0x649)+_0x101d17(0x5da)+'\x20\x20\x20server.send(200,\x20\x22text/html\x22,\x20SendHTML(false,0));\x20\x20\x0a\x20'+_0x101d17(0x459)+_0x101d17(0xace)+_0x101d17(0xa77)+_0x101d17(0x4d1)+_0x101d17(0x459)+_0x101d17(0xadb)+_0x101d17(0xbec)+_0x101d17(0x4e1)+'\x20}\x20\x0a\x20'+_0x101d17(0x8be)+'\x20\x20\x20server.send(404,\x20\x22text/plain\x22,\x20\x22Not\x20found\x20404\x22);\x20\x0a\x20'+_0x101d17(0x459)+'\x20void\x20handle_OnConnect()\x20{\x0a\x20'+_0x101d17(0x4e1)+_0x101d17(0xca1)+_0x101d17(0x838)+'\x20\x20\x20String\x20ptr\x20=\x20\x22<!DOCTYPE\x20html>\x20<html>\x22;\x20\x0a\x20'+_0x101d17(0x317)+'\x20\x20\x20ptr\x20+=\x22<title>'+_0x4198fb+_0x101d17(0x805)+_0x101d17(0x932)+_0x101d17(0xb75)+'\x20\x20\x20ptr\x20+=\x22.button\x20{display:\x20block;width:\x2080px;background-color:\x20#ffffff;border:\x20none;color:\x20#777777\x20;padding:\x2013px\x2030px;text-decoration:\x20none;font-size:\x2025px;margin:\x200px\x20auto\x2035px;cursor:\x20pointer;border:\x201px\x20solid\x20#777777;}\x22;\x20\x0a\x20'+_0x101d17(0x395)+'\x20\x20\x20ptr\x20+=\x22.button-off:active\x20{background-color:\x20#ffffff;}\x22;\x20\x0a\x20'+_0x101d17(0x77f)+_0x101d17(0x54e)+_0x101d17(0x92f)+_0x101d17(0x78e)+'\x20\x20'+_0x155e43+'\x20'+_0x101d17(0x97a)+_0x101d17(0x233)+_0x101d17(0xbc9)+_0x101d17(0xa2e),Blockly['Arduino'][_0x101d17(0xcee)][_0x101d17(0xa82)]=_0x101d17(0xbcf)+'\x20\x20\x20Serial.begin(9600);\x20\x0a\x20'+_0x101d17(0x62a)+_0x101d17(0x3d1)+'\x20\x20\x20WiFi.softAPConfig(local_ip,\x20gateway,\x20subnet);\x20\x0a\x20'+_0x101d17(0x62a)+_0x101d17(0x33c)+_0x101d17(0xc50)+_0x101d17(0xc83)+_0x101d17(0x5ae)+_0x101d17(0xc4e)+_0x101d17(0x512)+_0x101d17(0x303)+_0x101d17(0x95d)+'\x20\x20\x20server.on(\x22/led8\x22,\x20handle_led8off);\x20\x0a\x20'+_0x101d17(0x7a3)+'\x20\x20\x20server.on(\x22/led10\x22,\x20handle_led10off);\x20\x0a\x20'+_0x101d17(0x71e)+'\x20\x20\x20server.onNotFound(handle_NotFound);\x20\x0a\x20'+_0x101d17(0xcdb)+_0x101d17(0x598);var _0x4727ab='server.handleClient();\x20\x0a\x20';return _0x4727ab;},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0x6d7)]=function(_0x529f96){var _0x22be55=_0x3d686a,_0x18eb70=_0x529f96[_0x22be55(0x2b1)]('name'),_0xb8a197=_0x22be55(0xa12)+_0x18eb70+'</p>\x22;\x20\x0a';return _0xb8a197;},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0x8f7)]=function(_0x48d545){var _0x43258c=_0x3d686a,_0x4c4b6e=_0x48d545[_0x43258c(0x2b1)]('id'),_0x1c7f1d=_0x48d545[_0x43258c(0x2b1)](_0x43258c(0x427)),_0x39485c=_0x43258c(0x5cb)+_0x4c4b6e+'\x5c\x22>'+_0x1c7f1d+_0x43258c(0xc69);return _0x39485c;},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0x454)]=function(_0x4bd801){var _0x4b68cb=_0x3d686a,_0x2e66ed=_0x4bd801['getFieldValue']('id'),_0xe920b=_0x4bd801[_0x4b68cb(0x2b1)](_0x4b68cb(0x427)),_0x526415=Blockly['Arduino'][_0x4b68cb(0xcd1)](_0x4bd801,_0x4b68cb(0x47d)),_0x20885b=_0x4b68cb(0x73e)+_0x2e66ed+_0x4b68cb(0x904)+_0xe920b+'</a>\x22;\x20\x0a\x20\x20\x20if\x20(a\x20==\x20'+_0x2e66ed+_0x4b68cb(0x9da)+_0x526415+_0x4b68cb(0xa8f);return _0x20885b;},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0x556)]=function(_0x5cecbf){var _0xe06eb0=_0x3d686a,_0x101de3=Blockly[_0xe06eb0(0x2a3)][_0xe06eb0(0x74d)](_0x5cecbf,_0xe06eb0(0xa89),Blockly['Arduino'][_0xe06eb0(0x7ce)]),_0x225711=Blockly[_0xe06eb0(0x2a3)][_0xe06eb0(0x74d)](_0x5cecbf,_0xe06eb0(0x83a),Blockly[_0xe06eb0(0x2a3)][_0xe06eb0(0x7ce)]),_0x3db592=Blockly['Arduino'][_0xe06eb0(0x74d)](_0x5cecbf,'text_block',Blockly[_0xe06eb0(0x2a3)][_0xe06eb0(0x7ce)]);Blockly['Arduino'][_0xe06eb0(0x5f5)][_0xe06eb0(0x764)]=_0xe06eb0(0x640),Blockly['Arduino']['setups_'][_0xe06eb0(0xa1f)]=_0xe06eb0(0x50f);var _0x408ffe=_0xe06eb0(0x6fc)+_0x101de3+_0xe06eb0(0x22d)+_0x225711+',\x20'+_0x3db592+',\x20STYLE_NORMAL);\x20\x0a\x20';return _0x408ffe;},Blockly['Arduino'][_0x3d686a(0x782)]=function(_0x4e3520){var _0x21eeb3=_0x3d686a,_0x46ab65=_0x4e3520['getFieldValue'](_0x21eeb3(0xabc)),_0x347605=_0x21eeb3(0xadc)+_0x46ab65+')';return[_0x347605,Blockly[_0x21eeb3(0x2a3)][_0x21eeb3(0x7ce)]];},Blockly[_0x3d686a(0x2a3)]['touch_if_block']=function(_0x324539){var _0x3bd7f3=_0x3d686a,_0x260876=Blockly[_0x3bd7f3(0x2a3)][_0x3bd7f3(0xcd1)](_0x324539,_0x3bd7f3(0x813)),_0x356da7=_0x324539[_0x3bd7f3(0x2b1)](_0x3bd7f3(0xabc)),_0x52a664=_0x324539[_0x3bd7f3(0x2b1)](_0x3bd7f3(0xc61));Blockly['Arduino']['userFunctions_']['includes_touch_if_block'+_0x356da7]='\x20bool\x20touch'+_0x356da7+_0x3bd7f3(0x9c9)+_0x356da7+_0x3bd7f3(0xc42)+_0x356da7+_0x3bd7f3(0x34e),Blockly[_0x3bd7f3(0x2a3)][_0x3bd7f3(0xcee)][_0x3bd7f3(0x581)+_0x356da7]=_0x3bd7f3(0xbb2)+_0x356da7+_0x3bd7f3(0x64c)+_0x356da7+',\x20'+_0x52a664+');\x20\x20\x0a\x20\x20';var _0x519ad4='\x20\x20if(touch'+_0x356da7+_0x3bd7f3(0x719)+_0x356da7+'detected\x20=\x20false;\x20\x20\x0a\x20\x20\x20\x20'+_0x260876+'\x20\x20\x20\x0a\x20\x20\x20}\x20\x20\x0a\x20\x20';return _0x519ad4;},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0xb1f)]=function(_0xb247bb){var _0x4523ad=_0x3d686a,_0x1c4ff1=_0xb247bb['getFieldValue'](_0x4523ad(0x545)),_0x46fe84=_0xb247bb[_0x4523ad(0x2b1)]('tone_note'),_0xcc65c7=_0xb247bb['getFieldValue'](_0x4523ad(0xa41)),_0x1d93bd=_0xb247bb[_0x4523ad(0x2b1)](_0x4523ad(0x6b7));Blockly[_0x4523ad(0x2a3)][_0x4523ad(0x4b0)][_0x4523ad(0xb1f)]=_0x4523ad(0xa5d);var _0x331c8f=_0x4523ad(0x4b7)+_0x1c4ff1+_0x4523ad(0xaf9)+_0x46fe84+''+_0xcc65c7+',\x20'+_0x1d93bd+_0x4523ad(0xb0a);return _0x331c8f;},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0x551)]=function(_0x11a253){var _0x481cbe=_0x3d686a,_0x33f6eb=0x11,_0x1d958d=_0x11a253[_0x481cbe(0x2b1)](_0x481cbe(0x6ab)),_0x938886=_0x11a253[_0x481cbe(0x2b1)](_0x481cbe(0xa41)),_0x5d8434=_0x11a253[_0x481cbe(0x2b1)]('tone_delay');Blockly[_0x481cbe(0x2a3)][_0x481cbe(0x4b0)][_0x481cbe(0xb1f)]=_0x481cbe(0xa5d);var _0x542f1a=_0x481cbe(0x4b7)+_0x33f6eb+_0x481cbe(0xaf9)+_0x1d958d+''+_0x938886+',\x20'+_0x5d8434+_0x481cbe(0xb0a);return _0x542f1a;},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0xac8)]=function(_0x32012c){var _0x2b97c9=_0x3d686a,_0x22bebe=0x11,_0x262c21=_0x32012c['getFieldValue']('tone_delay'),_0xac66e='\x20\x20\x20for\x20(int\x20count\x20=\x200;\x20count\x20<\x2010;\x20count++)\x20{\x20\x0a\x20\x20\x20\x20pinMode('+_0x22bebe+_0x2b97c9(0x711)+_0x22bebe+',\x201);\x20\x0a\x20\x20\x20\x20delay('+_0x262c21+');\x20\x0a\x20\x20\x20\x20\x20pinMode('+_0x22bebe+_0x2b97c9(0x769)+_0x22bebe+_0x2b97c9(0x7c3)+_0x262c21+_0x2b97c9(0x9d5);return _0xac66e;},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0x9cb)]=function(_0x181302){var _0xdd1d70=_0x3d686a,_0x1a467b=_0x181302['getFieldValue'](_0xdd1d70(0x545)),_0x3e4326=_0x181302['getFieldValue']('tone_hz'),_0x51855f=_0x181302[_0xdd1d70(0x2b1)](_0xdd1d70(0x6b7));Blockly[_0xdd1d70(0x2a3)][_0xdd1d70(0x4b0)][_0xdd1d70(0xb1f)]='#include\x20<Tone32.h>\x20\x0a\x20#define\x20BUZZER_CHANNEL\x200\x20\x0a\x20';var _0xaa7cd3=_0xdd1d70(0x4b7)+_0x1a467b+',\x20'+_0x3e4326+',\x20'+_0x51855f+_0xdd1d70(0x2d4);return _0xaa7cd3;},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0xa5f)]=function(_0x44243f){var _0x2e651a=_0x3d686a,_0x586533=_0x44243f[_0x2e651a(0x2b1)](_0x2e651a(0x545));Blockly[_0x2e651a(0x2a3)]['userFunctions_'][_0x2e651a(0xb1f)]='#include\x20<Tone32.h>\x20\x0a\x20#define\x20BUZZER_CHANNEL\x200\x20\x0a\x20';var _0x492cfd='\x20\x20noTone('+_0x586533+_0x2e651a(0x6fd);return _0x492cfd;},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0x386)]=function(_0x33f3ea){var _0x2ed45d=_0x3d686a,_0xcf7a5c=0x11;Blockly['Arduino'][_0x2ed45d(0x4b0)]['actuator_tone_esp']=_0x2ed45d(0xa5d);var _0x5072d7=_0x2ed45d(0x5ac)+_0xcf7a5c+_0x2ed45d(0x6fd);return _0x5072d7;},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0x426)]=function(_0x4678d9){var _0x40b558=_0x3d686a,_0x12c258=_0x40b558(0x55e);return[_0x12c258,Blockly[_0x40b558(0x2a3)]['ORDER_ATOMIC']];},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0x6b2)]=function(_0x53f4d5){var _0xe7ad5d=_0x3d686a,_0x2d0211=this['getFieldValue']('id'),_0x490863=_0xe7ad5d(0x765)+_0x2d0211+']';return[_0x490863,Blockly[_0xe7ad5d(0x2a3)][_0xe7ad5d(0x7ce)]];},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0x7fa)]=function(_0x4bce51){var _0xb6303=_0x3d686a,_0x272183='\x27';Blockly[_0xb6303(0x2a3)][_0xb6303(0xa2c)][_0xb6303(0xa71)]='#define\x20ERROR_UPTIME\x200\x20\x20\x20\x20\x0a\x20\x20\x20'+_0xb6303(0x539)+_0xb6303(0xbb1)+'\x20byte\x20PLOTmem[6][16];\x20\x20\x20\x20\x0a\x20\x20\x20'+_0xb6303(0x754)+_0xb6303(0x9e5)+'\x20String\x20string_convert;\x20\x20\x0a\x20\x20\x20'+_0xb6303(0x1c5)+_0xb6303(0x602)+_0xb6303(0x35a)+_0xb6303(0xc6b)+_0xb6303(0x1fa)+_0xb6303(0xa1c)+_0xb6303(0x436)+_0x272183+'E'+_0x272183+_0xb6303(0x3c1)+_0xb6303(0x248)+_0xb6303(0x5b9)+'\x20\x20\x20\x20\x20\x20\x20inData[indexc]\x20=\x20'+_0x272183+'\x5c0'+_0x272183+_0xb6303(0x793)+_0xb6303(0x8f1)+_0xb6303(0xc1e)+_0xb6303(0x45e)+_0xb6303(0x40c)+_0xb6303(0x337)+_0xb6303(0x85b)+_0xb6303(0xce5)+_0xb6303(0x866)+_0xb6303(0x966)+_0xb6303(0x687)+_0xb6303(0x40c)+_0xb6303(0x6a9)+_0xb6303(0xc6c)+_0xb6303(0x744)+'\x20\x20\x20\x20\x20if\x20(!timeOut_flag)\x20{\x20\x20\x20\x0a\x20\x20\x20'+_0xb6303(0x747)+_0xb6303(0x744)+'\x20\x20\x20\x20\x20timeout\x20=\x20millis();\x20\x20\x0a\x20\x20\x20'+_0xb6303(0xc2e)+_0xb6303(0xbb8)+'\x20}\x20\x20\x0a\x20\x20\x20'+_0xb6303(0x8e9)+_0xb6303(0x27f)+_0xb6303(0x95c)+_0xb6303(0x63b)+_0xb6303(0x1d3)+_0xb6303(0x687)+'\x20\x20\x20\x20\x20}\x20\x20\x0a\x20\x20\x20'+'\x20\x20\x20\x20\x20for\x20(int\x20i\x20=\x200;\x20i\x20<\x206;\x20i++)\x20{\x20\x20\x0a\x20\x20\x20'+_0xb6303(0x377)+_0xb6303(0x744)+_0xb6303(0x30f)+_0xb6303(0xbb8)+'\x20}\x20\x20\x0a\x20\x20\x20\x20\x20',Blockly[_0xb6303(0x2a3)][_0xb6303(0xcee)][_0xb6303(0x415)]=_0xb6303(0x59c);var _0x3d7bd4=_0xb6303(0x75f);return _0x3d7bd4;},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0x594)]=function(_0x2f0d50){var _0x1b68d1=_0x3d686a,_0x1a6443=Blockly['Arduino'][_0x1b68d1(0x74d)](_0x2f0d50,_0x1b68d1(0x736),Blockly[_0x1b68d1(0x2a3)]['ORDER_ATOMIC']),_0xa20a1b=_0x2f0d50[_0x1b68d1(0x2b1)](_0x1b68d1(0xcd7));return Blockly[_0x1b68d1(0x2a3)][_0x1b68d1(0x5f5)][_0x1b68d1(0x316)+_0xa20a1b]=_0x1b68d1(0x6e7)+_0xa20a1b+'m\x20[13]\x20={0x5A,\x200xA5,\x200x0B,\x200x82,\x200x03,\x200x10,\x200x5A,\x200xA5,\x200x01,\x200x00,\x200x0'+_0xa20a1b+_0x1b68d1(0x387)+_0xa20a1b+_0x1b68d1(0xbe8),_0x1b68d1(0xa59)+_0xa20a1b+_0x1b68d1(0x22a)+_0x1a6443+_0x1b68d1(0x6c5)+_0xa20a1b+_0x1b68d1(0x8f0)+_0xa20a1b+_0x1b68d1(0x80c);},Blockly['Arduino'][_0x3d686a(0x9cd)]=function(_0x505c7d){var _0x42d1b3=_0x3d686a;Blockly[_0x42d1b3(0x2a3)][_0x42d1b3(0xa2c)]['definitions_dwin_box_ttl']='\x20\x20#include\x20<Arduino.h>\x20\x0a\x20#ifdef\x20ARDUINO_ARCH_ESP32\x20\x0a\x20\x20\x20#include\x20\x22designerDWIN.h\x22\x20\x20\x0a\x20\x20\x20#else\x20\x0a\x20\x20\x20\x20#include\x20\x22arduinoDWINbox.h\x22\x20\x20\x0a\x20\x20\x20#endif\x20\x0a\x20',Blockly[_0x42d1b3(0x2a3)][_0x42d1b3(0xcee)][_0x42d1b3(0xac3)]=_0x42d1b3(0x46e);var _0x33e042='\x20';return _0x33e042;},Blockly[_0x3d686a(0x2a3)]['dwin_box_none']=function(_0x157694){var _0x2da603=_0x3d686a,_0x254ea7=_0x2da603(0xc7e);return _0x254ea7;},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0x256)]=function(_0x4e6e11){var _0x5658a1=_0x3d686a,_0x249c8b=_0x5658a1(0x695);return _0x249c8b;},Blockly['Arduino'][_0x3d686a(0x236)]=function(_0x436e90){var _0x3aed98=_0x3d686a,_0x227806=_0x436e90[_0x3aed98(0x2b1)]('icon_text'),_0x547526=_0x436e90[_0x3aed98(0x2b1)](_0x3aed98(0x8dd)),_0x324c65=_0x436e90['getFieldValue'](_0x3aed98(0x207)),_0x3216d8=_0x3aed98(0xc25)+_0x227806+',\x20'+_0x547526+',\x20'+_0x324c65+_0x3aed98(0x23c);return _0x3216d8;},Blockly['Arduino'][_0x3d686a(0xb40)]=function(_0x1db840){var _0x1dd9a8=_0x3d686a,_0x340960=_0x1db840[_0x1dd9a8(0x2b1)](_0x1dd9a8(0xcb1)),_0x4bc284=_0x1db840[_0x1dd9a8(0x2b1)](_0x1dd9a8(0x8dd)),_0x4bef38=_0x1db840[_0x1dd9a8(0x2b1)](_0x1dd9a8(0x207)),_0x3bb269=_0x1db840[_0x1dd9a8(0x2b1)]('h_text'),_0x5c8ac0=_0x1db840[_0x1dd9a8(0x2b1)]('color_dropdown'),_0x54a93a=_0x1dd9a8(0x8a5)+_0x4bc284+',\x20'+_0x4bef38+',\x20'+_0x3bb269+',\x20'+_0x5c8ac0+_0x1dd9a8(0x5eb)+_0x340960+_0x1dd9a8(0x654);return _0x54a93a;},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0xac5)]=function(_0x8cb6){var _0x3a5c6e=_0x3d686a,_0x5ce477=_0x8cb6[_0x3a5c6e(0x2b1)](_0x3a5c6e(0xce2)),_0x947163=_0x8cb6['getFieldValue'](_0x3a5c6e(0xcb1)),_0x350e6d=_0x8cb6[_0x3a5c6e(0x2b1)]('x_text'),_0x45b48b=_0x8cb6[_0x3a5c6e(0x2b1)](_0x3a5c6e(0x207)),_0x1d7d58=_0x8cb6['getFieldValue'](_0x3a5c6e(0x735)),_0x4aef01=_0x8cb6[_0x3a5c6e(0x2b1)](_0x3a5c6e(0x1b4));Blockly[_0x3a5c6e(0x2a3)][_0x3a5c6e(0xcee)][_0x3a5c6e(0xadd)+_0x5ce477]=_0x3a5c6e(0x7f8)+_0x947163+',\x20'+_0x350e6d+',\x20'+_0x45b48b+',\x20'+_0x4aef01+_0x3a5c6e(0x5eb)+_0x1d7d58+_0x3a5c6e(0x30e);var _0x372ff1=_0x8cb6[_0x3a5c6e(0x2b1)](_0x3a5c6e(0x6d9));if(_0x372ff1==0x0)var _0x9fc9e5=_0x3a5c6e(0x4ea)+_0x5ce477+',\x20'+_0x947163+',\x20'+_0x350e6d+',\x20'+_0x45b48b+',\x20'+_0x4aef01+_0x3a5c6e(0x5eb)+_0x1d7d58+'\x22);\x20\x0a\x20bool\x20stek_bool'+_0x5ce477+_0x3a5c6e(0x4c5)+_0x5ce477+_0x3a5c6e(0xb00);else var _0x9fc9e5='setSwichActivDwin('+_0x5ce477+',\x20'+_0x947163+',\x20'+_0x350e6d+',\x20'+_0x45b48b+',\x20'+_0x4aef01+_0x3a5c6e(0x5eb)+_0x1d7d58+_0x3a5c6e(0x3a7)+_0x5ce477+'\x20=\x20stek_bool_sw['+_0x5ce477+_0x3a5c6e(0xb00);return _0x9fc9e5;},Blockly[_0x3d686a(0x2a3)]['dwin_box_bot_id']=function(_0x226e24){var _0x30f501=_0x3d686a,_0x34a8d0=_0x226e24[_0x30f501(0x2b1)]('idn_text'),_0x405d52=_0x30f501(0x725)+_0x34a8d0+'';return[_0x405d52,Blockly[_0x30f501(0x2a3)][_0x30f501(0x7ce)]];},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0x9f7)]=function(_0x381e5f){var _0x60902b=_0x3d686a,_0x402268=_0x381e5f['getFieldValue']('idn_text'),_0x22c919=_0x381e5f[_0x60902b(0x2b1)](_0x60902b(0xcb1)),_0x1061a5=_0x381e5f['getFieldValue'](_0x60902b(0x8dd)),_0x1572c9=_0x381e5f[_0x60902b(0x2b1)]('y_text'),_0x285f70=_0x381e5f[_0x60902b(0x2b1)]('text_text'),_0x21d3c7=_0x381e5f[_0x60902b(0x2b1)](_0x60902b(0x1b4)),_0x1f02ca=Blockly[_0x60902b(0x2a3)]['statementToCode'](_0x381e5f,_0x60902b(0x9b4)),_0x19ae7d=Blockly[_0x60902b(0x2a3)]['statementToCode'](_0x381e5f,_0x60902b(0xa37));Blockly[_0x60902b(0x2a3)][_0x60902b(0xcee)][_0x60902b(0x8ef)+_0x402268]='setBtnDwin('+_0x22c919+',\x20'+_0x1061a5+',\x20'+_0x1572c9+',\x20'+_0x21d3c7+_0x60902b(0x5eb)+_0x285f70+_0x60902b(0x30e);var _0x1d3c96=_0x381e5f[_0x60902b(0x2b1)]('bb_dropdown');if(_0x1d3c96==0x0)var _0x38329c=_0x60902b(0x8d7)+_0x60902b(0x9c7)+_0x402268+',\x20'+_0x22c919+',\x20'+_0x1061a5+',\x20'+_0x1572c9+',\x20'+_0x21d3c7+_0x60902b(0x5eb)+_0x285f70+_0x60902b(0x2b7)+_0x60902b(0xa14)+_0x402268+_0x60902b(0x27c)+_0x60902b(0xbe7)+_0x402268+_0x60902b(0x803)+_0x402268+_0x60902b(0xcc7)+_0x60902b(0x31d)+_0x60902b(0xca3)+_0x402268+_0x60902b(0x345)+'\x20'+_0x1f02ca+_0x60902b(0x48f)+_0x60902b(0x1e8)+_0x60902b(0x942)+_0x402268+']\x20&&\x20last_bt'+_0x402268+_0x60902b(0x4f8)+_0x60902b(0xca3)+_0x402268+_0x60902b(0x3ac)+'\x20'+_0x19ae7d+_0x60902b(0x216)+_0x60902b(0xbb8)+'\x20\x09';else var _0x38329c=_0x60902b(0x8d7)+_0x60902b(0xb0e)+_0x402268+',\x20'+_0x22c919+',\x20'+_0x1061a5+',\x20'+_0x1572c9+',\x20'+_0x21d3c7+_0x60902b(0x5eb)+_0x285f70+_0x60902b(0x2b7)+'\x20static\x20bool\x20last_sw'+_0x402268+';\x20\x0a\x20\x20\x20'+'\x20\x20\x20if\x20(stek_bool_sw['+_0x402268+_0x60902b(0x89e)+_0x402268+_0x60902b(0xcc7)+'\x20\x20\x20{\x20\x0a\x20\x20\x20'+_0x60902b(0x70b)+_0x402268+'\x20=\x20true;\x20\x0a\x20\x20\x20'+'\x20'+_0x1f02ca+_0x60902b(0x48f)+_0x60902b(0x1e8)+_0x60902b(0x47a)+_0x402268+']\x20&&\x20last_sw'+_0x402268+_0x60902b(0x4f8)+_0x60902b(0x70b)+_0x402268+_0x60902b(0x3ac)+'\x20'+_0x19ae7d+'\x20\x20\x20\x20\x0a\x20\x20\x20'+_0x60902b(0xbb8)+'\x20\x09';return _0x38329c;},Blockly['Arduino']['dwin_box_bot2']=function(_0x2cb3e9){var _0x22a442=_0x3d686a,_0x5a6975=_0x2cb3e9[_0x22a442(0x2b1)]('idn_text'),_0xf95a13=_0x2cb3e9[_0x22a442(0x2b1)](_0x22a442(0x62f)),_0x56b2b4=_0x2cb3e9[_0x22a442(0x2b1)](_0x22a442(0xc65)),_0x4df6e9=_0x2cb3e9[_0x22a442(0x2b1)](_0x22a442(0x8dd)),_0x6a9d73=_0x2cb3e9[_0x22a442(0x2b1)]('y_text'),_0x444781=_0x2cb3e9[_0x22a442(0x2b1)]('text_text1'),_0x322edf=_0x2cb3e9[_0x22a442(0x2b1)](_0x22a442(0x3b5)),_0x50da73=_0x2cb3e9[_0x22a442(0x2b1)]('color_dropdown1'),_0x151887=_0x2cb3e9['getFieldValue'](_0x22a442(0xc5f)),_0x52b3d0=Blockly[_0x22a442(0x2a3)][_0x22a442(0xcd1)](_0x2cb3e9,_0x22a442(0x9b4)),_0x1119f5=Blockly[_0x22a442(0x2a3)][_0x22a442(0xcd1)](_0x2cb3e9,_0x22a442(0xa37));Blockly[_0x22a442(0x2a3)][_0x22a442(0xa2c)][_0x22a442(0xb11)+_0x5a6975]=_0x22a442(0x438)+_0x5a6975+_0x22a442(0x972),Blockly['Arduino']['setups_'][_0x22a442(0x68f)+_0x5a6975]=_0x22a442(0x7f8)+_0xf95a13+',\x20'+_0x4df6e9+',\x20'+_0x6a9d73+',\x20'+_0x50da73+_0x22a442(0x5eb)+_0x444781+_0x22a442(0x30e);var _0x260aae=_0x22a442(0x8d7)+_0x22a442(0x704)+_0x5a6975+_0x22a442(0x1f9)+'\x20\x20\x20\x20\x20\x20\x20setSwichActivDwin('+_0x5a6975+',\x20'+_0xf95a13+',\x20'+_0x4df6e9+',\x20'+_0x6a9d73+',\x20'+_0x50da73+_0x22a442(0x5eb)+_0x444781+'\x22);\x20\x0a\x20\x20\x20'+'\x20\x20\x20\x20\x20\x20\x20\x20bool\x20stek_bool'+_0x5a6975+_0x22a442(0x94e)+_0x5a6975+_0x22a442(0x625)+_0x22a442(0x861)+_0x5a6975+'n\x20=\x20stek_bool'+_0x5a6975+_0x22a442(0x27c)+'\x20'+_0x52b3d0+_0x22a442(0x216)+_0x22a442(0x432)+'\x20\x20\x20\x20if\x20(xb'+_0x5a6975+_0x22a442(0xa18)+_0x22a442(0x2b0)+_0x5a6975+',\x20'+_0x56b2b4+',\x20'+_0x4df6e9+',\x20'+_0x6a9d73+',\x20'+_0x151887+_0x22a442(0x5eb)+_0x322edf+_0x22a442(0x48a)+'\x20\x20\x20\x20\x20\x20\x20\x20bool\x20stek_bool'+_0x5a6975+_0x22a442(0x94e)+_0x5a6975+_0x22a442(0x625)+'\x20\x20\x20\x20\x20\x20\x20xb'+_0x5a6975+_0x22a442(0x433)+_0x5a6975+';\x20\x0a\x20\x20\x20'+'\x20'+_0x1119f5+'\x20\x20\x20\x20\x0a\x20\x20\x20'+_0x22a442(0x432)+_0x22a442(0x712);return _0x260aae;},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0x9b3)]=function(_0xbf9e9d){var _0x19df7e=_0x3d686a,_0x3dc119=Blockly[_0x19df7e(0x2a3)][_0x19df7e(0x74d)](_0xbf9e9d,_0x19df7e(0x1c3),Blockly[_0x19df7e(0x2a3)][_0x19df7e(0x7ce)]),_0x4c480b=_0xbf9e9d[_0x19df7e(0x2b1)]('x_text'),_0x323a65=_0xbf9e9d[_0x19df7e(0x2b1)]('y_text'),_0xc7e6a2=_0xbf9e9d[_0x19df7e(0x2b1)](_0x19df7e(0x735)),_0x3f8c1e=_0xbf9e9d['getFieldValue'](_0x19df7e(0x1b4)),_0x650062='setNumberDwin('+_0x3dc119+',\x20'+_0x4c480b+',\x20'+_0x323a65+',\x20'+_0x3f8c1e+',\x20'+_0xc7e6a2+_0x19df7e(0x4d8);return _0x650062;},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0xbd1)]=function(_0x123fff){var _0x3ee86f=_0x3d686a,_0x57c75d=Blockly[_0x3ee86f(0x2a3)][_0x3ee86f(0x74d)](_0x123fff,'var_block',Blockly[_0x3ee86f(0x2a3)][_0x3ee86f(0x7ce)]),_0x1b2db4=_0x123fff[_0x3ee86f(0x2b1)](_0x3ee86f(0x8dd)),_0x4f928f=_0x123fff['getFieldValue'](_0x3ee86f(0x207)),_0x363b8b=_0x123fff['getFieldValue']('color_dropdown'),_0x3c042b='\x20setSliderDwin('+_0x363b8b+',\x20'+_0x1b2db4+',\x20'+_0x4f928f+',\x20'+_0x57c75d+'\x20);\x20\x0a';return _0x3c042b;},Blockly['Arduino'][_0x3d686a(0x870)]=function(_0x5c72ab){var _0x255799=_0x3d686a,_0x19891c=Blockly[_0x255799(0x2a3)][_0x255799(0x74d)](_0x5c72ab,'var_block',Blockly[_0x255799(0x2a3)][_0x255799(0x7ce)]),_0x396dff=_0x255799(0x8b4)+_0x19891c+_0x255799(0x23c);return _0x396dff;},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0x49e)]=function(_0x3079d0){var _0x4699ae=_0x3d686a,_0x2c77d=Blockly[_0x4699ae(0x2a3)]['valueToCode'](_0x3079d0,_0x4699ae(0x1c3),Blockly['Arduino'][_0x4699ae(0x7ce)]),_0x1e411d=_0x4699ae(0x5fa)+_0x2c77d+_0x4699ae(0x23c);return _0x1e411d;},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0x235)]=function(_0x50e0d1){var _0x4db123=_0x3d686a,_0x1756cb=_0x50e0d1['getFieldValue']('pin'),_0xabf8de=_0x50e0d1[_0x4db123(0x2b1)](_0x4db123(0xcc2)),_0x357934=_0x50e0d1['getFieldValue'](_0x4db123(0x355));Blockly['Arduino'][_0x4db123(0xa2c)]['define_ledRGB_WS2812B']=_0x4db123(0xb8d),Blockly[_0x4db123(0x2a3)]['definitions_'][_0x4db123(0xa5c)+_0x1756cb]=_0x4db123(0x324)+_0x1756cb+'('+_0x357934+',\x20'+_0xabf8de+_0x4db123(0xa5e),Blockly[_0x4db123(0x2a3)][_0x4db123(0xcee)]['setup_ledRGB_WS2812B_top']=_0x4db123(0x864),Blockly[_0x4db123(0x2a3)][_0x4db123(0xcee)][_0x4db123(0x6a4)+_0x1756cb]='\x20\x20strip'+_0x1756cb+_0x4db123(0x578)+_0x1756cb+'.show();\x20\x20\x0a\x20\x20strip'+_0x1756cb+_0x4db123(0xc87);var _0x4ae20d=_0x50e0d1[_0x4db123(0x2b1)](_0x4db123(0x516)),_0x34c74b=_0x50e0d1[_0x4db123(0x2b1)]('ledoff'),_0x1a529c=_0x50e0d1[_0x4db123(0x2b1)](_0x4db123(0xab9)),_0x3e26bb=_0x50e0d1[_0x4db123(0x2b1)](_0x4db123(0x275)),_0x2333a3=_0x50e0d1[_0x4db123(0x2b1)]('ws');if(_0x2333a3==0x0)var _0x590170=parseInt(_0x3e26bb[_0x4db123(0x69d)](0x1,0x3),0x10),_0xf90932=parseInt(_0x3e26bb['substring'](0x3,0x5),0x10),_0x564347=parseInt(_0x3e26bb[_0x4db123(0x69d)](0x5,0x7),0x10);if(_0x2333a3==0x1)var _0x590170=parseInt(_0x3e26bb[_0x4db123(0x69d)](0x1,0x3),0x10),_0x564347=parseInt(_0x3e26bb[_0x4db123(0x69d)](0x3,0x5),0x10),_0xf90932=parseInt(_0x3e26bb['substring'](0x5,0x7),0x10);var _0x2cf797=this[_0x4db123(0x2b1)](_0x4db123(0xbc3));if(_0x2cf797==0x6)var _0x2b023a=_0x4db123(0xc9f)+_0x4ae20d+_0x4db123(0x8c8)+_0x34c74b+'\x20-\x20Pixcil;\x20\x0a\x20\x20for\x20(int\x20count\x20=\x200;\x20count\x20<\x20NeoPix;\x20count++)\x20{\x20\x0a\x20\x20\x20\x20Pixcil\x20=\x20Pixcil\x20+\x201;\x20\x0a\x20\x20\x20strip'+_0x1756cb+'.setBrightness(255);\x20\x0a\x20\x20\x20\x20\x20strip'+_0x1756cb+'.setPixelColor(Pixcil-1,\x20strip'+_0x1756cb+'.Color('+_0x590170+','+_0xf90932+','+_0x564347+_0x4db123(0x6c9)+_0x1756cb+'.show();\x20\x0a\x20\x20\x20\x20\x20\x20}\x20\x0a\x20\x20\x20Pixcil\x20=\x20'+_0x4ae20d+_0x4db123(0xcdc)+_0x1a529c+_0x4db123(0x4d8);if(_0x2cf797==0x7)var _0x2b023a=_0x4db123(0xc9f)+_0x4ae20d+_0x4db123(0x8c8)+_0x34c74b+_0x4db123(0xa1e)+_0x1756cb+_0x4db123(0x215)+_0x1756cb+_0x4db123(0xb25)+_0x1756cb+_0x4db123(0x831)+_0x590170+','+_0xf90932+','+_0x564347+'));\x20\x0a\x20\x20\x20\x20\x20strip'+_0x1756cb+_0x4db123(0x191)+_0x1a529c+_0x4db123(0x1e6)+_0x1756cb+'.setBrightness(255);\x20\x0a\x20\x20\x20\x20\x20\x20strip'+_0x1756cb+'.setPixelColor(Pixcil-1,\x20strip'+_0x1756cb+_0x4db123(0x995)+_0x1756cb+_0x4db123(0x9a1)+_0x4ae20d+_0x4db123(0x6aa);if(_0x2cf797==0x8)var _0x2b023a='\x20\x20Pixcil\x20=\x20'+_0x34c74b+_0x4db123(0x47e)+_0x34c74b+_0x4db123(0x9ee)+_0x4ae20d+';\x20\x0a\x20//Pixcil\x20=\x20NeoPix;\x20\x0a\x20for\x20(int\x20count\x20=\x200;\x20count\x20<\x20NeoPix;\x20count++)\x20{\x20\x0a\x20\x20\x20strip'+_0x1756cb+_0x4db123(0x215)+_0x1756cb+'.setPixelColor(Pixcil-1,\x20strip'+_0x1756cb+_0x4db123(0x831)+_0x590170+','+_0xf90932+','+_0x564347+_0x4db123(0xa99)+_0x1756cb+'.show();\x20\x0a\x20\x20\x20\x20delay('+_0x1a529c+_0x4db123(0x1e6)+_0x1756cb+_0x4db123(0x215)+_0x1756cb+'.setPixelColor(Pixcil-1,\x20strip'+_0x1756cb+_0x4db123(0x995)+_0x1756cb+_0x4db123(0x823)+_0x34c74b+';\x20\x0a\x20';if(_0x2cf797==0xa)var _0x2b023a=_0x4db123(0xc9f)+_0x34c74b+_0x4db123(0x25e)+_0x34c74b+_0x4db123(0x9ee)+_0x4ae20d+';\x20\x0a\x20\x20\x20\x20for\x20(int\x20count\x20=\x200;\x20count\x20<\x20NeoPix*Pixcil;\x20count++)\x20{\x20\x0a\x20\x20\x20\x20for\x20(int\x20count\x20=\x200;\x20count\x20<\x20NeoPix;\x20count++)\x20{\x20\x0a\x20\x20\x20\x20\x20\x20\x20Pixcil\x20=\x20Pixcil\x20-\x201;\x20\x0a\x20\x20\x20\x20\x20\x20\x20strip'+_0x1756cb+'.setBrightness(255);\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20strip'+_0x1756cb+'.setPixelColor(Pixcil-1,\x20strip'+_0x1756cb+_0x4db123(0x831)+_0x590170+','+_0xf90932+','+_0x564347+'));\x20\x0a\x20\x20\x20\x20\x20\x20\x20strip'+_0x1756cb+_0x4db123(0x8f4)+_0x1a529c+');\x20\x0a\x20\x20\x20\x20\x20\x20strip'+_0x1756cb+_0x4db123(0x825)+_0x1756cb+_0x4db123(0xb25)+_0x1756cb+_0x4db123(0x580)+_0x1756cb+_0x4db123(0x65f)+_0x1756cb+_0x4db123(0x215)+_0x1756cb+'.setPixelColor(Pixcil-1,\x20strip'+_0x1756cb+_0x4db123(0x831)+_0x590170+','+_0xf90932+','+_0x564347+'));\x20\x0a\x20\x20\x20\x20\x20\x20strip'+_0x1756cb+_0x4db123(0xaa8)+_0x34c74b+_0x4db123(0xca2);if(_0x2cf797==0xb)var _0x2b023a='\x20Pixcil\x20=\x20'+_0x4ae20d+'+1;\x20\x0a\x20NeoPix\x20=\x20'+_0x34c74b+_0x4db123(0xcde)+_0x34c74b+_0x4db123(0xa22)+_0x1756cb+_0x4db123(0x825)+_0x1756cb+_0x4db123(0xb25)+_0x1756cb+_0x4db123(0x831)+_0x590170+','+_0xf90932+','+_0x564347+'));\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20strip'+_0x1756cb+_0x4db123(0x807)+_0x1a529c+');\x20\x0a\x20\x20\x20\x20\x20\x20\x20strip'+_0x1756cb+_0x4db123(0xa7d)+_0x1756cb+'.setPixelColor(Pixcil-1,\x20strip'+_0x1756cb+_0x4db123(0xa17)+_0x1756cb+_0x4db123(0x9a6)+_0x1756cb+_0x4db123(0x215)+_0x1756cb+_0x4db123(0xb25)+_0x1756cb+_0x4db123(0x831)+_0x590170+','+_0xf90932+','+_0x564347+_0x4db123(0xa99)+_0x1756cb+_0x4db123(0x35e)+_0x4ae20d+'+1;\x20\x0a\x20\x20\x20\x20\x20NeoPix\x20=\x20NeoPix\x20-\x201;\x20\x0a\x20\x20\x20}\x20\x0a\x20\x20\x20Pixcil\x20=\x20'+_0x4ae20d+';\x20\x0a\x20\x20\x20';if(_0x2cf797==0xc)var _0x2b023a='\x20Pixcil\x20=\x20'+_0x4ae20d+_0x4db123(0x8c8)+_0x34c74b+_0x4db123(0x768)+_0x1756cb+'.setBrightness(255);\x20\x0a\x20\x20\x20\x20\x20strip'+_0x1756cb+_0x4db123(0xb25)+_0x1756cb+'.Color('+_0x590170+','+_0xf90932+','+_0x564347+_0x4db123(0xa99)+_0x1756cb+_0x4db123(0x20f)+_0x1a529c+_0x4db123(0x6cd)+_0x4ae20d+_0x4db123(0xa9b);if(_0x2cf797==0xd)var _0x2b023a='\x20Pixcil\x20=\x20'+_0x34c74b+';\x20\x0a\x20\x20NeoPix\x20=\x20'+_0x34c74b+_0x4db123(0x9ee)+_0x4ae20d+_0x4db123(0x1d8)+_0x1756cb+_0x4db123(0x277)+_0x1756cb+'.setPixelColor(Pixcil-1,\x20strip'+_0x1756cb+_0x4db123(0x831)+_0x590170+','+_0xf90932+','+_0x564347+_0x4db123(0xa99)+_0x1756cb+_0x4db123(0x191)+_0x1a529c+_0x4db123(0xab3)+_0x4ae20d+_0x4db123(0xc3b);return _0x2b023a;},Blockly[_0x3d686a(0x2a3)]['ledi_ws2812x2']=function(_0x45d75a){var _0x5d92b1=_0x3d686a,_0x3fee6e=_0x45d75a[_0x5d92b1(0x2b1)](_0x5d92b1(0xcc2)),_0x2e91a5=_0x45d75a[_0x5d92b1(0x2b1)]('pin'),_0x49a6ee=_0x45d75a[_0x5d92b1(0x2b1)](_0x5d92b1(0xcc0)),_0x4350ff=_0x45d75a[_0x5d92b1(0x2b1)](_0x5d92b1(0xcc0)),_0x25aaea=_0x45d75a[_0x5d92b1(0x2b1)]('led');Blockly[_0x5d92b1(0x2a3)][_0x5d92b1(0xa2c)][_0x5d92b1(0x772)]='\x20#include\x20<Adafruit_NeoPixel.h>\x20\x0a\x20#ifdef\x20__AVR__\x20\x0a\x20\x20#include\x20<avr/power.h>\x20\x20\x0a\x20#endif\x20\x0a\x20long\x20Pixcil\x20=\x200;\x20\x0a\x20long\x20NeoPix\x20=\x200;\x20\x0a',Blockly[_0x5d92b1(0x2a3)][_0x5d92b1(0xa2c)][_0x5d92b1(0xa5c)+_0x3fee6e]=_0x5d92b1(0x324)+_0x3fee6e+'('+_0x25aaea+',\x20'+_0x2e91a5+_0x5d92b1(0x73b),Blockly[_0x5d92b1(0x2a3)][_0x5d92b1(0xa2c)]['define_ledRGB_WS2812B_top'+_0x49a6ee]='\x20Adafruit_NeoPixel\x20strip'+_0x49a6ee+'('+_0x25aaea+',\x20'+_0x4350ff+_0x5d92b1(0xa5e),Blockly['Arduino']['setups_']['setup_ledRGB_WS2812B_top']='\x20#if\x20defined(__AVR_ATtiny85__)\x20&&\x20(F_CPU\x20==\x2016000000)\x20\x0a\x20\x20\x20clock_prescale_set(clock_div_1);\x20\x0a\x20#endif\x20\x0a\x20',Blockly[_0x5d92b1(0x2a3)][_0x5d92b1(0xcee)]['setup_ledRGB_WS2812B_top'+_0x3fee6e]='\x20\x20strip'+_0x3fee6e+'.begin();\x20\x20\x0a\x20\x20strip'+_0x3fee6e+'.show();\x20\x20\x0a\x20\x20strip'+_0x3fee6e+'.setBrightness(50);\x20\x20\x0a',Blockly[_0x5d92b1(0x2a3)][_0x5d92b1(0xcee)][_0x5d92b1(0x6a4)+_0x49a6ee]='\x20\x20strip'+_0x49a6ee+_0x5d92b1(0x578)+_0x49a6ee+_0x5d92b1(0x9d7)+_0x49a6ee+_0x5d92b1(0xc87);var _0x473420=_0x45d75a[_0x5d92b1(0x2b1)](_0x5d92b1(0x516)),_0x23e5f5=_0x45d75a[_0x5d92b1(0x2b1)]('ledoff'),_0x4b107e=_0x45d75a[_0x5d92b1(0x2b1)](_0x5d92b1(0xab9)),_0x47b5e2=_0x45d75a['getFieldValue'](_0x5d92b1(0x275)),_0xb4dd41=_0x45d75a[_0x5d92b1(0x2b1)](_0x5d92b1(0x707)),_0x28a841=_0x45d75a[_0x5d92b1(0x2b1)]('ws');if(_0x28a841==0x0)var _0x21d450=parseInt(_0x47b5e2[_0x5d92b1(0x69d)](0x1,0x3),0x10),_0x1cb7db=parseInt(_0x47b5e2[_0x5d92b1(0x69d)](0x3,0x5),0x10),_0xabc764=parseInt(_0x47b5e2['substring'](0x5,0x7),0x10),_0x2ce657=parseInt(_0xb4dd41['substring'](0x1,0x3),0x10),_0x50182d=parseInt(_0xb4dd41[_0x5d92b1(0x69d)](0x3,0x5),0x10),_0x3a9e41=parseInt(_0xb4dd41[_0x5d92b1(0x69d)](0x5,0x7),0x10);if(_0x28a841==0x1)var _0x21d450=parseInt(_0x47b5e2['substring'](0x1,0x3),0x10),_0xabc764=parseInt(_0x47b5e2[_0x5d92b1(0x69d)](0x3,0x5),0x10),_0x1cb7db=parseInt(_0x47b5e2['substring'](0x5,0x7),0x10),_0x2ce657=parseInt(_0xb4dd41[_0x5d92b1(0x69d)](0x1,0x3),0x10),_0x3a9e41=parseInt(_0xb4dd41[_0x5d92b1(0x69d)](0x3,0x5),0x10),_0x50182d=parseInt(_0xb4dd41[_0x5d92b1(0x69d)](0x5,0x7),0x10);var _0x25a7ab=this[_0x5d92b1(0x2b1)]('RE_NUMBER');if(_0x25a7ab==0x6)var _0xb397d='\x20Pixcil\x20=\x20'+_0x473420+_0x5d92b1(0x8c8)+_0x23e5f5+_0x5d92b1(0x7df)+_0x3fee6e+'.setBrightness(255);\x20\x0a\x20\x20strip'+_0x49a6ee+_0x5d92b1(0xc62)+_0x3fee6e+_0x5d92b1(0xb25)+_0x3fee6e+_0x5d92b1(0x831)+_0x21d450+','+_0x1cb7db+','+_0xabc764+_0x5d92b1(0x5af)+_0x49a6ee+_0x5d92b1(0xb25)+_0x49a6ee+_0x5d92b1(0x831)+_0x2ce657+','+_0x50182d+','+_0x3a9e41+_0x5d92b1(0x750)+_0x3fee6e+_0x5d92b1(0x394)+_0x49a6ee+'.show();\x20\x0a\x20\x20\x20\x20}\x20\x0a\x20\x20\x20Pixcil\x20=\x20'+_0x473420+_0x5d92b1(0xcdc)+_0x4b107e+_0x5d92b1(0x4d8);if(_0x25a7ab==0x7)var _0xb397d=_0x5d92b1(0xc9f)+_0x473420+_0x5d92b1(0x8c8)+_0x23e5f5+_0x5d92b1(0xa1e)+_0x3fee6e+_0x5d92b1(0x3b1)+_0x49a6ee+_0x5d92b1(0x215)+_0x3fee6e+_0x5d92b1(0xb25)+_0x3fee6e+'.Color('+_0x21d450+','+_0x1cb7db+','+_0xabc764+_0x5d92b1(0x750)+_0x49a6ee+_0x5d92b1(0xb25)+_0x49a6ee+_0x5d92b1(0x831)+_0x2ce657+','+_0x50182d+','+_0x3a9e41+_0x5d92b1(0x750)+_0x3fee6e+_0x5d92b1(0xa2b)+_0x49a6ee+_0x5d92b1(0x191)+_0x4b107e+_0x5d92b1(0x1e6)+_0x3fee6e+_0x5d92b1(0xb99)+_0x49a6ee+_0x5d92b1(0x215)+_0x3fee6e+_0x5d92b1(0xb25)+_0x3fee6e+_0x5d92b1(0x708)+_0x49a6ee+_0x5d92b1(0xb25)+_0x49a6ee+_0x5d92b1(0x995)+_0x3fee6e+_0x5d92b1(0x394)+_0x49a6ee+_0x5d92b1(0x9a1)+_0x473420+_0x5d92b1(0x6aa);if(_0x25a7ab==0x8)var _0xb397d=_0x5d92b1(0x80f)+_0x23e5f5+_0x5d92b1(0x47e)+_0x23e5f5+_0x5d92b1(0x9ee)+_0x473420+_0x5d92b1(0xa7c)+_0x3fee6e+_0x5d92b1(0xb99)+_0x49a6ee+_0x5d92b1(0x215)+_0x3fee6e+_0x5d92b1(0xb25)+_0x3fee6e+_0x5d92b1(0x831)+_0x21d450+','+_0x1cb7db+','+_0xabc764+'));\x20\x0a\x20\x20strip'+_0x49a6ee+_0x5d92b1(0xb25)+_0x49a6ee+'.Color('+_0x2ce657+','+_0x50182d+','+_0x3a9e41+'));\x20\x0a\x20\x20\x20\x20\x20strip'+_0x3fee6e+_0x5d92b1(0xb86)+_0x49a6ee+_0x5d92b1(0x733)+_0x4b107e+_0x5d92b1(0x1e6)+_0x3fee6e+_0x5d92b1(0xb99)+_0x49a6ee+'.setBrightness(255);\x20\x0a\x20\x20\x20\x20\x20\x20strip'+_0x3fee6e+_0x5d92b1(0xb25)+_0x3fee6e+_0x5d92b1(0x7f2)+_0x49a6ee+'.setPixelColor(Pixcil-1,\x20strip'+_0x49a6ee+_0x5d92b1(0x995)+_0x3fee6e+_0x5d92b1(0xb86)+_0x49a6ee+_0x5d92b1(0x823)+_0x23e5f5+_0x5d92b1(0x6aa);if(_0x25a7ab==0xa)var _0xb397d=_0x5d92b1(0xc9f)+_0x23e5f5+_0x5d92b1(0x25e)+_0x23e5f5+_0x5d92b1(0x9ee)+_0x473420+_0x5d92b1(0xc54)+_0x3fee6e+_0x5d92b1(0x3b1)+_0x49a6ee+_0x5d92b1(0xa7d)+_0x3fee6e+_0x5d92b1(0xb25)+_0x3fee6e+_0x5d92b1(0x831)+_0x21d450+','+_0x1cb7db+','+_0xabc764+'));\x20\x0a\x20\x20\x20\x20strip'+_0x49a6ee+_0x5d92b1(0xb25)+_0x49a6ee+_0x5d92b1(0x831)+_0x2ce657+','+_0x50182d+','+_0x3a9e41+'));\x20\x0a\x20\x20\x20\x20\x20\x20\x20strip'+_0x3fee6e+'.show();\x20\x0a\x20\x20\x20\x20\x20strip'+_0x49a6ee+_0x5d92b1(0x8f4)+_0x4b107e+_0x5d92b1(0x284)+_0x3fee6e+_0x5d92b1(0xc62)+_0x49a6ee+_0x5d92b1(0x825)+_0x3fee6e+_0x5d92b1(0xb25)+_0x3fee6e+_0x5d92b1(0x26d)+_0x49a6ee+_0x5d92b1(0xb25)+_0x49a6ee+_0x5d92b1(0x580)+_0x3fee6e+_0x5d92b1(0xc17)+_0x49a6ee+_0x5d92b1(0x65f)+_0x3fee6e+_0x5d92b1(0xc62)+_0x49a6ee+'.setBrightness(255);\x20\x0a\x20\x20\x20\x20\x20\x20strip'+_0x3fee6e+_0x5d92b1(0xb25)+_0x3fee6e+_0x5d92b1(0x831)+_0x21d450+','+_0x1cb7db+','+_0xabc764+'));\x20\x0a\x20\x20\x20\x20strip'+_0x49a6ee+_0x5d92b1(0xb25)+_0x49a6ee+_0x5d92b1(0x831)+_0x2ce657+','+_0x50182d+','+_0x3a9e41+_0x5d92b1(0x875)+_0x3fee6e+'.show();\x20\x0a\x20\x20\x20\x20strip'+_0x49a6ee+_0x5d92b1(0xaa8)+_0x23e5f5+_0x5d92b1(0xca2);if(_0x25a7ab==0xb)var _0xb397d='\x20Pixcil\x20=\x20'+_0x473420+_0x5d92b1(0xac2)+_0x23e5f5+_0x5d92b1(0xcde)+_0x23e5f5+';\x20count++)\x20{\x20\x0a\x20\x20\x20\x20\x20for\x20(int\x20count\x20=\x200;\x20count\x20<\x20NeoPix;\x20count++)\x20{\x20\x0a\x20\x20\x20\x20\x20\x20strip'+_0x3fee6e+'.setBrightness(255);\x20\x0a\x20\x20\x20\x20\x20\x20strip'+_0x49a6ee+_0x5d92b1(0x825)+_0x3fee6e+_0x5d92b1(0xb25)+_0x3fee6e+'.Color('+_0x21d450+','+_0x1cb7db+','+_0xabc764+_0x5d92b1(0x875)+_0x49a6ee+'.setPixelColor(Pixcil-1,\x20strip'+_0x49a6ee+_0x5d92b1(0x831)+_0x2ce657+','+_0x50182d+','+_0x3a9e41+_0x5d92b1(0xbc2)+_0x3fee6e+'.show();\x20\x0a\x20\x20\x20\x20\x20\x20\x20strip'+_0x49a6ee+_0x5d92b1(0x807)+_0x4b107e+_0x5d92b1(0x435)+_0x3fee6e+_0x5d92b1(0x215)+_0x49a6ee+_0x5d92b1(0xa7d)+_0x3fee6e+_0x5d92b1(0xb25)+_0x3fee6e+'.Color(0,0,0));\x20\x0a\x20\x20\x20\x20strip'+_0x49a6ee+_0x5d92b1(0xb25)+_0x49a6ee+_0x5d92b1(0xa17)+_0x3fee6e+_0x5d92b1(0xb86)+_0x49a6ee+_0x5d92b1(0x9a6)+_0x3fee6e+_0x5d92b1(0xc62)+_0x49a6ee+_0x5d92b1(0x215)+_0x3fee6e+_0x5d92b1(0xb25)+_0x3fee6e+_0x5d92b1(0x831)+_0x21d450+','+_0x1cb7db+','+_0xabc764+_0x5d92b1(0x6c9)+_0x49a6ee+_0x5d92b1(0xb25)+_0x49a6ee+_0x5d92b1(0x831)+_0x2ce657+','+_0x50182d+','+_0x3a9e41+'));\x20\x0a\x20\x20\x20\x20\x20strip'+_0x3fee6e+_0x5d92b1(0xb86)+_0x49a6ee+_0x5d92b1(0x35e)+_0x473420+_0x5d92b1(0x525)+_0x473420+_0x5d92b1(0x27c);if(_0x25a7ab==0xc)var _0xb397d='\x20Pixcil\x20=\x20'+_0x473420+';\x20\x0a\x20NeoPix\x20=\x20'+_0x23e5f5+_0x5d92b1(0x768)+_0x3fee6e+_0x5d92b1(0xc62)+_0x49a6ee+_0x5d92b1(0x277)+_0x3fee6e+_0x5d92b1(0xb25)+_0x3fee6e+_0x5d92b1(0x831)+_0x21d450+','+_0x1cb7db+','+_0xabc764+'));\x20\x0a\x20\x20\x20strip'+_0x49a6ee+_0x5d92b1(0xb25)+_0x49a6ee+_0x5d92b1(0x831)+_0x2ce657+','+_0x50182d+','+_0x3a9e41+_0x5d92b1(0xa99)+_0x3fee6e+_0x5d92b1(0xc6f)+_0x49a6ee+_0x5d92b1(0x20f)+_0x4b107e+_0x5d92b1(0x6cd)+_0x473420+';\x20\x20\x0a\x20\x20\x20\x20';if(_0x25a7ab==0xd)var _0xb397d='\x20Pixcil\x20=\x20'+_0x23e5f5+_0x5d92b1(0x47e)+_0x23e5f5+'\x20-\x20'+_0x473420+_0x5d92b1(0x8da)+_0x3fee6e+_0x5d92b1(0x2fb)+_0x49a6ee+_0x5d92b1(0x277)+_0x3fee6e+'.setPixelColor(Pixcil-1,\x20strip'+_0x3fee6e+'.Color('+_0x21d450+','+_0x1cb7db+','+_0xabc764+_0x5d92b1(0x6c9)+_0x49a6ee+_0x5d92b1(0xb25)+_0x49a6ee+_0x5d92b1(0x831)+_0x2ce657+','+_0x50182d+','+_0x3a9e41+_0x5d92b1(0xa99)+_0x3fee6e+'.show();\x20\x0a\x20\x20\x20strip'+_0x49a6ee+'.show();\x20\x0a\x20\x20\x20\x20\x20delay('+_0x4b107e+_0x5d92b1(0xab3)+_0x473420+_0x5d92b1(0xc3b);return _0xb397d;},Blockly[_0x3d686a(0x2a3)]['ledi_ws2812x4']=function(_0x5f00bb){var _0x24fa71=_0x3d686a,_0x302291=_0x5f00bb['getFieldValue'](_0x24fa71(0xcc2)),_0x59056d=_0x5f00bb[_0x24fa71(0x2b1)](_0x24fa71(0xcc2)),_0x164b48=_0x5f00bb[_0x24fa71(0x2b1)](_0x24fa71(0xcc0)),_0x5086c1=_0x5f00bb['getFieldValue']('pin1'),_0x3d04dd=_0x5f00bb[_0x24fa71(0x2b1)](_0x24fa71(0x343)),_0x3a7b61=_0x5f00bb[_0x24fa71(0x2b1)](_0x24fa71(0x343)),_0x3b641c=_0x5f00bb[_0x24fa71(0x2b1)](_0x24fa71(0x231)),_0x305107=_0x5f00bb[_0x24fa71(0x2b1)](_0x24fa71(0x231)),_0x33f048=_0x5f00bb['getFieldValue']('led');Blockly['Arduino'][_0x24fa71(0xa2c)][_0x24fa71(0x772)]=_0x24fa71(0xb8d),Blockly[_0x24fa71(0x2a3)][_0x24fa71(0xa2c)][_0x24fa71(0xa5c)+_0x302291]=_0x24fa71(0x324)+_0x302291+'('+_0x33f048+',\x20'+_0x59056d+_0x24fa71(0x73b),Blockly[_0x24fa71(0x2a3)][_0x24fa71(0xa2c)][_0x24fa71(0xa5c)+_0x164b48]='\x20Adafruit_NeoPixel\x20strip'+_0x164b48+'('+_0x33f048+',\x20'+_0x5086c1+',\x20NEO_GRB\x20+\x20NEO_KHZ800);\x20\x20\x20\x0a\x20',Blockly[_0x24fa71(0x2a3)][_0x24fa71(0xa2c)][_0x24fa71(0xa5c)+_0x3d04dd]=_0x24fa71(0x324)+_0x3d04dd+'('+_0x33f048+',\x20'+_0x3a7b61+_0x24fa71(0xa5e),Blockly[_0x24fa71(0x2a3)]['definitions_']['define_ledRGB_WS2812B_top'+_0x3b641c]='\x20Adafruit_NeoPixel\x20strip'+_0x3b641c+'('+_0x33f048+',\x20'+_0x305107+_0x24fa71(0xa5e),Blockly['Arduino'][_0x24fa71(0xcee)][_0x24fa71(0x6a4)]='\x20#if\x20defined(__AVR_ATtiny85__)\x20&&\x20(F_CPU\x20==\x2016000000)\x20\x0a\x20\x20\x20clock_prescale_set(clock_div_1);\x20\x0a\x20#endif\x20\x0a\x20',Blockly[_0x24fa71(0x2a3)][_0x24fa71(0xcee)][_0x24fa71(0x6a4)+_0x302291]=_0x24fa71(0xaaa)+_0x302291+_0x24fa71(0x578)+_0x302291+'.show();\x20\x20\x0a\x20\x20strip'+_0x302291+_0x24fa71(0xc87),Blockly['Arduino'][_0x24fa71(0xcee)][_0x24fa71(0x6a4)+_0x164b48]=_0x24fa71(0xaaa)+_0x164b48+_0x24fa71(0x578)+_0x164b48+_0x24fa71(0x9d7)+_0x164b48+_0x24fa71(0xc87),Blockly['Arduino']['setups_'][_0x24fa71(0x6a4)+_0x3d04dd]=_0x24fa71(0xaaa)+_0x3d04dd+'.begin();\x20\x20\x0a\x20\x20strip'+_0x3d04dd+_0x24fa71(0x9d7)+_0x3d04dd+'.setBrightness(50);\x20\x20\x0a',Blockly[_0x24fa71(0x2a3)]['setups_'][_0x24fa71(0x6a4)+_0x3b641c]=_0x24fa71(0xaaa)+_0x3b641c+_0x24fa71(0x578)+_0x3b641c+_0x24fa71(0x9d7)+_0x3b641c+'.setBrightness(50);\x20\x20\x0a';var _0x5f34db=_0x5f00bb['getFieldValue']('ledon'),_0x5934c5=_0x5f00bb[_0x24fa71(0x2b1)](_0x24fa71(0xc08)),_0x3cafb5=_0x5f00bb['getFieldValue']('delayled'),_0x45e164=_0x5f00bb[_0x24fa71(0x2b1)](_0x24fa71(0x275)),_0xeb714d=_0x5f00bb[_0x24fa71(0x2b1)](_0x24fa71(0x707)),_0x3e730f=_0x5f00bb['getFieldValue'](_0x24fa71(0x68d)),_0x4ed1b1=_0x5f00bb[_0x24fa71(0x2b1)]('RGBCOLOR3'),_0xb9bccd=_0x5f00bb[_0x24fa71(0x2b1)]('ws');if(_0xb9bccd==0x0)var _0x512a21=parseInt(_0x45e164[_0x24fa71(0x69d)](0x1,0x3),0x10),_0x9e7d60=parseInt(_0x45e164[_0x24fa71(0x69d)](0x3,0x5),0x10),_0x33e13c=parseInt(_0x45e164[_0x24fa71(0x69d)](0x5,0x7),0x10),_0x209cf8=parseInt(_0xeb714d['substring'](0x1,0x3),0x10),_0x38b205=parseInt(_0xeb714d[_0x24fa71(0x69d)](0x3,0x5),0x10),_0x1e0069=parseInt(_0xeb714d[_0x24fa71(0x69d)](0x5,0x7),0x10),_0x16d6f4=parseInt(_0x3e730f[_0x24fa71(0x69d)](0x1,0x3),0x10),_0x3faa67=parseInt(_0x3e730f[_0x24fa71(0x69d)](0x3,0x5),0x10),_0xad20f1=parseInt(_0x3e730f['substring'](0x5,0x7),0x10),_0x51ae15=parseInt(_0x4ed1b1[_0x24fa71(0x69d)](0x1,0x3),0x10),_0x5807f0=parseInt(_0x4ed1b1[_0x24fa71(0x69d)](0x3,0x5),0x10),_0x1a1058=parseInt(_0x4ed1b1['substring'](0x5,0x7),0x10);if(_0xb9bccd==0x1)var _0x512a21=parseInt(_0x45e164['substring'](0x1,0x3),0x10),_0x33e13c=parseInt(_0x45e164[_0x24fa71(0x69d)](0x3,0x5),0x10),_0x9e7d60=parseInt(_0x45e164['substring'](0x5,0x7),0x10),_0x209cf8=parseInt(_0xeb714d['substring'](0x1,0x3),0x10),_0x1e0069=parseInt(_0xeb714d[_0x24fa71(0x69d)](0x3,0x5),0x10),_0x38b205=parseInt(_0xeb714d[_0x24fa71(0x69d)](0x5,0x7),0x10),_0x16d6f4=parseInt(_0x3e730f[_0x24fa71(0x69d)](0x1,0x3),0x10),_0xad20f1=parseInt(_0x3e730f[_0x24fa71(0x69d)](0x3,0x5),0x10),_0x3faa67=parseInt(_0x3e730f['substring'](0x5,0x7),0x10),_0x51ae15=parseInt(_0x4ed1b1['substring'](0x1,0x3),0x10),_0x1a1058=parseInt(_0x4ed1b1[_0x24fa71(0x69d)](0x3,0x5),0x10),_0x5807f0=parseInt(_0x4ed1b1[_0x24fa71(0x69d)](0x5,0x7),0x10);var _0xf437f6=this['getFieldValue'](_0x24fa71(0xbc3));if(_0xf437f6==0x6)var _0x42f437=_0x24fa71(0xc9f)+_0x5f34db+_0x24fa71(0x8c8)+_0x5934c5+_0x24fa71(0x7df)+_0x302291+_0x24fa71(0x3b1)+_0x164b48+'.setBrightness(255);\x20\x0a\x20strip'+_0x3d04dd+_0x24fa71(0xb99)+_0x3b641c+'.setBrightness(255);\x20\x0a\x20\x20strip'+_0x302291+_0x24fa71(0xb25)+_0x302291+_0x24fa71(0x831)+_0x512a21+','+_0x9e7d60+','+_0x33e13c+_0x24fa71(0x5af)+_0x164b48+_0x24fa71(0xb25)+_0x164b48+_0x24fa71(0x831)+_0x209cf8+','+_0x38b205+','+_0x1e0069+_0x24fa71(0x5af)+_0x3d04dd+_0x24fa71(0xb25)+_0x3d04dd+_0x24fa71(0x831)+_0x16d6f4+','+_0x3faa67+','+_0xad20f1+_0x24fa71(0x5af)+_0x3b641c+'.setPixelColor(Pixcil-1,\x20strip'+_0x3b641c+_0x24fa71(0x831)+_0x51ae15+','+_0x5807f0+','+_0x1a1058+_0x24fa71(0x750)+_0x302291+_0x24fa71(0x394)+_0x164b48+'.show();\x20\x0a\x20\x20\x20strip'+_0x3d04dd+_0x24fa71(0xb86)+_0x3b641c+'.show();\x20\x0a\x20\x20\x20\x20}\x20\x0a\x20\x20\x20Pixcil\x20=\x20'+_0x5f34db+_0x24fa71(0xcdc)+_0x3cafb5+');\x20\x0a\x20';if(_0xf437f6==0x7)var _0x42f437=_0x24fa71(0xc9f)+_0x5f34db+_0x24fa71(0x8c8)+_0x5934c5+_0x24fa71(0xa1e)+_0x302291+_0x24fa71(0x3b1)+_0x164b48+'.setBrightness(255);\x20\x0a\x20\x20strip'+_0x3d04dd+_0x24fa71(0x3b1)+_0x3b641c+_0x24fa71(0x215)+_0x302291+_0x24fa71(0xb25)+_0x302291+_0x24fa71(0x831)+_0x512a21+','+_0x9e7d60+','+_0x33e13c+_0x24fa71(0x750)+_0x164b48+_0x24fa71(0xb25)+_0x164b48+_0x24fa71(0x831)+_0x209cf8+','+_0x38b205+','+_0x1e0069+_0x24fa71(0x5af)+_0x3d04dd+_0x24fa71(0xb25)+_0x3d04dd+_0x24fa71(0x831)+_0x16d6f4+','+_0x3faa67+','+_0xad20f1+_0x24fa71(0x5af)+_0x3b641c+_0x24fa71(0xb25)+_0x3b641c+'.Color('+_0x51ae15+','+_0x5807f0+','+_0x1a1058+'));\x20\x0a\x20\x20\x20strip'+_0x302291+_0x24fa71(0xa2b)+_0x164b48+_0x24fa71(0x394)+_0x3d04dd+_0x24fa71(0x394)+_0x3b641c+_0x24fa71(0x191)+_0x3cafb5+');\x20\x0a\x20\x20\x20\x20strip'+_0x302291+'.setBrightness(255);\x20\x0a\x20strip'+_0x164b48+_0x24fa71(0x3b1)+_0x3d04dd+'.setBrightness(255);\x20\x0a\x20\x20strip'+_0x3b641c+_0x24fa71(0x215)+_0x302291+_0x24fa71(0xb25)+_0x302291+_0x24fa71(0x708)+_0x164b48+_0x24fa71(0xb25)+_0x164b48+_0x24fa71(0xcac)+_0x3d04dd+_0x24fa71(0xb25)+_0x3d04dd+'.Color(0,0,0));\x20\x0a\x20strip'+_0x3b641c+_0x24fa71(0xb25)+_0x3b641c+_0x24fa71(0xa17)+_0x302291+_0x24fa71(0x394)+_0x164b48+'.show();\x20\x0a\x20\x20\x20strip'+_0x3d04dd+_0x24fa71(0xb86)+_0x3b641c+_0x24fa71(0x9a1)+_0x5f34db+';\x20\x0a\x20';if(_0xf437f6==0x8)var _0x42f437=_0x24fa71(0x80f)+_0x5934c5+_0x24fa71(0x47e)+_0x5934c5+_0x24fa71(0x9ee)+_0x5f34db+_0x24fa71(0x46b)+_0x302291+'.setBrightness(255);\x20\x0a\x20\x20\x20strip'+_0x164b48+'.setBrightness(255);\x20\x0a\x20\x20\x20\x20\x20\x20\x20strip'+_0x3d04dd+_0x24fa71(0xc62)+_0x3b641c+_0x24fa71(0x277)+_0x302291+_0x24fa71(0xb25)+_0x302291+'.Color('+_0x512a21+','+_0x9e7d60+','+_0x33e13c+_0x24fa71(0x6c9)+_0x164b48+'.setPixelColor(Pixcil-1,\x20strip'+_0x164b48+_0x24fa71(0x831)+_0x209cf8+','+_0x38b205+','+_0x1e0069+_0x24fa71(0xa99)+_0x3d04dd+_0x24fa71(0xb25)+_0x3d04dd+_0x24fa71(0x831)+_0x16d6f4+','+_0x3faa67+','+_0xad20f1+_0x24fa71(0x6c9)+_0x3b641c+_0x24fa71(0xb25)+_0x3b641c+_0x24fa71(0x831)+_0x51ae15+','+_0x5807f0+','+_0x1a1058+'));\x20\x0a\x20\x20\x20\x20\x20\x20strip'+_0x302291+_0x24fa71(0xc6f)+_0x164b48+_0x24fa71(0xb86)+_0x3d04dd+'.show();\x20\x0a\x20\x20\x20strip'+_0x3b641c+'.show();\x20\x0a\x20\x20\x20\x20\x20delay('+_0x3cafb5+_0x24fa71(0x808)+_0x302291+_0x24fa71(0xc62)+_0x164b48+_0x24fa71(0x2fb)+_0x3d04dd+_0x24fa71(0x2fb)+_0x3b641c+'.setBrightness(255);\x20\x0a\x20\x20\x20\x20\x20\x20strip'+_0x302291+'.setPixelColor(Pixcil-1,\x20strip'+_0x302291+'.Color(0,0,0));\x20\x0a\x20\x20\x20\x20\x20strip'+_0x164b48+'.setPixelColor(Pixcil-1,\x20strip'+_0x164b48+'.Color(0,0,0));\x20\x0a\x20\x20\x20\x20\x20strip'+_0x3d04dd+'.setPixelColor(Pixcil-1,\x20strip'+_0x3d04dd+_0x24fa71(0x26d)+_0x3b641c+_0x24fa71(0xb25)+_0x3b641c+'.Color(0,0,0));\x20\x0a\x20\x20\x20\x20\x20\x20strip'+_0x302291+_0x24fa71(0xc6f)+_0x164b48+'.show();\x20\x0a\x20\x20\x20\x20strip'+_0x3d04dd+_0x24fa71(0xc17)+_0x3b641c+_0x24fa71(0x72c)+_0x5934c5+';\x20\x0a\x20';if(_0xf437f6==0xa)var _0x42f437=_0x24fa71(0xc9f)+_0x5934c5+_0x24fa71(0x25e)+_0x5934c5+_0x24fa71(0x9ee)+_0x5f34db+_0x24fa71(0x3f5)+_0x302291+_0x24fa71(0x3b1)+_0x164b48+_0x24fa71(0x2fb)+_0x3d04dd+_0x24fa71(0x3b1)+_0x3b641c+_0x24fa71(0xc62)+_0x302291+_0x24fa71(0xb25)+_0x302291+_0x24fa71(0x831)+_0x512a21+','+_0x9e7d60+','+_0x33e13c+_0x24fa71(0x5af)+_0x164b48+_0x24fa71(0xb25)+_0x164b48+'.Color('+_0x209cf8+','+_0x38b205+','+_0x1e0069+_0x24fa71(0x750)+_0x3d04dd+_0x24fa71(0xb25)+_0x164b48+_0x24fa71(0x831)+_0x16d6f4+','+_0x3faa67+','+_0xad20f1+_0x24fa71(0x750)+_0x3b641c+_0x24fa71(0xb25)+_0x164b48+_0x24fa71(0x831)+_0x51ae15+','+_0x5807f0+','+_0x1a1058+_0x24fa71(0x6c9)+_0x302291+'.show();\x20\x0a\x20\x20\x20\x20strip'+_0x164b48+_0x24fa71(0xb86)+_0x3d04dd+'.show();\x20\x0a\x20\x20\x20strip'+_0x3b641c+'.show();\x20\x0a\x20\x20\x20\x20delay('+_0x3cafb5+');\x20\x0a\x20\x20\x20\x20strip'+_0x302291+_0x24fa71(0xc62)+_0x164b48+_0x24fa71(0x277)+_0x3d04dd+_0x24fa71(0x277)+_0x3b641c+_0x24fa71(0x277)+_0x302291+'.setPixelColor(Pixcil-1,\x20strip'+_0x302291+_0x24fa71(0x7f2)+_0x164b48+'.setPixelColor(Pixcil-1,\x20strip'+_0x164b48+'.Color(0,0,0));\x20\x0a\x20\x20\x20\x20strip'+_0x3d04dd+_0x24fa71(0xb25)+_0x3d04dd+_0x24fa71(0x26d)+_0x3b641c+'.setPixelColor(Pixcil-1,\x20strip'+_0x3b641c+_0x24fa71(0x43d)+_0x302291+_0x24fa71(0xb86)+_0x164b48+_0x24fa71(0xc6f)+_0x3d04dd+'.show();\x20\x0a\x20\x20\x20\x20\x20strip'+_0x3b641c+'.show();\x20\x0a\x20\x20\x20\x20\x20\x20}\x20\x0a\x20\x20\x20\x20strip'+_0x302291+_0x24fa71(0xc62)+_0x164b48+_0x24fa71(0x277)+_0x3d04dd+_0x24fa71(0x277)+_0x3b641c+'.setBrightness(255);\x20\x0a\x20\x20\x20\x20\x20strip'+_0x302291+_0x24fa71(0xb25)+_0x302291+_0x24fa71(0x831)+_0x512a21+','+_0x9e7d60+','+_0x33e13c+_0x24fa71(0x750)+_0x164b48+'.setPixelColor(Pixcil-1,\x20strip'+_0x164b48+_0x24fa71(0x831)+_0x209cf8+','+_0x38b205+','+_0x1e0069+_0x24fa71(0x750)+_0x3d04dd+_0x24fa71(0xb25)+_0x3d04dd+_0x24fa71(0x831)+_0x16d6f4+','+_0x3faa67+','+_0xad20f1+'));\x20\x0a\x20\x20\x20strip'+_0x3b641c+_0x24fa71(0xb25)+_0x3b641c+_0x24fa71(0x831)+_0x51ae15+','+_0x5807f0+','+_0x1a1058+_0x24fa71(0x750)+_0x302291+_0x24fa71(0xb86)+_0x164b48+'.show();\x20\x0a\x20\x20\x20\x20\x20strip'+_0x3d04dd+'.show();\x20\x0a\x20\x20\x20\x20\x20\x20strip'+_0x3b641c+_0x24fa71(0xca4)+_0x5934c5+'\x20+\x201;\x20\x0a\x20';if(_0xf437f6==0xb)var _0x42f437=_0x24fa71(0xc9f)+_0x5f34db+'+1;\x20\x0a\x20NeoPix\x20=\x20'+_0x5934c5+_0x24fa71(0x96c)+_0x5934c5+_0x24fa71(0x628)+_0x302291+'.setBrightness(255);\x20\x0a\x20\x20\x20\x20strip'+_0x164b48+'.setBrightness(255);\x20\x0a\x20\x20strip'+_0x3d04dd+_0x24fa71(0x3b1)+_0x3b641c+_0x24fa71(0xc62)+_0x302291+_0x24fa71(0xb25)+_0x302291+_0x24fa71(0x831)+_0x512a21+','+_0x9e7d60+','+_0x33e13c+_0x24fa71(0x6c9)+_0x164b48+_0x24fa71(0xb25)+_0x164b48+_0x24fa71(0x831)+_0x209cf8+','+_0x38b205+','+_0x1e0069+_0x24fa71(0x750)+_0x3d04dd+_0x24fa71(0xb25)+_0x3d04dd+_0x24fa71(0x831)+_0x16d6f4+','+_0x3faa67+','+_0xad20f1+_0x24fa71(0x750)+_0x3b641c+_0x24fa71(0xb25)+_0x3b641c+_0x24fa71(0x831)+_0x51ae15+','+_0x5807f0+','+_0x1a1058+_0x24fa71(0xa99)+_0x302291+_0x24fa71(0xc17)+_0x164b48+_0x24fa71(0xc17)+_0x3d04dd+_0x24fa71(0xc17)+_0x3b641c+_0x24fa71(0x191)+_0x3cafb5+_0x24fa71(0x808)+_0x302291+_0x24fa71(0x277)+_0x164b48+_0x24fa71(0x2fb)+_0x3d04dd+_0x24fa71(0xc62)+_0x3b641c+_0x24fa71(0x2fb)+_0x302291+_0x24fa71(0xb25)+_0x302291+_0x24fa71(0x7f2)+_0x164b48+_0x24fa71(0xb25)+_0x164b48+'.Color(0,0,0));\x20\x0a\x20\x20\x20strip'+_0x3d04dd+_0x24fa71(0xb25)+_0x3d04dd+_0x24fa71(0x7f2)+_0x3b641c+'.setPixelColor(Pixcil-1,\x20strip'+_0x3b641c+_0x24fa71(0x7f2)+_0x302291+_0x24fa71(0xb86)+_0x164b48+_0x24fa71(0xb86)+_0x3d04dd+_0x24fa71(0xc17)+_0x3b641c+_0x24fa71(0x416)+_0x302291+_0x24fa71(0xc62)+_0x164b48+'.setBrightness(255);\x20\x0a\x20\x20strip'+_0x3d04dd+_0x24fa71(0xc62)+_0x3b641c+'.setBrightness(255);\x20\x0a\x20\x20\x20strip'+_0x302291+_0x24fa71(0xb25)+_0x302291+'.Color('+_0x512a21+','+_0x9e7d60+','+_0x33e13c+_0x24fa71(0x750)+_0x164b48+_0x24fa71(0xb25)+_0x164b48+_0x24fa71(0x831)+_0x209cf8+','+_0x38b205+','+_0x1e0069+_0x24fa71(0x6c9)+_0x3d04dd+_0x24fa71(0xb25)+_0x3d04dd+_0x24fa71(0x831)+_0x16d6f4+','+_0x3faa67+','+_0xad20f1+_0x24fa71(0x6c9)+_0x3b641c+'.setPixelColor(Pixcil-1,\x20strip'+_0x3b641c+'.Color('+_0x51ae15+','+_0x5807f0+','+_0x1a1058+_0x24fa71(0xa99)+_0x302291+_0x24fa71(0xb86)+_0x164b48+'.show();\x20\x0a\x20\x20\x20strip'+_0x3d04dd+_0x24fa71(0xc17)+_0x3b641c+_0x24fa71(0x5a0)+_0x5f34db+_0x24fa71(0x525)+_0x5f34db+_0x24fa71(0x27c);if(_0xf437f6==0xc)var _0x42f437=_0x24fa71(0xc9f)+_0x5f34db+';\x20\x0a\x20NeoPix\x20=\x20'+_0x5934c5+'\x20-\x20Pixcil;\x20\x0a\x20\x20\x20\x20for\x20(int\x20count\x20=\x200;\x20count\x20<\x20NeoPix;\x20count++)\x20{\x20\x0a\x20\x20\x20\x20\x20Pixcil\x20=\x20Pixcil\x20+\x201;\x20\x0a\x20\x20\x20\x20strip'+_0x302291+_0x24fa71(0xc62)+_0x164b48+_0x24fa71(0x3b1)+_0x3d04dd+'.setBrightness(255);\x20\x0a\x20\x20strip'+_0x3b641c+_0x24fa71(0xc62)+_0x302291+_0x24fa71(0xb25)+_0x302291+_0x24fa71(0x831)+_0x512a21+','+_0x9e7d60+','+_0x33e13c+'));\x20\x0a\x20\x20\x20strip'+_0x164b48+_0x24fa71(0xb25)+_0x164b48+_0x24fa71(0x831)+_0x209cf8+','+_0x38b205+','+_0x1e0069+'));\x20\x0a\x20\x20\x20\x20\x20strip'+_0x3d04dd+_0x24fa71(0xb25)+_0x3d04dd+_0x24fa71(0x831)+_0x16d6f4+','+_0x3faa67+','+_0xad20f1+_0x24fa71(0x875)+_0x3b641c+_0x24fa71(0xb25)+_0x3b641c+_0x24fa71(0x831)+_0x51ae15+','+_0x5807f0+','+_0x1a1058+_0x24fa71(0x6c9)+_0x302291+_0x24fa71(0xb86)+_0x164b48+'.show();\x20\x0a\x20\x20strip'+_0x3d04dd+_0x24fa71(0xb86)+_0x3b641c+_0x24fa71(0x733)+_0x3cafb5+_0x24fa71(0x6cd)+_0x5f34db+_0x24fa71(0xa9b);if(_0xf437f6==0xd)var _0x42f437='\x20Pixcil\x20=\x20'+_0x5934c5+_0x24fa71(0x47e)+_0x5934c5+_0x24fa71(0x9ee)+_0x5f34db+_0x24fa71(0xc5c)+_0x302291+'.setBrightness(255);\x20\x0a\x20\x20\x20strip'+_0x164b48+'.setBrightness(255);\x20\x0a\x20\x20\x20\x20strip'+_0x3d04dd+_0x24fa71(0x277)+_0x3b641c+_0x24fa71(0xc62)+_0x302291+'.setPixelColor(Pixcil-1,\x20strip'+_0x302291+'.Color('+_0x512a21+','+_0x9e7d60+','+_0x33e13c+_0x24fa71(0x750)+_0x164b48+_0x24fa71(0xb25)+_0x164b48+_0x24fa71(0x831)+_0x209cf8+','+_0x38b205+','+_0x1e0069+'));\x20\x0a\x20\x20\x20strip'+_0x3d04dd+'.setPixelColor(Pixcil-1,\x20strip'+_0x3d04dd+_0x24fa71(0x831)+_0x16d6f4+','+_0x3faa67+','+_0xad20f1+_0x24fa71(0x6c9)+_0x3b641c+_0x24fa71(0xb25)+_0x3b641c+_0x24fa71(0x831)+_0x51ae15+','+_0x5807f0+','+_0x1a1058+'));\x20\x0a\x20\x20strip'+_0x302291+_0x24fa71(0x394)+_0x164b48+_0x24fa71(0xb86)+_0x3d04dd+'.show();\x20\x0a\x20\x20\x20\x20\x20strip'+_0x3b641c+_0x24fa71(0x2e5)+_0x3cafb5+_0x24fa71(0xab3)+_0x5f34db+';\x20\x0a\x20\x20\x20\x20\x20\x20\x20';return _0x42f437;},Blockly['Arduino'][_0x3d686a(0x2ab)]=function(_0x3a3af9){var _0x248e96=_0x3d686a,_0x4d45ff=Blockly[_0x248e96(0x2a3)]['valueToCode'](_0x3a3af9,_0x248e96(0x736),Blockly[_0x248e96(0x2a3)][_0x248e96(0x7ce)]);Blockly[_0x248e96(0x2a3)][_0x248e96(0x5f5)][_0x248e96(0x61e)]=_0x248e96(0x5ea);var _0x72249a=_0x248e96(0x882)+_0x4d45ff+_0x248e96(0x971)+_0x4d45ff+';\x20\x0a\x20\x20\x20\x20\x20mySerial.write(leddwin,10);\x20\x0a\x20\x20';return _0x72249a;},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0xbc8)]=function(_0x6c3cc8){var _0x5f1aca=_0x3d686a,_0x4804b4=Blockly[_0x5f1aca(0x2a3)][_0x5f1aca(0x74d)](_0x6c3cc8,'CONTENT',Blockly[_0x5f1aca(0x2a3)][_0x5f1aca(0x7ce)]);Blockly[_0x5f1aca(0x2a3)][_0x5f1aca(0x5f5)][_0x5f1aca(0x9d0)]=_0x5f1aca(0xbda);var _0x1c87d3=_0x5f1aca(0x425);return _0x1c87d3;},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0xa48)]=function(_0x50244d){var _0x5a6c06=_0x3d686a,_0x589604=Blockly[_0x5a6c06(0x2a3)]['valueToCode'](_0x50244d,_0x5a6c06(0x736),Blockly['Arduino'][_0x5a6c06(0x7ce)]),_0x2589da=_0x50244d[_0x5a6c06(0x2b1)]('TEXT1'),_0x509108=_0x50244d[_0x5a6c06(0x2b1)](_0x5a6c06(0x833)),_0x30574f=_0x50244d['getFieldValue'](_0x5a6c06(0x6ff)),_0x106887=_0x50244d[_0x5a6c06(0x2b1)](_0x5a6c06(0x7ff));return Blockly[_0x5a6c06(0x2a3)][_0x5a6c06(0x5f5)][_0x5a6c06(0xa48)]=_0x5a6c06(0xb16),Blockly[_0x5a6c06(0x2a3)][_0x5a6c06(0x5f5)][_0x5a6c06(0x316)+_0x2589da+_0x509108+_0x30574f+_0x106887]=_0x5a6c06(0x6e7)+_0x2589da+_0x509108+_0x30574f+_0x106887+'m\x20[6]\x20={0x5A,0xA5,0x05,0x82,0x'+_0x2589da+''+_0x509108+',0x'+_0x30574f+''+_0x106887+_0x5a6c06(0x7bf)+_0x2589da+_0x509108+_0x30574f+_0x106887+_0x5a6c06(0xbe8),'\x20\x09x'+_0x2589da+_0x509108+_0x30574f+_0x106887+_0x5a6c06(0x22a)+_0x589604+_0x5a6c06(0x6aa)+'\x20nb\x20=\x20int(x'+_0x2589da+_0x509108+_0x30574f+_0x106887+_0x5a6c06(0x9af)+_0x5a6c06(0x3fc)+_0x2589da+_0x509108+_0x30574f+_0x106887+_0x5a6c06(0x4e0)+_0x5a6c06(0xa06)+_0x2589da+_0x509108+_0x30574f+_0x106887+_0x5a6c06(0xc7d)+_0x5a6c06(0x624)+_0x5a6c06(0xc31);},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0x7b0)]=function(_0x1deef9){var _0x4c59d2=_0x3d686a,_0x5700ee=0x0,_0x3ab93e=Blockly[_0x4c59d2(0x2a3)][_0x4c59d2(0xba7)][_0x4c59d2(0xad3)](_0x1deef9['getFieldValue'](_0x4c59d2(0x1ec)),Blockly[_0x4c59d2(0x8b8)]['NAME_TYPE']),_0x47ff56=Blockly[_0x4c59d2(0x2a3)][_0x4c59d2(0x74d)](_0x1deef9,_0x4c59d2(0x726)+_0x5700ee,Blockly[_0x4c59d2(0x2a3)][_0x4c59d2(0x3a4)]),_0x2a7b26=Blockly[_0x4c59d2(0x2a3)]['statementToCode'](_0x1deef9,'DO'+_0x5700ee),_0x211f6c='switch\x20('+_0x3ab93e+_0x4c59d2(0xc18)+_0x4c59d2(0x269)+_0x47ff56+_0x4c59d2(0x4d3)+_0x2a7b26+_0x4c59d2(0x26e);for(_0x5700ee=0x1;_0x5700ee<=_0x1deef9[_0x4c59d2(0x9d9)];_0x5700ee++){_0x47ff56=Blockly['Arduino'][_0x4c59d2(0x74d)](_0x1deef9,_0x4c59d2(0x726)+_0x5700ee,Blockly[_0x4c59d2(0x2a3)][_0x4c59d2(0x3a4)]),_0x2a7b26=Blockly['Arduino'][_0x4c59d2(0xcd1)](_0x1deef9,'DO'+_0x5700ee),_0x211f6c+='\x20case\x20'+_0x47ff56+':\x20\x0a'+_0x2a7b26+'\x20\x20break;\x0a';}return _0x1deef9[_0x4c59d2(0x5d5)]&&(_0x2a7b26=Blockly[_0x4c59d2(0x2a3)][_0x4c59d2(0xcd1)](_0x1deef9,'DEFAULT'),_0x211f6c+=_0x4c59d2(0xb2a)+_0x2a7b26+'\x20'),_0x211f6c+='}\x0a',_0x211f6c;},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0x55c)]=function(_0x4b472a){var _0x301dd5=_0x3d686a,_0x20a4df=Blockly[_0x301dd5(0x2a3)][_0x301dd5(0xba7)][_0x301dd5(0xad3)](_0x4b472a['getFieldValue'](_0x301dd5(0x299)),Blockly[_0x301dd5(0x8b8)][_0x301dd5(0x856)]),_0xb005d=Blockly[_0x301dd5(0x2a3)]['valueToCode'](_0x4b472a,_0x301dd5(0x1b9),Blockly[_0x301dd5(0x2a3)]['ORDER_ASSIGNMENT']),_0x257229=Blockly[_0x301dd5(0x2a3)][_0x301dd5(0x74d)](_0x4b472a,'TO',Blockly['Arduino'][_0x301dd5(0xaf4)]),_0x5139e6=Blockly[_0x301dd5(0x2a3)][_0x301dd5(0x74d)](_0x4b472a,'BY',Blockly[_0x301dd5(0x2a3)][_0x301dd5(0xaf4)]),_0x471e7f=Blockly[_0x301dd5(0x2a3)][_0x301dd5(0xcd1)](_0x4b472a,'DO');if(Blockly[_0x301dd5(0x2a3)][_0x301dd5(0x599)])_0x471e7f=Blockly[_0x301dd5(0x2a3)]['INFINITE_LOOP_TRAP'][_0x301dd5(0x6c0)](/%1/g,'\x27'+_0x4b472a['id']+'\x27')+_0x471e7f;return _0x301dd5(0x9ed)+_0x20a4df+'='+_0xb005d+_0x301dd5(0x672)+_0x20a4df+'<='+_0x257229+_0x301dd5(0x672)+_0x20a4df+'='+_0x20a4df+'+'+_0x5139e6+')\x20{\x0a'+_0x471e7f+'}\x0a';},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0xba0)]=function(_0xbb4669){var _0x522219=_0x3d686a,_0xf0f3c8=0x0,_0x531435=Blockly[_0x522219(0x2a3)][_0x522219(0x74d)](_0xbb4669,'IF'+_0xf0f3c8,Blockly[_0x522219(0x2a3)][_0x522219(0x3a4)]),_0xef2ad6=Blockly['Arduino'][_0x522219(0xcd1)](_0xbb4669,'DO'+_0xf0f3c8),_0x769d30='if\x20('+_0x531435+_0x522219(0xc18)+_0xef2ad6+'}';for(_0xf0f3c8=0x1;_0xf0f3c8<=_0xbb4669['elseifCount_'];_0xf0f3c8++){_0x531435=Blockly[_0x522219(0x2a3)][_0x522219(0x74d)](_0xbb4669,'IF'+_0xf0f3c8,Blockly[_0x522219(0x2a3)][_0x522219(0x3a4)]),_0xef2ad6=Blockly[_0x522219(0x2a3)]['statementToCode'](_0xbb4669,'DO'+_0xf0f3c8),_0x769d30+=_0x522219(0x507)+_0x531435+')\x20{\x0a'+_0xef2ad6+'}';}return _0xbb4669[_0x522219(0x98f)]&&(_0xef2ad6=Blockly[_0x522219(0x2a3)][_0x522219(0xcd1)](_0xbb4669,_0x522219(0x72a)),_0x769d30+=_0x522219(0x9dd)+_0xef2ad6+'}'),_0x769d30+'\x0a';},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0xb98)]=function(_0x2ab7ce){var _0x2a844e=_0x3d686a,_0x48f73d=Blockly['Arduino'][_0x2a844e(0x74d)](_0x2ab7ce,'TIMES',Blockly['Arduino'][_0x2a844e(0xaf4)]),_0x16c879=Blockly['Arduino'][_0x2a844e(0xcd1)](_0x2ab7ce,'DO');if(Blockly[_0x2a844e(0x2a3)][_0x2a844e(0x599)])_0x16c879=Blockly[_0x2a844e(0x2a3)][_0x2a844e(0x599)][_0x2a844e(0x6c0)](/%1/g,'\x27'+_0x2ab7ce['id']+'\x27')+_0x16c879;var _0x18dd9b=Blockly[_0x2a844e(0x2a3)]['variableDB_'][_0x2a844e(0xad3)](_0x2a844e(0x28a),Blockly[_0x2a844e(0x8b8)]['NAME_TYPE']),_0x52a5bd=_0x2a844e(0x5dc)+_0x18dd9b+_0x2a844e(0x3a0)+_0x18dd9b+'<'+_0x48f73d+_0x2a844e(0x672)+_0x18dd9b+'++)\x20{\x0a'+_0x16c879+'}\x0a';return _0x52a5bd;},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0xb19)]=function(_0x4c37e2){var _0x3980bf=_0x3d686a,_0x24edc5=Blockly[_0x3980bf(0x2a3)]['valueToCode'](_0x4c37e2,_0x3980bf(0xc4d),Blockly[_0x3980bf(0x2a3)]['ORDER_NONE']),_0x32460b=Blockly[_0x3980bf(0x2a3)]['statementToCode'](_0x4c37e2,'DO');if(Blockly[_0x3980bf(0x2a3)]['INFINITE_LOOP_TRAP'])_0x32460b=Blockly['Arduino'][_0x3980bf(0x599)]['replace'](/%1/g,'\x27'+_0x4c37e2['id']+'\x27')+_0x32460b;if(_0x4c37e2[_0x3980bf(0x2b1)](_0x3980bf(0x914))==_0x3980bf(0x788)){if(!_0x24edc5[_0x3980bf(0xa2a)](/^\w+$/))_0x24edc5='('+_0x24edc5+')';_0x24edc5='!'+_0x24edc5;}return _0x3980bf(0xae8)+_0x24edc5+_0x3980bf(0xc18)+_0x32460b+'}\x0a';},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0x920)]=function(_0x503788){var _0x3387ae=_0x3d686a,_0xc92702=Blockly[_0x3387ae(0x2a3)][_0x3387ae(0xba7)][_0x3387ae(0xad3)](_0x503788[_0x3387ae(0x2b1)](_0x3387ae(0x299)),Blockly[_0x3387ae(0x8b8)]['NAME_TYPE']),_0x3b899e=Blockly[_0x3387ae(0x2a3)][_0x3387ae(0x74d)](_0x503788,'LIST',Blockly['Arduino'][_0x3387ae(0xaf4)]),_0x2adae1=Blockly[_0x3387ae(0x2a3)][_0x3387ae(0xcd1)](_0x503788,'DO');if(Blockly['Arduino'][_0x3387ae(0x599)])_0x2adae1=Blockly['Arduino'][_0x3387ae(0x599)][_0x3387ae(0x6c0)](/%1/g,'\x27'+_0x503788['id']+'\x27')+_0x2adae1;var _0x2131ae=_0x3387ae(0x1d9)+_0xc92702+'\x20in\x20\x20'+_0x3b899e+_0x3387ae(0xc18)+_0x2adae1+'}\x0a';return _0x2131ae;},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0x526)]=function(_0x4cb1fb){var _0x2c9548=_0x3d686a;switch(_0x4cb1fb[_0x2c9548(0x2b1)](_0x2c9548(0x455))){case _0x2c9548(0x4ac):return _0x2c9548(0xc79);case'CONTINUE':return _0x2c9548(0x2c7);}throw _0x2c9548(0x9a2);},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0x987)]=function(_0xd9bc0c){var _0xfeabed=_0x3d686a,_0xedfa1a=_0xd9bc0c[_0xfeabed(0x2b1)]('OP'),_0x4aa924=Blockly[_0xfeabed(0x2a3)]['logic_operation'][_0xfeabed(0x260)][_0xedfa1a],_0x470d01=_0x4aa924=='&&'?Blockly[_0xfeabed(0x2a3)][_0xfeabed(0xcc5)]:Blockly['Arduino'][_0xfeabed(0xc04)],_0x540fa7=Blockly[_0xfeabed(0x2a3)][_0xfeabed(0x74d)](_0xd9bc0c,'A',_0x470d01),_0x27d8dd=Blockly[_0xfeabed(0x2a3)][_0xfeabed(0x74d)](_0xd9bc0c,'B',_0x470d01),_0x4c5b24=_0x540fa7+'\x20'+_0x4aa924+'\x20'+_0x27d8dd;return[_0x4c5b24,_0x470d01];},Blockly[_0x3d686a(0x2a3)]['logic_operation'][_0x3d686a(0x260)]={'and':'&','and2':'&&','or':'|','or2':'||','xor':'^','shiftL':'<<','shiftR':'>>'},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0x633)]=function(_0xd15a44){var _0x4b684f=_0x3d686a,_0x233cb1=Blockly[_0x4b684f(0x2a3)]['ORDER_UNARY_PREFIX'],_0x51c5a3=Blockly['Arduino']['valueToCode'](_0xd15a44,_0x4b684f(0xc4d),_0x233cb1),_0x6e9be0='!'+_0x51c5a3;return[_0x6e9be0,_0x233cb1];},Blockly['Arduino'][_0x3d686a(0x311)]=function(_0x242648){var _0x161228=_0x3d686a,_0x48b7e4=_0x161228(0xa33);return[_0x48b7e4,Blockly[_0x161228(0x2a3)][_0x161228(0x7ce)]];},Blockly[_0x3d686a(0x2a3)]['inout_onoff']=function(_0x1cda4f){var _0x2ad62a=_0x3d686a,_0x194cfe=_0x1cda4f[_0x2ad62a(0x2b1)](_0x2ad62a(0xc4d))=='HIGH'?_0x2ad62a(0x5e5):'LOW';return[_0x194cfe,Blockly[_0x2ad62a(0x2a3)][_0x2ad62a(0x7ce)]];},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0x2d1)]=function(_0x16d197){var _0x4f8055=_0x3d686a,_0x24627f=_0x16d197[_0x4f8055(0x2b1)]('OP'),_0x54d50d=Blockly[_0x4f8055(0x2a3)]['logic_compare']['OPERATORS'][_0x24627f],_0x1f1594=_0x54d50d=='=='||_0x54d50d=='!='?Blockly[_0x4f8055(0x2a3)][_0x4f8055(0xa95)]:Blockly[_0x4f8055(0x2a3)][_0x4f8055(0x699)],_0x406811=Blockly[_0x4f8055(0x2a3)][_0x4f8055(0x74d)](_0x16d197,'A',_0x1f1594),_0x14174e=Blockly['Arduino'][_0x4f8055(0x74d)](_0x16d197,'B',_0x1f1594),_0x339abb=_0x406811+'\x20'+_0x54d50d+'\x20'+_0x14174e;return[_0x339abb,_0x1f1594];},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0x396)]=function(_0x56bfd7){var _0x18bb21=_0x3d686a,_0xabb8e9=_0x56bfd7[_0x18bb21(0x2b1)]('OP'),_0x180ceb=Blockly[_0x18bb21(0x2a3)][_0x18bb21(0x396)][_0x18bb21(0x260)][_0xabb8e9],_0x3cc5bf=_0x180ceb=='=='||_0x180ceb=='!='?Blockly[_0x18bb21(0x2a3)][_0x18bb21(0xa95)]:Blockly[_0x18bb21(0x2a3)][_0x18bb21(0x699)],_0x53e9e5=Blockly['Arduino'][_0x18bb21(0x74d)](_0x56bfd7,'A',_0x3cc5bf),_0x3a03ad=Blockly[_0x18bb21(0x2a3)][_0x18bb21(0x74d)](_0x56bfd7,'B',_0x3cc5bf),_0x1d2914=_0x53e9e5+'\x20'+_0x180ceb+'\x20'+_0x3a03ad;return[_0x1d2914,_0x3cc5bf];},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0x396)]['OPERATORS']={'EQ':'==','NEQ':'!=','LT':'<','LTE':'<=','GT':'>','GTE':'>='},Blockly['Arduino'][_0x3d686a(0x5c7)]=function(_0x59a95a){var _0x2ccfed=_0x3d686a,_0x2d3afd={'LT':'<','LTE':'<=','GT':'>','GTE':'>='},_0x12082b=Blockly[_0x2ccfed(0x2a3)][_0x2ccfed(0x74d)](_0x59a95a,'inf',Blockly[_0x2ccfed(0x2a3)][_0x2ccfed(0x7ce)]),_0x1637aa=_0x59a95a['getFieldValue'](_0x2ccfed(0x3dd)),_0x275dab=Blockly[_0x2ccfed(0x2a3)]['valueToCode'](_0x59a95a,_0x2ccfed(0x338),Blockly[_0x2ccfed(0x2a3)]['ORDER_ATOMIC']),_0x21f41b=_0x2d3afd[_0x59a95a[_0x2ccfed(0x2b1)]('comp_sup')],_0x55386a=Blockly[_0x2ccfed(0x2a3)]['valueToCode'](_0x59a95a,_0x2ccfed(0x474),Blockly[_0x2ccfed(0x2a3)][_0x2ccfed(0x7ce)]),_0x2b8060='';return _0x1637aa=='LT'&&(_0x2b8060+='('+_0x275dab+_0x2ccfed(0x195)+_0x12082b+')'),_0x1637aa=='GT'&&(_0x2b8060+='('+_0x275dab+'\x20<\x20'+_0x12082b+'\x20)'),_0x1637aa==_0x2ccfed(0x752)&&(_0x2b8060+='('+_0x275dab+_0x2ccfed(0x504)+_0x12082b+'\x20)'),_0x1637aa==_0x2ccfed(0x2cf)&&(_0x2b8060+='('+_0x275dab+'\x20>=\x20'+_0x12082b+'\x20)'),_0x2b8060+=_0x2ccfed(0x9a5)+_0x275dab+'\x20'+_0x21f41b+'\x20'+_0x55386a+')',[_0x2b8060,Blockly[_0x2ccfed(0x2a3)][_0x2ccfed(0x3a4)]];},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0xa50)]=function(_0x51899b){var _0x3beb25=_0x3d686a,_0x6d01ca=window[_0x3beb25(0xaf0)](_0x51899b[_0x3beb25(0x2b1)](_0x3beb25(0x6a5))),_0x2c376e=_0x6d01ca<0x0?Blockly[_0x3beb25(0x2a3)][_0x3beb25(0xae4)]:Blockly[_0x3beb25(0x2a3)][_0x3beb25(0x7ce)];return[_0x6d01ca,_0x2c376e];},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0xba5)]=function(_0x3c66fd){var _0x138cc4=_0x3d686a,_0x9efeb6=_0x3c66fd[_0x138cc4(0x2b1)]('OP'),_0xe3d1d9=Blockly[_0x138cc4(0x2a3)][_0x138cc4(0xba5)][_0x138cc4(0x260)][_0x9efeb6],_0x2e52f7=_0xe3d1d9[0x0],_0x588bbd=_0xe3d1d9[0x1],_0x16fac7=Blockly['Arduino'][_0x138cc4(0x74d)](_0x3c66fd,'A',_0x588bbd),_0x4a36aa=Blockly['Arduino'][_0x138cc4(0x74d)](_0x3c66fd,'B',_0x588bbd),_0x4bc52e;if(!_0x2e52f7)return _0x4bc52e=_0x138cc4(0x5f4)+_0x16fac7+',\x20'+_0x4a36aa+')',[_0x4bc52e,Blockly[_0x138cc4(0x2a3)][_0x138cc4(0x239)]];return _0x4bc52e=_0x16fac7+_0x2e52f7+_0x4a36aa,[_0x4bc52e,_0x588bbd];},Blockly['Arduino'][_0x3d686a(0xba5)][_0x3d686a(0x260)]={'ADD':[_0x3d686a(0x714),Blockly[_0x3d686a(0x2a3)][_0x3d686a(0x446)]],'MINUS':[_0x3d686a(0x9ee),Blockly['Arduino']['ORDER_ADDITIVE']],'MULTIPLY':[_0x3d686a(0x908),Blockly[_0x3d686a(0x2a3)][_0x3d686a(0x237)]],'DIVIDE':[_0x3d686a(0xa21),Blockly['Arduino'][_0x3d686a(0x237)]],'POWER':[null,Blockly[_0x3d686a(0x2a3)][_0x3d686a(0x3a4)]]},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0x6d2)]=function(_0x4c113d){var _0xd218bf=_0x3d686a,_0x340037=_0x4c113d[_0xd218bf(0x2b1)]('OP'),_0x3a1afb,_0x3aca59;if(_0x340037==_0xd218bf(0x659)){_0x3aca59=Blockly['Arduino']['valueToCode'](_0x4c113d,_0xd218bf(0x6a5),Blockly['Arduino'][_0xd218bf(0xcbf)]);if(_0x3aca59[0x0]=='-')_0x3aca59='\x20'+_0x3aca59;return _0x3a1afb='-'+_0x3aca59,[_0x3a1afb,Blockly[_0xd218bf(0x2a3)]['ORDER_UNARY_NEGATION']];}if(_0x340037==_0xd218bf(0x910)||_0x340037==_0xd218bf(0xa36)||_0x340037=='TAN')_0x3aca59=Blockly[_0xd218bf(0x2a3)][_0xd218bf(0x74d)](_0x4c113d,_0xd218bf(0x6a5),Blockly[_0xd218bf(0x2a3)][_0xd218bf(0x5cc)]);else _0x3aca59=Blockly[_0xd218bf(0x2a3)][_0xd218bf(0x74d)](_0x4c113d,'NUM',Blockly[_0xd218bf(0x2a3)][_0xd218bf(0x3a4)]);switch(_0x340037){case _0xd218bf(0x9ae):_0x3a1afb='abs('+_0x3aca59+')';break;case'ROOT':_0x3a1afb='sqrt('+_0x3aca59+')';break;case _0xd218bf(0xc95):_0x3a1afb=_0xd218bf(0x589)+_0x3aca59+')';break;case _0xd218bf(0x398):_0x3a1afb=_0xd218bf(0x402)+_0x3aca59+')';break;case _0xd218bf(0x7b2):_0x3a1afb=_0xd218bf(0xb90)+_0x3aca59+')';break;case _0xd218bf(0x910):_0x3a1afb=_0xd218bf(0x24c)+_0x3aca59+')';break;case _0xd218bf(0xa36):_0x3a1afb=_0xd218bf(0x631)+_0x3aca59+')';break;case _0xd218bf(0xb55):_0x3a1afb='tan('+_0x3aca59+')';break;default:throw _0xd218bf(0x601)+_0x340037;}if(_0x3a1afb)return[_0x3a1afb,Blockly[_0xd218bf(0x2a3)]['ORDER_FUNCTION_CALL']];return[_0x3a1afb,Blockly['Arduino'][_0xd218bf(0x5cc)]];},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0x3fe)]=function(_0x582f0a){var _0x291ef6=_0x3d686a,_0x1ff6d9={'PI':['PI',Blockly[_0x291ef6(0x2a3)]['ORDER_MEMBER']],'E':['E',Blockly[_0x291ef6(0x2a3)][_0x291ef6(0x762)]],'GOLDEN_RATIO':[_0x291ef6(0x93c),Blockly[_0x291ef6(0x2a3)][_0x291ef6(0x5cc)]],'SQRT2':[_0x291ef6(0x7cc),Blockly['Arduino'][_0x291ef6(0x762)]],'SQRT1_2':[_0x291ef6(0x56a),Blockly[_0x291ef6(0x2a3)][_0x291ef6(0x762)]],'INFINITY':[_0x291ef6(0x2c2),Blockly[_0x291ef6(0x2a3)]['ORDER_ATOMIC']]};return _0x1ff6d9[_0x582f0a[_0x291ef6(0x2b1)](_0x291ef6(0x544))];},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0xa51)]=function(_0x261f68){var _0x1f656b=_0x3d686a,_0x4d88d4=Blockly['Arduino'][_0x1f656b(0x74d)](_0x261f68,'NUMBER_TO_CHECK',Blockly[_0x1f656b(0x2a3)][_0x1f656b(0x1c0)]),_0x597661=_0x261f68['getFieldValue'](_0x1f656b(0x19a)),_0x1ed2df;if(_0x597661==_0x1f656b(0x494)){var _0x4041c7=Blockly[_0x1f656b(0x2a3)][_0x1f656b(0x268)]('math_isPrime',[_0x1f656b(0x988)+Blockly[_0x1f656b(0x2a3)][_0x1f656b(0x5ed)]+_0x1f656b(0x5c8),'\x20\x20//\x20https://en.wikipedia.org/wiki/Primality_test#Naive_methods','\x20\x20if\x20(n\x20==\x202\x20||\x20n\x20==\x203)\x20{',_0x1f656b(0x3cc),'\x20\x20}',_0x1f656b(0x4b3),_0x1f656b(0x307),'\x20\x20if\x20(isNaN(n)\x20||\x20n\x20<=\x201\x20||\x20n\x20%\x201\x20!=\x200\x20||\x20n\x20%\x202\x20==\x200\x20||'+'\x20n\x20%\x203\x20==\x200)\x20{','\x20\x20\x20\x20return\x20false;','\x20\x20}',_0x1f656b(0x509),_0x1f656b(0x7fd),_0x1f656b(0x428),_0x1f656b(0x8a2),_0x1f656b(0x7b7),_0x1f656b(0x3f9),'\x20\x20return\x20true;','}']);return _0x1ed2df=_0x4041c7+'('+_0x4d88d4+')',[_0x1ed2df,Blockly[_0x1f656b(0x2a3)][_0x1f656b(0xb04)]];}switch(_0x597661){case _0x1f656b(0xccd):_0x1ed2df=_0x4d88d4+_0x1f656b(0x323);break;case'ODD':_0x1ed2df=_0x4d88d4+_0x1f656b(0x846);break;case _0x1f656b(0x41f):_0x1ed2df=_0x4d88d4+_0x1f656b(0x7ae);break;case _0x1f656b(0xc3f):_0x1ed2df=_0x4d88d4+_0x1f656b(0x51d);break;case'NEGATIVE':_0x1ed2df=_0x4d88d4+_0x1f656b(0xab1);break;case _0x1f656b(0x78a):var _0x549c06=Blockly[_0x1f656b(0x2a3)]['valueToCode'](_0x261f68,_0x1f656b(0xc47),Blockly['Arduino'][_0x1f656b(0x1c0)]);_0x1ed2df=_0x4d88d4+_0x1f656b(0x351)+_0x549c06+'\x20==\x200';break;}return[_0x1ed2df,Blockly['Arduino'][_0x1f656b(0xa95)]];},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0x83c)]=Blockly[_0x3d686a(0x2a3)][_0x3d686a(0x6d2)],Blockly['Arduino']['math_trig']=Blockly[_0x3d686a(0x2a3)]['math_single'],Blockly[_0x3d686a(0x2a3)][_0x3d686a(0x4a3)]=function(_0x307c20){var _0x13f561=_0x3d686a,_0x2297d3=Blockly[_0x13f561(0x2a3)][_0x13f561(0x74d)](_0x307c20,_0x13f561(0x6b3),Blockly[_0x13f561(0x2a3)]['ORDER_MODULUS']),_0x35aa37=Blockly['Arduino'][_0x13f561(0x74d)](_0x307c20,_0x13f561(0xc47),Blockly['Arduino']['ORDER_MODULUS']),_0x1971d1=_0x2297d3+_0x13f561(0x351)+_0x35aa37;return[_0x1971d1,Blockly[_0x13f561(0x2a3)][_0x13f561(0x1c0)]];},Blockly['Arduino']['math_random_int']=function(_0x95222c){var _0x44b164=_0x3d686a,_0x4aa374=Blockly['Arduino']['valueToCode'](_0x95222c,_0x44b164(0x1b9),Blockly[_0x44b164(0x2a3)][_0x44b164(0x4d2)]),_0x4b4c32=Blockly['Arduino'][_0x44b164(0x74d)](_0x95222c,'TO',Blockly['Arduino']['ORDER_COMMA']),_0x5a0ca6=Blockly[_0x44b164(0x2a3)]['provideFunction_'](_0x44b164(0x9ec),['long\x20'+Blockly[_0x44b164(0x2a3)][_0x44b164(0x5ed)]+'(int\x20a,int\x20b)\x20{',_0x44b164(0x961),'\x20\x20\x20\x20int\x20c\x20=\x20a;',_0x44b164(0x331),_0x44b164(0x850),'\x20\x20}',_0x44b164(0x979),'}']);Blockly[_0x44b164(0x2a3)][_0x44b164(0xcee)][_0x44b164(0xb61)]=_0x44b164(0x227);var _0x5017d3=_0x5a0ca6+'('+_0x4aa374+',\x20'+_0x4b4c32+')';return[_0x5017d3,Blockly[_0x44b164(0x2a3)][_0x44b164(0xb04)]];},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0x32e)]=function(_0x229622){var _0xbae57a=_0x3d686a,_0x47c68a=Blockly[_0xbae57a(0x2a3)][_0xbae57a(0x74d)](_0x229622,_0xbae57a(0x1b9),Blockly[_0xbae57a(0x2a3)][_0xbae57a(0x4d2)]),_0xfd8ef9=Blockly['Arduino'][_0xbae57a(0x74d)](_0x229622,'TO',Blockly[_0xbae57a(0x2a3)][_0xbae57a(0x4d2)]),_0xf71c99=_0xbae57a(0x897)+_0x47c68a+','+_0xfd8ef9+')';return[_0xf71c99,Blockly[_0xbae57a(0x2a3)][_0xbae57a(0xb04)]];},Blockly['Arduino'][_0x3d686a(0x955)]=function(_0x2a7aba){var _0x21ab5e=_0x3d686a,_0x38716c=Blockly[_0x21ab5e(0x2a3)][_0x21ab5e(0x74d)](_0x2a7aba,_0x21ab5e(0xcb9),Blockly[_0x21ab5e(0x2a3)][_0x21ab5e(0x4d2)]),_0x43123a=Blockly[_0x21ab5e(0x2a3)][_0x21ab5e(0x74d)](_0x2a7aba,'Mi2',Blockly['Arduino'][_0x21ab5e(0x4d2)]),_0x43ed8d=Blockly['Arduino'][_0x21ab5e(0x74d)](_0x2a7aba,_0x21ab5e(0x724),Blockly[_0x21ab5e(0x2a3)]['ORDER_COMMA']),_0x43c91f=Blockly[_0x21ab5e(0x2a3)][_0x21ab5e(0x74d)](_0x2a7aba,'Mi4',Blockly['Arduino'][_0x21ab5e(0x4d2)]),_0x2589f7=Blockly[_0x21ab5e(0x2a3)][_0x21ab5e(0x74d)](_0x2a7aba,_0x21ab5e(0xc38),Blockly[_0x21ab5e(0x2a3)]['ORDER_COMMA']),_0xf09115=_0x21ab5e(0x68e)+_0x38716c+',\x20'+_0x43123a+',\x20'+_0x43ed8d+',\x20'+_0x43c91f+',\x20'+_0x2589f7+')';return[_0xf09115,Blockly[_0x21ab5e(0x2a3)][_0x21ab5e(0xb04)]];},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0x90a)]=function(_0x34e1fe){var _0x500abc=_0x3d686a,_0x124a02='\x27'+_0x34e1fe[_0x500abc(0x2b1)](_0x500abc(0xba2))+'\x27';return[_0x124a02,Blockly[_0x500abc(0x2a3)]['ORDER_ATOMIC']];},Blockly[_0x3d686a(0x2a3)]['text']=function(_0x304feb){var _0x5a8ea8=_0x3d686a,_0x3b330b=Blockly[_0x5a8ea8(0x2a3)]['quote_'](_0x304feb[_0x5a8ea8(0x2b1)](_0x5a8ea8(0xba2)));return[_0x3b330b,Blockly['Arduino'][_0x5a8ea8(0x7ce)]];},Blockly[_0x3d686a(0x2a3)]['text_join']=function(_0x17b771){var _0x2c81d3=_0x3d686a,_0x173408;if(_0x17b771[_0x2c81d3(0x5f8)]==0x0)return['\x22\x22',Blockly[_0x2c81d3(0x2a3)][_0x2c81d3(0x7ce)]];else{if(_0x17b771['itemCount_']==0x1){var _0x3531c7=Blockly['Arduino'][_0x2c81d3(0x74d)](_0x17b771,'ADD0',Blockly[_0x2c81d3(0x2a3)][_0x2c81d3(0x239)]);return _0x173408='String('+_0x3531c7+')',[_0x173408,Blockly[_0x2c81d3(0x2a3)][_0x2c81d3(0x239)]];}else{var _0x2fecfe;_0x173408=[];for(var _0xd51e04=0x0;_0xd51e04<_0x17b771['itemCount_'];_0xd51e04++){_0x2fecfe=Blockly[_0x2c81d3(0x2a3)]['valueToCode'](_0x17b771,'ADD'+_0xd51e04,Blockly[_0x2c81d3(0x2a3)][_0x2c81d3(0x3a4)]);if(_0x2fecfe=='')_0x173408[_0xd51e04]='\x22\x22';else _0x173408[_0xd51e04]=_0x2c81d3(0x6b5)+_0x2fecfe+')';}return _0x173408=_0x173408[_0x2c81d3(0x4e4)]('\x20+\x20'),[_0x173408,Blockly[_0x2c81d3(0x2a3)][_0x2c81d3(0x239)]];}}},Blockly['Arduino'][_0x3d686a(0x20b)]=function(_0x2a7b80){var _0x48a886=_0x3d686a,_0x3d532d=Blockly[_0x48a886(0x2a3)][_0x48a886(0x74d)](_0x2a7b80,_0x48a886(0x49c),Blockly[_0x48a886(0x2a3)]['ORDER_UNARY_POSTFIX']),_0x5b2bfc=_0x48a886(0x6b5)+_0x3d532d+_0x48a886(0x4c8);return[_0x5b2bfc,Blockly[_0x48a886(0x2a3)][_0x48a886(0x239)]];},Blockly[_0x3d686a(0x2a3)]['text_isEmpty']=function(_0x11c76d){var _0x4bc5e1=_0x3d686a,_0x522dfe=[];_0x522dfe[_0x4bc5e1(0xc1d)](_0x4bc5e1(0x7f5)+Blockly[_0x4bc5e1(0x2a3)][_0x4bc5e1(0xc52)]+_0x4bc5e1(0x766)),_0x522dfe[_0x4bc5e1(0xc1d)]('\x20\x20if\x20(msg.length()\x20>\x200)\x20{'),_0x522dfe[_0x4bc5e1(0xc1d)](_0x4bc5e1(0x3cc)),_0x522dfe[_0x4bc5e1(0xc1d)](_0x4bc5e1(0xc37)),_0x522dfe[_0x4bc5e1(0xc1d)](_0x4bc5e1(0xc85)),_0x522dfe['push']('\x20\x20}'),_0x522dfe[_0x4bc5e1(0xc1d)]('}');var _0x297c80=Blockly[_0x4bc5e1(0x2a3)]['addFunction'](_0x4bc5e1(0x678),_0x522dfe[_0x4bc5e1(0x4e4)]('\x0a')),_0x106ecc=Blockly[_0x4bc5e1(0x2a3)]['valueToCode'](_0x11c76d,_0x4bc5e1(0x1d4),Blockly[_0x4bc5e1(0x2a3)][_0x4bc5e1(0x7ce)]);if(_0x106ecc=='')_0x106ecc='\x22\x22';else _0x106ecc=_0x4bc5e1(0x6b5)+_0x106ecc+')';var _0x5de2d4=_0x297c80+'('+_0x106ecc+')';return[_0x5de2d4,Blockly[_0x4bc5e1(0x2a3)][_0x4bc5e1(0x239)]];},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0x626)]=function(_0x1b0684){var _0x392c97=_0x3d686a,_0x457099=Blockly[_0x392c97(0x2a3)]['valueToCode'](_0x1b0684,_0x392c97(0x84e),Blockly[_0x392c97(0x2a3)][_0x392c97(0x446)]),_0x2cb0a5=Blockly[_0x392c97(0x2a3)][_0x392c97(0xba7)][_0x392c97(0xad3)](_0x1b0684[_0x392c97(0x2b1)](_0x392c97(0x299)),Blockly[_0x392c97(0x8b8)][_0x392c97(0x856)]),_0x413774=_0x2cb0a5+_0x392c97(0x330)+_0x2cb0a5+'\x20+\x20'+_0x457099+';\x0a';return _0x413774;},Blockly[_0x3d686a(0x2a3)]['variables_get']=function(_0x22108a){var _0x102577=_0x3d686a,_0x524319=Blockly[_0x102577(0x2a3)][_0x102577(0xba7)][_0x102577(0xad3)](_0x22108a[_0x102577(0x2b1)](_0x102577(0x299)),Blockly[_0x102577(0x8b8)]['NAME_TYPE']);return[_0x524319,Blockly[_0x102577(0x2a3)][_0x102577(0x7ce)]];},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0x949)]=function(_0x4a0e8c){var _0x45c3e0=_0x3d686a,_0x4f4257=Blockly[_0x45c3e0(0x2a3)][_0x45c3e0(0x74d)](_0x4a0e8c,_0x45c3e0(0x49c),Blockly[_0x45c3e0(0x2a3)][_0x45c3e0(0xaf4)]),_0x3c71d3=Blockly[_0x45c3e0(0x2a3)]['variableDB_'][_0x45c3e0(0xad3)](_0x4a0e8c[_0x45c3e0(0x2b1)](_0x45c3e0(0x299)),Blockly['Variables'][_0x45c3e0(0x856)]),_0x5d82ee=_0x3c71d3+_0x45c3e0(0x330)+_0x4f4257+';\x0a';return _0x5d82ee;},Blockly[_0x3d686a(0x2a3)]['variables_set_init']=function(_0x6612f7){var _0x3bc90e=_0x3d686a,_0x20911a=Blockly['Arduino'][_0x3bc90e(0x74d)](_0x6612f7,'VALUE',Blockly[_0x3bc90e(0x2a3)][_0x3bc90e(0xaf4)]),_0x2aec46=Blockly[_0x3bc90e(0x2a3)][_0x3bc90e(0xba7)][_0x3bc90e(0xad3)](_0x6612f7[_0x3bc90e(0x2b1)]('VAR'),Blockly['Variables']['NAME_TYPE']),_0x1a4cef=Blockly[_0x3bc90e(0x2a3)][_0x3bc90e(0x86c)](Blockly[_0x3bc90e(0x2e9)][_0x6612f7[_0x3bc90e(0x2b1)]('VARIABLE_SETTYPE_TYPE')]);return Blockly[_0x3bc90e(0x2a3)][_0x3bc90e(0x27b)][_0x2aec46]=_0x1a4cef+'\x20'+_0x2aec46+_0x3bc90e(0x330)+_0x20911a+';','';},Blockly['Arduino']['base_define_const']=function(_0x5aa2c8){var _0x58b55e=_0x3d686a,_0x117e88=Blockly[_0x58b55e(0x2a3)][_0x58b55e(0xba7)][_0x58b55e(0xad3)](_0x5aa2c8[_0x58b55e(0x2b1)](_0x58b55e(0x299)),Blockly[_0x58b55e(0x8b8)][_0x58b55e(0x856)]),_0x219266=Blockly[_0x58b55e(0x2a3)][_0x58b55e(0x74d)](_0x5aa2c8,_0x58b55e(0x833),Blockly[_0x58b55e(0x2a3)][_0x58b55e(0x7ce)]);return Blockly['Arduino'][_0x58b55e(0x27b)][_0x117e88]=_0x58b55e(0xbf1)+_0x117e88+'\x20'+_0x219266,'';},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0x791)]=function(_0x3b17bd){var _0x2fbf46=_0x3d686a,_0x377767=Blockly[_0x2fbf46(0x2a3)][_0x2fbf46(0x74d)](_0x3b17bd,_0x2fbf46(0xa8c),Blockly[_0x2fbf46(0x2a3)]['ORDER_ASSIGNMENT']),_0x4a2ba9=Blockly[_0x2fbf46(0x2a3)][_0x2fbf46(0xba7)][_0x2fbf46(0xad3)](_0x3b17bd['getFieldValue']('VAR'),Blockly[_0x2fbf46(0x8b8)][_0x2fbf46(0x856)]),_0x394ef1=Blockly[_0x2fbf46(0x2a3)]['getArduinoType_'](Blockly[_0x2fbf46(0x2e9)][_0x3b17bd['getFieldValue'](_0x2fbf46(0xc57))]);return Blockly[_0x2fbf46(0x2a3)][_0x2fbf46(0x27b)][_0x4a2ba9]=_0x2fbf46(0x863)+_0x394ef1+'\x20'+_0x4a2ba9+_0x2fbf46(0x330)+_0x377767+';','';},Blockly['Arduino'][_0x3d686a(0x68a)]=function(_0x28d188){var _0x2e1b3b=_0x3d686a,_0x249d2d=Blockly[_0x2e1b3b(0x2a3)]['variableDB_']['getName'](_0x28d188[_0x2e1b3b(0x2b1)](_0x2e1b3b(0x6d0)),Blockly[_0x2e1b3b(0x656)]['NAME_TYPE']),_0x1d593f=Blockly[_0x2e1b3b(0x2a3)][_0x2e1b3b(0xcd1)](_0x28d188,_0x2e1b3b(0x1a6));Blockly['Arduino'][_0x2e1b3b(0x599)]&&(_0x1d593f=Blockly['Arduino']['INFINITE_LOOP_TRAP'][_0x2e1b3b(0x6c0)](/%1/g,'\x27'+_0x28d188['id']+'\x27')+_0x1d593f);var _0x37170e=[];for(var _0x38beea=0x0;_0x38beea<_0x28d188[_0x2e1b3b(0xb62)][_0x2e1b3b(0x9c5)];_0x38beea++){_0x37170e[_0x38beea]=Blockly[_0x2e1b3b(0x2a3)][_0x2e1b3b(0x86c)](Blockly[_0x2e1b3b(0x2e9)][_0x28d188[_0x2e1b3b(0x876)][_0x38beea]])+'\x20'+_0x28d188[_0x2e1b3b(0xb62)][_0x38beea];}var _0x3dbd3b=_0x2e1b3b(0x8e0)+_0x249d2d+'('+_0x37170e[_0x2e1b3b(0x4e4)](',')+_0x2e1b3b(0xc18)+_0x1d593f+'}\x0a';return _0x3dbd3b=Blockly['Arduino'][_0x2e1b3b(0xba6)](_0x28d188,_0x3dbd3b),Blockly[_0x2e1b3b(0x2a3)][_0x2e1b3b(0x989)][_0x249d2d]=_0x3dbd3b,'';},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0x901)]=function(_0x77cf7e){var _0x3ebfb4=_0x3d686a,_0x28d4c7=Blockly[_0x3ebfb4(0x2a3)][_0x3ebfb4(0xba7)][_0x3ebfb4(0xad3)](_0x77cf7e['getFieldValue'](_0x3ebfb4(0x6d0)),Blockly[_0x3ebfb4(0x656)][_0x3ebfb4(0x856)]),_0x55e8b2=Blockly[_0x3ebfb4(0x2a3)][_0x3ebfb4(0xcd1)](_0x77cf7e,_0x3ebfb4(0x1a6));Blockly[_0x3ebfb4(0x2a3)][_0x3ebfb4(0x599)]&&(_0x55e8b2=Blockly[_0x3ebfb4(0x2a3)]['INFINITE_LOOP_TRAP'][_0x3ebfb4(0x6c0)](/%1/g,'\x27'+_0x77cf7e['id']+'\x27')+_0x55e8b2);var _0x145933=Blockly[_0x3ebfb4(0x2a3)][_0x3ebfb4(0x74d)](_0x77cf7e,_0x3ebfb4(0x3e7),Blockly['Arduino'][_0x3ebfb4(0x3a4)])||'';_0x145933&&(_0x145933=_0x3ebfb4(0x7a0)+_0x145933+';\x0a');var _0x550ef2=Blockly[_0x3ebfb4(0x2a3)][_0x3ebfb4(0x86c)](Blockly[_0x3ebfb4(0x2e9)][_0x77cf7e['getFieldValue'](_0x3ebfb4(0x898))]),_0x41f583=[];for(var _0x179b7a=0x0;_0x179b7a<_0x77cf7e[_0x3ebfb4(0xb62)][_0x3ebfb4(0x9c5)];_0x179b7a++){_0x41f583[_0x179b7a]=Blockly[_0x3ebfb4(0x2a3)]['getArduinoType_'](Blockly[_0x3ebfb4(0x2e9)][_0x77cf7e[_0x3ebfb4(0x876)][_0x179b7a]])+'\x20'+Blockly['Arduino']['variableDB_'][_0x3ebfb4(0xad3)](_0x77cf7e[_0x3ebfb4(0xb62)][_0x179b7a],Blockly[_0x3ebfb4(0x8b8)][_0x3ebfb4(0x856)]);}var _0x1f19c3=_0x550ef2+'\x20'+_0x28d4c7+'('+_0x41f583[_0x3ebfb4(0x4e4)](',')+_0x3ebfb4(0xc18)+_0x55e8b2+_0x145933+'}\x0a';return _0x1f19c3=Blockly['Arduino'][_0x3ebfb4(0xba6)](_0x77cf7e,_0x1f19c3),Blockly['Arduino'][_0x3ebfb4(0x989)][_0x28d4c7]=_0x1f19c3,'';},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0x7e3)]=function(_0x81096d){var _0x30d563=_0x3d686a,_0x238101=Blockly[_0x30d563(0x2a3)][_0x30d563(0xba7)]['getName'](_0x81096d[_0x30d563(0x2b1)]('NAME'),Blockly[_0x30d563(0x656)][_0x30d563(0x856)]),_0x50ed7c=[];for(var _0x22c7a8=0x0;_0x22c7a8<_0x81096d[_0x30d563(0xb62)]['length'];_0x22c7a8++){_0x50ed7c[_0x22c7a8]=Blockly['Arduino'][_0x30d563(0x74d)](_0x81096d,_0x30d563(0x943)+_0x22c7a8,Blockly[_0x30d563(0x2a3)][_0x30d563(0x3a4)])||_0x30d563(0x729);}var _0x15470e=_0x238101+'('+_0x50ed7c[_0x30d563(0x4e4)](',\x20')+')';return[_0x15470e,Blockly[_0x30d563(0x2a3)][_0x30d563(0x239)]];},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0x29b)]=function(_0x5db892){var _0x14e737=_0x3d686a,_0x506f20=Blockly[_0x14e737(0x2a3)][_0x14e737(0xba7)][_0x14e737(0xad3)](_0x5db892[_0x14e737(0x2b1)](_0x14e737(0x6d0)),Blockly[_0x14e737(0x656)]['NAME_TYPE']),_0xca9ef3=[];for(var _0x4cfa81=0x0;_0x4cfa81<_0x5db892[_0x14e737(0xb62)][_0x14e737(0x9c5)];_0x4cfa81++){_0xca9ef3[_0x4cfa81]=Blockly[_0x14e737(0x2a3)]['valueToCode'](_0x5db892,_0x14e737(0x943)+_0x4cfa81,Blockly[_0x14e737(0x2a3)]['ORDER_NONE'])||_0x14e737(0x729);}var _0x457ea1=_0x506f20+'('+_0xca9ef3[_0x14e737(0x4e4)](',\x20')+_0x14e737(0x62e);return _0x457ea1;},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0x1ef)]=function(_0x4af136){var _0x1bc97f=_0x3d686a;if(_0x4af136[_0x1bc97f(0x91e)])var _0x776713=Blockly[_0x1bc97f(0x2a3)][_0x1bc97f(0x74d)](_0x4af136,'VALUE',Blockly[_0x1bc97f(0x2a3)][_0x1bc97f(0x3a4)])||'null',_0x2d44f7=_0x1bc97f(0x7a0)+_0x776713+';\x0a';else var _0x2d44f7=_0x1bc97f(0x4ca);return _0x2d44f7;},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0x974)]=function(_0x1239af){var _0x308ff8=_0x3d686a,_0x555b6d=Blockly['Arduino'][_0x308ff8(0xba7)]['getName'](_0x1239af[_0x308ff8(0x2b1)](_0x308ff8(0x299)),Blockly[_0x308ff8(0x8b8)]['NAME_TYPE']),_0x2f3343=Blockly[_0x308ff8(0x2a3)][_0x308ff8(0x86c)](Blockly[_0x308ff8(0x2e9)][_0x1239af[_0x308ff8(0x2b1)](_0x308ff8(0x898))]),_0x180c39='c2',_0x362eda=_0x1239af[_0x308ff8(0x2b1)]('dim'),_0xac07cb='',_0x440686='';switch(_0x180c39){case'c1':for(var _0x3f29e8=0x0;_0x3f29e8<_0x362eda;_0x3f29e8++){var _0x33cd42=Blockly['Arduino']['valueToCode'](_0x1239af,'D'+_0x3f29e8,Blockly[_0x308ff8(0x2a3)][_0x308ff8(0xaf4)]);_0x440686+='['+_0x33cd42+']';}Blockly[_0x308ff8(0x2a3)][_0x308ff8(0x27b)][_0x555b6d]=_0x2f3343+'\x20'+_0x555b6d+_0x440686+';';break;case'c2':_0x440686+='{';for(var _0x3f29e8=0x0;_0x3f29e8<_0x362eda;_0x3f29e8++){var _0x33cd42=Blockly['Arduino'][_0x308ff8(0x74d)](_0x1239af,'D'+_0x3f29e8,Blockly[_0x308ff8(0x2a3)][_0x308ff8(0xaf4)]),_0x19eb57=_0x33cd42[_0x308ff8(0x748)](',');_0x440686+=_0x33cd42+',',_0xac07cb+='['+_0x19eb57[_0x308ff8(0x9c5)]+']';}_0x440686=_0x440686[_0x308ff8(0x340)](0x0,_0x440686[_0x308ff8(0x9c5)]-0x1),_0x440686+='}',Blockly['Arduino'][_0x308ff8(0x27b)][_0x555b6d]=_0x2f3343+'\x20'+_0x555b6d+'\x20['+_0x362eda+_0x308ff8(0x698)+_0x440686+';';break;}return'';},Blockly[_0x3d686a(0x2a3)]['fixer_tableau']=function(_0x1a9b12){var _0x5de37c=_0x3d686a,_0x1e450d=Blockly[_0x5de37c(0x2a3)][_0x5de37c(0x74d)](_0x1a9b12,_0x5de37c(0xc12),Blockly[_0x5de37c(0x2a3)][_0x5de37c(0x7ce)]),_0x452bcb=Blockly['Arduino'][_0x5de37c(0xba7)][_0x5de37c(0xad3)](_0x1a9b12[_0x5de37c(0x2b1)](_0x5de37c(0x299)),Blockly[_0x5de37c(0x8b8)][_0x5de37c(0x856)]),_0x243bb3=_0x1a9b12[_0x5de37c(0x2b1)](_0x5de37c(0x397)),_0x243bb3=_0x243bb3-0x1,_0x452bcb=''+_0x452bcb+'['+_0x243bb3+']='+_0x1e450d+';\x0a';return _0x452bcb;},Blockly['Arduino'][_0x3d686a(0x872)]=function(_0x4d2e7e){var _0x467453=_0x3d686a,_0x34dc0f=Blockly[_0x467453(0x2a3)][_0x467453(0xba7)][_0x467453(0xad3)](_0x4d2e7e['getFieldValue'](_0x467453(0x299)),Blockly[_0x467453(0x8b8)][_0x467453(0x856)]),_0x36dd39=_0x4d2e7e[_0x467453(0x2b1)](_0x467453(0x397)),_0x36dd39=_0x36dd39-0x1,_0x34dc0f=''+_0x34dc0f+'['+_0x36dd39+']';return[_0x34dc0f,Blockly[_0x467453(0x2a3)]['ORDER_ATOMIC']];},Blockly['Arduino'][_0x3d686a(0xcea)]=function(_0x41a435){var _0xaf734d=_0x3d686a,_0x4fe29f=Blockly[_0xaf734d(0x2a3)][_0xaf734d(0xba7)][_0xaf734d(0xad3)](_0x41a435[_0xaf734d(0x2b1)](_0xaf734d(0x299)),Blockly[_0xaf734d(0x8b8)]['NAME_TYPE']),_0x24b75a='sizeof('+_0x4fe29f+_0xaf734d(0x4a0)+_0x4fe29f+'[0])';return[_0x24b75a,Blockly[_0xaf734d(0x2a3)]['ORDER_ATOMIC']];},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0xc84)]=function(_0x54470c){var _0x3c7daa=_0x3d686a,_0x429c5f=new Array(_0x54470c['itemCount_']);for(var _0x3e45d2=0x0;_0x3e45d2<_0x54470c[_0x3c7daa(0x5f8)];_0x3e45d2++){_0x429c5f[_0x3e45d2]=Blockly[_0x3c7daa(0x2a3)][_0x3c7daa(0x74d)](_0x54470c,_0x3c7daa(0x3a9)+_0x3e45d2,Blockly[_0x3c7daa(0x2a3)]['ORDER_COMMA'])||_0x3c7daa(0x729);}return _0x429c5f='{'+_0x429c5f['join'](',')+'}',[_0x429c5f,Blockly['Arduino'][_0x3c7daa(0x7ce)]];},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0x68b)]=function(_0x1e25ea){var _0x3904a5=_0x3d686a,_0x5795e3=_0x1e25ea[_0x3904a5(0x2b1)](_0x3904a5(0x682)),_0x528295=_0x1e25ea['getFieldValue']('includes'),_0xcc42c4=_0x1e25ea[_0x3904a5(0x2b1)]('variables'),_0x141762=_0x1e25ea[_0x3904a5(0x2b1)](_0x3904a5(0x318)),_0x2daa04=_0x1e25ea['getFieldValue']('userFunctions'),_0x14c401=_0x1e25ea[_0x3904a5(0x2b1)](_0x3904a5(0x8a8)),_0x566616=_0x1e25ea[_0x3904a5(0x2b1)](_0x3904a5(0xb7d));Blockly['Arduino'][_0x3904a5(0x5f5)]['includes'+_0x528295]=''+_0x528295+'\x20\x0a',Blockly[_0x3904a5(0x2a3)][_0x3904a5(0x27b)][_0x3904a5(0x229)+_0xcc42c4]=''+_0xcc42c4+'\x20\x0a',Blockly[_0x3904a5(0x2a3)][_0x3904a5(0xa2c)][_0x3904a5(0x318)+_0x141762]=''+_0x141762+'\x20\x0a',Blockly[_0x3904a5(0x2a3)][_0x3904a5(0x4b0)][_0x3904a5(0x541)+_0x2daa04]=''+_0x2daa04+'\x20\x0a',Blockly[_0x3904a5(0x2a3)][_0x3904a5(0xcee)]['setups'+_0x14c401]=''+_0x14c401+'\x20\x0a';var _0x48a2c0=''+_0x566616+'\x20\x0a';return _0x48a2c0;},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0x7e2)]=function(_0xe077d5){var _0x33952e=_0x3d686a,_0x4fa9c7=_0xe077d5[_0x33952e(0x2b1)](_0x33952e(0x682)),_0x8e2a1e=_0xe077d5[_0x33952e(0x2b1)]('includes'),_0x26d3f8=_0xe077d5[_0x33952e(0x2b1)](_0x33952e(0x229)),_0x41f3ce=_0xe077d5['getFieldValue'](_0x33952e(0x318)),_0x5ea539=_0xe077d5[_0x33952e(0x2b1)](_0x33952e(0x541)),_0x5c2641=_0xe077d5[_0x33952e(0x2b1)](_0x33952e(0x8a8)),_0x8d4654=_0xe077d5[_0x33952e(0x2b1)](_0x33952e(0xb7d));Blockly[_0x33952e(0x2a3)][_0x33952e(0x5f5)][_0x33952e(0x728)+_0x8e2a1e]=''+_0x8e2a1e+'\x20\x0a',Blockly['Arduino'][_0x33952e(0x27b)][_0x33952e(0x229)+_0x26d3f8]=''+_0x26d3f8+'\x20\x0a',Blockly[_0x33952e(0x2a3)][_0x33952e(0xa2c)][_0x33952e(0x318)+_0x41f3ce]=''+_0x41f3ce+'\x20\x0a',Blockly['Arduino'][_0x33952e(0x4b0)][_0x33952e(0x541)+_0x5ea539]=''+_0x5ea539+'\x20\x0a',Blockly[_0x33952e(0x2a3)][_0x33952e(0xcee)][_0x33952e(0x8a8)+_0x5c2641]=''+_0x5c2641+'\x20\x0a';var _0x20ab42=''+_0x8d4654+'';return[_0x20ab42,Blockly[_0x33952e(0x2a3)][_0x33952e(0x7ce)]];},Blockly['Arduino'][_0x3d686a(0xb4c)]=function(_0xc7698c){var _0x27d9ce=_0x3d686a,_0x144921=_0xc7698c[_0x27d9ce(0x2b1)]('SPEED'),_0x24c376=_0xc7698c[_0x27d9ce(0x2b1)]('pin');window[_0x27d9ce(0x700)][_0x27d9ce(0x670)]=_0x144921;switch(_0x24c376){case'0':Blockly[_0x27d9ce(0x2a3)][_0x27d9ce(0xcee)][_0x27d9ce(0x44d)]='Serial.begin('+_0x144921+');';break;case'19':Blockly[_0x27d9ce(0x2a3)][_0x27d9ce(0xcee)][_0x27d9ce(0x44d)]='Serial1.begin('+_0x144921+');';break;case'17':Blockly[_0x27d9ce(0x2a3)][_0x27d9ce(0xcee)][_0x27d9ce(0x44d)]='Serial2.begin('+_0x144921+');';break;case'15':Blockly[_0x27d9ce(0x2a3)][_0x27d9ce(0xcee)][_0x27d9ce(0x44d)]=_0x27d9ce(0x4c9)+_0x144921+');';break;}return'';},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0xa73)]=function(_0x445151){var _0x275da1=_0x3d686a,_0x3dc006=this[_0x275da1(0x2b1)](_0x275da1(0xafe)),_0x3aa3b9=this[_0x275da1(0x2b1)](_0x275da1(0x9d8));Blockly[_0x275da1(0x2a3)][_0x275da1(0x5f5)][_0x275da1(0xaad)]='#include\x20<SoftwareSerial.h>',Blockly[_0x275da1(0x2a3)]['includes_'][_0x275da1(0x9a0)]=_0x275da1(0x5aa),Blockly[_0x275da1(0x2a3)][_0x275da1(0xa2c)][_0x275da1(0x245)]=_0x275da1(0xc28),Blockly[_0x275da1(0x2a3)][_0x275da1(0xa2c)][_0x275da1(0x33e)]=_0x275da1(0x996)+_0x3aa3b9+','+_0x3dc006+_0x275da1(0x62e),Blockly[_0x275da1(0x2a3)]['definitions_']['gps_variables']=_0x275da1(0x605)+_0x275da1(0x308)+_0x275da1(0xb07)+_0x275da1(0x7d6),Blockly[_0x275da1(0x2a3)][_0x275da1(0xcee)][_0x275da1(0x23f)]=_0x275da1(0x45c);var _0x55ad4b='';return _0x55ad4b;},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0x918)]=function(_0x2fed82){var _0x377a8b=_0x3d686a,_0xde8cc2=_0x377a8b(0x6c2)+'\x20{\x0a'+_0x377a8b(0x783)+_0x377a8b(0x554)+_0x377a8b(0x5db)+_0x377a8b(0x6f0)+'\x09\x09\x20\x20flat=\x20gps.location.lat();\x0a'+_0x377a8b(0x82f)+_0x377a8b(0x1f5)+_0x377a8b(0x9f3)+_0x377a8b(0x6f0)+'\x09\x09\x20\x20falt=\x20gps.altitude.meters();\x0a'+'\x20\x20\x20\x20\x20\x20\x20}\x0a'+'\x09\x20\x20if\x20(gps.course.isValid())\x20\x0a'+'\x09\x09{\x09\x0a'+_0x377a8b(0x21e)+_0x377a8b(0x1f5)+_0x377a8b(0x880)+'\x09\x09{\x09\x0a'+_0x377a8b(0xb21)+_0x377a8b(0x1f5)+_0x377a8b(0x586)+_0x377a8b(0x6f0)+_0x377a8b(0xb1d)+'\x09\x09\x20\x20fmph=gps.speed.mph();\x0a'+'\x09\x09\x20\x20fmps=\x20gps.speed.mps();\x0a'+'\x09\x09\x20\x20fkmph\x20=gps.speed.kmph();\x0a'+_0x377a8b(0x1f5)+_0x377a8b(0x614)+'\x09\x09{\x09\x0a'+_0x377a8b(0xc49)+_0x377a8b(0x44a)+_0x377a8b(0x915)+_0x377a8b(0x1f5)+'\x09\x20\x20if\x20(gps.time.isValid())\x20\x0a'+_0x377a8b(0x6f0)+_0x377a8b(0xb73)+_0x377a8b(0x31a)+_0x377a8b(0x32a)+'\x20\x20\x20\x20\x20\x20\x20}\x0a'+_0x377a8b(0x820)+'\x20\x20}\x0a';return _0xde8cc2;},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0x53a)]=function(_0x35f962){var _0x4befe8=_0x3d686a,_0x1e5020=this[_0x4befe8(0x2b1)](_0x4befe8(0x9bd));if(_0x1e5020==0x0)var _0x5227e4='flat';else{if(_0x1e5020==0x1)var _0x5227e4=_0x4befe8(0x41a);else{if(_0x1e5020==0x2)var _0x5227e4=_0x4befe8(0xcbc);else{if(_0x1e5020==0x3)var _0x5227e4='fc';else var _0x5227e4='nsat';}}}return[_0x5227e4,Blockly['Arduino'][_0x4befe8(0x7ce)]];},Blockly[_0x3d686a(0x2a3)]['GPS_speed']=function(_0x3726ec){var _0x4a1369=_0x3d686a,_0x3b863=this['getFieldValue'](_0x4a1369(0x558));if(_0x3b863==0x0)var _0x210837='fk';else{if(_0x3b863==0x1)var _0x210837=_0x4a1369(0xb02);else{if(_0x3b863==0x2)var _0x210837=_0x4a1369(0xc1a);else var _0x210837=_0x4a1369(0x4e2);}}return[_0x210837,Blockly[_0x4a1369(0x2a3)][_0x4a1369(0x7ce)]];},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0x39f)]=function(_0x272d7a){var _0x43f960=_0x3d686a,_0x6ffee3=this[_0x43f960(0x2b1)](_0x43f960(0x1be));if(_0x6ffee3==0x0)var _0x1e711f=_0x43f960(0x278);else{if(_0x6ffee3==0x1)var _0x1e711f=_0x43f960(0xc15);else{if(_0x6ffee3==0x2)var _0x1e711f=_0x43f960(0x328);else{if(_0x6ffee3==0x3)var _0x1e711f=_0x43f960(0xa26);else{if(_0x6ffee3==0x4)var _0x1e711f=_0x43f960(0x22e);else var _0x1e711f=_0x43f960(0x993);}}}}return[_0x1e711f,Blockly[_0x43f960(0x2a3)]['ORDER_ATOMIC']];},Blockly['Arduino'][_0x3d686a(0xbaa)]=function(_0x55337a){var _0x120fd4=_0x3d686a,_0x57fa03=_0x55337a['getFieldValue'](_0x120fd4(0x88b)),_0x363523=_0x55337a[_0x120fd4(0x2b1)](_0x120fd4(0xb54)),_0x4c8586=_0x55337a['getFieldValue'](_0x120fd4(0x85e)),_0x31fd53=Blockly[_0x120fd4(0x2a3)][_0x120fd4(0x74d)](_0x55337a,'_block',Blockly[_0x120fd4(0x2a3)][_0x120fd4(0x7ce)]);Blockly[_0x120fd4(0x2a3)][_0x120fd4(0x27b)][_0x120fd4(0x70e)]=_0x120fd4(0xc45),Blockly[_0x120fd4(0x2a3)][_0x120fd4(0xcee)][_0x120fd4(0xa56)]=_0x120fd4(0x618)+_0x4c8586+_0x120fd4(0x69c)+_0x363523+',\x20OUTPUT);\x20\x20\x0a\x20\x20pinMode('+_0x57fa03+_0x120fd4(0x71d)+_0x57fa03+_0x120fd4(0x90d);var _0xd2d656=_0x120fd4(0xacb)+_0x31fd53+';\x20\x20\x20\x0a'+_0x120fd4(0x4de)+_0x120fd4(0xcc9)+_0x120fd4(0xbe6)+_0x4c8586+_0x120fd4(0x511)+_0x120fd4(0xbe6)+_0x363523+_0x120fd4(0x511)+_0x120fd4(0xbe6)+_0x57fa03+_0x120fd4(0xc8e)+_0x120fd4(0xb09)+_0x120fd4(0xbe6)+_0x363523+_0x120fd4(0xc8e)+_0x120fd4(0x4ec)+_0x120fd4(0xbe6)+_0x363523+_0x120fd4(0xa43)+'\x20\x20delayMicroseconds(1);\x20\x20\x20\x0a'+_0x120fd4(0xbe6)+_0x57fa03+_0x120fd4(0x46f)+_0x120fd4(0x34d)+_0x120fd4(0x1f4)+'\x20\x20\x20\x20\x20\x20zenm\x20=\x20zenm\x20-\x201;\x20\x20\x20\x0a'+'\x20\x20digitalWrite('+_0x4c8586+_0x120fd4(0x5d0)+_0x120fd4(0xbe6)+_0x363523+_0x120fd4(0xa43)+_0x120fd4(0xbe6)+_0x57fa03+',\x20LOW);\x20\x20\x20\x0a'+'\x20\x20delayMicroseconds(1);\x20\x20\x20\x0a'+_0x120fd4(0xbe6)+_0x363523+_0x120fd4(0x5d0)+_0x120fd4(0x4ec)+_0x120fd4(0xbe6)+_0x363523+_0x120fd4(0xa43)+_0x120fd4(0x4ec)+_0x120fd4(0xbe6)+_0x57fa03+_0x120fd4(0xa43)+_0x120fd4(0x34d);return _0xd2d656;},Blockly['Arduino'][_0x3d686a(0xade)]=function(_0x4ab417){var _0x302919=_0x3d686a,_0x5a0e96=_0x4ab417['getFieldValue'](_0x302919(0x6e2)),_0xb34b41=_0x4ab417['getFieldValue'](_0x302919(0x321));Blockly[_0x302919(0x2a3)][_0x302919(0x27b)]['variables_sim800_init_ss']=_0x302919(0x6eb)+_0x5a0e96+',\x20'+_0xb34b41+_0x302919(0x67a),Blockly[_0x302919(0x2a3)][_0x302919(0xcee)]['setups_sim800_init_ss']='sim800l.begin(19200);\x20\x20\x0a\x20\x20\x20'+'\x20delay(2000);\x20\x0a\x20'+_0x302919(0xb22)+_0x302919(0x867)+_0x302919(0x947)+_0x302919(0x867)+_0x302919(0x244)+_0x302919(0x867)+_0x302919(0x5f0)+_0x302919(0x867)+_0x302919(0x88d)+_0x302919(0x8d6)+'\x20\x20\x20sim800l.print(\x22AT+CMGDA=«DEL\x20ALL»\x5cr\x22);\x20\x20\x0a';var _0x3b05da='\x20';return _0x3b05da;},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0x36e)]=function(_0x19a28d){var _0x1d3711=_0x3d686a,_0x193790=Blockly[_0x1d3711(0x2a3)][_0x1d3711(0x74d)](_0x19a28d,_0x1d3711(0x7ac),Blockly[_0x1d3711(0x2a3)][_0x1d3711(0x7ce)]),_0x836a1e=_0x19a28d[_0x1d3711(0x2b1)](_0x1d3711(0x81c)),_0xeff639=_0x1d3711(0xab8)+_0x1d3711(0x62a)+'\x20\x20\x20sim800l.println(\x22AT\x20+\x20CMGS\x20=\x20\x5c\x22+'+_0x836a1e+_0x1d3711(0x1b5)+_0x1d3711(0x304)+_0x1d3711(0x33a)+_0x193790+');\x20\x0a\x20'+_0x1d3711(0x62a)+_0x1d3711(0xb2c)+'\x20\x20\x20delay(5000);\x20\x0a\x20'+_0x1d3711(0x369)+'\x20\x20\x20delay\x20(2000);\x20\x20\x0a';return _0xeff639;},Blockly['Arduino'][_0x3d686a(0x282)]=function(_0xb0a44c){var _0x1eb1fa=_0x3d686a,_0x1b9acf=Blockly[_0x1eb1fa(0x2a3)][_0x1eb1fa(0xcd1)](_0xb0a44c,'sms_statement'),_0x34cb58='\x27',_0x18d5ce='\x20\x20if\x20(!sim800l.available())\x20return;\x20\x0a\x20'+'\x20\x20\x20\x20char\x20currSymb\x20=\x20sim800l.read();\x20\x20\x20\x20\x0a\x20'+_0x1eb1fa(0xc7a)+_0x34cb58+'\x5cr'+_0x34cb58+_0x1eb1fa(0x379)+'\x20\x20\x20\x20\x20\x20\x20\x20{\x20\x0a\x20'+_0x1eb1fa(0x490)+_0x1eb1fa(0x481)+_0x1eb1fa(0x4b8)+_0x1b9acf+'\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x0a\x20'+_0x1eb1fa(0x9bf)+_0x1eb1fa(0x457)+'\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20else\x20{\x20if\x20(currStr.startsWith(\x22+CMT\x22))\x20{\x20isStringMessage\x20=\x20true;}}\x20\x0a\x20'+_0x1eb1fa(0xc8b)+_0x1eb1fa(0x52a)+_0x1eb1fa(0xba4)+_0x34cb58+'\x5cn'+_0x34cb58+_0x1eb1fa(0xb80)+'\x20\x20\x20\x20\x20}\x20\x20\x20\x20\x0a\x20\x20';return _0x18d5ce;},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0x7c1)]=function(_0x134171){var _0x316ebd=_0x3d686a,_0x85957a=Blockly['Arduino'][_0x316ebd(0xcd1)](_0x134171,_0x316ebd(0x1bc)),_0x4315a7=_0x134171[_0x316ebd(0x2b1)]('sss_text'),_0x111326='if\x20(!currStr.compareTo(\x22'+_0x4315a7+'\x22))\x20\x20\x20{\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20'+_0x85957a+_0x316ebd(0x218);return _0x111326;},Blockly[_0x3d686a(0x2a3)]['initread_acs712']=function(_0x905a45){var _0x53db85=_0x3d686a,_0x3cb5bf=_0x905a45['getFieldValue'](_0x53db85(0x59e)),_0x184864=_0x905a45[_0x53db85(0x2b1)](_0x53db85(0x2ba));Blockly[_0x53db85(0x2a3)]['includes_']['includes_initread_acs712']='#include\x20<ACS712.h>\x20\x0a\x20ACS712\x20sensor('+_0x3cb5bf+',\x20'+_0x184864+_0x53db85(0xaa7),Blockly[_0x53db85(0x2a3)]['setups_'][_0x53db85(0x69a)]=_0x53db85(0x663);var _0x332e83=_0x53db85(0x2e4);return[_0x332e83,Blockly['Arduino']['ORDER_ATOMIC']];},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0x35d)]=function(_0x20f8f2){var _0x237332=_0x3d686a,_0x439b6a=_0x20f8f2[_0x237332(0x2b1)](_0x237332(0xcc2));Blockly[_0x237332(0x2a3)]['includes_']['includes_init_temp_ds18b20_1']=_0x237332(0x281)+_0x439b6a+_0x237332(0x2a6),Blockly[_0x237332(0x2a3)]['userFunctions_'][_0x237332(0x63c)]='void\x20printAddress(DeviceAddress\x20deviceAddress)\x20\x0a\x20{\x20\x0a\x20for\x20(uint8_t\x20i\x20=\x200;\x20i\x20<\x208;\x20i++)\x20\x0a\x20{\x20\x0a\x20Serial.print(\x220x\x22);\x20\x0a\x20if\x20(deviceAddress[i]\x20<\x200x10)\x20Serial.print(\x220\x22);\x20\x0a\x20Serial.print(deviceAddress[i],\x20HEX);\x20\x0a\x20if\x20(i\x20<\x207)\x20Serial.print(\x22,\x20\x22);\x20\x0a\x20}\x20\x0a\x20Serial.println(\x22\x22);\x20\x0a\x20}\x20\x0a\x20',Blockly['Arduino'][_0x237332(0xcee)][_0x237332(0xaed)]=_0x237332(0xa02);var _0x9f91a7='\x20';return _0x9f91a7;},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0x9f1)]=function(_0x35ae76){var _0x28bcc8=_0x3d686a,_0x25502d=_0x35ae76[_0x28bcc8(0x2b1)](_0x28bcc8(0xcc2)),_0x2bffb9=_0x35ae76[_0x28bcc8(0x2b1)](_0x28bcc8(0x5c1)),_0x5e4879=_0x35ae76[_0x28bcc8(0x2b1)]('adres');Blockly[_0x28bcc8(0x2a3)][_0x28bcc8(0x5f5)][_0x28bcc8(0xc44)]=_0x28bcc8(0x40a),Blockly['Arduino'][_0x28bcc8(0xa2c)][_0x28bcc8(0xc44)+_0x25502d]=_0x28bcc8(0xb8c)+_0x25502d+'('+_0x25502d+_0x28bcc8(0xcaf)+_0x25502d+_0x28bcc8(0xbee)+_0x25502d+_0x28bcc8(0xc9d),Blockly[_0x28bcc8(0x2a3)][_0x28bcc8(0x27b)][_0x28bcc8(0x93d)+_0x2bffb9]=_0x28bcc8(0x200)+_0x2bffb9+_0x28bcc8(0x686)+_0x5e4879+'};\x20\x20\x0a\x20',Blockly[_0x28bcc8(0x2a3)][_0x28bcc8(0xcee)][_0x28bcc8(0x49b)+_0x25502d]=_0x28bcc8(0xb10)+_0x25502d+_0x28bcc8(0x648);var _0x4b2cd2='\x20';return _0x4b2cd2;},Blockly[_0x3d686a(0x2a3)]['init_temp_ds18b20_3']=function(_0x50c6f5){var _0x1e28ab=_0x3d686a,_0x49fe81=_0x50c6f5['getFieldValue']('pin'),_0x176413=_0x1e28ab(0x6b1)+_0x49fe81+_0x1e28ab(0x4dd);return _0x176413;},Blockly[_0x3d686a(0x2a3)]['init_temp_ds18b20_4']=function(_0x3bc225){var _0x41ef53=_0x3d686a,_0x57632f=_0x3bc225['getFieldValue']('nomer'),_0x4640ca=_0x3bc225[_0x41ef53(0x2b1)]('pin'),_0x1903a5='sensors'+_0x4640ca+_0x41ef53(0x325)+_0x57632f+')';return[_0x1903a5,Blockly[_0x41ef53(0x2a3)][_0x41ef53(0x7ce)]];},Blockly['Arduino'][_0x3d686a(0x493)]=function(_0x9e0246){var _0x4553bc=_0x3d686a,_0x228d7c=Blockly[_0x4553bc(0x2a3)][_0x4553bc(0x74d)](this,'Value',Blockly['Arduino'][_0x4553bc(0x7ce)]);if(_0x228d7c=='0')var _0x3c568a=_0x4553bc(0x801);else var _0x3c568a='ESP.deepSleep('+_0x228d7c+_0x4553bc(0x81e);return _0x3c568a;},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0x88f)]=function(_0x25355c){var _0x4e3c24=_0x3d686a,_0xdcc5f4=_0x25355c[_0x4e3c24(0x2b1)](_0x4e3c24(0x1d4)),_0x177a85=_0x25355c[_0x4e3c24(0x2b1)](_0x4e3c24(0x49d));return Blockly[_0x4e3c24(0x2a3)][_0x4e3c24(0x5f5)]['include_MCP23X08']=_0x4e3c24(0x4fc),Blockly[_0x4e3c24(0x2a3)][_0x4e3c24(0xa2c)][_0x4e3c24(0x522)]='Adafruit_MCP23X17\x20mcp;\x0a\x20',Blockly[_0x4e3c24(0x2a3)][_0x4e3c24(0xcee)]['mcp_begin']='mcp.begin_I2C();\x0a',Blockly['Arduino']['setups_'][_0x4e3c24(0x651)+_0xdcc5f4]=_0x4e3c24(0x520)+_0xdcc5f4+_0x4e3c24(0x817),_0x4e3c24(0xa81)+_0xdcc5f4+',\x20'+_0x177a85+');\x0a';},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0x798)]=function(_0x21ce2d){var _0x5d2758=_0x3d686a,_0x139581=_0x21ce2d[_0x5d2758(0x2b1)](_0x5d2758(0x9f4))==_0x5d2758(0x77d),_0x243806=_0x21ce2d[_0x5d2758(0x2b1)](_0x5d2758(0x1d4));Blockly[_0x5d2758(0x2a3)][_0x5d2758(0x5f5)][_0x5d2758(0xb26)]='#include\x20<Wire.h>\x20\x0a\x20#include\x20<Adafruit_MCP23X17.h>\x20\x0a\x20\x20',Blockly[_0x5d2758(0x2a3)][_0x5d2758(0xa2c)]['define_MCP23X08']=_0x5d2758(0x437),Blockly[_0x5d2758(0x2a3)][_0x5d2758(0xcee)]['mcp_begin']=_0x5d2758(0x471);_0x139581?Blockly[_0x5d2758(0x2a3)][_0x5d2758(0xcee)][_0x5d2758(0xba1)+_0x243806]='mcp.pinMode('+_0x243806+',\x20INPUT_PULLUP);':Blockly[_0x5d2758(0x2a3)][_0x5d2758(0xcee)]['setup_mcp_input_'+_0x243806]=_0x5d2758(0x520)+_0x243806+_0x5d2758(0x365);;var _0x24dc76=_0x5d2758(0x314)+_0x243806+')';return[_0x24dc76,Blockly[_0x5d2758(0x2a3)]['ORDER_ATOMIC']];},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0x2ef)]=function(_0x3f6412){var _0x4ec479=_0x3d686a,_0x32e9b6=_0x3f6412[_0x4ec479(0x2b1)](_0x4ec479(0xccf)),_0x1f9f4f=_0x3f6412[_0x4ec479(0x2b1)](_0x4ec479(0x527)),_0x5249aa=this['getFieldValue'](_0x4ec479(0x71a));Blockly['Arduino'][_0x4ec479(0x5f5)][_0x4ec479(0x9ad)]='#include\x20\x22ESP8266WiFi.h\x22\x0a',Blockly[_0x4ec479(0x2a3)][_0x4ec479(0x27b)][_0x4ec479(0x4c1)]=_0x4ec479(0xa6e)+_0x32e9b6+_0x4ec479(0x406)+_0x4ec479(0x948)+_0x1f9f4f+_0x4ec479(0x406);if(_0x5249aa=='TRUE')var _0x923fe5=_0x4ec479(0x992)+_0x4ec479(0x9de)+'\x09WiFi.begin(wifi_ssid,wifi_pass);\x0a'+_0x4ec479(0x194)+_0x4ec479(0x6a7)+_0x4ec479(0xbb4)+'\x09delay(500);\x0a'+_0x4ec479(0x8cf)+_0x4ec479(0x65a)+'\x09Serial.println(WiFi.macAddress());\x0a'+_0x4ec479(0xb9b)+_0x4ec479(0x956)+'\x20\x20\x20Serial.println(WiFi.SSID());\x20\x0a'+_0x4ec479(0x86b)+_0x4ec479(0x9e2);else var _0x923fe5=_0x4ec479(0x3aa)+_0x4ec479(0x4e8)+_0x4ec479(0x6a7)+_0x4ec479(0x664)+_0x4ec479(0x8cf);return _0x923fe5;},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0x486)]=function(_0x4d7f47){var _0x5ae87a=_0x3d686a,_0x425a6a=_0x4d7f47[_0x5ae87a(0x2b1)]('IP'),_0x203199=_0x4d7f47[_0x5ae87a(0x2b1)](_0x5ae87a(0xbde)),_0x386eb1=_0x4d7f47[_0x5ae87a(0x2b1)](_0x5ae87a(0x91b));Blockly[_0x5ae87a(0x2a3)][_0x5ae87a(0x27b)][_0x5ae87a(0x92d)]=_0x5ae87a(0x8f8)+_0x425a6a+');\x0a'+_0x5ae87a(0xa93)+_0x386eb1+_0x5ae87a(0x62e)+_0x5ae87a(0xa11)+_0x203199+_0x5ae87a(0x62e);var _0x46f438=_0x5ae87a(0xb71);return _0x46f438;},Blockly[_0x3d686a(0x2a3)]['wifi_init_ap']=function(_0x583712){var _0x23564a=_0x3d686a,_0xa2d6e3=_0x583712[_0x23564a(0x2b1)]('SSID'),_0x59d209=_0x583712[_0x23564a(0x2b1)]('PASSWORD'),_0x30d090=this['getFieldValue'](_0x23564a(0x71a));Blockly['Arduino'][_0x23564a(0x5f5)][_0x23564a(0x9ad)]=_0x23564a(0x564),Blockly[_0x23564a(0x2a3)]['variables_'][_0x23564a(0x4c1)]=_0x23564a(0xa6e)+_0xa2d6e3+_0x23564a(0x406)+_0x23564a(0x948)+_0x59d209+_0x23564a(0x406);if(_0x30d090==_0x23564a(0x77d))var _0x47f0ff=_0x23564a(0x992)+_0x23564a(0x3aa)+'WiFi.mode(WIFI_AP);\x0a'+_0x23564a(0x7a1)+'while\x20(!WiFi.softAP(wifi_ssid,wifi_pass)){\x0a'+_0x23564a(0xbb4)+'\x09delay(500);\x0a'+'\x09}\x0a'+_0x23564a(0xc26)+'Serial.println(WiFi.macAddress());\x0a'+_0x23564a(0xbc0)+_0x23564a(0x1e9)+_0x23564a(0x96f)+_0x23564a(0xb43)+_0x23564a(0xad8);else var _0x47f0ff=_0x23564a(0x3aa)+_0x23564a(0x189)+'\x09while\x20(!WiFi.softAP(wifi_ssid,wifi_pass)){\x0a'+_0x23564a(0x664)+_0x23564a(0x8cf);return _0x47f0ff;},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0xbc7)]=function(_0x5a35a4){var _0x5ec290=_0x3d686a,_0x443243=_0x5a35a4[_0x5ec290(0x2b1)]('IP'),_0x5d0f68=_0x5a35a4['getFieldValue'](_0x5ec290(0xbde)),_0x481f25=_0x5a35a4[_0x5ec290(0x2b1)]('Gateway');Blockly[_0x5ec290(0x2a3)]['variables_'][_0x5ec290(0x907)]='IPAddress\x20staticIP_ap('+_0x443243+');\x0a'+_0x5ec290(0x3b0)+_0x481f25+_0x5ec290(0x62e)+'IPAddress\x20subnet_ap('+_0x5d0f68+_0x5ec290(0x62e);var _0x55a06f=_0x5ec290(0x34b);return _0x55a06f;},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0x219)]=function(_0x1891b7){var _0x273376=_0x3d686a,_0x4a65db=_0x1891b7[_0x273376(0x2b1)](_0x273376(0xccf)),_0x11376e=_0x1891b7[_0x273376(0x2b1)](_0x273376(0x527)),_0x3c1813=_0x1891b7[_0x273376(0x2b1)](_0x273376(0xa65)),_0x9b95fc=_0x1891b7[_0x273376(0x2b1)]('PASSWORD2'),_0x322af8=this[_0x273376(0x2b1)](_0x273376(0x71a));Blockly[_0x273376(0x2a3)][_0x273376(0x5f5)][_0x273376(0x9ad)]=_0x273376(0x564),Blockly['Arduino'][_0x273376(0x27b)][_0x273376(0x4c1)]=_0x273376(0xa6e)+_0x4a65db+_0x273376(0x406)+'const\x20char\x20wifi_ssid2[]=\x22'+_0x3c1813+_0x273376(0x406)+_0x273376(0x948)+_0x11376e+_0x273376(0x406)+_0x273376(0x70d)+_0x9b95fc+_0x273376(0x406);if(_0x322af8==_0x273376(0x77d))var _0x28bb86=_0x273376(0x992)+_0x273376(0x9de)+'\x20\x20\x20WiFi.mode(WIFI_AP_STA);\x0a'+'\x09WiFi.softAP(wifi_ssid2,wifi_pass2);\x0a'+_0x273376(0x4e8)+_0x273376(0x194)+'\x09while\x20(WiFi.status()\x20!=\x20WL_CONNECTED){\x0a'+_0x273376(0xbb4)+_0x273376(0x664)+'\x09}\x0a'+'\x09WiFi.setAutoReconnect(true);\x0a'+_0x273376(0xb9b)+_0x273376(0x65a)+_0x273376(0x57d)+'\x20\x20\x20Serial.print(\x22Conectado\x20a:\x09\x22);\x0a'+'\x20\x20\x20Serial.println(WiFi.SSID());\x20\x0a'+_0x273376(0x86b)+_0x273376(0x9e2)+_0x273376(0x9e4)+'\x20\x20\x20Serial.println(wifi_ssid2);\x20\x0a'+'\x20\x09Serial.print(\x22AP\x20dirección\x20IP:\x20\x22);\x0a'+_0x273376(0x8ff);else var _0x28bb86='delay(2000);\x0a'+_0x273376(0xc2a)+_0x273376(0x7e8)+_0x273376(0x4e8)+'\x09while\x20(WiFi.status()\x20!=\x20WL_CONNECTED){\x0a'+_0x273376(0x664)+_0x273376(0x8cf)+'\x09WiFi.setAutoReconnect(true);\x0a';return _0x28bb86;},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0x9f9)]=function(_0x208399){var _0x4ff63d=_0x3d686a,_0x1165f0=Blockly[_0x4ff63d(0x2a3)][_0x4ff63d(0x74d)](_0x208399,_0x4ff63d(0xc46),Blockly['Arduino'][_0x4ff63d(0x7ce)]);Blockly[_0x4ff63d(0x2a3)]['variables_'][_0x4ff63d(0x266)]=_0x4ff63d(0x5a4)+_0x1165f0+');\x0a';var _0x3a2b2e='server.begin();\x0a';return _0x3a2b2e;},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0xb14)]=function(_0x1c2ae7){var _0x3bcee3=_0x3d686a,_0x158baa=_0x3bcee3(0x5a7)+_0x3bcee3(0x32b)+_0x3bcee3(0x8ce);return _0x158baa;},Blockly[_0x3d686a(0x2a3)]['wifiserver_ip']=function(_0x4d30ae){var _0x4efc1e=_0x3d686a,_0xd59299=_0x4efc1e(0x905);return[_0xd59299,Blockly[_0x4efc1e(0x2a3)][_0x4efc1e(0x7ce)]];},Blockly['Arduino'][_0x3d686a(0xa45)]=function(_0x30d428){var _0x2c0431=_0x3d686a,_0x23765c=_0x2c0431(0x885);return[_0x23765c,Blockly[_0x2c0431(0x2a3)][_0x2c0431(0x7ce)]];},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0x22f)]=function(_0xd9dbe9){var _0x2c8dd3=_0x3d686a,_0x5af1dd=Blockly['Arduino']['valueToCode'](_0xd9dbe9,'server_answer',Blockly['Arduino'][_0x2c8dd3(0x7ce)]),_0x2b68d5=_0x2c8dd3(0x2b6)+_0x2c8dd3(0x778)+_0x2c8dd3(0xafc)+'client.println(\x22<!DOCTYPE\x20HTML>\x22);\x0a'+'client.println(\x22<html>\x22);\x0a'+'client.println('+_0x5af1dd+');\x0a'+'client.println(\x22</html>\x22);\x0a'+_0x2c8dd3(0x2ae);return _0x2b68d5;},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0x22c)]=function(_0x64462b){var _0x2d037e=_0x3d686a,_0x25186c=_0x2d037e(0x931);return _0x25186c;},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0xb3e)]=function(_0x203a65){var _0x3325b3='client.flush();\x0a';return _0x3325b3;},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0x630)]=function(_0x8ab26d){var _0x4d2aff=_0x3d686a,_0x2946ab=Blockly[_0x4d2aff(0x2a3)]['valueToCode'](_0x8ab26d,_0x4d2aff(0xc46),Blockly[_0x4d2aff(0x2a3)][_0x4d2aff(0x7ce)]);Blockly[_0x4d2aff(0x2a3)]['includes_']['define_esp8266webserver']=_0x4d2aff(0xc92),Blockly[_0x4d2aff(0x2a3)][_0x4d2aff(0x27b)][_0x4d2aff(0x266)]=_0x4d2aff(0x8c5)+_0x2946ab+_0x4d2aff(0x62e);var _0x1f1da7=_0x4d2aff(0xa67);return _0x1f1da7;},Blockly['Arduino'][_0x3d686a(0x50d)]=function(_0x2815f2){var _0x562001=_0x3d686a,_0x4f8592=_0x562001(0x43b);return _0x4f8592;},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0xc22)]=function(_0x4c0a63){var _0x34895b=_0x3d686a,_0x18de4c=_0x4c0a63[_0x34895b(0x2b1)](_0x34895b(0x682)),_0x1dfe0b=_0x4c0a63[_0x34895b(0x2b1)](_0x34895b(0x723)),_0x157fc9=Blockly[_0x34895b(0x2a3)]['statementToCode'](_0x4c0a63,_0x34895b(0x636));Blockly[_0x34895b(0x2a3)]['definitions_'][_0x34895b(0x828)+_0x18de4c]=_0x34895b(0xa8b)+_0x18de4c+_0x34895b(0x740)+_0x34895b(0x75d)+_0x18de4c+_0x34895b(0x5a1)+_0x157fc9+_0x34895b(0xc72),Blockly[_0x34895b(0x2a3)][_0x34895b(0xcee)]['esp8266_query'+_0x18de4c]=_0x34895b(0x320)+_0x1dfe0b+'\x22,serve'+_0x18de4c+');';var _0x5abe55='';return _0x5abe55;},Blockly['Arduino']['esp8266_getArg']=function(_0x51016a){var _0x1f4c21=_0x3d686a,_0x88c894=_0x51016a[_0x1f4c21(0x2b1)]('arg'),_0x3c89bc=_0x1f4c21(0x491)+_0x88c894+_0x1f4c21(0x38c)+_0x88c894+_0x1f4c21(0xb6d);return _0x3c89bc;},Blockly['Arduino'][_0x3d686a(0xa55)]=function(_0x31809b){var _0x21ccb7=_0x3d686a,_0x2a0210=_0x31809b[_0x21ccb7(0x2b1)](_0x21ccb7(0x271)),_0x20bda2=_0x2a0210;return[_0x20bda2,Blockly[_0x21ccb7(0x2a3)][_0x21ccb7(0x7ce)]];},Blockly[_0x3d686a(0x2a3)]['mqtt_init']=function(_0x5acb5b){var _0x2ded0b=_0x3d686a,_0x20ebd3=_0x5acb5b[_0x2ded0b(0x2b1)](_0x2ded0b(0xccf)),_0x3bf71c=_0x5acb5b[_0x2ded0b(0x2b1)](_0x2ded0b(0x527)),_0x5de21d=_0x5acb5b[_0x2ded0b(0x2b1)]('SERVER'),_0x4c78bd=_0x5acb5b[_0x2ded0b(0x2b1)](_0x2ded0b(0xc19)),_0x5eff39=_0x5acb5b[_0x2ded0b(0x2b1)](_0x2ded0b(0x4ce)),_0x38b43a=_0x5acb5b[_0x2ded0b(0x2b1)](_0x2ded0b(0xa64)),_0x53eec7=_0x5acb5b['getFieldValue']('IDCLIENT'),_0xc18d7d=this[_0x2ded0b(0x2b1)]('LOGIC');Blockly[_0x2ded0b(0x2a3)]['includes_']['include_mqtt']=_0x2ded0b(0x564)+'#include\x20\x22PubSubClient.h\x22\x0a',Blockly['Arduino'][_0x2ded0b(0x27b)][_0x2ded0b(0x44c)]='const\x20char\x20mqtt_wifi_ssid[]=\x22'+_0x20ebd3+_0x2ded0b(0x406)+_0x2ded0b(0xc7f)+_0x3bf71c+_0x2ded0b(0x406)+_0x2ded0b(0x69e)+_0x5de21d+'\x22;\x0a'+_0x2ded0b(0x3c8)+_0x4c78bd+';\x0a'+_0x2ded0b(0x3e8)+_0x5eff39+_0x2ded0b(0x406)+'const\x20char\x20mqtt_pass[]=\x22'+_0x38b43a+_0x2ded0b(0x406)+'const\x20char\x20mqtt_clientid[]=\x22'+_0x53eec7+_0x2ded0b(0x406)+'\x0a'+'WiFiClient\x20mqtt_wifiClient;\x0a'+_0x2ded0b(0x837)+'\x0a'+'char\x20mqtt_payload[64];\x0a',Blockly[_0x2ded0b(0x2a3)][_0x2ded0b(0xa2c)][_0x2ded0b(0x638)]=_0x2ded0b(0xc60)+_0x2ded0b(0x492)+_0x2ded0b(0x359)+_0x2ded0b(0x495)+'\x09}\x0a'+_0x2ded0b(0x770)+_0x2ded0b(0xa03)+_0x2ded0b(0x8cf)+'}\x0a',Blockly[_0x2ded0b(0x2a3)]['definitions_'][_0x2ded0b(0x8c9)]=_0x2ded0b(0x566)+'}\x0a',Blockly[_0x2ded0b(0x2a3)][_0x2ded0b(0xa2c)][_0x2ded0b(0xc53)]='double\x20mqtt_payload2double(unsigned\x20char\x20*_payload,\x20int\x20_length)\x0a'+'{\x0a'+_0x2ded0b(0x93b)+_0x2ded0b(0x197)+_0x2ded0b(0x354)+_0x2ded0b(0x4ee)+'\x20\x20mqtt_payload[i]\x20=\x200;\x0a'+_0x2ded0b(0x1e5)+'}\x0a'+'\x0a'+_0x2ded0b(0x742)+'{\x0a'+'\x20\x20int\x20i;\x0a'+'\x20\x20for\x20(i\x20=\x200;\x20i<_length\x20&&\x20i<64;\x20i++){\x0a'+_0x2ded0b(0x354)+'\x20\x20}\x0a'+'\x20\x20mqtt_payload[i]\x20=\x200;\x0a'+_0x2ded0b(0x666)+'}\x0a',Blockly[_0x2ded0b(0x2a3)][_0x2ded0b(0xa2c)]['define_mqtt_callback']=_0x2ded0b(0x8e8)+_0x2ded0b(0xab4)+_0x2ded0b(0xbf0)+'}\x0a';_0xc18d7d=='TRUE'?Blockly['Arduino'][_0x2ded0b(0xcee)][_0x2ded0b(0x497)]=_0x2ded0b(0x992)+_0x2ded0b(0x9de)+_0x2ded0b(0x5d2)+_0x2ded0b(0x194)+_0x2ded0b(0x6a7)+'\x09Serial.print(\x22.\x22);\x0a'+'\x09delay(500);\x0a'+'\x09}\x0a'+_0x2ded0b(0xb9b)+_0x2ded0b(0x956)+_0x2ded0b(0x6d8)+_0x2ded0b(0x86b)+_0x2ded0b(0x9e2)+_0x2ded0b(0x56c)+'\x09mqtt_client.setServer(mqtt_broker,\x20mqtt_port);\x0a'+_0x2ded0b(0xa6c)+_0x2ded0b(0x7ef):Blockly[_0x2ded0b(0x2a3)][_0x2ded0b(0xcee)][_0x2ded0b(0x497)]=_0x2ded0b(0x9de)+'\x09WiFi.begin(mqtt_wifi_ssid,mqtt_wifi_pass);\x0a'+_0x2ded0b(0x6a7)+_0x2ded0b(0x664)+_0x2ded0b(0x8cf)+'\x09randomSeed(micros());\x0a'+_0x2ded0b(0x373)+'\x09mqtt_client.setCallback(mqtt_callback);\x0a'+_0x2ded0b(0x7ef);var _0x6c46d='';return _0x6c46d;},Blockly[_0x3d686a(0x2a3)]['mqtt_loop']=function(_0x46d216){var _0x3732bf='mqtt_loop();\x0a';return _0x3732bf;},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0x1af)]=function(_0x6cc5ae){var _0x241b43=_0x3d686a,_0x333d32=_0x6cc5ae['getFieldValue']('TOPIC'),_0x3d8b19=Blockly[_0x241b43(0x2a3)][_0x241b43(0x74d)](_0x6cc5ae,'variable',Blockly[_0x241b43(0x2a3)][_0x241b43(0x7ce)]);typeof Blockly['Arduino']['definitions_'][_0x241b43(0x8c9)]==_0x241b43(0x7a9)?Blockly[_0x241b43(0x2a3)][_0x241b43(0xa2c)][_0x241b43(0x8c9)]=_0x241b43(0x566)+'\x20mqtt_client.subscribe(String(String(\x22'+_0x333d32+_0x241b43(0x9b5)+'}\x0a':(Blockly[_0x241b43(0x2a3)][_0x241b43(0xa2c)]['define_mqtt_subscribe']=Blockly[_0x241b43(0x2a3)][_0x241b43(0xa2c)][_0x241b43(0x8c9)][_0x241b43(0x748)]('}',0x1),Blockly[_0x241b43(0x2a3)][_0x241b43(0xa2c)]['define_mqtt_subscribe']=Blockly[_0x241b43(0x2a3)][_0x241b43(0xa2c)]['define_mqtt_subscribe']+_0x241b43(0x30a)+_0x333d32+_0x241b43(0x9b5)+'}\x0a');typeof Blockly['Arduino'][_0x241b43(0xa2c)][_0x241b43(0x54b)]==_0x241b43(0x7a9)?Blockly[_0x241b43(0x2a3)][_0x241b43(0xa2c)][_0x241b43(0x54b)]=_0x241b43(0x8e8)+_0x241b43(0xab4)+_0x241b43(0xbf0)+_0x241b43(0x423)+_0x333d32+_0x241b43(0x763)+_0x3d8b19+_0x241b43(0xa0a)+'}\x0a':(Blockly['Arduino'][_0x241b43(0xa2c)][_0x241b43(0x54b)]=Blockly[_0x241b43(0x2a3)][_0x241b43(0xa2c)][_0x241b43(0x54b)][_0x241b43(0x748)]('}',0x1),Blockly[_0x241b43(0x2a3)]['definitions_']['define_mqtt_callback']=Blockly[_0x241b43(0x2a3)][_0x241b43(0xa2c)]['define_mqtt_callback']+_0x241b43(0x423)+_0x333d32+_0x241b43(0x763)+_0x3d8b19+_0x241b43(0xa0a)+'}\x0a');var _0x325129='';return _0x325129;},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0x91c)]=function(_0x55c6dc){var _0x2e2d99=_0x3d686a,_0x473cf2=_0x55c6dc['getFieldValue'](_0x2e2d99(0x701)),_0x4e17ca=Blockly[_0x2e2d99(0x2a3)][_0x2e2d99(0x74d)](_0x55c6dc,_0x2e2d99(0xbcc),Blockly[_0x2e2d99(0x2a3)][_0x2e2d99(0x7ce)]);typeof Blockly['Arduino']['definitions_'][_0x2e2d99(0x8c9)]==_0x2e2d99(0x7a9)?Blockly[_0x2e2d99(0x2a3)][_0x2e2d99(0xa2c)][_0x2e2d99(0x8c9)]=_0x2e2d99(0x566)+_0x2e2d99(0x8d9)+_0x473cf2+_0x2e2d99(0x9b5)+'}\x0a':(Blockly[_0x2e2d99(0x2a3)][_0x2e2d99(0xa2c)]['define_mqtt_subscribe']=Blockly[_0x2e2d99(0x2a3)]['definitions_']['define_mqtt_subscribe']['split']('}',0x1),Blockly[_0x2e2d99(0x2a3)][_0x2e2d99(0xa2c)][_0x2e2d99(0x8c9)]=Blockly[_0x2e2d99(0x2a3)]['definitions_']['define_mqtt_subscribe']+'\x0a\x20mqtt_client.subscribe(String(String(\x22'+_0x473cf2+'\x22)).c_str());\x0a'+'}\x0a');typeof Blockly['Arduino'][_0x2e2d99(0xa2c)][_0x2e2d99(0x54b)]=='undefined'?Blockly[_0x2e2d99(0x2a3)]['definitions_'][_0x2e2d99(0x54b)]='void\x20mqtt_callback(char*\x20_topic,\x20unsigned\x20char*\x20_payload,\x20unsigned\x20int\x20_payloadlength){\x0a'+_0x2e2d99(0xab4)+'\x09String\x20varText=mqtt_payload2string(_payload,_payloadlength);\x0a'+_0x2e2d99(0x423)+_0x473cf2+_0x2e2d99(0x763)+_0x4e17ca+_0x2e2d99(0x469)+'}\x0a':(Blockly[_0x2e2d99(0x2a3)][_0x2e2d99(0xa2c)]['define_mqtt_callback']=Blockly[_0x2e2d99(0x2a3)][_0x2e2d99(0xa2c)][_0x2e2d99(0x54b)][_0x2e2d99(0x748)]('}',0x1),Blockly[_0x2e2d99(0x2a3)][_0x2e2d99(0xa2c)]['define_mqtt_callback']=Blockly['Arduino']['definitions_']['define_mqtt_callback']+_0x2e2d99(0x423)+_0x473cf2+_0x2e2d99(0x763)+_0x4e17ca+_0x2e2d99(0x469)+'}\x0a');var _0x1d68df='';return _0x1d68df;},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0x615)]=function(_0x435058){var _0x2ceaa1=_0x3d686a,_0x31ba71=_0x435058['getFieldValue'](_0x2ceaa1(0x701)),_0x4b163a=Blockly[_0x2ceaa1(0x2a3)][_0x2ceaa1(0x74d)](_0x435058,_0x2ceaa1(0xbcc),Blockly[_0x2ceaa1(0x2a3)][_0x2ceaa1(0x7ce)]),_0x1d2caf='mqtt_client.publish(String(String(\x22'+_0x31ba71+_0x2ceaa1(0x261)+_0x4b163a+')).c_str());\x0a';return _0x1d2caf;},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0x565)]=function(_0x3de571){var _0x228d8f=_0x3d686a,_0x538c28=_0x3de571['getFieldValue']('API_KEY');Blockly[_0x228d8f(0x2a3)][_0x228d8f(0xa2c)][_0x228d8f(0x305)]=_0x228d8f(0x950)+_0x538c28+'\x22\x0a';var _0x570058='';return _0x570058;},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0x4e7)]=function(_0x32752f){var _0x4309d6=_0x3d686a,_0x5db3b2=Blockly['Arduino']['valueToCode'](_0x32752f,_0x4309d6(0x732),Blockly[_0x4309d6(0x2a3)][_0x4309d6(0x7ce)]),_0x17c777=Blockly[_0x4309d6(0x2a3)][_0x4309d6(0x74d)](_0x32752f,_0x4309d6(0x8de),Blockly[_0x4309d6(0x2a3)][_0x4309d6(0x7ce)]),_0x430eb1=Blockly[_0x4309d6(0x2a3)][_0x4309d6(0x74d)](_0x32752f,_0x4309d6(0x286),Blockly[_0x4309d6(0x2a3)][_0x4309d6(0x7ce)]),_0x5e14d0=Blockly[_0x4309d6(0x2a3)][_0x4309d6(0x74d)](_0x32752f,_0x4309d6(0xa31),Blockly[_0x4309d6(0x2a3)]['ORDER_ATOMIC']);Blockly[_0x4309d6(0x2a3)][_0x4309d6(0x5f5)][_0x4309d6(0x51e)]=_0x4309d6(0xacd),Blockly[_0x4309d6(0x2a3)][_0x4309d6(0x989)][_0x4309d6(0x89d)]=_0x4309d6(0x927)+'{\x0a'+'\x20//\x20Cerramos\x20cualquier\x20conexión\x20anterior\x0a'+_0x4309d6(0x7d5)+_0x4309d6(0x3f6)+'\x0a'+_0x4309d6(0x1b2)+'http.begin(client,servername);\x0a'+'\x0a'+_0x4309d6(0x9f2)+'\x0a'+_0x4309d6(0x7ba)+_0x4309d6(0xa4e)+'\x20//\x20Send\x20HTTP\x20POST\x20request\x0a'+'\x20http.POST(httpRequestData);\x0a'+_0x4309d6(0x886)+'}\x0a';var _0x39fb30=_0x4309d6(0x26a)+_0x5e14d0+','+_0x5db3b2+','+_0x17c777+','+_0x430eb1+_0x4309d6(0x62e);return _0x39fb30;},Blockly[_0x3d686a(0x2a3)]['Init_NTP']=function(_0x363cfa){var _0x3e8eb7=_0x3d686a,_0x16e104=this[_0x3e8eb7(0x2b1)](_0x3e8eb7(0x372));Blockly[_0x3e8eb7(0x2a3)]['includes_'][_0x3e8eb7(0x55a)]=_0x3e8eb7(0x4b1)+'#include\x20<WiFiUdp.h>\x0a',Blockly[_0x3e8eb7(0x2a3)][_0x3e8eb7(0xa2c)][_0x3e8eb7(0x7dc)]=_0x3e8eb7(0x832)+_0x3e8eb7(0x43f)+_0x16e104+_0x3e8eb7(0x852)+'unsigned\x20long\x20epochTime;\x0a'+_0x3e8eb7(0x73c)+_0x3e8eb7(0x61d)+'String\x20months[12]={\x22January\x22,\x20\x22February\x22,\x20\x22March\x22,\x20\x22April\x22,\x20\x22May\x22,\x20\x22June\x22,\x20\x22July\x22,\x20\x22August\x22,\x20\x22September\x22,\x20\x22October\x22,\x20\x22November\x22,\x20\x22December\x22};\x0a',Blockly[_0x3e8eb7(0x2a3)][_0x3e8eb7(0xcee)][_0x3e8eb7(0xa68)]=_0x3e8eb7(0x521);var _0x24cb27='';return _0x24cb27;},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0x6b4)]=function(_0x1e6475){var _0x231f59=_0x3d686a,_0x50ccc4='timeClient.update();\x0a'+_0x231f59(0xb35)+_0x231f59(0x9a8);return _0x50ccc4;},Blockly['Arduino'][_0x3d686a(0xb28)]=function(_0x4c24cf){var _0x1f56e1=_0x3d686a,_0x2f682c=this[_0x1f56e1(0x2b1)](_0x1f56e1(0x697));if(_0x2f682c==0x6)var _0x9627bc='timeClient.getSeconds()';else{if(_0x2f682c==0x5)var _0x9627bc=_0x1f56e1(0x3c6);else{if(_0x2f682c==0x4)var _0x9627bc=_0x1f56e1(0xa0d);else{if(_0x2f682c==0x3)var _0x9627bc=_0x1f56e1(0xc16);else{if(_0x2f682c==0x2)var _0x9627bc='ptm->tm_mon+1';else{if(_0x2f682c==0x1)var _0x9627bc=_0x1f56e1(0xadf);else var _0x9627bc=_0x1f56e1(0x8af);}}}}}return[_0x9627bc,Blockly[_0x1f56e1(0x2a3)][_0x1f56e1(0x7ce)]];},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0xc4a)]=function(_0x4fc712){var _0x3928db=_0x3d686a,_0x371081=this[_0x3928db(0x2b1)]('OUTPUT_VALUE');if(_0x371081==0x1)var _0x4c6a94=_0x3928db(0x230);else{if(_0x371081==0x0)var _0x4c6a94=_0x3928db(0x2c1);else var _0x4c6a94=_0x3928db(0xbf2);}return[_0x4c6a94,Blockly[_0x3928db(0x2a3)][_0x3928db(0x7ce)]];},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0x587)]=function(_0x7c9092){var _0xc64b70=_0x3d686a,_0x2321d8=this[_0xc64b70(0x2b1)](_0xc64b70(0xa05));Blockly['Arduino'][_0xc64b70(0x5f5)][_0xc64b70(0x7b5)]='#include\x20<ESP8266HTTPClient.h>\x0a'+_0xc64b70(0x5f9)+_0xc64b70(0xb15),Blockly['Arduino'][_0xc64b70(0xa2c)][_0xc64b70(0x25b)]=_0xc64b70(0x94a)+_0x2321d8+_0xc64b70(0x406)+_0xc64b70(0xbfd)+'String\x20country_code;\x0a'+_0xc64b70(0x91f)+'String\x20country;\x0a'+_0xc64b70(0x7a7)+_0xc64b70(0xc5d)+_0xc64b70(0x8ab)+_0xc64b70(0x2eb)+'float\x20humidity;\x0a'+_0xc64b70(0x912)+_0xc64b70(0xa30)+_0xc64b70(0xb29)+_0xc64b70(0x478)+_0xc64b70(0xc4c)+_0xc64b70(0x1c1)+_0xc64b70(0x37b)+'float\x20visibility;\x0a'+_0xc64b70(0x76b)+_0xc64b70(0xbbb)+_0xc64b70(0xaee)+'\x0a'+_0xc64b70(0xa8e),Blockly[_0xc64b70(0x2a3)]['codeFunctions_'][_0xc64b70(0xa10)]='String\x20httpGETRequest(const\x20char*\x20serverName)\x20{\x0a'+_0xc64b70(0xb36)+_0xc64b70(0x9d1)+_0xc64b70(0x42c)+_0xc64b70(0x43e)+'if\x20(httpResponseCode>0)\x20{\x0a'+_0xc64b70(0x999)+'}\x0a'+'http.end();\x0a'+'\x0a'+'return\x20payload;\x0a'+'}\x0a'+'\x0a'+_0xc64b70(0x603)+'{\x0a'+'\x20\x20\x20jsonBuffer.replace(\x27[\x27,\x20\x27\x20\x27);\x0a'+_0xc64b70(0x58c)+_0xc64b70(0xb50)+_0xc64b70(0x922)+_0xc64b70(0x1ce)+'\x0a'+'\x20\x20\x20DynamicJsonDocument\x20root(1024);\x0a'+'\x20\x20\x20DeserializationError\x20error\x20=\x20deserializeJson(root,\x20jsonArray);\x0a'+_0xc64b70(0x7ee)+_0xc64b70(0x713)+_0xc64b70(0x4ff)+'\x20\x20\x20\x20country\x20=\x20(const\x20char\x20*)root[\x22sys\x22][\x22country\x22];\x0a'+_0xc64b70(0x204)+'\x20\x20\x20\x20humidity\x20=\x20root[\x22main\x22][\x22humidity\x22];\x0a'+'\x20\x20\x20\x20weather\x20=\x20(const\x20char\x20*)root[\x22weather\x22][\x22main\x22];\x0a'+_0xc64b70(0x6e3)+'\x20\x20\x20\x20pressure\x20=\x20root[\x22main\x22][\x22pressure\x22];\x0a'+_0xc64b70(0x254)+_0xc64b70(0x8a0)+_0xc64b70(0x8d8)+'\x20\x20\x20\x20temp_min\x20=\x20root[\x22main\x22][\x22temp_min\x22];\x0a'+_0xc64b70(0x7cf)+_0xc64b70(0x97b)+_0xc64b70(0xb87)+_0xc64b70(0x47b)+_0xc64b70(0x1fd)+'\x20\x20\x20\x20icono\x20=\x20(const\x20char\x20*)root[\x22weather\x22][\x22icon\x22];\x0a'+_0xc64b70(0x6a3)+'}\x0a';var _0x281908='';return _0x281908;},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0x498)]=function(_0x397564){var _0x5e4e8c=_0x3d686a,_0x51e40a=Blockly[_0x5e4e8c(0x2a3)][_0x5e4e8c(0x74d)](_0x397564,_0x5e4e8c(0x382),Blockly[_0x5e4e8c(0x2a3)][_0x5e4e8c(0x7ce)]),_0x3256b5=Blockly[_0x5e4e8c(0x2a3)][_0x5e4e8c(0x74d)](_0x397564,_0x5e4e8c(0x5d3),Blockly[_0x5e4e8c(0x2a3)]['ORDER_ATOMIC']),_0x12a201='if(WiFi.status()==\x20WL_CONNECTED){\x0a'+'city='+_0x51e40a+';\x0a'+_0x5e4e8c(0x292)+_0x3256b5+';\x0a'+_0x5e4e8c(0xbc6)+window[_0x5e4e8c(0x700)][_0x5e4e8c(0x267)]+_0x5e4e8c(0x4ba)+_0x5e4e8c(0x8b9)+'GetValuesWeather\x20(jsonBuffer);\x0a'+'}\x0a';return _0x12a201;},Blockly[_0x3d686a(0x2a3)]['values_OpenWeather_server']=function(_0x3e2768){var _0xd53cff=_0x3d686a,_0x3090fb=this[_0xd53cff(0x2b1)](_0xd53cff(0x697));if(_0x3090fb==0x0)var _0x4d30ed=_0xd53cff(0x8ae);else{if(_0x3090fb==0x1)var _0x4d30ed='humidity';else{if(_0x3090fb==0x2)var _0x4d30ed='pressure';else{if(_0x3090fb==0x3)var _0x4d30ed='(temp_max-273.15)';else{if(_0x3090fb==0x4)var _0x4d30ed='(temp_min-273.15)';else{if(_0x3090fb==0x5)var _0x4d30ed=_0xd53cff(0x7eb);else{if(_0x3090fb==0x6)var _0x4d30ed='Cloud/100.00';else{if(_0x3090fb==0x7)var _0x4d30ed=_0xd53cff(0x9dc);else{if(_0x3090fb==0x8)var _0x4d30ed=_0xd53cff(0x653);else{if(_0x3090fb==0x9)var _0x4d30ed='id';else{if(_0x3090fb==0xa)var _0x4d30ed=_0xd53cff(0xb5c);else{if(_0x3090fb==0xb)var _0x4d30ed='sunrise';else var _0x4d30ed='sunset';}}}}}}}}}}}return[_0x4d30ed,Blockly['Arduino'][_0xd53cff(0x7ce)]];},Blockly['Arduino'][_0x3d686a(0x81a)]=function(_0x178b31){var _0x4fe884=_0x3d686a,_0xe2d573=this[_0x4fe884(0x2b1)]('OUTPUT_VALUE');if(_0xe2d573==0x0)var _0x4a241d=_0x4fe884(0x555);else{if(_0xe2d573==0x1)var _0x4a241d=_0x4fe884(0x412);else{if(_0xe2d573==0x2)var _0x4a241d=_0x4fe884(0x64a);else{if(_0xe2d573==0x3)var _0x4a241d=_0x4fe884(0x77e);else var _0x4a241d=_0x4fe884(0x3d6);}}}return[_0x4a241d,Blockly[_0x4fe884(0x2a3)][_0x4fe884(0x7ce)]];},Blockly['Arduino']['thingspeak_init']=function(_0x5f470a){var _0x522039=_0x3d686a,_0x3bc0ba=_0x5f470a[_0x522039(0x2b1)]('CHANNEL'),_0x5ebbe9=_0x5f470a[_0x522039(0x2b1)](_0x522039(0x503)),_0x40d85e=_0x5f470a[_0x522039(0x2b1)](_0x522039(0xb0d));Blockly[_0x522039(0x2a3)][_0x522039(0x5f5)][_0x522039(0x52b)]=_0x522039(0x2a9),Blockly[_0x522039(0x2a3)][_0x522039(0x27b)][_0x522039(0xb83)]='WiFiClient\x20client;\x0a'+'unsigned\x20long\x20myChannelNumber\x20='+_0x3bc0ba+';\x0a'+_0x522039(0xb24)+_0x5ebbe9+_0x522039(0x406)+'const\x20char\x20*\x20myReadAPIKey=\x22'+_0x40d85e+'\x22;\x0a',Blockly['Arduino'][_0x522039(0xcee)]['setup_thingspeak']=_0x522039(0x847);var _0x45f8b0='';return _0x45f8b0;},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0xba9)]=function(_0x83f2c8){var _0xffac72=_0x3d686a,_0x589cd1=Blockly['Arduino']['valueToCode'](_0x83f2c8,_0xffac72(0xbcc),Blockly['Arduino'][_0xffac72(0x7ce)]),_0x5ccde0=this[_0xffac72(0x2b1)]('FIELD'),_0x224096=_0xffac72(0x485)+_0x5ccde0+','+_0x589cd1+_0xffac72(0x730);return _0x224096;},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0x6f7)]=function(_0x2c54a2){var _0x1fb7ab=_0x3d686a,_0x27795c=this[_0x1fb7ab(0x2b1)]('FIELD'),_0x3efe7d=_0x1fb7ab(0x946)+_0x27795c+_0x1fb7ab(0x9bb);return[_0x3efe7d,Blockly[_0x1fb7ab(0x2a3)][_0x1fb7ab(0x7ce)]];},Blockly['Arduino'][_0x3d686a(0x9ba)]=function(_0x8e8578){var _0x4ff20c=_0x3d686a,_0x3a406d=this[_0x4ff20c(0x2b1)](_0x4ff20c(0x79e)),_0x205197='ThingSpeak.readFloatField(myChannelNumber,'+_0x3a406d+',myReadAPIKey)';return[_0x205197,Blockly['Arduino'][_0x4ff20c(0x7ce)]];},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0xad7)]=function(_0x37c288){var _0x53616a=_0x3d686a,_0x14b37b=_0x37c288[_0x53616a(0x2b1)]('BOT_TOKEN'),_0xb30be2=_0x37c288[_0x53616a(0x2b1)](_0x53616a(0x36c));Blockly[_0x53616a(0x2a3)][_0x53616a(0x5f5)][_0x53616a(0x1a2)]='#include\x20<WiFiClientSecure.h>\x0a'+_0x53616a(0x78b),Blockly[_0x53616a(0x2a3)][_0x53616a(0x27b)][_0x53616a(0xcd2)]=_0x53616a(0x4d7)+_0x14b37b+'\x22\x0a'+_0x53616a(0x2d8)+_0xb30be2+'\x22\x0a',Blockly[_0x53616a(0x2a3)][_0x53616a(0x27b)]['define_telegram_variables']=_0x53616a(0xc59)+_0x53616a(0x2b5)+_0x53616a(0x5a6)+'int\x20numNewMessages=0;\x0a',Blockly['Arduino'][_0x53616a(0xcee)][_0x53616a(0x2fd)]=_0x53616a(0x986);var _0x794454='';return _0x794454;},Blockly[_0x3d686a(0x2a3)]['telegram_loop_message']=function(_0x195e91){var _0x10e38a=_0x3d686a,_0x3c62b4=_0x10e38a(0xb94)+_0x10e38a(0x3c2)+'{\x0a'+_0x10e38a(0xa62)+_0x10e38a(0x475)+'}\x0a';return _0x3c62b4;},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0x571)]=function(_0x1dcb23){var _0x151fb2=_0x3d686a,_0x11eaaf=Blockly['Arduino'][_0x151fb2(0xcd1)](_0x1dcb23,'DO');return Blockly[_0x151fb2(0x2a3)]['codeFunctions_'][_0x151fb2(0x571)]=_0x151fb2(0x8a7)+_0x151fb2(0x595)+'{\x0a'+'\x09String\x20text\x20=\x20bot.messages[i].text;\x0a'+_0x11eaaf+'}\x0a'+'}\x0a','';},Blockly['Arduino'][_0x3d686a(0x623)]=function(_0x342348){var _0x372fde=_0x3d686a,_0x35abbe=Blockly['Arduino'][_0x372fde(0x74d)](_0x342348,_0x372fde(0x82b),Blockly[_0x372fde(0x2a3)]['ORDER_ATOMIC']),_0x64fcf9=_0x372fde(0x4bf)+_0x35abbe+_0x372fde(0x5ba);return _0x64fcf9;},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0x523)]=function(_0x1c906b){var _0x293e5=_0x3d686a,_0xd89840='bot.messages[i].from_name';return[_0xd89840,Blockly['Arduino'][_0x293e5(0x7ce)]];},Blockly['Arduino']['telegram_message_received']=function(_0x57ec17){var _0x3635ce=_0x3d686a,_0x6c249='text';return[_0x6c249,Blockly[_0x3635ce(0x2a3)]['ORDER_ATOMIC']];},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0x371)]=function(_0x1d1d24){var _0x2a3fe2=_0x3d686a,_0x2a72d0=_0x1d1d24[_0x2a3fe2(0x2b1)](_0x2a3fe2(0x6e4));return looseEscape(_0x2a72d0);},Blockly['Arduino']['esp_dig_pin']=function(_0x30a5fb){var _0x28bba2=_0x3d686a,_0x13d840=Blockly['Arduino']['valueToCode'](_0x30a5fb,_0x28bba2(0x1a5)),_0x42f215=')=====\x22+'+_0x13d840+_0x28bba2(0xbcd);return _0x42f215;},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0x2ad)]=function(_0x5e2fa4){var _0x21a2cf=_0x3d686a,_0x69e2da=Blockly[_0x21a2cf(0x2a3)][_0x21a2cf(0xcd1)](_0x5e2fa4,'content'),_0xbae70=_0x5e2fa4[_0x21a2cf(0x2b1)](_0x21a2cf(0x898));return'<'+_0xbae70+'>'+_0x69e2da+'</'+_0xbae70+'>';},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0x6db)]=function(_0x36c019){var _0x16ad5b=_0x3d686a,_0x45517c=Blockly['Arduino'][_0x16ad5b(0xcd1)](_0x36c019,_0x16ad5b(0x6e4)),_0x540876=Blockly[_0x16ad5b(0x2a3)][_0x16ad5b(0xcd1)](_0x36c019,_0x16ad5b(0x606));return'<p'+_0x540876+'>'+_0x45517c+'</p>\x0a';},Blockly['Arduino'][_0x3d686a(0x4bd)]=function(_0xac0383){var _0x5ac6f4=_0x3d686a,_0x5901ed=Blockly[_0x5ac6f4(0x2a3)]['statementToCode'](_0xac0383,_0x5ac6f4(0x6e4)),_0x2f48aa=_0xac0383[_0x5ac6f4(0x2b1)](_0x5ac6f4(0x342)),_0x273e98=Blockly[_0x5ac6f4(0x2a3)][_0x5ac6f4(0xcd1)](_0xac0383,_0x5ac6f4(0x606),Blockly[_0x5ac6f4(0x2a3)][_0x5ac6f4(0x7ce)]);return'<h'+_0x2f48aa+_0x273e98+'>'+_0x5901ed+_0x5ac6f4(0x76f)+_0x2f48aa+'>\x0a';},Blockly['Arduino'][_0x3d686a(0xa58)]=function(_0x13f666){var _0x1ea326=_0x3d686a,_0x53a3ae=Blockly[_0x1ea326(0x2a3)][_0x1ea326(0xcd1)](_0x13f666,'content'),_0x17ba1a=_0x13f666[_0x1ea326(0x2b1)](_0x1ea326(0xb8b)),_0x1db27e=Blockly[_0x1ea326(0x2a3)]['statementToCode'](_0x13f666,_0x1ea326(0x606),Blockly['Arduino'][_0x1ea326(0x7ce)]);return'<a\x20href=\x22'+_0x17ba1a+'\x22\x20target=\x22_blank\x22'+_0x1db27e+'>'+_0x53a3ae+_0x1ea326(0x802);},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0x4db)]=function(_0x502be7){var _0x58a68a=_0x3d686a,_0x12ca49=Blockly[_0x58a68a(0x2a3)][_0x58a68a(0xcd1)](_0x502be7,_0x58a68a(0x6e4)),_0x4ea626=Blockly[_0x58a68a(0x2a3)]['statementToCode'](_0x502be7,_0x58a68a(0x606),Blockly[_0x58a68a(0x2a3)][_0x58a68a(0x7ce)]);return _0x58a68a(0x3b4)+_0x4ea626+'>'+_0x12ca49+_0x58a68a(0x2d9);},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0x4e9)]=function(_0x3931e4){var _0x56ae4c=_0x3d686a,_0x5da44a=Blockly[_0x56ae4c(0x2a3)][_0x56ae4c(0xcd1)](_0x3931e4,_0x56ae4c(0x6e4)),_0xb0799b=Blockly[_0x56ae4c(0x2a3)]['statementToCode'](_0x3931e4,_0x56ae4c(0x606),Blockly[_0x56ae4c(0x2a3)][_0x56ae4c(0x7ce)]);return _0x56ae4c(0x2de)+_0xb0799b+'>'+_0x5da44a+_0x56ae4c(0x36d);},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0x883)]=function(_0x121dc5){var _0x9ed513=_0x3d686a,_0x499a36=Blockly[_0x9ed513(0x2a3)]['statementToCode'](_0x121dc5,_0x9ed513(0x6e4)),_0x4ce946=Blockly[_0x9ed513(0x2a3)]['statementToCode'](_0x121dc5,_0x9ed513(0x606),Blockly[_0x9ed513(0x2a3)][_0x9ed513(0x7ce)]);return'<th'+_0x4ce946+'>'+_0x499a36+_0x9ed513(0xbae);},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0x430)]=function(_0x44df86){var _0x2213f0=_0x3d686a,_0x3d16c8=Blockly['Arduino']['statementToCode'](_0x44df86,_0x2213f0(0x6e4)),_0x4d2f66=Blockly[_0x2213f0(0x2a3)][_0x2213f0(0xcd1)](_0x44df86,'modifier',Blockly['Arduino'][_0x2213f0(0x7ce)]);return _0x2213f0(0x72b)+_0x4d2f66+'>'+_0x3d16c8+'</td>';},Blockly[_0x3d686a(0x2a3)]['image']=function(_0x53aed4){var _0xc2d989=_0x3d686a,_0x45898c=_0x53aed4[_0xc2d989(0x2b1)](_0xc2d989(0xaae)),_0x5493cc=_0xc2d989(0x1ab)+URLInput(_0x45898c)+'\x22>\x0a';return _0x5493cc;},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0xcab)]=function(_0x1e9561){var _0x3430a9=_0x3d686a,_0x7feb36=Blockly[_0x3430a9(0x2a3)][_0x3430a9(0xcd1)](_0x1e9561,_0x3430a9(0x6e4));return _0x3430a9(0x755)+_0x7feb36+'\x22';},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0x28c)]=function(_0x2ea2fb){var _0x11f731=_0x3d686a,_0x311eec=_0x2ea2fb[_0x11f731(0x2b1)](_0x11f731(0xc12));return'color\x20:\x20'+_0x311eec+_0x11f731(0x672);},Blockly['Arduino'][_0x3d686a(0xb1c)]=function(_0x51aeac){var _0x152176=_0x3d686a,_0x527e1a=_0x51aeac[_0x152176(0x2b1)](_0x152176(0xc12));return _0x152176(0x7e7)+_0x527e1a+_0x152176(0x672);},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0x1e7)]=function(_0x4df388){var _0x46fb04=_0x3d686a,_0x1594ed=_0x4df388[_0x46fb04(0x2b1)](_0x46fb04(0xc12));return _0x46fb04(0x645)+_0x1594ed+_0x46fb04(0x672);},Blockly['Arduino'][_0x3d686a(0x7b1)]=function(_0x425306){var _0x54a2e9=_0x3d686a,_0x4a8a0e=fullEscape(_0x425306[_0x54a2e9(0x2b1)](_0x54a2e9(0x567))),_0x54b0d3=_0x425306[_0x54a2e9(0x2b1)](_0x54a2e9(0x898)),_0x342b14=_0x425306['getFieldValue'](_0x54a2e9(0x28c));return _0x54a2e9(0x5e4)+_0x4a8a0e+_0x54a2e9(0x5f6)+_0x54b0d3+'\x20'+_0x342b14+_0x54a2e9(0x672);},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0x9fa)]=function(_0x3f7f83){var _0x10f321=_0x3d686a,_0xe47171=_0x3f7f83[_0x10f321(0x2b1)]('type'),_0x5c0249=looseEscape(_0x3f7f83[_0x10f321(0x2b1)](_0x10f321(0x427))),_0x6e19a1=looseEscape(_0x3f7f83[_0x10f321(0x2b1)](_0x10f321(0xc12)));return'<input\x20type=\x22'+_0xe47171+'\x22\x20name=\x22'+_0x5c0249+_0x10f321(0x98b)+_0x6e19a1+_0x10f321(0x1b3)+_0x6e19a1+'\x22>';},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0x57b)]=function(_0x576eb7){var _0x49cbbc=_0x3d686a,_0x163ecf=_0x576eb7['getFieldValue'](_0x49cbbc(0x935)),_0x33bde9=_0x576eb7[_0x49cbbc(0x2b1)](_0x49cbbc(0x3f1)),_0x29c81b=Blockly[_0x49cbbc(0x2a3)][_0x49cbbc(0xcd1)](_0x576eb7,_0x49cbbc(0x6e4)),_0x58b35f=Blockly[_0x49cbbc(0x2a3)]['statementToCode'](_0x576eb7,_0x49cbbc(0x606),Blockly[_0x49cbbc(0x2a3)][_0x49cbbc(0x7ce)]);return'<form\x20action=\x22'+_0x163ecf+_0x49cbbc(0xce4)+_0x33bde9+'\x22\x20'+_0x58b35f+'>\x0a'+_0x29c81b+_0x49cbbc(0x800);},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0x65c)]=function(_0x3780f9){var _0x25c252=_0x3d686a,_0x4e83bb=looseEscape(_0x3780f9[_0x25c252(0x2b1)]('value')),_0x3522de=_0x3780f9['getFieldValue']('for');return _0x25c252(0x514)+_0x3522de+'>'+_0x4e83bb+'</label>\x0a';},Blockly[_0x3d686a(0x2a3)]['br']=function(_0x52426c){var _0x34fedc=_0x3d686a;return _0x34fedc(0x49a);},Blockly['Arduino']['esp8266_html']=function(_0x4ae345){var _0x371231=_0x3d686a,_0x3bc625=_0x4ae345[_0x371231(0x2b1)](_0x371231(0xb31)),_0x192b2c=Blockly[_0x371231(0x2a3)]['statementToCode'](_0x4ae345,'BODY');return Blockly[_0x371231(0x2a3)][_0x371231(0xa2c)]['esp8266_pag'+_0x3bc625]='String\x20p'+_0x3bc625+_0x371231(0x703)+_0x371231(0xa7b)+_0x371231(0x1bb)+_0x3bc625+_0x371231(0x44f)+_0x192b2c+_0x371231(0x80d)+_0x371231(0xac4),'';});function fullEscape(_0x5cde48){var _0x446b49=_0x3d686a;return escape(_0x5cde48)[_0x446b49(0x6c0)](/%25/g,'%');}function looseEscape(_0x5b639b){var _0x2ab9b3=_0x3d686a;return _0x5b639b[_0x2ab9b3(0x6c0)](/&/g,_0x2ab9b3(0x383))[_0x2ab9b3(0x6c0)](/</g,_0x2ab9b3(0x4d5))[_0x2ab9b3(0x6c0)](/>/g,_0x2ab9b3(0x34a))['replace'](/"/g,_0x2ab9b3(0x203))[_0x2ab9b3(0x6c0)](/'/g,_0x2ab9b3(0x361))[_0x2ab9b3(0x6c0)](/á/g,_0x2ab9b3(0xb6e))[_0x2ab9b3(0x6c0)](/é/g,_0x2ab9b3(0x547))['replace'](/í/g,_0x2ab9b3(0x794))[_0x2ab9b3(0x6c0)](/ó/g,_0x2ab9b3(0xc74))['replace'](/ú/g,_0x2ab9b3(0x4c2))[_0x2ab9b3(0x6c0)](/Á/g,_0x2ab9b3(0x364))[_0x2ab9b3(0x6c0)](/É/g,'&Eacute;')['replace'](/Í/g,_0x2ab9b3(0x52c))[_0x2ab9b3(0x6c0)](/Ó/g,_0x2ab9b3(0x552))[_0x2ab9b3(0x6c0)](/Ú/g,_0x2ab9b3(0x647))['replace'](/Ñ/g,_0x2ab9b3(0x622))[_0x2ab9b3(0x6c0)](/ñ/g,'&ntilde;')[_0x2ab9b3(0x6c0)](/Ú/g,_0x2ab9b3(0x647))[_0x2ab9b3(0x6c0)](/º/g,_0x2ab9b3(0x524));}function CSSEscape(_0x20e63d){var _0x480062=_0x3d686a;return _0x20e63d[_0x480062(0x6c0)](/;/g,'')[_0x480062(0x6c0)](/{/g,'')[_0x480062(0x6c0)](/}/g,'')[_0x480062(0x6c0)](/</g,'')[_0x480062(0x6c0)](/:/g,'');}function URLInput(_0x366cff){var _0x3a2463=_0x3d686a,_0x11a262=new RegExp(/https?:\/\/(www\.)?[-a-zA-Z0-9@:%._\+~#=]{2,256}\.[a-z]{2,6}\b([-a-zA-Z0-9@:%_\+.~#?&//=]*)/g);if(_0x11a262[_0x3a2463(0xc23)](_0x366cff))return _0x366cff;}Blockly[_0x3d686a(0x2a3)][_0x3d686a(0x646)]=function(_0x5c5da1){var _0x1416c4=_0x3d686a,_0x3365fd=_0x5c5da1[_0x1416c4(0x2b1)](_0x1416c4(0x299)),_0x5941ab=_0x1416c4(0xb96)+_0x3365fd+'+R\x22=====(\x0a';return _0x5941ab;},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0xcbe)]=function(_0x225b2c){var _0x4c6471=_0x3d686a,_0xd6f70e=Blockly[_0x4c6471(0x2a3)][_0x4c6471(0x74d)](_0x225b2c,_0x4c6471(0x287),Blockly[_0x4c6471(0x2a3)]['ORDER_ATOMIC']),_0x1b5c95=Blockly[_0x4c6471(0x2a3)][_0x4c6471(0x74d)](_0x225b2c,_0x4c6471(0x3e3),Blockly['Arduino']['ORDER_ATOMIC']),_0x3905eb=Blockly[_0x4c6471(0x2a3)]['valueToCode'](_0x225b2c,'PIN_KOD',Blockly[_0x4c6471(0x2a3)][_0x4c6471(0x7ce)]);Blockly[_0x4c6471(0x2a3)][_0x4c6471(0xa2c)][_0x4c6471(0xad6)]=_0x4c6471(0x685),Blockly['Arduino'][_0x4c6471(0xa2c)][_0x4c6471(0xa6f)]='#include\x20<MFRC522.h>',Blockly[_0x4c6471(0x2a3)][_0x4c6471(0xa2c)]['define_mrfc522']=_0x4c6471(0x4f9)+_0x1b5c95+','+_0xd6f70e+_0x4c6471(0x352),Blockly[_0x4c6471(0x2a3)][_0x4c6471(0xcee)][_0x4c6471(0x531)]=_0x4c6471(0x8db),Blockly['Arduino']['setups_'][_0x4c6471(0x421)]='mfrc522.PCD_Init();\x0a';var _0x516320='\x20if\x20(mfrc522.PICC_ReadCardSerial()\x20==\x201\x20|\x20mfrc522.PICC_IsNewCardPresent()\x20==\x201)\x20{\x20\x0a\x20\x20'+_0x3905eb+_0x4c6471(0x90f);return _0x516320;},Blockly['Arduino']['st7735_backgroundcolor']=function(_0x33bd3e){var _0x3ea0ba=_0x3d686a,_0x2caa1e=_0x33bd3e[_0x3ea0ba(0x2b1)](_0x3ea0ba(0x89a)),_0x458de8=_0x3ea0ba(0xa35)+_0x2caa1e+_0x3ea0ba(0x62e);return _0x458de8;},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0x5b7)]=function(_0x1cd37b){var _0x2a4204=_0x3d686a,_0x4b8ac2=_0x1cd37b[_0x2a4204(0x2b1)](_0x2a4204(0x6d0)),_0xe986af=_0x1cd37b['getFieldValue'](_0x2a4204(0x7cb));Blockly[_0x2a4204(0x2a3)][_0x2a4204(0x5f5)][_0x2a4204(0x6ae)]='#include\x20<avr/pgmspace.h>\x0a',Blockly[_0x2a4204(0x2a3)][_0x2a4204(0xa2c)][_0x2a4204(0x473)+_0x4b8ac2+'']=_0x2a4204(0x662)+_0x4b8ac2+_0x2a4204(0x721)+_0xe986af+_0x2a4204(0x92a);var _0x127acb='';return _0x127acb;},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0x39d)]=function(_0x5653b3){var _0x5e0c28=_0x3d686a,_0x4c397f=Blockly[_0x5e0c28(0x2a3)][_0x5e0c28(0x74d)](this,'x0',Blockly[_0x5e0c28(0x2a3)][_0x5e0c28(0x7ce)])||'0',_0x3502d0=Blockly[_0x5e0c28(0x2a3)]['valueToCode'](this,'y0',Blockly[_0x5e0c28(0x2a3)][_0x5e0c28(0x7ce)])||'0',_0x4e46d4=Blockly[_0x5e0c28(0x2a3)][_0x5e0c28(0x74d)](this,_0x5e0c28(0x567),Blockly[_0x5e0c28(0x2a3)][_0x5e0c28(0x7ce)])||'0',_0x2fdf7a=Blockly[_0x5e0c28(0x2a3)]['valueToCode'](this,_0x5e0c28(0x658),Blockly[_0x5e0c28(0x2a3)][_0x5e0c28(0x7ce)])||'0',_0x21f11d=_0x5653b3[_0x5e0c28(0x2b1)](_0x5e0c28(0x6d0)),_0x1a3d3d=_0x5653b3[_0x5e0c28(0x2b1)](_0x5e0c28(0x89a)),_0x23412c=_0x5e0c28(0x3bb)+_0x4c397f+','+_0x3502d0+','+_0x21f11d+','+_0x4e46d4+','+_0x2fdf7a+','+_0x1a3d3d+_0x5e0c28(0x62e);return _0x23412c;},Blockly['Arduino'][_0x3d686a(0x48b)]=function(_0x102805){var _0x13bf41=_0x3d686a,_0x42c8b9=_0x102805['getFieldValue'](_0x13bf41(0x220)),_0x2b4fac=_0x102805[_0x13bf41(0x2b1)](_0x13bf41(0x9fd)),_0xd77fa6=_0x102805['getFieldValue'](_0x13bf41(0x447)),_0x19423a=_0x102805['getFieldValue'](_0x13bf41(0xa87)),_0x4ce8db=_0x102805[_0x13bf41(0x2b1)](_0x13bf41(0xbd5));Blockly[_0x13bf41(0x2a3)][_0x13bf41(0x5f5)][_0x13bf41(0xa2f)]=_0x13bf41(0xb59)+_0x13bf41(0x5e2),Blockly[_0x13bf41(0x2a3)][_0x13bf41(0xa2c)][_0x13bf41(0xb3b)]=_0x13bf41(0x7a6)+_0x42c8b9+'\x20//\x20left\x20leg\x20pin,\x20servo[0]\x0a'+'#define\x20RightLeg\x20'+_0x2b4fac+_0x13bf41(0x8b2)+_0x13bf41(0x8bf)+_0xd77fa6+_0x13bf41(0x577)+_0x13bf41(0x1aa)+_0x19423a+_0x13bf41(0x676)+_0x13bf41(0x574)+_0x4ce8db+_0x13bf41(0xc58),Blockly[_0x13bf41(0x2a3)][_0x13bf41(0xcee)][_0x13bf41(0x767)]=_0x13bf41(0x668)+_0x13bf41(0xcc8);var _0xd322d2='';return _0xd322d2;},Blockly[_0x3d686a(0x2a3)]['otto_home']=function(_0x3252ce){var _0x3f7c88=_0x3d686a,_0x58550c=_0x3f7c88(0xcc8);return _0x58550c;},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0x3ca)]=function(_0x326aa0){var _0xa4a601=_0x3d686a,_0x2610c2=_0x326aa0['getFieldValue'](_0xa4a601(0x3d5)),_0x5c15a9=_0x326aa0[_0xa4a601(0x2b1)]('otto_move_speed'),_0x4e9214='';switch(_0x2610c2){case'FORWARD':_0x4e9214=_0xa4a601(0xa53)+_0x5c15a9+_0xa4a601(0x621);break;case _0xa4a601(0x745):_0x4e9214=_0xa4a601(0xa53)+_0x5c15a9+_0xa4a601(0x501);break;case _0xa4a601(0x7f1):_0x4e9214='Otto.turn(1,'+_0x5c15a9+_0xa4a601(0xa9e);break;case _0xa4a601(0xb7b):_0x4e9214=_0xa4a601(0x9e3)+_0x5c15a9+_0xa4a601(0x71b);break;case'BENDLEFT':_0x4e9214='Otto.bend(1,'+_0x5c15a9+_0xa4a601(0xbbe);break;case'BENDRIGHT':_0x4e9214=_0xa4a601(0x1eb)+_0x5c15a9+',-1);\x0a';break;case _0xa4a601(0x7b4):_0x4e9214='Otto.shakeLeg(1,'+_0x5c15a9+',1);\x0a';break;case _0xa4a601(0x399):_0x4e9214=_0xa4a601(0x8ad)+_0x5c15a9+_0xa4a601(0x9ce);break;case _0xa4a601(0x780):_0x4e9214=_0xa4a601(0x4f2)+_0x5c15a9+_0xa4a601(0x62e);break;}return _0x4e9214;},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0xaac)]=function(_0x26f55c){var _0x427e41=_0x3d686a,_0x2d2329=_0x26f55c[_0x427e41(0x2b1)](_0x427e41(0xcda)),_0x129141=_0x26f55c[_0x427e41(0x2b1)](_0x427e41(0x18e)),_0x17e186=_0x26f55c['getFieldValue'](_0x427e41(0x1a8)),_0x2cd749='';switch(_0x2d2329){case _0x427e41(0x453):_0x2cd749=_0x427e41(0x96a)+_0x129141+',\x20'+_0x17e186+_0x427e41(0x25d);break;case _0x427e41(0x213):_0x2cd749='Otto.moonwalker(1,\x20'+_0x129141+',\x20'+_0x17e186+_0x427e41(0x42a);break;case'crusaitoLEFT':_0x2cd749='Otto.crusaito(1,\x20'+_0x129141+',\x20'+_0x17e186+_0x427e41(0x25d);break;case _0x427e41(0x7db):_0x2cd749=_0x427e41(0xcd4)+_0x129141+',\x20'+_0x17e186+_0x427e41(0x42a);break;case _0x427e41(0xb8a):_0x2cd749=_0x427e41(0xb74)+_0x129141+',\x20'+_0x17e186+',\x201);\x0a';break;case _0x427e41(0x572):_0x2cd749='Otto.flapping(1,\x20'+_0x129141+',\x20'+_0x17e186+',\x20-1);\x0a';break;}return _0x2cd749;},Blockly[_0x3d686a(0x2a3)][_0x3d686a(0x611)]=function(_0x5e8aed){var _0x4a427d=_0x3d686a,_0x3b4ef6=_0x5e8aed[_0x4a427d(0x2b1)]('otto_do_movement'),_0x4bfca2=_0x5e8aed[_0x4a427d(0x2b1)](_0x4a427d(0x18e)),_0x4030a1=_0x5e8aed[_0x4a427d(0x2b1)]('otto_dance_size'),_0x394fdd=_0x4a427d(0x99b)+_0x3b4ef6+'(1,\x20'+_0x4bfca2+',\x20'+_0x4030a1+_0x4a427d(0x62e);return _0x394fdd;},Blockly['Arduino']['otto_sound']=function(_0x5be8ca){var _0x11713f=_0x3d686a,_0x27e08a=_0x5be8ca[_0x11713f(0x2b1)]('otto_sound'),_0x2d3dbd=_0x11713f(0x563)+_0x27e08a+_0x11713f(0x62e);return _0x2d3dbd;};function _0x4b98(_0x5dcbc6,_0x197f6c){var _0x42fee5=_0x42fe();return _0x4b98=function(_0x4b983e,_0x2cf492){_0x4b983e=_0x4b983e-0x189;var _0x26c067=_0x42fee5[_0x4b983e];return _0x26c067;},_0x4b98(_0x5dcbc6,_0x197f6c);}function _0x42fe(){var _0x1bbc3a=['byte\x20Pins_Columns[]={','bgcolor','\x09\x09\x20\x20fk=gps.speed.knots();\x0a','\x20/\x20100)\x20*\x2010),false);\x20\x20\x0a\x20\x20\x20lc7d.setDigit(0,6,(','actuator_tone_esp','Pix14e4','\x09\x09\x20\x20nsat=gps.satellites.value();\x0a','\x20\x20\x20sim800l.print(\x22AT+CMGF=1\x5cr\x22);\x20\x20\x0a\x20\x20\x20','\x20\x20\x20\x20\x20for(int\x20b=0;\x20b<3;\x20b++)\x20{\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x0a\x20\x20\x20','const\x20char\x20*\x20myWriteAPIKey\x20=\x22','.setPixelColor(Pixcil-1,\x20strip','include_MCP23X08','.show();\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x0a\x20\x20\x20\x20','values_NTP_server','int\x20sunset;\x0a','\x20default\x20:\x0a','Pix13e2','\x20\x20\x20sim800l.println((char)26);\x20\x20\x20\x0a\x20','time.gettime(\x22H\x22)','staticdynamic','\x20\x20\x20\x20bn','\x20long\x20stepn','HEAD','\x20void\x20handleNewMessages(int\x20numNewMessages)\x20\x20\x0a\x20','\x20\x20\x20\x20\x20String\x20text\x20=\x20bot.messages[i].text;\x20\x20\x0a\x20',');\x20\x20\x0a\x20\x20radio.setDataRate\x20(RF24_','epochTime\x20=\x20timeClient.getEpochTime();\x0a','HTTPClient\x20http;\x0a','Pix0e9','\x20\x20\x20\x20\x20\x20}\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x0a\x20','define_dfplayermp3_library','\x20/\x20100000\x20-\x20(','otto_legs','.servoSet(2,\x20SERVO_SG90);\x20\x0a\x20MSS','\x20a\x20=\x205;\x20\x0a\x20','wifiserver_flush','telegram_con_ESP32','dwin_box_text','IPd','\x20\x20Mouse.begin();\x20\x0a\x20\x20Keyboard.begin();\x20\x0a\x20\x20delay(500);\x20\x0a\x20Serial.begin(9600);\x20\x0a','Serial.print(\x22with\x20this\x20IP\x20address:\x09\x22);\x0a','SPEED2','\x27/i/1\x27','Pix4e7','\x20\x20{\x203,\x20\x20\x200,\x20224,\x20160,\x20160,\x20224,\x20\x2032,\x20},\x20//glyph\x20q\x20code=80\x20\x20\x20\x0a','Pix3e2','sd_printfile4','=0\x20;','base_define','serial_init','Pix12e11','\x20const\x20char*\x20ssid\x20=\x20\x22','Pix10e4','\x20\x20\x20char\x20jsonArray\x20[jsonBuffer.length()+1];\x0a','Pix0e7','TM1637_POINT','base_delay','n3_number','TAN','\x20}\x20\x0a\x20\x20\x20\x20\x20\x20\x20','Pix13e4',',\x20\x0a','#include\x20<Otto.h>\x0a','\x20\x20{\x203,\x20\x20\x200,\x20160,\x20160,\x20160,\x20\x2064,\x20\x20\x200,\x20},\x20//glyph\x20v\x20code=85\x20\x20\x20\x0a','\x20\x20\x20\x20lc7d.setIntensity(0,15);\x20\x20\x0a\x20\x20\x20lc7d.shutdown(0,false);\x20\x20\x0a\x20\x20\x20lc7d.setDigit(0,4,(','visibility/100.00',',\x20FONT_','Pix10e0','Serial.begin\x20(9600);\x20\x0a','lcd_tah_spi_text','randomseed','arguments_',';\x20\x0a\x20\x20\x20\x20Serial.println();\x20\x20\x0a\x20\x20\x20\x20\x20ibutton.skip();\x20\x0a\x20\x20\x20\x20\x20ibutton.reset();\x20\x0a\x20\x20\x20\x20\x20ibutton.write(0xD5);\x20\x0a\x20\x20\x20\x20\x20for\x20(byte\x20x\x20=\x200;\x20x<8;\x20x++){\x20\x0a\x20\x20\x20\x20\x20\x20\x20writeByte(newID[x]);\x20\x0a\x20\x20\x20\x20\x20\x20\x20Serial.print(\x22*\x22);\x20\x0a\x20\x20\x20\x20\x20}\x20\x0a\x20\x20\x20\x20\x20ibutton.reset();\x20\x0a\x20\x20\x20\x20\x20ibutton.write(0xD1);\x20\x0a\x20\x20\x20\x20\x20digitalWrite(pin,\x20LOW);\x20\x20\x0a\x20\x20\x20\x20\x20pinMode(pin,\x20OUTPUT);\x20\x20\x0a\x20\x20\x20\x20\x20delayMicroseconds(10);\x20\x0a\x20\x20\x20\x20\x20pinMode(pin,\x20INPUT);\x20\x20\x0a\x20\x20\x20\x20\x20digitalWrite(pin,\x20HIGH);\x20\x20\x0a\x20\x20\x20\x20\x20delay(10);\x20\x0a\x20Serial.print(\x22\x20\x22);\x20\x0a\x20\x20\x20ibutton.skip();ibutton.reset();ibutton.write(0x33);\x20\x0a\x20Serial.print(\x22Code\x20recorded:\x22);\x20\x0a\x20\x20\x20\x20\x20for\x20(byte\x20x=0;\x20x<8;\x20x++){\x20\x0a\x20\x20\x20\x20\x20\x20\x20Serial.print(\x22\x20\x22);\x20\x0a\x20\x20\x20\x20\x20Serial.print(ibutton.read());\x20\x0a\x20\x20\x20\x20}\x20\x0a\x20\x20\x20Serial.println(\x22\x20ok\x22);\x20\x0a\x20delay(2000);\x20\x0a\x20\x20\x0a','\x20total5\x20=\x20\x20cs05.capacitiveSensor(30);\x20\x0a\x20if\x20(total5\x20==\x20-2)\x20{\x20\x0a\x20\x20','DEGREE','time.gettime(\x22d\x22)','PINR','\x20{\x20\x20\x0a\x20','\x20\x20\x20File\x20sd_file;\x0a','Writecounter3','\x20style=','define_servo','\x22);\x0a','&aacute;','Sensor2','String\x20monthsNames[12]={\x22Enero\x22,\x22Febrero\x22,\x22Marzo\x22,\x22Abril\x22,\x22Mayo\x22,\x22Junio\x22,\x22Julio\x22,\x22Agosto\x22,\x22Septiembre\x22,\x22Octubre\x22,\x22Noviembre\x22,\x22Diciembre\x22};\x0a','WiFi.config(staticIP_sta,\x20gateway_sta,\x20subnet_sta);\x0a','\x20\x20{\x204,\x20144,\x20144,\x20\x2096,\x20144,\x20144,\x20\x20\x200,\x20},\x20//glyph\x20X\x20code=55\x20\x20\x20\x0a','\x09\x09\x20\x20hour=gps.time.hour();\x0a','Otto.flapping(1,\x20','\x20\x20\x20ptr\x20+=\x22body{margin-top:\x2050px;}\x20h1\x20{color:\x20#444444;margin:\x2050px\x20auto\x2030px;}\x20h3\x20{color:\x20#444444;margin-bottom:\x2050px;}\x22;\x20\x0a\x20','\x09{\x0a','\x20}\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x0a\x20\x20\x20\x20','Y_Nokia3','Pix10e15',');\x20\x0a\x20\x20lcd.write(','RIGHT','\x20vga.delay(','code','\x20\x20\x20\x20\x20for(int\x20b=0;\x20b<3;\x20b++)\x20{\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x0a\x20\x20\x20\x20','DS3231_SECOND','\x20!=\x20currSymb)\x20{\x20currStr\x20+=\x20String(currSymb);\x20\x0a\x20','initread_acs712','STATUS','define_thingspeak_variables','Pix8e14','temporisation','.show();\x20\x0a\x20\x20\x20strip','\x20\x20\x20\x20visibility\x20=\x20root[\x22visibility\x22];\x0a','\x20\x20if\x20(digitalRead(',',false);\x20\x0a\x20','flappingFRONT','target','OneWire\x20oneWireBus','\x20#include\x20<Adafruit_NeoPixel.h>\x20\x0a\x20#ifdef\x20__AVR__\x20\x0a\x20\x20#include\x20<avr/power.h>\x20\x20\x0a\x20#endif\x20\x0a\x20long\x20Pixcil\x20=\x200;\x20\x0a\x20long\x20NeoPix\x20=\x200;\x20\x0a','\x20\x20\x20Serial.println(\x22WiFi\x20connected..!\x22);\x20\x0a\x20','DS1302_MINUTE','floor(','\x20if\x20(mfrc522.PICC_ReadCardSerial()\x20==\x201\x20|\x20mfrc522.PICC_IsNewCardPresent()\x20==\x201)\x20{\x20\x0a\x20\x20','Pix1e12','LD.drawBitmap(Logo_BMP','numNewMessages\x20=\x20bot.getUpdates(bot.last_message_received\x20+\x201);\x0a','.servoSet(1,\x20SERVO_SG90);\x20\x0a\x20\x20MSS',')=====\x22+','));\x0a','controls_repeat_ext','.setBrightness(255);\x20\x0a\x20strip','Pix14e7','\x20\x20\x20Serial.println();\x0a','185','\x20\x20\x20\x20\x20for(int\x20i=0;\x20i<strip','){\x20\x0a','esp8266_request_indexof','controls_if','setup_mcp_input_','TEXT','\x20\x20{\x204,\x20\x2096,\x20144,\x20144,\x20144,\x20\x2096,\x20\x20\x200,\x20},\x20//glyph\x200\x20code=15\x20\x20\x20\x0a','\x20\x20\x20\x20\x20else\x20if\x20(','math_arithmetic','scrub_','variableDB_','RotaryEncoder_None','thingspeak_write','x9c103s','Pix4e4','Pix9e15','WiFi.disconnect();\x0a\x20\x20delay(2500);\x0a\x20\x20WiFi.config(ip,\x20gateway,\x20subnet);\x0a\x20\x20WiFi.begin(\x22','</th>','\x20a\x20=\x202;\x20\x0a\x20','pin5','\x20int\x20PCdata[20];\x20\x20\x20\x20\x20\x20\x0a\x20\x20\x20','touchAttachInterrupt(T',',0);\x20\x20\x0a\x20\x20\x20\x20tft1.setTextSize(','\x09Serial.print(\x22.\x22);\x0a','stepservo_continuos_move_ru','ROWS','Pix10e3','\x20\x20\x20}\x20\x20\x0a\x20\x20\x20','\x20\x20{\x204,\x20224,\x20144,\x20224,\x20144,\x20224,\x20\x20\x200,\x20},\x20//glyph\x20B\x20code=33\x20\x20\x20\x0a','\x20theaterChaseRainbow','float\x20wind_angle;\x0a','.clear();\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x0a\x20\x20\x20',')\x20+\x20\x22</p>',',1);\x0a','\x20\x0a\x20uint8_t\x20id;\x20\x0a\x20\x20\x20uint8_t\x20readnumber(void)\x20{\x20\x0a\x20\x20\x20uint8_t\x20num\x20=\x200;\x20\x0a\x20\x20\x20while\x20(num\x20==\x200)\x20{\x20\x0a\x20\x20\x20while\x20(!\x20Serial.available());\x20\x0a\x20\x20\x20\x20num\x20=\x20Serial.parseInt();\x20\x0a\x20\x20}\x20\x0a\x20\x20return\x20num;\x20\x0a\x20\x20}\x20\x0a\x20','Serial.println();\x0a','=LOW;','));\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20strip','RE_NUMBER','define_mrfc522','pin_botton_pro2','String\x20serverPath\x20=\x20\x22http://api.openweathermap.org/data/2.5/weather?q=\x22+city+\x22,\x22+country_code+\x22&lang=','wifi_ap_staticip','soft_write_ttl_uart_reset','\x20\x20\x20return\x20ptr;\x20\x0a\x20','\x20\x20\x20distance\x20=\x20duration/58;\x0a','m\x20[7]\x20={0x5A,0xA5,0x05,0x82,0x','variable','+R\x22=====(\x0a','lcd_128x128px_spi_text_tv_vga','\x20\x0a\x20','setups_pin_botton_pro','dwin_box_varsl','\x20\x200b00000000,\x20\x0a','\x20/\x20100)\x20*\x2010),false);\x20\x20lc7d.setDigit(0,4,(','print_y','PIN_Buzzer','if\x20(\x20!ibutton.search(addr)\x20)\x20{\x20\x0a\x20return;\x20\x0a\x20}\x20\x0a\x20ibutton.skip();\x20\x0a\x20','\x20/\x20100\x20-\x20(','\x20\x20if\x20(bc','Pix5e5','\x20char\x20resetdwin\x20[10]\x20={0x5A,0xA5,0x07,0x82,0x00,0x04,0x55,0xAA,0x5A,0xA5};\x20\x0a\x20','\x20/\x2010\x20-\x20(','.servoSet(8,\x20SERVO_SG90);\x20\x0a\x20MSS','bluetooth.begin(','Mask','PIN_DHT','\x20}\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x0a\x20\x20','define_RF24L01','\x20\x20\x20\x20\x20\x20u8g.setFont(u8g_font_','mySerial.read()','311',');\x0a\x20analogWrite(','\x20\x20digitalWrite(','\x20\x20\x20if\x20(stek_bool_bt[','w\x20=\x200;\x20\x0a\x09','\x20\x20{\x205,\x20\x2080,\x20248,\x20\x2080,\x20248,\x20\x2080,\x20\x20\x200,\x20},\x20//glyph\x20#\x20code=2\x20\x20\x20\x0a','client.println(\x22<html>\x22);\x0aclient.println(\x22<head>\x22);\x0a','.show();\x20\x0a\x20\x20\x20\x20\x20\x20}\x20\x0a\x20\x20\x20Pixcil\x20=\x200;\x20\x0a\x20\x20delay(','\x20a\x20=\x2010;\x20\x0a\x20','minilcdi2c_setup','(&oneWireBus','setup_input_','\x09String\x20varText=mqtt_payload2string(_payload,_payloadlength);\x0a','#define\x20','timeClient.getFormattedTime()','define_RF24','\x20\x20if(lineal.indexOf(\x22ID=','web_esp_conect','\x20\x20\x20ptr\x20+=\x22\x20}\x20\x22;\x20\x20\x20\x20\x20\x20\x20\x20\x0a\x20','nrf24l01_init','decode_results\x20ir_rx_results;\x0a','order_read_rtc_ds3231','userFunctions_web_esp_conect','\x20\x20bool\x20decoded=false;\x0a','\x22,\x201500,\x201);\x20\x0a\x20delay\x20(1000);\x20\x0a\x20sendData(\x22AT+CIFSR','String\x20city;\x0a','\x20\x20{\x204,\x20144,\x20144,\x20144,\x20144,\x20\x2096,\x20\x20\x200,\x20},\x20//glyph\x20U\x20code=52\x20\x20\x20\x0a','PIND3','\x20\x20#define\x20FNT_UFONT_SYMBOLS_COUNT\x2095\x20\x20\x20\x0a','setup_Interrupt_','\x20\x20\x20\x20u8g.firstPage();\x20\x0a\x20\x20do\x20{\x20\x20\x0a','#include\x20<DFRobot_QMC5883.h>','ORDER_LOGICAL_OR','\x20a\x20=\x207;\x20\x0a\x20','\x20\x20\x20\x20\x20m[0]\x20=\x20n;\x20target\x20=\x20target\x20+\x20String(m);\x20\x0a\x20','.show();\x0a\x20','ledoff','\x20=\x20Keyboard.getKey();\x0a','Mouse.release(','\x20\x20\x20\x20\x20\x20\x20firstPixelHue\x20+=\x2065536\x20/\x2090;\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x0a\x20\x20','RTC_DS3231\x20rtc;\x0a','Pix0e4','Pix1e14','\x27/i/5\x27','setup_lcdRus_ru','eeprom','value','Pix1e4','\x20\x20{\x203,\x20\x20\x200,\x20160,\x20\x2064,\x20160,\x20160,\x20\x20\x200,\x20},\x20//glyph\x20x\x20code=87\x20\x20\x20\x0a','month','ptm->tm_mday','.show();\x20\x0a\x20\x20\x20\x20strip',')\x20{\x0a','PORT','fmps','dim','Pix12e7','push','\x20\x20\x20\x20\x20\x20\x20char\x20*p\x20=\x20inData;\x20\x20\x0a\x20\x20\x20','LOOP',',\x20etat_','char\x20keys[4][4]={{\x271\x27,\x272\x27,\x273\x27,\x27A\x27},{\x274\x27,\x275\x27,\x276\x27,\x27B\x27},{\x277\x27,\x278\x27,\x279\x27,\x27C\x27},{\x27*\x27,\x270\x27,\x27#\x27,\x27D\x27}};\x0a','esp8266_send','test','\x20\x20\x20tft1.initR(','setIconDwin(','Serial.println(\x22ESP8266\x20MAC\x20Address:\x20\x20\x22);\x0a','Pix4e15','TinyGPSPlus\x20gps;\x0a','Serial.print(','\x20\x20\x20WiFi.mode(WIFI_AP_STA);\x0a','\x20\x20{\x204,\x20112,\x20128,\x20\x2096,\x20\x2016,\x20224,\x20\x20\x200,\x20},\x20//glyph\x20S\x20code=50\x20\x20\x20\x0a','Pix6e5','Pix13e7','\x20\x20\x20\x20\x20timeOut_flag\x20=\x201;\x20\x20\x0a\x20\x20\x20','Pix5e11','logic_ONOFF','\x20mySerial.write(xb);\x20\x0a\x20','\x20&&\x20hwXpos\x20<\x20','setup_leonardo','Serial.begin(9600);\x20\x0a\x20Serial.println();\x20\x0a\x20configTime(0,\x200,\x20\x22pool.ntp.org\x22);\x20\x0a\x20secured_client.setTrustAnchors(&cert);\x20\x0a\x20WiFi.begin(WIFI_SSID,\x20WIFI_PASSWORD);\x20\x0a\x20while\x20(WiFi.status()\x20!=\x20WL_CONNECTED)\x20\x0a\x20{\x20\x0a\x20\x20\x0a\x20delay(500);\x20\x0a\x20}\x20\x0a\x20Serial.print(\x22WiFi\x20connected.\x20IP\x20address:\x20\x22);\x20\x0a\x20Serial.println(WiFi.localIP());\x20\x0a\x20Serial.print(\x22Retrieving\x20time:\x20\x22);\x20\x0a\x20time_t\x20now\x20=\x20time(nullptr);\x20\x0a\x20while\x20(now\x20<\x2024\x20*\x203600)\x20\x0a\x20{\x20\x0a\x20\x20delay(100);\x20\x0a\x20now\x20=\x20time(nullptr);\x20\x0a\x20}\x20\x20\x20\x20\x0a','\x22)>0){\x20\x20\x20\x0a\x20\x20','DS3231_YEAR','\x20\x20}\x20else\x20{','Mi5','Pix4e1','\x20\x20{\x203,\x20128,\x20\x2064,\x20\x2032,\x20\x2064,\x20128,\x20\x20\x200,\x20},\x20//glyph\x20>\x20code=29\x20\x20\x20\x0a',';\x20\x0a\x20\x20\x20\x20\x20\x20\x20','Pix2e15','\x20radio.read(&','.numPixels();\x20c\x20+=\x203)\x20{\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x0a\x20','POSITIVE','Pix8e1','\x20\x20\x20\x20\x20lc7d.setIntensity(0,15);\x20\x20lc7d.shutdown(0,false);\x20\x20lc7d.setDigit(0,7,(','(){\x20\x0a\x20touch','\x20\x20\x20\x20\x20\x20\x20}\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x0a\x20\x20','includes_ds18b20_2','long\x20zen\x20=\x200;\x20\x0a\x20long\x20zenm\x20=\x200;\x20\x0a\x20','server_port','DIVISOR','\x20=\x20addr[0];\x20\x0a\x20','\x09\x09\x20\x20year=gps.date.year();\x0a','values_text_NTP_server','base_code_entree','float\x20temp_max;\x0a','BOOL','\x20\x20\x20server.on(\x22/led4\x22,\x20handle_led4off);\x20\x0a\x20','stepper_','\x20\x20\x20server.on(\x22/led1\x22,\x20handle_led1off);\x20\x0a\x20','\x20analogWrite(','DEF_FUNC_NAME','define_mqtt_otherfunctions',';\x20\x0a\x20\x20\x20\x20for\x20(int\x20count\x20=\x200;\x20count\x20<\x20NeoPix*Pixcil;\x20count++)\x20{\x20\x0a\x20\x20\x20\x20for\x20(int\x20count\x20=\x200;\x20count\x20<\x20NeoPix;\x20count++)\x20{\x20\x0a\x20\x20\x20\x20\x20\x20\x20Pixcil\x20=\x20Pixcil\x20-\x201;\x20\x0a\x20\x20\x20\x20\x20\x20\x20strip','\x20\x20\x20ptr\x20+=\x22\x20\x20\x20\x20if\x20(this.readyState\x20==\x204\x20&&\x20this.status\x20==\x20200)\x20{\x20\x20\x20\x20\x20\x20\x20\x20\x22;\x20\x0a\x20','\x20\x20\x20ptr\x20+=\x22\x20\x20};\x20\x20\x20\x20\x20\x20\x20\x20\x22;\x20\x0a\x20','VARIABLE_SETTYPE_TYPE','\x20//buzzer\x20pin\x20\x0a','X509List\x20cert(TELEGRAM_CERTIFICATE_ROOT);\x0a','.servoSet(11,\x20SERVO_SG90);\x20\x0a\x20MSS','\x27/i/2\x27',';\x20\x0a\x20\x20\x20\x20for\x20(int\x20count\x20=\x200;\x20count\x20<\x20NeoPix;\x20count++)\x20{\x20\x0a\x20\x20\x20\x20strip','String\x20weather;\x0a','getDistinctName','color_dropdown2','void\x20mqtt_loop(){\x0a','touch','.setBrightness(255);\x20\x0a\x20\x20\x20strip','PINd',');\x20\x0a\x20delay(1000);\x20\x0a\x20esp8266.begin(','id_text2','Pix0e11','setup_ledRGB_WS2812B','\x20\x20#include\x20<EEPROM.h>\x20\x0a\x20int\x20esp\x20=\x200;\x20\x0a\x20#include\x20<SoftwareSerial.h>\x20\x0a\x20SoftwareSerial\x20esp8266(','</a>\x22;\x20\x0a','Pix8e0','\x20void\x20parsing()\x20{\x20\x20\x0a\x20\x20\x20','\x20\x20\x20\x20\x20\x20\x20updateTemp_flag\x20=\x201;\x20\x20\x0a\x20\x20\x20','minilcdi2c_setcursorR','.ColorHSV(hue));\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x0a\x20\x20\x20\x20\x20\x20','.show();\x20\x0a\x20\x20\x20\x20\x20strip','175','\x20\x20\x20\x20\x20\x20}\x20\x20\x0a','\x0a}\x0a','setup_llcdm7m_setupc','&oacute;','leonardo9','millis()','\x20void\x20handle_led4off()\x20{\x20\x0a\x20','Pix7e7','break;\x0a','\x20\x20\x20\x20if\x20(','Pix2e9','5588','m\x20,\x206);\x20\x0a\x20','ClearDisplayDwin();\x20\x0a\x20','const\x20char\x20mqtt_wifi_pass[]=\x22',',false);\x0a','setups_lcd_128x64px_spi','\x20\x20\x20for(int\x20a=0;\x20a<30;\x20a++)\x20{\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x0a\x20\x20\x20\x20','\x20\x20\x20server.on(\x22/led2\x22,\x20handle_led2off);\x20\x0a\x20','array_create_with','\x20\x20\x20\x20return\x20false;','\x20\x20\x20if\x20(bc','.setBrightness(50);\x20\x20\x0a','\x20\x20\x09sd_file\x20=\x20SD.open(file,\x20FILE_WRITE);\x0a','Pix11e1','++)\x20{\x0a','\x20\x20\x20\x20\x20\x20\x20\x20\x20currStr\x20=\x20\x22\x22;\x20\x0a\x20','\x20if\x20(\x20!ibutton.search(addr)\x20)\x20{\x20\x0a\x20return;\x20\x0a\x20}\x20\x0a\x20ibutton.skip();\x20\x0a\x20ibutton.reset();\x20\x0a\x20ibutton.write(0x33);\x20\x0a\x20\x20\x20\x20\x20ibutton.skip();\x20\x0a\x20\x20\x20\x20\x20ibutton.reset();\x20\x0a\x20\x20\x20\x20\x20ibutton.write(0xD1);\x20\x0a\x20\x20\x20\x20\x20digitalWrite(pin,\x20LOW);\x20\x20\x0a\x20\x20\x20\x20\x20pinMode(pin,\x20OUTPUT);\x20\x20\x0a\x20\x20\x20\x20\x20delayMicroseconds(60);\x20\x0a\x20\x20\x20\x20\x20pinMode(pin,\x20INPUT);\x20\x20\x0a\x20\x20\x20\x20\x20digitalWrite(pin,\x20HIGH);\x20\x20\x0a\x20\x20\x20\x20\x20delay(10);\x20\x0a\x20\x20\x20\x20\x20byte\x20newID[8]\x20=\x20{0x44,\x200x0F,\x200xC8,\x200x0B,\x200x00,\x200x00,\x200x00,\x200x2C};\x20\x0a\x20\x20newID[0]\x20=\x20','PIN_C3',',\x20LOW);\x20\x20\x20\x20\x20\x0a','\x20/\x201000)\x20*\x2010),false);\x20\x20\x20lc7d.setDigit(0,1,(','base_begin','.numPixels());\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x0a\x20\x20\x20\x20','#include<ESP8266WebServer.h>\x0a','\x20WiFiClientSecure\x20secured_client;\x20\x20\x0a\x20','web_esp_conect_12f','ROUND','\x20=\x20addr[5];\x20\x0a\x20','\x20=\x20Adafruit_NeoPixel(','.servoSet(12,\x20SERVO_SG90);\x20\x0a\x20MSS',',\x20NEO_GRB\x20+\x20NEO_KHZ800);\x0a','DateTime\x20t;\x0a','\x20\x20{\x201,\x20128,\x20128,\x20128,\x20\x20\x200,\x20128,\x20\x20\x200,\x20},\x20//glyph\x20!\x20code=0\x20\x20\x20\x0a','\x20=\x20addr[7];\x20\x0a',');\x20\x20\x0a\x20','\x20\x20\x20ptr\x20+=\x22\x20\x20xhttp.onreadystatechange\x20=\x20function()\x20{\x20\x20\x20\x20\x20\x20\x20\x20\x22;\x20\x0a\x20','\x20Pixcil\x20=\x20','Pix0e5','\x20}\x20\x20\x0a\x20','\x20+\x201;\x20\x0a\x20','\x20\x20\x20\x20last_bt','.show();\x20\x0a\x20\x20\x20\x20Pixcil\x20=\x20Pixcil\x20+\x20NeoPix;\x20\x0a\x20NeoPix\x20=\x20NeoPix\x20-\x201;\x20\x0a\x20\x20\x20}\x20\x0a\x20\x20\x20Pixcil\x20=\x20','setup_output','t.day()','math_single_int_pi','1109','if\x20((millis()-','radio.begin();\x20\x0a\x20\x20\x20','args','.Color(0,0,0));\x20\x0a\x20\x20strip','bluetooth_soft_available','\x20void\x20handle_led2off()\x20{\x20\x0a\x20',');\x20\x0a\x20\x20DallasTemperature\x20sensors','\x20/\x20100)\x20*\x2010),false);\x20\x20\x20lc7d.setDigit(0,5,(','id_text','lcdm7m_setcursor','while(true);\x0a','Pix2e2','Pix10e6','esp8266_init','setup_MPU6050_GY','Mouse.move(','Mi1',',\x20\x0a\x20','.numPixels();\x20i++)\x20{\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x0a\x20\x20','falt','VarSpeedServo\x20myServo','rfid_init22','ORDER_UNARY_NEGATION','pin1','),\x20','pin','\x20<\x200\x20&&\x20spedn','\x09if(sd_file){\x0a','ORDER_LOGICAL_AND','message',')\x20\x0a\x20\x20\x20','Otto.home();\x0a','\x20\x20\x20\x20\x20\x20zenm\x20=\x20zenm\x20+\x201;\x20\x20\x20\x0a','.begin();\x0a','Blue','STEPPER_STEP_j','EVEN','\x22);\x20\x20\x0a\x20\x20while\x20(WiFi.status()\x20!=\x20WL_CONNECTED){\x20\x0a\x20\x20\x20delay(500);\x20\x0a\x20\x20\x20\x20\x20Serial.print(\x22.\x22);\x20\x0a\x20\x20\x20}\x20\x0a\x20server.begin();\x20\x0a\x20\x20\x20Serial.println(WiFi.localIP());\x20\x0a','SSID','setup_lcdi2c_i2c','statementToCode','define_telegram','\x20\x20\x20\x20\x20\x20\x20for(int\x20c=b;\x20c<strip','Otto.crusaito(1,\x20','minilcdi2c_setcursor_draw','lcd.createChar(','TEXT1','\x20\x20\x20accgyro.initialize();\x20\x20\x0a','139','otto_dance_movement','\x20\x20\x20server.begin();\x20\x0a\x20',';\x20\x0a\x20\x20\x20delay(','\x20total1\x20=\x20\x20cs01.capacitiveSensor(30);\x20\x0a\x20if\x20(total1\x20==\x20-2)\x20{\x20\x0a\x20\x20','\x20-\x20Pixcil;\x20\x0a\x20\x20\x20\x20\x20for\x20(int\x20count\x20=\x200;\x20count\x20<\x20','.setPixelColor(i,\x20color);\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x0a\x20\x20\x20','#include\x20<iarduino_RTC.h>\x0a','\x20\x20\x20vga.begin();\x20\x0a\x20\x20vga.clear(0);\x20\x0a\x20\x20\x20\x20','idn_text','ds1990_Read','\x22\x20method=\x22','\x20\x20\x20\x20\x20\x20\x20\x20\x20string_convert\x20=\x20str;\x20\x20\x0a\x20\x20\x20','\x20\x20{\x202,\x20\x20\x200,\x20128,\x20\x20\x200,\x20\x20\x200,\x20128,\x20\x2064,\x20},\x20//glyph\x20;\x20code=26\x20\x20\x20\x0a','\x20int\x20bt','#include\x20<OneWire.h>','Tp.tp_init();\x20\x20\x0a\x20Tp.tp_adjust();\x20\x20\x0a\x20Tp.tp_dialog();\x20\x20\x0a\x20\x20Tft.lcd_clear_screen(BLACK);\x20\x0a','array_getsize','long\x20inokia\x20=\x20','(\x27r\x27)','Pix6e9','setups_','\x20\x20\x20Serial.print(\x22Connecting\x20to\x20Wifi\x20SSID\x20\x22);\x20\x0a\x20','\x20\x20\x20WiFi.mode(WIFI_AP);\x0a','Pix15e6','Green','EEPROM.read(0)','variable3','otto_move_speed','#include\x20<DallasTemperature.h>','setups_piannobox','.show();\x20\x0a\x20\x20\x20\x20\x20delay(','SCK_N','\x20%\x201\x20==\x200)','\x09Serial.println(\x22Conectando\x22);\x0a','\x20>\x20','define_stepper_','\x20\x20for\x20(i\x20=\x200;\x20i<_length\x20&&\x20i<64;\x20i++){\x0a','STEP_RPM','\x20\x20\x20long\x20duration,\x20distance;\x0a','PROPERTY','\x20\x20{\x202,\x20\x20\x200,\x20192,\x20\x2064,\x20128,\x20192,\x20\x20\x200,\x20},\x20//glyph\x20z\x20code=89\x20\x20\x20\x0a','</a>\x20\x22);\x20\x0a\x20','\x20\x20\x20}\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x0a\x20\x20','Pix14e3','Pix5e9','lcd_128x128px_spi_line_tv_box','\x20\x20\x20pinMode(','include_telegram','674628lwGxOe','1661','estado','STACK','LedControl\x20lclm=LedControl(','otto_dance_size','));\x0a\x20pixels_','#define\x20RightFoot\x20','<img\x20src=\x22','\x20\x20bt','\x20\x20\x20Serial.print(\x22Got\x20IP:\x20\x22);\x20\x20Serial.println(WiFi.localIP());\x20\x0a\x20',');\x20\x0a\x20mp3_play\x20(','mqtt_subscribe_num','\x20\x20\x20ptr\x20+=\x22<title>','\x20}\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x0a\x20','String\x20servername=\x22http://maker.ifttt.com/trigger/\x22+evento+\x22/with/key/\x22+IFTTTKEY;\x0a','\x22\x20name=\x22','color_dropdown','\x5c\x22\x5cr\x22);\x20\x20\x20\x0a\x20','MAX7219_ledmatrix_draw_px','base_form_none2','time.gettime(\x22i\x22)','FROM','622','\x20<html>\x0a<head><title>','sms_statement','\x20=\x20scale.get_units()\x20*\x2045.35\x20/\x205;\x20\x0a\x20','PARAMETERS3','define_SD','ORDER_MODULUS','float\x20feels_like;\x0a','Pix11e0','var_block','\x20\x20\x20\x20\x20String\x20chat_id\x20=\x20bot.messages[i].chat_id;\x20\x20\x0a\x20','\x20unsigned\x20long\x20timeout,\x20uptime_timer,\x20plot_timer;\x20\x20\x0a\x20\x20\x20','\x20\x20\x20ptr\x20+=\x22\x20\x20\x20\x20\x20\x20document.getElementById(\x5c\x22adc_val\x5c\x22).innerHTML\x20=\x20this.responseText;\x20\x20\x20\x20\x22;\x20\x20\x0a\x20','include_Adafruit_Sensor2','PIN_RKOD','DC_N','encoder_1.write(','IPAddress\x20ip(','\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20if\x20(n\x20>=\x200x90\x20&&\x20n\x20<=\x200xBF)\x20n\x20=\x20n\x20+\x200x2F;\x20\x0a\x20','\x20#include\x20<Max72xxPanel.h>\x20\x0a\x20','\x20\x20\x20jsonArray[jsonBuffer.length()\x20+\x201]\x20=\x20\x27\x5c0\x27;\x0a','inout_attachInterrupt','if\x20((micros()-','Pix8e15','Y_Nokia1','\x20\x20\x20\x20\x20\x20\x20\x20\x20PLOTmem[i][j]\x20=\x20PLOTmem[i][j\x20+\x201];\x20\x20\x20\x0a\x20\x20\x20','PIN','\x20tape\x20=\x20utf8rus(','\x20\x20\x20B','\x20\x20ledcSetup(',';\x20\x0a\x20\x20\x20//\x20\x20\x20\x20Pixcil\x20=\x20NeoPix;\x20\x0a\x20\x20\x20for\x20(int\x20count\x20=\x200;\x20count\x20<\x20NeoPix;\x20count++)\x20{\x20\x0a\x20\x20\x20\x20strip','for\x20(var\x20','\x20=\x20stepn','define_stepper','\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20break;\x20\x0a\x20','interrupts_attach','\x20\x20{\x204,\x20\x20\x200,\x20\x20\x200,\x20\x20\x200,\x20\x20\x200,\x20240,\x20\x20\x200,\x20},\x20//glyph\x20_\x20code=62\x20\x20\x20\x0a',');\x0a\x20','RadioTEA5767_init2',');\x20\x0a\x20sendData(\x22AT+RST','\x20\x20{\x202,\x20128,\x20\x2064,\x20\x2064,\x20\x2064,\x20128,\x20\x20\x200,\x20},\x20//glyph\x20)\x20code=8\x20\x20\x20\x0a','Pix14e13','base_conect_esp8266_button_r','\x20\x20return\x20atof(mqtt_payload);\x0a',');\x20\x0a\x20\x20\x20\x20strip','textalign','\x20\x20}\x20\x0a\x20\x20\x20','Serial.print(\x22Iniciado\x20Access\x20point:\x09\x22);\x0a','\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20n\x20=\x20source[i];\x20i++;\x20\x0a\x20','Otto.bend(1,','SWVAR','include_Adafruit_Sensor55','.show();\x20\x0a\x20\x20\x20\x20\x20\x20Pixcil\x20=\x20NeoPix\x20+\x20(Pixcil\x20+\x201);\x20\x0a\x20\x20\x20}\x20\x0a\x20\x20\x20Pixcil\x20=\x200;\x20\x0a\x20\x20','procedures_ifreturn','init_generalremotecontrol1','PINc','Pix12e4',');\x20\x0a\x09\x20\x20\x20\x20\x20\x0a\x09\x20\x20for\x20(\x20int\x20i\x20=\x200\x20;\x20i\x20<\x20width\x20*\x20tape.length()\x20+\x20matrix.width()\x20-\x201\x20-\x20spacer;\x20i++\x20)\x20\x20\x0a\x09\x20\x20\x20\x20\x20\x20\x20{\x20\x0a\x09\x20\x20\x20\x20matrix.fillScreen(LOW);\x20\x0a\x09\x20\x20\x20\x20int\x20letter\x20=\x20i\x20/\x20width;\x20\x0a\x09\x20\x20\x20\x20\x20\x20x\x20=\x20(matrix.width()\x20-\x201)\x20-\x20i\x20%\x20width;\x20\x20\x20\x0a\x09\x20\x20\x20\x20\x20y\x20=\x20(matrix.height()\x20-\x208)\x20/\x202;\x20\x0a\x09\x20\x20\x20while\x20(\x20x\x20+\x20width\x20-\x20spacer\x20>=\x200\x20&&\x20letter\x20>=\x200\x20)\x20{\x20\x0a\x09\x20\x20\x20\x20\x20\x20if\x20(\x20letter\x20<\x20tape.length()\x20)\x20{\x20\x0a\x09\x20\x20\x20\x20\x20\x20\x20\x20matrix.drawChar(x,\x20y,\x20tape[letter],\x20HIGH,\x20LOW,1);\x20\x0a\x09\x20\x20\x20\x20\x20\x20}\x20\x0a\x09\x20\x20\x20\x20\x20\x20letter--;\x20\x0a\x09\x20\x20\x20\x20\x20x\x20-=\x20width;\x20\x0a\x09\x20\x20\x20\x20}\x20\x0a\x09\x20\x20\x20\x20matrix.write();\x20\x0a\x09\x20\x20\x20\x20delay(','\x20\x20\x20\x20if\x20(zen\x20<\x20zenm)\x20{\x20\x20\x20\x0a','\x20\x20\x20\x20\x20\x20\x20}\x0a',')\x20!=\x20-1)\x20{\x0a','Init_RTC_ds3231','Pix13e5','n\x20==\x201)\x20{\x20\x0a\x20\x20\x20','\x20\x20\x20while\x20(Serial.available()\x20>\x200)\x20{\x20\x20\x0a\x20\x20\x20','unsigned\x20long\x20fnc_ir_rx_decode()\x0a','\x22,\x201500,\x201);\x20\x0a','\x20\x20\x20\x20wind_speed\x20=\x20root[\x22wind\x22][\x22speed\x22];\x0a','Pix13e12','\x20\x20\x20\x20\x20tft1.setCursor(','\x20int\x20T','Pix12e0','740','&quot;','\x20\x20\x20\x20temperature\x20=\x20root[\x22main\x22][\x22temp\x22];\x0a',');\x20\x0a\x09','\x20\x20\x20\x20\x0a\x20OneWire\x20ibutton\x20(pin);\x20\x20\x0a\x20byte\x20addr[8];\x20\x20\x0a\x20int\x20writeByte(byte\x20data){\x20\x0a\x20\x20int\x20data_bit;\x20\x0a\x20for(data_bit=0;\x20data_bit<8;\x20data_bit++){\x20\x0a\x20\x20if\x20(data\x20&\x201){\x20\x0a\x20\x20\x20\x20\x20digitalWrite(pin,\x20LOW);\x20pinMode(pin,\x20OUTPUT);\x20\x0a\x20\x20\x20\x20\x20delayMicroseconds(60);\x20\x0a\x20\x20\x20\x20\x20pinMode(pin,\x20INPUT);\x20digitalWrite(pin,\x20HIGH);\x20\x0a\x20\x20\x20\x20delay(10);\x20\x20\x0a\x20\x20\x20}\x20else\x20{\x20\x0a\x20\x20\x20\x20\x20digitalWrite(pin,\x20LOW);\x20pinMode(pin,\x20OUTPUT);\x20\x0a\x20\x20\x20\x20\x20\x20pinMode(pin,\x20INPUT);\x20digitalWrite(pin,\x20HIGH);\x20\x0a\x20\x20\x20\x20\x20\x20delay(10);\x20\x0a\x20\x20\x20}\x20\x0a\x20\x20\x20data\x20=\x20data\x20>>\x201;\x20\x0a\x20}\x20\x0a\x20\x20return\x200;\x20\x0a}\x20\x0a','y_text','\x27/i/3\x27',';\x20\x0a\x20\x20\x20Pixcil\x20=\x20NeoPix;\x20\x0a\x20for\x20(int\x20count\x20=\x200;\x20count\x20<\x20NeoPix;\x20count++)\x20{\x20\x0a\x20\x20\x20strip','texttoprint','text_length','\x20\x20\x20}\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x0a\x20\x20\x20\x20','inout_analog_readR','text_soob','.show();\x20\x0a\x20\x20\x20\x20\x20\x20delay(','define_lcdlcdm7m_setup','\x20\x20}\x20while(\x20\x20\x20\x20u8g.nextPage()\x20\x20\x20);\x20\x20\x0a','lcd_128x64px_spi','moonwalkerRIGHT','\x20\x20\x20ptr\x20+=\x22{\x20\x20\x20\x20\x20\x20\x20\x20\x22;\x20\x0a\x20','.setBrightness(255);\x20\x0a\x20\x20\x20\x20\x20\x20strip','\x20\x20\x20\x20\x0a\x20\x20\x20','\x20\x20{\x202,\x20\x2064,\x20128,\x20128,\x20128,\x20\x2064,\x20\x20\x200,\x20},\x20//glyph\x20(\x20code=7\x20\x20\x20\x0a','\x20\x0a\x20\x20\x20\x20\x20}\x20\x0a\x20','wifi_init_sta_ap','\x20\x20{\x205,\x20136,\x20216,\x20168,\x20136,\x20136,\x20\x20\x200,\x20},\x20//glyph\x20M\x20code=44\x20\x20\x20\x0a','Pix7e15','bluetooth_soft_write_esp','(int)','\x09\x09\x20\x20fc=\x20gps.course.deg();\x0a',';\x20\x0a\x20int\x20i\x20=\x200;\x20\x0a\x20\x20','PIN_YL','.show();\x20\x0a\x20\x20\x20\x20\x20\x20}\x20\x0a\x20\x20\x20\x20\x20\x20Pixcil\x20=\x200;\x20\x0a\x20','\x20\x200b00000000\x20\x0a','\x20=\x200;\x20','NOM','Pix5e7','233','randomSeed(analogRead(0));','STEPPER_STEP_h','variables','w\x20=\x20','define_base_codenn_esp8266','wifiserver_stop',',\x20\x20','minutes','wifiserver_answer','months[ptm->tm_mon]','pin3',');\x20\x0a\x20tft1.fillScreen(ST7735_BLACK);\x20\x20\x0a\x20\x20','\x20\x20\x20ptr\x20+=\x22</html>\x22;\x20\x0a\x20',',byte(','ledi_ws2812','dwin_box_icon','ORDER_MULTIPLICATIVE','\x20\x20\x20Serial.println(now);\x20\x0a\x20','ORDER_UNARY_POSTFIX','Pix10e1','(unsigned\x20long)fnc_ir_rx_decode()',');\x20\x0a','131','Pix1e0','setup_sserial_gps_baudios','Nokia_number','maus_DIR','minilcdi2c_setcursor_draw_led','\x20a\x20=\x201;\x20\x0a\x20','\x20\x20\x20sim800l.print(\x22AT+CPBS=\x5c\x22SM\x5c\x22\x5cr\x22);\x20\x20\x20\x0a\x20','define_GPS_variable','\x20a\x20=\x206;\x20\x0a\x20','soft_init','\x20\x20\x20\x20\x20\x20\x20inData[indexc]\x20=\x20aChar;\x20\x20\x0a\x20\x20\x20',',OUTPUT);\x20\x0a\x20pinMode(','#include\x20<SoftwareSerial.h>\x20\x0a\x20#include\x20<DFPlayer_Mini_Mp3.h>','Pix12e12','sin(','\x20=\x20bc','\x27/i/8\x27','\x20=\x20addr[3];\x20\x0a\x20','\x20#define\x20WIFI_SSID\x20\x22','4699','define_ssBT','row','\x20\x20\x20\x20sunrise\x20=\x20root[\x22sys\x22][\x22sunrise\x22];\x0a','leonardo3','dwin_box_data','SSS','))\x20{\x20delay(1000)\x20;\x20return\x20}.\x0awhile\x20(client.available()){\x20String\x20reponse\x20=\x20client.read();\x20};\x0a','Pix1e5','\x22\x5cn\x22','definition_OpenWeather','\x20int\x20wait\x20=\x2030;\x20\x0a\x20',',\x201);\x0a','\x20+\x201;\x20\x0a\x20NeoPix\x20=\x20','PIN_C1','OPERATORS','\x22)).c_str(),String(String(','();\x20\x0a','DFPplayerMp3_init_serial1','(int\x20wait)\x20{\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x0a\x20\x20\x20\x20\x20','#include\x20<SD.h>\x0a','define_wifiserver_port','lang','provideFunction_','case\x20','enviar_ifttt(','digitalWrite(','irsend.sendDenon(','.Color(0,0,0));\x20\x0a\x20\x20\x20\x20strip','\x20\x20break;\x0a','\x20\x20\x20\x20\x20\x20\x20delay(wait);\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x0a\x20\x20','LedStrip_WS2812B_init_top','arg','ADDRESS',',DHT11);\x0a','VELL','RGBCOLOR','\x20void\x20rainbow','.setBrightness(255);\x20\x0a\x20\x20\x20\x20\x20strip','year','if\x20(!client.connect(','\x20=\x20finger.fingerID;\x20\x0a','variables_',';\x20\x0a\x20\x20\x20','RadioTEA5767_init12','\x20\x20\x20server.on(\x22/led8\x22,\x20handle_led8off);\x20\x0a\x20','\x20\x20\x20if\x20((millis()\x20-\x20plot_timer)\x20>\x20(PCdata[17]\x20*\x201000))\x20{\x20\x20\x0a\x20\x20\x20','\x20/\x20100)\x20*\x2010),false);\x09\x0a\x20\x20\x20\x20lc7d.setDigit(0,0,(','#include\x20<OneWire.h>\x20\x0a\x20#include\x20<DallasTemperature.h>\x20\x0a\x20#define\x20ONE_WIRE_BUS\x20','sim800_send_sms','PIND2',');\x20\x0a\x20\x20\x20\x20\x20\x20strip','base_define_for_esp8266','value3','PIN_RST','u8g.drawBitmapP(\x20','BODY','count','init_ds3232','color','float-2','pulseIn(',');\x20\x20\x20\x0a\x20','\x20\x200b','\x20Serial.println(\x22Ready\x20to\x20enroll\x20a\x20fingerprint!\x22);\x20\x0a\x20\x20\x20\x20Serial.println(\x22Please\x20type\x20in\x20the\x20ID\x20#\x20(from\x201\x20to\x20127)\x20you\x20want\x20to\x20save\x20this\x20finger\x20as...\x22);\x20\x0a\x20\x20\x20id\x20=\x20readnumber();\x20\x0a\x20\x20\x20\x20if\x20(id\x20==\x200)\x20{\x20\x0a\x20\x20\x20\x20\x20\x20return;\x20\x0a\x20\x20\x20\x20}\x20\x0a\x20\x20\x20\x20Serial.print(\x22Enrolling\x20ID\x20#\x22);\x20\x0a\x20\x20\x20\x20Serial.println(id);\x20\x0a\x20\x20\x20while\x20(!\x20\x20getFingerprintEnroll()\x20);\x20\x0a\x20\x20}\x20\x0a\x20uint8_t\x20getFingerprintEnroll()\x20{\x20\x0a\x20\x20\x20\x20int\x20p\x20=\x20-1;\x20\x0a\x20\x20\x20\x20Serial.print(\x22Waiting\x20for\x20valid\x20finger\x20to\x20enroll\x20as\x20#\x22);\x20Serial.println(id);\x20\x0a\x20\x20\x20while\x20(p\x20!=\x20FINGERPRINT_OK)\x20{\x20\x0a\x20\x20\x20\x20\x20p\x20=\x20finger.getImage();\x20\x0a\x20\x20\x20\x20\x20switch\x20(p)\x20{\x20\x0a\x20\x20\x20\x20\x20case\x20FINGERPRINT_OK:\x20\x0a\x20\x20\x20\x20\x20\x20Serial.println(\x22Image\x20taken\x22);\x20\x0a\x20\x20\x20\x20\x20\x20\x20break;\x20\x0a\x20\x20\x20\x20\x20case\x20FINGERPRINT_NOFINGER:\x20\x0a\x20\x20\x20\x20\x20\x20\x20Serial.println(\x22.\x22);\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20break;\x20\x0a\x20\x20\x20\x20\x20\x20case\x20FINGERPRINT_PACKETRECIEVEERR:\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20Serial.println(\x22Communication\x20error\x22);\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20break;\x20\x0a\x20\x20\x20\x20\x20\x20case\x20FINGERPRINT_IMAGEFAIL:\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20Serial.println(\x22Imaging\x20error\x22);\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20break;\x20\x0a\x20\x20\x20\x20\x20default:\x20\x0a\x20\x20\x20\x20\x20\x20\x20Serial.println(\x22Unknown\x20error\x22);\x20\x0a\x20\x20\x20\x20\x20\x20\x20break;\x20\x0a\x20\x20\x20\x20\x20\x20}\x0a\x20}\x0a\x20p\x20=\x20finger.image2Tz(1);\x20\x0a\x20\x20\x20switch\x20(p)\x20{\x20\x0a\x20\x20\x20\x20\x20case\x20FINGERPRINT_OK:\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20Serial.println(\x22Image\x20converted\x22);\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20break;\x20\x0a\x20\x20\x20\x20\x20case\x20FINGERPRINT_IMAGEMESS:\x20\x0a\x20\x20\x20\x20\x20\x20\x20Serial.println(\x22Image\x20too\x20messy\x22);\x20\x0a\x20\x20\x20\x20\x20\x20\x20return\x20p;\x20\x0a\x20\x20\x20\x20\x20case\x20FINGERPRINT_PACKETRECIEVEERR:\x20\x0a\x20\x20\x20\x20\x20\x20\x20Serial.println(\x22Communication\x20error\x22);\x20\x0a\x20\x20\x20\x20\x20\x20\x20return\x20p;\x20\x0a\x20\x20\x20\x20\x20case\x20FINGERPRINT_FEATUREFAIL:\x20\x0a\x20\x20\x20\x20\x20\x20\x20Serial.println(\x22Could\x20not\x20find\x20fingerprint\x20features\x22);\x20\x0a\x20\x20\x20\x20\x20\x20\x20return\x20p;\x20\x0a\x20\x20\x20\x20case\x20FINGERPRINT_INVALIDIMAGE:\x20\x0a\x20\x20\x20\x20\x20\x20Serial.println(\x22Could\x20not\x20find\x20fingerprint\x20features\x22);\x20\x0a\x20\x20\x20\x20\x20\x20\x20return\x20p;\x20\x0a\x20\x20\x20\x20\x20default:\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20Serial.println(\x22Unknown\x20error\x22);\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20return\x20p;\x20\x0a\x20\x20\x20\x20}\x20\x0a\x20\x20\x20\x20Serial.println(\x22Remove\x20finger\x22);\x20\x0a\x20\x20\x20delay(2000);\x20\x0a\x20\x20\x20p\x20=\x200;\x20\x0a\x20\x20\x20while\x20(p\x20!=\x20FINGERPRINT_NOFINGER)\x20{\x20\x0a\x20\x20\x20\x20\x20p\x20=\x20finger.getImage();\x20\x0a\x20\x20\x20}\x20\x0a\x20\x20\x20\x20Serial.print(\x22ID\x20\x22);\x20Serial.println(id);\x20\x0a\x20\x20\x20\x20p\x20=\x20-1;\x20\x0a\x20\x20\x20\x20Serial.println(\x22Place\x20same\x20finger\x20again\x22);\x20\x0a\x20\x20\x20while\x20(p\x20!=\x20FINGERPRINT_OK)\x20{\x20\x0a\x20\x20\x20\x20p\x20=\x20finger.getImage();\x20\x0a\x20\x20\x20\x20switch\x20(p)\x20{\x20\x0a\x20\x20\x20\x20case\x20FINGERPRINT_OK:\x20\x0a\x20\x20\x20\x20\x20\x20\x20Serial.println(\x22Image\x20taken\x22);\x20\x0a\x20\x20\x20\x20\x20\x20\x20break;\x20\x0a\x20\x20\x20\x20case\x20FINGERPRINT_NOFINGER:\x20\x0a\x20\x20\x20\x20\x20\x20Serial.print(\x22.\x22);\x20\x0a\x20\x20\x20\x20\x20\x20\x20break;\x20\x0a\x20\x20\x20\x20\x20case\x20FINGERPRINT_PACKETRECIEVEERR:\x20\x0a\x20\x20\x20\x20\x20\x20Serial.println(\x22Communication\x20error\x22);\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20break;\x20\x0a\x20\x20\x20\x20\x20case\x20FINGERPRINT_IMAGEFAIL:\x20\x0a\x20\x20\x20\x20\x20\x20\x20Serial.println(\x22Imaging\x20error\x22);\x20\x0a\x20\x20\x20\x20\x20\x20\x20break;\x20\x0a\x20\x20\x20\x20default:\x20\x0a\x20\x20\x20\x20\x20\x20\x20Serial.println(\x22Unknown\x20error\x22);\x20\x0a\x20\x20\x20\x20\x20\x20\x20break;\x20\x0a\x20\x20\x20\x20\x20}\x20\x0a\x20\x20\x20\x20}\x20\x0a\x20\x20\x20\x20p\x20=\x20finger.image2Tz(2);\x20\x0a\x20\x20\x20switch\x20(p)\x20{\x20\x0a\x20\x20\x20\x20\x20case\x20FINGERPRINT_OK:\x20\x0a\x20\x20\x20\x20\x20\x20Serial.println(\x22Image\x20converted\x22);\x20\x0a\x20\x20\x20\x20\x20\x20break;\x20\x0a\x20\x20\x20\x20case\x20FINGERPRINT_IMAGEMESS:\x20\x0a\x20\x20\x20\x20\x20\x20\x20Serial.println(\x22Image\x20too\x20messy\x22);\x20\x0a\x20\x20\x20\x20\x20\x20\x20return\x20p;\x20\x0a\x20\x20\x20\x20\x20case\x20FINGERPRINT_PACKETRECIEVEERR:\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20Serial.println(\x22Communication\x20error\x22);\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20return\x20p;\x20\x0a\x20\x20\x20\x20\x20case\x20FINGERPRINT_FEATUREFAIL:\x20\x0a\x20\x20\x20\x20\x20\x20\x20Serial.println(\x22Could\x20not\x20find\x20fingerprint\x20features\x22);\x20\x0a\x20\x20\x20\x20\x20\x20return\x20p;\x20\x0a\x20\x20\x20\x20case\x20FINGERPRINT_INVALIDIMAGE:\x20\x0a\x20\x20\x20\x20\x20\x20Serial.println(\x22Could\x20not\x20find\x20fingerprint\x20features\x22);\x20\x0a\x20\x20\x20\x20\x20\x20return\x20p;\x20\x0a\x20\x20\x20\x20\x20default:\x20\x0a\x20\x20\x20\x20\x20\x20\x20Serial.println(\x22Unknown\x20error\x22);\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20return\x20p;\x20\x0a\x20\x20\x20\x20}\x20\x0a\x20\x20\x20\x20Serial.print(\x22Creating\x20model\x20for\x20#\x22);\x20\x20Serial.println(id);\x20\x0a\x20\x20\x20\x20\x20p\x20=\x20finger.createModel();\x20\x0a\x20\x20\x20\x20if\x20(p\x20==\x20FINGERPRINT_OK)\x20{\x20\x0a\x20\x20\x20\x20\x20\x20Serial.println(\x22Prints\x20matched!\x22);\x20\x0a\x20\x20\x20\x20}\x20else\x20if\x20(p\x20==\x20FINGERPRINT_PACKETRECIEVEERR)\x20{\x20\x0a\x20\x20\x20\x20\x20\x20Serial.println(\x22Communication\x20error\x22);\x20\x0a\x20\x20\x20\x20\x20\x20return\x20p;\x20\x0a\x20\x20\x20\x20}\x20else\x20if\x20(p\x20==\x20FINGERPRINT_ENROLLMISMATCH)\x20{\x20\x0a\x20\x20\x20\x20\x20\x20Serial.println(\x22Fingerprints\x20did\x20not\x20match\x22);\x20\x0a\x20\x20\x20\x20\x20return\x20p;\x20\x0a\x20\x20\x20\x20}\x20else\x20{\x20\x0a\x20\x20\x20\x20\x20\x20Serial.println(\x22Unknown\x20error\x22);\x20\x0a\x20\x20\x20\x20\x20\x20return\x20p;\x20\x0a\x20\x20\x20}\x20\x20\x20\x20\x0a\x20\x20\x20\x20\x20Serial.print(\x22ID\x20\x22);\x20Serial.println(id);\x20\x0a\x20\x20\x20\x20p\x20=\x20finger.storeModel(id);\x20\x0a\x20\x20\x20\x20if\x20(p\x20==\x20FINGERPRINT_OK)\x20{\x20\x0a\x20\x20\x20\x20\x20\x20Serial.println(\x22Stored!\x22);\x20\x0a\x20\x20\x20}\x20else\x20if\x20(p\x20==\x20FINGERPRINT_PACKETRECIEVEERR)\x20{\x20\x0a\x20\x20\x20\x20\x20\x20Serial.println(\x22Communication\x20error\x22);\x20\x0a\x20\x20\x20\x20\x20return\x20p;\x20\x0a\x20\x20\x20\x20}\x20else\x20if\x20(p\x20==\x20FINGERPRINT_BADLOCATION)\x20{\x20\x0a\x20\x20\x20\x20\x20\x20Serial.println(\x22Could\x20not\x20store\x20in\x20that\x20location\x22);\x20\x0a\x20\x20\x20\x20\x20\x20return\x20p;\x20\x0a\x20\x20\x20\x20}\x20else\x20if\x20(p\x20==\x20FINGERPRINT_FLASHERR)\x20{\x20\x0a\x20\x20\x20\x20\x20\x20Serial.println(\x22Error\x20writing\x20to\x20flash\x22);\x20\x0a\x20\x20\x20\x20\x20\x20return\x20p;\x20\x0a\x20\x20\x20\x20}\x20else\x20{\x20\x0a\x20\x20\x20\x20\x20\x20Serial.println(\x22Unknown\x20error\x22);\x20\x0a\x20\x20\x20\x20\x20\x20return\x20p;\x20\x0a\x20\x20\x20\x20}\x20\x20\x20\x20\x0a\x20\x20\x20\x20','country_code=','\x20void\x20handle_led3off()\x20{\x20\x0a\x20','IPb','</title>\x20<meta\x20name=viewport\x20content=width=200>\x20</head>\x20<body\x20data-attr=ru>\x22);\x20\x0a\x20','if\x20(bluetooth.available()\x20>\x200)\x20{\x0a\x20\x20char\x20dataR=bluetooth.read();\x0a\x20\x20if\x20(dataR\x20==\x20','\x20\x20\x20String\x20ptr\x20=\x20\x22<!DOCTYPE\x20html>\x20<html>\x22;\x20\x0a\x20','leonardo7','VAR','#include\x20\x22Keyboard.h\x22\x20\x0a\x20#include\x20\x22Mouse.h\x22\x20\x0a','procedures_callnoreturn','lcdm_setup','\x20#include\x20\x22U8glib.h\x22\x20\x0a\x20\x20','Pix5e4','MASKb','delay(',');\x20\x0a\x0a\x20String\x20sendData(String\x20command,\x20const\x20int\x20timeout,\x20boolean\x20debug){\x20\x0a\x20String\x20response\x20=\x20\x22\x22;\x20\x0a\x20\x20esp8266.print(command);\x20\x0a\x20\x20long\x20int\x20time\x20=\x20millis();\x20\x0a\x20\x20while((time+timeout)\x20>\x20millis())\x20{\x20\x0a\x20\x20while(esp8266.available()){\x20\x0a\x20char\x20c\x20=\x20esp8266.read();\x20\x0a\x20\x20response+=c;\x20\x0a\x20}\x20\x0a\x20}\x20\x0a\x20if(debug){\x20\x0a\x20Serial.print(response);\x20\x0a\x20}\x20\x0a\x20return\x20response;\x20\x20\x20\x0a\x20}\x20\x0a\x20\x20','include_Adafruit_Sensor66','Arduino','\x20\x20\x20\x20\x20now\x20=\x20time(nullptr);\x20\x0a\x20','interrupt_','\x20\x0a\x20OneWire\x20oneWire(ONE_WIRE_BUS);\x20\x0a\x20DallasTemperature\x20sensors(&oneWire);\x20\x0a\x20DeviceAddress\x20Thermometer;\x20\x20\x20\x0a\x20int\x20deviceCount\x20=\x200;\x20\x20\x20\x0a\x20','lcd_128x128px_spi_text_tv_delay','\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20if\x20(n\x20==\x200x91)\x20{\x20n\x20=\x200xB7;\x20break;\x20}\x20\x0a\x20','#include\x20\x22ThingSpeak.h\x22\x0a','\x20\x20\x20{\x20\x0a\x20','soft_write_ttl_uart_led','Writecounter','textmod','delay(1);\x0a','\x20%\x20(int)','\x20\x20\x20\x20\x20\x20\x20setSwichActivDwin(','getFieldValue','\x20a\x20=\x203;\x20\x0a\x20',',0x','\x20\x20\x20\x20for\x20(byte\x20i\x20=\x200;\x20i\x20<\x208;\x20i++){\x20\x0a\x20\x20\x20PORTD\x20=\x20customChar','WiFiClientSecure\x20secured_client;\x0a','client.println(\x22HTTP/1.1\x20200\x20OK\x22);\x0a','\x22);\x20\x20\x0a\x20\x20\x20',',8);\x20\x0a','Pix8e6','pin_text','Initread_fingerprintingD','\x20\x20\x20\x20\x20delay(wait);\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x0a\x20\x20\x20\x20','GATEWAY','include_ds1990_Write1','\x20\x20{\x203,\x20\x2064,\x20192,\x20\x2064,\x20\x2064,\x20224,\x20\x20\x200,\x20},\x20//glyph\x201\x20code=16\x20\x20\x20\x0a','2093','weekDays[timeClient.getDay()]','Infinity','.detach();\x20\x0a','serial_available','Pix10e5','Pix14e12','continue;\x0a','Pix4e9','\x20if\x20(digitalRead(','scale.set_scale(calibration_factor);\x20\x0a\x20scale.tare();\x20\x0a\x20','base_define_while_do',',\x20OUTPUT);\x20\x0a\x20digitalWrite(','Pix1e1','Pix10e12','LTE','\x20UniversalTelegramBot\x20bot(BOT_TOKEN,\x20secured_client);\x20\x20\x0a\x20','logic_compare_log','Pix7e0','digitalRead(',',\x20BUZZER_CHANNEL);\x20\x0a\x20\x20\x20','){\x20\x20\x0a\x20',',DHT21);\x0a','\x20IPAddress\x20gateway(192,168,1,1);\x20\x20\x0a\x20','#define\x20CHAT_ID\x20\x22','</table>\x22);\x0a','\x20\x20server.begin();\x0a','\x20\x0a\x20Serial.begin(','Pix9e6','784','<tr','DS3231_MONTH',',120,96);\x20\x0a\x20\x20\x20\x20','Pix14e11','esp8266_setcursor','minilcdi2c_setcursor_draw_pl','sensor.getCurrentDC()','.show();\x20\x0a\x20\x20\x20delay(','PINGreen','#include\x20<fDigitsSegtPin.h>\x0a','ultrasonic_ranger_sensor','Types','.setPixelColor(c,\x20color);\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x0a\x20\x20','float\x20temperature;\x0a','));\x20\x0a\x20\x20\x20\x20\x20\x20\x20strip','Pix15e7','MASKd','wifi_init_sta','\x20if\x20(millis()\x20-\x20bot_lasttime\x20>\x20BOT_MTBS)\x20\x0a\x20','\x20\x20\x20for\x20(int\x20i\x20=\x200;\x20i\x20<\x20numNewMessages;\x20i++)\x20\x20\x0a\x20','196','\x20\x20\x20k\x20=\x20source.length();\x20i\x20=\x200;\x20\x0a\x20',',WHITE);\x20\x20\x0a\x09','\x27/i/4\x27','\x20\x20{\x203,\x20\x2032,\x20\x2064,\x20128,\x20\x2064,\x20\x2032,\x20\x20\x200,\x20},\x20//glyph\x20<\x20code=27\x20\x20\x20\x0a','\x20uint8_t\x20buf[VW_MAX_MESSAGE_LEN];\x20\x0a\x20\x20uint8_t\x20buflen\x20=\x20VW_MAX_MESSAGE_LEN;\x20\x0a\x20\x20if\x20(vw_get_message(buf,\x20&buflen))\x20\x0a\x20{\x20\x0a\x20for\x20(ivins\x20=\x200;\x20ivins\x20<\x20buflen-1;\x20ivins++)\x20\x0a\x20{\x20\x0a\x20\x20}\x20\x0a\x20}\x20\x0a\x20\x20',',sizeof(','\x20==\x200)\x20{\x20\x0a\x20\x20\x20\x20\x20\x20\x20','988','.setBrightness(255);\x20\x0a\x20\x20\x20\x20strip','Pix8e7','setup_telegram','2960',',\x20HIGH);\x0a','\x20==\x200)','Pix12e8',',\x20customChar','\x20\x20\x20server.on(\x22/led6\x22,\x20handle_led6off);\x20\x0a\x20','\x20\x20\x20delay(100);\x20\x20\x0a\x20','define_IFTTT','bluetooth_soft_serial_read','\x20\x20//\x20And\x20false\x20if\x20n\x20is\x20divisible\x20by\x202\x20or\x203.','int\x20year;\x0a','define_base_conect_esp8266_12f','mqtt_client.subscribe(String(String(\x22','DS1302_SECOND','456ZqlPZk','variables_piannobox','\x22);\x20\x20\x0a','\x20\x20\x20\x20\x20plot_timer\x20=\x20millis();\x20\x20\x0a\x20\x20\x20','(uint32_t\x20color,\x20int\x20wait)\x20{\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x0a\x20\x20','logic_null',',LOW);\x20\x0a\x20','Pix6e6','mcp.digitalRead(',',\x204,\x20','soft_write_ttl_uart','\x20\x20\x20ptr\x20+=\x22<meta\x20http-equiv=\x5c\x22Content-type\x5c\x22\x20content=\x5c\x22text/html;\x20charset=utf-8\x5c\x22><head><meta\x20name=\x5c\x22viewport\x5c\x22\x20content=\x5c\x22width=device-width,\x20initial-scale=1.0,\x20user-scalable=no\x5c\x22>\x22;\x20\x0a\x20','definitions',',3);\x20\x0a','\x09\x09\x20\x20minutes=gps.time.minute();\x0a','Pix1e6','\x22\x20\x0a\x20#define\x20WIFI_PASSWORD\x20\x22','\x20\x20\x20{\x20\x0a\x20\x20\x20','.servoSet(6,\x20SERVO_SG90);\x20\x0a\x20MSS','415','server.on(\x22/','n9_number','Pix13e3','\x20%\x202\x20==\x200','\x20Adafruit_NeoPixel\x20strip','.getTempCByIndex(T','\x20\x20\x20delay(1000);\x20\x0a\x20','\x20int\x20i;\x20\x0a\x20','day','setups_valuearef_dropdown','\x09\x09\x20\x20second=gps.time.second();\x0a','if\x20(!client)\x20{\x20return;\x20}\x0a','\x20\x20\x20\x20\x20\x20\x20\x20\x20int\x20\x20\x20\x20\x20\x20hue\x20\x20\x20=\x20firstPixelHue\x20+\x20c\x20*\x2065536L\x20/\x20strip',');\x20\x0a\x20\x20\x20\x20\x20Pixcil\x20=\x20Pixcil\x20-\x201;\x20\x0a\x20\x20\x20}\x20\x0a\x20\x20\x20Pixcil\x20=\x200;\x20\x0a\x20\x20\x20\x20\x20\x20\x20','math_random_int_g','inout_analog_write','\x20=\x20','\x20\x20\x20\x20a\x20=\x20b;','lcd_128x64px_spi_top','\x20\x20{\x204,\x20\x2096,\x20144,\x20144,\x20144,\x20\x2096,\x20\x2016,\x20},\x20//glyph\x20Q\x20code=48\x20\x20\x20\x0a','\x20\x20{\x204,\x20224,\x20\x2016,\x20\x2096,\x20128,\x20240,\x20\x20\x200,\x20},\x20//glyph\x202\x20code=17\x20\x20\x20\x0a','\x20\x20\x20bc','init_ds18b20','\x20\x20\x20\x20\x20\x20\x20String\x20value\x20=\x20\x22\x22;\x20\x20\x0a\x20\x20\x20','valeur','client.println(\x22<html>\x22);\x0aclient.println(','\x20\x20\x20sim800l.print(','\x20TV.draw_rect(','\x20\x20server.on(\x22/\x22,\x20handle_OnConnect);\x20\x0a\x20','.numPixels();\x20c\x20+=\x203)\x20{\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x0a\x20\x20','define_softwareserial_gps','IPa','substr','DateTime_RTC_ds3231','size','pin2','\x20\x20{\x203,\x20\x20\x200,\x20160,\x20\x2064,\x20160,\x20\x20\x200,\x20\x20\x200,\x20},\x20//glyph\x20*\x20code=9\x20\x20\x20\x0a','\x20=\x20true;\x20\x0a\x20\x20\x20','#include\x20<LCD5110_Basic.h>\x20\x0a\x20LCD5110\x20LCD(','EEPROM.write(','Pix15e8','Pix0e10','&gt;','WiFi.softAPConfig(staticIP_ap,\x20gateway_ap,\x20subnet_ap);\x0a','lcd_128x64px_spi_draw','\x20\x20\x20\x20}\x20\x20\x20\x0a','detected\x20=\x20true;\x20\x0a\x20\x20}\x20\x0a\x20\x20','\x20\x20\x20int\x20firstPixelHue\x20=\x200;\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x0a\x20\x20\x20','client.println(\x22HTTP/1.1\x20200\x20OK\x22);\x0aclient.println(\x22Content-Type:\x20text/html;\x20charset=UTF-8\x22);\x0aclient.println(\x22\x22);\x0aclient.println(\x22<!DOCTYPE\x20HTML>\x22);\x0a','\x20%\x20',');\x20\x0a\x20byte\x20cardx[4]=\x20{0x3F,0x01,0x23,0x44};\x20\x0a\x20String\x20cardreaded(byte\x20*buffer,byte\x20bufferSize)\x20\x0a\x20{\x20\x0a\x20String\x20card=\x22\x22;\x20\x0a\x20for\x20(byte\x20i=0;\x20i<bufferSize;\x20i++)\x20\x0a\x20{\x20\x0a\x20card+=String(buffer[i]<0x10\x20?\x20\x22\x200\x22\x20:\x20\x22\x20\x22);\x20\x0a\x20card+=String(buffer[i],HEX);\x20\x0a\x20}\x20\x0a\x20return\x20card;\x20\x0a\x20\x20}\x20\x0a\x20','PIN_R3','\x20\x20\x20\x20mqtt_payload[i]\x20=\x20_payload[i];\x0a','led','Pix3e12','define_BT',',\x2020);\x20\x0a','\x09\x09mqtt_client.connect(mqtt_clientid,mqtt_user,mqtt_pass);\x0a','\x20byte\x20plotLines[]\x20=\x20{0,\x201,\x204,\x205,\x206,\x207};\x20\x20\x20\x20\x0a\x20\x20\x20','\x22,\x202000,\x201);\x20\x0a\x20delay\x20(3000);\x20\x0a\x20sendData(\x22AT+CWMODE=1','PIN3','init_temp_ds18b20_1','.show();\x20\x0a\x20\x20\x20\x20\x20\x20Pixcil\x20=\x20','Pix14e6','\x20\x20\x20for(long\x20firstPixelHue\x20=\x200;\x20firstPixelHue\x20<\x205*65536;\x20firstPixelHue\x20+=\x20256)\x20{\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x0a\x20\x20\x20','&#039;','\x22,\x20\x22','\x20\x20\x20Serial.print(WIFI_SSID);\x20\x0a\x20','&Aacute;',',\x20INPUT);',';\x20\x0a\x20\x20\x20\x20\x20','include_DS1302','\x20\x20{\x203,\x20224,\x20\x2064,\x20\x2064,\x20\x2064,\x20224,\x20\x20\x200,\x20},\x20//glyph\x20I\x20code=40\x20\x20\x20\x0a','\x20\x20\x20sim800l.print(\x22AT+CMGDA=«DEL\x20ALL»\x5cr\x22);\x20\x20\x20\x0a\x20','font','698','CHAT_ID','</tr>','sim800_send','break;\x20\x0a\x20','\x20void\x20colorWipeD','emptytext','GMT','\x09mqtt_client.setServer(mqtt_broker,\x20mqtt_port);\x0a','Pix0e12','\x20\x20\x20\x20\x20\x20\x20\x20\x20case\x200xD1:\x20{\x20\x0a\x20','X_Nokia','\x20\x20\x20\x20\x20\x20PLOTmem[i][15]\x20=\x20ceil(PCdata[plotLines[i]]\x20/\x203);\x20\x20\x0a\x20\x20\x20','#include\x20<SoftwareSerial.h>','\x20==\x20currSymb)\x20\x0a\x20',')\x20==\x200\x20&\x20bt','float\x20Cloud;\x0a','\x20u8g.drawLine(','Expecting\x20code\x20from\x20statement\x20block\x20\x22','\x20\x20\x20\x09\x0a\x09','serial_write','\x5cr\x5cn','4186','city','&amp;','\x20\x20{\x204,\x20\x2096,\x20144,\x20176,\x20128,\x20112,\x20\x20\x200,\x20},\x20//glyph\x20@\x20code=31\x20\x20\x20\x0a','\x20\x20{\x203,\x20192,\x20\x2064,\x20\x2096,\x20\x2064,\x20192,\x20\x20\x200,\x20},\x20//glyph\x20}\x20code=92\x20\x20\x20\x0a','notone_esp1',',\x200x01,\x200x00};\x20\x0a\x20int\x20x','\x20lclm.setIntensity(0,15);\x20\x20\x0a\x20\x20\x20lclm.shutdown(0,false);\x20\x20\x0a\x20\x20lclm.setLed(0,','\x20int\x20numberOfVerticalDisplays\x20=\x20','\x20\x20{\x201,\x20\x20\x200,\x20128,\x20\x20\x200,\x20128,\x20\x20\x200,\x20\x20\x200,\x20},\x20//glyph\x20:\x20code=25\x20\x20\x20\x0a','!digitalRead(','=server.arg(\x22','DFPplayerMp3_init_serial4','(strip','setup_output_','\x20\x20{\x205,\x20136,\x20168,\x20168,\x20168,\x20\x2080,\x20\x20\x200,\x20},\x20//glyph\x20W\x20code=54\x20\x20\x20\x0a','\x20\x20DDRD\x20=\x20B11111111;\x20\x0a\x20\x20','serial_flush','104','.show();\x20\x0a\x20\x20strip','\x20\x20\x20ptr\x20+=\x22.button-off\x20{background-color:\x20#ffffff;}\x22;\x20\x0a\x20','logic_compare','Number','ROUNDUP','SHAKELEFT','logic_van','Pix9e2','\x20\x0a\x20\x20Shift595\x20Shifter(dataPin,\x20latchPin,\x20clockPin,\x20numOfRegisters);\x20\x0a\x20','st7735_drawicon','\x20\x20\x20Serial.begin(9600);\x20\x0a\x20\x20delay(1000);\x20\x0a\x20WiFi.begin(\x22','GPS_datetime','=0\x20;\x20','Pix7e6','\x09\x09ir_rx.resume();\x0a',');\x20\x0a\x20esp8266.begin(','ORDER_NONE','ultrason_','CS_N','\x22);\x20\x0a\x20bool\x20stek_bool','base_conect_esp8266_par_12f_esp','ADD','delay(2000);\x0a','Pix5e14','\x20=\x20false;\x20\x0a\x20\x20\x20','PIN_GR','Pix15e9',',WHITE,INVERT);\x20\x20\x0a\x09','IPAddress\x20gateway_ap(','.setBrightness(255);\x20\x0a\x20\x20strip','\x20\x20\x20server.onNotFound(handle_NotFound);\x20\x0a\x20','\x20\x20\x20return\x20distance;\x0a','<table','text_text2','radio.mute();\x20\x0a','mySerialBT.begin(','Pix13e0','\x20\x20if\x20(dataR\x20==\x20','values_ds3231w','tft1.drawBitmap(','lcd_tah_spi_box',',LOW);\x20\x0a\x20digitalWrite(','Pix11e5',')\x20==\x201\x20&\x20bn','Pix11e11',')\x20{\x20\x20\x0a\x20\x20\x20','while\x20(numNewMessages)\x0a','OCTAVE','Pix5e12','\x20%\x202\x20==\x200)','timeClient.getMinutes()','Initread_fingerprinting','const\x20int\x20mqtt_port=','\x20=\x20addr[6];\x20\x0a\x20','otto_move','define_TEA5767N','\x20\x20\x20\x20return\x20true;','vw_send((uint8_t\x20*)msg,\x20','PIND1','Pix15e5','include_lcd_tah_spi_tah','\x20\x20\x20WiFi.softAP(ssid,\x20password);\x20\x0a\x20','\x20String\x20UARTDISPLAY\x20=\x20\x22\x20\x20\x22;\x20\x20\x0a\x20\x20','Pix3e1','392','otto_move_sens','location','inout_analog_write2','Adafruit_NeoPixel\x20pixels_','if\x20(request.indexOf(','\x20\x20{\x204,\x20224,\x20\x2016,\x20\x2096,\x20\x20\x200,\x20\x2064,\x20\x20\x200,\x20},\x20//glyph\x20?\x20code=30\x20\x20\x20\x0a','\x22,\x201500,\x201);\x20\x0a\x20delay\x20(1000);\x20\x0a\x20sendData(\x22AT+CIPMUX=1','Pix10e9','comp_inf','\x20\x20#include\x20<VirtualWire.h>\x20\x0a\x20char\x20msg[3]\x20=\x20{\x20};\x20\x0a\x20const\x20int\x20transmit_pin\x20=\x20','\x20ESP8266WebServer\x20server(80);\x20\x0a\x20',');\x20\x0a\x20LD.printNumber(','leonardo11','\x20#define\x20WIFI_PASSWORD\x20\x22','PIN_SDA','\x20void\x20handle_led7off()\x20{\x20\x0a\x20','\x20unsigned\x20long\x20bot_lasttime;\x20\x20\x20\x0a\x20','define_sd_print1','RETURN','const\x20char\x20mqtt_user[]=\x22',')>=','#include\x20<Stepper.h>\x20\x0a','\x20\x20Tft.lcd_display_string(','\x20\x20{\x203,\x20160,\x20160,\x20160,\x20160,\x20\x2064,\x20\x20\x200,\x20},\x20//glyph\x20V\x20code=53\x20\x20\x20\x0a','\x20return\x20target;\x20\x0a\x20','Pix9e3','define_TM1637_1','Keyboard.press(\x27','method','255','time.gettime(\x22s\x22)','delayMicroseconds(',';\x20\x0a\x20\x20\x20\x20for\x20(int\x20count\x20=\x200;\x20count\x20<\x20NeoPix*Pixcil;\x20count++)\x20{\x20\x0a\x20\x20\x20\x20for\x20(int\x20count\x20=\x200;\x20count\x20<\x20NeoPix;\x20count++)\x20{\x20\x0a\x20\x20\x20\x20\x20\x20\x20Pixcil\x20=\x20Pixcil\x20-\x201;\x20\x0a\x20\x20\x20\x20\x20\x20strip','\x20WiFiClient\x20client;\x0a','\x20\x20\x20ptr\x20+=\x22\x20\x20xhttp.send();\x20\x20\x20\x20\x20\x22;\x20\x20\x0a\x20','lcd_128x128px_spi','\x20\x20}','\x20\x20{\x205,\x20\x2032,\x20\x2080,\x20136,\x20\x20\x200,\x20\x20\x200,\x20\x20\x200,\x20},\x20//glyph\x20^\x20code=61\x20\x20\x20\x0a',',\x200);\x20\x20\x0a','\x20xb\x20=\x20int(x','setup_lcd_128x128px_spi_tv','math_constant','base_code_reset','define_interrupt_yield','\x20\x20\x20char\x20m[2]\x20=\x20{\x20','ceil(','(){\x0a','mySerial.write(',');\x20\x0a\x20float\x20bmppressure;\x20\x0a\x20float\x20bmptemperature;\x20\x0a\x20float\x20bmpaltitude;\x20\x0a\x20float\x20bmppressure2;\x20\x0a\x20','\x22;\x0a','\x09else\x20\x0a','\x20\x20\x20Serial.println(numNewMessages);\x20\x20\x0a\x20','\x20\x20\x20for(int\x20i=strip','#include\x20<OneWire.h>\x20\x0a\x20#include\x20<DallasTemperature.h>\x20\x0a\x20','Pix7e3','\x20\x20\x20\x20\x20\x20\x20indexc\x20=\x200;\x20\x20\x0a\x20\x20\x20','radio.selectFrequency((float)','Pix11e15','\x20\x20{\x203,\x20\x2096,\x20192,\x20\x20\x200,\x20\x20\x200,\x20\x20\x200,\x20\x20\x200,\x20},\x20//glyph\x20~\x20code=93\x20\x20\x20\x0a',');\x20\x0a\x09\x20\x20x\x20=\x20(matrix.width()\x20-\x20(tape.length()\x20*\x20width))\x20/\x202;\x20\x20\x0a\x09\x20\x20y\x20=\x20(matrix.height()\x20-\x208)\x20/\x202;\x20\x20\x0a\x09\x20\x20matrix.fillScreen(LOW);\x20\x0a\x09\x20\x20for\x20(\x20int\x20i\x20=\x200\x20;\x20i\x20<\x20tape.length();\x20i++\x20)\x20{\x20\x20\x20\x20\x0a\x09\x20\x20\x20\x20\x20int\x20letter\x20=\x20i;\x20\x0a\x09\x20\x20\x20\x20\x20matrix.drawChar(x,\x20y,\x20tape[letter],\x20HIGH,\x20LOW,\x201);\x20\x20\x20\x0a\x09\x20\x20\x20\x20\x20\x20x\x20+=\x20width;\x20\x20\x20\x0a\x09\x20\x20\x20}\x20\x0a\x09\x20\x20\x20matrix.write();\x20\x20\x0a\x09\x20delay(','ypx','weather','3520','Pix2e10','setups_hardware_monitor_serial_init','.show();\x20\x0a\x20\x20\x20Pixcil\x20=\x20Pixcil\x20+\x201;\x20\x0a\x20\x20\x20\x20}\x20\x0a\x20\x20\x20strip','\x20mp3_play\x20(','#include\x20\x22BluetoothSerial.h\x22\x0aBluetoothSerial\x20mySerialBT;\x0a',',OUTPUT);\x20\x0a\x20digitalWrite(','flon','\x20server.send(200,\x20\x22text/html\x22,\x20\x22<!DOCTYPE\x20html>\x20<html\x20lang=ru>\x20<head>\x20<meta\x20charset=UTF-8>\x20<title>','base_define_ttl_uart','Pix6e7','[]\x20=\x20{\x20\x0a\x20','WHOLE','Pix3e4','setup_mrfc522','\x20\x20\x20\x0a\x20','\x20\x20\x20if(String(_topic)==String(String(\x22','\x20\x20\x20while\x20(now\x20<\x2024\x20*\x203600)\x20\x0a\x20','\x20\x20\x20mySerial.write(resetdwin,10);\x20\x0a\x20\x20','hall_read','name','\x20\x20\x20\x20if\x20(n\x20%\x20(x\x20-\x201)\x20==\x200\x20||\x20n\x20%\x20(x\x20+\x201)\x20==\x200)\x20{','text_otvet',',\x20-1);\x0a','\x20/\x201000)\x20*\x2010),false);\x20\x20lc7d.setDigit(0,5,(','int\x20httpResponseCode\x20=\x20http.GET();\x0a','Pixel_number','Shifter.setRegisterPin(','Init_remotecontrolMRT1','tabledata','PIN_RS','\x20\x20\x20\x20}\x20\x0a\x20\x20\x20','n\x20=\x20stek_bool','220',');\x20\x0a\x20\x20\x20\x20\x20\x20\x20strip','\x20\x20\x20\x20\x20if\x20(aChar\x20!=\x20','Adafruit_MCP23X17\x20mcp;\x0a\x20','int\x20xb','.slowmove(','\x20\x20\x20server.handleClient();\x20\x20\x0a\x20','server.handleClient();\x0a','interrupts_attach2','.Color(0,0,0));\x20\x0a\x20\x20\x20\x20\x20strip','String\x20payload\x20=\x20\x22{}\x22;\x0a','NTPClient\x20timeClient(ntpUDP,\x20\x22pool.ntp.org\x22,(int)(','port','\x20\x20\x20\x20lc7d.setIntensity(0,15);\x20\x20\x0a\x20\x20\x20\x20lc7d.shutdown(0,false);\x20\x20\x0a\x20\x20\x20\x20lc7d.setDigit(0,1,(',');\x0a\x20pixels_','\x20<\x200)','pixels_','#include\x20<iarduino_MultiServo.h>\x20\x20\x0a\x20iarduino_MultiServo\x20MSS','ORDER_ADDITIVE','PIN_RL','OneWire\x20oneWireBus(','\x20\x20\x20Serial.println(WiFi.localIP());\x20\x0a\x20','\x09\x09\x20\x20month=gps.date.month();\x0a','(int\x20wait)\x20{\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x0a\x20\x20','define_mqtt_variables','serial_begin','\x27/i/0\x27','</title></head>\x0a<body>\x0a','DS3231_MINUTE','\x20\x20\x20\x20\x0a','Pix9e10','moonwalkerLEFT','web_esp_conect_b','FLOW','\x20\x20{\x203,\x20\x20\x200,\x20160,\x20160,\x20160,\x20224,\x20\x20\x200,\x20},\x20//glyph\x20u\x20code=84\x20\x20\x20\x0a','\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}\x20\x0a\x20','leonardo5','\x20}\x20\x0a\x20','Pix15e2','\x20\x20lc7d.setIntensity(0,15);\x20\x20\x20lc7d.shutdown(0,false);\x20\x20lc7d.setDigit(0,6,(','mySoftwareSerialgps.begin(9600);\x0a','chat_id','\x20\x20\x20\x20\x20\x20\x20char\x20*str;\x20\x20\x0a\x20\x20\x20','\x20\x20\x20\x20\x20String\x20from_name\x20=\x20bot.messages[i].from_name;\x20\x20\x0a\x20','#include\x20<Wire.h>\x0a#include\x20\x22ASOLED.h\x22\x0a','define_sendvar','TEA5767N\x20radio=TEA5767N();\x0a','\x20=\x200;\x20\x0a\x20\x20int\x20bn','myServo','\x20String\x20tape\x20=\x20\x22\x20\x22;\x20\x0a\x20',');\x20\x20\x20\x20\x0a\x09',');\x20\x0a\x20\x20matrix.setRotation(matrix.getRotation()+','\x20#include\x20<Adafruit_NeoPixel.h>\x20\x0a\x20#ifdef\x20__AVR__\x20\x0a\x20\x20#include\x20<avr/power.h>\x20\x20\x0a\x20#endif\x20\x0a\x20','=varText;\x0a','));\x20\x0a',';\x20\x0a\x20\x20\x20for\x20(int\x20count\x20=\x200;\x20count\x20<\x20NeoPix;\x20count++)\x20{\x20\x0a\x20\x20\x20\x20strip','Pix14e10','\x20\x20\x20\x0a\x20\x20\x20','\x20\x20\x20#ifdef\x20ARDUINO_ARCH_ESP32\x20\x20\x0a\x20\x20\x20\x20\x0a\x20\x20#else\x20\x20\x0a\x20\x20\x20\x20dwinSerial.begin(115200);\x20\x20\x20\x0a\x20\x20ClearDisplayDwin();\x20\x0a\x20\x20\x20#endif\x20\x20\x0a\x20',',\x20HIGH);\x20\x20\x20\x20\x0a','t=rtc.now();\x0a','mcp.begin_I2C();\x0a','long\x20','define_iconvalus_','sup','\x20\x20numNewMessages\x20=\x20bot.getUpdates(bot.last_message_received\x20+\x201);\x0a','PIN_STEEPER3','Pix9e11','float\x20temp_min;\x0a','String','\x20\x20else\x20\x20if\x20(!stek_bool_sw[','\x20\x20\x20\x20wind_angle\x20=\x20root[\x22wind\x22][\x22deg\x22];\x0a','PINCLK','bstatement',';\x20\x0a\x20\x20NeoPix\x20=\x20','Pix0e8','\x20\x20lc7d.setIntensity(0,15);\x09\x0a\x20\x20\x20\x20lc7d.shutdown(0,false);\x09\x0a\x20\x20\x20\x20lc7d.setDigit(0,7,(','\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20{\x20\x0a\x20','\x20\x20{\x203,\x20\x20\x200,\x20224,\x20224,\x20128,\x20224,\x20\x20\x200,\x20},\x20//glyph\x20e\x20code=68\x20\x20\x20\x0a','\x20=\x20event.acceleration.','rfid_init','ThingSpeak.writeField(myChannelNumber,','wifi_sta_staticip','#include\x20<SPI.h>\x0a','Pix10e13','.gamma32(strip','\x22);\x20\x0a\x20\x20\x20','otto_configuration','\x20\x20\x20while\x20(WiFi.status()\x20!=\x20WL_CONNECTED)\x20{\x20\x0a\x20','Pix10e10','Pix3e15','\x20\x0a\x20\x20\x20','\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20if\x20(isStringMessage)\x20\x0a\x20','String\x20','\x09if\x20(!mqtt_client.connected())\x20{\x0a','ESP_DeepSleep','PRIME','\x09\x09mqtt_subscribe();\x0a','\x20\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20','setup_mqtt_setup','order_read_OpenWeather_server','#include\x20\x22CapacitiveSensor.h\x22\x20\x0a\x20#include\x20<Arduino.h>\x20\x0a\x20#include\x20<Wire.h>\x20\x0a','<br>','setups_ds18b20_2','VALUE','STAT','dwin_box_zum','5274',')/sizeof(','soft_init_ttl','Pix15e4','math_modulo',';\x20\x20\x0a','416343pgNIAK','\x20int\x20numberOfHorizontalDisplays\x20=\x20','base_conect_esp8266_text',');\x20\x0a\x20}\x20\x0a\x20\x20\x20Pixcil\x20=\x200;\x20\x20\x0a\x20\x20\x20\x20','client.println(\x22<!DOCTYPE\x20html>\x20<html\x20lang=ru>\x20<head>\x20<meta\x20charset=UTF-8>\x20<title>','setup_servo_','277','BREAK','\x20\x20{\x204,\x20112,\x20128,\x20128,\x20128,\x20112,\x20\x20\x200,\x20},\x20//glyph\x20C\x20code=34\x20\x20\x20\x0a','Pix8e9','PIN_KOD','userFunctions_','#include\x20<NTPClient.h>\x0a','\x20#include\x20<TVout.h>\x20\x0a\x20#include\x20<fontALL.h>\x20\x0a\x20TVout\x20TV;\x20\x0a\x20\x20\x20','\x20\x20//\x20False\x20if\x20n\x20is\x20NaN,\x20negative,\x20is\x201,\x20or\x20not\x20whole.','Pix12e2','\x20Serial.println();\x20\x0a\x20','ORDER_UNARY_SIGN','\x20\x20tone(','\x20\x20\x20','STEEPER_NUMBER','&APPID=\x22+openWeatherMapApiKey;\x0a','include_LedControl',',14,','header','\x20int\x20pinCS\x20=\x20','bot.sendMessage(CHAT_ID,\x20',');\x20\x20\x20\x0a\x09','define_wifi_variables','&uacute;','sqrt(0.5)','Pix14e2','\x20=\x20stek_bool_bt[','\x20\x20{\x205,\x20\x2096,\x20144,\x20104,\x20144,\x20104,\x20\x20\x200,\x20},\x20//glyph\x20&\x20code=5\x20\x20\x20\x0a','\x20\x20\x20lcd.createChar(',').length()','Serial3.begin(','\x20\x20return;\x0a',')\x20==\x201\x20&\x20bt','\x20/\x20100)\x20*\x2010),false);\x20\x20\x20\x20lc7d.setDigit(0,0,(','.show();\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x0a\x20\x20','USER','\x20while\x20(!compass.begin()){\x20\x0a\x20\x20\x20Serial.println(\x22\x20\x22);\x20\x0a\x20\x20\x20\x20delay(500);\x20\x0a}\x20\x0a\x20\x20if(compass.isHMC()\x20){\x20\x20\x0a\x20\x20\x20\x20Serial.println(\x22\x20\x22);\x20\x20\x0a\x20\x20\x20\x20compass.setRange(HMC5883L_RANGE_1_3GA);\x20\x20\x0a\x20\x20\x20\x20compass.setMeasurementMode(HMC5883L_CONTINOUS);\x20\x20\x0a\x20\x20\x20\x20compass.setDataRate(HMC5883L_DATARATE_15HZ);\x20\x20\x0a\x20\x20\x20\x20compass.setSamples(HMC5883L_SAMPLES_8);\x20\x20\x0a\x20\x20}else\x20if(compass.isQMC()){\x20\x20\x0a\x20\x20\x20\x20Serial.println(\x22\x20\x22);\x20\x20\x0a\x20\x20\x20\x20compass.setRange(QMC5883_RANGE_2GA);\x20\x20\x0a\x20\x20\x20compass.setMeasurementMode(QMC5883_CONTINOUS);\x20\x20\x20\x0a\x20\x20\x20compass.setDataRate(QMC5883_DATARATE_50HZ);\x20\x20\x0a\x20\x20\x20\x20compass.setSamples(QMC5883_SAMPLES_8);\x20\x20\x0a}\x0a','*-1;\x20\x20\x0a','\x20\x20\x20server.send(200,\x20\x22text/html\x22,\x20SendHTML(false,0));\x20\x20\x0a\x20','ORDER_COMMA',':\x20\x0a','base_code_entree_read','&lt;','\x20\x20\x20\x20\x20\x20\x20\x20\x20strip','#define\x20BOT_TOKEN\x20\x22',');\x20\x0a\x20','radio_start',');\x0aanalogWrite(','table','Pix2e0','.requestTemperatures();\x20\x20\x0a\x20','\x20\x20\x20\x20if\x20(zen\x20>\x20zenm\x20)\x20{\x20\x20\x20\x0a','370','w\x20-\x20(nb\x20*\x20255)-nb);\x20\x0a\x20','\x20\x20\x20server.send(200,\x20\x22text/html\x22,\x20SendHTML(false,0));\x20\x0a\x20','fkmph','inout_analog_read','join','Pix3e6','\x22,\x201500,\x201);\x20\x0a\x20delay\x20(1000);\x20\x0a\x20sendData(\x22AT+CIPSERVER=1,80','ifttt_send','\x09WiFi.begin(wifi_ssid,wifi_pass);\x0a','tablerow','setBtnActivDwin(','int\x20hwYpos;\x20\x0a\x20int\x20hwXpos;\x20\x0a','\x20\x20delayMicroseconds(1);\x20\x20\x20\x0a','Pix0e1','\x20\x20}\x0a','tensorsensor1','clientserveur','\x20\x20\x20\x20for(int\x20b=3;\x20b>0;\x20b--)\x20{\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x0a\x20','Otto.jump(1,','inout_analog_aref','Pix3e13','Pix7e10','\x20{\x20\x0a\x20','telegram_otvet2','){\x20\x0a\x20\x20\x20','MFRC522\x20mfrc522(','\x27/i/7\x27',');\x20\x0a\x20analogWrite(','#include\x20<Wire.h>\x20\x0a\x20#include\x20<Adafruit_MCP23X17.h>\x20\x0a\x20\x20','unite','\x20\x20\x20\x20\x20n\x20=\x20source[i];\x20i++;\x20\x0a\x20','\x20\x20\x20\x20location\x20=\x20(const\x20char\x20*)root[\x22name\x22];\x0a','t.month()',',-1);\x20//\x20BACKWARD\x0a','base_define_for_ino','API_WRITE_KEY','\x20<=\x20','client.println(\x22</body>\x22);\x0aclient.println(\x22</html>\x22);\x0a','NUMBER','\x20else\x20if\x20(',';\x20\x0a\x20\x20newID[4]\x20=\x20','\x20\x20//\x20Check\x20all\x20the\x20numbers\x20of\x20form\x206k\x20+/-\x201,\x20up\x20to\x20sqrt(n).','.servoSet(10,\x20SERVO_SG90);\x20\x0a\x20MSS','Init_RTC_ds1302','PIN_STEEPER4','esp8266_handle_request','Pix13e10','\x20Afficheur_G.begin();\x20\x0a\x20\x20Afficheur_G.clear();\x20\x20\x0a\x20\x20','include_RTClib',',\x20HIGH);\x20\x20\x20\x20\x20\x0a','\x20\x20\x20server.on(\x22/led5\x22,\x20handle_led5off);\x20\x0a\x20',',\x20OUTPUT);\x20','<label\x20for=',';\x20\x0a\x20\x20\x20\x20\x20for\x20(int\x20count\x20=\x200;\x20count\x20<\x20NeoPix;\x20count++)\x20{\x20\x0a\x20\x20\x20\x20\x20Pixcil\x20=\x20Pixcil\x20+\x201;\x20\x0a\x20\x20\x20\x20\x20strip','ledon',',\x201);\x20\x0a\x20delayMicroseconds((7\x20*\x20','\x22);\x20\x0a\x20','Init_MAX7219_ledmatrix','PIN1','PINBlue','Pix3e10','\x20>\x200','include_httpclient','\x20\x20\x20unsigned\x20char\x20n;\x20\x0a\x20','mcp.pinMode(','timeClient.begin();\x0a','define_MCP23X08','telegram_message_name_received','&deg;','+1;\x20\x0a\x20\x20\x20\x20\x20NeoPix\x20=\x20NeoPix\x20-\x201;\x20\x0a\x20\x20\x20}\x20\x0a\x20\x20\x20Pixcil\x20=\x20','controls_flow_statements','PASSWORD','\x20\x20\x20Serial.begin(9600);\x20\x0a\x20','\x20&&\x20hwYpos\x20<\x20','\x20\x20\x20\x20\x20\x20\x20}\x20\x20\x0a\x20','include_thingspeak','&Iacute;','dht_sensor','micros()','.readHumidity(),true)','Pix8e13','setup_spi','Pix4e5','Pix13e11','define_lcd_con_nokia','NNN','Writecounter6','\x20=\x201;\x20\x0a\x20\x20\x20\x20\x20\x20\x20','Pix6e11','\x20char\x20inData[82];\x20\x20\x20\x0a\x20\x20\x20','GPS_location','Pix9e4',');\x20\x20\x0a\x09','\x20==\x201)\x20{\x20\x0a\x20\x20\x20\x20\x20\x20\x20','Pix13e8','lclm.setIntensity(0,15);\x20\x0a\x20lclm.shutdown(0,false);\x20\x0a','lcdi2c_setcursor_draw','userFunctions',');\x20\x0a\x20stepper_','Pix7e8','CONSTANT','tone_pin','.servoSet(16,\x20SERVO_SG90);\x20\x0a\x20MSS','&eacute;','PIND4',');\x0aIPAddress\x20subnet(','Keyboard.write(','define_mqtt_callback','IRrecv\x20ir_rx(','\x20}\x20\x20\x0a\x20\x20\x20','\x20\x20\x20ptr\x20+=\x22</style>\x22;\x20\x0a\x20','eeprom_read_byte','.show();\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x0a\x20\x20','actuator_tone_esp1','&Oacute;','\x20=\x201;\x20\x0a\x20\x20\x20','\x20\x20\x20{\x0a','description','OLED_data_wifi_kit','440','PARAMETERS2','continue;\x20\x0a\x20','include_NTPClient','\x20\x20\x20for(int\x20a=0;\x20a<10;\x20a++)\x20{\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x0a\x20\x20\x20\x20','controls_for','\x20\x20\x20ptr\x20+=\x22\x20\x20xhttp.onreadystatechange\x20=\x20function()\x20{\x20\x20\x20\x20\x20\x20\x22;\x20\x20\x0a\x20','hallRead()','getInputTargetBlock','lcdm_setcursor','Pix13e14','Pix4e11','Otto.sing(','#include\x20\x22ESP8266WiFi.h\x22\x0a','ifttt_init','void\x20mqtt_subscribe(){\x0a','width','\x22);\x20\x20\x0a\x20\x20while\x20(WiFi.status()\x20!=\x20WL_CONNECTED){\x20\x0a\x20\x20\x20delay(1000);\x20\x0a\x20\x20\x20\x20\x20Serial.print(\x22.\x22);\x20\x0a\x20\x20\x20}\x20\x0a\x20Serial.println(WiFi.localIP());\x20\x0a\x20server.begin();\x20\x0a\x20','\x20\x20\x20digitalWrite(','SQRT1_2','\x22;\x20\x20\x0a\x20','\x09randomSeed(micros());\x0a','Pix12e5',',\x20INPUT);\x0a\x20\x20attachInterrupt(','Pix12e15','SpeedServo','telegram_reception_function','flappingBACK','LEDI','#define\x20Buzzer\x20','(encoder_1.read()/4)','\x20\x20{\x202,\x20128,\x20\x2064,\x20\x20\x200,\x20\x20\x200,\x20\x20\x200,\x20\x20\x200,\x20},\x20//glyph\x20\x20code=63\x20\x20\x20\x0a','\x20//\x20left\x20foot\x20pin,\x20servo[2]\x0a','.begin();\x20\x20\x0a\x20\x20strip','Pix6e1','\x20\x20\x20ptr\x20+=\x22<script>\x20\x20\x20\x20\x20\x20\x20\x20\x22;\x20\x0a\x20','form',';\x20\x0a\x20\x20\x20\x20\x20for\x20(int\x20count\x20=\x200;\x20count\x20<\x20','\x09Serial.println(WiFi.macAddress());\x0a','(uint32_t\x20color,\x20int\x20wait)\x20{\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x0a\x20\x20\x20','\x20\x20\x20\x20\x20delay(wait);\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x0a\x20\x20\x20\x20','.Color(0,0,0));\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20strip','includes_touch_if_block','\x20\x20{\x201,\x20128,\x20128,\x20128,\x20128,\x20128,\x20\x20\x200,\x20},\x20//glyph\x20l\x20code=75\x20\x20\x20\x0a','sd_printfile1','print_R','[8]\x20=\x20{\x20\x0a\x20','\x09\x20\x20if\x20(gps.speed.isValid())\x20\x0a','Init_OpenWeather','};\x20\x0a','round(','define_Universal-Arduino-Telegram-Bot-master','\x20\x20{\x202,\x20\x2064,\x20128,\x20192,\x20128,\x20128,\x20\x20\x200,\x20},\x20//glyph\x20f\x20code=69\x20\x20\x20\x0a','\x20\x20\x20jsonBuffer.replace(\x27]\x27,\x20\x27\x20\x27);\x0a','includes_piannobox','\x20LCD.InitLCD();\x20\x0a','\x20\x20\x20Serial.print(\x22.\x22);\x20\x0a\x20','\x20\x20\x20ptr\x20+=\x22\x20\x20\x20\x20if\x20(this.readyState\x20==\x204\x20&&\x20this.status\x20==\x20200)\x20{\x20\x20\x20\x20\x20\x20\x22;\x20\x20\x20\x0a\x20','radio.startListening();\x20\x0a\x20','#include\x20<WiFi.h>\x20\x20\x0a\x20','\x20\x20\x20\x20\x20{\x20\x0a\x20','soft_write_ttl_uart_g','for\x20(int\x20i\x20=\x200;\x20i\x20<\x20numNewMessages;\x20i++)\x0a','\x20==\x20-1)\x20{\x20\x0a\x20\x20\x20',',\x20INPUT);\x20\x20\x0a','\x20\x20\x20Serial.println(\x22HTTP\x20server\x20started\x22);\x20\x0a\x20','INFINITE_LOOP_TRAP','\x22,\x203000,\x201);\x20\x0a\x20delay\x20(3000);\x20\x0a\x20sendData(\x22AT+CWLAP',';\x20\x0a\x20\x20newID[7]\x20=\x20','Serial.begin(9600);\x20\x20\x20\x0a\x20','rate','_dropdown','.setBrightness(','.show();\x20\x0a\x20\x20\x20Pixcil\x20=\x20','());\x0a','\x20\x20\x20\x20\x20int\x20numNewMessages\x20=\x20bot.getUpdates(bot.last_message_received\x20+\x201);\x20\x0a\x20','Pix9e5','WiFiServer\x20server(','\x20\x20\x20\x20\x20}\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x0a\x20\x20\x20','UniversalTelegramBot\x20bot(BOT_TOKEN,\x20secured_client);\x0a','WiFiClient\x20client\x20=\x20server.available();\x0a','\x20==\x200)\x20{\x20\x0a\x20\x20\x20','#include\x20<MFRC522.h>','#include\x20<TinyGPSPlus.h>','\x20\x20\x20}\x20\x0a\x20\x20\x20','\x20\x20noTone(','\x20\x20#include\x20\x22I2Cdev.h\x22\x20\x0a\x20#include\x20\x22MPU6050.h\x22\x20\x0a\x20#define\x20TIME_OUT\x2020\x20\x0a\x20\x20\x20int16_t\x20ax,\x20ay,\x20az,\x20gx,\x20gy,\x20gz;\x20\x0a\x20\x20MPU6050\x20accgyro;\x20\x0a','\x20\x20\x20server.on(\x22/led3\x22,\x20handle_led3off);\x20\x0a\x20','));\x20\x0a\x20\x20strip','\x20\x20#define\x20FNT_UFONT_HEIGHT\x206\x20\x20\x20\x0a',');\x20\x0a\x20\x20\x20u8g.setPrintPos(','LCD.setFont(SmallFont);\x20\x0a\x20LCD.print(','lcd_con_nokia_number','Pix5e2','7040','\x20\x20\x20while\x20(i\x20<\x20k)\x20{','st7735_icon','lcd_tah_spi','\x20\x20\x20\x20\x20\x20\x20indexc++;\x20\x20\x0a\x20\x20\x20',',\x20\x22\x22);\x0a','PIN_DB7','\x20\x0a\x20\x20}\x20\x0a\x20','sd_printfile2',',\x201,\x208,\x20customChar','\x20\x20{\x203,\x20\x20\x200,\x20224,\x20\x20\x200,\x20224,\x20\x20\x200,\x20\x20\x200,\x20},\x20//glyph\x20=\x20code=28\x20\x20\x20\x0a','Pix4e3','nomer','\x20*\x20-1;\x20\x0a\x20\x20\x20','\x20\x20{\x203,\x20160,\x20160,\x20\x20\x200,\x20\x20\x200,\x20\x20\x200,\x20\x20\x200,\x20},\x20//glyph\x20\x22\x20code=1\x20\x20\x20\x0a','include_leonardo','\x20\x20{\x203,\x20128,\x20224,\x20160,\x20160,\x20160,\x20\x20\x200,\x20},\x20//glyph\x20h\x20code=71\x20\x20\x20\x0a','esp8266_wait_server','intervalle','(n)\x20{','#include\x20<Wire.h>','include_Adafruit_ADXL345_U','ptr\x20+=\x22<a\x20class=\x5c\x22button\x20button-off\x5c\x22\x20href=\x5c\x22/','ORDER_DIVISION','PIN_RM2','\x20EEPROM.write(250,\x200);\x20\x20\x0a\x20EEPROM.write(251,\x200);\x20\x20\x0a\x20\x20}\x20\x0a','\x20/\x20100)\x20*\x2010),false);\x09\x0a\x20\x20\x20\x20lc7d.setDigit(0,4,(',',\x20LOW);\x20\x20\x20\x0a',';\x20\x0a\x20\x20Pixcil\x20=\x20NeoPix\x20+\x201;\x20\x0a\x20\x20\x20for\x20(int\x20count\x20=\x200;\x20count\x20<\x20NeoPix;\x20count++)\x20{\x20\x0a\x20\x20\x20\x20for\x20(int\x20count\x20=\x200;\x20count\x20<\x20NeoPix;\x20count++)\x20{\x20\x0a\x20\x20\x20\x20\x20\x20\x20Pixcil\x20=\x20Pixcil\x20-\x201;\x20\x0a\x20\x20\x20\x20\x20\x20\x20strip','\x09WiFi.begin(mqtt_wifi_ssid,mqtt_wifi_pass);\x0a','countrycode','</p>\x20\x22);\x20\x0a\x20','defaultCount_',';\x20\x20\x0a\x20\x20vga.printPROGMEM((byte*)fnt_ufont_data,\x20FNT_UFONT_SYMBOLS_COUNT,\x20FNT_UFONT_HEIGHT,\x203,\x201,\x20ard','\x20=\x20addr[4];\x20\x0a\x20','\x20\x20\x20\x0a','.numPixels();\x20i>-1;\x20i--)\x20{\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x0a\x20\x20\x20','\x20a\x20=\x208;\x20\x0a\x20','\x09\x20\x20if\x20(gps.location.isValid())\x20\x0a','for\x20(int\x20','Init_MAX7219_ledmatrix4x','Init_RTC_ds3231w','\x20\x20MSS','setup_include_ds1990','LedStrip_WS2812B_initRGB','Otto\x20Otto;','t.hour()','border\x20:\x20','HIGH',';\x20\x20\x0a\x20','setup_HMC5883','.readString()','\x20/\x201000)\x20*\x2010),false);\x20\x20\x20\x20lc7d.setDigit(0,6,(','\x20char\x20leddwin\x20[10]\x20={0x5A,0xA5,0x07,0x82,0x00,0x82,0x00,0x00,0x00,0x00};\x20\x0a\x20',',\x20\x22','telegram_otpravit','FUNCTION_NAME_PLACEHOLDER_','bmpInit_Compass_HMC5883','DS1302_HOUR','\x20\x20\x20sim800l.print(\x22AT+GSMBUSY=1,\x201\x5cr\x22);\x20\x20\x20\x0a\x20','\x20\x20\x20\x20\x20\x20\x20delayMicroseconds(map(spedn','DateTime_RTC_ds3231w','\x20==\x200){\x20\x20\x0a','pow(','includes_','px\x20','\x20=\x20addr[2];\x20\x0a\x20','itemCount_','#include\x20<WiFiClient.h>\x0a','\x20cutBuzzerDwin(','Pix12e13','\x20\x20{\x202,\x20\x20\x200,\x20192,\x20\x2064,\x20\x2064,\x20\x2064,\x20128,\x20},\x20//glyph\x20j\x20code=73\x20\x20\x20\x0a','Pix9e12','\x09if(decoded)\x20\x0a','Pix2e13','22116kvDhXB','Unknown\x20math\x20operator:\x20','\x20boolean\x20lightState,\x20reDraw_flag\x20=\x201,\x20updateDisplay_flag,\x20updateTemp_flag,\x20timeOut_flag\x20=\x201;\x20\x20\x20\x0a\x20\x20\x20','void\x20GetValuesWeather\x20(String\x20jsonBuffer)\x0a','lcd_tah_spi_int','float\x20flat,flon,falt,fc,fk,fmph,fmps,fkmph;\x0a','modifier','\x20\x20\x20while\x20(WiFi.status()\x20!=\x20WL_CONNECTED)\x20\x0a\x20','\x20int\x20a\x20=\x200;\x20\x0a\x20','\x20void\x20colorWipe','bluetooth_soft_write','#include\x20<Keypad.h>',',4);\x20\x0a','actuator_rgbled595','\x20void\x20handle_led1off()\x20{\x20\x0a\x20','#include\x20<IRremote.h>\x20\x20\x0a\x20IRsend\x20irsend;\x20\x0a',');\x20\x0a\x20\x20lcd.write((uint8_t)','otto_do','\x20\x20{\x204,\x20\x2096,\x20144,\x20144,\x20144,\x20\x2096,\x20\x20\x200,\x20},\x20//glyph\x20O\x20code=46\x20\x20\x20\x0a','\x20<\x20','\x09\x20\x20if\x20(gps.date.isValid())\x20\x0a','mqtt_publish','170Qjxzpn','#include\x20<LedControl.h>\x0a','\x20\x20pinMode(','\x20\x20\x20\x20\x20for\x20(int\x20count\x20=\x200;\x20count\x20<\x20stepn','web_esp_conect_wifi','\x20#include\x20<ESP8266WiFi.h>\x20\x0a\x20WiFiServer\x20server(80);\x20\x20\x0a\x20\x20',';\x20\x0a\x20\x20\x20for\x20(int\x20count\x20=\x200;\x20count\x20<\x20NeoPix;\x20count++)\x20{\x20\x0a\x20\x20\x20\x20Pixcil\x20=\x20Pixcil\x20+\x201;\x20\x0a\x20\x20\x20\x20\x20strip','String\x20weekDays[7]={\x22Sunday\x22,\x20\x22Monday\x22,\x20\x22Tuesday\x22,\x20\x22Wednesday\x22,\x20\x22Thursday\x22,\x20\x22Friday\x22,\x20\x22Saturday\x22};\x0a','includes_soft_write_ttl_uart_led','setup_Init_MAX7219_ledmatrix4x','#include\x20\x22DHT.h\x22\x20\x0a',',1);\x20//\x20FORWARD\x0a','&Ntilde;','telegram_sendmessage','\x20mySerial.write(nb);\x20\x0a\x20','];\x20\x0a\x20\x20\x20','math_change','\x20\x20\x20WiFi.softAPConfig(local_ip,\x20gateway,\x20subnet);\x20\x0a\x20',';\x20count++)\x20{\x20\x0a\x20\x20\x20\x20for\x20(int\x20count\x20=\x200;\x20count\x20<\x20NeoPix;\x20count++)\x20{\x20\x0a\x20\x20\x20\x20\x20strip','\x20u8g.drawRBox(','\x20\x20\x20delay(100);\x20\x0a\x20','\x20\x20\x20ptr\x20+=\x22\x20\x20xhttp.open(\x5c\x22GET\x5c\x22,\x20\x5c\x22adcread\x5c\x22,\x20true);\x20\x20\x20\x20\x22;\x20\x20\x20\x20\x0a\x20','PIN_DIO','.servoSet(14,\x20SERVO_SG90);\x20\x0a\x20MSS',');\x0a','id_text1','wifiserver_port_library','cos(','#include\x20<Adafruit_Fingerprint.h>\x20\x0a\x20SoftwareSerial\x20mySerial(2,\x203);\x20\x20\x20\x0a\x20\x20Adafruit_Fingerprint\x20finger\x20=\x20Adafruit_Fingerprint(&mySerial);\x20\x0a\x20','logic_negate','</p>','\x20\x20\x20\x20\x20}\x20\x20\x0a','ORDERS','include_DallasTemperature','define_mqtt_loop','Pix6e2','bluetooth_a','\x20\x20\x20\x20\x20\x20\x20for\x20(int\x20j\x20=\x200;\x20j\x20<\x2015;\x20j++)\x20{\x20\x20\x20\x20\x20\x20\x0a\x20\x20\x20','userFunctions_init_temp_ds18b20_1','\x20\x20\x20\x20delay(150);\x20\x0a\x20\x20\x20','\x20}\x0a','lcd_128x64px_spi_draw_pl','\x20\x20#include\x20\x22lcdgfx.h\x22\x20\x20\x20\x0a\x20\x20DisplaySSD1306_128x64_I2C\x20Afficheur_G(16,{-1,\x200,\x2015,\x204,\x200});\x20\x20\x0a\x20','\x20\x20{\x204,\x20240,\x20128,\x20224,\x20128,\x20128,\x20\x20\x200,\x20},\x20//glyph\x20F\x20code=37\x20\x20\x20\x0a','=millis();\x0a','\x20/\x201000)\x20*\x2010),false);\x09\x0a\x20\x20\x20\x20lc7d.setDigit(0,5,(','Mouse.click(','text-align\x20:\x20','emptyVar','&Uacute;','.begin();\x20\x0a\x20','\x20void\x20handle_led8off()\x20{\x20\x0a\x20','icono','Pix3e0',',\x20gotTouch','pin4','xpx',',\x2032);\x20\x0a','\x20/\x20100)\x20*\x2010),false);\x20\x20\x0a\x20\x20\x20\x20lc7d.setDigit(0,0,(','setup_mcp_output_','36aaJFjD','wind_angle','\x22\x20);\x20\x0a','COLUMNS','Procedures','Pix6e4','height','NEG','\x09Serial.println(\x22ESP8266\x20MAC\x20Address:\x20\x20\x22);\x0a','include_dht','label','\x20void\x20handle_OnConnect()\x20{\x0a\x20','lcd_128x128px_spi_pix','.show();\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20}\x20\x0a\x20\x20\x20\x20\x20strip','Pix4e6','MOTOR_DIR','const\x20unsigned\x20char\x20','sensor.calibrate();\x20\x20\x0a\x20','\x09delay(500);\x0a','serial_write_ln','\x20\x20return\x20String(mqtt_payload);\x0a','motor_auto_stepper_box','Otto.init(LeftLeg,\x20RightLeg,\x20LeftFoot,\x20RightFoot,\x20true,\x20Buzzer);\x0a','void\x20sd_print(String\x20file,\x20String\x20texttoprint,\x20boolean\x20lf)\x0a','466','\x20Pixcil\x20=\x200;\x20\x0a\x20NeoPix\x20=\x20','\x20/\x2010)\x20*\x2010),false);\x09\x0a\x20','\x20=\x200;\x20\x0a\x20\x20int\x20bc',');\x20\x0a\x20\x20ledcAttachPin(','logic_N_pin','baudrate','\x20\x20\x20{\x20\x20\x0a\x20','\x20;\x20',',LOW);\x0a','\x20\x20{\x205,\x20136,\x20\x2016,\x20\x2032,\x20\x2064,\x20136,\x20\x20\x200,\x20},\x20//glyph\x20%\x20code=4\x20\x20\x20\x0a','\x20\x20\x20\x20\x20\x20\x20delay(wait);\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x0a\x20\x20\x20\x20','\x20//\x20right\x20foot\x20pin,\x20servo[3]\x0a','\x20=\x20addr[1];\x20\x0a\x20','isStringEmpty',',\x20INPUT_PULLUP);',');\x20\x20\x0a\x20\x09String\x20currStr\x20=\x20\x22\x22;\x20\x20\x20\x20\x20\x0a\x20\x20\x20boolean\x20isStringMessage\x20=\x20false;\x20\x20\x0a\x20','random','Writecounter4','\x200b','notone22','DEL','leonardo8','do\x20{\x20\x0a','text','Pix1e15','\x20\x20\x20ptr\x20+=\x22\x20\x20\x20\x20\x20\x20document.getElementById(\x5c\x22state\x5c\x22).innerHTML\x20=\x20this.responseText;\x20\x20\x20\x20\x22;\x20\x20\x0a\x20','#include\x20<SPI.h>','[8]\x20=\x20{','\x20\x20\x20\x20\x20\x20\x20}\x20\x20\x0a\x20\x20\x20','serveur','KEY','procedures_defnoreturn','arduino_b_code','Pix14e8','RGBCOLOR2','map(','setups_dwin_box_bot2','base_code_entree_var1','lcd_128x64px_spi_pix',');\x20\x0a\x20\x20','.show();\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x0a\x20\x20','actuator_rgbled','ReadSerial();\x20\x0a\x20',';\x20\x0a\x20int\x20ivins;\x20\x0a\x20\x20','OUTPUT_VALUE',']\x20=','ORDER_RELATIONAL','setups_initread_acs712','\x20\x20{\x204,\x20224,\x20144,\x20224,\x20160,\x20144,\x20\x20\x200,\x20},\x20//glyph\x20R\x20code=49\x20\x20\x20\x0a',',\x20OUTPUT);\x20\x20\x0a\x20\x20pinMode(','substring','const\x20char\x20mqtt_broker[]=\x22','\x20\x20\x20\x20TV.select_font(','\x20\x20\x20Serial.println(\x22Connecting\x20to\x20\x22);\x20\x0a\x20','PIN_C2','init_var1_ADXL345','\x20\x20\x20\x20id=\x20root[\x22weather\x22][\x22id\x22];\x0a','setup_ledRGB_WS2812B_top','NUM','\x20pinMode(','\x09while\x20(WiFi.status()\x20!=\x20WL_CONNECTED){\x0a','6586503nSmcbn','\x20\x20\x20\x20\x20\x20\x20updateDisplay_flag\x20=\x201;\x20\x20\x0a\x20\x20\x20',';\x20\x0a\x20','tone_note','Serial.available()','sensor.begin();\x20\x0a','define_pgmspace','\x20total3\x20=\x20\x20cs03.capacitiveSensor(30);\x20\x0a\x20if\x20(total3\x20==\x20-2)\x20{\x20\x0a\x20\x20','Pix7e1','sensors','hardware_monitor_serial_read','DIVIDEND','order_read_NTP_server','String(','\x20\x20Wire.begin();\x20Serial.begin(9600);\x20\x0a\x20\x20while\x20(!Serial);\x20\x0a\x20Serial.println(\x22\x20I2C\x20Scanner\x22);\x20\x0a','tone_delay','Pix3e9','PIN_STEEPER2','\x20\x20\x20}\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x0a\x20','math_single_int_text','\x20\x20B','Pix3e14','Pix12e9','\x20#include\x20\x22U8glib.h\x22\x20\x0a\x20U8GLIB_ST7920_128X64_1X\x20u8g(','replace','catr433_recvvar','while\x20(mySoftwareSerialgps.available()>0)\x0a','\x20\x20uint8_t\x20p\x20=\x20finger.getImage();\x20\x0a\x20\x20if\x20(p\x20!=\x20FINGERPRINT_OK)\x20\x20return\x20-1;\x20\x0a\x20\x20\x20p\x20=\x20finger.image2Tz();\x20\x0a\x20\x20\x20if\x20(p\x20!=\x20FINGERPRINT_OK)\x20\x20return\x20-1;\x20\x0a\x20\x20\x20p\x20=\x20finger.fingerFastSearch();\x20\x0a\x20\x20if\x20(p\x20!=\x20FINGERPRINT_OK)\x20\x20return\x20-1;\x20\x0a\x20\x20\x20','\x20\x20\x20\x20\x20strip',';\x20\x0a\x20\x20\x20\x20mySerial.write(x','base_code_entree_var','include_encoder','serial_init8866','));\x20\x0a\x20\x20\x20\x20strip','587','\x20\x20\x20\x20\x20\x20\x0a','esp_statement',');\x20\x0a\x20}\x20\x0a\x20\x20\x20Pixcil\x20=\x20','ir_rx.enableIRIn();\x0a',');\x20\x20\x0a\x20\x20\x20tft1.setTextColor(','NAME','math_single_int_pi2','math_single','define_base_codemm_esp8266','\x20\x20\x20\x20\x20\x20\x20numNewMessages\x20=\x20bot.getUpdates(bot.last_message_received\x20+\x201);\x20\x0a\x20','boolean\x20etat_','\x20=\x20bmppressure;\x20\x0a\x20}\x20\x0a','web_esp_conect_text','\x20\x20\x20Serial.println(WiFi.SSID());\x20\x0a','bb_dropdown',',OUTPUT);\x20\x0a\x20analogWrite(','paragraph','esp8266','RGB_TYPE','\x20total2\x20=\x20\x20cs02.capacitiveSensor(30);\x20\x0a\x20if\x20(total2\x20==\x20-2)\x20{\x20\x0a\x20\x20','LedStrip_WS2811B_init','\x20#include\x20<Shift595.h>\x20\x0a\x20#define\x20\x20\x20dataPin\x20','include_enableinterrupt','n8_number','\x20\x20\x20\x20description\x20=\x20(const\x20char\x20*)root[\x22weather\x22][\x22description\x22];\x0a','content','1397','SD.begin(','\x20\x09char\x20x','Pixel','lcd_setcursor_draw_pl','\x20IPAddress\x20local_ip(192,168,1,1);\x20\x20\x0a\x20','#include\x20<SoftwareSerial.h>\x20\x20\x0a\x20\x20SoftwareSerial\x20sim800l(','\x20#include\x20<ESP8266WiFi.h>\x20\x20\x0a\x20','</a>\x20\x20','SPEED1','\x20\x20{\x205,\x20128,\x20\x2064,\x20\x2032,\x20\x2016,\x20\x20\x208,\x20\x20\x200,\x20},\x20//glyph\x20\x20code=59\x20\x20\x20\x0a','\x09\x09{\x09\x0a','\x20\x22;\x20\x0a\x20\x20String\x20cipSend\x20=\x20\x22AT+CIPSEND=\x22;\x20\x0a\x20cipSend\x20+=\x20connectionId;\x20\x0a\x20cipSend\x20+=\x20\x22,\x22;\x20\x0a\x20cipSend\x20+=webpage.length();\x20\x0a\x20cipSend\x20+=\x22\x5cr\x5cn\x22;\x20\x0a\x20sendData(cipSend,2000,1);\x20\x0a\x20sendData(webpage,3000,1);\x20\x0a\x20String\x20closeCommand\x20=\x20\x22AT+CIPCLOSE=\x22;\x20\x0a\x20closeCommand+=connectionId;\x20\x0a\x20closeCommand+=\x22\x5cr\x5cn\x22;\x20\x0a\x20sendData(closeCommand,3000,1);\x20\x0a\x20}\x20\x0a\x20}\x20\x0a','setup_dfplayermp3','Pix6e15','irsend.sendNEC(','\x20\x20{\x204,\x20128,\x20128,\x20128,\x20128,\x20240,\x20\x20\x200,\x20},\x20//glyph\x20L\x20code=43\x20\x20\x20\x0a','#include\x20<TEA5767N.h>','thingspeak_write_long','Pix13e13','Pix11e9','lcd.init();\x20\x0a\x20lcd.backlight();\x20\x0a','\x0a\x20Keyboard.releaseAll();\x20\x0a','Afficheur_G.setFixedFont(\x20ssd1306xled_font6x8\x20);\x20\x20\x0a\x20Afficheur_G.printFixed(',',\x20BUZZER_CHANNEL);\x20\x0a\x20\x20','inout_detachInterrupt','TEXT3','localStorage','TOPIC','\x20\x20for(int\x20a=10;\x20a>0;\x20a--)\x20{\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x0a\x20','(){\x0aString\x20cadena=(String)\x20R\x22=====(\x0a','\x20\x20\x20\x20\x20if\x20(xb','\x20\x20\x20\x20\x20\x20delay(wait);\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x0a\x20\x20','Pix11e6','RGBCOLOR1','.Color(0,0,0));\x20\x0a\x20strip','define_lcd_i2c','analogRead(','\x20\x20\x20\x20last_sw','logic_N_pin3','const\x20char\x20wifi_pass2[]=\x22','variables_x9c103s','\x20\x20\x20ptr\x20+=\x22\x20\x20var\x20xhttp\x20=\x20new\x20XMLHttpRequest();\x20\x20\x20\x20\x20\x20\x20\x22;\x20\x20\x0a\x20','setup_lcdi2c_2c',',\x20OUTPUT);\x20\x0a\x20\x20\x20\x20\x20digitalWrite(','\x20\x20\x20\x20\x0a\x20\x20\x09','\x20\x20\x20\x20\x20\x20return;\x0a','\x20+\x20','static\x20const\x20char\x20ard','\x20\x20{\x202,\x20\x20\x200,\x20\x20\x200,\x20\x20\x200,\x20\x20\x200,\x20128,\x20\x2064,\x20},\x20//glyph\x20,\x20code=11\x20\x20\x20\x0a','Pix0e6','lcd_128x128px_spi_line','detected){\x20\x20\x0a\x20\x20\x20touch','LOGIC',',-1);\x20//\x20RIGHT\x0a','Pix0e0',',\x20OUTPUT);\x20\x20\x0a\x20\x20digitalWrite(','\x20\x20\x0a\x20','.c_str(),\x20','\x20\x20\x20\x20\x20}\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x0a\x20\x20','[]\x20PROGMEM=\x20{','3322','address','Mi3','stek_bool','CASE','\x20\x20{\x204,\x20240,\x20\x2016,\x20\x2032,\x20\x2064,\x20\x2064,\x20\x20\x200,\x20},\x20//glyph\x207\x20code=22\x20\x20\x20\x0a','includes','null','ELSE','<td','.show();\x20\x0a\x20\x20\x20\x20\x20\x20Pixcil\x20=\x20Pixcil\x20-\x201;\x20\x0a\x20\x20\x20}\x20\x0a\x20\x20\x20\x20\x20Pixcil\x20=\x20','\x20\x20\x20WiFi.begin(ssid,\x20password);\x20\x0a\x20','nrf24l01_begin','Pix11e13',',\x20myWriteAPIKey);\x0a','Pix3e11','value1','.show();\x20\x0a\x20\x20\x20\x20delay(','lcd_128x128px_spi_text_tv_vga1','text_text','CONTENT','\x20\x20\x20\x20\x20delay(wait);\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x0a\x20\x20\x20','\x20/\x2010)\x20*\x2010),false);\x20\x0a\x20','\x20\x20int\x20x;\x20\x0a\x20int\x20y;\x20\x0a\x20\x20\x20','[]\x20U8G_PROGMEM\x20=\x20{\x20\x0a\x20',',\x20NEO_GRB\x20+\x20NEO_KHZ800);\x20\x0a\x20\x20','struct\x20tm\x20*ptm;\x0a','setups_lcd_128x128px_spi','ptr\x20+=\x22<a\x20class=\x5c\x22button\x20button-off\x5c\x22\x20\x20onclick=\x5c\x22send(','PIN_R4','()\x20{\x0a','Pix5e0','String\x20mqtt_payload2string(unsigned\x20char\x20*_payload,\x20int\x20_length)\x0a','RST_N','\x20\x20\x20\x20\x20}\x20\x20\x0a\x20\x20\x20','BACKWARD','Pix1e3','\x20\x20\x20\x20\x20\x20\x20if\x20(ERROR_UPTIME)\x20uptime_timer\x20=\x20millis();\x20\x20\x20\x20\x0a\x20\x20\x20','split','\x20\x20\x20\x20cs00.set_CS_Timeout_Millis(30);\x20\x0a\x20\x20\x20\x20cs01.set_CS_Timeout_Millis(30);\x20\x0a\x20\x20\x20\x20\x20cs02.set_CS_Timeout_Millis(30);\x20\x0a\x20\x20\x20\x20cs03.set_CS_Timeout_Millis(30);\x20\x0a\x20\x20\x20\x20cs04.set_CS_Timeout_Millis(30);\x20\x0a\x20\x20\x20\x20cs05.set_CS_Timeout_Millis(30);\x20\x0a\x20\x20\x20cs06.set_CS_Timeout_Millis(30);\x20\x0a\x20','\x20Max72xxPanel\x20matrix\x20=\x20Max72xxPanel(pinCS,\x20numberOfHorizontalDisplays,\x20numberOfVerticalDisplays);\x20\x0a\x20','.show();\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x0a\x20\x20\x20','\x20total0\x20=\x20\x20cs00.capacitiveSensor(30);\x20\x0a\x20if\x20(total0\x20==\x20-2)\x20{\x20\x0a\x20\x20','valueToCode',');\x20\x0a\x20}\x20\x0a\x20','Pix5e8','));\x20\x0a\x20\x20\x20strip','LD.printString_','GTE','\x09\x09else\x20sd_file.print(texttoprint);\x0a','\x20byte\x20blocks,\x20halfs;\x20\x20\x0a\x20\x20\x20','style=\x22','String(\x220x\x22)\x20+\x20String(ir_rx_results.value,\x20HEX)','\x20\x20{\x203,\x20\x20\x200,\x20224,\x20160,\x20160,\x20224,\x20128,\x20},\x20//glyph\x20p\x20code=79\x20\x20\x20\x0a','\x20String\x20utf8rus(String\x20source)\x20\x0a\x20','\x20\x20\x20ptr\x20+=\x22.button-off:active\x20{background-color:\x20#ffffff;}\x22;\x20\x0a\x20','if\x20(millis()\x20-\x20bot_lasttime\x20>\x20BOT_MTBS)\x20\x0a{\x20\x0a\x20int\x20numNewMessages\x20=\x20bot.getUpdates(bot.last_message_received\x20+\x201);\x20\x0a\x20\x20\x20\x20while\x20(numNewMessages)\x20\x0a\x20{\x20\x0a\x20\x20\x0a\x20handleNewMessages(numNewMessages);\x20\x0a\x20numNewMessages\x20=\x20bot.getUpdates(bot.last_message_received\x20+\x201);\x20\x0a}\x20\x0a\x20bot_lasttime\x20=\x20millis();\x20\x0a\x20}\x20\x0a','Pix2e4','\x20\x20{\x201,\x20\x20\x200,\x20\x20\x200,\x20\x20\x200,\x20\x20\x200,\x20128,\x20\x20\x200,\x20},\x20//glyph\x20.\x20code=13\x20\x20\x20\x0a','server.send(200,\x22text/html\x22,p','\x20total4\x20=\x20\x20cs04.capacitiveSensor(30);\x20\x0a\x20if\x20(total4\x20==\x20-2)\x20{\x20\x0a\x20\x20','parsing();\x20\x0a\x20\x20updatePlot();\x20\x20\x20\x0a\x20','\x20\x20{\x204,\x20\x2096,\x20144,\x20\x2096,\x20144,\x20\x2096,\x20\x20\x200,\x20},\x20//glyph\x208\x20code=23\x20\x20\x20\x0a','LedStrip_WS2811B_init_top','ORDER_MEMBER','\x22)))','includes_OLED_data_wifi_kit','PCdata[','(String\x20msg)\x20{','otto_init','\x20-\x20Pixcil;\x20\x0a\x20\x20\x20\x20\x20for\x20(int\x20count\x20=\x200;\x20count\x20<\x20NeoPix;\x20count++)\x20{\x20\x0a\x20\x20\x20\x20\x20Pixcil\x20=\x20Pixcil\x20+\x201;\x20\x0a\x20\x20\x20\x20\x20strip',',\x20OUTPUT);\x20\x0a\x20\x20\x20\x20\x20\x20digitalWrite(','4978','float\x20wind_speed;\x0a','\x20interrupts();\x20\x0a\x20','Pix5e6','var_ultrasonic','</h','\x09if\x20(mqtt_client.connected())\x20{\x0a','\x20\x20\x20ptr\x20+=\x22setInterval(function()\x20\x20\x20\x20\x20\x20\x20\x22;\x20\x20\x20\x0a\x20','define_ledRGB_WS2812B','\x20/\x2010)\x20*\x2010),false);\x20\x20\x0a\x20','Pix1e8','\x27/i/6\x27','#include\x20<nRF24L01.h>\x0a','\x20accgyro.getMotion6(&ax,\x20&ay,\x20&az,\x20&gx,\x20&gy,\x20&gz);\x20\x0a\x20\x20\x20\x20\x20','client.println(\x22Content-Type:\x20text/html\x22);\x0a','\x20\x20\x20ptr\x20+=\x22</script>\x20\x20\x20\x22;\x20\x0a\x20','.computeHeatIndex(dht_','\x20TV.delay(','t.year()','TRUE','country','\x20\x20\x20ptr\x20+=\x22p\x20{font-size:\x2014px;color:\x20#888;margin-bottom:\x2010px;}\x22;\x20\x0a\x20','jump','leonardo4','touch_block','\x20\x20if\x20(gps.encode(mySoftwareSerialgps.read()))\x20\x0a','bluetooth_init','\x20WebServer\x20server(80);\x20\x0a\x20','pass','inout_analog_read_esp','UNTIL','#include\x20\x22TM1637.h\x22','DIVISIBLE_BY','#include\x20<UniversalTelegramBot.h>\x0a','catr433_sendvar','\x20/\x2010000000),false);\x20\x0a\x20\x20lc7d.setDigit(0,6,(','\x20\x20\x20ptr\x20+=\x22<body>\x22;\x20\x0a\x20','dht_','\x20\x20\x20}\x20\x0a\x20','variables_const','server.handleClient();\x20\x0a\x20',';\x20\x20\x0a\x20\x20\x20','&iacute;','494','Pix1e10','1046','digital_mcp_read','\x20\x20{\x204,\x20144,\x20144,\x20240,\x20144,\x20144,\x20\x20\x200,\x20},\x20//glyph\x20H\x20code=39\x20\x20\x20\x0a','define_lcd_ru','LCD_1602_RUS\x20lcd(','.servoSet(5,\x20SERVO_SG90);\x20\x0a\x20MSS','base_define_for','FIELD','MAX7219_ledmatrix_draw','\x20\x20return\x20','Serial.println(\x22Conectando\x20como\x20modo\x20punto\x20de\x20acceso\x22);\x0a','lcd_128x128px_spi_tv','\x20\x20\x20server.on(\x22/led9\x22,\x20handle_led9off);\x20\x0a\x20','WiFiClient\x20client\x20=\x20server.available();\x0aif\x20(!client)\x20return;\x0awhile\x20(!client.available())\x20{\x20delay(1);\x20}\x0achar\x20request\x20=\x20client.read();\x0aclient.flush();\x0a','Pix0e2','#define\x20LeftLeg\x20','String\x20icono;\x0a','Pix1e2','undefined','\x20time.begin();\x0a','mfrc522.PCD_Init();\x0a','text_block','659','\x20%\x201\x20==\x200','u8g.setRot','controls_switch','border','ROUNDDOWN','\x20\x20\x20bt','SHAKERIGHT','include_OpenWeather','time.gettime(\x22Y\x22)','\x20\x20\x20\x20}','\x22,\x203000,\x201);\x20\x0a\x20delay\x20(3000);\x20\x0a\x20sendData(\x22AT+CWMODE=3',');\x20\x0a\x20tm1637.display(','\x20//\x20Hacemos\x20la\x20petición\x20final\x0a','DS3231_HOUR','client.print(',');\x20\x0a\x20radio.openWritingPipe(','setup_sserial_BT','};\x20\x0a\x20int\x20x','PIN_CS','sim800_init_sms','Pix10e7',',\x200);\x20\x0a\x20\x20\x20\x20\x20\x20delay(','lcd_128x128px_spi_text','tipe','\x22\x20\x20\x0a\x20','\x20/\x201000),false);\x09\x0a\x20\x20\x20lc7d.setDigit(0,2,(','Pix9e7','column','Pix7e14','CODES','SQRT2','LD.init();\x20\x0a\x20LD.clearDisplay();\x20\x0a','ORDER_ATOMIC','\x20\x20\x20\x20temp_max\x20=\x20root[\x22main\x22][\x22temp_max\x22];\x0a','\x22,\x22','sd_printfile3','.setPixelColor(i,\x20strip','\x20#include\x20\x22HX711.h\x22\x20\x0a\x20#define\x20calibration_factor\x20-7050.0\x20\x20\x0a\x20\x20#define\x20DOUT\x20\x203\x20\x0a\x20#define\x20CLK\x20\x202\x20\x0a\x20HX711\x20scale(DOUT,\x20CLK);\x20\x0a\x20','Pix4e14','\x20HTTPClient\x20http;\x0a','unsigned\x20long\x20fix_age;\x20\x0a','Pix8e3','include_Adafruit_Sensor33','Pix8e5','3951','crusaitoRIGHT','definition_NTPClient','1319','7459','\x20-\x20Pixcil;\x20\x0a\x20\x20for\x20(int\x20count\x20=\x200;\x20count\x20<\x20NeoPix;\x20count++)\x20{\x20\x0a\x20\x20\x20\x20Pixcil\x20=\x20Pixcil\x20+\x201;\x20\x0a\x20\x20\x20strip','932','\x20\x20\x20ptr\x20+=\x22function\x20send(led_sts)\x20\x20\x20\x20\x20\x20\x22;\x20\x20\x20\x20\x0a\x20','arduino_a_code','procedures_callreturn','PIN_STEEPER1','=micros();\x0a','nrf24l01_max','background-color\x20:\x20','\x09WiFi.softAP(wifi_ssid2,wifi_pass2);\x0a','Pix8e8','\x20\x20\x20ptr\x20+=\x22\x20\x20xhttp.open(\x5c\x22GET\x5c\x22,\x20\x5c\x22led\x5c\x22+led_sts,\x20true);\x20\x20\x20\x22;\x20\x20\x20\x0a\x20','(feels_like-273.15)','LedStrip_WS2812B_init','pinMode(','\x20\x20\x20if\x20(error)\x0a','\x09mqtt_subscribe();\x0a','include_Adafruit_Sensor22','LEFT','.Color(0,0,0));\x20\x0a\x20\x20\x20strip','\x20#include\x20<WebServer.h>\x20\x0a\x20','leonardo10','boolean\x20','interrupts_attach1','soft_available','setBtnDwin(','\x20\x20{\x204,\x20240,\x20\x2016,\x20\x2016,\x20144,\x20\x2096,\x20\x20\x200,\x20},\x20//glyph\x20J\x20code=41\x20\x20\x20\x0a','hardware_monitor_serial_init','\x20\x20\x20\x20\x20Serial.print(\x22.\x22);\x20\x0a\x20','\x20=\x201;\x20\x0a\x20\x20','\x20\x20for\x20(var\x20x\x20=\x206;\x20x\x20<=\x20sqrt(n)\x20+\x201;\x20x\x20+=\x206)\x20{','lcd_128x128px_spi_text_tv','TEXT4','\x0a</form>\x0a','ESP.deepSleep(0);\x0a','</a>',']\x20&&\x20!last_bt','Y_Nokia2','</title>\x22;\x20\x0a\x20','MAX7219_ledmatrix_draw1','.show();\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20delay(',');\x20\x0a\x20\x20\x20\x20\x20strip','\x20\x20\x20\x0a\x20\x20\x20#define\x20\x20\x20numOfRegisters\x20','349','\x20\x20lc7d.setIntensity(0,15);\x20\x0a\x20\x20lc7d.shutdown(0,false);\x20\x0a\x20\x20lc7d.setDigit(0,7,(','w);\x20\x0a\x20\x20','\x0a</body>\x0a</html>\x0a','\x20\x20\x20\x20\x20\x20\x20\x20strip','\x20\x20Pixcil\x20=\x20','sensors_event_t\x20event;\x0a','\x20\x20\x20\x20\x20delay(500);\x20\x0a\x20','\x20#include\x20<VirtualWire.h>\x20\x0a\x20const\x20int\x20receive_pin\x20=\x20','_statement','\x20total6\x20=\x20\x20cs06.capacitiveSensor(30);\x20\x0a\x20if\x20(total6\x20==\x20-2)\x20{\x20\x0a\x20\x20','156',')\x20==\x200\x20&\x20bn',',\x20OUTPUT);',');\x20\x0a\x20\x20\x09\x20','\x20\x20{\x202,\x20192,\x20\x2064,\x20\x2064,\x20\x2064,\x20192,\x20\x20\x200,\x20},\x20//glyph\x20]\x20code=60\x20\x20\x20\x0a','values_text_OpenWeather_server','Stepper\x20stepper_','tell_number','\x20\x20\x20Serial.print(\x22WiFi\x20connected.\x20IP\x20address:\x20\x22);\x20\x0a\x20','e6);\x0a',',0);\x0a','\x20\x20\x20}\x0a','\x20\x20\x20\x20\x0a\x20\x20#define\x20\x20\x20latchPin\x20','digital_read','.show();\x20\x0a\x20\x20\x20Pixcil\x20=\x20Pixcil\x20-\x201;\x20\x0a\x20\x20\x20}\x20\x0a\x20\x20\x20\x20\x20Pixcil\x20=\x20','<p>\x22\x20+\x20String(','.setBrightness(255);\x20\x0a\x20\x20\x20\x20\x20\x20\x20strip','digital_readbiR','34BjTwOu','esp8266_server','Pix0e3','base_setup','texttosend','\x20/\x201000),false);\x09\x0a\x20\x20\x20\x20lc7d.setDigit(0,6,(','analogWrite(','Pix4e0','\x09\x09\x20\x20flon\x20=gps.location.lng();\x0a','</title>','.Color(','WiFiUDP\x20ntpUDP;\x0a','TEXT2',',\x2015);\x20\x0a','\x20\x20\x20\x20\x20}\x20\x0a\x20','lcd_128x128px_spi_tv_vga','PubSubClient\x20mqtt_client(mqtt_wifiClient);\x0a','\x20\x20String\x20SendHTML(uint8_t\x20led1stat,uint8_t\x20led2stat){\x20\x0a\x20','2489','yy_block','(uint32_t\x20color,\x20int\x20wait)\x20{\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x0a\x20','math_round','\x20colorWipe','\x20\x20\x20\x20\x20\x20\x20}\x20\x0a\x20','setup_ds3232','Keypad\x20Keyboard=\x20Keypad(makeKeymap(keys),Pins_Rows,Pins_Columns,4,4);\x0a','\x20\x20{\x204,\x20\x2048,\x20\x2064,\x20224,\x20\x2064,\x20240,\x20\x20\x200,\x20},\x20//glyph\x20£\x20code=94\x20\x20\x20\x0a','\x20void\x20handle_led6off()\x20{\x20\x0a\x20','\x20\x20\x20Serial.println(\x22\x22);\x20\x0a\x20','Pix13e15','1976','\x20%\x202\x20==\x201','ThingSpeak.begin(client);\x0a',');\x20\x20\x0a\x20\x20\x20tft1.println(','tm1637.point(','PIN_R2','inout_digital_write','PIN_DB5','247','DELTA','\x20\x20{\x203,\x20224,\x20\x2064,\x20\x2064,\x20\x2064,\x20\x2064,\x20\x20\x200,\x20},\x20//glyph\x20T\x20code=51\x20\x20\x20\x0a','\x20\x20\x20\x20b\x20=\x20c;','Pix2e6','*3600),\x2060000);\x0a','\x20\x20\x20ptr\x20+=\x22\x20\x20var\x20xhttp\x20=\x20new\x20XMLHttpRequest();\x20\x20\x20\x20\x20\x22;\x20\x20\x20\x20\x0a\x20','filename','Init_MAX7219_ledmatrix4x_text','NAME_TYPE','telegram_rtyid','#include\x20<SPI.h>\x20\x20\x20\x0a\x20#include\x20<Adafruit_GFX.h>\x20\x20\x20\x0a\x20#include\x20<Adafruit_ST7735.h>\x20\x20\x20\x0a\x20Adafruit_ST7735\x20tft1=Adafruit_ST7735(','Pix11e7','\x20>\x200){\x20\x20\x0a','\x20\x20\x20\x20\x20\x20\x20while\x20((str\x20=\x20strtok_r(p,\x20\x22;\x22,\x20&p))\x20!=\x20NULL)\x20{\x20\x20\x0a\x20\x20\x20','\x20\x20\x20delayMicroseconds(10);\x0a','Pix3e7','n2_number','\x20\x20{\x204,\x20240,\x20128,\x20224,\x20\x2016,\x20224,\x20\x20\x200,\x20},\x20//glyph\x205\x20code=20\x20\x20\x20\x0a','Pix7e11','\x20\x20\x20\x20\x20\x20\x20xb','DFPplayerMp3_init_serial3','const\x20','\x20#if\x20defined(__AVR_ATtiny85__)\x20&&\x20(F_CPU\x20==\x2016000000)\x20\x0a\x20\x20\x20clock_prescale_set(clock_div_1);\x20\x0a\x20#endif\x20\x0a\x20','MSS','\x20\x20\x20\x20\x20\x20\x20\x20\x20PCdata[indexc]\x20=\x20string_convert.toInt();\x20\x20\x0a\x20\x20\x20','\x20\x20\x20\x20\x20delay(100);\x20\x0a\x20','\x20\x20\x20for(int\x20i=0;\x20i<strip','t.minute()','\x20\x20{\x202,\x20192,\x20128,\x20128,\x20128,\x20192,\x20\x20\x200,\x20},\x20//glyph\x20[\x20code=58\x20\x20\x20\x0a','\x20\x20\x20Serial.print(\x22IP\x20address:\x09\x22);\x0a','getArduinoType_','\x20/\x201000000)\x20*\x2010),false);\x20\x0a\x20\x20\x20lc7d.setDigit(0,4,(',';\x20\x0a\x20\x20for\x20(int\x20count\x20=\x200;\x20count\x20<\x20NeoPix;\x20count++)\x20{\x20\x0a\x20\x20\x20\x20Pixcil\x20=\x20Pixcil\x20+\x201;\x20\x0a\x20\x20\x20strip','\x20/\x20100000)\x20*\x2010),false);\x20\x0a\x20\x20\x20lc7d.setDigit(0,3,(','dwin_box_led','stepservo_continuos_move','array_getIndex','+1);\x20\x0a\x20vw_wait_tx();\x20\x0a',';\x20count++)\x20{\x20\x20\x0a','));\x20\x0a\x20\x20\x20\x20\x20\x20strip','argumentstype_','mySerialBT.available()','*1000);\x0a','RF24\x20radio(','\x20#define\x20BOT_TOKEN\x20\x22','Pix2e11','\x20\x20{\x203,\x20\x20\x200,\x20224,\x20160,\x20160,\x20160,\x20\x20\x200,\x20},\x20//glyph\x20n\x20code=77\x20\x20\x20\x0a','#include\x20<Adafruit_ADXL345_U.h>','Pix4e13','radio.getSignalLevel()','\x09\x20\x20if\x20(gps.satellites.isValid())\x20\x0a','base_form_RR','\x20\x20leddwin[6]=','tableheading',');\x20\x0a\x20extern\x20uint8_t\x20SmallFont[];\x20\x0a\x20extern\x20uint8_t\x20MediumNumbers[];\x20\x0a\x20extern\x20uint8_t\x20BigNumbers[];\x20\x0a\x20','client.readStringUntil(\x27\x5cr\x27)','\x20http.end();\x0a',',\x20100,\x201,\x204000,\x2010000));\x20\x20\x0a','.servoSet(15,\x20SERVO_SG90);\x20\x0a\x20MSS','base_form_none','\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20if\x20(n\x20>=\x200x80\x20&&\x20n\x20<=\x200x8F)\x20n\x20=\x20n\x20+\x200x6F;\x20\x0a\x20','n4_number','\x20\x20{\x203,\x20\x20\x200,\x20224,\x20160,\x20224,\x20\x2032,\x20224,\x20},\x20//glyph\x20g\x20code=70\x20\x20\x20\x0a','\x20\x20\x20sim800l.print(\x22AT+CNMI=1,2,2,1,0\x5cr\x22);\x20\x20\x0a\x20','String\x20values;\x20\x0a','digital_mcp_write1','X_Nokia1','880','lcd_128x64px_spi_text','client.println(\x22<body>\x22);\x0a','\x20/\x20100)\x20*\x2010),false);\x20\x20\x0a\x20\x20\x20lc7d.setDigit(0,3,(','Writecounter5','Init_remotecontrolMRT','random(','type','.setPixelColor(','COLOR',';\x20\x0a\x20\x20newID[6]\x20=\x20','.clear();\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x0a\x20','send_ifttt_function',']\x20&&\x20!last_sw','\x20const\x20unsigned\x20long\x20BOT_MTBS\x20=\x201000;\x20\x20\x0a\x20','\x20\x20\x20\x20sunset\x20=\x20root[\x22sys\x22][\x22sunset\x22];\x0a','Pix15e11','\x20\x20\x20\x20\x20\x20return\x20false;','lcd_128x64px_spi_box','X_Nokia2','cutStringDwinActiv(','Pix6e13','void\x20handleNewMessages(int\x20numNewMessages){\x0a','setups','\x20=\x200;\x20\x0a\x20\x20\x20\x20\x20\x20\x20','\x20\x20\x20\x20\x20\x20\x20\x20\x20case\x200xD0:\x20{\x20\x0a\x20','String\x20description;\x0a','\x20#include\x20<WiFiClientSecure.h>\x20\x20\x0a\x20','Otto.shakeLeg(1,','(temperature-273.15)','timeClient.getEpochTime()','float-3','void\x20yield\x20(){\x0a','\x20//\x20right\x20leg\x20pin,\x20servo[1]\x0a','eeprom_write_byte_R','\x20cutBrightnessDwin(','\x20\x20\x20ptr\x20+=\x22\x20\x20xhttp.send();\x20\x20\x20\x20\x20\x20\x20\x20\x22;\x20\x0a\x20','DHT\x20dht_','\x20==\x201)\x20{\x20\x0a\x20\x20\x20','Variables','jsonBuffer\x20=\x20httpGETRequest(serverPath.c_str());\x0a','}\x20while\x20(','float-4','tft1.drawLine(','Pix10e14','\x20void\x20handle_NotFound(){\x20\x0a\x20','#define\x20LeftFoot\x20','Serial.println(','10010MqMLpC','MyLoop','.show();\x20\x0a\x20\x20\x20\x20\x20\x20}\x20\x0a\x20\x20\x20Pixcil\x20=\x200;\x20\x0a\x20\x20\x20delay(','\x20\x20\x20\x20\x20\x20\x20handleNewMessages(numNewMessages);\x20\x0a\x20','ESP8266WebServer\x20server(','include_oneWire',';\x20\x0a\x20\x20\x20\x20\x20\x20\x20Pixcil\x20=\x20NeoPix;\x20\x0a\x20\x20\x20for\x20(int\x20count\x20=\x200;\x20count\x20<\x20NeoPix;\x20count++)\x20{\x20\x0a\x20\x20\x20\x20strip',';\x20\x0a\x20NeoPix\x20=\x20','define_mqtt_subscribe','padding:10px\x2015px;border:1px\x20solid\x20#777;color:#777;text-decoration:none;','Pix8e11','DS3231_DAY','Pix6e8','while(!client.available()){\x20\x20delay(1);\x20}\x0a','\x09}\x0a','fDigitsSegtPin\x20Display(','Pix12e3','sd_print(','EEPROM.get(','\x20\x20\x20server.on(\x22/led10\x22,\x20handle_led10off);\x20\x0a\x20','.setPixelColor(c,\x20color);\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x0a\x20\x20\x20\x20','\x20\x20\x20\x20\x20delay(300);\x20\x0a\x20','\x20\x20\x0a\x20\x20\x20','\x20\x20\x20\x20feels_like\x20=\x20root[\x22main\x22][\x22feels_like\x22];\x0a','\x20mqtt_client.subscribe(String(String(\x22',';\x20\x0a\x20\x20\x20\x20\x20\x20for\x20(int\x20count\x20=\x200;\x20count\x20<\x20NeoPix;\x20count++)\x20{\x20\x0a\x20\x20\x20\x20strip','SPI.begin();\x0a\x20','PIN_CLK','x_text','value2','Pix1e13','void\x20','.setSpeed(','Keyboard.release(','Pix11e4','base_define_for_in','#include\x20<ACS712.h>\x20\x0a\x20ACS712\x20sensor(','Pix12e10','time.gettime(\x22m\x22)','void\x20mqtt_callback(char*\x20_topic,\x20unsigned\x20char*\x20_payload,\x20unsigned\x20int\x20_payloadlength){\x0a','\x20void\x20updatePlot()\x20{\x20\x20\x0a\x20\x20\x20',',\x20OUTPUT);\x20\x0a\x20\x20\x20pinMode(','#include\x20<VarSpeedServo.h>\x0a','\x20\x20{\x204,\x20144,\x20144,\x20240,\x20\x2016,\x20\x2016,\x20\x20\x200,\x20},\x20//glyph\x204\x20code=19\x20\x20\x20\x0a','interrupts_attach_yield','294','setups_dwin_box_bot1','m\x20,\x2013);\x20\x0a\x20\x20\x20\x20mySerial.write(x','\x20\x20\x20\x20\x20}\x20else\x20{\x20\x20\x0a\x20\x20\x20','\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20if\x20(n\x20==\x200x81)\x20{\x20n\x20=\x200xA8;\x20break;\x20}\x20\x0a\x20','Pix0e14','.show();\x20\x0a\x20\x20\x20\x20\x20\x20\x20delay(','frequency','EEPROM.put(','web_esp_conect_bott','IPAddress\x20staticIP_sta(','\x20/\x201000\x20-\x20(','\x27);\x20\x0a','PIN_DB4','\x20#include\x20\x22U8glib.h\x22\x20\x0a\x20U8GLIB_SSD1306_128X64\x20u8g(','(\x22\x22,\x20','broche','\x09Serial.println(WiFi.softAPIP());\x0a','13195KoisCK','procedures_defreturn','\x20\x20{\x204,\x20144,\x20160,\x20192,\x20160,\x20144,\x20\x20\x200,\x20},\x20//glyph\x20K\x20code=42\x20\x20\x20\x0a','define_lcdpins_ru',')\x5c\x22>','client.remoteIP()','tempo_sans_delay','define_wifi_static_ip_ap','\x20*\x20','Pix15e14','text_char','\x20\x20{\x202,\x20\x20\x200,\x20192,\x20128,\x20\x2064,\x20192,\x20\x20\x200,\x20},\x20//glyph\x20s\x20code=82\x20\x20\x20\x0a','\x20/\x2010)\x20*\x2010),false);\x20\x20\x20\x0a\x20',',\x201);\x20\x20\x0a','motor_step_dir','\x20=\x20cardreaded(mfrc522.uid.uidByte,\x20mfrc522.uid.size);\x20\x0a\x20\x20}\x20\x0a\x20\x20\x20','SIN','.numPixels();\x20c\x20+=\x203)\x20{\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x0a\x20\x20\x20','float\x20pressure;\x0a','SPEED','MODE','\x09\x09\x20\x20day=gps.date.day();\x0a','irsend.sendLG(','\x20\x20{\x205,\x20\x20\x200,\x20168,\x20168,\x20168,\x20\x2080,\x20\x20\x200,\x20},\x20//glyph\x20w\x20code=86\x20\x20\x20\x0a','GPS_read_save_values','\x20\x20\x20if\x20(stepn','\x20\x20\x20\x20\x20\x20\x20from_name\x20=\x20\x22Guest\x22;\x20\x20\x0a\x20','Gateway','mqtt_subscribe_text','WiFi.disconnect();\x0a\x20\x20delay(2500);\x0a\x20\x20WiFi.begin(\x22','hasReturnValue_','String\x20location;\x0a','controls_forEach','4435','\x20\x20\x20jsonBuffer.toCharArray(jsonArray,sizeof(jsonArray));\x0a','if(sensor.read(1)){\x20\x0a\x20\x20\x20\x20bmppressure\x20=\x20sensor.pressure;\x20\x20\x0a\x20\x20\x20\x20bmptemperature\x20=\x20sensor.temperature;\x20\x0a\x20\x20\x20\x20bmpaltitude\x20=\x20sensor.altitude;\x20\x0a\x20\x20}\x20\x0a\x20\x20\x20\x20\x20\x20if(sensor.read(2)){\x20\x0a\x20\x20\x20\x20bmppressure2\x20=\x20sensor.pressure;\x20\x0a\x20','for\x20(int\x20count\x20=\x200;\x20count\x20<\x2015;\x20count++)\x20{\x20pinMode(','DisplayTM1637_set_completenumber','telegram_con','void\x20enviar_ifttt(String\x20evento,String\x20valor1,\x20String\x20valor2,\x20String\x20valor3)\x0a','\x20\x20\x0a\x20\x20','\x20\x20{\x205,\x20120,\x20160,\x20112,\x20\x2040,\x20240,\x20\x20\x200,\x20},\x20//glyph\x20$\x20code=3\x20\x20\x20\x0a','};\x0a','#include\x20<Encoder.h>',';\x20\x0a\x20\x20newID[2]\x20=\x20','define_wifi_static_ip_sta','831','\x20\x20\x20ptr\x20+=\x22</head>\x22;\x20\x0a\x20','telegram_otpravitii','client.stop();\x0a','\x20\x20\x20ptr\x20+=\x22<style>html\x20{\x20font-family:\x20Helvetica;\x20display:\x20inline-block;\x20margin:\x200px\x20auto;\x20text-align:\x20center;}\x22;\x20\x0a\x20','sqrt(2)','serial_line','action','\x20Tft.lcd_fill_rect(','Pix5e3','setup_sserial','\x20\x20{\x204,\x20144,\x20208,\x20176,\x20144,\x20144,\x20\x20\x200,\x20},\x20//glyph\x20N\x20code=45\x20\x20\x20\x0a','variables_valuearef_dropdown','\x20\x20int\x20i;\x0a','(1\x20+\x20sqrt(5))\x20/\x202','variables_ds18b20_2','\x20const\x20char*\x20password\x20=\x20\x22','Pix7e13','init_keypad','telegram_rty','\x20\x20else\x20\x20if\x20(!stek_bool_bt[','ARG','aref_dropdown','\x22\x20\x0a\x20const\x20unsigned\x20long\x20BOT_MTBS\x20=\x20100;\x20\x0a\x20X509List\x20cert(TELEGRAM_CERTIFICATE_ROOT);\x20\x0a\x20WiFiClientSecure\x20secured_client;\x20\x0a\x20UniversalTelegramBot\x20bot(BOT_TOKEN,\x20secured_client);\x20\x0a\x20unsigned\x20long\x20bot_lasttime;\x20\x0a\x20int\x20ledStatus\x20=\x200;\x20\x0a\x20void\x20handleNewMessages(int\x20numNewMessages)\x20\x0a\x20{\x20\x20\x20\x20\x20\x0a\x20for\x20(int\x20i\x20=\x200;\x20i\x20<\x20numNewMessages;\x20i++)\x20\x0a\x20{\x20\x0a\x20String\x20chat_id\x20=\x20bot.messages[i].chat_id;\x20\x0a\x20String\x20text\x20=\x20bot.messages[i].text;\x20\x0a\x20String\x20from_name\x20=\x20bot.messages[i].from_name;\x20\x0a\x20if\x20(from_name\x20==\x20\x22\x22)\x20\x0a\x20from_name\x20=\x20\x22Guest\x22;\x20\x0a\x20','ThingSpeak.readLongField(myChannelNumber,','\x20\x20\x20sim800l.print(\x22AT+IFC=1,\x201\x5cr\x22);\x20\x20\x0a\x20','const\x20char\x20wifi_pass[]=\x22','variables_set','String\x20openWeatherMapApiKey\x20=\x20\x22',',\x20(const\x20uint8_t\x20*)','Pix5e13','\x20\x20\x20\x20\x20while\x20(numNewMessages)\x20\x0a\x20','\x20=\x20stek_bool_sw[','\x20\x20{\x203,\x20\x20\x200,\x20160,\x20160,\x20224,\x20\x2032,\x20224,\x20},\x20//glyph\x20y\x20code=88\x20\x20\x20\x0a','#define\x20IFTTTKEY\x20\x22','lcdi2c_setcursor_draw_pl','DFPplayerMp3_init_serial2','data_s','PIN_CE','math_random_int_map','\x20\x20\x20Serial.print(\x22Conectado\x20a:\x09\x22);\x0a','\x22,\x202000,\x201);\x20\x0a\x20delay\x20(3000);\x20\x0a\x20sendData(\x22AT+CWMODE=2','DisplayTM1637_set_digit','Pix13e1','\x20\x20\x20}\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x0a\x20\x20\x20','base_conect_esp8266_12f','\x20\x20\x20\x20\x20for\x20(int\x20i\x20=\x200;\x20i\x20<\x206;\x20i++)\x20{\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x0a\x20\x20\x20','\x20\x20\x20server.on(\x22/led7\x22,\x20handle_led7off);\x20\x0a\x20','tm1637.init();\x0a\x20\x20tm1637.set(BRIGHT_TYPICAL);\x0a','floor','3136','\x20\x20if\x20(a\x20>\x20b)\x20{','NOTE','setup_Universal-Arduino-Telegram-Bot-master','define_ledRGB_WS2812B_','Pix8e12','\x20\x20\x20\x20\x20\x20\x20\x20\x20indexc++;\x20\x20\x0a\x20\x20\x20','*1000)\x20{\x0a\x20\x20','web_esp_conect_wifi_12f','inout_analog_writeD','Otto.moonwalker(1,\x20','MySetup','\x20-\x20Pixcil;\x20\x0a\x20\x20for\x20(int\x20count\x20=\x200;\x20count\x20<\x20','Pix11e3','\x20theaterChase','Serial.println(wifi_ssid);\x20\x0a','\x20IPAddress\x20subnet(255,255,255,0);\x20\x20\x0a\x20',';\x20\x0a\x20\x20\x20\x20leddwin[7]=','n\x20=\x200;\x20\x20\x0a','2794','creer_tableau','117','define_lcdpins_2c','262','print_x','\x20\x20return\x20random(a,b);','\x20\x20\x20ptr\x20+=\x22</body>\x22;\x20\x0a\x20','\x20\x20\x20\x20Cloud\x20=\x20root[\x22clouds\x22][\x22all\x22];\x0a','[]\x20=\x20\x0a\x20','lclm.setIntensity(0,15);\x20\x20\x0a\x20\x20\x20lclm.shutdown(0,false);\x20\x20\x0a\x20\x20lclm.setLed(0,','define_i2s','\x20\x20{\x204,\x20112,\x20128,\x20176,\x20144,\x20112,\x20\x20\x200,\x20},\x20//glyph\x20G\x20code=38\x20\x20\x20\x0a','#include\x20<LiquidCrystalRus.h>\x20\x0a','base_define_while','Pix11e10','\x20#include\x20<Adafruit_GFXx.h>\x20\x0a\x20','rtc.begin();\x0a','1245','secured_client.setTrustAnchors(&cert);\x0a','logic_operation','function\x20','codeFunctions_','tone(','\x22\x20value=\x22','\x20/\x201\x20-\x20(','lcdi2c_setuprus','Pix2e8','elseCount_','PINDT','\x20\x20\x20ptr\x20+=\x22.button\x20{display:\x20block;width:\x2080px;background-color:\x20#ffffff;border:\x20none;color:\x20#777777\x20;padding:\x2013px\x2030px;text-decoration:\x20none;font-size:\x2025px;margin:\x200px\x20auto\x2035px;cursor:\x20pointer;border:\x201px\x20solid\x20#777777;}\x22;\x20\x0a\x20','Serial.begin(115200);\x0a','second','\x20#include\x20<ESP8266WebServer.h>\x20\x20\x0a\x20','.Color(0,0,0));\x20\x0a\x20\x20\x20\x20\x20\x20strip','SoftwareSerial\x20mySoftwareSerialgps(','\x20\x20{\x203,\x20\x20\x200,\x20224,\x20160,\x20160,\x20224,\x20\x20\x200,\x20},\x20//glyph\x20o\x20code=78\x20\x20\x20\x0a','\x20\x20\x20ptr\x20+=\x22},\x202000);\x20\x20\x20\x20\x20\x20\x20\x22;\x20\x20\x0a\x20','\x20\x20payload\x20=\x20http.getString();\x0a','const\x20uint8_t\x20customChar','Otto.','base_define_ttl_uart_top','Writecounter7','begin_dht_','\x20\x20{\x205,\x20\x20\x208,\x20\x2016,\x20\x2032,\x20\x2064,\x20128,\x20\x20\x200,\x20},\x20//glyph\x20/\x20code=14\x20\x20\x20\x0a','define_gps_library','.show();\x20\x0a\x20\x20\x20\x20\x20\x20}\x20\x0a\x20\x20\x20\x20\x20\x20Pixcil\x20=\x20','Unknown\x20flow\x20statement.','14768USjoxw','\x20\x20\x20server.send(404,\x20\x22text/plain\x22,\x20\x22Not\x20found\x20404\x22);\x20\x0a\x20','\x20&&\x20(\x20','.show();\x20\x0a\x20\x20\x20\x20\x20\x20\x20Pixcil\x20=\x20Pixcil\x20+\x201;\x20\x0a\x20\x20\x20\x20}\x20\x0a\x20\x20\x20\x20strip','\x20\x20{\x203,\x20\x20\x200,\x20224,\x20\x2032,\x20224,\x20224,\x20\x20\x200,\x20},\x20//glyph\x20a\x20code=64\x20\x20\x20\x0a','ptm\x20=\x20gmtime\x20((time_t\x20*)&(epochTime));\x0a','Init_Accel_ADXL345','.setPixelColor(c,\x20color);\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x0a\x20\x20\x20\x20','Init_MPU6050_GY','\x20\x20{\x204,\x20224,\x20\x2016,\x20\x2096,\x20\x2016,\x20224,\x20\x20\x200,\x20},\x20//glyph\x203\x20code=18\x20\x20\x20\x0a','include_wifi','ABS','w\x20/\x20255);\x20\x0a\x20','Pix2e3','ledcWrite(','\x20\x20{\x203,\x20\x20\x200,\x20224,\x20128,\x20128,\x20128,\x20\x20\x200,\x20},\x20//glyph\x20r\x20code=81\x20\x20\x20\x0a','dwin_box_var','bot_statement','\x22)).c_str());\x0a','\x20\x20\x20ptr\x20+=\x22function\x20getData()\x20{\x20\x20\x20\x22;\x20\x20\x0a\x20','#include\x20<OneWire.h>\x20\x0a\x20#define\x20pin\x20','.servoSet(7,\x20SERVO_SG90);\x20\x0a\x20MSS','PIN_RM1','thingspeak_write_float',',myReadAPIKey)','motor_auto_stepper_stop','PARAMETERS1','\x20\x20{\x203,\x20128,\x20160,\x20192,\x20160,\x20160,\x20\x20\x200,\x20},\x20//glyph\x20k\x20code=74\x20\x20\x20\x0a','\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20isStringMessage\x20=\x20false;\x20\x0a\x20',');\x20\x0a\x20\x20lcd.setCursor(','analogReference(','variable2','title','\x20\x20\x20\x20\x20\x20for(int\x20c=b;\x20c<strip','length','Writecounter2','\x20setBtnActivDwin(','String\x20daysOfTheWeek[7]={\x22Domingo\x22,\x22Lunes\x22,\x22Martes\x22,\x22Miercoles\x22,\x22Jueves\x22,\x22Viernes\x22,\x22Sabado\x22};\x0a','detected\x20=\x20false;\x20\x0a\x20void\x20gotTouch','Pix11e2','actone_esp','include_Wire','dwin_box_ttl',',-1);\x0a','\x20\x20\x20\x20\x20\x20\x20switch\x20(n)\x20{\x20\x0a\x20','includes_soft_write_ttl_uart_reset','http.begin(serverName);\x0a','Pix12e6','mp3_set_serial\x20(Serial);\x20\x0a','Pix10e2',');\x20\x0a\x20\x20\x20}\x20\x0a\x20\x20\x20','base_loop','.show();\x20\x20\x0a\x20\x20strip','PIN_TX','casebreakCount_',')\x20{\x20\x0a\x20\x20\x20\x20','setup_ADXL345','wind_speed','\x20else\x20{\x0a','\x09delay(2000);\x0a','\x20\x20VGAX\x20vga;\x20\x20\x20\x0a','isString','\x20\x20UARTDISPLAY\x20=\x20mySerial.read();\x20\x20\x0a','\x20\x20\x20Serial.println(WiFi.localIP());\x0a','Otto.turn(1,','\x20\x20\x20Serial.print(\x22Iniciado\x20Access\x20point:\x09\x22);\x0a','\x20byte\x20indexc\x20=\x200;\x20\x20\x0a\x20\x20\x20','toggle','irsend.sendRC6(','3729','\x20\x20{\x204,\x20224,\x20144,\x20224,\x20128,\x20128,\x20\x20\x200,\x20},\x20//glyph\x20P\x20code=47\x20\x20\x20\x0a','\x20\x20\x20\x20tape\x20=\x20utf8rus(','\x20\x20\x20lc7d.setIntensity(0,15);\x09\x0a\x20\x20\x20\x20lc7d.shutdown(0,false);\x09\x0a\x20\x20\x20\x20lc7d.setDigit(0,3,(','random_int','for\x20(','\x20-\x20','millis','\x20=\x200;\x20\x0a\x20long\x20spedn','init_temp_ds18b20_2','\x20http.addHeader(\x22Content-Type\x22,\x22application/x-www-form-urlencoded\x22);\x0a','\x09\x20\x20if\x20(gps.altitude.isValid())\x20\x0a','pullup','\x20stepn','\x20\x20\x20\x20\x20\x20\x20\x20\x20}\x20\x0a\x20','dwin_box_bot1','PIN2','wifiserver_port','input','\x20\x20\x20\x20\x20\x20strip','mySerialBT.println(','PIN_YR','rainbow','base_conect_esp8266_title_12f','IPc','\x20}\x20\x20\x0a\x20}\x20\x20\x0a','Serial.begin(9600);\x20\x0a\x20\x20sensors.begin();\x20\x0a\x20\x20Serial.println(\x22Locating\x20devices...\x22);\x20\x0a\x20\x20Serial.print(\x22Found\x20\x22);\x20\x0a\x20\x20deviceCount\x20=\x20sensors.getDeviceCount();\x20\x0a\x20\x20Serial.print(deviceCount,\x20DEC);\x20\x0a\x20\x20Serial.println(\x22\x20devices.\x22);\x20\x0a\x20\x20Serial.println(\x22\x22);\x20\x0a\x20\x20Serial.println(\x22Printing\x20addresses...\x22);\x20\x0a\x20\x20for\x20(int\x20i\x20=\x200;\x20i\x20<\x20deviceCount;\x20i++)\x20\x0a\x20\x20{\x20\x0a\x20\x20Serial.print(\x22Sensor\x20\x22);\x20\x0a\x20\x20Serial.print(i+1);\x20\x0a\x20\x20Serial.print(\x22\x20:\x20\x22);\x20\x0a\x20\x20sensors.getAddress(Thermometer,\x20i);\x20\x0a\x20\x20printAddress(Thermometer);\x20\x0a\x20\x20}\x20\x0a\x20\x20','\x20\x09mqtt_client.loop();\x0a','Pix3e3','API_KEY','\x20mySerial.write(x','Serial.begin(','\x22,\x204000,\x201);\x20\x0a\x20delay\x20(4000);\x20\x0a','Init_Temp_ds18b20','=varNum;\x0a','.setPixelColor(i,\x20color);\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x0a\x20','\x5c\x22,\x5c\x22','timeClient.getHours()','delay(1);\x0aclient.stop();\x0a','bluetooth_b','functions_OpenWeather','IPAddress\x20subnet_sta(','ptr\x20+=\x22<p>','init_generalremotecontrol','\x20static\x20bool\x20last_bt',';\x20\x20\x0a\x20LCD.setFont(','\x20\x20{\x204,\x20240,\x20\x2016,\x20\x2096,\x20128,\x20240,\x20\x20\x200,\x20},\x20//glyph\x20Z\x20code=57\x20\x20\x20\x0a','.Color(0,0,0));\x20\x0a\x20\x20\x20\x20\x20\x20\x20strip','n\x20==\x200)\x20{\x20\x0a\x20\x20\x20',')\x20{\x0a\x20\x20','mp3_set_volume\x20(','.show();\x20\x0a\x20\x20\x20Pixcil\x20=\x20Pixcil\x20-\x201;\x20\x0a\x20\x20\x20}\x20\x0a\x20\x20\x20\x20\x20Pixcil\x20=\x200;\x20\x0a\x20','\x20\x20\x20\x20\x20char\x20aChar\x20=\x20Serial.read();\x20\x20\x0a\x20\x20\x20','\x20}\x20\x0a\x20\x20\x20','\x20-\x20Pixcil;\x20\x0a\x20\x20\x20for\x20(int\x20count\x20=\x200;\x20count\x20<\x20NeoPix;\x20count++)\x20{\x20\x0a\x20\x20\x20\x20Pixcil\x20=\x20Pixcil\x20+\x201;\x20\x0a\x20\x20\x20\x20\x20strip','setups_OLED_data_wifi_kit','base_conect_esp8266_12f_esp','\x20/\x20',';\x20count++)\x20{\x20\x0a\x20\x20\x20\x20\x20for\x20(int\x20count\x20=\x200;\x20count\x20<\x20NeoPix;\x20count++)\x20{\x20\x0a\x20\x20\x20\x20\x20\x20strip','\x20=\x20sensors.getTempCByIndex(0);\x20\x0a','\x20\x20};\x20','Pix1e9','hour','nrf24l01_recvvar','.servoSet(0,\x20SERVO_SG90);\x20\x0a\x20MSS','\x20if\x20(UARTDISPLAY\x20==\x20\x22','match','.show();\x20\x0a\x20strip','definitions_','.servoWrite(','\x20}\x20\x0a','otto_lib','int\x20sunrise;\x0a','evento','server.send(200,\x20\x22text/html\x22,\x20\x22\x20<p>','NULL','adr','tft1.fillScreen(','COS','bot_statement1','client.println(\x22\x20<a\x20href=','DELAY_TIME','variable1','\x20tft1.drawRoundRect(','lcd_con_nokia_text','PINf','millis()/1000','\x20==\x200\x20|\x20spedn',',\x200);\x20\x0a\x20delay(20);\x20\x0a\x20}\x20\x0a\x20','tone_okt','Y_Nokia',',\x20HIGH);\x20\x20\x20\x0a','Pix7e5','wifiserver_request','\x20%\x202\x20==\x201)','\x20\x20\x20\x20\x20\x20\x20}\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x0a\x20\x20\x20\x20','soft_write_ttl_uart2','\x20();\x20\x0a\x20','motor_autoR','330','base_code_entree_esp8266_button','\x20/\x2010000\x20-\x20(','String\x20httpRequestData\x20=\x20\x22value1=\x22+String(valor1)+\x22&value2=\x22+String(valor2)+\x22&value3=\x22+String(valor3);\x0a','\x22);\x0a\x20\x20while\x20(WiFi.status()\x20!=\x20WL_CONNECTED)\x20{\x20delay(250);\x20};\x0a','math_number','math_number_property','\x20{\x0a','Otto.walk(1,','lcd.setCursor(','esp8266_useArg','setups_x9c103s','Pix6e14','link','\x20\x09x','Pix7e4','math_single_int','define_ledRGB_WS2812B_top','#include\x20<Tone32.h>\x20\x0a\x20#define\x20BUZZER_CHANNEL\x200\x20\x0a\x20',',\x20NEO_GRB\x20+\x20NEO_KHZ800);\x20\x20\x20\x0a\x20','notone_esp','\x20\x20\x20\x20\x20if\x20(from_name\x20==\x20\x22\x22)\x20\x20\x0a\x20','setup_serial1_baudios','\x20\x20handleNewMessages(numNewMessages);\x0a','PIN_DAT','APIKEY','SSID2','bot.messages[i].from_name','server.begin();\x0a','setup_NTPClient','irsend.sendJVC(','base_form_none3','\x20\x20\x20\x20\x20\x20\x20strip','\x09mqtt_client.setCallback(mqtt_callback);\x0a','iarduino_RTC\x20time(RTC_DS1302,\x20','const\x20char\x20wifi_ssid[]=\x22','define_MRFC522',',0);\x0a\x20analogWrite(','definitions_hardware_monitor_serial_init','Pix6e0','GPS_init_ss','format','\x20\x20\x20\x20\x20\x20\x20digitalWrite(','base_conect_esp8266_kode_12f','\x20a\x20=\x209;\x20\x0a\x20','MASKa','#include\x20<ESP8266WiFi.h>\x0a#include\x20<WiFiClientSecure.h>\x0a#include\x20<UniversalTelegramBot.h>\x0a#define\x20WIFI_SSID\x20\x22','motor_autoL','<!DOCTYPE\x20HTML>\x0a',';\x20\x0a\x20\x20\x20for\x20(int\x20count\x20=\x200;\x20count\x20<\x20NeoPix;\x20count++)\x20{\x20\x0a\x20\x20\x20strip','.setBrightness(255);\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20strip','<a\x20href=','Pix4e12','.begin(','mcp.digitalWrite(','setups_web_esp_conect',',0x00};\x20\x0a\x20int\x20x','\x20SD.mkdir(','\x20\x20\x20secured_client.setCACert(TELEGRAM_CERTIFICATE_ROOT);\x20\x20\x0a\x20','Pix5e15','PIN_RR','\x20\x20\x20\x20\x20\x20\x20int\x20pixelHue\x20=\x20firstPixelHue\x20+\x20(i\x20*\x2065536L\x20/\x20strip','xx_block','Pix11e8','void\x20serve','VAL_CONST','Pix2e1','String\x20jsonBuffer;\x0a','\x20\x0a\x20\x20\x20}\x20\x0a\x20\x20',');\x0aetat_','\x20\x20\x20Serial.begin(9600);\x20\x0a\x20\x20\x20WiFi.begin(\x22','base_conect_esp8266_button_12f','IPAddress\x20gateway_sta(','accel.getEvent(&event);\x20\x20\x0a\x20\x20','ORDER_EQUALITY','base_setup_loop','\x20\x20{\x204,\x20224,\x20144,\x20144,\x20144,\x20224,\x20\x20\x200,\x20},\x20//glyph\x20D\x20code=35\x20\x20\x20\x0a','Keyboard.release(\x27','));\x20\x0a\x20\x20\x20\x20\x20strip',');\x20\x0a\x20\x20LCD.printNumI(inokia,\x20',';\x20\x20\x0a\x20\x20\x20\x20','\x20\x20#include\x20<VGAX.h>\x20\x20\x20\x0a','DS1302_YEAR',',1);\x20//\x20LEFT\x0a','Writecounter1','mySerial.begin(','sd_init','\x20a\x20=\x204;\x20\x0a\x20','\x20};\x20\x0a\x20','.ColorHSV(pixelHue)));\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x0a\x20\x20\x20','rtc.adjust(DateTime(','6645',');\x20\x20\x0a\x20\x20','.show();\x20\x0a\x20\x20\x20\x20\x20\x20Pixcil\x20=\x20Pixcil\x20+\x20NeoPix;\x20\x0a\x20NeoPix\x20=\x20NeoPix\x20-\x201;\x20\x0a\x20\x20\x20}\x20\x0a\x20\x20\x20Pixcil\x20=\x20','\x20SD.remove(','\x20\x20strip','Pix14e0','otto_dance','define_softwareserial_library','source','\x20#include\x20<UniversalTelegramBot.h>\x20\x20\x0a\x20','attachInterrupt(digitalPinToInterrupt(','\x20<\x200','PINRed',');\x20\x0a\x20\x20\x20\x20\x20Pixcil\x20=\x20Pixcil\x20-\x201;\x20\x0a\x20\x20\x20}\x20\x0a\x20\x20\x20Pixcil\x20=\x20','\x09double\x20varNum=mqtt_payload2double(_payload,_payloadlength);\x0a','setups_lcd_tah_spi','SoftwareSerial\x20mySerial(','var_servo','\x20sim800l.print(\x22AT+CMGF=1\x5cr\x22);\x20\x0a\x20','delayled','FALSE',');\x20\x0a\x20myServo','touch_pin','Pix14e5','\x20byte\x20error,\x20address;\x20\x0a\x20\x20\x20int\x20nDevices;\x20\x20\x0a\x20\x20\x20nDevices\x20=\x200;\x20\x0a\x20\x20for(address\x20=\x208;\x20address\x20<\x20127;\x20address++\x20){\x20\x0a\x20\x20\x20Wire.beginTransmission(address);\x20\x0a\x20\x20\x20\x20error\x20=\x20Wire.endTransmission();\x20\x0a\x20\x20if\x20(error\x20==\x200){\x20\x0a\x20\x20Serial.print(\x220x\x22);\x20\x0a\x20\x20\x20\x20if\x20(address<16)\x20\x0a\x20\x20\x20\x20Serial.print(\x220\x22);\x20\x0a\x20\x20\x20\x20Serial.println(address,HEX);\x20\x20\x0a\x20\x20\x20\x20nDevices++;\x20\x0a\x20\x20\x20}\x20\x0a\x20\x20else\x20if\x20(error==4)\x20{\x20\x0a\x20\x20Serial.print(\x220x\x22);\x20\x0a\x20\x20if\x20(address<16)\x20\x0a\x20\x20Serial.print(\x220\x22);\x20\x0a\x20\x20Serial.println(address,HEX);\x20\x0a\x20\x20\x20}\x20\x0a\x20\x20}\x20\x0a\x20\x20if\x20(nDevices\x20==\x200)\x20\x0a\x20\x20Serial.println(\x22No\x20I2C\x22);\x20\x20\x20\x0a\x20delay(1000);\x20\x0a','LiquidCrystalRus\x20lcd(','temps','Pix9e1','+1;\x20\x0a\x20NeoPix\x20=\x20','setups_dwin_box_ttl',')=====\x22;\x0a\x20return\x20cadena;\x0a}\x0a\x20','dwin_box_bot','\x20Tft.lcd_display_num(','\x20\x20\x20WiFi.begin(WIFI_SSID,\x20WIFI_PASSWORD);\x20\x0a\x20','actuator_tone_esp2','Init_MAX7219_7digit','165','zen\x20=\x20','if(esp8266.available()){\x20\x0a\x20if(esp8266.find(\x22+IPD,\x22)){\x20\x0a\x20delay(1000);\x20\x0a\x20int\x20connectionId\x20=\x20esp8266.read()-48;\x20\x0a\x20esp8266.find(\x22i/\x22);\x20\x0a\x20int\x20esp\x20=\x20(esp8266.read()-48);\x20\x0a\x20EEPROM.write(0,esp);\x20\x0a\x20String\x20webpage\x20=\x20\x22<title>','#include\x20\x22ESP8266HTTPClient.h\x22\x0a','\x20void\x20handle_led9off()\x20{\x20\x0a\x20','.clear();\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x0a\x20\x20','ds1990_Write','lclm.setRow(0,','uint16_t\x20raw_bandgap\x20=\x200;\x20\x0a\x20float\x20volt_battery\x20=\x200.0;\x20\x0a\x20','getName','Pix4e10','.servoSet(9,\x20SERVO_SG90);\x20\x0a\x20MSS','define_spi','telegram_init','Serial.println(WiFi.softAPIP());\x0a','Pix11e14','Pix4e2','\x20void\x20handle_led10off()\x20{\x20\x0a\x20','touchRead(T','setups_dwin_box_bot','sim800_init_ss','ptm->tm_year+1900','-1,\x20pixels_','client.println(\x22</head>\x22);\x0a','CapacitiveSensor\x20\x20\x20cs00\x20=\x20CapacitiveSensor(2,3);\x20\x0a\x20CapacitiveSensor\x20\x20\x20cs01\x20=\x20CapacitiveSensor(2,4);\x20\x0a\x20CapacitiveSensor\x20\x20\x20cs02\x20=\x20CapacitiveSensor(2,5);\x20\x0a\x20CapacitiveSensor\x20\x20\x20cs03\x20=\x20CapacitiveSensor(2,6);\x20\x0a\x20CapacitiveSensor\x20\x20\x20cs04\x20=\x20CapacitiveSensor(2,7);\x20\x0a\x20CapacitiveSensor\x20\x20\x20cs05\x20=\x20CapacitiveSensor(2,8);\x20\x0a\x20CapacitiveSensor\x20\x20\x20cs06\x20=\x20CapacitiveSensor(2,9);\x20\x0a\x20int\x20total0\x20=\x200;\x20\x0a\x20int\x20total1\x20=\x200;\x20\x0a\x20int\x20total2\x20=\x200;\x20\x0a\x20int\x20total3\x20=\x200;\x20\x0a\x20int\x20total4\x20=\x200;\x20\x0a\x20int\x20total5\x20=\x200;\x20\x0a\x20int\x20total6\x20=\x200;\x20\x0a\x20\x20','Pix15e15','ORDER_UNARY_PREFIX','t.dayOfTheWeek()','\x20\x20\x20ptr\x20+=\x22\x20\x20\x20\x20}\x20\x20\x20\x20\x20\x20\x20\x20\x22;\x20\x0a\x20','#include\x20<RTClib.h>\x0a','while\x20(','\x20}\x20\x20\x0a','Pix6e3','define_servo_ru','define_ss','setups_init_temp_ds18b20_1','int\x20id;\x0a','PINdp','parseFloat','PINg','2217','Pix7e9','ORDER_ASSIGNMENT','Pix7e2','RotaryEncoder_Read','\x20Serial.begin(','Serial.begin(9600);\x20\x0a\x20\x20',',\x20NOTE_','6272','Pix14e14','client.println(\x22\x22);\x0a','Init_Compass_HMC5883','PIN_RX','\x20\x20\x20\x20\x20\x20\x20Serial.println(\x22got\x20response\x22);\x20\x0a\x20','];\x20\x0a','.numPixels();\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x0a\x20\x20\x20\x20\x20','fmph',',\x208,\x20false);\x20\x0a','ORDER_FUNCTION_CALL','LedControl\x20lc7d=LedControl(','Pix3e5','byte\x20month,\x20day,\x20hour,\x20minutes,\x20second,\x20hundredths,nsat;\x0a','\x20void\x20handle_led5off()\x20{\x20\x0a\x20','\x20\x20delayMicroseconds(1);\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x0a',',\x20BUZZER_CHANNEL);\x20\x0a\x20\x20\x20\x20','can','irsend.sendRC5(','API_READ_KEY','\x20setSwichActivDwin(','Pix2e7','\x20\x20sensors','definitions_dwin_box_bot2','digital_readbi','long\x20ultrason_','wifiserver_waitconnection','#include\x20<ArduinoJson.h>\x0a','\x20int\x20nb\x20=\x200;\x20\x0a\x20\x20int\x20xb\x20=\x200;\x20\x0a\x20','PIN_C4','5920','controls_whileUntil','\x20\x20hwXpos\x20=\x20EEPROM.read(250)\x20*\x202;\x20\x20\x0a\x20\x20\x20hwYpos\x20=\x20EEPROM.read(251)\x20*\x202;\x20\x20\x0a\x20\x20Tp.tp_draw_board();\x20\x20\x0a\x20\x20if(hwYpos\x20>\x20'];_0x42fe=function(){return _0x1bbc3a;};return _0x42fe();}
+
+
+
+Blockly.Arduino['piannobox']=function(block){
+    var valuebox = Blockly.Arduino.statementToCode(block, 'box');
+    var valuepin = block.getFieldValue('pin');
+    Blockly.Arduino.includes_["includes_piannobox"] = '#include "CapacitiveSensor.h" \n #include <Arduino.h> \n #include <Wire.h> \n';
+    Blockly.Arduino.variables_["variables_piannobox"] = 'CapacitiveSensor   cs00 = CapacitiveSensor(2,3); \n CapacitiveSensor   cs01 = CapacitiveSensor(2,4); \n CapacitiveSensor   cs02 = CapacitiveSensor(2,5); \n CapacitiveSensor   cs03 = CapacitiveSensor(2,6); \n CapacitiveSensor   cs04 = CapacitiveSensor(2,7); \n CapacitiveSensor   cs05 = CapacitiveSensor(2,8); \n CapacitiveSensor   cs06 = CapacitiveSensor(2,9); \n int total0 = 0; \n int total1 = 0; \n int total2 = 0; \n int total3 = 0; \n int total4 = 0; \n int total5 = 0; \n int total6 = 0; \n  ';
+    Blockly.Arduino.setups_["setups_piannobox"]='    cs00.set_CS_Timeout_Millis(30); \n    cs01.set_CS_Timeout_Millis(30); \n     cs02.set_CS_Timeout_Millis(30); \n    cs03.set_CS_Timeout_Millis(30); \n    cs04.set_CS_Timeout_Millis(30); \n    cs05.set_CS_Timeout_Millis(30); \n   cs06.set_CS_Timeout_Millis(30); \n ';
+		if (valuepin == '1'){
+	var code = ' total0 =  cs00.capacitiveSensor(30); \n if (total0 == -2) { \n  ' + valuebox + ' \n  } \n ';
+    }
+	    if (valuepin == '2'){
+	var code = ' total1 =  cs01.capacitiveSensor(30); \n if (total1 == -2) { \n  ' + valuebox + ' \n  } \n ';
+    }
+		if (valuepin == '3'){
+	var code = ' total2 =  cs02.capacitiveSensor(30); \n if (total2 == -2) { \n  ' + valuebox + ' \n  } \n ';
+    }
+		if (valuepin == '4'){
+	var code = ' total3 =  cs03.capacitiveSensor(30); \n if (total3 == -2) { \n  ' + valuebox + ' \n  } \n ';
+    }
+		if (valuepin == '5'){
+	var code = ' total4 =  cs04.capacitiveSensor(30); \n if (total4 == -2) { \n  ' + valuebox + ' \n  } \n ';
+    }
+		if (valuepin == '6'){
+	var code = ' total5 =  cs05.capacitiveSensor(30); \n if (total5 == -2) { \n  ' + valuebox + ' \n  } \n ';
+    }
+		if (valuepin == '7'){
+	var code = ' total6 =  cs06.capacitiveSensor(30); \n if (total6 == -2) { \n  ' + valuebox + ' \n  } \n ';
+    }
+ 
+	return code
+};
+
+
+
+Blockly.Arduino["notone22"]=function(block){
+    var value_pin=Blockly.Arduino.valueToCode(block, "PIN", Blockly.Arduino.ORDER_ATOMIC);
+     
+    return "noTone(" + value_pin + ");\n"
+};
+
+
+
+/*  communication  */
+Blockly.Arduino["serial_init8866"]=function(block){
+    var dropdown_speed=block.getFieldValue("SPEED");
+	var dropdown_pin=block.getFieldValue("pin");
+	window.localStorage.baudrate=dropdown_speed;
+	switch (dropdown_pin) {
+        case "0":
+            Blockly.Arduino.setups_["serial_begin"]="Serial.begin(" + dropdown_speed + ");";
+            break;
+        case "19":
+            Blockly.Arduino.setups_["serial_begin"]="Serial1.begin(" + dropdown_speed + ");";
+            break;
+        case "17":
+            Blockly.Arduino.setups_["serial_begin"]="Serial2.begin(" + dropdown_speed + ");";
+            break
+        case "15":
+            Blockly.Arduino.setups_["serial_begin"]="Serial3.begin(" + dropdown_speed + ");";
+            break
+	}
+  return ""
+};
+Blockly.Arduino["serial_read"]=function(block){
+    var code="Serial.read()";
+    return [code, Blockly.Arduino.ORDER_ATOMIC]
+};
+Blockly.Arduino["serial_line"]=function(block){
+    var code='"\\n"';
+    return [code, Blockly.Arduino.ORDER_ATOMIC]
+};
+Blockly.Arduino["serial_tab"]=function(block){
+    var code='" ; "';
+    return [code, Blockly.Arduino.ORDER_ATOMIC]
+};
+Blockly.Arduino["serial_available"]=function(block){
+    var code="Serial.available()";
+    return [code, Blockly.Arduino.ORDER_ATOMIC]
+};
+Blockly.Arduino["serial_write"]=function(block){
+    var content=Blockly.Arduino.valueToCode(block, "CONTENT", Blockly.Arduino.ORDER_ATOMIC);
+    return "Serial.print(" + content + ");\n"
+};
+Blockly.Arduino["serial_write_ln"]=function(block){
+    var content=Blockly.Arduino.valueToCode(block, "CONTENT", Blockly.Arduino.ORDER_ATOMIC);
+    return "Serial.println(" + content + ");\n"
+};
+Blockly.Arduino["serial_flush"]=function(block){
+    return "Serial.flush();\n"
+};
+Blockly.Arduino["soft_init"]=function(block){
+    var dropdown_pin1=Blockly.Arduino.valueToCode(block,"PIN1", Blockly.Arduino.ORDER_NONE);
+    var dropdown_pin2=Blockly.Arduino.valueToCode(block,"PIN2", Blockly.Arduino.ORDER_NONE);
+    var dropdown_speed=block.getFieldValue("SPEED");
+    Blockly.Arduino.includes_["define_ss"]="#include <SoftwareSerial.h>";
+	Blockly.Arduino.definitions_["define_ss"]="SoftwareSerial mySerial(" + dropdown_pin1 + "," + dropdown_pin2 + ");";
+    Blockly.Arduino.setups_["setup_sserial"]="mySerial.begin(" + dropdown_speed + ");";
+    return ""
+};
+Blockly.Arduino["soft_init_ttl"]=function(block){
+    var dropdown_pin1=block.getFieldValue("PIN1");
+    var dropdown_pin2=block.getFieldValue("PIN2");
+    var dropdown_speed=block.getFieldValue("SPEED");
+    Blockly.Arduino.includes_["define_ss"]="#include <SoftwareSerial.h>";
+	Blockly.Arduino.definitions_["define_ss"]="SoftwareSerial mySerial(" + dropdown_pin1 + "," + dropdown_pin2 + ");";
+    Blockly.Arduino.setups_["setup_sserial"]="mySerial.begin(" + dropdown_speed + ");";
+    return ""
+};
+Blockly.Arduino["bluetooth_soft_init"]=function(block){
+    var dropdown_pin1=Blockly.Arduino.valueToCode(block,"PIN1", Blockly.Arduino.ORDER_NONE);
+    var dropdown_pin2=Blockly.Arduino.valueToCode(block,"PIN2", Blockly.Arduino.ORDER_NONE);
+    var dropdown_speed=block.getFieldValue("SPEED");
+    Blockly.Arduino.includes_["define_ss"]="#include <SoftwareSerial.h>";
+	Blockly.Arduino.definitions_["define_BT"]="SoftwareSerial mySerialBT(" + dropdown_pin2 + "," + dropdown_pin1 + ");";
+    Blockly.Arduino.setups_["setup_sserial_BT"]="mySerialBT.begin(" + dropdown_speed + ");";
+    return ""
+};
+Blockly.Arduino["soft_read"]=function(block){
+    var code="mySerial.read()";
+    return [code, Blockly.Arduino.ORDER_ATOMIC]
+};
+Blockly.Arduino["soft_read_ttl_dis"]=function(block){
+    var code="mySerial.read()";
+    return [code, Blockly.Arduino.ORDER_ATOMIC]
+};
+Blockly.Arduino["bluetooth_soft_read"]=function(block){
+    var code="mySerialBT.read()";
+    return [code, Blockly.Arduino.ORDER_ATOMIC]
+};
+
+Blockly.Arduino["bluetooth_soft_serial_read"]=function(block){
+var color = this.getFieldValue('color'); 
+    var code=""+color+".readString()";
+    return [code, Blockly.Arduino.ORDER_ATOMIC]
+};
+
+Blockly.Arduino["soft_write"]=function(block){
+    var content=Blockly.Arduino.valueToCode(block, "CONTENT", Blockly.Arduino.ORDER_ATOMIC);
+    return "mySerial.write(" + content + ");\n"
+};
+Blockly.Arduino["soft_write_ttl_uart"]=function(block){
+    var content=Blockly.Arduino.valueToCode(block, "CONTENT", Blockly.Arduino.ORDER_ATOMIC);
+	var hexcode1 = block.getFieldValue("TEXT1");
+	var hexcode2 = block.getFieldValue("TEXT2");
+	var hexcode3 = block.getFieldValue("TEXT3");
+	var hexcode4 = block.getFieldValue("TEXT4");
+	Blockly.Arduino.includes_["soft_write_ttl_uart"+hexcode1+hexcode2+hexcode3+hexcode4]=" 	char x"+hexcode1+hexcode2+hexcode3+hexcode4+"m [7] ={0x5A,0xA5,0x05,0x82,0x"+hexcode1+""+hexcode2+",0x"+hexcode3+""+hexcode4+",0x00}; \n int x"+hexcode1+hexcode2+hexcode3+hexcode4+"w = 0; \n	";
+    return " 	x"+hexcode1+hexcode2+hexcode3+hexcode4+"w = " + content + "; \n    mySerial.write(x"+hexcode1+hexcode2+hexcode3+hexcode4+"m , 7); \n    mySerial.write(x"+hexcode1+hexcode2+hexcode3+hexcode4+"w); \n  "
+};
+Blockly.Arduino["bluetooth_soft_write"]=function(block){
+    var content=Blockly.Arduino.valueToCode(block, "CONTENT", Blockly.Arduino.ORDER_ATOMIC);
+    return "mySerialBT.println(" + content + ");\n"
+};
+Blockly.Arduino["bluetooth_soft_write_esp"]=function(block){
+    var content=Blockly.Arduino.valueToCode(block, "CONTENT", Blockly.Arduino.ORDER_ATOMIC);
+  Blockly.Arduino.includes_['define_ssBT'] = '#include "BluetoothSerial.h"\nBluetoothSerial mySerialBT;\n';
+  Blockly.Arduino.setups_['setup_sserialBT'] = 'mySerialBT.begin('+ content +');\n';
+  var code = '';
+  return code;
+};
+
+
+
+Blockly.Arduino["soft_available"]=function(block){
+    var code="mySerial.available()";
+    return [code, Blockly.Arduino.ORDER_ATOMIC]
+};
+Blockly.Arduino["bluetooth_soft_available"]=function(block){
+    var code="mySerialBT.available()";
+    return [code, Blockly.Arduino.ORDER_ATOMIC]
+};
+/*  wifi  */
+Blockly.Arduino['esp8266_init']=function(block){
+	var mode=block.getFieldValue("clientserveur");
+	var adressage=block.getFieldValue("staticdynamic");
+	var reseau=block.getFieldValue("SSID");
+	var cle=block.getFieldValue("KEY");
+	Blockly.Arduino.includes_["esp8266"] = "#include <ESP8266WiFi.h>";
+	if (adressage=="static"){
+		var ipabc=block.getFieldValue("IPa")+","+block.getFieldValue("IPb")+","+block.getFieldValue("IPc");
+		var ipd=block.getFieldValue("IPd");
+		var passerelle=block.getFieldValue("GATEWAY");
+		var masque=block.getFieldValue("MASKa")+","+block.getFieldValue("MASKb")+","+block.getFieldValue("MASKc")+","+block.getFieldValue("MASKd");
+		Blockly.Arduino.definitions_["esp8266"] = 'IPAddress ip('+ipabc+','+ipd+');\nIPAddress gateway('+ipabc+','+passerelle+');\nIPAddress subnet('+masque+');\n';
+		Blockly.Arduino.setups_["esp8266"] = 'WiFi.disconnect();\n  delay(2500);\n  WiFi.config(ip, gateway, subnet);\n  WiFi.begin("'+reseau+'","'+cle+'");\n  while (WiFi.status() != WL_CONNECTED) { delay(250); };\n';
+	} else {
+		Blockly.Arduino.definitions_["esp8266"] = "";
+		Blockly.Arduino.setups_["esp8266"] = 'WiFi.disconnect();\n  delay(2500);\n  WiFi.begin("'+reseau+'","'+cle+'");\n  while (WiFi.status() != WL_CONNECTED) { delay(250); };\n';
+	}
+	if (mode=="serveur"){
+		var port=Blockly.Arduino.valueToCode(block, "V0", Blockly.Arduino.ORDER_ATOMIC);
+		Blockly.Arduino.definitions_["esp8266"] += 'WiFiServer server(' + port + ');\n';
+		Blockly.Arduino.setups_["esp8266"] += '  server.begin();\n';
+	} else {
+		Blockly.Arduino.definitions_["esp8266"] += 'WiFiClient client;\n';
+	}
+	return "" ;
+};
+Blockly.Arduino['esp8266_send']=function(block){
+	var data=Blockly.Arduino.valueToCode(block, 'message', Blockly.Arduino.ORDER_ATOMIC);
+	var code = 'client.println("HTTP/1.1 200 OK");\nclient.println("Content-Type: text/html");\nclient.println("");\nclient.println("<!DOCTYPE HTML>");\n';
+	code += 'client.println("<html>");\nclient.println(' + data + ');\nclient.println("</html>");\n';
+	return code
+};
+Blockly.Arduino['esp8266_send_html']=function(block){
+	var htmlhead=Blockly.Arduino.statementToCode(block, 'HEAD');
+	var htmlbody=Blockly.Arduino.statementToCode(block, "BODY");
+    var code = 'client.println("HTTP/1.1 200 OK");\nclient.println("Content-Type: text/html; charset=UTF-8");\nclient.println("");\nclient.println("<!DOCTYPE HTML>");\n';
+	code += 'client.println("<html>");\nclient.println("<head>");\n' + htmlhead + 'client.println("</head>");\n';
+	code += 'client.println("<body>");\n' + htmlbody + 'client.println("</body>");\nclient.println("</html>");\n';
+	code += 'delay(1);\nclient.stop();\n' ;
+	return code
+};
+Blockly.Arduino['esp8266_wait_server']=function(block){
+	return 'WiFiClient client = server.available();\nif (!client) return;\nwhile (!client.available()) { delay(1); }\nchar request = client.read();\nclient.flush();\n'
+};
+Blockly.Arduino['esp8266_wait_client']=function(block){
+	var host=Blockly.Arduino.valueToCode(block, "host", Blockly.Arduino.ORDER_ATOMIC);
+	var port=Blockly.Arduino.valueToCode(block, "port", Blockly.Arduino.ORDER_ATOMIC);
+	return 'if (!client.connect(' + host + ',' + port + ')) { delay(1000) ; return }.\nwhile (client.available()){ String reponse = client.read(); };\n'
+};
+Blockly.Arduino["esp8266_request_indexof"]=function(block){
+    var n=0;
+    var argument=Blockly.Arduino.valueToCode(block, "CASE" + n, Blockly.Arduino.ORDER_NONE);
+    var branch=Blockly.Arduino.statementToCode(block, "DO" + n);
+	var code='if (request.indexOf(' + argument + ') != -1) {\n' + branch + '}\n';
+	for (n=1; n <= block.casebreakCount_; n++) {
+        argument=Blockly.Arduino.valueToCode(block, "CASE" + n, Blockly.Arduino.ORDER_NONE);
+        branch=Blockly.Arduino.statementToCode(block, "DO" + n);
+        code += 'if (request.indexOf(' + argument + ') != -1) {\n' + branch + '}\n'
+    }
+	return code
+};
+/*  bluetooth  */
+
+Blockly.Arduino["bluetooth_init"]=function(block){
+    var dropdown_pin1=Blockly.Arduino.valueToCode(block,"PIN1", Blockly.Arduino.ORDER_NONE);
+    var dropdown_pin2=Blockly.Arduino.valueToCode(block,"PIN2", Blockly.Arduino.ORDER_NONE);
+    var dropdown_speed=block.getFieldValue("SPEED");
+    var n=0;
+	Blockly.Arduino.includes_["bluetooth"]="#include <SoftwareSerial.h>";
+	Blockly.Arduino.definitions_["bluetooth"]="SoftwareSerial bluetooth("+dropdown_pin1+","+dropdown_pin2+");";
+	Blockly.Arduino.setups_["bluetooth"]="bluetooth.begin(" + dropdown_speed + ");";
+	return ""
+};
+Blockly.Arduino["bluetooth_a"]=function(block){
+    var value_data_s=Blockly.Arduino.valueToCode(block, "data_s", Blockly.Arduino.ORDER_NONE);
+    return "if (bluetooth.available() > 0) {\n  bluetooth.write(" + value_data_s + ");\n}\n"
+};
+Blockly.Arduino["bluetooth_b"]=function(block){
+    var n=0;
+    var argument=Blockly.Arduino.valueToCode(block, "CASE" + n, Blockly.Arduino.ORDER_NONE);
+    var branch=Blockly.Arduino.statementToCode(block, "DO" + n);
+    var code="if (bluetooth.available() > 0) {\n  char dataR=bluetooth.read();\n  if (dataR == " + argument + ") {\n  " + branch + "  }\n";
+	for (n=1; n <= block.casebreakCount_; n++) {
+        argument=Blockly.Arduino.valueToCode(block, "CASE" + n, Blockly.Arduino.ORDER_NONE);
+        branch=Blockly.Arduino.statementToCode(block, "DO" + n);
+        code += "  if (dataR == " + argument + ") {\n  " + branch + "  }\n"
+    }
+    code += "}\n"
+	return code
+};
+/*  structure  */
+Blockly.Arduino["base_setup_loop"]=function(block){
+    var branch=Blockly.Arduino.statementToCode(block, "DO");
+    var loop=Blockly.Arduino.statementToCode(block, "LOOP");
+    if (Blockly.Arduino.INFINITE_LOOP_TRAP) branch=Blockly.Arduino.INFINITE_LOOP_TRAP.replace(/%1/g, "'" + block.id + "'") + branch;
+    var code=branch;
+    var setup_key=Blockly.Arduino.variableDB_.getDistinctName("base_setup", Blockly.Variables.NAME_TYPE);
+    Blockly.Arduino.setups_[setup_key]=code;
+    return [loop, Blockly.Arduino.ORDER_ATOMIC]
+};
+Blockly.Arduino['arduino_setup'] = function(block) {
+  var statements_setup = Blockly.Arduino.statementToCode(block, 'MySetup');
+  var statements_loop = Blockly.Arduino.statementToCode(block, 'MyLoop');
+ 
+  Blockly.Arduino.setups_['setup'] = statements_setup;
+ 
+  var code = statements_loop;
+  return code;
+};
+Blockly.Arduino["base_loop"]=function(block){
+    function statementToCodeNoTab(block, name) {
+        var targetBlock=block.getInputTargetBlock(name);
+        var code=Blockly.Arduino.blockToCode(targetBlock);
+        if (!goog.isString(code)) throw 'Expecting code from statement block "' + targetBlock.type + '".';
+        return code
+    }
+    var loopBranch=statementToCodeNoTab(block, "LOOP");
+    return loopBranch
+};
+Blockly.Arduino["base_define"]=function(block){
+    var branch=Blockly.Arduino.statementToCode(block, "DO");
+    if (Blockly.Arduino.INFINITE_LOOP_TRAP) branch=Blockly.Arduino.INFINITE_LOOP_TRAP.replace(/%1/g, "'" + block.id + "'") + branch;
+    var code=branch;
+    var setup_key=Blockly.Arduino.variableDB_.getDistinctName("base_setup", Blockly.Variables.NAME_TYPE);
+    Blockly.Arduino.definitions_[setup_key]=code;
+    return ""
+};
+Blockly.Arduino["base_code"]=function(block){
+    return block.getFieldValue("TEXT") + "\n"
+};
+
+
+
+
+Blockly.Arduino["base_end"]=function(block){
+    return "while(true);\n"
+};
+Blockly.Arduino["base_begin"]=function(block){
+    return ""
+};
+Blockly.Arduino['base_code_entree']=function(block){
+	var code=block.getFieldValue("TEXT");
+	return [code, Blockly.Arduino.ORDER_ATOMIC] ;
+};
+Blockly.Arduino['base_code_entree_var']=function(block){
+	var code=block.getFieldValue("TEXT");
+	return [code, Blockly.Arduino.ORDER_ATOMIC] ;
+};
+Blockly.Arduino['base_code_entree_var1']=function(block){
+	var code=block.getFieldValue("TEXT");
+	return [code, Blockly.Arduino.ORDER_ATOMIC] ;
+};
+Blockly.Arduino['base_code_entree_read']=function(block){
+	var code=block.getFieldValue("TEXT");
+	return [code, Blockly.Arduino.ORDER_ATOMIC] ;
+};
+/*  temps  */
+Blockly.Arduino["inout_pulsein"]=function(block){
+    var dropdown_pin=Blockly.Arduino.valueToCode(block, "PIN", Blockly.Arduino.ORDER_ATOMIC);
+    var dropdown_stat=block.getFieldValue("STAT");
+    Blockly.Arduino.setups_["setup_input_" + dropdown_pin]="pinMode(" + dropdown_pin + ", INPUT);";
+    var code="pulseIn(" + dropdown_pin + "," + dropdown_stat + ")";
+    return [code, Blockly.Arduino.ORDER_ATOMIC]
+};
+Blockly.Arduino["millis"]=function(block){
+	var _u=block.getFieldValue("unite");
+    switch (_u) {
+        case "u":
+            var code="micros()";
+            break;
+        case "m":
+            var code="millis()";
+            break;
+        case "s":
+            code="millis()/1000";
+            break
+	}
+    return [code, Blockly.Arduino.ORDER_ATOMIC]
+};
+Blockly.Arduino["base_delay"]=function(block){
+    var _u=block.getFieldValue("unite");
+    var delay_time=Blockly.Arduino.valueToCode(block, "DELAY_TIME", Blockly.Arduino.ORDER_ATOMIC);
+    switch (_u) {
+        case "u":
+            var code="delayMicroseconds(" + delay_time + ");\n";
+            break;
+        case "m":
+            var code="delay(" + delay_time + ");\n";
+            break;
+        case "s":
+            code="delay(" + delay_time + "*1000);\n";
+            break
+    };
+    return code
+};
+Blockly.Arduino["tempo_sans_delay"]=function(block){
+    var _u=block.getFieldValue("unite");
+    var delay_time=Blockly.Arduino.valueToCode(block, "DELAY_TIME", Blockly.Arduino.ORDER_ATOMIC);
+	var faire=Blockly.Arduino.statementToCode(block, "branche");
+	var temps="temps"+delay_time;
+	Blockly.Arduino.definitions_["temporisation"+delay_time]="long "+temps+"=0 ;";
+    switch (_u) {
+        case "u":
+            var code="if ((micros()-"+temps+")>=" + delay_time + ") {\n  "+temps+"=micros();\n"+faire+"}\n";
+            break;
+        case "m":
+            var code="if ((millis()-"+temps+")>=" + delay_time + ") {\n  "+temps+"=millis();\n"+faire+"}\n";
+            break;
+        case "s":
+            code="if ((millis()-"+temps+")>=" + delay_time + "*1000) {\n  "+temps+"=millis();\n"+faire+"}\n";
+            break
+    };
+    return code
+};
+/*  entree sortie  */
+Blockly.Arduino["inout_attachInterrupt"]=function(block){
+	var dropdown_pin=block.getFieldValue('PIN');
+	var dropdown_mode=block.getFieldValue('mode');
+	var funcName='interrupt_'+dropdown_pin;
+	Blockly.Arduino.setups_['setup_Interrupt_'+dropdown_pin]='pinMode('+dropdown_pin+', INPUT);\n  attachInterrupt('+dropdown_pin+','+funcName+','+dropdown_mode+');';
+	var branch=Blockly.Arduino.statementToCode(block, 'DO' );
+	Blockly.Arduino.codeFunctions_[funcName] ='void ' + funcName + '() {\n' + branch + '}';
+	return "";
+};
+Blockly.Arduino["inout_detachInterrupt"]=function(block){
+	var dropdown_pin=block.getFieldValue('PIN');
+	return 'detachInterrupt('+dropdown_pin+');\n';
+};
+Blockly.Arduino["inout_digital_write"]=function(block){
+    var dropdown_pin=Blockly.Arduino.valueToCode(block, "PIN", Blockly.Arduino.ORDER_ATOMIC);
+    var dropdown_stat=Blockly.Arduino.valueToCode(block, "STAT", Blockly.Arduino.ORDER_ATOMIC);
+  //  Blockly.Arduino.setups_["setup_output_" + dropdown_pin]="pinMode(" + dropdown_pin + ", OUTPUT);";
+    var code="pinMode(" + dropdown_pin + ", OUTPUT); \n digitalWrite(" + dropdown_pin + ", " + dropdown_stat + ");\n";
+    return code
+};
+Blockly.Arduino["inout_digital_read"]=function(block){
+    var dropdown_pin=Blockly.Arduino.valueToCode(block, "PIN", Blockly.Arduino.ORDER_ATOMIC);
+    Blockly.Arduino.setups_["setup_input_" + dropdown_pin]="pinMode(" + dropdown_pin + ", INPUT_PULLUP);";
+    var code="digitalRead(" + dropdown_pin + ")";
+    return [code, Blockly.Arduino.ORDER_ATOMIC]
+};
+Blockly.Arduino["digital_read"]=function(block){
+    var pull_up=block.getFieldValue('pullup') == 'TRUE';
+    var dropdown_pin=Blockly.Arduino.valueToCode(block, "PIN", Blockly.Arduino.ORDER_ATOMIC);
+    if (pull_up) {
+        Blockly.Arduino.setups_["setup_input_" + dropdown_pin]="pinMode(" + dropdown_pin + ", INPUT_PULLUP);"
+    } else {
+        Blockly.Arduino.setups_["setup_input_" + dropdown_pin]="pinMode(" + dropdown_pin + ", INPUT);"
+    };
+    var code="digitalRead(" + dropdown_pin + ")";
+    return [code, Blockly.Arduino.ORDER_ATOMIC]
+};
+Blockly.Arduino["digital_readbi"]=function(block){
+    var pull_up=block.getFieldValue('pullup') == 'TRUE';
+    var dropdown_pin=Blockly.Arduino.valueToCode(block, "PIN", Blockly.Arduino.ORDER_ATOMIC);
+    if (pull_up) {
+        Blockly.Arduino.setups_["setup_input_" + dropdown_pin]="pinMode(" + dropdown_pin + ", INPUT_PULLUP);"
+		var code="!digitalRead(" + dropdown_pin + ")";
+    } else {
+        Blockly.Arduino.setups_["setup_input_" + dropdown_pin]="pinMode(" + dropdown_pin + ", INPUT_PULLUP);"
+		var code="digitalRead(" + dropdown_pin + ")";
+    };
+    
+    return [code, Blockly.Arduino.ORDER_ATOMIC]
+};
+Blockly.Arduino["inout_analog_write"]=function(block){
+    var dropdown_pin=block.getFieldValue("broche");
+    var value_num=Blockly.Arduino.valueToCode(block, "NUM", Blockly.Arduino.ORDER_ATOMIC);
+     Blockly.Arduino.setups_["setup_output" + dropdown_pin]="pinMode(" + dropdown_pin + ", OUTPUT);";
+    var code=" analogWrite(" + dropdown_pin + ", " + value_num + ");\n";
+    return code
+};
+Blockly.Arduino["inout_analog_write2"]=function(block){
+    var dropdown_pin=Blockly.Arduino.valueToCode(block, "PIN", Blockly.Arduino.ORDER_ATOMIC);
+    var value_num=Blockly.Arduino.valueToCode(block, "STAT", Blockly.Arduino.ORDER_ATOMIC);
+     Blockly.Arduino.setups_["setup_output" + dropdown_pin]="pinMode(" + dropdown_pin + ", OUTPUT);";
+    var code=" analogWrite(" + dropdown_pin + ", " + value_num + ");\n";
+    return code
+};
+Blockly.Arduino["inout_analog_write3"]=function(block){
+    var dropdown_pin=Blockly.Arduino.valueToCode(block, "PIN", Blockly.Arduino.ORDER_ATOMIC);
+	   var dropdown_pin1=block.getFieldValue("PIN1")
+	      var dropdown_pin2=block.getFieldValue("PIN2")
+		     var dropdown_pin3=block.getFieldValue("PIN3")
+ 
+    var value_num=Blockly.Arduino.valueToCode(block, "STAT", Blockly.Arduino.ORDER_ATOMIC);
+     Blockly.Arduino.setups_["setup_output" + dropdown_pin]="  ledcSetup(" + dropdown_pin1 + ", " + dropdown_pin2 + ", " + dropdown_pin3 + "); \n  ledcAttachPin(" + dropdown_pin + ", " + dropdown_pin1 + "); \n ";
+    var code="ledcWrite(" + dropdown_pin1 + ", " + value_num + ");\n";
+    return code
+};
+Blockly.Arduino["inout_analog_read"]=function(block){
+    var dropdown_pin=block.getFieldValue("broche");
+    var code="analogRead(" + dropdown_pin + ")";
+    return [code, Blockly.Arduino.ORDER_ATOMIC]
+};
+Blockly.Arduino["inout_analog_read_esp"]=function(block){
+    var dropdown_pin=Blockly.Arduino.valueToCode(block, "PIN", Blockly.Arduino.ORDER_ATOMIC);
+    var code="analogRead(" + dropdown_pin + ")";
+    return [code, Blockly.Arduino.ORDER_ATOMIC]
+};
+Blockly.Arduino['inout_analog_aref']=function(block){
+    var valuearef_dropdown = block.getFieldValue('aref_dropdown');
+    Blockly.Arduino.variables_["variables_valuearef_dropdown"] = 'uint16_t raw_bandgap = 0; \n float volt_battery = 0.0; \n ';
+    Blockly.Arduino.setups_["setups_valuearef_dropdown"]='analogReference('+valuearef_dropdown+');';
+    var code = 'analogRead(14)';
+    return [code, Blockly.Arduino.ORDER_ATOMIC];
+};
+
+Blockly.Arduino["inout_angle_maths"]=function(block){
+    var angle=block.getFieldValue("ANGLE");
+    return [angle, Blockly.Arduino.ORDER_ATOMIC]
+};
+Blockly.Arduino["toggle"]=function(block){
+    var dropdown_pin=Blockly.Arduino.valueToCode(block, "PIN", Blockly.Arduino.ORDER_ATOMIC);
+	Blockly.Arduino.definitions_["toggle"+dropdown_pin]="boolean etat_" + dropdown_pin + "=LOW;";
+    Blockly.Arduino.setups_["setup_output_" + dropdown_pin]="pinMode(" + dropdown_pin + ", OUTPUT);";
+    return "digitalWrite(" + dropdown_pin + ", etat_" + dropdown_pin + ");\netat_"+ dropdown_pin + "=!etat_"+ dropdown_pin + ";\n";
+};
+/*  stockage  */
+Blockly.Arduino['eeprom_write_byte'] = function(block) {
+	var adresse = Blockly.Arduino.valueToCode(block, 'adr', Blockly.Arduino.ORDER_ATOMIC);
+	var valeur = Blockly.Arduino.valueToCode(block, 'val', Blockly.Arduino.ORDER_ATOMIC);
+	Blockly.Arduino.includes_["eeprom"] = '#include <EEPROM.h> \n  ';
+		//Blockly.Arduino.setups_["setup_eeprom"]='EEPROM.begin(100); \n ';
+	return 'EEPROM.write('+adresse+','+valeur+'); \n ';
+};
+Blockly.Arduino['eeprom_read_byte'] = function(block) {
+	var address = Blockly.Arduino.valueToCode(this, 'ADDRESS', Blockly.Arduino.ORDER_ATOMIC) || '0';
+	Blockly.Arduino.includes_["eeprom"] = '#include <EEPROM.h> \n ';
+	//Blockly.Arduino.setups_["setup_eeprom"]='EEPROM.begin(100); \n ';
+	var code ='EEPROM.read('+address+')';
+	return [code,Blockly.Arduino.ORDER_ATOMIC];
+};
+
+/*  stockage_R  */
+Blockly.Arduino['eeprom_write_byte_R'] = function(block) {
+	var adresse = Blockly.Arduino.valueToCode(block, 'adr', Blockly.Arduino.ORDER_ATOMIC);
+	var valeur = Blockly.Arduino.valueToCode(block, 'val', Blockly.Arduino.ORDER_ATOMIC);
+	Blockly.Arduino.includes_["eeprom"] = '#include <EEPROM.h>';
+	return 'EEPROM.put('+adresse+','+valeur+');\n';
+};
+Blockly.Arduino['eeprom_read_byte_R'] = function(block) {
+	var adresse = Blockly.Arduino.valueToCode(block, 'adr', Blockly.Arduino.ORDER_ATOMIC);
+	var valeur = Blockly.Arduino.valueToCode(block, 'val', Blockly.Arduino.ORDER_ATOMIC);
+	Blockly.Arduino.includes_["eeprom"] = '#include <EEPROM.h>';
+	return 'EEPROM.get('+adresse+','+valeur+');\n';
+};
+
+Blockly.Arduino['init_generalremotecontrol'] = function(block) {
+  var dropdown_pin = Blockly.Arduino.valueToCode(block, "PIN", Blockly.Arduino.ORDER_ATOMIC);
+   
+  Blockly.Arduino.definitions_['include_enableinterrupt'] = '#include <IRremote.h>  \n IRsend irsend; \n';
+  Blockly.Arduino.definitions_['reception_function'] = 'IRrecv ir_rx('+dropdown_pin+');\n'+
+'decode_results ir_rx_results;\n'+
+'\n'+
+'unsigned long fnc_ir_rx_decode()\n'+
+' {\n'+
+'  bool decoded=false;\n'+
+'  if( ir_rx.decode(&ir_rx_results))\n'+
+'	{\n'+
+'		decoded=true;\n'+
+'		ir_rx.resume();\n'+
+'	}\n'+
+'	if(decoded) \n'+
+'		return ir_rx_results.value; \n'+
+'	else \n'+
+'		return 0;\n'+
+' }\n';
+  
+  
+  Blockly.Arduino.setups_['setup_genericRC'] = 'ir_rx.enableIRIn();\n';
+  	 	 
+  var code='(unsigned long)fnc_ir_rx_decode()';
+  return [code, Blockly.Arduino.ORDER_ATOMIC];
+};
+Blockly.Arduino['init_generalremotecontrol1'] = function(block) {
+ 
+  var code='String("0x") + String(ir_rx_results.value, HEX)';
+  return [code, Blockly.Arduino.ORDER_ATOMIC];
+};
+
+Blockly.Arduino['Init_remotecontrolMRT'] = function(block) {
+   
+  var Channel = Blockly.Arduino.valueToCode(block, "PIN", Blockly.Arduino.ORDER_ATOMIC);
+  
+  Blockly.Arduino.definitions_['include_enableinterrupt'] = '#include <IRremote.h>  \n IRsend irsend; \n';
+  
+  var code = 'irsend.sendRC6('+Channel+',8); \n';  
+  return code;
+};
+
+Blockly.Arduino['Init_remotecontrolMRT1'] = function(block) {
+   
+  var Channel = block.getFieldValue("PIN");
+  var hexcode = block.getFieldValue("TEXT");
+  
+  Blockly.Arduino.definitions_['include_enableinterrupt'] = '#include <IRremote.h>  \n IRsend irsend; \n';
+  
+  if(Channel == '0'){
+  var code = 'irsend.sendNEC('+hexcode+', 32); \n';
+}
+  if(Channel == '1'){
+  var code = 'irsend.sendSony('+hexcode+', 12); \n';
+}
+  if(Channel == '2'){
+  var code = 'irsend.sendRC5('+hexcode+', 12); \n';
+}
+  if(Channel == '3'){
+  var code = 'irsend.sendRC6('+hexcode+', 20); \n';
+} 
+  if(Channel == '4'){
+  var code = 'irsend.sendJVC('+hexcode+', 8, false); \n';
+}  
+  if(Channel == '5'){
+  var code = 'irsend.sendSAMSUNG('+hexcode+', 20); \n';
+} 
+  if(Channel == '6'){
+  var code = 'irsend.sendDenon('+hexcode+', 15); \n';
+} 
+  if(Channel == '7'){
+  var code = 'irsend.sendLG('+hexcode+', 32); \n';
+} 
+  return code;
+};
+ 
+
+Blockly.Arduino['catr433_sendvar'] = function(block) {
+var dropdown_pin = Blockly.Arduino.valueToCode(block, "PIN", Blockly.Arduino.ORDER_ATOMIC);
+var variable = Blockly.Arduino.valueToCode(block, 'variable', Blockly.Arduino.ORDER_ATOMIC);
+ 
+    Blockly.Arduino.definitions_['define_sendvar'] = '  #include <VirtualWire.h> \n char msg[3] = { }; \n const int transmit_pin = '+dropdown_pin+'; \n int i = 0; \n  ';
+  
+    Blockly.Arduino.setups_['catr433_sendvar'] = ' vw_set_tx_pin(transmit_pin); \n    vw_set_ptt_inverted(true); \n    vw_setup(2000);  \n  '  ;
+
+	var code = 'vw_send((uint8_t *)msg, '+variable+'+1); \n vw_wait_tx(); \n';
+  
+return code;
+};
+
+Blockly.Arduino['catr433_recvvar'] = function(block) {
+var dropdown_pin = Blockly.Arduino.valueToCode(block, "PIN", Blockly.Arduino.ORDER_ATOMIC);
+var variable = Blockly.Arduino.valueToCode(block, 'variable', Blockly.Arduino.ORDER_ATOMIC);
+ 
+    Blockly.Arduino.definitions_['define_sendvar'] = ' #include <VirtualWire.h> \n const int receive_pin = '+dropdown_pin+'; \n int ivins; \n  ';
+  
+    Blockly.Arduino.setups_['catr433_sendvar'] = '    vw_set_rx_pin(receive_pin); \n vw_set_ptt_inverted(true);  \n     vw_setup(2000);  \n    vw_rx_start();   \n  '  ;
+
+	var code = ' uint8_t buf[VW_MAX_MESSAGE_LEN]; \n  uint8_t buflen = VW_MAX_MESSAGE_LEN; \n  if (vw_get_message(buf, &buflen)) \n { \n for (ivins = 0; ivins < buflen-1; ivins++) \n { \n  } \n } \n  '+variable+' = ivins;  \n';
+ 
+return code;
+};
+
+
+Blockly.Arduino['nrf24l01_init'] = function(block) {
+
+   var pin_CE = Blockly.Arduino.valueToCode(block, "PIN_CE", Blockly.Arduino.ORDER_ATOMIC);
+   var pin_CS = Blockly.Arduino.valueToCode(block, "PIN_CS", Blockly.Arduino.ORDER_ATOMIC);
+    
+   Blockly.Arduino.definitions_['define_spi'] = '#include <SPI.h>\n';
+   Blockly.Arduino.definitions_['define_RF24L01'] = '#include <nRF24L01.h>\n';
+   Blockly.Arduino.definitions_['define_RF24'] = '#include <RF24.h>\n';
+ 
+   Blockly.Arduino.definitions_['define_var_NRF24L01'] = 'RF24 radio('+pin_CE+','+pin_CS+');\n';
+ 
+   Blockly.Arduino.setups_['nrf24l01_begin']='radio.begin(); \n   ';
+ 
+   var code = '';
+   return code;
+};
+Blockly.Arduino['nrf24l01_max'] = function(block) {
+
+    var valuecan = block.getFieldValue('can');
+    var valuerate = block.getFieldValue('rate');
+    var valuepal = block.getFieldValue('pal');
+    var valuepip = block.getFieldValue('pip');
+ 
+   Blockly.Arduino.setups_['nrf24l01_max']='radio.setChannel(' + valuecan + ');  \n  radio.setDataRate (RF24_' + valuerate + '); \n radio.setPALevel(RF24_PA_' + valuepal + '); \n radio.openWritingPipe(' + valuepip + '); \n';
+                                            
+   var code = '';
+   return code;
+};
+
+Blockly.Arduino['nrf24l01_sendvar'] = function(block) {
+
+  var variable = Blockly.Arduino.valueToCode(block, "variable", Blockly.Arduino.ORDER_ATOMIC);   
+ 
+  var code = ' radio.write(&'+variable+',sizeof('+variable+'));\n';
+ 
+  return code;
+};
+
+Blockly.Arduino['nrf24l01_recvvar'] = function(block) {
+
+  var variable = Blockly.Arduino.valueToCode(block, "variable", Blockly.Arduino.ORDER_ATOMIC);
+  Blockly.Arduino.setups_['radio_start']='radio.startListening(); \n ';
+  var code = ' radio.read(&'+variable+',sizeof('+variable+'));\n';
+ 
+  return code;
+};
+
+Blockly.Arduino["base_define_for"]=function(block){
+ var repeats = Blockly.Arduino.valueToCode(block, "variable", Blockly.Arduino.ORDER_ATOMIC);
+ var branch = Blockly.Arduino.statementToCode(this, 'DO');
+  if (Blockly.Arduino.INFINITE_LOOP_TRAP) {
+    branch = Blockly.Arduino.INFINITE_LOOP_TRAP.replace(/%1/g,
+        '\'' + this.id + '\'') + branch;
+  }
+  var loopVar = Blockly.Arduino.variableDB_.getName(
+      'count', Blockly.Variables.NAME_TYPE);
+  var code = 'for (int ' + loopVar + ' = 0; ' +
+      loopVar + ' < ' + repeats + '; ' +
+      loopVar + '++) {\n' +
+      branch + '}\n';
+  return code;
+};
+
+ Blockly.Arduino["base_define_while"]=function(block){
+ var repeats1 = Blockly.Arduino.valueToCode(block, "variable1", Blockly.Arduino.ORDER_ATOMIC);
+  var repeats2 = Blockly.Arduino.valueToCode(block, "variable2", Blockly.Arduino.ORDER_ATOMIC);
+   var pin = block.getFieldValue("SPEED");
+ var branch = Blockly.Arduino.statementToCode(this, 'DO');
+  if (Blockly.Arduino.INFINITE_LOOP_TRAP) {
+    branch = Blockly.Arduino.INFINITE_LOOP_TRAP.replace(/%1/g,
+        '\'' + this.id + '\'') + branch;
+  }
+  var loopVar = Blockly.Arduino.variableDB_.getName(
+      'count', Blockly.Variables.NAME_TYPE);
+  var code = 'while (' + repeats1 + ' ' + pin + ' ' + repeats2 + '){ \n' +
+     // loopVar + ' < ' + repeats + '; ' +
+     // loopVar + '++) {\n' +
+      branch + '}\n';
+  return code;
+};
+ Blockly.Arduino["base_define_while_do"]=function(block){
+ var repeats1 = Blockly.Arduino.valueToCode(block, "variable1", Blockly.Arduino.ORDER_ATOMIC);
+  var repeats2 = Blockly.Arduino.valueToCode(block, "variable2", Blockly.Arduino.ORDER_ATOMIC);
+   var pin = block.getFieldValue("SPEED");
+ var branch = Blockly.Arduino.statementToCode(this, 'DO');
+  if (Blockly.Arduino.INFINITE_LOOP_TRAP) {
+    branch = Blockly.Arduino.INFINITE_LOOP_TRAP.replace(/%1/g,
+        '\'' + this.id + '\'') + branch;
+  }
+  var loopVar = Blockly.Arduino.variableDB_.getName(
+      'count', Blockly.Variables.NAME_TYPE);
+  var code = 'do { \n' +
+     // loopVar + ' < ' + repeats + '; ' +
+     // loopVar + '++) {\n' +
+      branch + '} while (' + repeats1 + ' ' + pin + ' ' + repeats2 + ');\n';
+  return code;
+};
+ 
+ Blockly.Arduino["base_define_for_in"]=function(block){
+ var repeats1 = Blockly.Arduino.valueToCode(block, "variable1", Blockly.Arduino.ORDER_ATOMIC);
+  var repeats2 = Blockly.Arduino.valueToCode(block, "variable2", Blockly.Arduino.ORDER_ATOMIC);
+   var repeats3 = Blockly.Arduino.valueToCode(block, "variable3", Blockly.Arduino.ORDER_ATOMIC);
+    var repeats4 = Blockly.Arduino.valueToCode(block, "variable4", Blockly.Arduino.ORDER_ATOMIC);
+	
+ var branch = Blockly.Arduino.statementToCode(this, 'DO');
+  if (Blockly.Arduino.INFINITE_LOOP_TRAP) {
+    branch = Blockly.Arduino.INFINITE_LOOP_TRAP.replace(/%1/g,
+        '\'' + this.id + '\'') + branch;
+  }
+  var loopVar = Blockly.Arduino.variableDB_.getName(
+      'count', Blockly.Variables.NAME_TYPE);
+  var code = 'for (int ' + repeats1 + '=' + repeats2 + '; ' + repeats1 + '<=' + repeats3 + '; ' + repeats1 + '=' + repeats1 + '+' + repeats4 + ') {\n' +
+      // loopVar + ' < ' + repeats1 + '; ' +
+      // loopVar + '++) {\n' +
+      branch + '}\n';
+  return code;
+};
+  Blockly.Arduino["base_define_for_ino"]=function(block){
+ var repeats1 = Blockly.Arduino.valueToCode(block, "variable1", Blockly.Arduino.ORDER_ATOMIC);
+  var repeats2 = Blockly.Arduino.valueToCode(block, "variable2", Blockly.Arduino.ORDER_ATOMIC);
+   var repeats3 = Blockly.Arduino.valueToCode(block, "variable3", Blockly.Arduino.ORDER_ATOMIC);
+    var repeats4 = Blockly.Arduino.valueToCode(block, "variable4", Blockly.Arduino.ORDER_ATOMIC);
+	
+ var branch = Blockly.Arduino.statementToCode(this, 'DO');
+  if (Blockly.Arduino.INFINITE_LOOP_TRAP) {
+    branch = Blockly.Arduino.INFINITE_LOOP_TRAP.replace(/%1/g,
+        '\'' + this.id + '\'') + branch;
+  }
+  var loopVar = Blockly.Arduino.variableDB_.getName(
+      'count', Blockly.Variables.NAME_TYPE);
+  var code = 'for (int ' + repeats1 + '=' + repeats2 + '; ' + repeats1 + '>=' + repeats3 + '; ' + repeats1 + '=' + repeats1 + '-' + repeats4 + ') {\n' +
+      // loopVar + ' < ' + repeats1 + '; ' +
+      // loopVar + '++) {\n' +
+      branch + '}\n';
+  return code;
+};
+
+Blockly.Arduino['math_single'] = function(block) {
+  var operator = block.getFieldValue('OP');
+  var code;
+  var arg;
+  if (operator == 'NEG') {
+    var code = Blockly.Arduino.valueToCode(block, 'NUM',
+        Blockly.Arduino.ORDER_UNARY_SIGN) || '0';
+    return ['-' + code, Blockly.Arduino.ORDER_UNARY_SIGN];
+  }
+  //Blockly.Arduino.definitions_['include_math'] = '#include <math.h>';
+  if (operator == 'SIN' || operator == 'COS' || operator == 'TAN') {
+    arg = Blockly.Arduino.valueToCode(block, 'NUM',
+        Blockly.Arduino.ORDER_MULTIPLICATIVE) || '0';
+  } else {
+    arg = Blockly.Arduino.valueToCode(block, 'NUM',
+        Blockly.Arduino.ORDER_NONE) || '0';
+  }
+
+  if (code) {
+    return [code, Blockly.Arduino.ORDER_FUNCTION_CALL];
+  }
+ 
+  return [code, Blockly.Arduino.ORDER_MULTIPLICATIVE];
+};
+
+Blockly.Arduino['math_single_int'] = function(block) {
+    var pin = Blockly.Arduino.valueToCode(block, "PIN", Blockly.Arduino.ORDER_ATOMIC);
+	var dim = this.getFieldValue('dim');
+	var code = ''+dim+'('+pin+')';
+    return [code, Blockly.Arduino.ORDER_ATOMIC];
+};
+
+Blockly.Arduino['math_single_int_text'] = function(block) {
+    var pin = Blockly.Arduino.valueToCode(block, "PIN", Blockly.Arduino.ORDER_ATOMIC);
+	var dim = this.getFieldValue('dim');
+	var code = ''+dim+'('+pin+')';
+    return [code, Blockly.Arduino.ORDER_ATOMIC];
+};
+
+Blockly.Arduino['math_single_pi'] = function(block) {
+	var dim = this.getFieldValue('dim');
+	if(dim == '1'){
+	var code = 'PI';
+	}
+	if(dim == '2'){
+	var code = 'EULER';
+	}
+	if(dim == '3'){
+	var code = '(1 + sqrt(5)) / 2';
+	}
+	if(dim == '4'){
+	var code = 'sqrt(2)';
+	}
+	if(dim == '5'){
+	var code = 'sqrt(0.5)';
+	}
+	if(dim == '6'){
+	var code = 'INFINITY';
+	}
+    return [code, Blockly.Arduino.ORDER_ATOMIC];
+};
+Blockly.Arduino['math_single_int_pi'] = function(block) {
+    var pin = Blockly.Arduino.valueToCode(block, "PIN", Blockly.Arduino.ORDER_ATOMIC);
+	var dim = this.getFieldValue('dim');
+	if(dim == '1'){
+	var code = '('+pin+' % 2 == 0)';
+	}
+	if(dim == '2'){
+	var code = '('+pin+' % 2 == 1)';
+	}
+	if(dim == '3'){
+	var code = '('+pin+' % 1 == 0)';
+	}
+	if(dim == '4'){
+	var code = '('+pin+' > 0)';
+	}
+	if(dim == '5'){
+	var code = '('+pin+' < 0)';
+	}
+ 
+    return [code, Blockly.Arduino.ORDER_ATOMIC];
+};  
+ Blockly.Arduino['math_single_int_pi1'] = function(block) {
+    var pin = Blockly.Arduino.valueToCode(block, "PIN", Blockly.Arduino.ORDER_ATOMIC);
+	var pin1 = Blockly.Arduino.valueToCode(block, "PIN1", Blockly.Arduino.ORDER_ATOMIC);
+	 
+	var code = '('+pin+' % '+pin1+' == 0)';
+	 
+    return [code, Blockly.Arduino.ORDER_ATOMIC];
+};
+
+  Blockly.Arduino['math_single_int_pi2'] = function(block) {
+    var pin = Blockly.Arduino.valueToCode(block, "PIN", Blockly.Arduino.ORDER_ATOMIC);
+	var pin1 = Blockly.Arduino.valueToCode(block, "PIN1", Blockly.Arduino.ORDER_ATOMIC);
+	 
+	var code = '(int)'+pin+' % (int)'+pin1+'';
+	 
+    return [code, Blockly.Arduino.ORDER_ATOMIC];
+};
+ 
+   Blockly.Arduino['math_single_int_pi3'] = function(block) {
+    var pin = Blockly.Arduino.valueToCode(block, "PIN", Blockly.Arduino.ORDER_ATOMIC);
+	var pin1 = Blockly.Arduino.valueToCode(block, "PIN1", Blockly.Arduino.ORDER_ATOMIC);
+	var pin2 = Blockly.Arduino.valueToCode(block, "PIN2", Blockly.Arduino.ORDER_ATOMIC);
+	
+	var code = '(constrain('+pin+','+pin1+','+pin2+'))';
+	 
+    return [code, Blockly.Arduino.ORDER_ATOMIC];
+};
+
+  
+Blockly.Arduino['Init_RTC_ds1302'] = function(block) {
+  var pin_rst = Blockly.Arduino.valueToCode(block, "PIN_RST", Blockly.Arduino.ORDER_ATOMIC);
+  var pin_dat = Blockly.Arduino.valueToCode(block, "PIN_DAT", Blockly.Arduino.ORDER_ATOMIC);
+  var pin_clk = Blockly.Arduino.valueToCode(block, "PIN_CLK", Blockly.Arduino.ORDER_ATOMIC);
+  
+  Blockly.Arduino.definitions_['include_DS1302'] = '#include <iarduino_RTC.h>\n';
+  
+  Blockly.Arduino.definitions_['init_ds1302'] = 'iarduino_RTC time(RTC_DS1302, '+pin_rst+','+pin_clk+','+pin_dat+');\n';
+ 
+  var code=' time.begin();\n';
+  return code;
+};
+
+Blockly.Arduino['DateTime_RTC_ds1302'] = function(block) {
+	
+  var day = Blockly.Arduino.valueToCode(block, "DS1302_DAY", Blockly.Arduino.ORDER_ATOMIC);
+  var month = Blockly.Arduino.valueToCode(block, "DS1302_MONTH", Blockly.Arduino.ORDER_ATOMIC);
+  var year = Blockly.Arduino.valueToCode(block, "DS1302_YEAR", Blockly.Arduino.ORDER_ATOMIC);
+  var hour = Blockly.Arduino.valueToCode(block, "DS1302_HOUR", Blockly.Arduino.ORDER_ATOMIC); 
+  var min = Blockly.Arduino.valueToCode(block, "DS1302_MINUTE", Blockly.Arduino.ORDER_ATOMIC);
+  var sec = Blockly.Arduino.valueToCode(block, "DS1302_SECOND", Blockly.Arduino.ORDER_ATOMIC);
+   	
+   var code='time.settime('+sec+','+min+','+hour+','+day+','+month+','+year+', 1);\n'
+  return code;
+};
+
+Blockly.Arduino['values_ds1302'] = function(block) {
+  var Output_Value = this.getFieldValue('OUTPUT_VALUE'); 	
+  
+  if (Output_Value==5)
+	  var code = 'time.gettime("s")';
+  else if (Output_Value==4)
+		var code = 'time.gettime("i")';
+   else if (Output_Value==3)
+			var code = 'time.gettime("H")';
+    else if (Output_Value==2)
+				var code = 'time.gettime("d")';
+	 else if (Output_Value==1)
+				var code = 'time.gettime("m")';
+			else
+					var code = 'time.gettime("Y")';
+    
+  return [code, Blockly.Arduino.ORDER_ATOMIC];
+};
+
+Blockly.Arduino['Init_RTC_ds3231w'] = function(block) {
+   
+  //Blockly.Arduino.definitions_['include_Wire'] = '#include <Wire.h>\n';
+  Blockly.Arduino.definitions_['include_RTClib'] = '#include <RTClib.h>\n';
+  
+  Blockly.Arduino.definitions_['init_ds3232'] = 'RTC_DS3231 rtc;\n'+
+  'DateTime t;\n'+
+  'String daysOfTheWeek[7]={"Domingo","Lunes","Martes","Miercoles","Jueves","Viernes","Sabado"};\n'+
+  'String monthsNames[12]={"Enero","Febrero","Marzo","Abril","Mayo","Junio","Julio","Agosto","Septiembre","Octubre","Noviembre","Diciembre"};\n';
+    
+  Blockly.Arduino.setups_['setup_ds3232'] = 'rtc.begin();\n';
+  	 	 
+  var code='';
+  return code;
+};
+Blockly.Arduino['Init_RTC_ds3231'] = function(block) {
+   
+  //Blockly.Arduino.definitions_['include_Wire'] = '#include <Wire.h>\n';
+  Blockly.Arduino.definitions_['include_RTClib'] = '#include <RTClib.h>\n';
+  
+  Blockly.Arduino.definitions_['init_ds3232'] = 'RTC_DS3231 rtc;\n'+
+  'DateTime t;\n'+
+  'String daysOfTheWeek[7]={"Domingo","Lunes","Martes","Miercoles","Jueves","Viernes","Sabado"};\n'+
+  'String monthsNames[12]={"Enero","Febrero","Marzo","Abril","Mayo","Junio","Julio","Agosto","Septiembre","Octubre","Noviembre","Diciembre"};\n';
+    
+  Blockly.Arduino.setups_['setup_ds3232'] = 'rtc.begin();\n';
+  	 	 
+  var code='';
+  return code;
+};
+Blockly.Arduino['DateTime_RTC_ds3231w'] = function(block) {
+	
+	
+  var day = Blockly.Arduino.valueToCode(this, 'DS3231_DAY', Blockly.Arduino.ORDER_ATOMIC);
+  var month = Blockly.Arduino.valueToCode(this, 'DS3231_MONTH', Blockly.Arduino.ORDER_ATOMIC);
+  var year = Blockly.Arduino.valueToCode(this, 'DS3231_YEAR', Blockly.Arduino.ORDER_ATOMIC);
+  var hour = Blockly.Arduino.valueToCode(this, 'DS3231_HOUR', Blockly.Arduino.ORDER_ATOMIC); 
+  var min = Blockly.Arduino.valueToCode(this, 'DS3231_MINUTE', Blockly.Arduino.ORDER_ATOMIC);
+  var sec = Blockly.Arduino.valueToCode(this, 'DS3231_SECOND', Blockly.Arduino.ORDER_ATOMIC);
+   
+   var code='rtc.adjust(DateTime('+year+','+month+','+day+','+hour+','+min+','+sec+'));\n';
+  return code;
+};
+Blockly.Arduino['DateTime_RTC_ds3231'] = function(block) {
+	
+	
+  var day = Blockly.Arduino.valueToCode(this, 'DS3231_DAY', Blockly.Arduino.ORDER_ATOMIC);
+  var month = Blockly.Arduino.valueToCode(this, 'DS3231_MONTH', Blockly.Arduino.ORDER_ATOMIC);
+  var year = Blockly.Arduino.valueToCode(this, 'DS3231_YEAR', Blockly.Arduino.ORDER_ATOMIC);
+  var hour = Blockly.Arduino.valueToCode(this, 'DS3231_HOUR', Blockly.Arduino.ORDER_ATOMIC); 
+  var min = Blockly.Arduino.valueToCode(this, 'DS3231_MINUTE', Blockly.Arduino.ORDER_ATOMIC);
+  var sec = Blockly.Arduino.valueToCode(this, 'DS3231_SECOND', Blockly.Arduino.ORDER_ATOMIC);
+   
+   var code='rtc.adjust(DateTime('+year+','+month+','+day+','+hour+','+min+','+sec+'));\n';
+  return code;
+};
+Blockly.Arduino['order_read_rtc_ds3231w'] = function(block) {
+  var code = 't=rtc.now();\n'  
+  return code;
+};
+Blockly.Arduino['order_read_rtc_ds3231'] = function(block) {
+  var code = 't=rtc.now();\n'  
+  return code;
+};
+Blockly.Arduino['values_ds3231w'] = function(block) {
+ var Output_Value = this.getFieldValue('OUTPUT_VALUE'); 	
+
+  if (Output_Value==5)
+	  var code = 't.second()';
+  else if (Output_Value==4)
+		var code = 't.minute()';
+   else if (Output_Value==3)
+			var code = 't.hour()';
+    else if (Output_Value==2)
+				var code = 't.day()';
+	 else if (Output_Value==1)
+				var code = 't.month()';
+			 else if (Output_Value==0)
+				 var code = 't.year()';
+				 else
+					var code = 't.dayOfTheWeek()';
+    
+  
+  return [code, Blockly.Arduino.ORDER_ATOMIC];
+};
+Blockly.Arduino['values_ds3231'] = function(block) {
+ var Output_Value = this.getFieldValue('OUTPUT_VALUE'); 	
+
+  if (Output_Value==5)
+	  var code = 't.second()';
+  else if (Output_Value==4)
+		var code = 't.minute()';
+   else if (Output_Value==3)
+			var code = 't.hour()';
+    else if (Output_Value==2)
+				var code = 't.day()';
+	 else if (Output_Value==1)
+				var code = 't.month()';
+			 else if (Output_Value==0)
+				 var code = 't.year()';
+				 else
+					var code = 't.dayOfTheWeek()';
+    
+  
+  return [code, Blockly.Arduino.ORDER_ATOMIC];
+};
+Blockly.Arduino['base_code_reset'] = function(block) {
+  var code = ' ESP.restart(); \n'  
+  return code;
+};
+
+Blockly.Arduino['sd_init'] = function(block) {
+
+   var pin_CS = Blockly.Arduino.valueToCode(this, 'PIN_CS', Blockly.Arduino.ORDER_ATOMIC); 
+    
+   Blockly.Arduino.definitions_['define_spi'] = '#include <SPI.h>\n';
+   Blockly.Arduino.definitions_['define_SD'] = '#include <SD.h>\n';
+ 
+   Blockly.Arduino.setups_['setup_sd']='SD.begin('+pin_CS+');\n'
+ 
+   var code = '';
+   return code;
+};
+
+Blockly.Arduino['sd_printfile'] = function(block) {
+
+  var texttoprint = Blockly.Arduino.valueToCode(block, 'texttoprint', Blockly.Arduino.ORDER_ATOMIC);
+  var filename = Blockly.Arduino.valueToCode(block, 'filename', Blockly.Arduino.ORDER_ATOMIC);
+  var logic = this.getFieldValue('LOGIC');
+  
+   Blockly.Arduino.definitions_['define_sd_print'] = 'void sd_print(String file, String texttoprint, boolean lf)\n'+
+'	{\n'+
+'   File sd_file;\n'+
+'  	sd_file = SD.open(file, FILE_WRITE);\n'+
+'	if(sd_file){\n'+
+'		if(lf)sd_file.println(texttoprint);\n'+
+'		else sd_file.print(texttoprint);\n'+
+'		sd_file.close();\n'+
+'	}\n'+
+'}\n ';
+//Blockly.Arduino.setups_['setup_sd_file']='SD.remove('+filename+'); \n'
+
+ if(logic=='TRUE')
+	var code = 'sd_print('+filename+','+texttoprint+',true);\n';
+ else
+	 var code = 'sd_print('+filename+','+texttoprint+',false);\n';
+ 
+   return code;
+};
+
+Blockly.Arduino['sd_printfile1'] = function(block) {
+  var filename = Blockly.Arduino.valueToCode(block, 'filename', Blockly.Arduino.ORDER_ATOMIC);
+ Blockly.Arduino.definitions_['define_sd_print1'] = 'String values; \n';
+ Blockly.Arduino.setups_['define_sd_print1'] = 'File myFile = SD.open('+filename+');  \n    if (myFile)  \n  {  \n    byte h = 0;  \n    char text[] = {};  \n    while (myFile.available())  \n    {  \n     text[h] = myFile.read();  \n      h++;  \n    }  \n    values = text;  \n    myFile.close();  \n }  \n  \n';
+  
+ 	var code = 'values';
+	return [code, Blockly.Arduino.ORDER_ATOMIC] ; 
+};
+
+Blockly.Arduino['sd_printfile2'] = function(block) {
+  var filename = Blockly.Arduino.valueToCode(block, 'filename', Blockly.Arduino.ORDER_ATOMIC);
+ 
+ var code = ' SD.remove('+filename+'); \n';
+
+   return code;
+};
+Blockly.Arduino['sd_printfile3'] = function(block) {
+  var filename = Blockly.Arduino.valueToCode(block, 'filename', Blockly.Arduino.ORDER_ATOMIC);
+ 
+ var code = ' SD.mkdir('+filename+'); \n';
+
+   return code;
+};
+Blockly.Arduino['sd_printfile4'] = function(block) {
+  var filename = Blockly.Arduino.valueToCode(block, 'filename', Blockly.Arduino.ORDER_ATOMIC);
+ 
+ var code = ' SD.rmdir('+filename+'); \n';
+
+   return code;
+};
+
+Blockly.Arduino['stepservo_continuos_move'] = function(block) {
+  var dropdown_pin = Blockly.Arduino.valueToCode(this, 'PIN', Blockly.Arduino.ORDER_ATOMIC);  
+  var servomotor_dir = Blockly.Arduino.valueToCode(this, 'PIN_GR', Blockly.Arduino.ORDER_ATOMIC); 
+  var SpeedServo = Blockly.Arduino.valueToCode(this, 'SpeedServo', Blockly.Arduino.ORDER_ATOMIC);  
+  
+if (SpeedServo>=180)
+    SpeedServo=180;
+
+	
+  Blockly.Arduino.definitions_['define_servo'] = '#include <VarSpeedServo.h>\n';
+  Blockly.Arduino.definitions_['var_servo'+dropdown_pin] = 'VarSpeedServo myServo'+dropdown_pin+';\n';
+  Blockly.Arduino.setups_['setup_servo_'+dropdown_pin] = 'myServo'+dropdown_pin+'.attach('+dropdown_pin+');\n';
+
+
+	var code = 'myServo'+dropdown_pin+'.attach('+dropdown_pin+'); \n myServo'+dropdown_pin+'.slowmove('+SpeedServo+','+servomotor_dir+');\n';
+ 
+  
+  return code;
+};
+//ручное серво
+Blockly.Arduino['stepservo_continuos_move_ru'] = function(block) {
+  var dropdown_pin = Blockly.Arduino.valueToCode(this, 'PIN', Blockly.Arduino.ORDER_ATOMIC);  
+  var SpeedServo = Blockly.Arduino.valueToCode(this, 'SpeedServo', Blockly.Arduino.ORDER_ATOMIC);  
+  
+if (SpeedServo>=180)
+    SpeedServo=180;
+Blockly.Arduino.definitions_['define_servo_ru'] = '';
+  Blockly.Arduino.definitions_['var_servo_ru'] = '';
+  Blockly.Arduino.setups_['setup_servo_ru'] = '';
+  
+	var code = 'for (int count = 0; count < 15; count++) { pinMode('+dropdown_pin+', OUTPUT); \n digitalWrite('+dropdown_pin+', 1); \n delayMicroseconds((7 * '+SpeedServo+' + 500)); \n pinMode('+dropdown_pin+', OUTPUT); \n digitalWrite('+dropdown_pin+', 0); \n delay(20); \n } \n '; 
+
+  return code;
+};
+
+Blockly.Arduino['stepcatServoRot_stop'] = function(block) {
+  var dropdown_pin = Blockly.Arduino.valueToCode(this, 'PIN', Blockly.Arduino.ORDER_ATOMIC);  
+  
+  var code = 'myServo'+dropdown_pin+'.detach(); \n';
+  return code;
+};
+ 
+Blockly.Arduino['base_code_i2s'] = function(block) {
+  
+  Blockly.Arduino.definitions_['define_i2s'] = '#include <Wire.h>\n';
+  Blockly.Arduino.setups_['define_i2s'] = '  Wire.begin(); Serial.begin(9600); \n  while (!Serial); \n Serial.println(" I2C Scanner"); \n';
+  
+  var code = ' byte error, address; \n   int nDevices;  \n   nDevices = 0; \n  for(address = 8; address < 127; address++ ){ \n   Wire.beginTransmission(address); \n    error = Wire.endTransmission(); \n  if (error == 0){ \n  Serial.print("0x"); \n    if (address<16) \n    Serial.print("0"); \n    Serial.println(address,HEX);  \n    nDevices++; \n   } \n  else if (error==4) { \n  Serial.print("0x"); \n  if (address<16) \n  Serial.print("0"); \n  Serial.println(address,HEX); \n   } \n  } \n  if (nDevices == 0) \n  Serial.println("No I2C");   \n delay(1000); \n';  
+  return code;
+};
+
+Blockly.Arduino['servo_movebnn'] = function(block) {
+var text_name = block.getFieldValue('NAME'); 
+  var dropdown_pin = this.getFieldValue('PIN');
+ 
+  var value_degree = Blockly.Arduino.valueToCode(this, 'DEGREE', Blockly.Arduino.ORDER_ATOMIC);
+  
+  
+ if (value_degree>=180)
+    value_degree=180;
+
+  Blockly.Arduino.definitions_['define_servo'] = '#include <iarduino_MultiServo.h>  \n iarduino_MultiServo MSS'+text_name+';';
+  Blockly.Arduino.setups_['var_servo'+text_name] = '  MSS'+text_name+'.servoSet(0, SERVO_SG90); \n MSS'+text_name+'.servoSet(1, SERVO_SG90); \n  MSS'+text_name+'.servoSet(2, SERVO_SG90); \n MSS'+text_name+'.servoSet(3, SERVO_SG90); \n MSS'+text_name+'.servoSet(4, SERVO_SG90); \n MSS'+text_name+'.servoSet(5, SERVO_SG90); \n MSS'+text_name+'.servoSet(6, SERVO_SG90); \n MSS'+text_name+'.servoSet(7, SERVO_SG90); \n MSS'+text_name+'.servoSet(8, SERVO_SG90); \n MSS'+text_name+'.servoSet(9, SERVO_SG90); \n MSS'+text_name+'.servoSet(10, SERVO_SG90); \n MSS'+text_name+'.servoSet(11, SERVO_SG90); \n MSS'+text_name+'.servoSet(12, SERVO_SG90); \n MSS'+text_name+'.servoSet(13, SERVO_SG90); \n MSS'+text_name+'.servoSet(14, SERVO_SG90); \n MSS'+text_name+'.servoSet(15, SERVO_SG90); \n MSS'+text_name+'.servoSet(16, SERVO_SG90); \n MSS'+text_name+'.begin('+text_name+'); \n'  ;
+
+  var code = 'MSS'+text_name+'.servoWrite('+dropdown_pin+',byte('+value_degree+')); \n';
+  
+  return code;
+};
+
+Blockly.Arduino['motor_autoR'] = function(block) {
+  // TODO: Assemble Python into code variable.
+  
+  var motor_pin1 = Blockly.Arduino.valueToCode(this, 'PIN_RM1', Blockly.Arduino.ORDER_ATOMIC); 
+  var motor_pin2 = Blockly.Arduino.valueToCode(this, 'PIN_RM2', Blockly.Arduino.ORDER_ATOMIC); 
+  var motor_direction = this.getFieldValue('MOTOR_DIR');
+  var motor_speed = Blockly.Arduino.valueToCode(this, 'CONTENT', Blockly.Arduino.ORDER_ATOMIC);
+ 
+var code = 'pinMode('+motor_pin1+',OUTPUT); \n pinMode('+motor_pin2+',OUTPUT); \n digitalWrite('+motor_pin1+','+motor_direction+'); \n analogWrite('+motor_pin2+','+motor_speed+'); \n '; 
+ 
+  return code;
+};
+
+
+ Blockly.Arduino['motor_autoL'] = function(block) {
+ 
+  var motor_pin1 = Blockly.Arduino.valueToCode(this, 'PIN_RM1', Blockly.Arduino.ORDER_ATOMIC); 
+  var motor_pin2 = Blockly.Arduino.valueToCode(this, 'PIN_RM2', Blockly.Arduino.ORDER_ATOMIC); 
+  var motor_direction = this.getFieldValue('MOTOR_DIR');
+  var motor_speed = Blockly.Arduino.valueToCode(this, 'CONTENT', Blockly.Arduino.ORDER_ATOMIC);
+
+		if(motor_direction == '1'){ 
+	    var code = 'pinMode('+motor_pin1+',OUTPUT); \n pinMode('+motor_pin2+',OUTPUT); \n analogWrite('+motor_pin1+','+motor_speed+');\n analogWrite('+motor_pin2+',0);\n'; 
+		}
+		if(motor_direction == '0'){
+	    var code = 'pinMode('+motor_pin1+',OUTPUT); \n pinMode('+motor_pin2+',OUTPUT); \n analogWrite('+motor_pin1+',0);\n analogWrite('+motor_pin2+','+motor_speed+');\n';
+		}
+
+  return code;
+};
+
+Blockly.Arduino['motor_auto_stepper'] = function(block) {
+
+  var steeper_number = this.getFieldValue('STEEPER_NUMBER'); 
+  var steeper_pin1 = Blockly.Arduino.valueToCode(this, 'PIN_STEEPER1', Blockly.Arduino.ORDER_ATOMIC);  
+  var steeper_pin2 = Blockly.Arduino.valueToCode(this, 'PIN_STEEPER2', Blockly.Arduino.ORDER_ATOMIC);  
+  var steeper_pin3 = Blockly.Arduino.valueToCode(this, 'PIN_STEEPER3', Blockly.Arduino.ORDER_ATOMIC);  
+  var steeper_pin4 = Blockly.Arduino.valueToCode(this, 'PIN_STEEPER4', Blockly.Arduino.ORDER_ATOMIC);  
+  var stepper_steprev = Blockly.Arduino.valueToCode(this, 'STEP_RPM', Blockly.Arduino.ORDER_ATOMIC);  
+ 
+  Blockly.Arduino.definitions_['define_stepper'] = '#include <Stepper.h> \n';
+  Blockly.Arduino.definitions_['define_stepper_'+steeper_number] = 'Stepper stepper_'+steeper_number+'('+stepper_steprev+','+steeper_pin1+','+steeper_pin2+','+steeper_pin3+','+steeper_pin4+'); \n';
+
+  var code = '';
+  return code;
+};
+
+Blockly.Arduino['motor_step_dir'] = function(block) {
+
+  var steeper_number = Blockly.Arduino.valueToCode(this, 'STEPPER_STEP_h', Blockly.Arduino.ORDER_ATOMIC);  
+  var steeper_pin1 = Blockly.Arduino.valueToCode(this, 'PIN_STEEPER1', Blockly.Arduino.ORDER_ATOMIC);  
+  var steeper_pin2 = Blockly.Arduino.valueToCode(this, 'PIN_STEEPER2', Blockly.Arduino.ORDER_ATOMIC);   
+  var stepper_steprev = Blockly.Arduino.valueToCode(this, 'STEPPER_STEP_j', Blockly.Arduino.ORDER_ATOMIC);  
+ 
+  Blockly.Arduino.definitions_['define_stepper'+steeper_pin1+steeper_pin2] = ' long stepn'+steeper_pin1+''+steeper_pin2+' = 0; \n long spedn'+steeper_pin1+''+steeper_pin2+' = 0; \n';
+  Blockly.Arduino.setups_['define_stepper'+steeper_pin1+steeper_pin2] = ' pinMode('+steeper_pin1+', OUTPUT); \n   pinMode('+steeper_pin2+', OUTPUT); \n ';
+
+  var code = '  '+ 
+' stepn'+steeper_pin1+''+steeper_pin2+' = '+stepper_steprev+';  \n'+ 
+' spedn'+steeper_pin1+''+steeper_pin2+' = '+steeper_number+';  \n'+
+'   if (stepn'+steeper_pin1+''+steeper_pin2+' < 0 && spedn'+steeper_pin1+''+steeper_pin2+' > 0){  \n'+
+'     stepn'+steeper_pin1+''+steeper_pin2+' = stepn'+steeper_pin1+''+steeper_pin2+'*-1;  \n'+
+'     for (int count = 0; count < stepn'+steeper_pin1+''+steeper_pin2+'; count++) {  \n'+
+'       digitalWrite('+steeper_pin1+', 0);  \n'+
+'       digitalWrite('+steeper_pin2+', 1);  \n'+
+'       delayMicroseconds(map(spedn'+steeper_pin1+''+steeper_pin2+', 100, 1, 4000, 10000));  \n'+
+'       digitalWrite('+steeper_pin2+', 0);  \n'+
+'       delayMicroseconds(map(spedn'+steeper_pin1+''+steeper_pin2+', 100, 1, 4000, 10000));  \n'+
+'     }  \n'+
+'    stepn'+steeper_pin1+''+steeper_pin2+' = stepn'+steeper_pin1+''+steeper_pin2+'*-1;  \n'+
+'      }  \n' +
+'   if (stepn'+steeper_pin1+''+steeper_pin2+' > 0 && spedn'+steeper_pin1+''+steeper_pin2+' > 0){  \n'+
+'     for (int count = 0; count < stepn'+steeper_pin1+''+steeper_pin2+'; count++) {  \n' +   
+'       digitalWrite('+steeper_pin1+', 1);  \n'+
+'       digitalWrite('+steeper_pin2+', 1);  \n'+
+'       delayMicroseconds(map(spedn'+steeper_pin1+''+steeper_pin2+', 100, 1, 4000, 10000));  \n'+
+'       digitalWrite('+steeper_pin2+', 0);  \n'+
+'       delayMicroseconds(map(spedn'+steeper_pin1+''+steeper_pin2+', 100, 1, 4000, 10000));  \n'+
+'     }  \n'+
+'      }  \n'+
+'   if (stepn'+steeper_pin1+''+steeper_pin2+' == 0 | spedn'+steeper_pin1+''+steeper_pin2+' == 0){  \n'+
+'       digitalWrite('+steeper_pin1+', 0);  \n' +
+'       digitalWrite('+steeper_pin2+', 0);  \n'+
+'      }  \n'+
+'   \n';
+  return code;
+};
+
+
+
+
+Blockly.Arduino['motor_auto_stepper_box'] = function(block) {
+
+  var stepper_speed = Blockly.Arduino.valueToCode(this, 'STEPPER_STEP_h', Blockly.Arduino.ORDER_ATOMIC);
+  var steeper_number = this.getFieldValue('STEEPER_NUMBER');
+  var stepper_steps = Blockly.Arduino.valueToCode(this, 'STEPPER_STEP_j', Blockly.Arduino.ORDER_ATOMIC);
+  
+  var code = 'stepper_'+steeper_number+'.setSpeed('+stepper_speed+'); \n stepper_'+steeper_number+'.step('+stepper_steps+');\n ';
+   
+  return code;
+};
+
+Blockly.Arduino['motor_auto_stepper_stop'] = function(block) {
+
+  var steeper_pin1 = Blockly.Arduino.valueToCode(this, 'PIN_STEEPER1', Blockly.Arduino.ORDER_ATOMIC);  
+  var steeper_pin2 = Blockly.Arduino.valueToCode(this, 'PIN_STEEPER2', Blockly.Arduino.ORDER_ATOMIC);  
+  var steeper_pin3 = Blockly.Arduino.valueToCode(this, 'PIN_STEEPER3', Blockly.Arduino.ORDER_ATOMIC);  
+  var steeper_pin4 = Blockly.Arduino.valueToCode(this, 'PIN_STEEPER4', Blockly.Arduino.ORDER_ATOMIC); 
+  
+  Blockly.Arduino.setups_[steeper_pin1] = 'pinMode('+steeper_pin1+', OUTPUT); ';
+  Blockly.Arduino.setups_[steeper_pin2] = 'pinMode('+steeper_pin2+', OUTPUT); ';
+  Blockly.Arduino.setups_[steeper_pin3] = 'pinMode('+steeper_pin3+', OUTPUT); ';
+  Blockly.Arduino.setups_[steeper_pin4] = 'pinMode('+steeper_pin4+', OUTPUT); ';
+  
+  var code = 'digitalWrite('+steeper_pin1+',LOW); \n digitalWrite('+steeper_pin2+',LOW); \n digitalWrite('+steeper_pin3+',LOW); \n digitalWrite('+steeper_pin4+',LOW); \n '
+  
+  return code;
+};
+
+Blockly.Arduino['digital_readbiR']=function(block){
+    var dropdown_pin=Blockly.Arduino.valueToCode(block, "PIN", Blockly.Arduino.ORDER_ATOMIC);
+     
+        Blockly.Arduino.setups_['setup_input_' + dropdown_pin]='pinMode(' + dropdown_pin + ', INPUT_PULLUP);';
+		var code='digitalRead(' + dropdown_pin + ')';
+ 
+    return [code, Blockly.Arduino.ORDER_ATOMIC]
+};
+
+Blockly.Arduino["inout_analog_readR"]=function(block){
+    var dropdown_pin=block.getFieldValue("broche");
+    var code="analogRead(" + dropdown_pin + ")";
+    return [code, Blockly.Arduino.ORDER_ATOMIC]
+};
+
+Blockly.Arduino['ultrasonic_ranger_sensor'] = function(block) {
+    var PIN_TRIG = Blockly.Arduino.valueToCode(block, "PIN_TRIG", Blockly.Arduino.ORDER_ATOMIC);  
+    var PIN_ECHO = Blockly.Arduino.valueToCode(block, "PIN_ECHO", Blockly.Arduino.ORDER_ATOMIC);  
+    Blockly.Arduino.setups_['setup_output_'+PIN_TRIG] = 'pinMode('+PIN_TRIG+', OUTPUT);';
+    Blockly.Arduino.setups_['setup_input_'+PIN_ECHO] = 'pinMode('+PIN_ECHO+', INPUT);';
+    Blockly.Arduino.definitions_['var_ultrasonic'+PIN_TRIG] = 'long ultrason_'+PIN_TRIG+ '() {\n'+
+        '   long duration, distance;\n'+
+        '   digitalWrite('+PIN_TRIG+',LOW);\n'+
+        '   delayMicroseconds(2);\n'+
+        '   digitalWrite('+PIN_TRIG+', HIGH);\n'+
+        '   delayMicroseconds(10);\n'+
+        '   digitalWrite('+PIN_TRIG+', LOW);\n'+
+        '   duration = pulseIn('+ PIN_ECHO +', HIGH);\n'+
+        '   distance = duration/58;\n'+
+        '   return distance;\n'+
+        '}\n';;
+    var code;
+    code = 'ultrason_'+PIN_TRIG+'()';
+  return [code, Blockly.Arduino.ORDER_ATOMIC];
+};
+
+Blockly.Arduino['dht_sensor'] = function(block) {
+    var PinDHT = Blockly.Arduino.valueToCode(block, "PIN_DHT", Blockly.Arduino.ORDER_ATOMIC);
+	var TypeDHT = this.getFieldValue('OUTPUT_TYPE');
+    var Status = this.getFieldValue('OUTPUT_VALUE');
+	var code;
+	
+	Blockly.Arduino.definitions_['include_dht'] = '#include "DHT.h" \n';
+	
+	if (TypeDHT=='0')
+	{
+		//Blockly.Arduino.definitions_['define_dht'] = '#define DHTTYPE DHT11   // DHT 11\n';
+		Blockly.Arduino.definitions_['begin_dht_'+PinDHT] = 'DHT dht_'+PinDHT+'('+PinDHT+',DHT11);\n';
+		}
+	else if (TypeDHT=='1')
+		{
+		//Blockly.Arduino.definitions_['define_dht'] = '#define DHTTYPE DHT21   // DHT 21\n';
+		Blockly.Arduino.definitions_['begin_dht_'+PinDHT] = 'DHT dht_'+PinDHT+'('+PinDHT+',DHT21);\n';
+		}
+	else
+		{
+		//Blockly.Arduino.definitions_['define_dht'] = '#define DHTTYPE DHT22   // DHT 22\n';
+		Blockly.Arduino.definitions_['begin_dht_'+PinDHT] = 'DHT dht_'+PinDHT+'('+PinDHT+',DHT22);\n';
+		}
+	//Blockly.Arduino.definitions_['begin_dht_'+PinDHT] = 'DHT dht_'+PinDHT+'('+PinDHT+',DHTTYPE);\n';
+	Blockly.Arduino.setups_['setup_input_'+PinDHT] = 'dht_'+PinDHT+'.begin();\n';
+	
+    if(Status=='0')
+      var code = 'dht_'+PinDHT+'.readTemperature()';  
+    else if (Status=='1')
+      var code = 'dht_'+PinDHT+'.readHumidity()';
+    else
+		var code= 'dht_'+PinDHT+'.computeHeatIndex(dht_'+PinDHT+'.readTemperature(),dht_'+PinDHT+'.readHumidity(),true)';	
+  
+   
+  return [code, Blockly.Arduino.ORDER_ATOMIC];
+};
+
+Blockly.Arduino['RotaryEncoder_Read'] = function(block) {
+
+  var dropdown_pinDT = Blockly.Arduino.valueToCode(block, "PINDT", Blockly.Arduino.ORDER_ATOMIC);  
+  var dropdown_pinCLK = Blockly.Arduino.valueToCode(block, "PINCLK", Blockly.Arduino.ORDER_ATOMIC);  
+  
+  Blockly.Arduino.definitions_['include_encoder'] = '#include <Encoder.h>';
+  Blockly.Arduino.definitions_['rotaryencoder_1'] = 'Encoder encoder_1('+dropdown_pinDT+','+dropdown_pinCLK+');\n';
+  
+  var code = '(encoder_1.read()/4)';
+  
+  return [code, Blockly.Arduino.ORDER_ATOMIC];
+};
+
+Blockly.Arduino['bmpInit_Compass_HMC5883'] = function(block) {
+   var text_name = block.getFieldValue('NAME'); 
+   var dropdown_pin = Blockly.Arduino.valueToCode(block, "PIN", Blockly.Arduino.ORDER_ATOMIC); 
+ // Blockly.Arduino.definitions_['include_Wire'] = '#include <Wire.h>';
+  Blockly.Arduino.definitions_['include_Adafruit_Sensor33'] = '#include <iarduino_Pressure_BMP.h> \n iarduino_Pressure_BMP sensor('+text_name+'); \n float bmppressure; \n float bmptemperature; \n float bmpaltitude; \n float bmppressure2; \n ';
+  Blockly.Arduino.setups_['setup_HMC5883'] = 'sensor.begin(); \n';
+  var code = 'if(sensor.read(1)){ \n    bmppressure = sensor.pressure;  \n    bmptemperature = sensor.temperature; \n    bmpaltitude = sensor.altitude; \n  } \n      if(sensor.read(2)){ \n    bmppressure2 = sensor.pressure; \n '+dropdown_pin+' = bmppressure; \n } \n';
+   
+  return code;
+};
+
+Blockly.Arduino['Init_Temp_ds18b20'] = function(block) {
+  var dropdown_pin = Blockly.Arduino.valueToCode(block, "PIN", Blockly.Arduino.ORDER_ATOMIC); 
+  var dropdown_pinn = Blockly.Arduino.valueToCode(block, "PINR", Blockly.Arduino.ORDER_ATOMIC);
+  
+  Blockly.Arduino.definitions_['include_oneWire'] = '#include <OneWire.h>';
+  Blockly.Arduino.definitions_['include_DallasTemperature'] = '#include <DallasTemperature.h>';
+  Blockly.Arduino.definitions_['init_ds18b20'] = 'OneWire oneWireBus('+dropdown_pin+');\nDallasTemperature sensors(&oneWireBus);\n';
+  Blockly.Arduino.setups_['setup_ds18b20'] = 'sensors.begin();\n';
+  	 	 
+  var code = 'sensors.requestTemperatures();\n '+dropdown_pinn+' = sensors.getTempCByIndex(0); \n';
+   
+  return code;
+};
+
+Blockly.Arduino['Init_Accel_ADXL345'] = function(block) {
+  var typeAccel = this.getFieldValue('OUTPUT_VALUE');
+  var dropdown_pinn = Blockly.Arduino.valueToCode(block, "PIN", Blockly.Arduino.ORDER_ATOMIC);
+  
+  Blockly.Arduino.definitions_['include_Wire'] = '#include <Wire.h>';
+  Blockly.Arduino.definitions_['include_Adafruit_Sensor77'] = '#include <Adafruit_Sensor.h>';
+  Blockly.Arduino.definitions_['include_Adafruit_ADXL345_U'] = '#include <Adafruit_ADXL345_U.h>';
+  
+  Blockly.Arduino.definitions_['init_ADXL345'] = 'Adafruit_ADXL345_Unified accel = Adafruit_ADXL345_Unified(12345);\n';
+  Blockly.Arduino.definitions_['init_var1_ADXL345'] = 'sensors_event_t event;\n';
+    
+  Blockly.Arduino.setups_['setup_ADXL345'] = 'accel.begin(); \n  accel.setRange(ADXL345_RANGE_16_G); \n';
+  	 	 
+  var code='accel.getEvent(&event);  \n  '+dropdown_pinn+' = event.acceleration.'+typeAccel+'; \n';
+  return code;
+};
+
+Blockly.Arduino['Init_Compass_HMC5883'] = function(block) {
+  var typeAccel = this.getFieldValue('OUTPUT_VALUE');
+  var dropdown_pinn = Blockly.Arduino.valueToCode(block, "PIN", Blockly.Arduino.ORDER_ATOMIC);
+  
+  Blockly.Arduino.definitions_['include_Wire'] = '#include <Wire.h>';
+  Blockly.Arduino.definitions_['include_Adafruit_Sensor22'] = '#include <DFRobot_QMC5883.h>';
+  Blockly.Arduino.definitions_['include_Adafruit_HMC5883_U'] = 'DFRobot_QMC5883 compass;';
+    
+  Blockly.Arduino.setups_['setup_HMC5883'] = ' while (!compass.begin()){ \n   Serial.println(" "); \n    delay(500); \n} \n  if(compass.isHMC() ){  \n    Serial.println(" ");  \n    compass.setRange(HMC5883L_RANGE_1_3GA);  \n    compass.setMeasurementMode(HMC5883L_CONTINOUS);  \n    compass.setDataRate(HMC5883L_DATARATE_15HZ);  \n    compass.setSamples(HMC5883L_SAMPLES_8);  \n  }else if(compass.isQMC()){  \n    Serial.println(" ");  \n    compass.setRange(QMC5883_RANGE_2GA);  \n   compass.setMeasurementMode(QMC5883_CONTINOUS);   \n   compass.setDataRate(QMC5883_DATARATE_50HZ);  \n    compass.setSamples(QMC5883_SAMPLES_8);  \n}\n';
+  
+  var code = ' Vector mag = compass.readRaw(); \n  float heading = atan2(mag.YAxis, mag.XAxis); \n float declinationAngle = (4.0 + (26.0 / 60.0)) / (180 / PI); \n  heading += declinationAngle; \n if (heading < 0){ \n   heading += 2 * PI; \n  } \n  if (heading > 2 * PI){ \n    heading -= 2 * PI; \n  } \n  float headingDegrees = heading * 180/PI; \n  '+dropdown_pinn+' = '+typeAccel+'; \n ';
+ 
+  return code;
+};
+
+
+Blockly.Arduino['Init_MPU6050_GY'] = function(block) {
+  var typeAccel = this.getFieldValue('OUTPUT_VALUE');
+  var dropdown_pinn = Blockly.Arduino.valueToCode(block, "PIN", Blockly.Arduino.ORDER_ATOMIC);
+  
+   Blockly.Arduino.definitions_['include_MPU6050_GY'] = '  #include "I2Cdev.h" \n #include "MPU6050.h" \n #define TIME_OUT 20 \n   int16_t ax, ay, az, gx, gy, gz; \n  MPU6050 accgyro; \n';
+   Blockly.Arduino.setups_['setup_MPU6050_GY'] = '   accgyro.initialize();  \n';
+  
+   var code = ' accgyro.getMotion6(&ax, &ay, &az, &gx, &gy, &gz); \n     '+dropdown_pinn+' = '+typeAccel+'; \n     ';
+ 
+  return code;
+};
+
+Blockly.Arduino["inout_digital_writeD"]=function(block){
+	var typeAccel = this.getFieldValue('OUTPUT_VALUE');
+	var dropdown_stat = this.getFieldValue('STAT');
+    var dropdown_pin=Blockly.Arduino.valueToCode(block, "PIN", Blockly.Arduino.ORDER_ATOMIC);
+	
+  // Blockly.Arduino.setups_["setup_output_" + dropdown_pin]="pinMode(" + dropdown_pin + ", OUTPUT);";
+  if (typeAccel == "3"){
+  if(dropdown_stat =="1"){
+  dropdown_stat = "0";} else {
+  dropdown_stat = "1"
+  }
+  }
+    var code="pinMode(" + dropdown_pin + ", OUTPUT); \n digitalWrite(" + dropdown_pin + ", " + dropdown_stat + ");\n";
+    return code
+};
+
+Blockly.Arduino["inout_analog_writeD"]=function(block){
+    var dropdown_pin=block.getFieldValue("broche");
+    var value_num=Blockly.Arduino.valueToCode(block, "NUM", Blockly.Arduino.ORDER_ATOMIC);
+     Blockly.Arduino.setups_["setup_output" + dropdown_pin]="pinMode(" + dropdown_pin + ", OUTPUT);";
+    var code=" analogWrite(" + dropdown_pin + ", " + value_num + ");\n";
+    return code
+};
+
+Blockly.Arduino['actuator_rgbled'] = function(block) {
+  var RGB_Type = block.getFieldValue('RGB_TYPE');
+  var dropdown_pinR = Blockly.Arduino.valueToCode(block, "PINRed", Blockly.Arduino.ORDER_ATOMIC); 
+  var dropdown_pinG = Blockly.Arduino.valueToCode(block, "PINGreen", Blockly.Arduino.ORDER_ATOMIC); 
+  var dropdown_pinB = Blockly.Arduino.valueToCode(block, "PINBlue", Blockly.Arduino.ORDER_ATOMIC); 
+  var colorall = block.getFieldValue('RGBCOLOR');
+ 
+  var red = parseInt(colorall.substring(1,3),16);
+  var green = parseInt(colorall.substring(3,5),16);
+  var blue = parseInt(colorall.substring(5,7),16);
+  
+  if (RGB_Type=='1')
+  {
+	 red=255-red;
+	 green=255-green;
+	 blue=255-blue;
+  }
+	
+  Blockly.Arduino.setups_['setup_output_'+dropdown_pinR] = 'pinMode('+dropdown_pinR+', OUTPUT);';
+  Blockly.Arduino.setups_['setup_output_'+dropdown_pinG] = 'pinMode('+dropdown_pinG+', OUTPUT);';
+  Blockly.Arduino.setups_['setup_output_'+dropdown_pinB] = 'pinMode('+dropdown_pinB+', OUTPUT);';
+ 
+  var code = 'analogWrite('+dropdown_pinR+','+red+');\nanalogWrite('+dropdown_pinG+','+green+');\nanalogWrite('+dropdown_pinB+','+blue+');\n';
+ 
+ 
+  return code;
+}; 
+
+
+Blockly.Arduino['actuator_rgbled595'] = function(block) {
+  var type = block.getFieldValue('RGB_TYPE');
+  var dropdown_pinD = Blockly.Arduino.valueToCode(block, "PINRed", Blockly.Arduino.ORDER_ATOMIC); 
+  var dropdown_pinL = Blockly.Arduino.valueToCode(block, "PINGreen", Blockly.Arduino.ORDER_ATOMIC); 
+  var dropdown_pinC = Blockly.Arduino.valueToCode(block, "PINBlue", Blockly.Arduino.ORDER_ATOMIC);
+  var Number = Blockly.Arduino.valueToCode(block, 'NUM', Blockly.Arduino.ORDER_ATOMIC);
+  var STATUS = block.getFieldValue('STATUS');
+ 
+ Blockly.Arduino.definitions_['actuator_rgbled595'] = ' #include <Shift595.h> \n #define   dataPin '+dropdown_pinD+'    \n  #define   latchPin '+dropdown_pinL+'  \n   #define   clockPin '+dropdown_pinC+'   \n   #define   numOfRegisters '+type+' \n  Shift595 Shifter(dataPin, latchPin, clockPin, numOfRegisters); \n ';
+	
+  var code = 'Shifter.setRegisterPin('+Number+', '+STATUS+'); \n ';
+
+  return code;
+};
+
+
+Blockly.Arduino['LedStrip_WS2812B_init'] = function(block) {
+	
+  var numberstrip = Blockly.Arduino.valueToCode(block, "PIN", Blockly.Arduino.ORDER_ATOMIC); //"1";	
+  var pin_ledrgb = Blockly.Arduino.valueToCode(block, "PIN", Blockly.Arduino.ORDER_ATOMIC);  
+  var numpixels = Blockly.Arduino.valueToCode(block, "PINR", Blockly.Arduino.ORDER_ATOMIC);
+  var pixel_number = Blockly.Arduino.valueToCode(this, 'Pixel_number', Blockly.Arduino.ORDER_ATOMIC);
+  var lumin = Blockly.Arduino.valueToCode(this, 'LEDI', Blockly.Arduino.ORDER_ATOMIC);
+  
+  Blockly.Arduino.definitions_['define_ledRGB_WS2812B'] = ' #include <Adafruit_NeoPixel.h> \n #ifdef __AVR__ \n  #include <avr/power.h>  \n #endif \n ';
+ Blockly.Arduino.definitions_['define_ledRGB_WS2812B_' + numberstrip] = 'Adafruit_NeoPixel pixels_'+numberstrip+ ' = Adafruit_NeoPixel('+numpixels+', '+pin_ledrgb+', NEO_GRB + NEO_KHZ800);\n';
+ 
+ Blockly.Arduino.setups_['setup_ledRGB_WS2812B'+numberstrip] = 'pixels_'+numberstrip+'.begin();\n';
+  
+
+  var colorall = block.getFieldValue('RGBCOLOR');
+  var red = parseInt(colorall.substring(1,3),16);
+  var green = parseInt(colorall.substring(3,5),16);
+  var blue = parseInt(colorall.substring(5,7),16)
+  
+
+  var code = 'pixels_'+numberstrip+'.setBrightness('+lumin+');\n pixels_'+numberstrip+'.setPixelColor('+pixel_number+'-1, pixels_'+numberstrip+'.Color('+red+','+green+','+blue+'));\n pixels_'+numberstrip+'.show();\n ';
+
+  return code;
+   
+};
+ 
+ Blockly.Arduino['LedStrip_WS2811B_init'] = function(block) {
+	
+  var numberstrip = Blockly.Arduino.valueToCode(block, "PIN", Blockly.Arduino.ORDER_ATOMIC); //"1";	
+  var pin_ledrgb = Blockly.Arduino.valueToCode(block, "PIN", Blockly.Arduino.ORDER_ATOMIC);  
+  var numpixels = Blockly.Arduino.valueToCode(block, "PINR", Blockly.Arduino.ORDER_ATOMIC);
+  var pixel_number = Blockly.Arduino.valueToCode(this, 'Pixel_number', Blockly.Arduino.ORDER_ATOMIC);
+  var lumin = Blockly.Arduino.valueToCode(this, 'LEDI', Blockly.Arduino.ORDER_ATOMIC);
+  
+  Blockly.Arduino.definitions_['define_ledRGB_WS2812B'] = ' #include <Adafruit_NeoPixel.h> \n #ifdef __AVR__ \n  #include <avr/power.h>  \n #endif \n ';
+ Blockly.Arduino.definitions_['define_ledRGB_WS2812B_' + numberstrip] = 'Adafruit_NeoPixel pixels_'+numberstrip+ ' = Adafruit_NeoPixel('+numpixels+', '+pin_ledrgb+', NEO_GRB + NEO_KHZ800);\n';
+ 
+ Blockly.Arduino.setups_['setup_ledRGB_WS2812B'+numberstrip] = 'pixels_'+numberstrip+'.begin();\n';
+  
+
+  var colorall = block.getFieldValue('RGBCOLOR');
+  var red = parseInt(colorall.substring(1,3),16);
+  var blue = parseInt(colorall.substring(3,5),16);
+  var green = parseInt(colorall.substring(5,7),16)
+  
+
+  var code = 'pixels_'+numberstrip+'.setBrightness('+lumin+');\n pixels_'+numberstrip+'.setPixelColor('+pixel_number+'-1, pixels_'+numberstrip+'.Color('+red+','+green+','+blue+'));\n pixels_'+numberstrip+'.show();\n ';
+
+  return code;
+   
+};
+
+ Blockly.Arduino['LedStrip_WS2812B_init_top'] = function(block) {
+	
+  var numberstrip = Blockly.Arduino.valueToCode(block, "PIN", Blockly.Arduino.ORDER_ATOMIC); //"1";	
+  var pin_ledrgb = Blockly.Arduino.valueToCode(block, "PIN", Blockly.Arduino.ORDER_ATOMIC);  
+  var numpixels = Blockly.Arduino.valueToCode(block, "PINR", Blockly.Arduino.ORDER_ATOMIC);
+  var pixel_number = Blockly.Arduino.valueToCode(this, 'Pixel_number', Blockly.Arduino.ORDER_ATOMIC);
+  
+  var number = this.getFieldValue('RE_NUMBER');
+  
+ Blockly.Arduino.definitions_['define_ledRGB_WS2812B'] = ' #include <Adafruit_NeoPixel.h> \n #ifdef __AVR__ \n  #include <avr/power.h>  \n #endif \n long Pixcil = 0; \n long NeoPix = 0; \n';
+Blockly.Arduino.definitions_['define_ledRGB_WS2812B_top' + numberstrip] = ' Adafruit_NeoPixel strip'+numberstrip+'('+numpixels+', '+pin_ledrgb+', NEO_GRB + NEO_KHZ800); \n  '+
+  ' void theaterChaseD'+numberstrip+'(uint32_t color, int wait) {                \n '+
+  '  for(int a=10; a>0; a--) {                   \n '+
+  '    for(int b=3; b>0; b--) {                  \n '+
+  '      strip'+numberstrip+'.clear();                              \n '+
+  '      for(int c=b; c<strip'+numberstrip+'.numPixels(); c += 3) {                \n '+
+  '        strip'+numberstrip+'.setPixelColor(c, color);                \n  '+
+  '      }                \n '+
+  '      strip'+numberstrip+'.show();                 \n  '+
+  '      delay(wait);                  \n  '+
+ '     }               \n  '+
+ '   }               \n '+
+ ' }                \n '+
+ ' void colorWipeD'+numberstrip+'(uint32_t color, int wait) {               \n  '+
+ '   for(int i=strip'+numberstrip+'.numPixels(); i>-1; i--) {                \n   '+
+ '     strip'+numberstrip+'.setPixelColor(i, color);                         \n '+
+ '     strip'+numberstrip+'.show();                                         \n  '+
+ '     delay(wait);                                          \n   '+
+ '   }                \n '+
+ ' }               \n  '+
+ ' void colorWipe'+numberstrip+'(uint32_t color, int wait) {               \n  '+
+ '   for(int i=0; i<strip'+numberstrip+'.numPixels(); i++) {               \n    '+
+ '     strip'+numberstrip+'.setPixelColor(i, color);                       \n   '+
+ '     strip'+numberstrip+'.show();                                        \n   '+
+ '     delay(wait);                                         \n    '+
+ '   }               \n  '+
+ ' }                \n '+
+ ' void theaterChase'+numberstrip+'(uint32_t color, int wait) {              \n   '+
+ '   for(int a=0; a<10; a++) {                \n    '+
+ '     for(int b=0; b<3; b++) {               \n    '+
+ '       strip'+numberstrip+'.clear();                       \n   '+
+ '       for(int c=b; c<strip'+numberstrip+'.numPixels(); c += 3) {               \n  '+
+ '         strip'+numberstrip+'.setPixelColor(c, color);              \n    '+
+ '       }               \n  '+
+ '       strip'+numberstrip+'.show();               \n    '+
+ '       delay(wait);                \n    '+
+ '     }              \n   '+
+ '   }               \n  '+
+ ' }               \n  '+
+ ' void rainbow'+numberstrip+'(int wait) {               \n  '+
+ '   for(long firstPixelHue = 0; firstPixelHue < 5*65536; firstPixelHue += 256) {              \n   '+
+ '     for(int i=0; i<strip'+numberstrip+'.numPixels(); i++) {                \n  '+
+ '       int pixelHue = firstPixelHue + (i * 65536L / strip'+numberstrip+'.numPixels());              \n    '+
+ '       strip'+numberstrip+'.setPixelColor(i, strip'+numberstrip+'.gamma32(strip'+numberstrip+'.ColorHSV(pixelHue)));              \n   '+
+ '     }               \n  '+
+ '     strip'+numberstrip+'.show();                 \n  '+
+ '     delay(wait);               \n    '+
+ '   }              \n   '+
+ ' }               \n  '+
+ ' void theaterChaseRainbow'+numberstrip+'(int wait) {            \n     '+
+ '   int firstPixelHue = 0;                   \n   '+
+ '   for(int a=0; a<30; a++) {              \n    '+
+ '     for(int b=0; b<3; b++) {                \n   '+
+ '       strip'+numberstrip+'.clear();                      \n  '+
+ '       for(int c=b; c<strip'+numberstrip+'.numPixels(); c += 3) {              \n   '+
+ '         int      hue   = firstPixelHue + c * 65536L / strip'+numberstrip+'.numPixels();            \n     '+
+ '         uint32_t color = strip'+numberstrip+'.gamma32(strip'+numberstrip+'.ColorHSV(hue));             \n      '+
+ '         strip'+numberstrip+'.setPixelColor(c, color);               \n    '+
+ '       }             \n    '+
+ '       strip'+numberstrip+'.show();                      \n  '+        
+ '       delay(wait);                               \n  '+
+ '       firstPixelHue += 65536 / 90;                 \n  '+
+ '     }              \n   '+
+ '   }             \n    '+
+ ' }             \n    '+
+ '  \n ';
+
+
+ Blockly.Arduino.setups_['setup_ledRGB_WS2812B_top'] = ' #if defined(__AVR_ATtiny85__) && (F_CPU == 16000000) \n   clock_prescale_set(clock_div_1); \n #endif \n ';
+  
+ Blockly.Arduino.setups_['setup_ledRGB_WS2812B_top'+numberstrip] = '  strip'+numberstrip+'.begin();  \n  strip'+numberstrip+'.show();  \n  strip'+numberstrip+'.setBrightness(50);  \n';
+  
+
+  var colorall = block.getFieldValue('RGBCOLOR');
+  var red = parseInt(colorall.substring(1,3),16);
+  var green = parseInt(colorall.substring(3,5),16);
+  var blue = parseInt(colorall.substring(5,7),16)
+  
+if(number == 0){
+ var code = ' colorWipe'+numberstrip+'(strip'+numberstrip+'.Color('+red+','+green+','+blue+'), '+pixel_number+');   \n ';
+}
+ 
+if(number == 1){
+ var code = ' colorWipeD'+numberstrip+'(strip'+numberstrip+'.Color('+red+','+green+','+blue+'), '+pixel_number+');   \n ';
+}
+if(number == 2){
+ var code = ' theaterChase'+numberstrip+'(strip'+numberstrip+'.Color('+red+','+green+','+blue+'), '+pixel_number+');   \n ';
+}
+if(number == 3){
+ var code = ' theaterChaseD'+numberstrip+'(strip'+numberstrip+'.Color('+red+','+green+','+blue+'), '+pixel_number+');   \n ';
+}
+if(number == 4){
+ var code = ' theaterChaseRainbow'+numberstrip+'('+pixel_number+'); \n ';
+}
+if(number == 5){
+  var code = 'rainbow'+numberstrip+'('+pixel_number+');   \n ';
+}
+if(number == 6){
+  var code = ' Pixcil = 0; \n NeoPix = '+numpixels+'; \n  for (int count = 0; count < NeoPix; count++) { \n    Pixcil = Pixcil + 1; \n   strip'+numberstrip+'.setBrightness(255); \n     strip'+numberstrip+'.setPixelColor(Pixcil-1, strip'+numberstrip+'.Color('+red+','+green+','+blue+')); \n    strip'+numberstrip+'.show(); \n      } \n   Pixcil = 0; \n   delay('+pixel_number+'); \n ';
+}
+
+if(number == 7){
+  var code = ' Pixcil = 0; \n NeoPix = '+numpixels+'; \n   for (int count = 0; count < NeoPix; count++) { \n    Pixcil = Pixcil + 1; \n     strip'+numberstrip+'.setBrightness(255); \n      strip'+numberstrip+'.setPixelColor(Pixcil-1, strip'+numberstrip+'.Color('+red+','+green+','+blue+')); \n     strip'+numberstrip+'.show(); \n     delay('+pixel_number+'); \n    strip'+numberstrip+'.setBrightness(255); \n      strip'+numberstrip+'.setPixelColor(Pixcil-1, strip'+numberstrip+'.Color(0,0,0)); \n      strip'+numberstrip+'.show(); \n      } \n      Pixcil = 0; \n ';
+ } 
+ 
+if(number == 8){
+  var code = ' Pixcil = 0; \n NeoPix = '+numpixels+'; \n   Pixcil = NeoPix; \n for (int count = 0; count < NeoPix; count++) { \n   strip'+numberstrip+'.setBrightness(255); \n      strip'+numberstrip+'.setPixelColor(Pixcil-1, strip'+numberstrip+'.Color('+red+','+green+','+blue+')); \n     strip'+numberstrip+'.show(); \n    delay('+pixel_number+'); \n    strip'+numberstrip+'.setBrightness(255); \n      strip'+numberstrip+'.setPixelColor(Pixcil-1, strip'+numberstrip+'.Color(0,0,0)); \n      strip'+numberstrip+'.show(); \n   Pixcil = Pixcil - 1; \n   } \n     Pixcil = 0; \n ';
+ }  
+ if(number == 9){
+  var code = ' Pixcil = 0; \n NeoPix = '+numpixels+'; \n  for (int count = 0; count < NeoPix; count++) { \n    Pixcil = Pixcil + 1; \n   strip'+numberstrip+'.setBrightness(255); \n     strip'+numberstrip+'.setPixelColor(Pixcil-1, strip'+numberstrip+'.Color(0,0,0)); \n    strip'+numberstrip+'.show(); \n      } \n   Pixcil = 0; \n  delay('+pixel_number+'); \n  ';
+}
+ if(number == 10){ 
+ var code = ' Pixcil = 0; \n NeoPix = '+numpixels+'; \n  Pixcil = NeoPix + 1; \n   for (int count = 0; count < NeoPix; count++) { \n    for (int count = 0; count < NeoPix; count++) { \n       Pixcil = Pixcil - 1; \n       strip'+numberstrip+'.setBrightness(255); \n        strip'+numberstrip+'.setPixelColor(Pixcil-1, strip'+numberstrip+'.Color('+red+','+green+','+blue+')); \n       strip'+numberstrip+'.show(); \n       delay('+pixel_number+'); \n      strip'+numberstrip+'.setBrightness(255); \n       strip'+numberstrip+'.setPixelColor(Pixcil-1, strip'+numberstrip+'.Color(0,0,0)); \n        strip'+numberstrip+'.show(); \n        } \n     strip'+numberstrip+'.setBrightness(255); \n      strip'+numberstrip+'.setPixelColor(Pixcil-1, strip'+numberstrip+'.Color('+red+','+green+','+blue+')); \n      strip'+numberstrip+'.show(); \n      Pixcil = NeoPix + (Pixcil + 1); \n   } \n   Pixcil = 0; \n  ';
+}
+ if(number == 11){ 
+ var code = ' Pixcil = 0; \n NeoPix = '+numpixels+'; \n     for (int count = 0; count < '+numpixels+'; count++) { \n     for (int count = 0; count < NeoPix; count++) { \n      strip'+numberstrip+'.setBrightness(255); \n       strip'+numberstrip+'.setPixelColor(Pixcil-1, strip'+numberstrip+'.Color('+red+','+green+','+blue+')); \n        strip'+numberstrip+'.show(); \n         delay('+pixel_number+'); \n       strip'+numberstrip+'.setBrightness(255); \n        strip'+numberstrip+'.setPixelColor(Pixcil-1, strip'+numberstrip+'.Color(0,0,0)); \n       strip'+numberstrip+'.show(); \n       Pixcil = Pixcil + 1; \n    } \n    strip'+numberstrip+'.setBrightness(255); \n      strip'+numberstrip+'.setPixelColor(Pixcil-1, strip'+numberstrip+'.Color('+red+','+green+','+blue+')); \n     strip'+numberstrip+'.show(); \n      Pixcil = 0; \n     NeoPix = NeoPix - 1; \n   } \n   Pixcil = 0; \n   ';
+} 
+ if(number == 12){ 
+ var code = ' Pixcil = 0; \n NeoPix = '+numpixels+'; \n     for (int count = 0; count < NeoPix; count++) { \n     Pixcil = Pixcil + 1; \n     strip'+numberstrip+'.setBrightness(255); \n     strip'+numberstrip+'.setPixelColor(Pixcil-1, strip'+numberstrip+'.Color('+red+','+green+','+blue+')); \n     strip'+numberstrip+'.show(); \n      delay('+pixel_number+'); \n } \n   Pixcil = 0;  \n    ';
+} 
+ if(number == 13){ 
+ var code = ' Pixcil = 0; \n NeoPix = '+numpixels+'; \n       Pixcil = NeoPix; \n   for (int count = 0; count < NeoPix; count++) { \n    strip'+numberstrip+'.setBrightness(255); \n     strip'+numberstrip+'.setPixelColor(Pixcil-1, strip'+numberstrip+'.Color('+red+','+green+','+blue+')); \n     strip'+numberstrip+'.show(); \n     delay('+pixel_number+'); \n     Pixcil = Pixcil - 1; \n   } \n   Pixcil = 0; \n       ';
+} 
+  return code;
+ 
+};
+
+ Blockly.Arduino['LedStrip_WS2811B_init_top'] = function(block) {
+	
+  var numberstrip = Blockly.Arduino.valueToCode(block, "PIN", Blockly.Arduino.ORDER_ATOMIC); //"1";	
+  var pin_ledrgb = Blockly.Arduino.valueToCode(block, "PIN", Blockly.Arduino.ORDER_ATOMIC);  
+  var numpixels = Blockly.Arduino.valueToCode(block, "PINR", Blockly.Arduino.ORDER_ATOMIC);
+  var pixel_number = Blockly.Arduino.valueToCode(this, 'Pixel_number', Blockly.Arduino.ORDER_ATOMIC);
+  
+  var number = this.getFieldValue('RE_NUMBER');
+  
+ Blockly.Arduino.definitions_['define_ledRGB_WS2812B'] = ' #include <Adafruit_NeoPixel.h> \n #ifdef __AVR__ \n  #include <avr/power.h>  \n #endif \n long Pixcil = 0; \n long NeoPix = 0; \n';
+Blockly.Arduino.definitions_['define_ledRGB_WS2812B_top' + numberstrip] = ' Adafruit_NeoPixel strip'+numberstrip+'('+numpixels+', '+pin_ledrgb+', NEO_GRB + NEO_KHZ800); \n  '+
+  ' void theaterChaseD'+numberstrip+'(uint32_t color, int wait) {                \n '+
+  '  for(int a=10; a>0; a--) {                   \n '+
+  '    for(int b=3; b>0; b--) {                  \n '+
+  '      strip'+numberstrip+'.clear();                              \n '+
+  '      for(int c=b; c<strip'+numberstrip+'.numPixels(); c += 3) {                \n '+
+  '        strip'+numberstrip+'.setPixelColor(c, color);                \n  '+
+  '      }                \n '+
+  '      strip'+numberstrip+'.show();                 \n  '+
+  '      delay(wait);                  \n  '+
+ '     }               \n  '+
+ '   }               \n '+
+ ' }                \n '+
+ ' void colorWipeD'+numberstrip+'(uint32_t color, int wait) {               \n  '+
+ '   for(int i=strip'+numberstrip+'.numPixels(); i>-1; i--) {                \n   '+
+ '     strip'+numberstrip+'.setPixelColor(i, color);                         \n '+
+ '     strip'+numberstrip+'.show();                                         \n  '+
+ '     delay(wait);                                          \n   '+
+ '   }                \n '+
+ ' }               \n  '+
+ ' void colorWipe'+numberstrip+'(uint32_t color, int wait) {               \n  '+
+ '   for(int i=0; i<strip'+numberstrip+'.numPixels(); i++) {               \n    '+
+ '     strip'+numberstrip+'.setPixelColor(i, color);                       \n   '+
+ '     strip'+numberstrip+'.show();                                        \n   '+
+ '     delay(wait);                                         \n    '+
+ '   }               \n  '+
+ ' }                \n '+
+ ' void theaterChase'+numberstrip+'(uint32_t color, int wait) {              \n   '+
+ '   for(int a=0; a<10; a++) {                \n    '+
+ '     for(int b=0; b<3; b++) {               \n    '+
+ '       strip'+numberstrip+'.clear();                       \n   '+
+ '       for(int c=b; c<strip'+numberstrip+'.numPixels(); c += 3) {               \n  '+
+ '         strip'+numberstrip+'.setPixelColor(c, color);              \n    '+
+ '       }               \n  '+
+ '       strip'+numberstrip+'.show();               \n    '+
+ '       delay(wait);                \n    '+
+ '     }              \n   '+
+ '   }               \n  '+
+ ' }               \n  '+
+ ' void rainbow'+numberstrip+'(int wait) {               \n  '+
+ '   for(long firstPixelHue = 0; firstPixelHue < 5*65536; firstPixelHue += 256) {              \n   '+
+ '     for(int i=0; i<strip'+numberstrip+'.numPixels(); i++) {                \n  '+
+ '       int pixelHue = firstPixelHue + (i * 65536L / strip'+numberstrip+'.numPixels());              \n    '+
+ '       strip'+numberstrip+'.setPixelColor(i, strip'+numberstrip+'.gamma32(strip'+numberstrip+'.ColorHSV(pixelHue)));              \n   '+
+ '     }               \n  '+
+ '     strip'+numberstrip+'.show();                 \n  '+
+ '     delay(wait);               \n    '+
+ '   }              \n   '+
+ ' }               \n  '+
+ ' void theaterChaseRainbow'+numberstrip+'(int wait) {            \n     '+
+ '   int firstPixelHue = 0;                   \n   '+
+ '   for(int a=0; a<30; a++) {              \n    '+
+ '     for(int b=0; b<3; b++) {                \n   '+
+ '       strip'+numberstrip+'.clear();                      \n  '+
+ '       for(int c=b; c<strip'+numberstrip+'.numPixels(); c += 3) {              \n   '+
+ '         int      hue   = firstPixelHue + c * 65536L / strip'+numberstrip+'.numPixels();            \n     '+
+ '         uint32_t color = strip'+numberstrip+'.gamma32(strip'+numberstrip+'.ColorHSV(hue));             \n      '+
+ '         strip'+numberstrip+'.setPixelColor(c, color);               \n    '+
+ '       }             \n    '+
+ '       strip'+numberstrip+'.show();                      \n  '+        
+ '       delay(wait);                               \n  '+
+ '       firstPixelHue += 65536 / 90;                 \n  '+
+ '     }              \n   '+
+ '   }             \n    '+
+ ' }             \n    '+
+ '  \n ';
+
+
+ Blockly.Arduino.setups_['setup_ledRGB_WS2812B_top'] = ' #if defined(__AVR_ATtiny85__) && (F_CPU == 16000000) \n   clock_prescale_set(clock_div_1); \n #endif \n ';
+  
+ Blockly.Arduino.setups_['setup_ledRGB_WS2812B_top'+numberstrip] = '  strip'+numberstrip+'.begin();  \n  strip'+numberstrip+'.show();  \n  strip'+numberstrip+'.setBrightness(50);  \n';
+  
+
+  var colorall = block.getFieldValue('RGBCOLOR');
+  var red = parseInt(colorall.substring(1,3),16);
+  var blue = parseInt(colorall.substring(3,5),16);
+  var green = parseInt(colorall.substring(5,7),16)
+  
+if(number == 0){
+ var code = ' colorWipe'+numberstrip+'(strip'+numberstrip+'.Color('+red+','+green+','+blue+'), '+pixel_number+');   \n ';
+}
+ 
+if(number == 1){
+ var code = ' colorWipeD'+numberstrip+'(strip'+numberstrip+'.Color('+red+','+green+','+blue+'), '+pixel_number+');   \n ';
+}
+if(number == 2){
+ var code = ' theaterChase'+numberstrip+'(strip'+numberstrip+'.Color('+red+','+green+','+blue+'), '+pixel_number+');   \n ';
+}
+if(number == 3){
+ var code = ' theaterChaseD'+numberstrip+'(strip'+numberstrip+'.Color('+red+','+green+','+blue+'), '+pixel_number+');   \n ';
+}
+if(number == 4){
+ var code = ' theaterChaseRainbow'+numberstrip+'('+pixel_number+'); \n ';
+}
+if(number == 5){
+  var code = 'rainbow'+numberstrip+'('+pixel_number+');   \n ';
+}
+if(number == 6){
+  var code = ' Pixcil = 0; \n NeoPix = '+numpixels+'; \n  for (int count = 0; count < NeoPix; count++) { \n    Pixcil = Pixcil + 1; \n   strip'+numberstrip+'.setBrightness(255); \n     strip'+numberstrip+'.setPixelColor(Pixcil-1, strip'+numberstrip+'.Color('+red+','+green+','+blue+')); \n    strip'+numberstrip+'.show(); \n      } \n   Pixcil = 0; \n   delay('+pixel_number+'); \n ';
+}
+
+if(number == 7){
+  var code = ' Pixcil = 0; \n NeoPix = '+numpixels+'; \n   for (int count = 0; count < NeoPix; count++) { \n    Pixcil = Pixcil + 1; \n     strip'+numberstrip+'.setBrightness(255); \n      strip'+numberstrip+'.setPixelColor(Pixcil-1, strip'+numberstrip+'.Color('+red+','+green+','+blue+')); \n     strip'+numberstrip+'.show(); \n     delay('+pixel_number+'); \n    strip'+numberstrip+'.setBrightness(255); \n      strip'+numberstrip+'.setPixelColor(Pixcil-1, strip'+numberstrip+'.Color(0,0,0)); \n      strip'+numberstrip+'.show(); \n      } \n      Pixcil = 0; \n ';
+ } 
+ 
+if(number == 8){
+  var code = ' Pixcil = 0; \n NeoPix = '+numpixels+'; \n   Pixcil = NeoPix; \n for (int count = 0; count < NeoPix; count++) { \n   strip'+numberstrip+'.setBrightness(255); \n      strip'+numberstrip+'.setPixelColor(Pixcil-1, strip'+numberstrip+'.Color('+red+','+green+','+blue+')); \n     strip'+numberstrip+'.show(); \n    delay('+pixel_number+'); \n    strip'+numberstrip+'.setBrightness(255); \n      strip'+numberstrip+'.setPixelColor(Pixcil-1, strip'+numberstrip+'.Color(0,0,0)); \n      strip'+numberstrip+'.show(); \n   Pixcil = Pixcil - 1; \n   } \n     Pixcil = 0; \n ';
+ }  
+ if(number == 9){
+  var code = ' Pixcil = 0; \n NeoPix = '+numpixels+'; \n  for (int count = 0; count < NeoPix; count++) { \n    Pixcil = Pixcil + 1; \n   strip'+numberstrip+'.setBrightness(255); \n     strip'+numberstrip+'.setPixelColor(Pixcil-1, strip'+numberstrip+'.Color(0,0,0)); \n    strip'+numberstrip+'.show(); \n      } \n   Pixcil = 0; \n  delay('+pixel_number+'); \n  ';
+}
+ if(number == 10){ 
+ var code = ' Pixcil = 0; \n NeoPix = '+numpixels+'; \n  Pixcil = NeoPix + 1; \n   for (int count = 0; count < NeoPix; count++) { \n    for (int count = 0; count < NeoPix; count++) { \n       Pixcil = Pixcil - 1; \n       strip'+numberstrip+'.setBrightness(255); \n        strip'+numberstrip+'.setPixelColor(Pixcil-1, strip'+numberstrip+'.Color('+red+','+green+','+blue+')); \n       strip'+numberstrip+'.show(); \n       delay('+pixel_number+'); \n      strip'+numberstrip+'.setBrightness(255); \n       strip'+numberstrip+'.setPixelColor(Pixcil-1, strip'+numberstrip+'.Color(0,0,0)); \n        strip'+numberstrip+'.show(); \n        } \n     strip'+numberstrip+'.setBrightness(255); \n      strip'+numberstrip+'.setPixelColor(Pixcil-1, strip'+numberstrip+'.Color('+red+','+green+','+blue+')); \n      strip'+numberstrip+'.show(); \n      Pixcil = NeoPix + (Pixcil + 1); \n   } \n   Pixcil = 0; \n  ';
+}
+ if(number == 11){ 
+ var code = ' Pixcil = 0; \n NeoPix = '+numpixels+'; \n     for (int count = 0; count < '+numpixels+'; count++) { \n     for (int count = 0; count < NeoPix; count++) { \n      strip'+numberstrip+'.setBrightness(255); \n       strip'+numberstrip+'.setPixelColor(Pixcil-1, strip'+numberstrip+'.Color('+red+','+green+','+blue+')); \n        strip'+numberstrip+'.show(); \n         delay('+pixel_number+'); \n       strip'+numberstrip+'.setBrightness(255); \n        strip'+numberstrip+'.setPixelColor(Pixcil-1, strip'+numberstrip+'.Color(0,0,0)); \n       strip'+numberstrip+'.show(); \n       Pixcil = Pixcil + 1; \n    } \n    strip'+numberstrip+'.setBrightness(255); \n      strip'+numberstrip+'.setPixelColor(Pixcil-1, strip'+numberstrip+'.Color('+red+','+green+','+blue+')); \n     strip'+numberstrip+'.show(); \n      Pixcil = 0; \n     NeoPix = NeoPix - 1; \n   } \n   Pixcil = 0; \n   ';
+} 
+ if(number == 12){ 
+ var code = ' Pixcil = 0; \n NeoPix = '+numpixels+'; \n     for (int count = 0; count < NeoPix; count++) { \n     Pixcil = Pixcil + 1; \n     strip'+numberstrip+'.setBrightness(255); \n     strip'+numberstrip+'.setPixelColor(Pixcil-1, strip'+numberstrip+'.Color('+red+','+green+','+blue+')); \n     strip'+numberstrip+'.show(); \n      delay('+pixel_number+'); \n } \n   Pixcil = 0;  \n    ';
+} 
+ if(number == 13){ 
+ var code = ' Pixcil = 0; \n NeoPix = '+numpixels+'; \n       Pixcil = NeoPix; \n   for (int count = 0; count < NeoPix; count++) { \n    strip'+numberstrip+'.setBrightness(255); \n     strip'+numberstrip+'.setPixelColor(Pixcil-1, strip'+numberstrip+'.Color('+red+','+green+','+blue+')); \n     strip'+numberstrip+'.show(); \n     delay('+pixel_number+'); \n     Pixcil = Pixcil - 1; \n   } \n   Pixcil = 0; \n       ';
+} 
+  return code;
+ 
+};
+ Blockly.Arduino['LedStrip_WS2812B_initRGB'] = function(block) {
+	
+  var numberstrip = Blockly.Arduino.valueToCode(block, "PIN", Blockly.Arduino.ORDER_ATOMIC); //"1";	
+  var pin_ledrgb = Blockly.Arduino.valueToCode(block, "PIN", Blockly.Arduino.ORDER_ATOMIC);  
+  var numpixels = Blockly.Arduino.valueToCode(block, "PINR", Blockly.Arduino.ORDER_ATOMIC);
+  var pixel_number = Blockly.Arduino.valueToCode(this, 'Pixel_number', Blockly.Arduino.ORDER_ATOMIC);
+  var lumin = "255";
+  
+  Blockly.Arduino.definitions_['define_ledRGB_WS2812B'] = ' #include <Adafruit_NeoPixel.h> \n #ifdef __AVR__ \n  #include <avr/power.h>  \n #endif \n ';
+ Blockly.Arduino.definitions_['define_ledRGB_WS2812B_' + numberstrip] = 'Adafruit_NeoPixel pixels_'+numberstrip+ ' = Adafruit_NeoPixel('+numpixels+', '+pin_ledrgb+', NEO_GRB + NEO_KHZ800);\n';
+ 
+ Blockly.Arduino.setups_['setup_ledRGB_WS2812B'+numberstrip] = 'pixels_'+numberstrip+'.begin();\n';
+  
+
+  var red = Blockly.Arduino.valueToCode(block, "Red", Blockly.Arduino.ORDER_ATOMIC); 
+  var green = Blockly.Arduino.valueToCode(block, "Green", Blockly.Arduino.ORDER_ATOMIC); 
+  var blue = Blockly.Arduino.valueToCode(block, "Blue", Blockly.Arduino.ORDER_ATOMIC); 
+  
+
+  var code = 'pixels_'+numberstrip+'.setBrightness('+lumin+');\n pixels_'+numberstrip+'.setPixelColor('+pixel_number+'-1, pixels_'+numberstrip+'.Color('+red+','+green+','+blue+'));\n pixels_'+numberstrip+'.show();\n ';
+
+  return code;
+   
+};
+  
+   Blockly.Arduino['LedStrip_WS2811B_initRGB'] = function(block) {
+	
+  var numberstrip = Blockly.Arduino.valueToCode(block, "PIN", Blockly.Arduino.ORDER_ATOMIC); //"1";	
+  var pin_ledrgb = Blockly.Arduino.valueToCode(block, "PIN", Blockly.Arduino.ORDER_ATOMIC);  
+  var numpixels = Blockly.Arduino.valueToCode(block, "PINR", Blockly.Arduino.ORDER_ATOMIC);
+  var pixel_number = Blockly.Arduino.valueToCode(this, 'Pixel_number', Blockly.Arduino.ORDER_ATOMIC);
+  var lumin = "255";
+  
+  Blockly.Arduino.definitions_['define_ledRGB_WS2812B'] = ' #include <Adafruit_NeoPixel.h> \n #ifdef __AVR__ \n  #include <avr/power.h>  \n #endif \n ';
+ Blockly.Arduino.definitions_['define_ledRGB_WS2812B_' + numberstrip] = 'Adafruit_NeoPixel pixels_'+numberstrip+ ' = Adafruit_NeoPixel('+numpixels+', '+pin_ledrgb+', NEO_GRB + NEO_KHZ800);\n';
+ 
+ Blockly.Arduino.setups_['setup_ledRGB_WS2812B'+numberstrip] = 'pixels_'+numberstrip+'.begin();\n';
+  
+
+  var red = Blockly.Arduino.valueToCode(block, "Red", Blockly.Arduino.ORDER_ATOMIC); 
+  var blue = Blockly.Arduino.valueToCode(block, "Green", Blockly.Arduino.ORDER_ATOMIC); 
+  var green = Blockly.Arduino.valueToCode(block, "Blue", Blockly.Arduino.ORDER_ATOMIC); 
+  
+
+  var code = 'pixels_'+numberstrip+'.setBrightness('+lumin+');\n pixels_'+numberstrip+'.setPixelColor('+pixel_number+'-1, pixels_'+numberstrip+'.Color('+red+','+green+','+blue+'));\n pixels_'+numberstrip+'.show();\n ';
+
+  return code;
+   
+};
+ 
+Blockly.Arduino['ds1990_Write'] = function(block) {
+  
+  var number = this.getFieldValue('RE_NUMBER');
+  var writenumber1 = Blockly.Arduino.valueToCode(block, 'Writecounter', Blockly.Arduino.ORDER_ATOMIC);
+  var writenumber2 = Blockly.Arduino.valueToCode(block, 'Writecounter1', Blockly.Arduino.ORDER_ATOMIC);
+  var writenumber3 = Blockly.Arduino.valueToCode(block, 'Writecounter2', Blockly.Arduino.ORDER_ATOMIC);
+  var writenumber4 = Blockly.Arduino.valueToCode(block, 'Writecounter3', Blockly.Arduino.ORDER_ATOMIC);
+  var writenumber5 = Blockly.Arduino.valueToCode(block, 'Writecounter4', Blockly.Arduino.ORDER_ATOMIC);
+  var writenumber6 = Blockly.Arduino.valueToCode(block, 'Writecounter5', Blockly.Arduino.ORDER_ATOMIC);
+  var writenumber7 = Blockly.Arduino.valueToCode(block, 'Writecounter6', Blockly.Arduino.ORDER_ATOMIC);
+  var writenumber8 = Blockly.Arduino.valueToCode(block, 'Writecounter7', Blockly.Arduino.ORDER_ATOMIC);
+  
+Blockly.Arduino.definitions_['include_ds1990_Write'] = '#include <OneWire.h> \n #define pin '+number+'    \n OneWire ibutton (pin);  \n byte addr[8];  \n int writeByte(byte data){ \n  int data_bit; \n for(data_bit=0; data_bit<8; data_bit++){ \n  if (data & 1){ \n     digitalWrite(pin, LOW); pinMode(pin, OUTPUT); \n     delayMicroseconds(60); \n     pinMode(pin, INPUT); digitalWrite(pin, HIGH); \n    delay(10);  \n   } else { \n     digitalWrite(pin, LOW); pinMode(pin, OUTPUT); \n      pinMode(pin, INPUT); digitalWrite(pin, HIGH); \n      delay(10); \n   } \n   data = data >> 1; \n } \n  return 0; \n} \n';
+Blockly.Arduino.setups_['setup_include_ds1990']='Serial.begin(9600);\n';
+var code = ' if ( !ibutton.search(addr) ) { \n return; \n } \n ibutton.skip(); \n ibutton.reset(); \n ibutton.write(0x33); \n     ibutton.skip(); \n     ibutton.reset(); \n     ibutton.write(0xD1); \n     digitalWrite(pin, LOW);  \n     pinMode(pin, OUTPUT);  \n     delayMicroseconds(60); \n     pinMode(pin, INPUT);  \n     digitalWrite(pin, HIGH);  \n     delay(10); \n     byte newID[8] = {0x44, 0x0F, 0xC8, 0x0B, 0x00, 0x00, 0x00, 0x2C}; \n  newID[0] = '+writenumber1+'; \n  newID[1] = '+writenumber2+'; \n  newID[2] = '+writenumber3+'; \n  newID[3] = '+writenumber4+'; \n  newID[4] = '+writenumber5+'; \n  newID[5] = '+writenumber6+'; \n  newID[6] = '+writenumber7+'; \n  newID[7] = '+writenumber8+'; \n    Serial.println();  \n     ibutton.skip(); \n     ibutton.reset(); \n     ibutton.write(0xD5); \n     for (byte x = 0; x<8; x++){ \n       writeByte(newID[x]); \n       Serial.print("*"); \n     } \n     ibutton.reset(); \n     ibutton.write(0xD1); \n     digitalWrite(pin, LOW);  \n     pinMode(pin, OUTPUT);  \n     delayMicroseconds(10); \n     pinMode(pin, INPUT);  \n     digitalWrite(pin, HIGH);  \n     delay(10); \n Serial.print(" "); \n   ibutton.skip();ibutton.reset();ibutton.write(0x33); \n Serial.print("Code recorded:"); \n     for (byte x=0; x<8; x++){ \n       Serial.print(" "); \n     Serial.print(ibutton.read()); \n    } \n   Serial.println(" ok"); \n delay(2000); \n  \n';
+return code;
+};
+
+Blockly.Arduino['ds1990_Read'] = function(block) {
+   
+   var number = this.getFieldValue('RE_NUMBER');  
+   var numberpin = this.getFieldValue('NUMBER'); 
+  var writenumber1 = Blockly.Arduino.valueToCode(block, 'Writecounter', Blockly.Arduino.ORDER_ATOMIC);
+  var writenumber2 = Blockly.Arduino.valueToCode(block, 'Writecounter1', Blockly.Arduino.ORDER_ATOMIC);
+  var writenumber3 = Blockly.Arduino.valueToCode(block, 'Writecounter2', Blockly.Arduino.ORDER_ATOMIC);
+  var writenumber4 = Blockly.Arduino.valueToCode(block, 'Writecounter3', Blockly.Arduino.ORDER_ATOMIC);
+  var writenumber5 = Blockly.Arduino.valueToCode(block, 'Writecounter4', Blockly.Arduino.ORDER_ATOMIC);
+  var writenumber6 = Blockly.Arduino.valueToCode(block, 'Writecounter5', Blockly.Arduino.ORDER_ATOMIC);
+  var writenumber7 = Blockly.Arduino.valueToCode(block, 'Writecounter6', Blockly.Arduino.ORDER_ATOMIC);
+  var writenumber8 = Blockly.Arduino.valueToCode(block, 'Writecounter7', Blockly.Arduino.ORDER_ATOMIC);
+	 
+   Blockly.Arduino.definitions_['include_ds1990_Write1'] = 'long NaN = 0; \n #include <OneWire.h> \n #define pin '+numberpin+'    \n OneWire ibutton (pin);  \n byte addr[8];  \n int writeByte(byte data){ \n  int data_bit; \n for(data_bit=0; data_bit<8; data_bit++){ \n  if (data & 1){ \n     digitalWrite(pin, LOW); pinMode(pin, OUTPUT); \n     delayMicroseconds(60); \n     pinMode(pin, INPUT); digitalWrite(pin, HIGH); \n    delay(10);  \n   } else { \n     digitalWrite(pin, LOW); pinMode(pin, OUTPUT); \n      pinMode(pin, INPUT); digitalWrite(pin, HIGH); \n      delay(10); \n   } \n   data = data >> 1; \n } \n  return 0; \n} \n';
+
+   var code = 'if ( !ibutton.search(addr) ) { \n return; \n } \n ibutton.skip(); \n '+writenumber1+' = addr[0]; \n '+writenumber2+' = addr[1]; \n '+writenumber3+' = addr[2]; \n '+writenumber4+' = addr[3]; \n '+writenumber5+' = addr[4]; \n '+writenumber6+' = addr[5]; \n '+writenumber7+' = addr[6]; \n '+writenumber8+' = addr[7]; \n';
+  
+  return code;
+};
+
+ Blockly.Arduino['initread_acs712']=function(block){
+    var value_dropdown = block.getFieldValue('_dropdown');
+    var valuepin_text = block.getFieldValue('pin_text');
+ 
+    Blockly.Arduino.includes_['includes_initread_acs712'] = '#include <ACS712.h> \n ACS712 sensor('+value_dropdown+', '+valuepin_text+');  \n  ';
+    Blockly.Arduino.setups_['setups_initread_acs712']='sensor.calibrate();  \n ';
+    var code = 'sensor.getCurrentDC()';
+    return [code, Blockly.Arduino.ORDER_ATOMIC];
+};
+
+
+
+Blockly.Arduino['pin_botton_pro']=function(block){
+    var idn_text = block.getFieldValue('idn_text');
+	var bb_dropdown = block.getFieldValue('bb_dropdown');
+ 
+	  var bot_statement = Blockly.Arduino.statementToCode(block, 'bot_statement');
+	  var bot_statement1 = Blockly.Arduino.statementToCode(block, 'bot_statement1');
+	
+	Blockly.Arduino.includes_['setups_pin_botton_pro'+idn_text]=' int bt'+idn_text+' = 0; \n  int bn'+idn_text+' = 0; \n  int bc'+idn_text+' = 1; \n  ';
+    Blockly.Arduino.setups_['setups_pin_botton_pro'+idn_text]='   pinMode('+idn_text+', INPUT_PULLUP);  \n';
+
+	if(bb_dropdown == 0){
+	var code = '  \n   '+
+	  '  if (digitalRead('+idn_text+') == 0 & bn'+idn_text+' == 0) { \n   '+
+    '   bc'+idn_text+' = bc'+idn_text+' * -1; \n   '+
+     '  if (bc'+idn_text+' == 1) { \n   '+
+    '  '+bot_statement+'   \n       '+
+    '   } \n   '+
+    '   if (bc'+idn_text+' == -1) { \n   '+
+    '  '+bot_statement1+'   \n       '+
+   '    } \n   '+
+   '    delay(150); \n   '+
+   '    bn'+idn_text+' = 1; \n   '+
+   '  } \n   '+
+   '  if (digitalRead('+idn_text+') == 1 & bn'+idn_text+' == 1) { \n   '+
+   '    bn'+idn_text+' = 0; \n   '+
+    ' } \n   '+
+   '   	\n	';
+	}else{
+	var code = '  \n   '+
+   '  if (digitalRead('+idn_text+') == 0 & bt'+idn_text+' == 0) { \n       '+
+    '  bt'+idn_text+' = 1; \n       '+
+   '  '+bot_statement+'   \n       '+
+   ' } \n       '+
+   ' if (digitalRead('+idn_text+') == 1 & bt'+idn_text+' == 1) { \n       '+
+   '   bt'+idn_text+' = 0; \n       '+
+   '  '+bot_statement1+'   \n       '+
+   ' } \n       '+
+    '  \n  ';	
+	} 
+	return code
+};
+ 
+ 
+Blockly.Arduino['pin_botton_pro2']=function(block){
+    var idn_text = block.getFieldValue('idn_text');
+	var bb_dropdown = block.getFieldValue('bb_dropdown');
+ 
+	  var bot_statement = Blockly.Arduino.statementToCode(block, 'bot_statement');
+	  var bot_statement1 = Blockly.Arduino.statementToCode(block, 'bot_statement1');
+	
+	Blockly.Arduino.includes_['setups_pin_botton_pro'+idn_text]=' int bt'+idn_text+' = 0; \n  int bn'+idn_text+' = 0; \n  int bc'+idn_text+' = 1; \n  ';
+    Blockly.Arduino.setups_['setups_pin_botton_pro'+idn_text]='   pinMode('+idn_text+', INPUT);  \n';
+
+	if(bb_dropdown == 0){
+	var code = '  \n   '+
+	  '  if (digitalRead('+idn_text+') == 1 & bn'+idn_text+' == 0) { \n   '+
+    '   bc'+idn_text+' = bc'+idn_text+' * -1; \n   '+
+     '  if (bc'+idn_text+' == 1) { \n   '+
+    '  '+bot_statement+'   \n       '+
+    '   } \n   '+
+    '   if (bc'+idn_text+' == -1) { \n   '+
+    '  '+bot_statement1+'   \n       '+
+   '    } \n   '+
+   '    delay(150); \n   '+
+   '    bn'+idn_text+' = 1; \n   '+
+   '  } \n   '+
+   '  if (digitalRead('+idn_text+') == 0 & bn'+idn_text+' == 1) { \n   '+
+   '    bn'+idn_text+' = 0; \n   '+
+    ' } \n   '+
+   '   	\n	';
+	}else{
+	var code = '  \n   '+
+   '  if (digitalRead('+idn_text+') == 1 & bt'+idn_text+' == 0) { \n       '+
+    '  bt'+idn_text+' = 1; \n       '+
+   '  '+bot_statement+'   \n       '+
+   ' } \n       '+
+   ' if (digitalRead('+idn_text+') == 0 & bt'+idn_text+' == 1) { \n       '+
+   '   bt'+idn_text+' = 0; \n       '+
+   '  '+bot_statement1+'   \n       '+
+   ' } \n       '+
+    '  \n  ';	
+	} 
+	return code
+};
+
+Blockly.Arduino['rfid_init'] = function(block) {
+
+   var pin_RST = Blockly.Arduino.valueToCode(block, 'PIN_RST', Blockly.Arduino.ORDER_ATOMIC);   
+   var pin_SDA = Blockly.Arduino.valueToCode(block, 'PIN_SDA', Blockly.Arduino.ORDER_ATOMIC);   
+   var PIN_KOD = Blockly.Arduino.valueToCode(block, 'PIN_KOD', Blockly.Arduino.ORDER_ATOMIC);
+	
+   Blockly.Arduino.definitions_['define_spi'] = '#include <SPI.h>';
+   Blockly.Arduino.definitions_['define_MRFC522'] = '#include <MFRC522.h>';
+    
+   Blockly.Arduino.definitions_['define_mrfc522'] = 'MFRC522 mfrc522('+pin_SDA+','+pin_RST+'); \n byte cardx[4]= {0x3F,0x01,0x23,0x44}; \n String cardreaded(byte *buffer,byte bufferSize) \n { \n String card=""; \n for (byte i=0; i<bufferSize; i++) \n { \n card+=String(buffer[i]<0x10 ? " 0" : " "); \n card+=String(buffer[i],HEX); \n } \n return card; \n  } \n ';
+ 
+   Blockly.Arduino.setups_['setup_spi']='SPI.begin();\n ';
+   Blockly.Arduino.setups_['setup_mrfc522']='mfrc522.PCD_Init();\n';
+
+  var code = ' if (mfrc522.PICC_ReadCardSerial() == 1 | mfrc522.PICC_IsNewCardPresent() == 1) { \n  '+PIN_KOD+' = cardreaded(mfrc522.uid.uidByte, mfrc522.uid.size); \n  } \n   ';
+ // Serial.println(mfrc522.PICC_ReadCardSerial()); \n   Serial.println(mfrc522.PICC_IsNewCardPresent()); \n 
+  return code;
+};
+
+Blockly.Arduino['Init_Keypad4x4'] = function(block) {
+  var pin_r1 = Blockly.Arduino.valueToCode(block, 'PIN_R1', Blockly.Arduino.ORDER_ATOMIC); 
+  var pin_r2 = Blockly.Arduino.valueToCode(block, 'PIN_R2', Blockly.Arduino.ORDER_ATOMIC); 
+  var pin_r3 = Blockly.Arduino.valueToCode(block, 'PIN_R3', Blockly.Arduino.ORDER_ATOMIC);
+  var pin_r4 = Blockly.Arduino.valueToCode(block, 'PIN_R4', Blockly.Arduino.ORDER_ATOMIC);
+  var pin_c1 = Blockly.Arduino.valueToCode(block, 'PIN_C1', Blockly.Arduino.ORDER_ATOMIC);
+  var pin_c2 = Blockly.Arduino.valueToCode(block, 'PIN_C2', Blockly.Arduino.ORDER_ATOMIC);
+  var pin_c3 = Blockly.Arduino.valueToCode(block, 'PIN_C3', Blockly.Arduino.ORDER_ATOMIC);
+  var pin_c4 = Blockly.Arduino.valueToCode(block, 'PIN_C4', Blockly.Arduino.ORDER_ATOMIC);
+  var PIN_RKOD = Blockly.Arduino.valueToCode(block, 'PIN_RKOD', Blockly.Arduino.ORDER_ATOMIC);
+   
+  Blockly.Arduino.definitions_['include_keypad'] = '#include <Keypad.h>';
+  Blockly.Arduino.definitions_['init_keypad'] = 'byte Pins_Rows[]={'+pin_r4+','+pin_r3+','+pin_r2+','+pin_r1+'};\n'+
+  'byte Pins_Columns[]={'+pin_c4+','+pin_c3+','+pin_c2+','+pin_c1+'};\n'+
+  'char keys[4][4]={{\'1\',\'2\',\'3\',\'A\'},{\'4\',\'5\',\'6\',\'B\'},{\'7\',\'8\',\'9\',\'C\'},{\'*\',\'0\',\'#\',\'D\'}};\n'+
+  'Keypad Keyboard= Keypad(makeKeymap(keys),Pins_Rows,Pins_Columns,4,4);\n'; 	 	 
+  var code = ''+PIN_RKOD+' = Keyboard.getKey();\n';
+  return code;
+};
+
+Blockly.Arduino['Initread_fingerprinting'] = function(block) {
+   
+  Blockly.Arduino.definitions_['include_Adafruit_Sensor55'] = '#include <Adafruit_Fingerprint.h> \n SoftwareSerial mySerial(2, 3);   \n  Adafruit_Fingerprint finger = Adafruit_Fingerprint(&mySerial); \n ';
+   	 
+  Blockly.Arduino.definitions_['include_Adafruit_Sensor55'] = ' \n uint8_t id; \n   uint8_t readnumber(void) { \n   uint8_t num = 0; \n   while (num == 0) { \n   while (! Serial.available()); \n    num = Serial.parseInt(); \n  } \n  return num; \n  } \n ';
+  Blockly.Arduino.setups_['include_Adafruit_Sensor55'] = ' Serial.begin(9600); \n  while (!Serial);  \n  delay(100); \n  Serial.println("ArduBlock.ru"); \n Serial.println("Adafruit Fingerprint sensor enrollment"); \n  finger.begin(57600); \n if (finger.verifyPassword()) { \n    Serial.println("Found fingerprint sensor!"); \n } else { \n   Serial.println("Did not find fingerprint sensor :("); \n   while (1) { delay(1); } \n } \n ';
+  	 	 
+  var code=' Serial.println("Ready to enroll a fingerprint!"); \n    Serial.println("Please type in the ID # (from 1 to 127) you want to save this finger as..."); \n   id = readnumber(); \n    if (id == 0) { \n      return; \n    } \n    Serial.print("Enrolling ID #"); \n    Serial.println(id); \n   while (!  getFingerprintEnroll() ); \n  } \n uint8_t getFingerprintEnroll() { \n    int p = -1; \n    Serial.print("Waiting for valid finger to enroll as #"); Serial.println(id); \n   while (p != FINGERPRINT_OK) { \n     p = finger.getImage(); \n     switch (p) { \n     case FINGERPRINT_OK: \n      Serial.println("Image taken"); \n       break; \n     case FINGERPRINT_NOFINGER: \n       Serial.println("."); \n        break; \n      case FINGERPRINT_PACKETRECIEVEERR: \n        Serial.println("Communication error"); \n        break; \n      case FINGERPRINT_IMAGEFAIL: \n        Serial.println("Imaging error"); \n        break; \n     default: \n       Serial.println("Unknown error"); \n       break; \n      }\n }\n p = finger.image2Tz(1); \n   switch (p) { \n     case FINGERPRINT_OK: \n        Serial.println("Image converted"); \n        break; \n     case FINGERPRINT_IMAGEMESS: \n       Serial.println("Image too messy"); \n       return p; \n     case FINGERPRINT_PACKETRECIEVEERR: \n       Serial.println("Communication error"); \n       return p; \n     case FINGERPRINT_FEATUREFAIL: \n       Serial.println("Could not find fingerprint features"); \n       return p; \n    case FINGERPRINT_INVALIDIMAGE: \n      Serial.println("Could not find fingerprint features"); \n       return p; \n     default: \n        Serial.println("Unknown error"); \n        return p; \n    } \n    Serial.println("Remove finger"); \n   delay(2000); \n   p = 0; \n   while (p != FINGERPRINT_NOFINGER) { \n     p = finger.getImage(); \n   } \n    Serial.print("ID "); Serial.println(id); \n    p = -1; \n    Serial.println("Place same finger again"); \n   while (p != FINGERPRINT_OK) { \n    p = finger.getImage(); \n    switch (p) { \n    case FINGERPRINT_OK: \n       Serial.println("Image taken"); \n       break; \n    case FINGERPRINT_NOFINGER: \n      Serial.print("."); \n       break; \n     case FINGERPRINT_PACKETRECIEVEERR: \n      Serial.println("Communication error"); \n        break; \n     case FINGERPRINT_IMAGEFAIL: \n       Serial.println("Imaging error"); \n       break; \n    default: \n       Serial.println("Unknown error"); \n       break; \n     } \n    } \n    p = finger.image2Tz(2); \n   switch (p) { \n     case FINGERPRINT_OK: \n      Serial.println("Image converted"); \n      break; \n    case FINGERPRINT_IMAGEMESS: \n       Serial.println("Image too messy"); \n       return p; \n     case FINGERPRINT_PACKETRECIEVEERR: \n        Serial.println("Communication error"); \n        return p; \n     case FINGERPRINT_FEATUREFAIL: \n       Serial.println("Could not find fingerprint features"); \n      return p; \n    case FINGERPRINT_INVALIDIMAGE: \n      Serial.println("Could not find fingerprint features"); \n      return p; \n     default: \n       Serial.println("Unknown error"); \n        return p; \n    } \n    Serial.print("Creating model for #");  Serial.println(id); \n     p = finger.createModel(); \n    if (p == FINGERPRINT_OK) { \n      Serial.println("Prints matched!"); \n    } else if (p == FINGERPRINT_PACKETRECIEVEERR) { \n      Serial.println("Communication error"); \n      return p; \n    } else if (p == FINGERPRINT_ENROLLMISMATCH) { \n      Serial.println("Fingerprints did not match"); \n     return p; \n    } else { \n      Serial.println("Unknown error"); \n      return p; \n   }    \n     Serial.print("ID "); Serial.println(id); \n    p = finger.storeModel(id); \n    if (p == FINGERPRINT_OK) { \n      Serial.println("Stored!"); \n   } else if (p == FINGERPRINT_PACKETRECIEVEERR) { \n      Serial.println("Communication error"); \n     return p; \n    } else if (p == FINGERPRINT_BADLOCATION) { \n      Serial.println("Could not store in that location"); \n      return p; \n    } else if (p == FINGERPRINT_FLASHERR) { \n      Serial.println("Error writing to flash"); \n      return p; \n    } else { \n      Serial.println("Unknown error"); \n      return p; \n    }    \n    ';
+  return code;
+};
+
+Blockly.Arduino['Initread_fingerprintingD'] = function(block) {
+  var PIN_RKOD = Blockly.Arduino.valueToCode(block, 'PIN_RKOD', Blockly.Arduino.ORDER_ATOMIC);
+  Blockly.Arduino.definitions_['include_Adafruit_Sensor66'] = '#include <Adafruit_Fingerprint.h> \n SoftwareSerial mySerial(2, 3);   \n  Adafruit_Fingerprint finger = Adafruit_Fingerprint(&mySerial); \n ';
+  Blockly.Arduino.definitions_['include_Adafruit_Sensor66'] = '#include <Adafruit_Fingerprint.h> \n SoftwareSerial mySerial(2, 3);   \n  Adafruit_Fingerprint finger = Adafruit_Fingerprint(&mySerial); \n ';
+  
+  Blockly.Arduino.setups_['include_Adafruit_Sensor66'] = ' finger.begin(57600); \n delay(5); \n   finger.getTemplateCount(); \n';
+  	 	 
+  var code='  uint8_t p = finger.getImage(); \n  if (p != FINGERPRINT_OK)  return -1; \n   p = finger.image2Tz(); \n   if (p != FINGERPRINT_OK)  return -1; \n   p = finger.fingerFastSearch(); \n  if (p != FINGERPRINT_OK)  return -1; \n   '+PIN_RKOD+' = finger.fingerID; \n';
+  return code; 	 
+
+};
+
+Blockly.Arduino['tensorsensor1'] = function(block) {
+   var PIN_RKOD = Blockly.Arduino.valueToCode(block, 'PIN_RKOD', Blockly.Arduino.ORDER_ATOMIC);
+   Blockly.Arduino.definitions_['include_Adafruit_Sensor2'] = ' #include "HX711.h" \n #define calibration_factor -7050.0  \n  #define DOUT  3 \n #define CLK  2 \n HX711 scale(DOUT, CLK); \n ';
+   Blockly.Arduino.setups_['include_Adafruit_Sensor2'] = 'scale.set_scale(calibration_factor); \n scale.tare(); \n ';	 
+   var code=' '+PIN_RKOD+' = scale.get_units() * 45.35 / 5; \n ';
+   return code;
+};
+
+Blockly.Arduino['actuator_tonedure'] = function(block) {
+  var dropdown_pin = Blockly.Arduino.valueToCode(block, 'PIN', Blockly.Arduino.ORDER_ATOMIC);
+  var value = Blockly.Arduino.valueToCode(this, 'NUM', Blockly.Arduino.ORDER_ATOMIC);
+  var duration = Blockly.Arduino.valueToCode(this, 'DUR', Blockly.Arduino.ORDER_ATOMIC);
+  Blockly.Arduino.setups_['setup_output_'+dropdown_pin] = 'pinMode('+dropdown_pin+', OUTPUT);';
+  
+  var code = 'tone('+dropdown_pin+','+value+','+duration+'); \n delay('+duration+');\n';
+  return code;
+};
+
+Blockly.Arduino['frequency'] = function(block) {
+  var note = this.getFieldValue('NOTE');
+  var octave = this.getFieldValue('OCTAVE');
+  var code;
+  
+  switch(note)
+  {
+	  case 'C':
+				switch(octave)
+				{
+				  case '2':
+							code='65';
+							break;
+				  case '3':
+							code='131';
+							break;
+				  case '4':
+							code='262';
+							break;
+				  case '5':
+							code='523';
+							break;
+				  case '6':
+							code='1046';
+							break;
+				  case '7':
+							code='2093';
+							break;
+				  case '8':
+							code='4186';
+							break;
+				  default:
+							code='4186';
+						    break;					
+				}
+	    break;
+	  case 'C#':
+				switch(octave)
+				{
+				  case '2':
+							code='69';
+							break;
+				  case '3':
+							code='139';
+							break;
+				  case '4':
+							code='277';
+							break;
+				  case '5':
+							code='554';
+							break;
+				  case '6':
+							code='1109';
+							break;
+				  case '7':
+							code='2217';
+							break;
+				  case '8':
+							code='4435';
+							break;
+				  default:
+							code='4435';
+						    break;					
+				}
+	    break;		
+		case 'D':
+				switch(octave)
+				{
+				  case '2':
+							code='73';
+							break;
+				  case '3':
+							code='147';
+							break;
+				  case '4':
+							code='294';
+							break;
+				  case '5':
+							code='587';
+							break;
+				  case '6':
+							code='1175';
+							break;
+				  case '7':
+							code='2349';
+							break;
+				  case '8':
+							code='4699';
+							break;
+				  default:
+							code='4699';
+						    break;					
+				}
+	    break;		
+		
+		case 'D#':
+				switch(octave)
+				{
+				  case '2':
+							code='78';
+							break;
+				  case '3':
+							code='156';
+							break;
+				  case '4':
+							code='311';
+							break;
+				  case '5':
+							code='622';
+							break;
+				  case '6':
+							code='1245';
+							break;
+				  case '7':
+							code='2489';
+							break;
+				  case '8':
+							code='4978';
+							break;
+				  default:
+							code='4978';
+						    break;					
+				}
+	    break;				
+		case 'E':
+				switch(octave)
+				{
+				  case '2':
+							code='82';
+							break;
+				  case '3':
+							code='165';
+							break;
+				  case '4':
+							code='330';
+							break;
+				  case '5':
+							code='659';
+							break;
+				  case '6':
+							code='1319';
+							break;
+				  case '7':
+							code='2637';
+							break;
+				  case '8':
+							code='5274';
+							break;
+				  default:
+							code='5274';
+						    break;					
+				}
+	    break;				
+		case 'F':
+				switch(octave)
+				{
+				  case '2':
+							code='87';
+							break;
+				  case '3':
+							code='175';
+							break;
+				  case '4':
+							code='349';
+							break;
+				  case '5':
+							code='698';
+							break;
+				  case '6':
+							code='1397';
+							break;
+				  case '7':
+							code='2794';
+							break;
+				  case '8':
+							code='5588';
+							break;
+				  default:
+							code='5588';
+						    break;					
+				}
+	    break;			
+		case 'F#':
+				switch(octave)
+				{
+				  case '2':
+							code='92';
+							break;
+				  case '3':
+							code='185';
+							break;
+				  case '4':
+							code='370';
+							break;
+				  case '5':
+							code='740';
+							break;
+				  case '6':
+							code='1480';
+							break;
+				  case '7':
+							code='2960';
+							break;
+				  case '8':
+							code='5920';
+							break;
+				  default:
+							code='5920';
+						    break;					
+				}
+	    break;					
+			case 'G':
+				switch(octave)
+				{
+				  case '2':
+							code='98';
+							break;
+				  case '3':
+							code='196';
+							break;
+				  case '4':
+							code='392';
+							break;
+				  case '5':
+							code='784';
+							break;
+				  case '6':
+							code='1568';
+							break;
+				  case '7':
+							code='3136';
+							break;
+				  case '8':
+							code='6272';
+							break;
+				  default:
+							code='6272';
+						    break;					
+				}
+	    break;				
+		case 'G#':
+				switch(octave)
+				{
+				  case '2':
+							code='104';
+							break;
+				  case '3':
+							code='208';
+							break;
+				  case '4':
+							code='415';
+							break;
+				  case '5':
+							code='831';
+							break;
+				  case '6':
+							code='1661';
+							break;
+				  case '7':
+							code='3322';
+							break;
+				  case '8':
+							code='6645';
+							break;
+				  default:
+							code='6645';
+						    break;					
+				}
+	    break;			
+		case 'A':
+				switch(octave)
+				{
+				  case '2':
+							code='110';
+							break;
+				  case '3':
+							code='220';
+							break;
+				  case '4':
+							code='440';
+							break;
+				  case '5':
+							code='880';
+							break;
+				  case '6':
+							code='1760';
+							break;
+				  case '7':
+							code='3520';
+							break;
+				  case '8':
+							code='7040';
+							break;
+				  default:
+							code='7040';
+						    break;					
+				}
+	    break;			
+			case 'A#':
+				switch(octave)
+				{
+				  case '2':
+							code='117';
+							break;
+				  case '3':
+							code='233';
+							break;
+				  case '4':
+							code='466';
+							break;
+				  case '5':
+							code='932';
+							break;
+				  case '6':
+							code='1867';
+							break;
+				  case '7':
+							code='3729';
+							break;
+				  case '8':
+							code='7459';
+							break;
+				  default:
+							code='7459';
+						    break;					
+				}
+	    break;		
+			case 'B':
+				switch(octave)
+				{
+				  case '2':
+							code='123';
+							break;
+				  case '3':
+							code='247';
+							break;
+				  case '4':
+							code='494';
+							break;
+				  case '5':
+							code='988';
+							break;
+				  case '6':
+							code='1976';
+							break;
+				  case '7':
+							code='3951';
+							break;
+				  case '8':
+							code='7902';
+							break;
+				  default:
+							code='7902';
+						    break;					
+				}
+	    break;		
+			
+	  default:
+				code='7040';
+				break;
+	  
+  }
+ 
+  return [code, Blockly.Arduino.ORDER_ATOMIC];
+};
+
+Blockly.Arduino['RadioTEA5767_init12'] = function(block) {
+	
+ var value = Blockly.Arduino.valueToCode(block, 'NUM', Blockly.Arduino.ORDER_ATOMIC);  
+ 
+ Blockly.Arduino.definitions_['define_TEA5767_library'] = '#include <TEA5767N.h>';
+ Blockly.Arduino.definitions_['define_TEA5767N'] = 'TEA5767N radio=TEA5767N();\n';
+  
+ var code = 'radio.selectFrequency((float)'+value+');\n';
+ return code;
+   
+};
+Blockly.Arduino['RadioTEA5767_init1'] = function(block) {
+ 
+ var code = 'radio.getSignalLevel()';
+return [code, Blockly.Arduino.ORDER_ATOMIC];
+   
+};
+Blockly.Arduino['RadioTEA5767_init2'] = function(block) {
+ 
+ var code = 'radio.mute(); \n';
+ return code;
+   
+};
+Blockly.Arduino['RadioTEA5767_init3'] = function(block) {
+ 
+ var code = 'radio.turnTheSoundBackOn(); \n';
+ return code;
+   
+};
+
+Blockly.Arduino['DFPplayerMp3_init_serial1'] = function(block) {
+	var NOM = Blockly.Arduino.valueToCode(block, 'NOM', Blockly.Arduino.ORDER_ATOMIC); 
+	var VELL = Blockly.Arduino.valueToCode(block, 'VELL', Blockly.Arduino.ORDER_ATOMIC); 
+	var DEL = Blockly.Arduino.valueToCode(block, 'DEL', Blockly.Arduino.ORDER_ATOMIC); 
+
+ Blockly.Arduino.definitions_['define_dfplayermp3_library'] = '#include <SoftwareSerial.h> \n #include <DFPlayer_Mini_Mp3.h>';
+
+ Blockly.Arduino.setups_['setup_serial1_baudios'] = 'Serial.begin (9600); \n';
+ Blockly.Arduino.setups_['setup_dfplayermp3'] = 'mp3_set_serial (Serial); \n';
+
+  
+  var code='mp3_set_volume ('+VELL+'); \n mp3_play ('+NOM+'); \n delay('+DEL+'); \n';
+  return code;
+   
+};
+
+Blockly.Arduino['DFPplayerMp3_init_serial2'] = function(block) {
+	var NOM = Blockly.Arduino.valueToCode(block, 'NOM', Blockly.Arduino.ORDER_ATOMIC); 
+	 
+
+ Blockly.Arduino.definitions_['define_dfplayermp3_library'] = '#include <SoftwareSerial.h> \n #include <DFPlayer_Mini_Mp3.h>';
+
+ Blockly.Arduino.setups_['setup_serial1_baudios'] = 'Serial.begin (9600); \n';
+ Blockly.Arduino.setups_['setup_dfplayermp3'] = 'mp3_set_serial (Serial); \n';
+
+  
+  var code=' mp3_play ('+NOM+'); \n  ';
+  return code;
+   
+};
+
+Blockly.Arduino['DFPplayerMp3_init_serial3'] = function(block) {
+	  
+	var VELL = Blockly.Arduino.valueToCode(block, 'VELL', Blockly.Arduino.ORDER_ATOMIC); 
+	 
+
+ Blockly.Arduino.definitions_['define_dfplayermp3_library'] = '#include <SoftwareSerial.h> \n #include <DFPlayer_Mini_Mp3.h>';
+
+ Blockly.Arduino.setups_['setup_serial1_baudios'] = 'Serial.begin (9600); \n';
+ Blockly.Arduino.setups_['setup_dfplayermp3'] = 'mp3_set_serial (Serial); \n';
+
+  
+  var code='mp3_set_volume ('+VELL+'); \n ';
+  return code;
+   
+};
+
+Blockly.Arduino['DFPplayerMp3_init_serial4'] = function(block) {
+	  
+	var VELL = block.getFieldValue("dp");
+ 
+  var code=''+VELL+' (); \n ';
+  return code;
+   
+};
+
+Blockly.Arduino['lcdm7m_setup'] = function(block) {
+	var PINe = Blockly.Arduino.valueToCode(block, 'PINe', Blockly.Arduino.ORDER_ATOMIC); 
+	var PINd = Blockly.Arduino.valueToCode(block, 'PINd', Blockly.Arduino.ORDER_ATOMIC);
+	var PINdp = Blockly.Arduino.valueToCode(block, 'PINdp', Blockly.Arduino.ORDER_ATOMIC);
+	var PINc = Blockly.Arduino.valueToCode(block, 'PINc', Blockly.Arduino.ORDER_ATOMIC);
+	var PINg = Blockly.Arduino.valueToCode(block, 'PINg', Blockly.Arduino.ORDER_ATOMIC);
+	var PIND4 = Blockly.Arduino.valueToCode(block, 'PIND4', Blockly.Arduino.ORDER_ATOMIC);
+	var PINb = Blockly.Arduino.valueToCode(block, 'PINb', Blockly.Arduino.ORDER_ATOMIC);
+	var PIND3 = Blockly.Arduino.valueToCode(block, 'PIND3', Blockly.Arduino.ORDER_ATOMIC);
+	var PIND2 = Blockly.Arduino.valueToCode(block, 'PIND2', Blockly.Arduino.ORDER_ATOMIC);
+	var PINf = Blockly.Arduino.valueToCode(block, 'PINf', Blockly.Arduino.ORDER_ATOMIC);
+	var PINa = Blockly.Arduino.valueToCode(block, 'PINa', Blockly.Arduino.ORDER_ATOMIC);
+	var PIND1 = Blockly.Arduino.valueToCode(block, 'PIND1', Blockly.Arduino.ORDER_ATOMIC);
+	
+   Blockly.Arduino.definitions_['define_lcdm7m_setup'] = '#include <fDigitsSegtPin.h>\n'; 
+   Blockly.Arduino.definitions_['define_lcdlcdm7m_setup'] = 'fDigitsSegtPin Display('+PINe+','+PINd+','+PINdp+','+PINc+','+PINg+','+PIND4+','+PINb+','+PIND3+','+PIND2+','+PINf+','+PINa+','+PIND1+'); \n ';
+
+   Blockly.Arduino.setups_['setup_llcdm7m_setupc']='Display.begin(); \n Display.doPrint_lastDot = 1; \n Display.doPrint_firstZero = 1; \n Display.doReport_overRange = 0; \n ';
+
+  var code = '';
+  return code;
+};
+
+Blockly.Arduino['lcdm7m_setcursor'] = function(block) {
+
+  var value_texttoprint = Blockly.Arduino.valueToCode(block, 'texttoprint', Blockly.Arduino.ORDER_ATOMIC);
+
+  var code = 'Display.print('+value_texttoprint+'); \n';
+
+  return code;
+};
+
+Blockly.Arduino['DisplayTM1637_init'] = function(block) {
+	
+
+  var pin_clk = Blockly.Arduino.valueToCode(block, 'PIN_CLK', Blockly.Arduino.ORDER_ATOMIC);  
+  var pin_dio = Blockly.Arduino.valueToCode(block, 'PIN_DIO', Blockly.Arduino.ORDER_ATOMIC);  
+
+ Blockly.Arduino.definitions_['define_TM1637_library'] = '#include "TM1637.h"';
+ Blockly.Arduino.definitions_['define_TM1637_1'] = 'TM1637 tm1637('+pin_clk+','+pin_dio+');\n';
+ Blockly.Arduino.setups_['define_TM1637_2'] ='tm1637.init();\n  tm1637.set(BRIGHT_TYPICAL);\n';
+  var code = ' ';
+  return code;
+   
+};
+
+Blockly.Arduino['DisplayTM1637_set_digit'] = function(block) {
+	
+ var value = Blockly.Arduino.valueToCode(block, 'NNN', Blockly.Arduino.ORDER_ATOMIC); 
+ var digit = Blockly.Arduino.valueToCode(block, 'SSS', Blockly.Arduino.ORDER_ATOMIC);  
+ var digit = digit - "1";
+ var dp = this.getFieldValue('TM1637_POINT'); 	
+
+  var code = 'tm1637.point('+dp+'); \n tm1637.display('+digit+','+value+'); \n';
+   
+ return code;
+};
+
+Blockly.Arduino['DisplayTM1637_set_completenumber'] = function(block) {
+	
+ var value = Blockly.Arduino.valueToCode(block, 'NNN', Blockly.Arduino.ORDER_ATOMIC); 
+ var dp = this.getFieldValue('TM1637_POINT'); 	
+
+  var code = 'tm1637.point('+dp+'); \n tm1637.display('+value+'); \n ';
+   
+ return code;
+};
+
+Blockly.Arduino['Init_MAX7219_7digit'] = function(block) {
+
+  var pin_clk = Blockly.Arduino.valueToCode(block, 'PIN_CLK', Blockly.Arduino.ORDER_ATOMIC);  
+  var pin_dat = Blockly.Arduino.valueToCode(block, 'PIN_DAT', Blockly.Arduino.ORDER_ATOMIC);  
+  var pin_cs = Blockly.Arduino.valueToCode(block, 'PIN_CS', Blockly.Arduino.ORDER_ATOMIC); 
+  
+  Blockly.Arduino.definitions_['include_LedControl'] = '#include <LedControl.h>\n';
+  Blockly.Arduino.definitions_['init_Ledcontrol_7d'] = 'LedControl lc7d=LedControl('+pin_dat+','+pin_clk+','+pin_cs+',1);\n';
+  
+
+     	 	 
+  var code='';
+  return code;
+};
+
+Blockly.Arduino['MAX7219_7digit_char'] = function(block) {
+  
+	var digit = Blockly.Arduino.valueToCode(block, 'SSS', Blockly.Arduino.ORDER_ATOMIC);  
+	var digit = digit - "1";
+	var value = Blockly.Arduino.valueToCode(block, 'NNN', Blockly.Arduino.ORDER_ATOMIC);  
+	var point = this.getFieldValue('dp');
+     	 	 
+  var code='lc7d.setIntensity(0,15); \n lc7d.shutdown(0,false); \n lc7d.setDigit(0,'+digit+','+value+','+point+'); \n ';
+
+  return code;
+};
+
+Blockly.Arduino['MAX7219_7digit_char_bm'] = function(block) {
+  
+	var digit = Blockly.Arduino.valueToCode(block, 'SSS', Blockly.Arduino.ORDER_ATOMIC);    
+	var dp = this.getFieldValue('dp');
+    if(dp == 1){
+	var code='  lc7d.setIntensity(0,15); \n  lc7d.shutdown(0,false); \n  lc7d.setDigit(0,7,('+digit+' / 10000000),false); \n  lc7d.setDigit(0,6,('+digit+' / 1000000 - ('+digit+' / 10000000) * 10),false); \n  lc7d.setDigit(0,5,('+digit+' / 100000 - ('+digit+' / 1000000) * 10),false); \n   lc7d.setDigit(0,4,('+digit+' / 10000 - ('+digit+' / 100000) * 10),false); \n   lc7d.setDigit(0,3,('+digit+' / 1000 - ('+digit+' / 10000) * 10),false); \n  lc7d.setDigit(0,2,('+digit+' / 100 - ('+digit+' / 1000) * 10),false); \n   lc7d.setDigit(0,1,('+digit+' / 10 - ('+digit+' / 100) * 10),false); \n  lc7d.setDigit(0,0,('+digit+' / 1 - ('+digit+' / 10) * 10),false); \n ';
+	} 	 	 
+	if(dp == 2){
+	var code='  lc7d.setIntensity(0,15);	\n    lc7d.shutdown(0,false);	\n    lc7d.setDigit(0,7,('+digit+' / 1000),false);	\n    lc7d.setDigit(0,6,('+digit+' / 100 - ('+digit+' / 1000) * 10),false);	\n    lc7d.setDigit(0,5,('+digit+' / 10 - ('+digit+' / 100) * 10),false);	\n    lc7d.setDigit(0,4,('+digit+' / 1 - ('+digit+' / 10) * 10),false);	\n ';
+	}
+	if(dp == 3){
+	var code='   lc7d.setIntensity(0,15);	\n    lc7d.shutdown(0,false);	\n    lc7d.setDigit(0,3,('+digit+' / 1000),false);	\n   lc7d.setDigit(0,2,('+digit+' / 100 - ('+digit+' / 1000) * 10),false);	\n    lc7d.setDigit(0,1,('+digit+' / 10 - ('+digit+' / 100) * 10),false);	\n    lc7d.setDigit(0,0,('+digit+' / 1 - ('+digit+' / 10) * 10),false);	\n ';
+	}
+	if(dp == 4){
+	var code='    lc7d.setIntensity(0,15);  \n    lc7d.shutdown(0,false);  \n   lc7d.setDigit(0,7,('+digit+' / 10 - ('+digit+' / 100) * 10),false);  \n   lc7d.setDigit(0,6,('+digit+' / 1 - ('+digit+' / 10) * 10),false);  \n ';
+	}
+	if(dp == 5){
+	var code='    lc7d.setIntensity(0,15);  \n   lc7d.shutdown(0,false);  \n   lc7d.setDigit(0,4,('+digit+' / 10 - ('+digit+' / 100) * 10),false);  \n   lc7d.setDigit(0,3,('+digit+' / 1 - ('+digit+' / 10) * 10),false);  \n ';
+	}
+	if(dp == 6){
+	var code='    lc7d.setIntensity(0,15);  \n    lc7d.shutdown(0,false);  \n    lc7d.setDigit(0,1,('+digit+' / 10 - ('+digit+' / 100) * 10),false);  \n    lc7d.setDigit(0,0,('+digit+' / 1 - ('+digit+' / 10) * 10),false);  \n ';
+	}
+	if(dp == 7){
+	var code='     lc7d.setIntensity(0,15);  lc7d.shutdown(0,false);  lc7d.setDigit(0,7,('+digit+' / 100 - ('+digit+' / 1000) * 10),false);    lc7d.setDigit(0,6,('+digit+' / 10 - ('+digit+' / 100) * 10),false);   lc7d.setDigit(0,5,('+digit+' / 1 - ('+digit+' / 10) * 10),false);   \n ';
+	}
+	if(dp == 8){
+	var code='  lc7d.setIntensity(0,15);   lc7d.shutdown(0,false);  lc7d.setDigit(0,6,('+digit+' / 100 - ('+digit+' / 1000) * 10),false);  lc7d.setDigit(0,5,('+digit+' / 10 - ('+digit+' / 100) * 10),false);  lc7d.setDigit(0,4,('+digit+' / 1 - ('+digit+' / 10) * 10),false);   \n ';
+	}
+	if(dp == 9){
+	var code='  lc7d.setIntensity(0,15);   lc7d.shutdown(0,false);   lc7d.setDigit(0,2,('+digit+' / 100 - ('+digit+' / 1000) * 10),false);   lc7d.setDigit(0,1,('+digit+' / 10 - ('+digit+' / 100) * 10),false);    lc7d.setDigit(0,0,('+digit+' / 1 - ('+digit+' / 10) * 10),false);   \n ';
+	}
+  return code;
+};
+
+Blockly.Arduino['MAX7219_7digit_char_none'] = function(block) {
+
+  var code='lc7d.clearDisplay(0); \n ';
+
+  return code;
+};
+
+
+Blockly.Arduino['Init_MAX7219_ledmatrix'] = function(block) {
+  var pin_clk = Blockly.Arduino.valueToCode(block, 'PIN_CLK', Blockly.Arduino.ORDER_ATOMIC);  
+  var pin_dat = Blockly.Arduino.valueToCode(block, 'PIN_DAT', Blockly.Arduino.ORDER_ATOMIC);  
+  var pin_cs = Blockly.Arduino.valueToCode(block, 'PIN_CS', Blockly.Arduino.ORDER_ATOMIC); 
+
+  
+  Blockly.Arduino.definitions_['include_LedControl'] = '#include <LedControl.h>\n';
+  Blockly.Arduino.definitions_['init_Ledcontrol_LM'] = 'LedControl lclm=LedControl('+pin_dat+','+pin_clk+','+pin_cs+',1);\n';
+     	 	 
+  var code='';
+  return code;
+};
+
+Blockly.Arduino['MAX7219_ledmatrix_draw_px'] = function(block) {
+  
+	var xpx = Blockly.Arduino.valueToCode(block, 'xpx', Blockly.Arduino.ORDER_ATOMIC);    
+	var ypx = Blockly.Arduino.valueToCode(block, 'ypx', Blockly.Arduino.ORDER_ATOMIC);  
+	var px = this.getFieldValue('px');
+    if(px == 1){
+	var code=' lclm.setIntensity(0,15);  \n   lclm.shutdown(0,false);  \n  lclm.setLed(0,'+xpx+','+ypx+',true); \n ';
+	} 	 	 
+	if(px == 2){
+	var code='lclm.setIntensity(0,15);  \n   lclm.shutdown(0,false);  \n  lclm.setLed(0,'+xpx+','+ypx+',false); \n ';
+	}
+  return code;
+};
+ 
+Blockly.Arduino['MAX7219_ledmatrix_draw1'] = function(block) {
+
+  var code = 'lclm.setIntensity(0,15); \n lclm.shutdown(0,false); \n';
+  var rowcounter=0;
+  var rowvalue='B';
+  var rowline=0;
+  for (var i=0; i<64; i++) {
+	
+	if (this.getFieldValue('Pixel' + i) != '#ffffff') 
+		rowvalue=rowvalue+'1';
+	else
+		rowvalue=rowvalue+'0';
+	
+	rowcounter+=1;
+	if (rowcounter==8)
+		{
+		 code+='lclm.setRow(0,'+rowline+','+rowvalue+');';
+		 rowcounter=0;
+		 rowvalue='B';
+		 rowline=rowline+1;
+		}
+  };
+  code+='\n ';
+  return code;
+};
+
+Blockly.Arduino['MAX7219_ledmatrix_draw'] = function(block) {
+
+  var code = 'lclm.setIntensity(0,15); \n lclm.shutdown(0,false); \n';
+  var rowcounter=0;
+  var rowvalue='B';
+  var rowline=0;
+  for (var i=0; i<64; i++) {
+	
+	if (this.getFieldValue('Pixel' + i) != 'FALSE') 
+		rowvalue=rowvalue+'1';
+	else
+		rowvalue=rowvalue+'0';
+	
+	rowcounter+=1;
+	if (rowcounter==8)
+		{
+		 code+='lclm.setRow(0,'+rowline+','+rowvalue+');';
+		 rowcounter=0;
+		 rowvalue='B';
+		 rowline=rowline+1;
+		}
+  };
+  code+='\n ';
+  return code;
+};
+
+Blockly.Arduino['lcdm_setup'] = function(block) {
+
+    var PIN_RS = Blockly.Arduino.valueToCode(block, 'PIN_RS', Blockly.Arduino.ORDER_ATOMIC); 
+	var PIN_E = Blockly.Arduino.valueToCode(block, 'PIN_E', Blockly.Arduino.ORDER_ATOMIC); 
+	var PIN_DB4 = Blockly.Arduino.valueToCode(block, 'PIN_DB4', Blockly.Arduino.ORDER_ATOMIC); 
+	var PIN_DB5 = Blockly.Arduino.valueToCode(block, 'PIN_DB5', Blockly.Arduino.ORDER_ATOMIC); 
+	var PIN_DB6 = Blockly.Arduino.valueToCode(block, 'PIN_DB6', Blockly.Arduino.ORDER_ATOMIC); 
+	var PIN_DB7 = Blockly.Arduino.valueToCode(block, 'PIN_DB7', Blockly.Arduino.ORDER_ATOMIC); 
+    var value_columns = Blockly.Arduino.valueToCode(block, 'COLUMNS', Blockly.Arduino.ORDER_ATOMIC);
+    var value_rows = Blockly.Arduino.valueToCode(block, 'ROWS', Blockly.Arduino.ORDER_ATOMIC);
+	
+  // Blockly.Arduino.definitions_['define_lcd'] = '#include <LiquidCrystal.h> \n';  
+  //Blockly.Arduino.definitions_['define_lcdpins'] = 'LiquidCrystal lcd('+PIN_RS+','+PIN_E+','+PIN_DB4+','+PIN_DB5+','+PIN_DB6+','+PIN_DB7+'); \n';
+ Blockly.Arduino.definitions_['define_lcd_ru'] = '#include <LiquidCrystalRus.h> \n';  
+ Blockly.Arduino.definitions_['define_lcdpins_ru'] = 'LiquidCrystalRus lcd('+PIN_RS+',14,'+PIN_E+','+PIN_DB4+','+PIN_DB5+','+PIN_DB6+','+PIN_DB7+'); \n';
+ 
+   Blockly.Arduino.setups_['setup_lcdRus_ru']='lcd.begin('+value_columns+','+value_rows+'); \n';
+
+  var code = '';
+  return code;
+};
+
+Blockly.Arduino['lcdm_setcursor'] = function(block) {
+
+	var value_column = Blockly.Arduino.valueToCode(block, 'column', Blockly.Arduino.ORDER_ATOMIC);
+	//var value_column = value_column - "1";
+	var value_row = Blockly.Arduino.valueToCode(block, 'row', Blockly.Arduino.ORDER_ATOMIC);
+	//var value_row = value_row - "1";
+	var texttoprint = Blockly.Arduino.valueToCode(block, 'texttoprint', Blockly.Arduino.ORDER_ATOMIC);
+
+ var code = 'lcd.setCursor('+value_column+', '+value_row+ '); \n lcd.print('+texttoprint+');\n ';
+return code;
+};
+
+Blockly.Arduino['lcd_setcursor_draw_pl'] = function(block) {
+    var nomer = block.getFieldValue("TEXT");
+	var rowx =  Blockly.Arduino.valueToCode(block, 'print_x', Blockly.Arduino.ORDER_ATOMIC);
+	var rowy =  Blockly.Arduino.valueToCode(block, 'print_y', Blockly.Arduino.ORDER_ATOMIC);
+    var code = '   lcd.createChar('+nomer+', customChar'+nomer+'); \n  lcd.setCursor('+rowx+', '+rowy+'); \n  lcd.write((uint8_t)'+nomer+'); \n ';
+  return code;
+};
+
+ 
+
+Blockly.Arduino['lcdi2c_setuprus'] = function(block) {
+var text_name = block.getFieldValue('NAME');  
+    Blockly.Arduino.definitions_['define_lcd_2c'] = '#include <Wire.h> \n #include <LCD_1602_RUS.h>\n';
+    
+    var value_columns = Blockly.Arduino.valueToCode(block, 'COLUMNS', Blockly.Arduino.ORDER_ATOMIC);
+    var value_rows = Blockly.Arduino.valueToCode(block, 'ROWS', Blockly.Arduino.ORDER_ATOMIC);
+   
+   Blockly.Arduino.definitions_['define_lcdpins_2c'] = 'LCD_1602_RUS lcd('+text_name+','+value_columns+','+value_rows+');\n';
+
+   Blockly.Arduino.setups_['setup_lcdi2c_2c']='lcd.init(); \n lcd.backlight(); \n';
+
+  var code = '';
+  return code;
+};
+
+Blockly.Arduino['lcdi2c_setcursor'] = function(block) {
+
+	var value_column = Blockly.Arduino.valueToCode(block, 'column', Blockly.Arduino.ORDER_ATOMIC);
+	//var value_column = value_column - "1";
+	var value_row = Blockly.Arduino.valueToCode(block, 'row', Blockly.Arduino.ORDER_ATOMIC);
+	//var value_row = value_row - "1";
+	var texttoprint = Blockly.Arduino.valueToCode(block, 'texttoprint', Blockly.Arduino.ORDER_ATOMIC);
+
+ var code = 'lcd.setCursor('+value_column+', '+value_row+ '); \n lcd.print('+texttoprint+');\n ';
+return code;
+};
+
+
+ 
+
+Blockly.Arduino['lcdi2c_setcursor_draw'] = function(block) {
+    
+	 
+    var nomer = block.getFieldValue("TEXT");
+	var Pix0e0 = this.getFieldValue('Pix0e0'); if(Pix0e0 == 'FALSE'){Pix0e0 = 0;}else{Pix0e0 = 1;}
+	var Pix0e1 = this.getFieldValue('Pix0e1'); if(Pix0e1 == 'FALSE'){Pix0e1 = 0;}else{Pix0e1 = 1;}
+	var Pix0e2 = this.getFieldValue('Pix0e2'); if(Pix0e2 == 'FALSE'){Pix0e2 = 0;}else{Pix0e2 = 1;}
+	var Pix0e3 = this.getFieldValue('Pix0e3'); if(Pix0e3 == 'FALSE'){Pix0e3 = 0;}else{Pix0e3 = 1;}
+	var Pix0e4 = this.getFieldValue('Pix0e4'); if(Pix0e4 == 'FALSE'){Pix0e4 = 0;}else{Pix0e4 = 1;}
+
+	var Pix1e0 = this.getFieldValue('Pix1e0'); if(Pix1e0 == 'FALSE'){Pix1e0 = 0;}else{Pix1e0 = 1;}
+	var Pix1e1 = this.getFieldValue('Pix1e1'); if(Pix1e1 == 'FALSE'){Pix1e1 = 0;}else{Pix1e1 = 1;}
+	var Pix1e2 = this.getFieldValue('Pix1e2'); if(Pix1e2 == 'FALSE'){Pix1e2 = 0;}else{Pix1e2 = 1;}
+	var Pix1e3 = this.getFieldValue('Pix1e3'); if(Pix1e3 == 'FALSE'){Pix1e3 = 0;}else{Pix1e3 = 1;}
+	var Pix1e4 = this.getFieldValue('Pix1e4'); if(Pix1e4 == 'FALSE'){Pix1e4 = 0;}else{Pix1e4 = 1;}
+	
+	var Pix2e0 = this.getFieldValue('Pix2e0'); if(Pix2e0 == 'FALSE'){Pix2e0 = 0;}else{Pix2e0 = 1;}
+	var Pix2e1 = this.getFieldValue('Pix2e1'); if(Pix2e1 == 'FALSE'){Pix2e1 = 0;}else{Pix2e1 = 1;}
+	var Pix2e2 = this.getFieldValue('Pix2e2'); if(Pix2e2 == 'FALSE'){Pix2e2 = 0;}else{Pix2e2 = 1;}
+	var Pix2e3 = this.getFieldValue('Pix2e3'); if(Pix2e3 == 'FALSE'){Pix2e3 = 0;}else{Pix2e3 = 1;}
+	var Pix2e4 = this.getFieldValue('Pix2e4'); if(Pix2e4 == 'FALSE'){Pix2e4 = 0;}else{Pix2e4 = 1;}
+	
+	var Pix3e0 = this.getFieldValue('Pix3e0'); if(Pix3e0 == 'FALSE'){Pix3e0 = 0;}else{Pix3e0 = 1;}
+	var Pix3e1 = this.getFieldValue('Pix3e1'); if(Pix3e1 == 'FALSE'){Pix3e1 = 0;}else{Pix3e1 = 1;}
+	var Pix3e2 = this.getFieldValue('Pix3e2'); if(Pix3e2 == 'FALSE'){Pix3e2 = 0;}else{Pix3e2 = 1;}
+	var Pix3e3 = this.getFieldValue('Pix3e3'); if(Pix3e3 == 'FALSE'){Pix3e3 = 0;}else{Pix3e3 = 1;}
+	var Pix3e4 = this.getFieldValue('Pix3e4'); if(Pix3e4 == 'FALSE'){Pix3e4 = 0;}else{Pix3e4 = 1;}
+
+	var Pix4e0 = this.getFieldValue('Pix4e0'); if(Pix4e0 == 'FALSE'){Pix4e0 = 0;}else{Pix4e0 = 1;}
+	var Pix4e1 = this.getFieldValue('Pix4e1'); if(Pix4e1 == 'FALSE'){Pix4e1 = 0;}else{Pix4e1 = 1;}
+	var Pix4e2 = this.getFieldValue('Pix4e2'); if(Pix4e2 == 'FALSE'){Pix4e2 = 0;}else{Pix4e2 = 1;}
+	var Pix4e3 = this.getFieldValue('Pix4e3'); if(Pix4e3 == 'FALSE'){Pix4e3 = 0;}else{Pix4e3 = 1;}
+	var Pix4e4 = this.getFieldValue('Pix4e4'); if(Pix4e4 == 'FALSE'){Pix4e4 = 0;}else{Pix4e4 = 1;}
+
+	var Pix5e0 = this.getFieldValue('Pix5e0'); if(Pix5e0 == 'FALSE'){Pix5e0 = 0;}else{Pix5e0 = 1;}
+	var Pix5e1 = this.getFieldValue('Pix5e1'); if(Pix5e1 == 'FALSE'){Pix5e1 = 0;}else{Pix5e1 = 1;}
+	var Pix5e2 = this.getFieldValue('Pix5e2'); if(Pix5e2 == 'FALSE'){Pix5e2 = 0;}else{Pix5e2 = 1;}
+	var Pix5e3 = this.getFieldValue('Pix5e3'); if(Pix5e3 == 'FALSE'){Pix5e3 = 0;}else{Pix5e3 = 1;}
+	var Pix5e4 = this.getFieldValue('Pix5e4'); if(Pix5e4 == 'FALSE'){Pix5e4 = 0;}else{Pix5e4 = 1;}
+
+	var Pix6e0 = this.getFieldValue('Pix6e0'); if(Pix6e0 == 'FALSE'){Pix6e0 = 0;}else{Pix6e0 = 1;}
+	var Pix6e1 = this.getFieldValue('Pix6e1'); if(Pix6e1 == 'FALSE'){Pix6e1 = 0;}else{Pix6e1 = 1;}
+	var Pix6e2 = this.getFieldValue('Pix6e2'); if(Pix6e2 == 'FALSE'){Pix6e2 = 0;}else{Pix6e2 = 1;}
+	var Pix6e3 = this.getFieldValue('Pix6e3'); if(Pix6e3 == 'FALSE'){Pix6e3 = 0;}else{Pix6e3 = 1;}
+	var Pix6e4 = this.getFieldValue('Pix6e4'); if(Pix6e4 == 'FALSE'){Pix6e4 = 0;}else{Pix6e4 = 1;}
+
+	var Pix7e0 = this.getFieldValue('Pix7e0'); if(Pix7e0 == 'FALSE'){Pix7e0 = 0;}else{Pix7e0 = 1;}
+	var Pix7e1 = this.getFieldValue('Pix7e1'); if(Pix7e1 == 'FALSE'){Pix7e1 = 0;}else{Pix7e1 = 1;}
+	var Pix7e2 = this.getFieldValue('Pix7e2'); if(Pix7e2 == 'FALSE'){Pix7e2 = 0;}else{Pix7e2 = 1;}
+	var Pix7e3 = this.getFieldValue('Pix7e3'); if(Pix7e3 == 'FALSE'){Pix7e3 = 0;}else{Pix7e3 = 1;}
+	var Pix7e4 = this.getFieldValue('Pix7e4'); if(Pix7e4 == 'FALSE'){Pix7e4 = 0;}else{Pix7e4 = 1;}
+
+
+	
+	
+ Blockly.Arduino.definitions_['minilcdi2c_setcursor_draw' + nomer] = 'byte customChar'+nomer+'[] = { \n '+
+' B'+Pix0e0+''+Pix0e1+''+Pix0e2+''+Pix0e3+''+Pix0e4+', \n'+
+'  B'+Pix1e0+''+Pix1e1+''+Pix1e2+''+Pix1e3+''+Pix1e4+', \n'+
+'  B'+Pix2e0+''+Pix2e1+''+Pix2e2+''+Pix2e3+''+Pix2e4+', \n'+
+'  B'+Pix3e0+''+Pix3e1+''+Pix3e2+''+Pix3e3+''+Pix3e4+', \n'+
+'  B'+Pix4e0+''+Pix4e1+''+Pix4e2+''+Pix4e3+''+Pix4e4+', \n'+
+'  B'+Pix5e0+''+Pix5e1+''+Pix5e2+''+Pix5e3+''+Pix5e4+', \n'+
+'  B'+Pix6e0+''+Pix6e1+''+Pix6e2+''+Pix6e3+''+Pix6e4+', \n'+
+'  B'+Pix7e0+''+Pix7e1+''+Pix7e2+''+Pix7e3+''+Pix7e4+' \n'+
+'}; \n';
+ 
+  var code = ' ';
+  return code;
+};
+
+Blockly.Arduino['lcdi2c_setcursor_draw_led'] = function(block) {
+    
+	 
+    var nomer = block.getFieldValue("TEXT");
+	var nomer1 = block.getFieldValue("TEXT1");
+	var Pix0e0 = this.getFieldValue('Pix0e0'); if(Pix0e0 == 'FALSE'){Pix0e0 = 0;}else{Pix0e0 = 1;}
+	var Pix0e1 = this.getFieldValue('Pix0e1'); if(Pix0e1 == 'FALSE'){Pix0e1 = 0;}else{Pix0e1 = 1;}
+	var Pix0e2 = this.getFieldValue('Pix0e2'); if(Pix0e2 == 'FALSE'){Pix0e2 = 0;}else{Pix0e2 = 1;}
+	var Pix0e3 = this.getFieldValue('Pix0e3'); if(Pix0e3 == 'FALSE'){Pix0e3 = 0;}else{Pix0e3 = 1;}
+	var Pix0e4 = this.getFieldValue('Pix0e4'); if(Pix0e4 == 'FALSE'){Pix0e4 = 0;}else{Pix0e4 = 1;}
+
+	var Pix1e0 = this.getFieldValue('Pix1e0'); if(Pix1e0 == 'FALSE'){Pix1e0 = 0;}else{Pix1e0 = 1;}
+	var Pix1e1 = this.getFieldValue('Pix1e1'); if(Pix1e1 == 'FALSE'){Pix1e1 = 0;}else{Pix1e1 = 1;}
+	var Pix1e2 = this.getFieldValue('Pix1e2'); if(Pix1e2 == 'FALSE'){Pix1e2 = 0;}else{Pix1e2 = 1;}
+	var Pix1e3 = this.getFieldValue('Pix1e3'); if(Pix1e3 == 'FALSE'){Pix1e3 = 0;}else{Pix1e3 = 1;}
+	var Pix1e4 = this.getFieldValue('Pix1e4'); if(Pix1e4 == 'FALSE'){Pix1e4 = 0;}else{Pix1e4 = 1;}
+	
+	var Pix2e0 = this.getFieldValue('Pix2e0'); if(Pix2e0 == 'FALSE'){Pix2e0 = 0;}else{Pix2e0 = 1;}
+	var Pix2e1 = this.getFieldValue('Pix2e1'); if(Pix2e1 == 'FALSE'){Pix2e1 = 0;}else{Pix2e1 = 1;}
+	var Pix2e2 = this.getFieldValue('Pix2e2'); if(Pix2e2 == 'FALSE'){Pix2e2 = 0;}else{Pix2e2 = 1;}
+	var Pix2e3 = this.getFieldValue('Pix2e3'); if(Pix2e3 == 'FALSE'){Pix2e3 = 0;}else{Pix2e3 = 1;}
+	var Pix2e4 = this.getFieldValue('Pix2e4'); if(Pix2e4 == 'FALSE'){Pix2e4 = 0;}else{Pix2e4 = 1;}
+	
+	var Pix3e0 = this.getFieldValue('Pix3e0'); if(Pix3e0 == 'FALSE'){Pix3e0 = 0;}else{Pix3e0 = 1;}
+	var Pix3e1 = this.getFieldValue('Pix3e1'); if(Pix3e1 == 'FALSE'){Pix3e1 = 0;}else{Pix3e1 = 1;}
+	var Pix3e2 = this.getFieldValue('Pix3e2'); if(Pix3e2 == 'FALSE'){Pix3e2 = 0;}else{Pix3e2 = 1;}
+	var Pix3e3 = this.getFieldValue('Pix3e3'); if(Pix3e3 == 'FALSE'){Pix3e3 = 0;}else{Pix3e3 = 1;}
+	var Pix3e4 = this.getFieldValue('Pix3e4'); if(Pix3e4 == 'FALSE'){Pix3e4 = 0;}else{Pix3e4 = 1;}
+
+	var Pix4e0 = this.getFieldValue('Pix4e0'); if(Pix4e0 == 'FALSE'){Pix4e0 = 0;}else{Pix4e0 = 1;}
+	var Pix4e1 = this.getFieldValue('Pix4e1'); if(Pix4e1 == 'FALSE'){Pix4e1 = 0;}else{Pix4e1 = 1;}
+	var Pix4e2 = this.getFieldValue('Pix4e2'); if(Pix4e2 == 'FALSE'){Pix4e2 = 0;}else{Pix4e2 = 1;}
+	var Pix4e3 = this.getFieldValue('Pix4e3'); if(Pix4e3 == 'FALSE'){Pix4e3 = 0;}else{Pix4e3 = 1;}
+	var Pix4e4 = this.getFieldValue('Pix4e4'); if(Pix4e4 == 'FALSE'){Pix4e4 = 0;}else{Pix4e4 = 1;}
+
+	var Pix5e0 = this.getFieldValue('Pix5e0'); if(Pix5e0 == 'FALSE'){Pix5e0 = 0;}else{Pix5e0 = 1;}
+	var Pix5e1 = this.getFieldValue('Pix5e1'); if(Pix5e1 == 'FALSE'){Pix5e1 = 0;}else{Pix5e1 = 1;}
+	var Pix5e2 = this.getFieldValue('Pix5e2'); if(Pix5e2 == 'FALSE'){Pix5e2 = 0;}else{Pix5e2 = 1;}
+	var Pix5e3 = this.getFieldValue('Pix5e3'); if(Pix5e3 == 'FALSE'){Pix5e3 = 0;}else{Pix5e3 = 1;}
+	var Pix5e4 = this.getFieldValue('Pix5e4'); if(Pix5e4 == 'FALSE'){Pix5e4 = 0;}else{Pix5e4 = 1;}
+
+	var Pix6e0 = this.getFieldValue('Pix6e0'); if(Pix6e0 == 'FALSE'){Pix6e0 = 0;}else{Pix6e0 = 1;}
+	var Pix6e1 = this.getFieldValue('Pix6e1'); if(Pix6e1 == 'FALSE'){Pix6e1 = 0;}else{Pix6e1 = 1;}
+	var Pix6e2 = this.getFieldValue('Pix6e2'); if(Pix6e2 == 'FALSE'){Pix6e2 = 0;}else{Pix6e2 = 1;}
+	var Pix6e3 = this.getFieldValue('Pix6e3'); if(Pix6e3 == 'FALSE'){Pix6e3 = 0;}else{Pix6e3 = 1;}
+	var Pix6e4 = this.getFieldValue('Pix6e4'); if(Pix6e4 == 'FALSE'){Pix6e4 = 0;}else{Pix6e4 = 1;}
+
+	var Pix7e0 = this.getFieldValue('Pix7e0'); if(Pix7e0 == 'FALSE'){Pix7e0 = 0;}else{Pix7e0 = 1;}
+	var Pix7e1 = this.getFieldValue('Pix7e1'); if(Pix7e1 == 'FALSE'){Pix7e1 = 0;}else{Pix7e1 = 1;}
+	var Pix7e2 = this.getFieldValue('Pix7e2'); if(Pix7e2 == 'FALSE'){Pix7e2 = 0;}else{Pix7e2 = 1;}
+	var Pix7e3 = this.getFieldValue('Pix7e3'); if(Pix7e3 == 'FALSE'){Pix7e3 = 0;}else{Pix7e3 = 1;}
+	var Pix7e4 = this.getFieldValue('Pix7e4'); if(Pix7e4 == 'FALSE'){Pix7e4 = 0;}else{Pix7e4 = 1;}
+
+
+	
+	
+ Blockly.Arduino.definitions_['minilcdi2c_setcursor_draw_led' + nomer] = 'byte customChar'+nomer+'[8] = { \n '+
+' 0b'+Pix7e0+''+Pix6e0+''+Pix5e0+''+Pix4e0+''+Pix3e0+''+Pix2e0+''+Pix1e0+''+Pix0e0+', \n'+
+'  0b'+Pix7e1+''+Pix6e1+''+Pix5e1+''+Pix4e1+''+Pix3e1+''+Pix2e1+''+Pix1e1+''+Pix0e1+', \n'+
+'  0b'+Pix7e2+''+Pix6e2+''+Pix5e2+''+Pix4e2+''+Pix3e2+''+Pix2e2+''+Pix1e2+''+Pix0e2+', \n'+
+'  0b'+Pix7e3+''+Pix6e3+''+Pix5e3+''+Pix4e3+''+Pix3e3+''+Pix2e3+''+Pix1e3+''+Pix0e3+', \n'+
+'  0b'+Pix7e4+''+Pix6e4+''+Pix5e4+''+Pix4e4+''+Pix3e4+''+Pix2e4+''+Pix1e4+''+Pix0e4+', \n'+
+'  0b00000000, \n'+
+'  0b00000000, \n'+
+'  0b00000000 \n'+
+'}; \n';
+ 
+  Blockly.Arduino.setups_['minilcdi2c_setcursor_draw_led']= '  DDRD = B11111111; \n  ';
+  
+  var code = '    for (byte i = 0; i < 8; i++){ \n   PORTD = customChar'+nomer+'[i]; \n   delay('+nomer1+'); \n } \n ';
+  return code;
+};
+
+Blockly.Arduino['lcdi2c_setcursor_draw_pl'] = function(block) {
+    var nomer = block.getFieldValue("TEXT");
+	var rowx =  Blockly.Arduino.valueToCode(block, 'print_x', Blockly.Arduino.ORDER_ATOMIC);
+	var rowy =  Blockly.Arduino.valueToCode(block, 'print_y', Blockly.Arduino.ORDER_ATOMIC);
+    var code = 'lcd.createChar('+nomer+', customChar'+nomer+'); \n  lcd.setCursor('+rowx+', '+rowy+'); \n  lcd.write('+nomer+'); \n ';
+  return code;
+};
+
+ 
+
+Blockly.Arduino['minilcdi2c_setup'] = function(block) {
+
+  Blockly.Arduino.definitions_['define_lcd_i2c'] = '#include <Wire.h>\n#include "ASOLED.h"\n';
+
+   Blockly.Arduino.setups_['setup_lcdi2c_i2c']= 'LD.init(); \n LD.clearDisplay(); \n';
+
+  var code = '';
+  return code;
+};
+
+Blockly.Arduino['minilcdi2c_setcursor'] = function(block) {
+  var print_x = Blockly.Arduino.valueToCode(block, 'print_x', Blockly.Arduino.ORDER_ATOMIC);
+  var print_y = Blockly.Arduino.valueToCode(block, 'print_y', Blockly.Arduino.ORDER_ATOMIC);
+  var value_texttoprint = Blockly.Arduino.valueToCode(block, 'texttoprint', Blockly.Arduino.ORDER_ATOMIC);
+  var point = this.getFieldValue('dp');
+  
+  var code = 'LD.printString_'+point+'('+value_texttoprint+', '+print_x+', '+print_y+ ');\n';
+
+  return code;
+};
+
+Blockly.Arduino['minilcdi2c_setcursorR'] = function(block) {
+	var print_x = Blockly.Arduino.valueToCode(block, 'print_x', Blockly.Arduino.ORDER_ATOMIC);
+	var print_y = Blockly.Arduino.valueToCode(block, 'print_y', Blockly.Arduino.ORDER_ATOMIC);
+	var print_R = Blockly.Arduino.valueToCode(block, 'print_R', Blockly.Arduino.ORDER_ATOMIC);
+	var point = this.getFieldValue('dp');
+	var tipe = this.getFieldValue('tipe');
+	
+  if(tipe == "long"){
+    var code = 'LD.printString_'+point+'("", '+print_x+', '+print_y+ '); \n LD.printNumber((long)'+print_R+'); \n';
+	}
+  if(tipe == "float-1"){
+  var code = 'LD.printString_'+point+'("", '+print_x+', '+print_y+ '); \n LD.printNumber('+print_R+',1); \n';
+	}
+	  if(tipe == "float-2"){
+  var code = 'LD.printString_'+point+'("", '+print_x+', '+print_y+ '); \n LD.printNumber('+print_R+',2); \n';
+	}
+	  if(tipe == "float-3"){
+  var code = 'LD.printString_'+point+'("", '+print_x+', '+print_y+ '); \n LD.printNumber('+print_R+',3); \n';
+	}
+	  if(tipe == "float-4"){
+  var code = 'LD.printString_'+point+'("", '+print_x+', '+print_y+ '); \n LD.printNumber('+print_R+',4); \n';
+	}
+  if(tipe == "String"){
+  var code = 'LD.printString_'+point+'('+print_R+'.c_str(), '+print_x+', '+print_y+ ');\n';
+	}
+	
+  return code;
+};
+
+Blockly.Arduino['minilcdi2c_setcursor_draw'] = function(block) {
+    
+	 
+    var nomer = block.getFieldValue("TEXT");
+	var Pix0e0 = this.getFieldValue('Pix0e0'); if(Pix0e0 == 'FALSE'){Pix0e0 = 0;}else{Pix0e0 = 1;}
+	var Pix0e1 = this.getFieldValue('Pix0e1'); if(Pix0e1 == 'FALSE'){Pix0e1 = 0;}else{Pix0e1 = 1;}
+	var Pix0e2 = this.getFieldValue('Pix0e2'); if(Pix0e2 == 'FALSE'){Pix0e2 = 0;}else{Pix0e2 = 1;}
+	var Pix0e3 = this.getFieldValue('Pix0e3'); if(Pix0e3 == 'FALSE'){Pix0e3 = 0;}else{Pix0e3 = 1;}
+	var Pix0e4 = this.getFieldValue('Pix0e4'); if(Pix0e4 == 'FALSE'){Pix0e4 = 0;}else{Pix0e4 = 1;}
+	var Pix0e5 = this.getFieldValue('Pix0e5'); if(Pix0e5 == 'FALSE'){Pix0e5 = 0;}else{Pix0e5 = 1;}
+	var Pix0e6 = this.getFieldValue('Pix0e6'); if(Pix0e6 == 'FALSE'){Pix0e6 = 0;}else{Pix0e6 = 1;}
+	var Pix0e7 = this.getFieldValue('Pix0e7'); if(Pix0e7 == 'FALSE'){Pix0e7 = 0;}else{Pix0e7 = 1;}
+	var Pix0e8 = this.getFieldValue('Pix0e8'); if(Pix0e8 == 'FALSE'){Pix0e8 = 0;}else{Pix0e8 = 1;}
+	var Pix0e9 = this.getFieldValue('Pix0e9'); if(Pix0e9 == 'FALSE'){Pix0e9 = 0;}else{Pix0e9 = 1;}
+	var Pix0e10 = this.getFieldValue('Pix0e10'); if(Pix0e10 == 'FALSE'){Pix0e10 = 0;}else{Pix0e10 = 1;}
+	var Pix0e11 = this.getFieldValue('Pix0e11'); if(Pix0e11 == 'FALSE'){Pix0e11 = 0;}else{Pix0e11 = 1;}
+	var Pix0e12 = this.getFieldValue('Pix0e12'); if(Pix0e12 == 'FALSE'){Pix0e12 = 0;}else{Pix0e12 = 1;}
+	var Pix0e13 = this.getFieldValue('Pix0e13'); if(Pix0e13 == 'FALSE'){Pix0e13 = 0;}else{Pix0e13 = 1;}
+	var Pix0e14 = this.getFieldValue('Pix0e14'); if(Pix0e14 == 'FALSE'){Pix0e14 = 0;}else{Pix0e14 = 1;}
+	var Pix0e15 = this.getFieldValue('Pix0e15'); if(Pix0e15 == 'FALSE'){Pix0e15 = 0;}else{Pix0e15 = 1;}
+
+	var Pix1e0 = this.getFieldValue('Pix1e0'); if(Pix1e0 == 'FALSE'){Pix1e0 = 0;}else{Pix1e0 = 1;}
+	var Pix1e1 = this.getFieldValue('Pix1e1'); if(Pix1e1 == 'FALSE'){Pix1e1 = 0;}else{Pix1e1 = 1;}
+	var Pix1e2 = this.getFieldValue('Pix1e2'); if(Pix1e2 == 'FALSE'){Pix1e2 = 0;}else{Pix1e2 = 1;}
+	var Pix1e3 = this.getFieldValue('Pix1e3'); if(Pix1e3 == 'FALSE'){Pix1e3 = 0;}else{Pix1e3 = 1;}
+	var Pix1e4 = this.getFieldValue('Pix1e4'); if(Pix1e4 == 'FALSE'){Pix1e4 = 0;}else{Pix1e4 = 1;}
+	var Pix1e5 = this.getFieldValue('Pix1e5'); if(Pix1e5 == 'FALSE'){Pix1e5 = 0;}else{Pix1e5 = 1;}
+	var Pix1e6 = this.getFieldValue('Pix1e6'); if(Pix1e6 == 'FALSE'){Pix1e6 = 0;}else{Pix1e6 = 1;}
+	var Pix1e7 = this.getFieldValue('Pix1e7'); if(Pix1e7 == 'FALSE'){Pix1e7 = 0;}else{Pix1e7 = 1;}
+	var Pix1e8 = this.getFieldValue('Pix1e8'); if(Pix1e8 == 'FALSE'){Pix1e8 = 0;}else{Pix1e8 = 1;}
+	var Pix1e9 = this.getFieldValue('Pix1e9'); if(Pix1e9 == 'FALSE'){Pix1e9 = 0;}else{Pix1e9 = 1;}
+	var Pix1e10 = this.getFieldValue('Pix1e10'); if(Pix1e10 == 'FALSE'){Pix1e10 = 0;}else{Pix1e10 = 1;}
+	var Pix1e11 = this.getFieldValue('Pix1e11'); if(Pix1e11 == 'FALSE'){Pix1e11 = 0;}else{Pix1e11 = 1;}
+	var Pix1e12 = this.getFieldValue('Pix1e12'); if(Pix1e12 == 'FALSE'){Pix1e12 = 0;}else{Pix1e12 = 1;}
+	var Pix1e13 = this.getFieldValue('Pix1e13'); if(Pix1e13 == 'FALSE'){Pix1e13 = 0;}else{Pix1e13 = 1;}
+	var Pix1e14 = this.getFieldValue('Pix1e14'); if(Pix1e14 == 'FALSE'){Pix1e14 = 0;}else{Pix1e14 = 1;}
+	var Pix1e15 = this.getFieldValue('Pix1e15'); if(Pix1e15 == 'FALSE'){Pix1e15 = 0;}else{Pix1e15 = 1;}
+	
+	var Pix2e0 = this.getFieldValue('Pix2e0'); if(Pix2e0 == 'FALSE'){Pix2e0 = 0;}else{Pix2e0 = 1;}
+	var Pix2e1 = this.getFieldValue('Pix2e1'); if(Pix2e1 == 'FALSE'){Pix2e1 = 0;}else{Pix2e1 = 1;}
+	var Pix2e2 = this.getFieldValue('Pix2e2'); if(Pix2e2 == 'FALSE'){Pix2e2 = 0;}else{Pix2e2 = 1;}
+	var Pix2e3 = this.getFieldValue('Pix2e3'); if(Pix2e3 == 'FALSE'){Pix2e3 = 0;}else{Pix2e3 = 1;}
+	var Pix2e4 = this.getFieldValue('Pix2e4'); if(Pix2e4 == 'FALSE'){Pix2e4 = 0;}else{Pix2e4 = 1;}
+	var Pix2e5 = this.getFieldValue('Pix2e5'); if(Pix2e5 == 'FALSE'){Pix2e5 = 0;}else{Pix2e5 = 1;}
+	var Pix2e6 = this.getFieldValue('Pix2e6'); if(Pix2e6 == 'FALSE'){Pix2e6 = 0;}else{Pix2e6 = 1;}
+	var Pix2e7 = this.getFieldValue('Pix2e7'); if(Pix2e7 == 'FALSE'){Pix2e7 = 0;}else{Pix2e7 = 1;}
+	var Pix2e8 = this.getFieldValue('Pix2e8'); if(Pix2e8 == 'FALSE'){Pix2e8 = 0;}else{Pix2e8 = 1;}
+	var Pix2e9 = this.getFieldValue('Pix2e9'); if(Pix2e9 == 'FALSE'){Pix2e9 = 0;}else{Pix2e9 = 1;}
+	var Pix2e10 = this.getFieldValue('Pix2e10'); if(Pix2e10 == 'FALSE'){Pix2e10 = 0;}else{Pix2e10 = 1;}
+	var Pix2e11 = this.getFieldValue('Pix2e11'); if(Pix2e11 == 'FALSE'){Pix2e11 = 0;}else{Pix2e11 = 1;}
+	var Pix2e12 = this.getFieldValue('Pix2e12'); if(Pix2e12 == 'FALSE'){Pix2e12 = 0;}else{Pix2e12 = 1;}
+	var Pix2e13 = this.getFieldValue('Pix2e13'); if(Pix2e13 == 'FALSE'){Pix2e13 = 0;}else{Pix2e13 = 1;}
+	var Pix2e14 = this.getFieldValue('Pix2e14'); if(Pix2e14 == 'FALSE'){Pix2e14 = 0;}else{Pix2e14 = 1;}
+	var Pix2e15 = this.getFieldValue('Pix2e15'); if(Pix2e15 == 'FALSE'){Pix2e15 = 0;}else{Pix2e15 = 1;}
+	
+	var Pix3e0 = this.getFieldValue('Pix3e0'); if(Pix3e0 == 'FALSE'){Pix3e0 = 0;}else{Pix3e0 = 1;}
+	var Pix3e1 = this.getFieldValue('Pix3e1'); if(Pix3e1 == 'FALSE'){Pix3e1 = 0;}else{Pix3e1 = 1;}
+	var Pix3e2 = this.getFieldValue('Pix3e2'); if(Pix3e2 == 'FALSE'){Pix3e2 = 0;}else{Pix3e2 = 1;}
+	var Pix3e3 = this.getFieldValue('Pix3e3'); if(Pix3e3 == 'FALSE'){Pix3e3 = 0;}else{Pix3e3 = 1;}
+	var Pix3e4 = this.getFieldValue('Pix3e4'); if(Pix3e4 == 'FALSE'){Pix3e4 = 0;}else{Pix3e4 = 1;}
+	var Pix3e5 = this.getFieldValue('Pix3e5'); if(Pix3e5 == 'FALSE'){Pix3e5 = 0;}else{Pix3e5 = 1;}
+	var Pix3e6 = this.getFieldValue('Pix3e6'); if(Pix3e6 == 'FALSE'){Pix3e6 = 0;}else{Pix3e6 = 1;}
+	var Pix3e7 = this.getFieldValue('Pix3e7'); if(Pix3e7 == 'FALSE'){Pix3e7 = 0;}else{Pix3e7 = 1;}
+	var Pix3e8 = this.getFieldValue('Pix3e8'); if(Pix3e8 == 'FALSE'){Pix3e8 = 0;}else{Pix3e8 = 1;}
+	var Pix3e9 = this.getFieldValue('Pix3e9'); if(Pix3e9 == 'FALSE'){Pix3e9 = 0;}else{Pix3e9 = 1;}
+	var Pix3e10 = this.getFieldValue('Pix3e10'); if(Pix3e10 == 'FALSE'){Pix3e10 = 0;}else{Pix3e10 = 1;}
+	var Pix3e11 = this.getFieldValue('Pix3e11'); if(Pix3e11 == 'FALSE'){Pix3e11 = 0;}else{Pix3e11 = 1;}
+	var Pix3e12 = this.getFieldValue('Pix3e12'); if(Pix3e12 == 'FALSE'){Pix3e12 = 0;}else{Pix3e12 = 1;}
+	var Pix3e13 = this.getFieldValue('Pix3e13'); if(Pix3e13 == 'FALSE'){Pix3e13 = 0;}else{Pix3e13 = 1;}
+	var Pix3e14 = this.getFieldValue('Pix3e14'); if(Pix3e14 == 'FALSE'){Pix3e14 = 0;}else{Pix3e14 = 1;}
+	var Pix3e15 = this.getFieldValue('Pix3e15'); if(Pix3e15 == 'FALSE'){Pix3e15 = 0;}else{Pix3e15 = 1;}
+
+	var Pix4e0 = this.getFieldValue('Pix4e0'); if(Pix4e0 == 'FALSE'){Pix4e0 = 0;}else{Pix4e0 = 1;}
+	var Pix4e1 = this.getFieldValue('Pix4e1'); if(Pix4e1 == 'FALSE'){Pix4e1 = 0;}else{Pix4e1 = 1;}
+	var Pix4e2 = this.getFieldValue('Pix4e2'); if(Pix4e2 == 'FALSE'){Pix4e2 = 0;}else{Pix4e2 = 1;}
+	var Pix4e3 = this.getFieldValue('Pix4e3'); if(Pix4e3 == 'FALSE'){Pix4e3 = 0;}else{Pix4e3 = 1;}
+	var Pix4e4 = this.getFieldValue('Pix4e4'); if(Pix4e4 == 'FALSE'){Pix4e4 = 0;}else{Pix4e4 = 1;}
+	var Pix4e5 = this.getFieldValue('Pix4e5'); if(Pix4e5 == 'FALSE'){Pix4e5 = 0;}else{Pix4e5 = 1;}
+	var Pix4e6 = this.getFieldValue('Pix4e6'); if(Pix4e6 == 'FALSE'){Pix4e6 = 0;}else{Pix4e6 = 1;}
+	var Pix4e7 = this.getFieldValue('Pix4e7'); if(Pix4e7 == 'FALSE'){Pix4e7 = 0;}else{Pix4e7 = 1;}
+	var Pix4e8 = this.getFieldValue('Pix4e8'); if(Pix4e8 == 'FALSE'){Pix4e8 = 0;}else{Pix4e8 = 1;}
+	var Pix4e9 = this.getFieldValue('Pix4e9'); if(Pix4e9 == 'FALSE'){Pix4e9 = 0;}else{Pix4e9 = 1;}
+	var Pix4e10 = this.getFieldValue('Pix4e10'); if(Pix4e10 == 'FALSE'){Pix4e10 = 0;}else{Pix4e10 = 1;}
+	var Pix4e11 = this.getFieldValue('Pix4e11'); if(Pix4e11 == 'FALSE'){Pix4e11 = 0;}else{Pix4e11 = 1;}
+	var Pix4e12 = this.getFieldValue('Pix4e12'); if(Pix4e12 == 'FALSE'){Pix4e12 = 0;}else{Pix4e12 = 1;}
+	var Pix4e13 = this.getFieldValue('Pix4e13'); if(Pix4e13 == 'FALSE'){Pix4e13 = 0;}else{Pix4e13 = 1;}
+	var Pix4e14 = this.getFieldValue('Pix4e14'); if(Pix4e14 == 'FALSE'){Pix4e14 = 0;}else{Pix4e14 = 1;}
+	var Pix4e15 = this.getFieldValue('Pix4e15'); if(Pix4e15 == 'FALSE'){Pix4e15 = 0;}else{Pix4e15 = 1;}
+
+	var Pix5e0 = this.getFieldValue('Pix5e0'); if(Pix5e0 == 'FALSE'){Pix5e0 = 0;}else{Pix5e0 = 1;}
+	var Pix5e1 = this.getFieldValue('Pix5e1'); if(Pix5e1 == 'FALSE'){Pix5e1 = 0;}else{Pix5e1 = 1;}
+	var Pix5e2 = this.getFieldValue('Pix5e2'); if(Pix5e2 == 'FALSE'){Pix5e2 = 0;}else{Pix5e2 = 1;}
+	var Pix5e3 = this.getFieldValue('Pix5e3'); if(Pix5e3 == 'FALSE'){Pix5e3 = 0;}else{Pix5e3 = 1;}
+	var Pix5e4 = this.getFieldValue('Pix5e4'); if(Pix5e4 == 'FALSE'){Pix5e4 = 0;}else{Pix5e4 = 1;}
+	var Pix5e5 = this.getFieldValue('Pix5e5'); if(Pix5e5 == 'FALSE'){Pix5e5 = 0;}else{Pix5e5 = 1;}
+	var Pix5e6 = this.getFieldValue('Pix5e6'); if(Pix5e6 == 'FALSE'){Pix5e6 = 0;}else{Pix5e6 = 1;}
+	var Pix5e7 = this.getFieldValue('Pix5e7'); if(Pix5e7 == 'FALSE'){Pix5e7 = 0;}else{Pix5e7 = 1;}
+	var Pix5e8 = this.getFieldValue('Pix5e8'); if(Pix5e8 == 'FALSE'){Pix5e8 = 0;}else{Pix5e8 = 1;}
+	var Pix5e9 = this.getFieldValue('Pix5e9'); if(Pix5e9 == 'FALSE'){Pix5e9 = 0;}else{Pix5e9 = 1;}
+	var Pix5e10 = this.getFieldValue('Pix5e10'); if(Pix5e10 == 'FALSE'){Pix5e10 = 0;}else{Pix5e10 = 1;}
+	var Pix5e11 = this.getFieldValue('Pix5e11'); if(Pix5e11 == 'FALSE'){Pix5e11 = 0;}else{Pix5e11 = 1;}
+	var Pix5e12 = this.getFieldValue('Pix5e12'); if(Pix5e12 == 'FALSE'){Pix5e12 = 0;}else{Pix5e12 = 1;}
+	var Pix5e13 = this.getFieldValue('Pix5e13'); if(Pix5e13 == 'FALSE'){Pix5e13 = 0;}else{Pix5e13 = 1;}
+	var Pix5e14 = this.getFieldValue('Pix5e14'); if(Pix5e14 == 'FALSE'){Pix5e14 = 0;}else{Pix5e14 = 1;}
+	var Pix5e15 = this.getFieldValue('Pix5e15'); if(Pix5e15 == 'FALSE'){Pix5e15 = 0;}else{Pix5e15 = 1;}
+
+	var Pix6e0 = this.getFieldValue('Pix6e0'); if(Pix6e0 == 'FALSE'){Pix6e0 = 0;}else{Pix6e0 = 1;}
+	var Pix6e1 = this.getFieldValue('Pix6e1'); if(Pix6e1 == 'FALSE'){Pix6e1 = 0;}else{Pix6e1 = 1;}
+	var Pix6e2 = this.getFieldValue('Pix6e2'); if(Pix6e2 == 'FALSE'){Pix6e2 = 0;}else{Pix6e2 = 1;}
+	var Pix6e3 = this.getFieldValue('Pix6e3'); if(Pix6e3 == 'FALSE'){Pix6e3 = 0;}else{Pix6e3 = 1;}
+	var Pix6e4 = this.getFieldValue('Pix6e4'); if(Pix6e4 == 'FALSE'){Pix6e4 = 0;}else{Pix6e4 = 1;}
+	var Pix6e5 = this.getFieldValue('Pix6e5'); if(Pix6e5 == 'FALSE'){Pix6e5 = 0;}else{Pix6e5 = 1;}
+	var Pix6e6 = this.getFieldValue('Pix6e6'); if(Pix6e6 == 'FALSE'){Pix6e6 = 0;}else{Pix6e6 = 1;}
+	var Pix6e7 = this.getFieldValue('Pix6e7'); if(Pix6e7 == 'FALSE'){Pix6e7 = 0;}else{Pix6e7 = 1;}
+	var Pix6e8 = this.getFieldValue('Pix6e8'); if(Pix6e8 == 'FALSE'){Pix6e8 = 0;}else{Pix6e8 = 1;}
+	var Pix6e9 = this.getFieldValue('Pix6e9'); if(Pix6e9 == 'FALSE'){Pix6e9 = 0;}else{Pix6e9 = 1;}
+	var Pix6e10 = this.getFieldValue('Pix6e10'); if(Pix6e10 == 'FALSE'){Pix6e10 = 0;}else{Pix6e10 = 1;}
+	var Pix6e11 = this.getFieldValue('Pix6e11'); if(Pix6e11 == 'FALSE'){Pix6e11 = 0;}else{Pix6e11 = 1;}
+	var Pix6e12 = this.getFieldValue('Pix6e12'); if(Pix6e12 == 'FALSE'){Pix6e12 = 0;}else{Pix6e12 = 1;}
+	var Pix6e13 = this.getFieldValue('Pix6e13'); if(Pix6e13 == 'FALSE'){Pix6e13 = 0;}else{Pix6e13 = 1;}
+	var Pix6e14 = this.getFieldValue('Pix6e14'); if(Pix6e14 == 'FALSE'){Pix6e14 = 0;}else{Pix6e14 = 1;}
+	var Pix6e15 = this.getFieldValue('Pix6e15'); if(Pix6e15 == 'FALSE'){Pix6e15 = 0;}else{Pix6e15 = 1;}
+
+	var Pix7e0 = this.getFieldValue('Pix7e0'); if(Pix7e0 == 'FALSE'){Pix7e0 = 0;}else{Pix7e0 = 1;}
+	var Pix7e1 = this.getFieldValue('Pix7e1'); if(Pix7e1 == 'FALSE'){Pix7e1 = 0;}else{Pix7e1 = 1;}
+	var Pix7e2 = this.getFieldValue('Pix7e2'); if(Pix7e2 == 'FALSE'){Pix7e2 = 0;}else{Pix7e2 = 1;}
+	var Pix7e3 = this.getFieldValue('Pix7e3'); if(Pix7e3 == 'FALSE'){Pix7e3 = 0;}else{Pix7e3 = 1;}
+	var Pix7e4 = this.getFieldValue('Pix7e4'); if(Pix7e4 == 'FALSE'){Pix7e4 = 0;}else{Pix7e4 = 1;}
+	var Pix7e5 = this.getFieldValue('Pix7e5'); if(Pix7e5 == 'FALSE'){Pix7e5 = 0;}else{Pix7e5 = 1;}
+	var Pix7e6 = this.getFieldValue('Pix7e6'); if(Pix7e6 == 'FALSE'){Pix7e6 = 0;}else{Pix7e6 = 1;}
+	var Pix7e7 = this.getFieldValue('Pix7e7'); if(Pix7e7 == 'FALSE'){Pix7e7 = 0;}else{Pix7e7 = 1;}
+	var Pix7e8 = this.getFieldValue('Pix7e8'); if(Pix7e8 == 'FALSE'){Pix7e8 = 0;}else{Pix7e8 = 1;}
+	var Pix7e9 = this.getFieldValue('Pix7e9'); if(Pix7e9 == 'FALSE'){Pix7e9 = 0;}else{Pix7e9 = 1;}
+	var Pix7e10 = this.getFieldValue('Pix7e10'); if(Pix7e10 == 'FALSE'){Pix7e10 = 0;}else{Pix7e10 = 1;}
+	var Pix7e11 = this.getFieldValue('Pix7e11'); if(Pix7e11 == 'FALSE'){Pix7e11 = 0;}else{Pix7e11 = 1;}
+	var Pix7e12 = this.getFieldValue('Pix7e12'); if(Pix7e12 == 'FALSE'){Pix7e12 = 0;}else{Pix7e12 = 1;}
+	var Pix7e13 = this.getFieldValue('Pix7e13'); if(Pix7e13 == 'FALSE'){Pix7e13 = 0;}else{Pix7e13 = 1;}
+	var Pix7e14 = this.getFieldValue('Pix7e14'); if(Pix7e14 == 'FALSE'){Pix7e14 = 0;}else{Pix7e14 = 1;}
+	var Pix7e15 = this.getFieldValue('Pix7e15'); if(Pix7e15 == 'FALSE'){Pix7e15 = 0;}else{Pix7e15 = 1;}
+
+	var Pix8e0 = this.getFieldValue('Pix8e0'); if(Pix8e0 == 'FALSE'){Pix8e0 = 0;}else{Pix8e0 = 1;}
+	var Pix8e1 = this.getFieldValue('Pix8e1'); if(Pix8e1 == 'FALSE'){Pix8e1 = 0;}else{Pix8e1 = 1;}
+	var Pix8e2 = this.getFieldValue('Pix8e2'); if(Pix8e2 == 'FALSE'){Pix8e2 = 0;}else{Pix8e2 = 1;}
+	var Pix8e3 = this.getFieldValue('Pix8e3'); if(Pix8e3 == 'FALSE'){Pix8e3 = 0;}else{Pix8e3 = 1;}
+	var Pix8e4 = this.getFieldValue('Pix8e4'); if(Pix8e4 == 'FALSE'){Pix8e4 = 0;}else{Pix8e4 = 1;}
+	var Pix8e5 = this.getFieldValue('Pix8e5'); if(Pix8e5 == 'FALSE'){Pix8e5 = 0;}else{Pix8e5 = 1;}
+	var Pix8e6 = this.getFieldValue('Pix8e6'); if(Pix8e6 == 'FALSE'){Pix8e6 = 0;}else{Pix8e6 = 1;}
+	var Pix8e7 = this.getFieldValue('Pix8e7'); if(Pix8e7 == 'FALSE'){Pix8e7 = 0;}else{Pix8e7 = 1;}
+	var Pix8e8 = this.getFieldValue('Pix8e8'); if(Pix8e8 == 'FALSE'){Pix8e8 = 0;}else{Pix8e8 = 1;}
+	var Pix8e9 = this.getFieldValue('Pix8e9'); if(Pix8e9 == 'FALSE'){Pix8e9 = 0;}else{Pix8e9 = 1;}
+	var Pix8e10 = this.getFieldValue('Pix8e10'); if(Pix8e10 == 'FALSE'){Pix8e10 = 0;}else{Pix8e10 = 1;}
+	var Pix8e11 = this.getFieldValue('Pix8e11'); if(Pix8e11 == 'FALSE'){Pix8e11 = 0;}else{Pix8e11 = 1;}
+	var Pix8e12 = this.getFieldValue('Pix8e12'); if(Pix8e12 == 'FALSE'){Pix8e12 = 0;}else{Pix8e12 = 1;}
+	var Pix8e13 = this.getFieldValue('Pix8e13'); if(Pix8e13 == 'FALSE'){Pix8e13 = 0;}else{Pix8e13 = 1;}
+	var Pix8e14 = this.getFieldValue('Pix8e14'); if(Pix8e14 == 'FALSE'){Pix8e14 = 0;}else{Pix8e14 = 1;}
+	var Pix8e15 = this.getFieldValue('Pix8e15'); if(Pix8e15 == 'FALSE'){Pix8e15 = 0;}else{Pix8e15 = 1;}
+
+	var Pix9e0 = this.getFieldValue('Pix9e0'); if(Pix9e0 == 'FALSE'){Pix9e0 = 0;}else{Pix9e0 = 1;}
+	var Pix9e1 = this.getFieldValue('Pix9e1'); if(Pix9e1 == 'FALSE'){Pix9e1 = 0;}else{Pix9e1 = 1;}
+	var Pix9e2 = this.getFieldValue('Pix9e2'); if(Pix9e2 == 'FALSE'){Pix9e2 = 0;}else{Pix9e2 = 1;}
+	var Pix9e3 = this.getFieldValue('Pix9e3'); if(Pix9e3 == 'FALSE'){Pix9e3 = 0;}else{Pix9e3 = 1;}
+	var Pix9e4 = this.getFieldValue('Pix9e4'); if(Pix9e4 == 'FALSE'){Pix9e4 = 0;}else{Pix9e4 = 1;}
+	var Pix9e5 = this.getFieldValue('Pix9e5'); if(Pix9e5 == 'FALSE'){Pix9e5 = 0;}else{Pix9e5 = 1;}
+	var Pix9e6 = this.getFieldValue('Pix9e6'); if(Pix9e6 == 'FALSE'){Pix9e6 = 0;}else{Pix9e6 = 1;}
+	var Pix9e7 = this.getFieldValue('Pix9e7'); if(Pix9e7 == 'FALSE'){Pix9e7 = 0;}else{Pix9e7 = 1;}
+	var Pix9e8 = this.getFieldValue('Pix9e8'); if(Pix9e8 == 'FALSE'){Pix9e8 = 0;}else{Pix9e8 = 1;}
+	var Pix9e9 = this.getFieldValue('Pix9e9'); if(Pix9e9 == 'FALSE'){Pix9e9 = 0;}else{Pix9e9 = 1;}
+	var Pix9e10 = this.getFieldValue('Pix9e10'); if(Pix9e10 == 'FALSE'){Pix9e10 = 0;}else{Pix9e10 = 1;}
+	var Pix9e11 = this.getFieldValue('Pix9e11'); if(Pix9e11 == 'FALSE'){Pix9e11 = 0;}else{Pix9e11 = 1;}
+	var Pix9e12 = this.getFieldValue('Pix9e12'); if(Pix9e12 == 'FALSE'){Pix9e12 = 0;}else{Pix9e12 = 1;}
+	var Pix9e13 = this.getFieldValue('Pix9e13'); if(Pix9e13 == 'FALSE'){Pix9e13 = 0;}else{Pix9e13 = 1;}
+	var Pix9e14 = this.getFieldValue('Pix9e14'); if(Pix9e14 == 'FALSE'){Pix9e14 = 0;}else{Pix9e14 = 1;}
+	var Pix9e15 = this.getFieldValue('Pix9e15'); if(Pix9e15 == 'FALSE'){Pix9e15 = 0;}else{Pix9e15 = 1;}
+
+	var Pix10e0 = this.getFieldValue('Pix10e0'); if(Pix10e0 == 'FALSE'){Pix10e0 = 0;}else{Pix10e0 = 1;}
+	var Pix10e1 = this.getFieldValue('Pix10e1'); if(Pix10e1 == 'FALSE'){Pix10e1 = 0;}else{Pix10e1 = 1;}
+	var Pix10e2 = this.getFieldValue('Pix10e2'); if(Pix10e2 == 'FALSE'){Pix10e2 = 0;}else{Pix10e2 = 1;}
+	var Pix10e3 = this.getFieldValue('Pix10e3'); if(Pix10e3 == 'FALSE'){Pix10e3 = 0;}else{Pix10e3 = 1;}
+	var Pix10e4 = this.getFieldValue('Pix10e4'); if(Pix10e4 == 'FALSE'){Pix10e4 = 0;}else{Pix10e4 = 1;}
+	var Pix10e5 = this.getFieldValue('Pix10e5'); if(Pix10e5 == 'FALSE'){Pix10e5 = 0;}else{Pix10e5 = 1;}
+	var Pix10e6 = this.getFieldValue('Pix10e6'); if(Pix10e6 == 'FALSE'){Pix10e6 = 0;}else{Pix10e6 = 1;}
+	var Pix10e7 = this.getFieldValue('Pix10e7'); if(Pix10e7 == 'FALSE'){Pix10e7 = 0;}else{Pix10e7 = 1;}
+	var Pix10e8 = this.getFieldValue('Pix10e8'); if(Pix10e8 == 'FALSE'){Pix10e8 = 0;}else{Pix10e8 = 1;}
+	var Pix10e9 = this.getFieldValue('Pix10e9'); if(Pix10e9 == 'FALSE'){Pix10e9 = 0;}else{Pix10e9 = 1;}
+	var Pix10e10 = this.getFieldValue('Pix10e10'); if(Pix10e10 == 'FALSE'){Pix10e10 = 0;}else{Pix10e10 = 1;}
+	var Pix10e11 = this.getFieldValue('Pix10e11'); if(Pix10e11 == 'FALSE'){Pix10e11 = 0;}else{Pix10e11 = 1;}
+	var Pix10e12 = this.getFieldValue('Pix10e12'); if(Pix10e12 == 'FALSE'){Pix10e12 = 0;}else{Pix10e12 = 1;}
+	var Pix10e13 = this.getFieldValue('Pix10e13'); if(Pix10e13 == 'FALSE'){Pix10e13 = 0;}else{Pix10e13 = 1;}
+	var Pix10e14 = this.getFieldValue('Pix10e14'); if(Pix10e14 == 'FALSE'){Pix10e14 = 0;}else{Pix10e14 = 1;}
+	var Pix10e15 = this.getFieldValue('Pix10e15'); if(Pix10e15 == 'FALSE'){Pix10e15 = 0;}else{Pix10e15 = 1;}
+
+	var Pix11e0 = this.getFieldValue('Pix11e0'); if(Pix11e0 == 'FALSE'){Pix11e0 = 0;}else{Pix11e0 = 1;}
+	var Pix11e1 = this.getFieldValue('Pix11e1'); if(Pix11e1 == 'FALSE'){Pix11e1 = 0;}else{Pix11e1 = 1;}
+	var Pix11e2 = this.getFieldValue('Pix11e2'); if(Pix11e2 == 'FALSE'){Pix11e2 = 0;}else{Pix11e2 = 1;}
+	var Pix11e3 = this.getFieldValue('Pix11e3'); if(Pix11e3 == 'FALSE'){Pix11e3 = 0;}else{Pix11e3 = 1;}
+	var Pix11e4 = this.getFieldValue('Pix11e4'); if(Pix11e4 == 'FALSE'){Pix11e4 = 0;}else{Pix11e4 = 1;}
+	var Pix11e5 = this.getFieldValue('Pix11e5'); if(Pix11e5 == 'FALSE'){Pix11e5 = 0;}else{Pix11e5 = 1;}
+	var Pix11e6 = this.getFieldValue('Pix11e6'); if(Pix11e6 == 'FALSE'){Pix11e6 = 0;}else{Pix11e6 = 1;}
+	var Pix11e7 = this.getFieldValue('Pix11e7'); if(Pix11e7 == 'FALSE'){Pix11e7 = 0;}else{Pix11e7 = 1;}
+	var Pix11e8 = this.getFieldValue('Pix11e8'); if(Pix11e8 == 'FALSE'){Pix11e8 = 0;}else{Pix11e8 = 1;}
+	var Pix11e9 = this.getFieldValue('Pix11e9'); if(Pix11e9 == 'FALSE'){Pix11e9 = 0;}else{Pix11e9 = 1;}
+	var Pix11e10 = this.getFieldValue('Pix11e10'); if(Pix11e10 == 'FALSE'){Pix11e10 = 0;}else{Pix11e10 = 1;}
+	var Pix11e11 = this.getFieldValue('Pix11e11'); if(Pix11e11 == 'FALSE'){Pix11e11 = 0;}else{Pix11e11 = 1;}
+	var Pix11e12 = this.getFieldValue('Pix11e12'); if(Pix11e12 == 'FALSE'){Pix11e12 = 0;}else{Pix11e12 = 1;}
+	var Pix11e13 = this.getFieldValue('Pix11e13'); if(Pix11e13 == 'FALSE'){Pix11e13 = 0;}else{Pix11e13 = 1;}
+	var Pix11e14 = this.getFieldValue('Pix11e14'); if(Pix11e14 == 'FALSE'){Pix11e14 = 0;}else{Pix11e14 = 1;}
+	var Pix11e15 = this.getFieldValue('Pix11e15'); if(Pix11e15 == 'FALSE'){Pix11e15 = 0;}else{Pix11e15 = 1;}
+
+	var Pix12e0 = this.getFieldValue('Pix12e0'); if(Pix12e0 == 'FALSE'){Pix12e0 = 0;}else{Pix12e0 = 1;}
+	var Pix12e1 = this.getFieldValue('Pix12e1'); if(Pix12e1 == 'FALSE'){Pix12e1 = 0;}else{Pix12e1 = 1;}
+	var Pix12e2 = this.getFieldValue('Pix12e2'); if(Pix12e2 == 'FALSE'){Pix12e2 = 0;}else{Pix12e2 = 1;}
+	var Pix12e3 = this.getFieldValue('Pix12e3'); if(Pix12e3 == 'FALSE'){Pix12e3 = 0;}else{Pix12e3 = 1;}
+	var Pix12e4 = this.getFieldValue('Pix12e4'); if(Pix12e4 == 'FALSE'){Pix12e4 = 0;}else{Pix12e4 = 1;}
+	var Pix12e5 = this.getFieldValue('Pix12e5'); if(Pix12e5 == 'FALSE'){Pix12e5 = 0;}else{Pix12e5 = 1;}
+	var Pix12e6 = this.getFieldValue('Pix12e6'); if(Pix12e6 == 'FALSE'){Pix12e6 = 0;}else{Pix12e6 = 1;}
+	var Pix12e7 = this.getFieldValue('Pix12e7'); if(Pix12e7 == 'FALSE'){Pix12e7 = 0;}else{Pix12e7 = 1;}
+	var Pix12e8 = this.getFieldValue('Pix12e8'); if(Pix12e8 == 'FALSE'){Pix12e8 = 0;}else{Pix12e8 = 1;}
+	var Pix12e9 = this.getFieldValue('Pix12e9'); if(Pix12e9 == 'FALSE'){Pix12e9 = 0;}else{Pix12e9 = 1;}
+	var Pix12e10 = this.getFieldValue('Pix12e10'); if(Pix12e10 == 'FALSE'){Pix12e10 = 0;}else{Pix12e10 = 1;}
+	var Pix12e11 = this.getFieldValue('Pix12e11'); if(Pix12e11 == 'FALSE'){Pix12e11 = 0;}else{Pix12e11 = 1;}
+	var Pix12e12 = this.getFieldValue('Pix12e12'); if(Pix12e12 == 'FALSE'){Pix12e12 = 0;}else{Pix12e12 = 1;}
+	var Pix12e13 = this.getFieldValue('Pix12e13'); if(Pix12e13 == 'FALSE'){Pix12e13 = 0;}else{Pix12e13 = 1;}
+	var Pix12e14 = this.getFieldValue('Pix12e14'); if(Pix12e14 == 'FALSE'){Pix12e14 = 0;}else{Pix12e14 = 1;}
+	var Pix12e15 = this.getFieldValue('Pix12e15'); if(Pix12e15 == 'FALSE'){Pix12e15 = 0;}else{Pix12e15 = 1;}
+
+	var Pix13e0 = this.getFieldValue('Pix13e0'); if(Pix13e0 == 'FALSE'){Pix13e0 = 0;}else{Pix13e0 = 1;}
+	var Pix13e1 = this.getFieldValue('Pix13e1'); if(Pix13e1 == 'FALSE'){Pix13e1 = 0;}else{Pix13e1 = 1;}
+	var Pix13e2 = this.getFieldValue('Pix13e2'); if(Pix13e2 == 'FALSE'){Pix13e2 = 0;}else{Pix13e2 = 1;}
+	var Pix13e3 = this.getFieldValue('Pix13e3'); if(Pix13e3 == 'FALSE'){Pix13e3 = 0;}else{Pix13e3 = 1;}
+	var Pix13e4 = this.getFieldValue('Pix13e4'); if(Pix13e4 == 'FALSE'){Pix13e4 = 0;}else{Pix13e4 = 1;}
+	var Pix13e5 = this.getFieldValue('Pix13e5'); if(Pix13e5 == 'FALSE'){Pix13e5 = 0;}else{Pix13e5 = 1;}
+	var Pix13e6 = this.getFieldValue('Pix13e6'); if(Pix13e6 == 'FALSE'){Pix13e6 = 0;}else{Pix13e6 = 1;}
+	var Pix13e7 = this.getFieldValue('Pix13e7'); if(Pix13e7 == 'FALSE'){Pix13e7 = 0;}else{Pix13e7 = 1;}
+	var Pix13e8 = this.getFieldValue('Pix13e8'); if(Pix13e8 == 'FALSE'){Pix13e8 = 0;}else{Pix13e8 = 1;}
+	var Pix13e9 = this.getFieldValue('Pix13e9'); if(Pix13e9 == 'FALSE'){Pix13e9 = 0;}else{Pix13e9 = 1;}
+	var Pix13e10 = this.getFieldValue('Pix13e10'); if(Pix13e10 == 'FALSE'){Pix13e10 = 0;}else{Pix13e10 = 1;}
+	var Pix13e11 = this.getFieldValue('Pix13e11'); if(Pix13e11 == 'FALSE'){Pix13e11 = 0;}else{Pix13e11 = 1;}
+	var Pix13e12 = this.getFieldValue('Pix13e12'); if(Pix13e12 == 'FALSE'){Pix13e12 = 0;}else{Pix13e12 = 1;}
+	var Pix13e13 = this.getFieldValue('Pix13e13'); if(Pix13e13 == 'FALSE'){Pix13e13 = 0;}else{Pix13e13 = 1;}
+	var Pix13e14 = this.getFieldValue('Pix13e14'); if(Pix13e14 == 'FALSE'){Pix13e14 = 0;}else{Pix13e14 = 1;}
+	var Pix13e15 = this.getFieldValue('Pix13e15'); if(Pix13e15 == 'FALSE'){Pix13e15 = 0;}else{Pix13e15 = 1;}
+
+	var Pix14e0 = this.getFieldValue('Pix14e0'); if(Pix14e0 == 'FALSE'){Pix14e0 = 0;}else{Pix14e0 = 1;}
+	var Pix14e1 = this.getFieldValue('Pix14e1'); if(Pix14e1 == 'FALSE'){Pix14e1 = 0;}else{Pix14e1 = 1;}
+	var Pix14e2 = this.getFieldValue('Pix14e2'); if(Pix14e2 == 'FALSE'){Pix14e2 = 0;}else{Pix14e2 = 1;}
+	var Pix14e3 = this.getFieldValue('Pix14e3'); if(Pix14e3 == 'FALSE'){Pix14e3 = 0;}else{Pix14e3 = 1;}
+	var Pix14e4 = this.getFieldValue('Pix14e4'); if(Pix14e4 == 'FALSE'){Pix14e4 = 0;}else{Pix14e4 = 1;}
+	var Pix14e5 = this.getFieldValue('Pix14e5'); if(Pix14e5 == 'FALSE'){Pix14e5 = 0;}else{Pix14e5 = 1;}
+	var Pix14e6 = this.getFieldValue('Pix14e6'); if(Pix14e6 == 'FALSE'){Pix14e6 = 0;}else{Pix14e6 = 1;}
+	var Pix14e7 = this.getFieldValue('Pix14e7'); if(Pix14e7 == 'FALSE'){Pix14e7 = 0;}else{Pix14e7 = 1;}
+	var Pix14e8 = this.getFieldValue('Pix14e8'); if(Pix14e8 == 'FALSE'){Pix14e8 = 0;}else{Pix14e8 = 1;}
+	var Pix14e9 = this.getFieldValue('Pix14e9'); if(Pix14e9 == 'FALSE'){Pix14e9 = 0;}else{Pix14e9 = 1;}
+	var Pix14e10 = this.getFieldValue('Pix14e10'); if(Pix14e10 == 'FALSE'){Pix14e10 = 0;}else{Pix14e10 = 1;}
+	var Pix14e11 = this.getFieldValue('Pix14e11'); if(Pix14e11 == 'FALSE'){Pix14e11 = 0;}else{Pix14e11 = 1;}
+	var Pix14e12 = this.getFieldValue('Pix14e12'); if(Pix14e12 == 'FALSE'){Pix14e12 = 0;}else{Pix14e12 = 1;}
+	var Pix14e13 = this.getFieldValue('Pix14e13'); if(Pix14e13 == 'FALSE'){Pix14e13 = 0;}else{Pix14e13 = 1;}
+	var Pix14e14 = this.getFieldValue('Pix14e14'); if(Pix14e14 == 'FALSE'){Pix14e14 = 0;}else{Pix14e14 = 1;}
+	var Pix14e15 = this.getFieldValue('Pix14e15'); if(Pix14e15 == 'FALSE'){Pix14e15 = 0;}else{Pix14e15 = 1;}
+
+	var Pix15e0 = this.getFieldValue('Pix15e0'); if(Pix15e0 == 'FALSE'){Pix15e0 = 0;}else{Pix15e0 = 1;}
+	var Pix15e1 = this.getFieldValue('Pix15e1'); if(Pix15e1 == 'FALSE'){Pix15e1 = 0;}else{Pix15e1 = 1;}
+	var Pix15e2 = this.getFieldValue('Pix15e2'); if(Pix15e2 == 'FALSE'){Pix15e2 = 0;}else{Pix15e2 = 1;}
+	var Pix15e3 = this.getFieldValue('Pix15e3'); if(Pix15e3 == 'FALSE'){Pix15e3 = 0;}else{Pix15e3 = 1;}
+	var Pix15e4 = this.getFieldValue('Pix15e4'); if(Pix15e4 == 'FALSE'){Pix15e4 = 0;}else{Pix15e4 = 1;}
+	var Pix15e5 = this.getFieldValue('Pix15e5'); if(Pix15e5 == 'FALSE'){Pix15e5 = 0;}else{Pix15e5 = 1;}
+	var Pix15e6 = this.getFieldValue('Pix15e6'); if(Pix15e6 == 'FALSE'){Pix15e6 = 0;}else{Pix15e6 = 1;}
+	var Pix15e7 = this.getFieldValue('Pix15e7'); if(Pix15e7 == 'FALSE'){Pix15e7 = 0;}else{Pix15e7 = 1;}
+	var Pix15e8 = this.getFieldValue('Pix15e8'); if(Pix15e8 == 'FALSE'){Pix15e8 = 0;}else{Pix15e8 = 1;}
+	var Pix15e9 = this.getFieldValue('Pix15e9'); if(Pix15e9 == 'FALSE'){Pix15e9 = 0;}else{Pix15e9 = 1;}
+	var Pix15e10 = this.getFieldValue('Pix15e10'); if(Pix15e10 == 'FALSE'){Pix15e10 = 0;}else{Pix15e10 = 1;}
+	var Pix15e11 = this.getFieldValue('Pix15e11'); if(Pix15e11 == 'FALSE'){Pix15e11 = 0;}else{Pix15e11 = 1;}
+	var Pix15e12 = this.getFieldValue('Pix15e12'); if(Pix15e12 == 'FALSE'){Pix15e12 = 0;}else{Pix15e12 = 1;}
+	var Pix15e13 = this.getFieldValue('Pix15e13'); if(Pix15e13 == 'FALSE'){Pix15e13 = 0;}else{Pix15e13 = 1;}
+	var Pix15e14 = this.getFieldValue('Pix15e14'); if(Pix15e14 == 'FALSE'){Pix15e14 = 0;}else{Pix15e14 = 1;}
+	var Pix15e15 = this.getFieldValue('Pix15e15'); if(Pix15e15 == 'FALSE'){Pix15e15 = 0;}else{Pix15e15 = 1;}
+	
+ Blockly.Arduino.definitions_['minilcdi2c_setcursor_draw' + nomer] = 'static const unsigned char PROGMEM Logo_BMP'+nomer+'[] = \n '+
+ ' { 0x10, 0x10, 0xff, 0x01,  \n '+
+'   B'+Pix7e0+''+Pix6e0+''+Pix5e0+''+Pix4e0+''+Pix3e0+''+Pix2e0+''+Pix1e0+''+Pix0e0+',  '+
+'	B'+Pix7e1+''+Pix6e1+''+Pix5e1+''+Pix4e1+''+Pix3e1+''+Pix2e1+''+Pix1e1+''+Pix0e1+',  '+
+'	B'+Pix7e2+''+Pix6e2+''+Pix5e2+''+Pix4e2+''+Pix3e2+''+Pix2e2+''+Pix1e2+''+Pix0e2+',  '+
+'	B'+Pix7e3+''+Pix6e3+''+Pix5e3+''+Pix4e3+''+Pix3e3+''+Pix2e3+''+Pix1e3+''+Pix0e3+',  '+
+'	B'+Pix7e4+''+Pix6e4+''+Pix5e4+''+Pix4e4+''+Pix3e4+''+Pix2e4+''+Pix1e4+''+Pix0e4+',  '+
+'	B'+Pix7e5+''+Pix6e5+''+Pix5e5+''+Pix4e5+''+Pix3e5+''+Pix2e5+''+Pix1e5+''+Pix0e5+',  '+
+'	B'+Pix7e6+''+Pix6e6+''+Pix5e6+''+Pix4e6+''+Pix3e6+''+Pix2e6+''+Pix1e6+''+Pix0e6+',  '+
+'	B'+Pix7e7+''+Pix6e7+''+Pix5e7+''+Pix4e7+''+Pix3e7+''+Pix2e7+''+Pix1e7+''+Pix0e7+', \n '+
+'   B'+Pix7e8+''+Pix6e8+''+Pix5e8+''+Pix4e8+''+Pix3e8+''+Pix2e8+''+Pix1e8+''+Pix0e8+',  '+
+'   B'+Pix7e9+''+Pix6e9+''+Pix5e9+''+Pix4e9+''+Pix3e9+''+Pix2e9+''+Pix1e9+''+Pix0e9+',  '+
+'   B'+Pix7e10+''+Pix6e10+''+Pix5e10+''+Pix4e10+''+Pix3e10+''+Pix2e10+''+Pix1e10+''+Pix0e10+',  '+
+'   B'+Pix7e11+''+Pix6e11+''+Pix5e11+''+Pix4e11+''+Pix3e11+''+Pix2e11+''+Pix1e11+''+Pix0e11+',  '+
+'   B'+Pix7e12+''+Pix6e12+''+Pix5e12+''+Pix4e12+''+Pix3e12+''+Pix2e12+''+Pix1e12+''+Pix0e12+',  '+
+'   B'+Pix7e13+''+Pix6e13+''+Pix5e13+''+Pix4e13+''+Pix3e13+''+Pix2e13+''+Pix1e13+''+Pix0e13+',  '+
+'   B'+Pix7e14+''+Pix6e14+''+Pix5e14+''+Pix4e14+''+Pix3e14+''+Pix2e14+''+Pix1e14+''+Pix0e14+',  '+
+'   B'+Pix7e15+''+Pix6e15+''+Pix5e15+''+Pix4e15+''+Pix3e15+''+Pix2e15+''+Pix1e15+''+Pix0e15+', \n '+
+'   B'+Pix15e0+''+Pix14e0+''+Pix13e0+''+Pix12e0+''+Pix11e0+''+Pix10e0+''+Pix9e0+''+Pix8e0+',  '+
+'	B'+Pix15e1+''+Pix14e1+''+Pix13e1+''+Pix12e1+''+Pix11e1+''+Pix10e1+''+Pix9e1+''+Pix8e1+',  '+
+'	B'+Pix15e2+''+Pix14e2+''+Pix13e2+''+Pix12e2+''+Pix11e2+''+Pix10e2+''+Pix9e2+''+Pix8e2+',  '+
+'	B'+Pix15e3+''+Pix14e3+''+Pix13e3+''+Pix12e3+''+Pix11e3+''+Pix10e3+''+Pix9e3+''+Pix8e3+',  '+
+'	B'+Pix15e4+''+Pix14e4+''+Pix13e4+''+Pix12e4+''+Pix11e4+''+Pix10e4+''+Pix9e4+''+Pix8e4+',  '+
+'	B'+Pix15e5+''+Pix14e5+''+Pix13e5+''+Pix12e5+''+Pix11e5+''+Pix10e5+''+Pix9e5+''+Pix8e5+',  '+
+'	B'+Pix15e6+''+Pix14e6+''+Pix13e6+''+Pix12e6+''+Pix11e6+''+Pix10e6+''+Pix9e6+''+Pix8e6+',  '+
+'	B'+Pix15e7+''+Pix14e7+''+Pix13e7+''+Pix12e7+''+Pix11e7+''+Pix10e7+''+Pix9e7+''+Pix8e7+', \n '+
+'   B'+Pix15e8+''+Pix14e8+''+Pix13e8+''+Pix12e8+''+Pix11e8+''+Pix10e8+''+Pix9e8+''+Pix8e8+',  '+
+'   B'+Pix15e9+''+Pix14e9+''+Pix13e9+''+Pix12e9+''+Pix11e9+''+Pix10e9+''+Pix9e9+''+Pix8e9+',  '+
+'   B'+Pix15e10+''+Pix14e10+''+Pix13e10+''+Pix12e10+''+Pix11e10+''+Pix10e10+''+Pix9e10+''+Pix8e10+',  '+
+'   B'+Pix15e11+''+Pix14e11+''+Pix13e11+''+Pix12e11+''+Pix11e11+''+Pix10e11+''+Pix9e11+''+Pix8e11+',  '+
+'   B'+Pix15e12+''+Pix14e12+''+Pix13e12+''+Pix12e12+''+Pix11e12+''+Pix10e12+''+Pix9e12+''+Pix8e12+',  '+
+'   B'+Pix15e13+''+Pix14e13+''+Pix13e13+''+Pix12e13+''+Pix11e13+''+Pix10e13+''+Pix9e13+''+Pix8e13+',  '+
+'   B'+Pix15e14+''+Pix14e14+''+Pix13e14+''+Pix12e14+''+Pix11e14+''+Pix10e14+''+Pix9e14+''+Pix8e14+',  '+
+'   B'+Pix15e15+''+Pix14e15+''+Pix13e15+''+Pix12e15+''+Pix11e15+''+Pix10e15+''+Pix9e15+''+Pix8e15+' \n '+
+ '  }; ';
+    
+  var code = ' ';
+  return code;
+};
+
+Blockly.Arduino['minilcdi2c_setcursor_draw_pl'] = function(block) {
+    
+	 
+    var nomer = block.getFieldValue("TEXT");
+	var rowx =  Blockly.Arduino.valueToCode(block, 'print_x', Blockly.Arduino.ORDER_ATOMIC);
+	var rowy =  Blockly.Arduino.valueToCode(block, 'print_y', Blockly.Arduino.ORDER_ATOMIC);
+  var code = 'LD.drawBitmap(Logo_BMP'+nomer+', '+rowx+', '+rowy+');  \n';
+  return code;
+};
+
+
+Blockly.Arduino['lcd_con_nokia'] = function(block) {
+
+var sck_n = Blockly.Arduino.valueToCode(block, 'SCK_N', Blockly.Arduino.ORDER_ATOMIC);
+var mosi_n = Blockly.Arduino.valueToCode(block, 'MOSI_N', Blockly.Arduino.ORDER_ATOMIC);
+var dc_n = Blockly.Arduino.valueToCode(block, 'DC_N', Blockly.Arduino.ORDER_ATOMIC);
+var rst_n = Blockly.Arduino.valueToCode(block, 'RST_N', Blockly.Arduino.ORDER_ATOMIC);
+var cs_n = Blockly.Arduino.valueToCode(block, 'CS_N', Blockly.Arduino.ORDER_ATOMIC);
+
+
+
+Blockly.Arduino.definitions_['define_lcd_con_nokia'] = '#include <LCD5110_Basic.h> \n LCD5110 LCD('+sck_n+','+mosi_n+','+dc_n+','+rst_n+','+cs_n+'); \n extern uint8_t SmallFont[]; \n extern uint8_t MediumNumbers[]; \n extern uint8_t BigNumbers[]; \n ';
+
+Blockly.Arduino.setups_['setup_lcd_con_nokia']=' LCD.InitLCD(); \n';
+
+var code = ' ';
+
+return code;
+};
+
+
+
+Blockly.Arduino['lcd_con_nokia_text'] = function(block) {
+
+var X_Nokia = Blockly.Arduino.valueToCode(block, 'X_Nokia', Blockly.Arduino.ORDER_ATOMIC);
+var Y_Nokia = Blockly.Arduino.valueToCode(block, 'Y_Nokia', Blockly.Arduino.ORDER_ATOMIC);
+var texttoprint = Blockly.Arduino.valueToCode(block, 'texttoprint', Blockly.Arduino.ORDER_ATOMIC);
+
+
+
+var code = 'LCD.setFont(SmallFont); \n LCD.print('+texttoprint+', '+X_Nokia+', '+Y_Nokia+'); \n	';
+
+return code;
+};
+
+
+
+Blockly.Arduino['lcd_con_nokia_number'] = function(block) {
+
+var X_Nokia = Blockly.Arduino.valueToCode(block, 'X_Nokia', Blockly.Arduino.ORDER_ATOMIC);
+var Y_Nokia = Blockly.Arduino.valueToCode(block, 'Y_Nokia', Blockly.Arduino.ORDER_ATOMIC);
+var Nokia_number = Blockly.Arduino.valueToCode(block, 'Nokia_number', Blockly.Arduino.ORDER_ATOMIC);
+var point = this.getFieldValue('dp'); 
+var no1 = "'0'"; 
+
+var code = 'long inokia = '+Nokia_number+';  \n LCD.setFont('+point+'); \n  LCD.printNumI(inokia, '+X_Nokia+', '+Y_Nokia+', 2, '+no1+'); \n	';
+
+return code;
+};
+
+
+Blockly.Arduino['lcd_128x64px_spi'] = function(block) {
+
+var pin1 = Blockly.Arduino.valueToCode(block, 'pin1', Blockly.Arduino.ORDER_ATOMIC);
+var pin2 = Blockly.Arduino.valueToCode(block, 'pin2', Blockly.Arduino.ORDER_ATOMIC);
+var pin3 = Blockly.Arduino.valueToCode(block, 'pin3', Blockly.Arduino.ORDER_ATOMIC);
+var dp = this.getFieldValue('dp'); 
+
+Blockly.Arduino.definitions_['lcd_128x64px_spi'] = ' #include "U8glib.h" \n U8GLIB_ST7920_128X64_1X u8g('+pin3+', '+pin2+', '+pin1+'); \n ';
+
+if(dp == 0){
+Blockly.Arduino.setups_['setups_lcd_128x64px_spi']=' \n';
+}else{
+Blockly.Arduino.setups_['setups_lcd_128x64px_spi']='u8g.setRot'+dp+'(); \n';
+}
+
+var code = ' ';
+
+return code;
+};
+
+Blockly.Arduino['lcd_128x64px_spi_mini'] = function(block) {
+
+var pin1 = Blockly.Arduino.valueToCode(block, 'pin1', Blockly.Arduino.ORDER_ATOMIC);
+var pin2 = Blockly.Arduino.valueToCode(block, 'pin2', Blockly.Arduino.ORDER_ATOMIC);
+var pin3 = Blockly.Arduino.valueToCode(block, 'pin3', Blockly.Arduino.ORDER_ATOMIC);
+var pin4 = Blockly.Arduino.valueToCode(block, 'pin4', Blockly.Arduino.ORDER_ATOMIC);
+var pin5 = Blockly.Arduino.valueToCode(block, 'pin5', Blockly.Arduino.ORDER_ATOMIC);
+var dp = this.getFieldValue('dp'); 
+
+Blockly.Arduino.definitions_['lcd_128x64px_spi'] = ' #include "U8glib.h" \n U8GLIB_SSD1306_128X64 u8g('+pin5+', '+pin4+', '+pin1+', '+pin2+', '+pin3+'); \n ';
+
+if(dp == 0){
+Blockly.Arduino.setups_['setups_lcd_128x64px_spi']=' \n';
+}else{
+Blockly.Arduino.setups_['setups_lcd_128x64px_spi']='u8g.setRot'+dp+'(); \n';
+}
+
+var code = ' ';
+
+return code;
+};
+
+Blockly.Arduino['lcd_128x64px_spi_top'] = function(block) {
+
+var dp2 = this.getFieldValue('dp2'); 
+var dp = this.getFieldValue('dp'); 
+
+Blockly.Arduino.definitions_['lcd_128x64px_spi'] = ' #include "U8glib.h" \n  '+dp2+'; \n ';
+
+if(dp == 0){
+Blockly.Arduino.setups_['setups_lcd_128x64px_spi']=' \n';
+}else{
+Blockly.Arduino.setups_['setups_lcd_128x64px_spi']='u8g.setRot'+dp+'(); \n';
+}
+
+var code = ' ';
+
+return code;
+};
+
+Blockly.Arduino['lcd_128x64px_spi_b'] = function (block) {   
+  var branch = Blockly.Arduino.statementToCode(this, "CONTENT"); 
+  var code = '    u8g.firstPage(); \n  do {  \n' +
+  branch + '  } while(    u8g.nextPage()   );  \n';
+  return code;
+  return ""
+};
+
+Blockly.Arduino['lcd_128x64px_spi_text'] = function(block) {
+
+var X_Nokia = Blockly.Arduino.valueToCode(block, 'X_Nokia', Blockly.Arduino.ORDER_ATOMIC);
+var Y_Nokia = Blockly.Arduino.valueToCode(block, 'Y_Nokia', Blockly.Arduino.ORDER_ATOMIC);
+var texttoprint = Blockly.Arduino.valueToCode(block, 'texttoprint', Blockly.Arduino.ORDER_ATOMIC);
+var dp = this.getFieldValue('dp'); 
+
+
+var code = '      u8g.setFont(u8g_font_'+dp+'); \n   u8g.setPrintPos('+X_Nokia+', '+Y_Nokia+'); \n   u8g.print('+texttoprint+'); \n	';
+
+return code;
+};
+
+Blockly.Arduino['lcd_128x64px_spi_pix'] = function(block) {
+
+var X_Nokia = Blockly.Arduino.valueToCode(block, 'X_Nokia', Blockly.Arduino.ORDER_ATOMIC);
+var Y_Nokia = Blockly.Arduino.valueToCode(block, 'Y_Nokia', Blockly.Arduino.ORDER_ATOMIC);
+
+var code = '  u8g.drawPixel('+X_Nokia+', '+Y_Nokia+'); \n	';
+
+return code;
+};
+
+Blockly.Arduino['lcd_128x64px_spi_line'] = function(block) {
+
+var X_Nokia = Blockly.Arduino.valueToCode(block, 'X_Nokia', Blockly.Arduino.ORDER_ATOMIC);
+var Y_Nokia = Blockly.Arduino.valueToCode(block, 'Y_Nokia', Blockly.Arduino.ORDER_ATOMIC);
+var X_Nokia2 = Blockly.Arduino.valueToCode(block, 'X_Nokia2', Blockly.Arduino.ORDER_ATOMIC);
+var Y_Nokia2 = Blockly.Arduino.valueToCode(block, 'Y_Nokia2', Blockly.Arduino.ORDER_ATOMIC);
+
+var code = ' u8g.drawLine('+X_Nokia+', '+Y_Nokia+', '+X_Nokia2+', '+Y_Nokia2+');    \n	';
+
+return code;
+};
+
+Blockly.Arduino['lcd_128x64px_spi_box'] = function(block) {
+
+var X_Nokia = Blockly.Arduino.valueToCode(block, 'X_Nokia', Blockly.Arduino.ORDER_ATOMIC);
+var Y_Nokia = Blockly.Arduino.valueToCode(block, 'Y_Nokia', Blockly.Arduino.ORDER_ATOMIC);
+var X_Nokia2 = Blockly.Arduino.valueToCode(block, 'X_Nokia2', Blockly.Arduino.ORDER_ATOMIC);
+var Y_Nokia2 = Blockly.Arduino.valueToCode(block, 'Y_Nokia2', Blockly.Arduino.ORDER_ATOMIC);
+var Y_Nokia3 = Blockly.Arduino.valueToCode(block, 'Y_Nokia3', Blockly.Arduino.ORDER_ATOMIC);
+var logic = this.getFieldValue('LOGIC');
+  
+  if(logic == 'FALSE'){
+  var code = ' u8g.drawRFrame('+X_Nokia+', '+Y_Nokia+', '+Y_Nokia2+', '+X_Nokia2+', '+Y_Nokia3+');   \n	';
+  }else{
+  var code = ' u8g.drawRBox('+X_Nokia+', '+Y_Nokia+', '+Y_Nokia2+', '+X_Nokia2+', '+Y_Nokia3+');   \n	';
+
+  }
+
+return code;
+};
+
+
+Blockly.Arduino['lcd_128x64px_spi_draw'] = function(block) {
+    
+	 
+    var nomer = block.getFieldValue("TEXT");
+	var Pix0e0 = this.getFieldValue('Pix0e0'); if(Pix0e0 == 'FALSE'){Pix0e0 = 0;}else{Pix0e0 = 1;}
+	var Pix0e1 = this.getFieldValue('Pix0e1'); if(Pix0e1 == 'FALSE'){Pix0e1 = 0;}else{Pix0e1 = 1;}
+	var Pix0e2 = this.getFieldValue('Pix0e2'); if(Pix0e2 == 'FALSE'){Pix0e2 = 0;}else{Pix0e2 = 1;}
+	var Pix0e3 = this.getFieldValue('Pix0e3'); if(Pix0e3 == 'FALSE'){Pix0e3 = 0;}else{Pix0e3 = 1;}
+	var Pix0e4 = this.getFieldValue('Pix0e4'); if(Pix0e4 == 'FALSE'){Pix0e4 = 0;}else{Pix0e4 = 1;}
+	var Pix0e5 = this.getFieldValue('Pix0e5'); if(Pix0e5 == 'FALSE'){Pix0e5 = 0;}else{Pix0e5 = 1;}
+	var Pix0e6 = this.getFieldValue('Pix0e6'); if(Pix0e6 == 'FALSE'){Pix0e6 = 0;}else{Pix0e6 = 1;}
+	var Pix0e7 = this.getFieldValue('Pix0e7'); if(Pix0e7 == 'FALSE'){Pix0e7 = 0;}else{Pix0e7 = 1;}
+
+	var Pix1e0 = this.getFieldValue('Pix1e0'); if(Pix1e0 == 'FALSE'){Pix1e0 = 0;}else{Pix1e0 = 1;}
+	var Pix1e1 = this.getFieldValue('Pix1e1'); if(Pix1e1 == 'FALSE'){Pix1e1 = 0;}else{Pix1e1 = 1;}
+	var Pix1e2 = this.getFieldValue('Pix1e2'); if(Pix1e2 == 'FALSE'){Pix1e2 = 0;}else{Pix1e2 = 1;}
+	var Pix1e3 = this.getFieldValue('Pix1e3'); if(Pix1e3 == 'FALSE'){Pix1e3 = 0;}else{Pix1e3 = 1;}
+	var Pix1e4 = this.getFieldValue('Pix1e4'); if(Pix1e4 == 'FALSE'){Pix1e4 = 0;}else{Pix1e4 = 1;}
+	var Pix1e5 = this.getFieldValue('Pix1e5'); if(Pix1e5 == 'FALSE'){Pix1e5 = 0;}else{Pix1e5 = 1;}
+	var Pix1e6 = this.getFieldValue('Pix1e6'); if(Pix1e6 == 'FALSE'){Pix1e6 = 0;}else{Pix1e6 = 1;}
+	var Pix1e7 = this.getFieldValue('Pix1e7'); if(Pix1e7 == 'FALSE'){Pix1e7 = 0;}else{Pix1e7 = 1;}
+	
+	var Pix2e0 = this.getFieldValue('Pix2e0'); if(Pix2e0 == 'FALSE'){Pix2e0 = 0;}else{Pix2e0 = 1;}
+	var Pix2e1 = this.getFieldValue('Pix2e1'); if(Pix2e1 == 'FALSE'){Pix2e1 = 0;}else{Pix2e1 = 1;}
+	var Pix2e2 = this.getFieldValue('Pix2e2'); if(Pix2e2 == 'FALSE'){Pix2e2 = 0;}else{Pix2e2 = 1;}
+	var Pix2e3 = this.getFieldValue('Pix2e3'); if(Pix2e3 == 'FALSE'){Pix2e3 = 0;}else{Pix2e3 = 1;}
+	var Pix2e4 = this.getFieldValue('Pix2e4'); if(Pix2e4 == 'FALSE'){Pix2e4 = 0;}else{Pix2e4 = 1;}
+	var Pix2e5 = this.getFieldValue('Pix2e5'); if(Pix2e5 == 'FALSE'){Pix2e5 = 0;}else{Pix2e5 = 1;}
+	var Pix2e6 = this.getFieldValue('Pix2e6'); if(Pix2e6 == 'FALSE'){Pix2e6 = 0;}else{Pix2e6 = 1;}
+	var Pix2e7 = this.getFieldValue('Pix2e7'); if(Pix2e7 == 'FALSE'){Pix2e7 = 0;}else{Pix2e7 = 1;}
+	
+	var Pix3e0 = this.getFieldValue('Pix3e0'); if(Pix3e0 == 'FALSE'){Pix3e0 = 0;}else{Pix3e0 = 1;}
+	var Pix3e1 = this.getFieldValue('Pix3e1'); if(Pix3e1 == 'FALSE'){Pix3e1 = 0;}else{Pix3e1 = 1;}
+	var Pix3e2 = this.getFieldValue('Pix3e2'); if(Pix3e2 == 'FALSE'){Pix3e2 = 0;}else{Pix3e2 = 1;}
+	var Pix3e3 = this.getFieldValue('Pix3e3'); if(Pix3e3 == 'FALSE'){Pix3e3 = 0;}else{Pix3e3 = 1;}
+	var Pix3e4 = this.getFieldValue('Pix3e4'); if(Pix3e4 == 'FALSE'){Pix3e4 = 0;}else{Pix3e4 = 1;}
+    var Pix3e5 = this.getFieldValue('Pix3e5'); if(Pix3e5 == 'FALSE'){Pix3e5 = 0;}else{Pix3e5 = 1;}
+	var Pix3e6 = this.getFieldValue('Pix3e6'); if(Pix3e6 == 'FALSE'){Pix3e6 = 0;}else{Pix3e6 = 1;}
+	var Pix3e7 = this.getFieldValue('Pix3e7'); if(Pix3e7 == 'FALSE'){Pix3e7 = 0;}else{Pix3e7 = 1;}
+
+	var Pix4e0 = this.getFieldValue('Pix4e0'); if(Pix4e0 == 'FALSE'){Pix4e0 = 0;}else{Pix4e0 = 1;}
+	var Pix4e1 = this.getFieldValue('Pix4e1'); if(Pix4e1 == 'FALSE'){Pix4e1 = 0;}else{Pix4e1 = 1;}
+	var Pix4e2 = this.getFieldValue('Pix4e2'); if(Pix4e2 == 'FALSE'){Pix4e2 = 0;}else{Pix4e2 = 1;}
+	var Pix4e3 = this.getFieldValue('Pix4e3'); if(Pix4e3 == 'FALSE'){Pix4e3 = 0;}else{Pix4e3 = 1;}
+	var Pix4e4 = this.getFieldValue('Pix4e4'); if(Pix4e4 == 'FALSE'){Pix4e4 = 0;}else{Pix4e4 = 1;}
+    var Pix4e5 = this.getFieldValue('Pix4e5'); if(Pix4e5 == 'FALSE'){Pix4e5 = 0;}else{Pix4e5 = 1;}
+	var Pix4e6 = this.getFieldValue('Pix4e6'); if(Pix4e6 == 'FALSE'){Pix4e6 = 0;}else{Pix4e6 = 1;}
+	var Pix4e7 = this.getFieldValue('Pix4e7'); if(Pix4e7 == 'FALSE'){Pix4e7 = 0;}else{Pix4e7 = 1;}
+	
+	var Pix5e0 = this.getFieldValue('Pix5e0'); if(Pix5e0 == 'FALSE'){Pix5e0 = 0;}else{Pix5e0 = 1;}
+	var Pix5e1 = this.getFieldValue('Pix5e1'); if(Pix5e1 == 'FALSE'){Pix5e1 = 0;}else{Pix5e1 = 1;}
+	var Pix5e2 = this.getFieldValue('Pix5e2'); if(Pix5e2 == 'FALSE'){Pix5e2 = 0;}else{Pix5e2 = 1;}
+	var Pix5e3 = this.getFieldValue('Pix5e3'); if(Pix5e3 == 'FALSE'){Pix5e3 = 0;}else{Pix5e3 = 1;}
+	var Pix5e4 = this.getFieldValue('Pix5e4'); if(Pix5e4 == 'FALSE'){Pix5e4 = 0;}else{Pix5e4 = 1;}
+    var Pix5e5 = this.getFieldValue('Pix5e5'); if(Pix5e5 == 'FALSE'){Pix5e5 = 0;}else{Pix5e5 = 1;}
+	var Pix5e6 = this.getFieldValue('Pix5e6'); if(Pix5e6 == 'FALSE'){Pix5e6 = 0;}else{Pix5e6 = 1;}
+	var Pix5e7 = this.getFieldValue('Pix5e7'); if(Pix5e7 == 'FALSE'){Pix5e7 = 0;}else{Pix5e7 = 1;}
+	
+	var Pix6e0 = this.getFieldValue('Pix6e0'); if(Pix6e0 == 'FALSE'){Pix6e0 = 0;}else{Pix6e0 = 1;}
+	var Pix6e1 = this.getFieldValue('Pix6e1'); if(Pix6e1 == 'FALSE'){Pix6e1 = 0;}else{Pix6e1 = 1;}
+	var Pix6e2 = this.getFieldValue('Pix6e2'); if(Pix6e2 == 'FALSE'){Pix6e2 = 0;}else{Pix6e2 = 1;}
+	var Pix6e3 = this.getFieldValue('Pix6e3'); if(Pix6e3 == 'FALSE'){Pix6e3 = 0;}else{Pix6e3 = 1;}
+	var Pix6e4 = this.getFieldValue('Pix6e4'); if(Pix6e4 == 'FALSE'){Pix6e4 = 0;}else{Pix6e4 = 1;}
+    var Pix6e5 = this.getFieldValue('Pix6e5'); if(Pix6e5 == 'FALSE'){Pix6e5 = 0;}else{Pix6e5 = 1;}
+	var Pix6e6 = this.getFieldValue('Pix6e6'); if(Pix6e6 == 'FALSE'){Pix6e6 = 0;}else{Pix6e6 = 1;}
+	var Pix6e7 = this.getFieldValue('Pix6e7'); if(Pix6e7 == 'FALSE'){Pix6e7 = 0;}else{Pix6e7 = 1;}
+	
+	var Pix7e0 = this.getFieldValue('Pix7e0'); if(Pix7e0 == 'FALSE'){Pix7e0 = 0;}else{Pix7e0 = 1;}
+	var Pix7e1 = this.getFieldValue('Pix7e1'); if(Pix7e1 == 'FALSE'){Pix7e1 = 0;}else{Pix7e1 = 1;}
+	var Pix7e2 = this.getFieldValue('Pix7e2'); if(Pix7e2 == 'FALSE'){Pix7e2 = 0;}else{Pix7e2 = 1;}
+	var Pix7e3 = this.getFieldValue('Pix7e3'); if(Pix7e3 == 'FALSE'){Pix7e3 = 0;}else{Pix7e3 = 1;}
+	var Pix7e4 = this.getFieldValue('Pix7e4'); if(Pix7e4 == 'FALSE'){Pix7e4 = 0;}else{Pix7e4 = 1;}
+    var Pix7e5 = this.getFieldValue('Pix7e5'); if(Pix7e5 == 'FALSE'){Pix7e5 = 0;}else{Pix7e5 = 1;}
+	var Pix7e6 = this.getFieldValue('Pix7e6'); if(Pix7e6 == 'FALSE'){Pix7e6 = 0;}else{Pix7e6 = 1;}
+	var Pix7e7 = this.getFieldValue('Pix7e7'); if(Pix7e7 == 'FALSE'){Pix7e7 = 0;}else{Pix7e7 = 1;}
+
+	
+	
+ Blockly.Arduino.definitions_['minilcdi2c_setcursor_draw' + nomer] = 'const uint8_t customChar'+nomer+'[] U8G_PROGMEM = { \n '+
+' B'+Pix0e0+''+Pix0e1+''+Pix0e2+''+Pix0e3+''+Pix0e4+''+Pix0e5+''+Pix0e6+''+Pix0e7+', \n'+
+'  B'+Pix1e0+''+Pix1e1+''+Pix1e2+''+Pix1e3+''+Pix1e4+''+Pix1e5+''+Pix1e6+''+Pix1e7+', \n'+
+'  B'+Pix2e0+''+Pix2e1+''+Pix2e2+''+Pix2e3+''+Pix2e4+''+Pix2e5+''+Pix2e6+''+Pix2e7+', \n'+
+'  B'+Pix3e0+''+Pix3e1+''+Pix3e2+''+Pix3e3+''+Pix3e4+''+Pix3e5+''+Pix3e6+''+Pix3e7+', \n'+
+'  B'+Pix4e0+''+Pix4e1+''+Pix4e2+''+Pix4e3+''+Pix4e4+''+Pix4e5+''+Pix4e6+''+Pix4e7+', \n'+
+'  B'+Pix5e0+''+Pix5e1+''+Pix5e2+''+Pix5e3+''+Pix5e4+''+Pix5e5+''+Pix5e6+''+Pix5e7+', \n'+
+'  B'+Pix6e0+''+Pix6e1+''+Pix6e2+''+Pix6e3+''+Pix6e4+''+Pix6e5+''+Pix6e6+''+Pix6e7+', \n'+
+'  B'+Pix7e0+''+Pix7e1+''+Pix7e2+''+Pix7e3+''+Pix7e4+''+Pix7e5+''+Pix7e6+''+Pix7e7+' \n'+
+'}; \n';
+ 
+  var code = ' ';
+  return code;
+};
+
+Blockly.Arduino['lcd_128x64px_spi_draw_pl'] = function(block) {
+    var nomer = block.getFieldValue("TEXT");
+	var rowx =  Blockly.Arduino.valueToCode(block, 'print_x', Blockly.Arduino.ORDER_ATOMIC);
+	var rowy =  Blockly.Arduino.valueToCode(block, 'print_y', Blockly.Arduino.ORDER_ATOMIC);
+    var code = 'u8g.drawBitmapP( '+rowx+', '+rowy+', 1, 8, customChar'+nomer+'); \n ';
+  return code;
+};
+
+ Blockly.Arduino['lcd_128x128px_spi'] = function(block) {
+
+var pin1 = Blockly.Arduino.valueToCode(block, 'pin1', Blockly.Arduino.ORDER_ATOMIC);
+var pin2 = Blockly.Arduino.valueToCode(block, 'pin2', Blockly.Arduino.ORDER_ATOMIC);
+var pin3 = Blockly.Arduino.valueToCode(block, 'pin3', Blockly.Arduino.ORDER_ATOMIC);
+var color = this.getFieldValue('color'); 
+ 
+var dp = this.getFieldValue('dp'); 
+
+Blockly.Arduino.definitions_['lcd_128x128px_spi'] = '#include <SPI.h>   \n #include <Adafruit_GFX.h>   \n #include <Adafruit_ST7735.h>   \n Adafruit_ST7735 tft1=Adafruit_ST7735('+pin1+','+pin2+','+pin3+');  \n ';
+
+Blockly.Arduino.setups_['setups_lcd_128x128px_spi']='   tft1.initR('+color+');  \n  tft1.setRotation('+dp+'); \n tft1.fillScreen(ST7735_BLACK);  \n  ';
+var code = ' ';
+
+return code;
+};
+ 
+  Blockly.Arduino['lcd_128x128px_spi_tv'] = function(block) {
+ 
+var format = this.getFieldValue('format'); 
+  
+Blockly.Arduino.definitions_['lcd_128x128px_spi_tv'] = ' #include <TVout.h> \n #include <fontALL.h> \n TVout TV; \n   ';
+
+Blockly.Arduino.setups_['setup_lcd_128x128px_spi_tv']=' TV.begin('+format+',120,96); \n    ';
+
+var code = ' ';
+
+return code;
+};
+
+
+Blockly.Arduino['lcd_128x128px_spi_tv_vga'] = function(block) {
+ 
+var format = this.getFieldValue('format'); 
+  
+Blockly.Arduino.definitions_['lcd_128x128px_spi_tv'] = '  \n'+
+'  #include <VGAX.h>   \n'+
+'  #define FNT_UFONT_HEIGHT 6   \n'+
+'  #define FNT_UFONT_SYMBOLS_COUNT 95   \n'+
+'      \n'+
+'  const unsigned char fnt_ufont_data[FNT_UFONT_SYMBOLS_COUNT][1+FNT_UFONT_HEIGHT] PROGMEM={   \n'+
+'  { 1, 128, 128, 128,   0, 128,   0, }, //glyph ! code=0   \n'+
+'  { 3, 160, 160,   0,   0,   0,   0, }, //glyph " code=1   \n'+
+'  { 5,  80, 248,  80, 248,  80,   0, }, //glyph # code=2   \n'+
+'  { 5, 120, 160, 112,  40, 240,   0, }, //glyph $ code=3   \n'+
+'  { 5, 136,  16,  32,  64, 136,   0, }, //glyph % code=4   \n'+
+'  { 5,  96, 144, 104, 144, 104,   0, }, //glyph & code=5   \n'+
+'  { 2, 128,  64,   0,   0,   0,   0, }, //glyph  code=6   \n'+
+'  { 2,  64, 128, 128, 128,  64,   0, }, //glyph ( code=7   \n'+
+'  { 2, 128,  64,  64,  64, 128,   0, }, //glyph ) code=8   \n'+
+'  { 3,   0, 160,  64, 160,   0,   0, }, //glyph * code=9   \n'+
+'  { 3,   0,  64, 224,  64,   0,   0, }, //glyph + code=10   \n'+
+'  { 2,   0,   0,   0,   0, 128,  64, }, //glyph , code=11   \n'+
+'  { 3,   0,   0, 224,   0,   0,   0, }, //glyph - code=12   \n'+
+'  { 1,   0,   0,   0,   0, 128,   0, }, //glyph . code=13   \n'+
+'  { 5,   8,  16,  32,  64, 128,   0, }, //glyph / code=14   \n'+
+'  { 4,  96, 144, 144, 144,  96,   0, }, //glyph 0 code=15   \n'+
+'  { 3,  64, 192,  64,  64, 224,   0, }, //glyph 1 code=16   \n'+
+'  { 4, 224,  16,  96, 128, 240,   0, }, //glyph 2 code=17   \n'+
+'  { 4, 224,  16,  96,  16, 224,   0, }, //glyph 3 code=18   \n'+
+'  { 4, 144, 144, 240,  16,  16,   0, }, //glyph 4 code=19   \n'+
+'  { 4, 240, 128, 224,  16, 224,   0, }, //glyph 5 code=20   \n'+
+'  { 4,  96, 128, 224, 144,  96,   0, }, //glyph 6 code=21   \n'+
+'  { 4, 240,  16,  32,  64,  64,   0, }, //glyph 7 code=22   \n'+
+'  { 4,  96, 144,  96, 144,  96,   0, }, //glyph 8 code=23   \n'+
+'  { 4,  96, 144, 112,  16,  96,   0, }, //glyph 9 code=24   \n'+
+'  { 1,   0, 128,   0, 128,   0,   0, }, //glyph : code=25   \n'+
+'  { 2,   0, 128,   0,   0, 128,  64, }, //glyph ; code=26   \n'+
+'  { 3,  32,  64, 128,  64,  32,   0, }, //glyph < code=27   \n'+
+'  { 3,   0, 224,   0, 224,   0,   0, }, //glyph = code=28   \n'+
+'  { 3, 128,  64,  32,  64, 128,   0, }, //glyph > code=29   \n'+
+'  { 4, 224,  16,  96,   0,  64,   0, }, //glyph ? code=30   \n'+
+'  { 4,  96, 144, 176, 128, 112,   0, }, //glyph @ code=31   \n'+
+'  { 4,  96, 144, 240, 144, 144,   0, }, //glyph A code=32   \n'+
+'  { 4, 224, 144, 224, 144, 224,   0, }, //glyph B code=33   \n'+
+'  { 4, 112, 128, 128, 128, 112,   0, }, //glyph C code=34   \n'+
+'  { 4, 224, 144, 144, 144, 224,   0, }, //glyph D code=35   \n'+
+'  { 4, 240, 128, 224, 128, 240,   0, }, //glyph E code=36   \n'+
+'  { 4, 240, 128, 224, 128, 128,   0, }, //glyph F code=37   \n'+
+'  { 4, 112, 128, 176, 144, 112,   0, }, //glyph G code=38   \n'+
+'  { 4, 144, 144, 240, 144, 144,   0, }, //glyph H code=39   \n'+
+'  { 3, 224,  64,  64,  64, 224,   0, }, //glyph I code=40   \n'+
+'  { 4, 240,  16,  16, 144,  96,   0, }, //glyph J code=41   \n'+
+'  { 4, 144, 160, 192, 160, 144,   0, }, //glyph K code=42   \n'+
+'  { 4, 128, 128, 128, 128, 240,   0, }, //glyph L code=43   \n'+
+'  { 5, 136, 216, 168, 136, 136,   0, }, //glyph M code=44   \n'+
+'  { 4, 144, 208, 176, 144, 144,   0, }, //glyph N code=45   \n'+
+'  { 4,  96, 144, 144, 144,  96,   0, }, //glyph O code=46   \n'+
+'  { 4, 224, 144, 224, 128, 128,   0, }, //glyph P code=47   \n'+
+'  { 4,  96, 144, 144, 144,  96,  16, }, //glyph Q code=48   \n'+
+'  { 4, 224, 144, 224, 160, 144,   0, }, //glyph R code=49   \n'+
+'  { 4, 112, 128,  96,  16, 224,   0, }, //glyph S code=50   \n'+
+'  { 3, 224,  64,  64,  64,  64,   0, }, //glyph T code=51   \n'+
+'  { 4, 144, 144, 144, 144,  96,   0, }, //glyph U code=52   \n'+
+'  { 3, 160, 160, 160, 160,  64,   0, }, //glyph V code=53   \n'+
+'  { 5, 136, 168, 168, 168,  80,   0, }, //glyph W code=54   \n'+
+'  { 4, 144, 144,  96, 144, 144,   0, }, //glyph X code=55   \n'+
+'  { 3, 160, 160,  64,  64,  64,   0, }, //glyph Y code=56   \n'+
+'  { 4, 240,  16,  96, 128, 240,   0, }, //glyph Z code=57   \n'+
+'  { 2, 192, 128, 128, 128, 192,   0, }, //glyph [ code=58   \n'+
+'  { 5, 128,  64,  32,  16,   8,   0, }, //glyph \ code=59   \n'+
+'  { 2, 192,  64,  64,  64, 192,   0, }, //glyph ] code=60   \n'+
+'  { 5,  32,  80, 136,   0,   0,   0, }, //glyph ^ code=61   \n'+
+'  { 4,   0,   0,   0,   0, 240,   0, }, //glyph _ code=62   \n'+
+'  { 2, 128,  64,   0,   0,   0,   0, }, //glyph  code=63   \n'+
+'  { 3,   0, 224,  32, 224, 224,   0, }, //glyph a code=64   \n'+
+'  { 3, 128, 224, 160, 160, 224,   0, }, //glyph b code=65   \n'+
+'  { 3,   0, 224, 128, 128, 224,   0, }, //glyph c code=66   \n'+
+'  { 3,  32, 224, 160, 160, 224,   0, }, //glyph d code=67   \n'+
+'  { 3,   0, 224, 224, 128, 224,   0, }, //glyph e code=68   \n'+
+'  { 2,  64, 128, 192, 128, 128,   0, }, //glyph f code=69   \n'+
+'  { 3,   0, 224, 160, 224,  32, 224, }, //glyph g code=70   \n'+
+'  { 3, 128, 224, 160, 160, 160,   0, }, //glyph h code=71   \n'+
+'  { 1, 128,   0,   128, 128, 128, 0, }, //glyph i code=72   \n'+
+'  { 2,   0, 192,  64,  64,  64, 128, }, //glyph j code=73   \n'+
+'  { 3, 128, 160, 192, 160, 160,   0, }, //glyph k code=74   \n'+
+'  { 1, 128, 128, 128, 128, 128,   0, }, //glyph l code=75   \n'+
+'  { 5,   0, 248, 168, 168, 168,   0, }, //glyph m code=76   \n'+
+'  { 3,   0, 224, 160, 160, 160,   0, }, //glyph n code=77   \n'+
+'  { 3,   0, 224, 160, 160, 224,   0, }, //glyph o code=78   \n'+
+'  { 3,   0, 224, 160, 160, 224, 128, }, //glyph p code=79   \n'+
+'  { 3,   0, 224, 160, 160, 224,  32, }, //glyph q code=80   \n'+
+'  { 3,   0, 224, 128, 128, 128,   0, }, //glyph r code=81   \n'+
+'  { 2,   0, 192, 128,  64, 192,   0, }, //glyph s code=82   \n'+
+'  { 3,  64, 224,  64,  64,  64,   0, }, //glyph t code=83   \n'+
+'  { 3,   0, 160, 160, 160, 224,   0, }, //glyph u code=84   \n'+
+'  { 3,   0, 160, 160, 160,  64,   0, }, //glyph v code=85   \n'+
+'  { 5,   0, 168, 168, 168,  80,   0, }, //glyph w code=86   \n'+
+'  { 3,   0, 160,  64, 160, 160,   0, }, //glyph x code=87   \n'+
+'  { 3,   0, 160, 160, 224,  32, 224, }, //glyph y code=88   \n'+
+'  { 2,   0, 192,  64, 128, 192,   0, }, //glyph z code=89   \n'+
+'  { 3,  96,  64, 192,  64,  96,   0, }, //glyph { code=90   \n'+
+'  { 1, 128, 128, 128, 128, 128,   0, }, //glyph | code=91   \n'+
+'  { 3, 192,  64,  96,  64, 192,   0, }, //glyph } code=92   \n'+
+'  { 3,  96, 192,   0,   0,   0,   0, }, //glyph ~ code=93   \n'+
+'  { 4,  48,  64, 224,  64, 240,   0, }, //glyph £ code=94   \n'+
+'  };   \n'+
+'  VGAX vga;   \n'+
+'   \n   ';
+
+Blockly.Arduino.setups_['setup_lcd_128x128px_spi_tv']='   vga.begin(); \n  vga.clear(0); \n    ';
+
+var code = ' ';
+
+return code;
+};
+
+
+ Blockly.Arduino['lcd_128x128px_spi_text'] = function(block) {
+
+var X_Nokia = Blockly.Arduino.valueToCode(block, 'X_Nokia', Blockly.Arduino.ORDER_ATOMIC);
+var Y_Nokia = Blockly.Arduino.valueToCode(block, 'Y_Nokia', Blockly.Arduino.ORDER_ATOMIC);
+var texttoprint = Blockly.Arduino.valueToCode(block, 'texttoprint', Blockly.Arduino.ORDER_ATOMIC);
+var color = this.getFieldValue('color'); 
+var size = this.getFieldValue('size'); 
+
+
+var code = '     tft1.setCursor('+X_Nokia+', '+Y_Nokia+');  \n   tft1.setTextColor('+color+',0);  \n    tft1.setTextSize('+size+');  \n   tft1.println('+texttoprint+');  \n	';
+
+return code;
+};
+
+ Blockly.Arduino['lcd_128x128px_spi_text_tv'] = function(block) {
+
+var X_Nokia = Blockly.Arduino.valueToCode(block, 'X_Nokia', Blockly.Arduino.ORDER_ATOMIC);
+var Y_Nokia = Blockly.Arduino.valueToCode(block, 'Y_Nokia', Blockly.Arduino.ORDER_ATOMIC);
+var texttoprint = Blockly.Arduino.valueToCode(block, 'texttoprint', Blockly.Arduino.ORDER_ATOMIC);
+//var color = this.getFieldValue('color'); 
+var size = this.getFieldValue('font'); 
+
+
+var code = '    TV.select_font('+size+'); \n  TV.println('+X_Nokia+', '+Y_Nokia+','+texttoprint+'); \n ';
+return code;
+};
+
+ Blockly.Arduino['lcd_128x128px_spi_text_tv_vga'] = function(block) {
+
+var X_Nokia = Blockly.Arduino.valueToCode(block, 'X_Nokia', Blockly.Arduino.ORDER_ATOMIC);
+var Y_Nokia = Blockly.Arduino.valueToCode(block, 'Y_Nokia', Blockly.Arduino.ORDER_ATOMIC);
+var texttoprint = Blockly.Arduino.valueToCode(block, 'texttoprint', Blockly.Arduino.ORDER_ATOMIC);
+var size = this.getFieldValue('font'); 
+
+var id = Math.floor(Math.random() * 9999999) + 1;
+var code = 'static const char ard'+id+'[] PROGMEM='+texttoprint+';  \n  vga.printPROGMEM((byte*)fnt_ufont_data, FNT_UFONT_SYMBOLS_COUNT, FNT_UFONT_HEIGHT, 3, 1, ard'+id+', '+X_Nokia+', '+Y_Nokia+', '+size+');   \n ';
+ 
+return code;
+};
+
+ Blockly.Arduino['lcd_128x128px_spi_text_tv_vga1'] = function(block) {
+  
+var code = ' vga.clear(0);  \n ';
+ 
+return code;
+};
+
+ Blockly.Arduino['lcd_128x128px_spi_text_tv_vga2'] = function(block) {
+  var X_Nokia = Blockly.Arduino.valueToCode(block, 'X_Nokia', Blockly.Arduino.ORDER_ATOMIC);
+var code = ' vga.delay('+X_Nokia+');  \n ';
+ 
+return code;
+};
+
+ Blockly.Arduino['lcd_128x128px_spi_text_tv_delay'] = function(block) {
+
+var Y_Nokia = Blockly.Arduino.valueToCode(block, 'Y_Nokia', Blockly.Arduino.ORDER_ATOMIC);
+  
+var code = ' TV.delay('+Y_Nokia+');   \n ';
+return code;
+};
+
+ Blockly.Arduino['lcd_128x128px_spi_pix'] = function(block) {
+
+var X_Nokia = Blockly.Arduino.valueToCode(block, 'X_Nokia', Blockly.Arduino.ORDER_ATOMIC);
+var Y_Nokia = Blockly.Arduino.valueToCode(block, 'Y_Nokia', Blockly.Arduino.ORDER_ATOMIC);
+var color = this.getFieldValue('color'); 
+
+var code = ' tft1.drawPixel('+X_Nokia+', '+Y_Nokia+','+color+'); \n	';
+
+return code;
+};
+
+ Blockly.Arduino['lcd_128x128px_spi_line'] = function(block) {
+
+var X_Nokia = Blockly.Arduino.valueToCode(block, 'X_Nokia', Blockly.Arduino.ORDER_ATOMIC);
+var Y_Nokia = Blockly.Arduino.valueToCode(block, 'Y_Nokia', Blockly.Arduino.ORDER_ATOMIC);
+var X_Nokia1 = Blockly.Arduino.valueToCode(block, 'X_Nokia1', Blockly.Arduino.ORDER_ATOMIC);
+var Y_Nokia1 = Blockly.Arduino.valueToCode(block, 'Y_Nokia1', Blockly.Arduino.ORDER_ATOMIC);
+var color = this.getFieldValue('color'); 
+
+var code = 'tft1.drawLine('+X_Nokia+', '+Y_Nokia+','+X_Nokia1+', '+Y_Nokia1+','+color+');  \n	';
+
+return code;
+};
+
+ Blockly.Arduino['lcd_128x128px_spi_line_tv'] = function(block) {
+
+var X_Nokia = Blockly.Arduino.valueToCode(block, 'X_Nokia', Blockly.Arduino.ORDER_ATOMIC);
+var Y_Nokia = Blockly.Arduino.valueToCode(block, 'Y_Nokia', Blockly.Arduino.ORDER_ATOMIC);
+var X_Nokia1 = Blockly.Arduino.valueToCode(block, 'X_Nokia1', Blockly.Arduino.ORDER_ATOMIC);
+var Y_Nokia1 = Blockly.Arduino.valueToCode(block, 'Y_Nokia1', Blockly.Arduino.ORDER_ATOMIC);
+//var color = this.getFieldValue('color'); 
+
+var code = 'TV.draw_line('+X_Nokia+', '+Y_Nokia+','+X_Nokia1+','+Y_Nokia1+',INVERT);  \n	';
+
+return code;
+};
+ Blockly.Arduino['lcd_128x128px_spi_line_tv_none'] = function(block) {
+
+ 
+var code = ' TV.clear_screen();  \n	';
+
+return code;
+};
+ Blockly.Arduino['lcd_128x128px_spi_line_tv_box'] = function(block) {
+
+var X_Nokia = Blockly.Arduino.valueToCode(block, 'X_Nokia', Blockly.Arduino.ORDER_ATOMIC);
+var Y_Nokia = Blockly.Arduino.valueToCode(block, 'Y_Nokia', Blockly.Arduino.ORDER_ATOMIC);
+var X_Nokia1 = Blockly.Arduino.valueToCode(block, 'X_Nokia1', Blockly.Arduino.ORDER_ATOMIC);
+var Y_Nokia1 = Blockly.Arduino.valueToCode(block, 'Y_Nokia1', Blockly.Arduino.ORDER_ATOMIC);
+var color = this.getFieldValue('color'); 
+
+if(color == 1){
+var code = ' TV.draw_rect('+X_Nokia+', '+Y_Nokia+','+X_Nokia1+','+Y_Nokia1+',WHITE);  \n	';
+}
+if(color == 0){
+var code = ' TV.draw_rect('+X_Nokia+', '+Y_Nokia+','+X_Nokia1+','+Y_Nokia1+',WHITE,INVERT);  \n	';
+}
+  
+return code;
+};
+
+ Blockly.Arduino['lcd_128x128px_spi_box'] = function(block) {
+
+var X_Nokia = Blockly.Arduino.valueToCode(block, 'X_Nokia', Blockly.Arduino.ORDER_ATOMIC);
+var Y_Nokia = Blockly.Arduino.valueToCode(block, 'Y_Nokia', Blockly.Arduino.ORDER_ATOMIC);
+var X_Nokia2 = Blockly.Arduino.valueToCode(block, 'X_Nokia2', Blockly.Arduino.ORDER_ATOMIC);
+var Y_Nokia2 = Blockly.Arduino.valueToCode(block, 'Y_Nokia2', Blockly.Arduino.ORDER_ATOMIC);
+var Y_Nokia3 = Blockly.Arduino.valueToCode(block, 'Y_Nokia3', Blockly.Arduino.ORDER_ATOMIC);
+var color = this.getFieldValue('color'); 
+
+var logic = this.getFieldValue('LOGIC');
+  
+  if(logic == 'FALSE'){
+  var code = ' tft1.drawRoundRect('+X_Nokia+', '+Y_Nokia+', '+Y_Nokia2+', '+X_Nokia2+', '+Y_Nokia3+', '+color+');   \n	';
+  }else{
+  var code = ' tft1.fillRoundRect('+X_Nokia+', '+Y_Nokia+', '+Y_Nokia2+', '+X_Nokia2+', '+Y_Nokia3+', '+color+');   \n	';
+
+  }
+return code;
+};
+
+ Blockly.Arduino['lcd_tah_spi'] = function(block) {
+ 
+Blockly.Arduino.definitions_['lcd_tah_spi'] = '  #include <stdint.h> \n  #include <LCD.h> \n  #include <SPI.h> \n  #include <XPT2046.h> \n  #include <Touch.h> \n  #include <EEPROM.h> \n ';
+
+Blockly.Arduino.setups_['setups_lcd_tah_spi']='   SPI.setDataMode(SPI_MODE3); \n SPI.setBitOrder(MSBFIRST); \n SPI.setClockDivider(SPI_CLOCK_DIV4); \n  SPI.begin(); \n  Tft.lcd_init(); \n Tft.lcd_clear_screen(BLACK);   \n  ';
+var code = ' ';
+
+return code;
+};
+
+ Blockly.Arduino['lcd_tah_spi_text'] = function(block) {
+
+var X_Nokia = Blockly.Arduino.valueToCode(block, 'X_Nokia', Blockly.Arduino.ORDER_ATOMIC);
+var Y_Nokia = Blockly.Arduino.valueToCode(block, 'Y_Nokia', Blockly.Arduino.ORDER_ATOMIC);
+var texttoprint = Blockly.Arduino.valueToCode(block, 'texttoprint', Blockly.Arduino.ORDER_ATOMIC);
+var color = this.getFieldValue('color'); 
+var size = this.getFieldValue('size'); 
+
+
+var code = '  Tft.lcd_display_string('+X_Nokia+', '+Y_Nokia+', (const uint8_t *)'+texttoprint+', FONT_'+size+', '+color+');  \n	';
+
+return code;
+};
+
+ Blockly.Arduino['lcd_tah_spi_int'] = function(block) {
+
+var X_Nokia = Blockly.Arduino.valueToCode(block, 'X_Nokia', Blockly.Arduino.ORDER_ATOMIC);
+var Y_Nokia = Blockly.Arduino.valueToCode(block, 'Y_Nokia', Blockly.Arduino.ORDER_ATOMIC);
+var texttoprint = Blockly.Arduino.valueToCode(block, 'texttoprint', Blockly.Arduino.ORDER_ATOMIC);
+var color = this.getFieldValue('color'); 
+var size = this.getFieldValue('size'); 
+
+
+var code = ' Tft.lcd_display_num('+X_Nokia+', '+Y_Nokia+', '+texttoprint+', 4, '+size+', '+color+');  \n	';
+
+return code;
+};
+
+Blockly.Arduino['lcd_tah_spi_box'] = function(block) {
+
+var X_Nokia = Blockly.Arduino.valueToCode(block, 'X_Nokia', Blockly.Arduino.ORDER_ATOMIC);
+var Y_Nokia = Blockly.Arduino.valueToCode(block, 'Y_Nokia', Blockly.Arduino.ORDER_ATOMIC);
+var X_Nokia2 = Blockly.Arduino.valueToCode(block, 'X_Nokia2', Blockly.Arduino.ORDER_ATOMIC);
+var Y_Nokia2 = Blockly.Arduino.valueToCode(block, 'Y_Nokia2', Blockly.Arduino.ORDER_ATOMIC);
+var color = this.getFieldValue('color'); 
+
+var logic = this.getFieldValue('LOGIC');
+  
+  if(logic == 'FALSE'){
+  var code = ' Tft.lcd_draw_rect('+X_Nokia+', '+Y_Nokia+', '+Y_Nokia2+', '+X_Nokia2+', '+color+');   \n	';
+  }else{
+  var code = ' Tft.lcd_fill_rect('+X_Nokia+', '+Y_Nokia+', '+Y_Nokia2+', '+X_Nokia2+', '+color+');   \n	';
+
+  }
+return code;
+};
+
+Blockly.Arduino['lcd_tah_spi_tah'] = function (block) {   
+ var branch = Blockly.Arduino.statementToCode(this, "CONTENT"); 
+var X_Nokia = Blockly.Arduino.valueToCode(block, 'X_Nokia', Blockly.Arduino.ORDER_ATOMIC);
+var Y_Nokia = Blockly.Arduino.valueToCode(block, 'Y_Nokia', Blockly.Arduino.ORDER_ATOMIC);
+var X_Nokia2 = Blockly.Arduino.valueToCode(block, 'X_Nokia2', Blockly.Arduino.ORDER_ATOMIC);
+var Y_Nokia2 = Blockly.Arduino.valueToCode(block, 'Y_Nokia2', Blockly.Arduino.ORDER_ATOMIC);
+ Blockly.Arduino.definitions_['include_lcd_tah_spi_tah'] = 'int hwYpos; \n int hwXpos; \n';
+ Blockly.Arduino.setups_['setups_lcd_tah_spi_tah']= 'Tp.tp_init();  \n Tp.tp_adjust();  \n Tp.tp_dialog();  \n  Tft.lcd_clear_screen(BLACK); \n';
+ 
+  var code = '  hwXpos = EEPROM.read(250) * 2;  \n   hwYpos = EEPROM.read(251) * 2;  \n  Tp.tp_draw_board();  \n  if(hwYpos > '+Y_Nokia+' && hwYpos < '+Y_Nokia2+' && hwXpos > '+X_Nokia+' && hwXpos < '+X_Nokia2+'){  \n ' +
+     branch + ' EEPROM.write(250, 0);  \n EEPROM.write(251, 0);  \n  } \n';
+	 
+  return code;
+  return ""
+};
+
+     
+	 
+//леонардо
+
+
+Blockly.Arduino['leonardo1'] = function(block) {
+  var num_sensor1 =Blockly.Arduino.valueToCode(this, 'Sensor1', Blockly.Arduino.ORDER_ATOMIC); 
+  var num_sensor2 =Blockly.Arduino.valueToCode(this, 'Sensor2', Blockly.Arduino.ORDER_ATOMIC);
+  
+    Blockly.Arduino.definitions_['include_leonardo'] = '#include "Keyboard.h" \n #include "Mouse.h" \n';
+	Blockly.Arduino.setups_['setup_leonardo'] = '  Mouse.begin(); \n  Keyboard.begin(); \n  delay(500); \n Serial.begin(9600); \n';
+    
+  var code = 'Mouse.move('+num_sensor1+','+num_sensor2+'); \n';
+  //Mouse.move(200,200);
+  return code;
+};
+
+Blockly.Arduino['leonardo2'] = function(block) {
+  var maus_direction = this.getFieldValue('maus_DIR');
+  
+    Blockly.Arduino.definitions_['include_leonardo'] = '#include "Keyboard.h" \n #include "Mouse.h" \n';
+	Blockly.Arduino.setups_['setup_leonardo'] = '  Mouse.begin(); \n  Keyboard.begin(); \n  delay(500); \n Serial.begin(9600); \n';
+    
+  var code = 'Mouse.click('+maus_direction+'); \n';
+  
+  return code;
+};
+
+Blockly.Arduino['leonardo3'] = function(block) {
+  var maus_direction = this.getFieldValue('maus_DIR');
+  
+    Blockly.Arduino.definitions_['include_leonardo'] = '#include "Keyboard.h" \n #include "Mouse.h" \n';
+	Blockly.Arduino.setups_['setup_leonardo'] = '  Mouse.begin(); \n  Keyboard.begin(); \n  delay(500); \n Serial.begin(9600); \n';
+    
+  var code = 'Mouse.press('+maus_direction+'); \n';
+  
+  return code;
+};
+
+Blockly.Arduino['leonardo4'] = function(block) {
+  var maus_direction = this.getFieldValue('maus_DIR');
+  
+    Blockly.Arduino.definitions_['include_leonardo'] = '#include "Keyboard.h" \n #include "Mouse.h" \n';
+	Blockly.Arduino.setups_['setup_leonardo'] = '  Mouse.begin(); \n  Keyboard.begin(); \n  delay(500); \n Serial.begin(9600); \n';
+    
+  var code = 'Mouse.release('+maus_direction+'); \n';
+  
+  return code;
+};
+
+Blockly.Arduino['leonardo5'] = function(block) {
+  var maus_direction = this.getFieldValue('maus_DIR');
+  
+    Blockly.Arduino.definitions_['include_leonardo'] = '#include "Keyboard.h" \n #include "Mouse.h" \n';
+	Blockly.Arduino.setups_['setup_leonardo'] = '  Mouse.begin(); \n  Keyboard.begin(); \n  delay(500); \n Serial.begin(9600); \n';
+    
+  var code = 'Keyboard.write(\''+maus_direction+'\'); \n';
+
+  return code;
+};
+Blockly.Arduino['leonardo6'] = function(block) {
+  var maus_direction = this.getFieldValue('maus_DIR');
+  
+    Blockly.Arduino.definitions_['include_leonardo'] = '#include "Keyboard.h" \n #include "Mouse.h" \n';
+	Blockly.Arduino.setups_['setup_leonardo'] = '  Mouse.begin(); \n  Keyboard.begin(); \n  delay(500); \n Serial.begin(9600); \n';
+    
+  var code = 'Keyboard.press(\''+maus_direction+'\'); \n';
+
+  return code;
+};
+Blockly.Arduino['leonardo7'] = function(block) {
+  var maus_direction = this.getFieldValue('maus_DIR');
+  
+    Blockly.Arduino.definitions_['include_leonardo'] = '#include "Keyboard.h" \n #include "Mouse.h" \n';
+	Blockly.Arduino.setups_['setup_leonardo'] = '  Mouse.begin(); \n  Keyboard.begin(); \n  delay(500); \n Serial.begin(9600); \n';
+    
+  var code = 'Keyboard.release(\''+maus_direction+'\'); \n';
+
+  return code;
+};
+Blockly.Arduino['leonardo8'] = function(block) {
+ 
+    Blockly.Arduino.definitions_['include_leonardo'] = '#include "Keyboard.h" \n #include "Mouse.h" \n';
+	Blockly.Arduino.setups_['setup_leonardo'] = '  Mouse.begin(); \n  Keyboard.begin(); \n  delay(500); \n Serial.begin(9600); \n';
+    
+  var code = '\n Keyboard.releaseAll(); \n';
+
+  return code;
+};
+
+Blockly.Arduino['leonardo9'] = function(block) {
+  var maus_direction = this.getFieldValue('maus_DIR');
+  
+    Blockly.Arduino.definitions_['include_leonardo'] = '#include "Keyboard.h" \n #include "Mouse.h" \n';
+	Blockly.Arduino.setups_['setup_leonardo'] = '  Mouse.begin(); \n  Keyboard.begin(); \n  delay(500); \n Serial.begin(9600); \n';
+    
+  var code = 'Keyboard.write('+maus_direction+'); \n';
+
+  return code;
+};
+Blockly.Arduino['leonardo10'] = function(block) {
+  var maus_direction = this.getFieldValue('maus_DIR');
+  
+    Blockly.Arduino.definitions_['include_leonardo'] = '#include "Keyboard.h" \n #include "Mouse.h" \n';
+	Blockly.Arduino.setups_['setup_leonardo'] = '  Mouse.begin(); \n  Keyboard.begin(); \n  delay(500); \n Serial.begin(9600); \n';
+    
+  var code = 'Keyboard.press('+maus_direction+'); \n';
+
+  return code;
+};
+Blockly.Arduino['leonardo11'] = function(block) {
+  var maus_direction = this.getFieldValue('maus_DIR');
+  
+    Blockly.Arduino.definitions_['include_leonardo'] = '#include "Keyboard.h" \n #include "Mouse.h" \n';
+	Blockly.Arduino.setups_['setup_leonardo'] = '  Mouse.begin(); \n  Keyboard.begin(); \n  delay(500); \n Serial.begin(9600); \n';
+    
+  var code = 'Keyboard.release('+maus_direction+'); \n';
+
+  return code;
+};
+
+// прерывание
+
+Blockly.Arduino['interrupts_attach'] = function (block) {
+
+    var a = this.getFieldValue("PIN"), b = this.getFieldValue("MODE"), c = Blockly.Arduino.statementToCode(this, "CONTENT");
+    Blockly.Arduino.setups_["setup_interrupt_" + a] = 'attachInterrupt(digitalPinToInterrupt('+a+'),interrupt_' + a + ',' + b + ');';
+    Blockly.Arduino.definitions_["define_interrupt_" + a] = "void interrupt_" + a + "(){\n" + c + "}\n";
+	
+    return ""
+};
+
+// фоновый yield
+
+Blockly.Arduino['interrupts_attach_yield'] = function (block) {
+
+   // var a = this.getFieldValue("PIN"), b = this.getFieldValue("MODE"),
+    var c = Blockly.Arduino.statementToCode(this, "CONTENT");
+   // Blockly.Arduino.setups_["setup_interrupt_yield"] = 'attachInterrupt(digitalPinToInterrupt('+a+'),interrupt_' + a + ',' + b + ');';
+    Blockly.Arduino.definitions_["define_interrupt_yield"] = "void yield (){\n" + c + "}\n";
+	
+    return ""
+};
+
+// обнулить инкодер
+
+
+
+Blockly.Arduino['RotaryEncoder_None'] = function(block) {
+
+  var dropdown_pin = Blockly.Arduino.valueToCode(block, 'PIN', Blockly.Arduino.ORDER_ATOMIC);
+ 
+	var code = 'encoder_1.write('+dropdown_pin+');\n';
+  
+  return code;
+};
+
+// esp8266 scan
+Blockly.Arduino['base_code_esp8266'] = function(block) {
+ var dropdown_pin1=block.getFieldValue("PIN1");
+ var dropdown_pin2=block.getFieldValue("PIN2");
+ var dropdown_speed1 = block.getFieldValue("SPEED1");
+ var dropdown_speed2 = block.getFieldValue("SPEED2");
+ var enter = ("\\r\\n");
+ Blockly.Arduino.definitions_['define_base_code_esp8266']='#include <SoftwareSerial.h> \n SoftwareSerial esp8266('+ dropdown_pin1 +','+ dropdown_pin2 +'); \n\n String sendData(String command, const int timeout, boolean debug){ \n String response = ""; \n  esp8266.print(command); \n  long int time = millis(); \n  while((time+timeout) > millis()) { \n  while(esp8266.available()){ \n char c = esp8266.read(); \n  response+=c; \n } \n } \n if(debug){ \n Serial.print(response); \n } \n return response;   \n } \n  ';
+
+ Blockly.Arduino.setups_['define_base_codenn_esp8266'] = ' Serial.begin('+ dropdown_speed1 +'); \n delay(1000); \n esp8266.begin('+ dropdown_speed2 +'); \n sendData("AT+RST'+enter+'", 3000, 1); \n delay (3000); \n sendData("AT+CWMODE=3'+enter+'", 3000, 1); \n delay (3000); \n sendData("AT+CWLAP'+enter+'", 4000, 1); \n delay (4000); \n';
+};
+
+Blockly.Arduino['base_conect_esp8266'] = function(block) {
+ var dropdown_pin1=block.getFieldValue("PIN1");
+ var dropdown_pin2=block.getFieldValue("PIN2");
+ var dropdown_speed1 = block.getFieldValue("SPEED1");
+ var dropdown_speed2 = block.getFieldValue("SPEED2");
+ var login = block.getFieldValue("TEXT1");
+ var pass = block.getFieldValue("TEXT2");
+ var enter = ("\\r\\n");
+ Blockly.Arduino.definitions_['define_base_codemm_esp8266']='  #include <EEPROM.h> \n int esp = 0; \n #include <SoftwareSerial.h> \n SoftwareSerial esp8266('+ dropdown_pin1 +','+ dropdown_pin2 +'); \n\n String sendData(String command, const int timeout, boolean debug){ \n String response = ""; \n  esp8266.print(command); \n  long int time = millis(); \n  while((time+timeout) > millis()) { \n  while(esp8266.available()){ \n char c = esp8266.read(); \n  response+=c; \n } \n } \n if(debug){ \n Serial.print(response); \n } \n return response;   \n } \n  ';
+ var code = ' \n Serial.begin('+ dropdown_speed1 +'); \n esp8266.begin('+ dropdown_speed2 +'); \n sendData("AT+RST'+enter+'", 2000, 1); \n delay(1000); \n sendData("AT+CWJAP=\\"'+ login +'\\",\\"'+ pass +'\\"'+enter+'", 2000, 1); \n delay (3000); \n sendData("AT+CWMODE=1'+enter+'", 1500, 1); \n delay (1000); \n sendData("AT+CIFSR'+enter+'", 1500, 1); \n delay (1000); \n sendData("AT+CIPMUX=1'+enter+'", 1500, 1); \n delay (1000); \n sendData("AT+CIPSERVER=1,80'+enter+'", 1500, 1); \n';
+return code;
+};
+
+Blockly.Arduino["base_define_for_esp8266"]=function(block){
+ var repeats = block.getFieldValue("TEXT");
+ var branch = Blockly.Arduino.statementToCode(this, 'DO');
+  var code = 'if(esp8266.available()){ \n if(esp8266.find("+IPD,")){ \n delay(1000); \n int connectionId = esp8266.read()-48; \n esp8266.find("i/"); \n int esp = (esp8266.read()-48); \n EEPROM.write(0,esp); \n String webpage = "<title>' + repeats + '</title>' +
+      branch + ' "; \n  String cipSend = "AT+CIPSEND="; \n cipSend += connectionId; \n cipSend += ","; \n cipSend +=webpage.length(); \n cipSend +="\\r\\n"; \n sendData(cipSend,2000,1); \n sendData(webpage,3000,1); \n String closeCommand = "AT+CIPCLOSE="; \n closeCommand+=connectionId; \n closeCommand+="\\r\\n"; \n sendData(closeCommand,3000,1); \n } \n } \n';
+  return code;
+};
+
+Blockly.Arduino['base_conect_esp8266_text'] = function(block) {
+var login = block.getFieldValue("TEXT");
+var code = '<p>'+login+'</p>';
+return code;
+};
+
+Blockly.Arduino['base_conect_esp8266_button_r'] = function(block) {
+	var dropdown = block.getFieldValue("SPEED");
+	var login = block.getFieldValue("TEXT");
+	switch (dropdown) {
+        case "0":
+            var hrl = "'/i/0'";
+            break;
+        case "1":
+            var hrl = "'/i/1'";
+            break;
+        case "2":
+            var hrl = "'/i/2'";
+            break;
+        case "3":
+            var hrl = "'/i/3'";
+            break;
+        case "4":
+            var hrl = "'/i/4'";
+            break;
+        case "5":
+            var hrl = "'/i/5'";
+            break;
+        case "6":
+            var hrl = "'/i/6'";
+            break;
+        case "7":
+            var hrl = "'/i/7'";
+            break;
+		case "8":
+            var hrl = "'/i/8'";
+            break;
+		case "9":
+            var hrl = "'/i/9'";
+            break;
+        default:
+            throw " ";
+    }
+	 var rik = "'";
+ 
+	var code = '<a href='+hrl+' style='+rik+'padding:10px 15px;border:1px solid #777;color:#777;text-decoration:none;'+rik+'>'+login+'</a>  ';
+return code;
+};
+
+Blockly.Arduino['base_code_entree_esp8266_button']=function(block){
+	var code='EEPROM.read(0)';
+	return [code, Blockly.Arduino.ORDER_ATOMIC] ;
+};
+
+Blockly.Arduino['base_conect_esp8266_text_kode'] = function(block) {
+var login = block.getFieldValue("TEXT");
+var code = ''+login+'';
+return code;
+};
+
+Blockly.Arduino['esp8266_setcursor'] = function(block) {
+
+  var value_texttoprint = Blockly.Arduino.valueToCode(block, 'texttoprint', Blockly.Arduino.ORDER_ATOMIC);
+
+  var code = '<p>" + String('+value_texttoprint+') + "</p>';
+
+  return code;
+};
+ Blockly.Arduino['base_conect_esp8266_s'] = function(block) {
+ var dropdown_pin1=block.getFieldValue("PIN1");
+ var dropdown_pin2=block.getFieldValue("PIN2");
+ var dropdown_speed1 = block.getFieldValue("SPEED1");
+ var dropdown_speed2 = block.getFieldValue("SPEED2");
+ var enter = ("\\r\\n");
+ Blockly.Arduino.definitions_['define_base_codemm_esp8266']='  #include <EEPROM.h> \n int esp = 0; \n #include <SoftwareSerial.h> \n SoftwareSerial esp8266('+ dropdown_pin1 +','+ dropdown_pin2 +'); \n\n String sendData(String command, const int timeout, boolean debug){ \n String response = ""; \n  esp8266.print(command); \n  long int time = millis(); \n  while((time+timeout) > millis()) { \n  while(esp8266.available()){ \n char c = esp8266.read(); \n  response+=c; \n } \n } \n if(debug){ \n Serial.print(response); \n } \n return response;   \n } \n  ';
+ var code = ' \n Serial.begin('+ dropdown_speed1 +'); \n esp8266.begin('+ dropdown_speed2 +'); \n sendData("AT+RST'+enter+'", 2000, 1); \n delay (3000); \n sendData("AT+CWMODE=2'+enter+'", 1500, 1); \n delay (1000); \n sendData("AT+CIFSR'+enter+'", 1500, 1); \n delay (1000); \n sendData("AT+CIPMUX=1'+enter+'", 1500, 1); \n delay (1000); \n sendData("AT+CIPSERVER=1,80'+enter+'", 1500, 1); \n';
+return code;
+};
+
+Blockly.Arduino['base_conect_esp8266_12f'] = function(block) {
+ var login = block.getFieldValue("TEXT1");
+ var pass = block.getFieldValue("TEXT2");
+ var enter = ("\\r\\n");
+ var rr = ("('r')");
+ Blockly.Arduino.definitions_['base_conect_esp8266_12f']=' #include <ESP8266WiFi.h> \n WiFiServer server(80);  \n  ';
+ Blockly.Arduino.setups_['define_base_conect_esp8266_12f'] = '   Serial.begin(9600); \n   WiFi.begin("'+login+'", "'+pass+'");  \n  while (WiFi.status() != WL_CONNECTED){ \n   delay(500); \n     Serial.print("."); \n   } \n server.begin(); \n   Serial.println(WiFi.localIP()); \n';
+
+ var code = '   WiFiClient client = server.available();  \n  String lineal = client. readStringUntil'+rr+';  \n';
+return code;
+};
+
+Blockly.Arduino['base_conect_esp8266_12f_esp'] = function(block) {
+ var login = block.getFieldValue("TEXT1");
+ var pass = block.getFieldValue("TEXT2");
+
+
+ Blockly.Arduino.definitions_['base_conect_esp8266_12f']=' #include <WiFi.h> \n #include <WebServer.h> \n WebServer server(80);  \n  ';
+ Blockly.Arduino.setups_['define_base_conect_esp8266_12f'] = '   Serial.begin(9600); \n  delay(1000); \n WiFi.begin("'+login+'", "'+pass+'");  \n  while (WiFi.status() != WL_CONNECTED){ \n   delay(1000); \n     Serial.print("."); \n   } \n Serial.println(WiFi.localIP()); \n server.begin(); \n ';
+
+ var code = '   server.handleClient();  \n ';
+return code;
+};
+
+Blockly.Arduino["base_define_for_esp8266_12f"]=function(block){
+ var repeats = block.getFieldValue("TEXT");
+ var branch = Blockly.Arduino.statementToCode(this, 'DO');
+  var code = '  if(lineal.indexOf("ID='+repeats+'")>0){   \n  ' +
+      branch + ' }  \n';
+  return code;
+};
+
+Blockly.Arduino["base_define_for_esp8266_12f_esp"]=function(block){
+ var repeats = block.getFieldValue("TEXT");
+ var branch = Blockly.Arduino.statementToCode(this, 'DO');
+  var code = '  if(lineal.indexOf("ID='+repeats+'")>0){   \n  ' +
+      branch + ' }  \n';
+  return code;
+};
+
+Blockly.Arduino["base_define_ttl_uart_top"]=function(block){
+ Blockly.Arduino.definitions_['base_define_ttl_uart_top']=' String UARTDISPLAY = "  ";  \n  ';
+var code = '  UARTDISPLAY = mySerial.read();  \n';
+return code;
+};
+Blockly.Arduino["base_define_ttl_uart"]=function(block){
+ var repeats = block.getFieldValue("TEXT");
+ var branch = Blockly.Arduino.statementToCode(this, 'DO');
+  var code = ' if (UARTDISPLAY == "'+repeats+'") {\n ' +
+ 
+      branch + ' }  \n   ';
+  return code;
+};
+
+Blockly.Arduino['base_conect_esp8266_button_12f'] = function(block) {
+	var dropdown = block.getFieldValue("TEXT2");
+	var login = block.getFieldValue("TEXT");
+    var rik = "'";
+	var code = 'client.println(" <a href='+rik+'./?ID='+dropdown+''+rik+' style='+rik+'padding:10px 15px;mergin:10px;border:1px solid #777;color:#777;text-decoration:none;'+rik+'>'+login+'</a> "); \n ';
+return code;
+};
+      
+         
+ Blockly.Arduino['base_conect_esp8266_title_12f'] = function(block) {
+	var login = block.getFieldValue("TEXT");
+	var code = 'client.println("<!DOCTYPE html> <html lang=ru> <head> <meta charset=UTF-8> <title>'+login+'</title> <meta name=viewport content=width=200> </head> <body data-attr=ru>"); \n ';
+return code;
+}; 
+ Blockly.Arduino['base_conect_esp8266_title_12f_esp'] = function(block) {
+	var login = block.getFieldValue("TEXT");
+	var code = ' server.send(200, "text/html", "<!DOCTYPE html> <html lang=ru> <head> <meta charset=UTF-8> <title>'+login+'</title> <meta name=viewport content=width=200> </head> <body data-attr=ru>"); \n ';
+return code;
+};
+     
+ Blockly.Arduino['base_conect_esp8266_par_12f'] = function(block) {
+	var login = block.getFieldValue("TEXT");
+	var code = 'client.println(" <p>'+login+'</p> "); \n ';
+return code;
+}; 
+ Blockly.Arduino['base_conect_esp8266_par_12f_esp'] = function(block) {
+	var login = block.getFieldValue("TEXT");
+	var code = 'server.send(200, "text/html", " <p>'+login+'</p> "); \n ';
+return code;
+};  
+ Blockly.Arduino['base_conect_esp8266_kode_12f'] = function(block) {
+	var login = block.getFieldValue("TEXT");
+	var code = 'client.println("'+login+'"); \n ';
+return code;
+};    
+
+ Blockly.Arduino['base_form_none'] = function(block) {
+	//var login = block.getFieldValue("TEXT");
+	var code = 'break; \n ';
+return code;
+};  
+ Blockly.Arduino['base_form_none2'] = function(block) {
+	//var login = block.getFieldValue("TEXT");
+	var code = 'continue; \n ';
+return code;
+};
+ Blockly.Arduino['base_form_none3'] = function(block) {
+
+ var branch = Blockly.Arduino.statementToCode(this, 'DO');
+  if (Blockly.Arduino.INFINITE_LOOP_TRAP) {
+    branch = Blockly.Arduino.INFINITE_LOOP_TRAP.replace(/%1/g,
+        '\'' + this.id + '\'') + branch;
+  }
+  var loopVar = Blockly.Arduino.variableDB_.getName(
+      'count', Blockly.Variables.NAME_TYPE);
+  var code = 'while (1){ \n' +
+     // loopVar + ' < ' + repeats + '; ' +
+     // loopVar + '++) {\n' +
+      branch + '}\n';
+  return code;
+};
+
+
+
+
+Blockly.Arduino['esp8266_setcursor_12f'] = function(block) {
+
+  var value_texttoprint = Blockly.Arduino.valueToCode(block, 'texttoprint', Blockly.Arduino.ORDER_ATOMIC);
+
+  var code = 'client.print('+value_texttoprint+'); \n ';    
+
+  return code;
+};
+
+Blockly.Arduino['base_form_RR'] = function(block) {
+
+  var value_texttoprint = Blockly.Arduino.valueToCode(block, 'texttoprint', Blockly.Arduino.ORDER_ATOMIC);
+var dropdown_pin = block.getFieldValue("SPEED");
+  var code = ' '+value_texttoprint+''+dropdown_pin+' ; \n ';    
+
+  return code;
+};
+
+Blockly.Arduino['interrupts_attach1'] = function(block) {
+
+var dropdown_pin = block.getFieldValue("PIN");
+  var code = ' detachInterrupt('+dropdown_pin+'); \n ';    
+ 
+  return code;
+};
+Blockly.Arduino['interrupts_attach2'] = function(block) {
+
+
+  var code = ' interrupts(); \n ';    
+ 
+  return code;
+};
+Blockly.Arduino['interrupts_attach3'] = function(block) {
+
+
+  var code = ' noInterrupts(); \n ';    
+ 
+  return code;
+};
+
+
+Blockly.Arduino["logic_van"]=function(block){
+    var dropdown_pin=block.getFieldValue("SPEED1");
+    var code=''+ dropdown_pin +'';
+    return [code, Blockly.Arduino.ORDER_ATOMIC]
+};
+Blockly.Arduino["logic_hilov"]=function(block){
+    var dropdown_pin=block.getFieldValue("SPEED1");
+    var code=''+ dropdown_pin +'';
+    return [code, Blockly.Arduino.ORDER_ATOMIC]
+};
+Blockly.Arduino["logic_ONOFF"]=function(block){
+    var dropdown_pin=block.getFieldValue("SPEED1");
+    var code=''+ dropdown_pin +'';
+    return [code, Blockly.Arduino.ORDER_ATOMIC]
+};
+Blockly.Arduino["logic_N_pin"]=function(block){
+    var dropdown_pin=block.getFieldValue("SPEED1");
+    var code=''+ dropdown_pin +'';
+    return [code, Blockly.Arduino.ORDER_ATOMIC]
+};
+ Blockly.Arduino["logic_N_pin2"]=function(block){
+    var dropdown_pin=block.getFieldValue("SPEED1");
+    var code=''+ dropdown_pin +'';
+    return [code, Blockly.Arduino.ORDER_ATOMIC]
+};
+ Blockly.Arduino["logic_N_pin3"]=function(block){
+    var dropdown_pin=block.getFieldValue("SPEED1");
+    var code=''+ dropdown_pin +'';
+    return [code, Blockly.Arduino.ORDER_ATOMIC]
+};
+Blockly.Arduino["logic_N_pinESP"]=function(block){
+    var dropdown_pin=block.getFieldValue("SPEED1");
+    var code=''+ dropdown_pin +'';
+    return [code, Blockly.Arduino.ORDER_ATOMIC]
+};
+
+
+
+
+
+
+Blockly.Arduino['telegram_con'] = function(block) {
+	var Pass_wifi = block.getFieldValue("TEXT2");
+	var Name_wifi = block.getFieldValue("TEXT1");
+    var token_bot = block.getFieldValue("TEXT3");
+    var branch = Blockly.Arduino.statementToCode(this, 'DO');
+
+Blockly.Arduino.definitions_['define_Universal-Arduino-Telegram-Bot-master'] = '#include <ESP8266WiFi.h>\n#include <WiFiClientSecure.h>\n#include <UniversalTelegramBot.h>\n#define WIFI_SSID "'+Name_wifi+'" \n #define WIFI_PASSWORD "'+Pass_wifi+'" \n #define BOT_TOKEN "'+token_bot+'" \n const unsigned long BOT_MTBS = 100; \n X509List cert(TELEGRAM_CERTIFICATE_ROOT); \n WiFiClientSecure secured_client; \n UniversalTelegramBot bot(BOT_TOKEN, secured_client); \n unsigned long bot_lasttime; \n int ledStatus = 0; \n void handleNewMessages(int numNewMessages) \n {     \n for (int i = 0; i < numNewMessages; i++) \n { \n String chat_id = bot.messages[i].chat_id; \n String text = bot.messages[i].text; \n String from_name = bot.messages[i].from_name; \n if (from_name == "") \n from_name = "Guest"; \n ' +
+      branch + ' }  \n }  \n';
+
+Blockly.Arduino.setups_['setup_Universal-Arduino-Telegram-Bot-master']='Serial.begin(9600); \n Serial.println(); \n configTime(0, 0, "pool.ntp.org"); \n secured_client.setTrustAnchors(&cert); \n WiFi.begin(WIFI_SSID, WIFI_PASSWORD); \n while (WiFi.status() != WL_CONNECTED) \n { \n  \n delay(500); \n } \n Serial.print("WiFi connected. IP address: "); \n Serial.println(WiFi.localIP()); \n Serial.print("Retrieving time: "); \n time_t now = time(nullptr); \n while (now < 24 * 3600) \n { \n  delay(100); \n now = time(nullptr); \n }    \n';
+
+var code = 'if (millis() - bot_lasttime > BOT_MTBS) \n{ \n int numNewMessages = bot.getUpdates(bot.last_message_received + 1); \n    while (numNewMessages) \n { \n  \n handleNewMessages(numNewMessages); \n numNewMessages = bot.getUpdates(bot.last_message_received + 1); \n} \n bot_lasttime = millis(); \n } \n';
+
+return code;
+};
+
+
+Blockly.Arduino['telegram_con_ESP32'] = function(block) {
+	var Pass_wifi = block.getFieldValue("TEXT2");
+	var Name_wifi = block.getFieldValue("TEXT1");
+    var token_bot = block.getFieldValue("TEXT3");
+    var branch = Blockly.Arduino.statementToCode(this, 'DO');
+
+Blockly.Arduino.definitions_['define_Universal-Arduino-Telegram-Bot-master'] = '#include <WiFi.h>  \n ' +
+ ' #include <WiFiClientSecure.h>  \n ' +
+ ' #include <UniversalTelegramBot.h>  \n ' +
+ ' #define WIFI_SSID "'+Name_wifi+'"  \n ' +
+ ' #define WIFI_PASSWORD "'+Pass_wifi+'"  \n ' +
+ ' #define BOT_TOKEN "'+token_bot+'"  \n ' +
+ ' const unsigned long BOT_MTBS = 1000;  \n ' +
+ ' WiFiClientSecure secured_client;  \n ' +
+ ' UniversalTelegramBot bot(BOT_TOKEN, secured_client);  \n ' +
+ ' unsigned long bot_lasttime;   \n ' +
+ ' void handleNewMessages(int numNewMessages)  \n ' +
+ ' {  \n ' +
+ '   Serial.print("handleNewMessages ");  \n ' +
+ '   Serial.println(numNewMessages);  \n ' +
+ '   \n ' +
+ '   for (int i = 0; i < numNewMessages; i++)  \n ' +
+ '   {  \n ' +
+ '     String chat_id = bot.messages[i].chat_id;  \n ' +
+ '     String text = bot.messages[i].text;  \n ' +
+ '     String from_name = bot.messages[i].from_name;  \n ' +
+ '     if (from_name == "")  \n ' +
+ '       from_name = "Guest";  \n ' +
+ 
+    branch + ' }  \n }  \n';
+
+Blockly.Arduino.setups_['setup_Universal-Arduino-Telegram-Bot-master']='Serial.begin(9600); \n  '+
+ ' Serial.println(); \n '+
+ '   Serial.print("Connecting to Wifi SSID "); \n '+
+ '   Serial.print(WIFI_SSID); \n '+
+ '   WiFi.begin(WIFI_SSID, WIFI_PASSWORD); \n '+
+ '   secured_client.setCACert(TELEGRAM_CERTIFICATE_ROOT);  \n '+ 
+ '   while (WiFi.status() != WL_CONNECTED) \n '+
+ '   { \n '+
+ '     Serial.print("."); \n '+
+ '     delay(500); \n '+
+ '   } \n '+
+ '   Serial.print("WiFi connected. IP address: "); \n '+
+ '   Serial.println(WiFi.localIP()); \n '+
+ '   Serial.print("Retrieving time: "); \n '+
+ '   configTime(0, 0, "pool.ntp.org");  \n '+
+ '   time_t now = time(nullptr); \n '+
+ '   while (now < 24 * 3600) \n '+
+ '   { \n '+
+ '     Serial.print("."); \n '+
+ '     delay(100); \n '+
+ '     now = time(nullptr); \n '+
+ '   } \n '+
+ '   Serial.println(now); \n '+
+ '    \n';
+
+var code = ' if (millis() - bot_lasttime > BOT_MTBS) \n '+
+ '   { \n '+
+ '     int numNewMessages = bot.getUpdates(bot.last_message_received + 1); \n '+
+ '     while (numNewMessages) \n '+
+ '     { \n '+
+ '       Serial.println("got response"); \n '+
+ '       handleNewMessages(numNewMessages); \n '+
+ '       numNewMessages = bot.getUpdates(bot.last_message_received + 1); \n '+
+ '     } \n '+
+ '     bot_lasttime = millis(); \n '+
+ '   } \n '+
+ '   \n';
+
+return code;
+};
+
+
+Blockly.Arduino["telegram_otvet"]=function(block){
+var repeats = block.getFieldValue("TEXT");
+var branch = Blockly.Arduino.statementToCode(this, 'DO');
+var code = '  if(text == "'+repeats+'"){   \n  ' +
+    branch + ' }  \n';
+  return code;
+};
+
+
+
+Blockly.Arduino['telegram_otvet2'] = function(block) {
+
+var text_otvet = Blockly.Arduino.valueToCode(block, 'text_otvet', Blockly.Arduino.ORDER_ATOMIC);
+
+var code = 'bot.sendMessage(chat_id, '+text_otvet+', "");\n';
+
+return code;
+};
+
+Blockly.Arduino['telegram_otpravit'] = function(block) {
+
+var chat_id = Blockly.Arduino.valueToCode(block, 'chat_id', Blockly.Arduino.ORDER_ATOMIC);
+var text_soob = Blockly.Arduino.valueToCode(block, 'text_soob', Blockly.Arduino.ORDER_ATOMIC);
+
+var code = 'bot.sendMessage('+chat_id+', '+text_soob+', "");\n';
+
+return code;
+};
+
+
+Blockly.Arduino['telegram_rty'] = function(block) {
+
+    
+
+var code = 'text';
+
+return [code, Blockly.Arduino.ORDER_ATOMIC]
+
+return code;
+};
+
+Blockly.Arduino['telegram_rtyid'] = function(block) {
+
+    
+
+var code = 'chat_id';
+
+return [code, Blockly.Arduino.ORDER_ATOMIC]
+
+return code;
+};
+
+
+Blockly.Arduino['telegram_otpravitii'] = function(block) {
+
+
+var code = 'bot.messages[i].from_name';
+
+return [code, Blockly.Arduino.ORDER_ATOMIC]
+
+return code;
+};
+
+
+Blockly.Arduino['Init_MAX7219_ledmatrix4x'] = function(block) {
+  var pin_clk = Blockly.Arduino.valueToCode(block, 'PIN_DAT', Blockly.Arduino.ORDER_ATOMIC);  
+  var pin_dat = Blockly.Arduino.valueToCode(block, 'PIN_CS', Blockly.Arduino.ORDER_ATOMIC);  
+  var pin_cs = Blockly.Arduino.valueToCode(block, 'PIN_CLK', Blockly.Arduino.ORDER_ATOMIC); 
+  var dp = this.getFieldValue('dp');
+  var dp2 = this.getFieldValue('dp2');
+  var kv = "'";
+  var sl = "\\";
+  Blockly.Arduino.definitions_['Init_MAX7219_ledmatrix4x'] = '#include <SPI.h> \n '+
+' #include <Adafruit_GFXx.h> \n '+
+' #include <Max72xxPanel.h> \n '+
+' int pinCS = '+pin_cs+';  \n '+
+' int numberOfHorizontalDisplays = '+pin_clk+';  \n '+
+' int numberOfVerticalDisplays = '+pin_dat+';  \n '+
+' Max72xxPanel matrix = Max72xxPanel(pinCS, numberOfHorizontalDisplays, numberOfVerticalDisplays); \n '+
+' String tape = " "; \n '+
+' int wait = 30; \n '+
+' int spacer = 1;  \n '+
+' int width = 5 + spacer;  \n '+
+' int i; \n '+
+' String utf8rus(String source) \n '+
+' { \n '+
+'   int i,k; \n '+
+'   String target; \n '+
+'   unsigned char n; \n '+
+'   char m[2] = { '+kv+'0'+kv+', '+kv+''+sl+'0'+kv+' }; \n '+
+'   k = source.length(); i = 0; \n '+
+'   while (i < k) {'+
+'     n = source[i]; i++; \n '+
+'     if (n >= 0xC0) { \n '+
+'       switch (n) { \n '+
+'         case 0xD0: { \n '+
+'           n = source[i]; i++; \n '+
+'           if (n == 0x81) { n = 0xA8; break; } \n '+
+'           if (n >= 0x90 && n <= 0xBF) n = n + 0x2F; \n '+
+'           break; \n '+
+'         } \n '+
+'         case 0xD1: { \n '+
+'           n = source[i]; i++; \n '+
+'           if (n == 0x91) { n = 0xB7; break; } \n '+
+'           if (n >= 0x80 && n <= 0x8F) n = n + 0x6F; \n '+
+'           break; \n '+
+'         } \n '+
+'       } \n '+
+'     } \n '+
+'     m[0] = n; target = target + String(m); \n '+
+'   } \n '+
+' return target; \n '+
+' } \n';
+
+  Blockly.Arduino.setups_['setup_Init_MAX7219_ledmatrix4x']='   matrix.setIntensity('+dp2+'); \n  matrix.setRotation(matrix.getRotation()+'+dp+'); \n'; 
+
+  var code='';
+  return code;
+};
+
+
+ Blockly.Arduino['Init_MAX7219_ledmatrix4x_text'] = function(block) {
+
+var Y_Nokia = Blockly.Arduino.valueToCode(block, 'Y_Nokia', Blockly.Arduino.ORDER_ATOMIC);
+var texttoprint = Blockly.Arduino.valueToCode(block, 'texttoprint', Blockly.Arduino.ORDER_ATOMIC);
+var size = this.getFieldValue('size'); 
+Blockly.Arduino.definitions_['Init_MAX7219_ledmatrix4x_text'] = '  int x; \n int y; \n   ';
+
+if(size == 0){
+var code = '    tape = utf8rus('+texttoprint+'); \n	     \n	  for ( int i = 0 ; i < width * tape.length() + matrix.width() - 1 - spacer; i++ )  \n	       { \n	    matrix.fillScreen(LOW); \n	    int letter = i / width; \n	      x = (matrix.width() - 1) - i % width;   \n	     y = (matrix.height() - 8) / 2; \n	   while ( x + width - spacer >= 0 && letter >= 0 ) { \n	      if ( letter < tape.length() ) { \n	        matrix.drawChar(x, y, tape[letter], HIGH, LOW,1); \n	      } \n	      letter--; \n	     x -= width; \n	    } \n	    matrix.write(); \n	    delay('+Y_Nokia+'); \n	  } \n	';
+}
+if(size == 1){
+
+ var code = ' tape = utf8rus('+texttoprint+'); \n	  x = (matrix.width() - (tape.length() * width)) / 2;  \n	  y = (matrix.height() - 8) / 2;  \n	  matrix.fillScreen(LOW); \n	  for ( int i = 0 ; i < tape.length(); i++ ) {    \n	     int letter = i; \n	     matrix.drawChar(x, y, tape[letter], HIGH, LOW, 1);   \n	      x += width;   \n	   } \n	   matrix.write();  \n	 delay('+Y_Nokia+'); \n  	 ';
+}
+return code;
+};
+
+
+
+Blockly.Arduino['web_esp_conect']=function(block){
+    var valuename = block.getFieldValue('name');
+    var valuepass = block.getFieldValue('pass');
+	var valuetitle = block.getFieldValue('title');
+    var valueesp_statement = Blockly.Arduino.statementToCode(block, 'esp_statement');
+
+    Blockly.Arduino.userFunctions_['userFunctions_web_esp_conect'] = ' \n '+	
+ ' #include <WiFi.h> \n '+
+ ' #include <WebServer.h> \n '+
+ ' const char* ssid = "'+valuename+'";  \n '+ 
+ ' const char* password = "'+valuepass+'";  \n '+ 
+ ' WebServer server(80); \n '+
+ ' int a = 0; \n '+
+ '  \n '+
+ ' void handle_led1off() { \n '+
+ ' a = 1; \n '+
+ '   server.send(200, "text/html", SendHTML(false,0));  \n '+
+ ' } \n '+
+ ' void handle_led2off() { \n '+
+ ' a = 2; \n '+
+ '   server.send(200, "text/html", SendHTML(false,0));  \n '+
+ ' } \n '+
+ ' void handle_led3off() { \n '+
+ ' a = 3; \n '+
+ '   server.send(200, "text/html", SendHTML(false,0));  \n '+
+ ' } \n '+
+ ' void handle_led4off() { \n '+
+ ' a = 4; \n '+
+ '   server.send(200, "text/html", SendHTML(false,0));  \n '+
+ ' } \n '+
+ ' void handle_led5off() { \n '+
+ ' a = 5; \n '+
+ '   server.send(200, "text/html", SendHTML(false,0)); \n '+ 
+ ' } \n '+
+ ' void handle_led6off() { \n '+
+ ' a = 6; \n '+
+ '   server.send(200, "text/html", SendHTML(false,0));  \n '+
+ ' } \n '+
+ ' void handle_led7off() { \n '+
+ ' a = 7; \n '+
+ '   server.send(200, "text/html", SendHTML(false,0));  \n '+
+ ' } \n '+
+ ' void handle_led8off() { \n '+
+ ' a = 8; \n '+
+ '   server.send(200, "text/html", SendHTML(false,0));  \n '+
+ ' } \n '+
+ ' void handle_led9off() { \n '+
+ ' a = 9; \n '+
+ '   server.send(200, "text/html", SendHTML(false,0));  \n '+
+ ' } \n '+
+ ' void handle_led10off() { \n '+
+ ' a = 10; \n '+
+ '   server.send(200, "text/html", SendHTML(false,0)); \n '+
+ ' } \n '+
+  ' void handle_NotFound(){ \n '+
+ '   server.send(404, "text/plain", "Not found 404"); \n '+
+ ' } \n '+
+  ' void handle_OnConnect() {\n '+
+ '   server.send(200, "text/html", SendHTML(false,0)); \n '+
+ ' }  \n '+
+ '  String SendHTML(uint8_t led1stat,uint8_t led2stat){ \n '+
+ '   String ptr = "<!DOCTYPE html> <html>"; \n '+
+ '   ptr +="<meta http-equiv=\\"Content-type\\" content=\\"text/html; charset=utf-8\\"><head><meta name=\\"viewport\\" content=\\"width=device-width, initial-scale=1.0, user-scalable=no\\">"; \n '+
+ '   ptr +="<title>'+valuetitle+'</title>"; \n '+
+ '   ptr +="<style>html { font-family: Helvetica; display: inline-block; margin: 0px auto; text-align: center;}"; \n '+
+ '   ptr +="body{margin-top: 50px;} h1 {color: #444444;margin: 50px auto 30px;} h3 {color: #444444;margin-bottom: 50px;}"; \n '+
+ '   ptr +=".button {display: block;width: 80px;background-color: #ffffff;border: none;color: #777777 ;padding: 13px 30px;text-decoration: none;font-size: 25px;margin: 0px auto 35px;cursor: pointer;border: 1px solid #777777;}"; \n '+
+ '   ptr +=".button-off {background-color: #ffffff;}"; \n '+
+ '   ptr +=".button-off:active {background-color: #ffffff;}"; \n '+
+ '   ptr +="p {font-size: 14px;color: #888;margin-bottom: 10px;}"; \n '+
+ '   ptr +="</style>"; \n '+
+ '   ptr +="<script>        "; \n '+
+ '   ptr +="function send(led_sts)      ";    \n '+
+ '   ptr +="{        "; \n '+
+ '   ptr +="  var xhttp = new XMLHttpRequest();     ";    \n '+
+ '   ptr +="  xhttp.onreadystatechange = function() {      ";  \n '+ 
+ '   ptr +="    if (this.readyState == 4 && this.status == 200) {      ";   \n '+
+ '   ptr +="      document.getElementById(\\"state\\").innerHTML = this.responseText;    ";  \n '+   
+ '   ptr +="    }        "; \n '+
+ '   ptr +="  };        "; \n '+
+ '   ptr +="  xhttp.open(\\"GET\\", \\"led\\"+led_sts, true);   ";   \n '+   
+ '   ptr +="  xhttp.send();        "; \n '+
+ '   ptr +=" } ";        \n '+
+ '   ptr +="setInterval(function()       ";   \n '+
+ '   ptr +="{        "; \n '+
+ '   ptr +="  getData();    ";  \n '+   
+ '   ptr +="}, 2000);       ";  \n '+ 
+ '   ptr +="function getData() {   ";  \n '+    
+ '   ptr +="  var xhttp = new XMLHttpRequest();       ";  \n '+
+ '   ptr +="  xhttp.onreadystatechange = function() {        "; \n '+
+ '   ptr +="    if (this.readyState == 4 && this.status == 200) {        "; \n '+
+ '   ptr +="      document.getElementById(\\"adc_val\\").innerHTML = this.responseText;    ";  \n '+   
+ '   ptr +="    }        "; \n '+
+ '   ptr +="  };        "; \n '+
+ '   ptr +="  xhttp.open(\\"GET\\", \\"adcread\\", true);    ";    \n '+ 
+ '   ptr +="  xhttp.send();     ";  \n '+  
+ '   ptr +="}        "; \n '+
+ '   ptr +="</script>   "; \n '+
+ '   ptr +="</head>"; \n '+
+ '   ptr +="<body>"; \n '+
+ '  '+valueesp_statement+' '+
+ '   ptr +="</body>"; \n '+
+ '   ptr +="</html>"; \n '+
+ '   return ptr; \n '+
+ ' } \n';
+
+ 
+    Blockly.Arduino.setups_['setups_web_esp_conect']=' \n '+ 	
+ '   Serial.begin(9600); \n '+ 
+ '   delay(100); \n '+ 
+ '   Serial.println("Connecting to "); \n '+ 
+ '   Serial.println(ssid); \n '+ 
+ '   WiFi.begin(ssid, password); \n '+ 
+ '   while (WiFi.status() != WL_CONNECTED) { \n '+ 
+ '   delay(1000); \n '+ 
+ '   Serial.print("."); \n '+ 
+ '   } \n '+ 
+ '   Serial.println(""); \n '+ 
+ '   Serial.println("WiFi connected..!"); \n '+ 
+ '   Serial.print("Got IP: ");  Serial.println(WiFi.localIP()); \n '+ 
+ '  server.on("/", handle_OnConnect); \n '+ 
+ '   server.on("/led1", handle_led1off); \n '+
+ '   server.on("/led2", handle_led2off); \n '+
+ '   server.on("/led3", handle_led3off); \n '+
+ '   server.on("/led4", handle_led4off); \n '+
+ '   server.on("/led5", handle_led5off); \n '+
+ '   server.on("/led6", handle_led6off); \n '+
+ '   server.on("/led7", handle_led7off); \n '+
+ '   server.on("/led8", handle_led8off); \n '+
+ '   server.on("/led9", handle_led9off); \n '+
+ '   server.on("/led10", handle_led10off); \n '+
+  '  \n '+
+ '   server.onNotFound(handle_NotFound); \n '+ 
+ '   server.begin(); \n '+ 
+ '   Serial.println("HTTP server started"); \n ';
+   
+    var code = 'server.handleClient(); \n ';
+    return code
+};
+
+Blockly.Arduino['web_esp_conect_12f']=function(block){
+    var valuename = block.getFieldValue('name');
+    var valuepass = block.getFieldValue('pass');
+	var valuetitle = block.getFieldValue('title');
+    var valueesp_statement = Blockly.Arduino.statementToCode(block, 'esp_statement');
+
+    Blockly.Arduino.userFunctions_['userFunctions_web_esp_conect'] = ' \n '+	
+ ' #include <ESP8266WiFi.h>  \n '+ 
+ ' #include <ESP8266WebServer.h>  \n '+ 
+ ' const char* ssid = "'+valuename+'";  \n '+ 
+ ' const char* password = "'+valuepass+'";  \n '+ 
+ ' ESP8266WebServer server(80); \n '+
+ ' int a = 0; \n '+
+ '  \n '+
+ ' void handle_led1off() { \n '+
+ ' a = 1; \n '+
+ '   server.send(200, "text/html", SendHTML(false,0));  \n '+
+ ' } \n '+
+ ' void handle_led2off() { \n '+
+ ' a = 2; \n '+
+ '   server.send(200, "text/html", SendHTML(false,0));  \n '+
+ ' } \n '+
+ ' void handle_led3off() { \n '+
+ ' a = 3; \n '+
+ '   server.send(200, "text/html", SendHTML(false,0));  \n '+
+ ' } \n '+
+ ' void handle_led4off() { \n '+
+ ' a = 4; \n '+
+ '   server.send(200, "text/html", SendHTML(false,0));  \n '+
+ ' } \n '+
+ ' void handle_led5off() { \n '+
+ ' a = 5; \n '+
+ '   server.send(200, "text/html", SendHTML(false,0)); \n '+ 
+ ' } \n '+
+ ' void handle_led6off() { \n '+
+ ' a = 6; \n '+
+ '   server.send(200, "text/html", SendHTML(false,0));  \n '+
+ ' } \n '+
+ ' void handle_led7off() { \n '+
+ ' a = 7; \n '+
+ '   server.send(200, "text/html", SendHTML(false,0));  \n '+
+ ' } \n '+
+ ' void handle_led8off() { \n '+
+ ' a = 8; \n '+
+ '   server.send(200, "text/html", SendHTML(false,0));  \n '+
+ ' } \n '+
+ ' void handle_led9off() { \n '+
+ ' a = 9; \n '+
+ '   server.send(200, "text/html", SendHTML(false,0));  \n '+
+ ' } \n '+
+ ' void handle_led10off() { \n '+
+ ' a = 10; \n '+
+ '   server.send(200, "text/html", SendHTML(false,0)); \n '+
+ ' } \n '+
+  ' void handle_NotFound(){ \n '+
+ '   server.send(404, "text/plain", "Not found 404"); \n '+
+ ' } \n '+
+  ' void handle_OnConnect() {\n '+
+ '   server.send(200, "text/html", SendHTML(false,0)); \n '+
+ ' }  \n '+
+ '  String SendHTML(uint8_t led1stat,uint8_t led2stat){ \n '+
+ '   String ptr = "<!DOCTYPE html> <html>"; \n '+
+ '   ptr +="<meta http-equiv=\\"Content-type\\" content=\\"text/html; charset=utf-8\\"><head><meta name=\\"viewport\\" content=\\"width=device-width, initial-scale=1.0, user-scalable=no\\">"; \n '+
+ '   ptr +="<title>'+valuetitle+'</title>"; \n '+
+ '   ptr +="<style>html { font-family: Helvetica; display: inline-block; margin: 0px auto; text-align: center;}"; \n '+
+ '   ptr +="body{margin-top: 50px;} h1 {color: #444444;margin: 50px auto 30px;} h3 {color: #444444;margin-bottom: 50px;}"; \n '+
+ '   ptr +=".button {display: block;width: 80px;background-color: #ffffff;border: none;color: #777777 ;padding: 13px 30px;text-decoration: none;font-size: 25px;margin: 0px auto 35px;cursor: pointer;border: 1px solid #777777;}"; \n '+
+ '   ptr +=".button-off {background-color: #ffffff;}"; \n '+
+ '   ptr +=".button-off:active {background-color: #ffffff;}"; \n '+
+ '   ptr +="p {font-size: 14px;color: #888;margin-bottom: 10px;}"; \n '+
+ '   ptr +="</style>"; \n '+
+ '   ptr +="</head>"; \n '+
+ '   ptr +="<body>"; \n '+
+ '  '+valueesp_statement+' '+
+ '   ptr +="</body>"; \n '+
+ '   ptr +="</html>"; \n '+
+ '   return ptr; \n '+
+ ' } \n';
+
+ 
+    Blockly.Arduino.setups_['setups_web_esp_conect']=' \n '+ 	
+ '   Serial.begin(9600); \n '+ 
+ '   delay(100); \n '+ 
+ '   Serial.println("Connecting to "); \n '+ 
+ '   Serial.println(ssid); \n '+ 
+ '   WiFi.begin(ssid, password); \n '+ 
+ '   while (WiFi.status() != WL_CONNECTED) { \n '+ 
+ '   delay(1000); \n '+ 
+ '   Serial.print("."); \n '+ 
+ '   } \n '+ 
+ '   Serial.println(""); \n '+ 
+ '   Serial.println("WiFi connected..!"); \n '+ 
+ '   Serial.print("Got IP: ");  Serial.println(WiFi.localIP()); \n '+ 
+ '  server.on("/", handle_OnConnect); \n '+ 
+ '   server.on("/led1", handle_led1off); \n '+
+ '   server.on("/led2", handle_led2off); \n '+
+ '   server.on("/led3", handle_led3off); \n '+
+ '   server.on("/led4", handle_led4off); \n '+
+ '   server.on("/led5", handle_led5off); \n '+
+ '   server.on("/led6", handle_led6off); \n '+
+ '   server.on("/led7", handle_led7off); \n '+
+ '   server.on("/led8", handle_led8off); \n '+
+ '   server.on("/led9", handle_led9off); \n '+
+ '   server.on("/led10", handle_led10off); \n '+
+  '  \n '+
+ '   server.onNotFound(handle_NotFound); \n '+ 
+ '   server.begin(); \n '+ 
+ '   Serial.println("HTTP server started"); \n ';
+   
+    var code = 'server.handleClient(); \n ';
+    return code
+};
+
+
+Blockly.Arduino['web_esp_conect_wifi']=function(block){
+    var valuename = block.getFieldValue('name');
+    var valuepass = block.getFieldValue('pass');
+	var valuetitle = block.getFieldValue('title');
+    var valueesp_statement = Blockly.Arduino.statementToCode(block, 'esp_statement');
+
+    Blockly.Arduino.userFunctions_['userFunctions_web_esp_conect'] = ' \n '+	
+ ' #include <WiFi.h> \n '+
+ ' #include <WebServer.h> \n '+
+ ' const char* ssid = "'+valuename+'";  \n '+ 
+ ' const char* password = "'+valuepass+'";  \n '+ 
+ ' IPAddress local_ip(192,168,1,1);  \n '+ 
+ ' IPAddress gateway(192,168,1,1);  \n '+ 
+ ' IPAddress subnet(255,255,255,0);  \n '+ 
+ ' WebServer server(80); \n '+
+ ' int a = 0; \n '+
+ '  \n '+
+ ' void handle_led1off() { \n '+
+ ' a = 1; \n '+
+ '   server.send(200, "text/html", SendHTML(false,0));  \n '+
+ ' } \n '+
+ ' void handle_led2off() { \n '+
+ ' a = 2; \n '+
+ '   server.send(200, "text/html", SendHTML(false,0));  \n '+
+ ' } \n '+
+ ' void handle_led3off() { \n '+
+ ' a = 3; \n '+
+ '   server.send(200, "text/html", SendHTML(false,0));  \n '+
+ ' } \n '+
+ ' void handle_led4off() { \n '+
+ ' a = 4; \n '+
+ '   server.send(200, "text/html", SendHTML(false,0));  \n '+
+ ' } \n '+
+ ' void handle_led5off() { \n '+
+ ' a = 5; \n '+
+ '   server.send(200, "text/html", SendHTML(false,0)); \n '+ 
+ ' } \n '+
+ ' void handle_led6off() { \n '+
+ ' a = 6; \n '+
+ '   server.send(200, "text/html", SendHTML(false,0));  \n '+
+ ' } \n '+
+ ' void handle_led7off() { \n '+
+ ' a = 7; \n '+
+ '   server.send(200, "text/html", SendHTML(false,0));  \n '+
+ ' } \n '+
+ ' void handle_led8off() { \n '+
+ ' a = 8; \n '+
+ '   server.send(200, "text/html", SendHTML(false,0));  \n '+
+ ' } \n '+
+ ' void handle_led9off() { \n '+
+ ' a = 9; \n '+
+ '   server.send(200, "text/html", SendHTML(false,0));  \n '+
+ ' } \n '+
+ ' void handle_led10off() { \n '+
+ ' a = 10; \n '+
+ '   server.send(200, "text/html", SendHTML(false,0)); \n '+
+ ' } \n '+
+  ' void handle_NotFound(){ \n '+
+ '   server.send(404, "text/plain", "Not found 404"); \n '+
+ ' } \n '+
+  ' void handle_OnConnect() {\n '+
+ '   server.send(200, "text/html", SendHTML(false,0)); \n '+
+ ' }  \n '+
+ '  String SendHTML(uint8_t led1stat,uint8_t led2stat){ \n '+
+ '   String ptr = "<!DOCTYPE html> <html>"; \n '+
+ '   ptr +="<meta http-equiv=\\"Content-type\\" content=\\"text/html; charset=utf-8\\"><head><meta name=\\"viewport\\" content=\\"width=device-width, initial-scale=1.0, user-scalable=no\\">"; \n '+
+ '   ptr +="<title>'+valuetitle+'</title>"; \n '+
+ '   ptr +="<style>html { font-family: Helvetica; display: inline-block; margin: 0px auto; text-align: center;}"; \n '+
+ '   ptr +="body{margin-top: 50px;} h1 {color: #444444;margin: 50px auto 30px;} h3 {color: #444444;margin-bottom: 50px;}"; \n '+
+ '   ptr +=".button {display: block;width: 80px;background-color: #ffffff;border: none;color: #777777 ;padding: 13px 30px;text-decoration: none;font-size: 25px;margin: 0px auto 35px;cursor: pointer;border: 1px solid #777777;}"; \n '+
+ '   ptr +=".button-off {background-color: #ffffff;}"; \n '+
+ '   ptr +=".button-off:active {background-color: #ffffff;}"; \n '+
+ '   ptr +="p {font-size: 14px;color: #888;margin-bottom: 10px;}"; \n '+
+ '   ptr +="</style>"; \n '+
+ '   ptr +="<script>        "; \n '+
+ '   ptr +="function send(led_sts)      ";    \n '+
+ '   ptr +="{        "; \n '+
+ '   ptr +="  var xhttp = new XMLHttpRequest();     ";    \n '+
+ '   ptr +="  xhttp.onreadystatechange = function() {      ";  \n '+ 
+ '   ptr +="    if (this.readyState == 4 && this.status == 200) {      ";   \n '+
+ '   ptr +="      document.getElementById(\\"state\\").innerHTML = this.responseText;    ";  \n '+   
+ '   ptr +="    }        "; \n '+
+ '   ptr +="  };        "; \n '+
+ '   ptr +="  xhttp.open(\\"GET\\", \\"led\\"+led_sts, true);   ";   \n '+   
+ '   ptr +="  xhttp.send();        "; \n '+
+ '   ptr +=" } ";        \n '+
+ '   ptr +="setInterval(function()       ";   \n '+
+ '   ptr +="{        "; \n '+
+ '   ptr +="  getData();    ";  \n '+   
+ '   ptr +="}, 2000);       ";  \n '+ 
+ '   ptr +="function getData() {   ";  \n '+    
+ '   ptr +="  var xhttp = new XMLHttpRequest();       ";  \n '+
+ '   ptr +="  xhttp.onreadystatechange = function() {        "; \n '+
+ '   ptr +="    if (this.readyState == 4 && this.status == 200) {        "; \n '+
+ '   ptr +="      document.getElementById(\\"adc_val\\").innerHTML = this.responseText;    ";  \n '+   
+ '   ptr +="    }        "; \n '+
+ '   ptr +="  };        "; \n '+
+ '   ptr +="  xhttp.open(\\"GET\\", \\"adcread\\", true);    ";    \n '+ 
+ '   ptr +="  xhttp.send();     ";  \n '+  
+ '   ptr +="}        "; \n '+
+ '   ptr +="</script>   "; \n '+
+ '   ptr +="</head>"; \n '+
+ '   ptr +="<body>"; \n '+
+ '  '+valueesp_statement+' '+
+ '   ptr +="</body>"; \n '+
+ '   ptr +="</html>"; \n '+
+ '   return ptr; \n '+
+ ' } \n';
+
+ 
+    Blockly.Arduino.setups_['setups_web_esp_conect']=' \n '+ 	
+ '   Serial.begin(9600); \n '+ 
+ '   delay(100); \n '+ 
+ '   WiFi.softAP(ssid, password); \n '+ 
+ '   WiFi.softAPConfig(local_ip, gateway, subnet); \n '+ 
+ '   delay(100); \n '+  
+ '  server.on("/", handle_OnConnect); \n '+ 
+ '   server.on("/led1", handle_led1off); \n '+
+ '   server.on("/led2", handle_led2off); \n '+
+ '   server.on("/led3", handle_led3off); \n '+
+ '   server.on("/led4", handle_led4off); \n '+
+ '   server.on("/led5", handle_led5off); \n '+
+ '   server.on("/led6", handle_led6off); \n '+
+ '   server.on("/led7", handle_led7off); \n '+
+ '   server.on("/led8", handle_led8off); \n '+
+ '   server.on("/led9", handle_led9off); \n '+
+ '   server.on("/led10", handle_led10off); \n '+
+  '  \n '+
+ '   server.onNotFound(handle_NotFound); \n '+ 
+ '   server.begin(); \n '+ 
+ '   Serial.println("HTTP server started"); \n ';
+   
+    var code = 'server.handleClient(); \n ';
+    return code
+};
+
+Blockly.Arduino['web_esp_conect_wifi_12f']=function(block){
+    var valuename = block.getFieldValue('name');
+    var valuepass = block.getFieldValue('pass');
+	var valuetitle = block.getFieldValue('title');
+    var valueesp_statement = Blockly.Arduino.statementToCode(block, 'esp_statement');
+
+    Blockly.Arduino.userFunctions_['userFunctions_web_esp_conect'] = ' \n '+	
+ ' #include <ESP8266WiFi.h>  \n '+ 
+ ' #include <ESP8266WebServer.h>  \n '+ 
+ ' const char* ssid = "'+valuename+'";  \n '+ 
+ ' const char* password = "'+valuepass+'";  \n '+ 
+ ' IPAddress local_ip(192,168,1,1);  \n '+ 
+ ' IPAddress gateway(192,168,1,1);  \n '+ 
+ ' IPAddress subnet(255,255,255,0);  \n '+ 
+ ' ESP8266WebServer server(80); \n '+
+ ' int a = 0; \n '+
+ '  \n '+
+ ' void handle_led1off() { \n '+
+ ' a = 1; \n '+
+ '   server.send(200, "text/html", SendHTML(false,0));  \n '+
+ ' } \n '+
+ ' void handle_led2off() { \n '+
+ ' a = 2; \n '+
+ '   server.send(200, "text/html", SendHTML(false,0));  \n '+
+ ' } \n '+
+ ' void handle_led3off() { \n '+
+ ' a = 3; \n '+
+ '   server.send(200, "text/html", SendHTML(false,0));  \n '+
+ ' } \n '+
+ ' void handle_led4off() { \n '+
+ ' a = 4; \n '+
+ '   server.send(200, "text/html", SendHTML(false,0));  \n '+
+ ' } \n '+
+ ' void handle_led5off() { \n '+
+ ' a = 5; \n '+
+ '   server.send(200, "text/html", SendHTML(false,0)); \n '+ 
+ ' } \n '+
+ ' void handle_led6off() { \n '+
+ ' a = 6; \n '+
+ '   server.send(200, "text/html", SendHTML(false,0));  \n '+
+ ' } \n '+
+ ' void handle_led7off() { \n '+
+ ' a = 7; \n '+
+ '   server.send(200, "text/html", SendHTML(false,0));  \n '+
+ ' } \n '+
+ ' void handle_led8off() { \n '+
+ ' a = 8; \n '+
+ '   server.send(200, "text/html", SendHTML(false,0));  \n '+
+ ' } \n '+
+ ' void handle_led9off() { \n '+
+ ' a = 9; \n '+
+ '   server.send(200, "text/html", SendHTML(false,0));  \n '+
+ ' } \n '+
+ ' void handle_led10off() { \n '+
+ ' a = 10; \n '+
+ '   server.send(200, "text/html", SendHTML(false,0)); \n '+
+ ' } \n '+
+  ' void handle_NotFound(){ \n '+
+ '   server.send(404, "text/plain", "Not found 404"); \n '+
+ ' } \n '+
+  ' void handle_OnConnect() {\n '+
+ '   server.send(200, "text/html", SendHTML(false,0)); \n '+
+ ' }  \n '+
+ '  String SendHTML(uint8_t led1stat,uint8_t led2stat){ \n '+
+ '   String ptr = "<!DOCTYPE html> <html>"; \n '+
+ '   ptr +="<meta http-equiv=\\"Content-type\\" content=\\"text/html; charset=utf-8\\"><head><meta name=\\"viewport\\" content=\\"width=device-width, initial-scale=1.0, user-scalable=no\\">"; \n '+
+ '   ptr +="<title>'+valuetitle+'</title>"; \n '+
+ '   ptr +="<style>html { font-family: Helvetica; display: inline-block; margin: 0px auto; text-align: center;}"; \n '+
+ '   ptr +="body{margin-top: 50px;} h1 {color: #444444;margin: 50px auto 30px;} h3 {color: #444444;margin-bottom: 50px;}"; \n '+
+ '   ptr +=".button {display: block;width: 80px;background-color: #ffffff;border: none;color: #777777 ;padding: 13px 30px;text-decoration: none;font-size: 25px;margin: 0px auto 35px;cursor: pointer;border: 1px solid #777777;}"; \n '+
+ '   ptr +=".button-off {background-color: #ffffff;}"; \n '+
+ '   ptr +=".button-off:active {background-color: #ffffff;}"; \n '+
+ '   ptr +="p {font-size: 14px;color: #888;margin-bottom: 10px;}"; \n '+
+ '   ptr +="</style>"; \n '+
+ '   ptr +="</head>"; \n '+
+ '   ptr +="<body>"; \n '+
+ '  '+valueesp_statement+' '+
+ '   ptr +="</body>"; \n '+
+ '   ptr +="</html>"; \n '+
+ '   return ptr; \n '+
+ ' } \n';
+
+ 
+    Blockly.Arduino.setups_['setups_web_esp_conect']=' \n '+ 	
+ '   Serial.begin(9600); \n '+ 
+ '   delay(100); \n '+ 
+ '   WiFi.softAP(ssid, password); \n '+ 
+ '   WiFi.softAPConfig(local_ip, gateway, subnet); \n '+ 
+ '   delay(100); \n '+  
+ '  server.on("/", handle_OnConnect); \n '+ 
+ '   server.on("/led1", handle_led1off); \n '+
+ '   server.on("/led2", handle_led2off); \n '+
+ '   server.on("/led3", handle_led3off); \n '+
+ '   server.on("/led4", handle_led4off); \n '+
+ '   server.on("/led5", handle_led5off); \n '+
+ '   server.on("/led6", handle_led6off); \n '+
+ '   server.on("/led7", handle_led7off); \n '+
+ '   server.on("/led8", handle_led8off); \n '+
+ '   server.on("/led9", handle_led9off); \n '+
+ '   server.on("/led10", handle_led10off); \n '+
+  '  \n '+
+ '   server.onNotFound(handle_NotFound); \n '+ 
+ '   server.begin(); \n '+ 
+ '   Serial.println("HTTP server started"); \n ';
+   
+    var code = 'server.handleClient(); \n ';
+    return code
+};
+Blockly.Arduino['web_esp_conect_text']=function(block){
+    var valuename = block.getFieldValue('name');
+
+    var code = 'ptr +="<p>'+valuename+'</p>"; \n';
+    return code
+};
+Blockly.Arduino['web_esp_conect_bott']=function(block){
+    var valueid = block.getFieldValue('id');
+    var valuename = block.getFieldValue('name');
+ 
+    var code = 'ptr +="<a class=\\"button button-off\\" href=\\"/'+valueid+'\\">'+valuename+'</a>"; \n';
+    return code
+};
+
+Blockly.Arduino['web_esp_conect_b']=function(block){
+    var valueid = block.getFieldValue('id');
+	var valuename = block.getFieldValue('name');
+    var valuebstatement = Blockly.Arduino.statementToCode(block, 'bstatement');
+    var code = 'ptr +="<a class=\\"button button-off\\"  onclick=\\"send('+valueid+')\\">'+valuename+'</a>"; \n   if (a == '+valueid+') { \n    '+valuebstatement+' \n   } \n  ';
+    return code
+};
+ 
+
+Blockly.Arduino['OLED_data_wifi_kit']=function(block){
+    var valuexx_block = Blockly.Arduino.valueToCode(block, 'xx_block', Blockly.Arduino.ORDER_ATOMIC);
+    var valueyy_block = Blockly.Arduino.valueToCode(block, 'yy_block', Blockly.Arduino.ORDER_ATOMIC);
+    var valuetext_block = Blockly.Arduino.valueToCode(block, 'text_block', Blockly.Arduino.ORDER_ATOMIC);
+	
+    Blockly.Arduino.includes_['includes_OLED_data_wifi_kit'] = '  #include "lcdgfx.h"   \n  DisplaySSD1306_128x64_I2C Afficheur_G(16,{-1, 0, 15, 4, 0});  \n ';
+    Blockly.Arduino.setups_['setups_OLED_data_wifi_kit']=' Afficheur_G.begin(); \n  Afficheur_G.clear();  \n  ';
+    var code = 'Afficheur_G.setFixedFont( ssd1306xled_font6x8 );  \n Afficheur_G.printFixed('+valuexx_block+',  '+valueyy_block+', '+valuetext_block+', STYLE_NORMAL); \n ';
+    return code
+};
+
+
+Blockly.Arduino['touch_block']=function(block){
+    var valuetouch_pin = block.getFieldValue('touch_pin');
+   // Blockly.Arduino.includes_[] = 'code des bibliotheques';
+   // Blockly.Arduino.variables_[] = 'code des variables';
+   // Blockly.Arduino.definitions_[] = 'code des instances';
+   // Blockly.Arduino.userFunctions_[] = 'code des fonctions';
+   // Blockly.Arduino.setups_[]='placer ici le code du setup()';
+    var code = 'touchRead(T'+valuetouch_pin+')';
+    return [code, Blockly.Arduino.ORDER_ATOMIC];
+};
+
+Blockly.Arduino['touch_if_block']=function(block){
+    var value_statement = Blockly.Arduino.statementToCode(block, '_statement');
+    var valuetouch_pin = block.getFieldValue('touch_pin');
+    var valuetouch = block.getFieldValue('touch');
+	
+   Blockly.Arduino.userFunctions_['includes_touch_if_block'+valuetouch_pin] = ' bool touch'+valuetouch_pin+'detected = false; \n void gotTouch'+valuetouch_pin+'(){ \n touch'+valuetouch_pin+'detected = true; \n  } \n  ';
+   
+   Blockly.Arduino.setups_['includes_touch_if_block'+valuetouch_pin]='touchAttachInterrupt(T'+valuetouch_pin+', gotTouch'+valuetouch_pin+', '+valuetouch+');  \n  ';
+	
+    var code = '  if(touch'+valuetouch_pin+'detected){  \n   touch'+valuetouch_pin+'detected = false;  \n    '+value_statement+'   \n   }  \n  ';
+    return code
+};
+
+
+Blockly.Arduino['actuator_tone_esp']=function(block){
+    var valuetone_pin = block.getFieldValue('tone_pin');
+    var valuetone_note = block.getFieldValue('tone_note');
+    var valuetone_okt = block.getFieldValue('tone_okt');
+    var valuetone_delay = block.getFieldValue('tone_delay');
+
+    Blockly.Arduino.userFunctions_['actuator_tone_esp'] = '#include <Tone32.h> \n #define BUZZER_CHANNEL 0 \n ';
+   var code = '  tone('+valuetone_pin+', NOTE_'+valuetone_note+''+valuetone_okt+', '+valuetone_delay+', BUZZER_CHANNEL); \n    ';
+    return code
+};
+Blockly.Arduino['actuator_tone_esp1']=function(block){
+    var valuetone_pin = 17;
+    var valuetone_note = block.getFieldValue('tone_note');
+    var valuetone_okt = block.getFieldValue('tone_okt');
+    var valuetone_delay = block.getFieldValue('tone_delay');
+
+    Blockly.Arduino.userFunctions_['actuator_tone_esp'] = '#include <Tone32.h> \n #define BUZZER_CHANNEL 0 \n ';
+   var code = '  tone('+valuetone_pin+', NOTE_'+valuetone_note+''+valuetone_okt+', '+valuetone_delay+', BUZZER_CHANNEL); \n    ';
+    return code
+};
+
+Blockly.Arduino['actuator_tone_esp2']=function(block){
+    var valuetone_pin = 17;
+    var valuetone_delay = block.getFieldValue('tone_delay');
+
+ var code = '   for (int count = 0; count < 10; count++) { \n    pinMode('+valuetone_pin+', OUTPUT); \n     digitalWrite('+valuetone_pin+', 1); \n    delay('+valuetone_delay+'); \n     pinMode('+valuetone_pin+', OUTPUT); \n      digitalWrite('+valuetone_pin+', 0); \n      delay('+valuetone_delay+'); \n   } \n   ';
+ return code
+};
+
+Blockly.Arduino['actone_esp']=function(block){
+    var valuetone_pin = block.getFieldValue('tone_pin');
+    var valuetone_tone_hz = block.getFieldValue('tone_hz');
+    var valuetone_delay = block.getFieldValue('tone_delay');
+   
+  Blockly.Arduino.userFunctions_['actuator_tone_esp'] = '#include <Tone32.h> \n #define BUZZER_CHANNEL 0 \n ';
+   var code = '  tone('+valuetone_pin+', '+valuetone_tone_hz+', '+valuetone_delay+', BUZZER_CHANNEL); \n   ';
+  
+  
+    return code
+};
+
+Blockly.Arduino['notone_esp']=function(block){
+    var valuetone_pin = block.getFieldValue('tone_pin');
+ 
+    Blockly.Arduino.userFunctions_['actuator_tone_esp'] = '#include <Tone32.h> \n #define BUZZER_CHANNEL 0 \n ';
+   var code = '  noTone('+valuetone_pin+', BUZZER_CHANNEL); \n  ';
+    return code
+};
+Blockly.Arduino['notone_esp1']=function(block){
+    var valuetone_pin = 17;
+ 
+    Blockly.Arduino.userFunctions_['actuator_tone_esp'] = '#include <Tone32.h> \n #define BUZZER_CHANNEL 0 \n ';
+   var code = '  noTone('+valuetone_pin+', BUZZER_CHANNEL); \n  ';
+    return code
+};
+Blockly.Arduino['hall_read']=function(block){
+
+    var code = 'hallRead()';
+    return [code, Blockly.Arduino.ORDER_ATOMIC];
+};
+
+
+Blockly.Arduino["hardware_monitor_serial_read"]=function(block){
+var id = this.getFieldValue('id'); 
+    var code="PCdata["+id+"]";
+    return [code, Blockly.Arduino.ORDER_ATOMIC]
+};
+Blockly.Arduino["hardware_monitor_serial_init"]=function(block){
+var dn = "'";
+
+	 Blockly.Arduino.definitions_['definitions_hardware_monitor_serial_init'] = '#define ERROR_UPTIME 0    \n   '+
+ ' char inData[82];   \n   '+
+ ' int PCdata[20];      \n   '+
+ ' byte PLOTmem[6][16];    \n   '+
+ ' byte blocks, halfs;  \n   '+
+ ' byte indexc = 0;  \n   '+
+ ' String string_convert;  \n   '+
+ ' unsigned long timeout, uptime_timer, plot_timer;  \n   '+
+ ' boolean lightState, reDraw_flag = 1, updateDisplay_flag, updateTemp_flag, timeOut_flag = 1;   \n   '+
+ ' byte plotLines[] = {0, 1, 4, 5, 6, 7};    \n   '+
+ ' void parsing() {  \n   '+
+ '   while (Serial.available() > 0) {  \n   '+
+ '     char aChar = Serial.read();  \n   '+
+ '     if (aChar != '+dn+'E'+dn+') {  \n   '+
+ '       inData[indexc] = aChar;  \n   '+
+ '       indexc++;  \n   '+
+ '       inData[indexc] = '+dn+'\\0'+dn+';  \n   '+
+ '     } else {  \n   '+
+ '       char *p = inData;  \n   '+
+ '       char *str;  \n   '+
+ '       indexc = 0;  \n   '+
+ '       String value = "";  \n   '+
+ '       while ((str = strtok_r(p, ";", &p)) != NULL) {  \n   '+
+ '         string_convert = str;  \n   '+
+ '         PCdata[indexc] = string_convert.toInt();  \n   '+
+ '         indexc++;  \n   '+
+ '       }  \n   '+
+ '       indexc = 0;  \n   '+
+ '       updateDisplay_flag = 1;  \n   '+
+ '       updateTemp_flag = 1;  \n   '+
+ '     }  \n   '+
+ '     if (!timeOut_flag) {   \n   '+                                
+ '       if (ERROR_UPTIME) uptime_timer = millis();    \n   '+      
+ '     }  \n   '+
+ '     timeout = millis();  \n   '+
+ '     timeOut_flag = 1;  \n   '+
+ '   }  \n   '+
+ ' }  \n   '+
+ ' void updatePlot() {  \n   '+
+ '   if ((millis() - plot_timer) > (PCdata[17] * 1000)) {  \n   '+
+ '     for (int i = 0; i < 6; i++) {           \n   '+  
+ '       for (int j = 0; j < 15; j++) {      \n   '+    
+ '         PLOTmem[i][j] = PLOTmem[i][j + 1];   \n   '+
+ '       }  \n   '+
+ '     }  \n   '+
+ '     for (int i = 0; i < 6; i++) {  \n   '+
+ '      PLOTmem[i][15] = ceil(PCdata[plotLines[i]] / 3);  \n   '+
+ '     }  \n   '+
+ '     plot_timer = millis();  \n   '+
+ '   }  \n   '+
+ ' }  \n     '; 
+	 
+	 Blockly.Arduino.setups_['setups_hardware_monitor_serial_init'] = 'Serial.begin(9600);   \n ';
+	 
+	 
+	 var code = 'parsing(); \n  updatePlot();   \n ';
+	 
+	  return code;
+};
+
+Blockly.Arduino["soft_write_ttl_uart_g"]=function(block){
+    var content=Blockly.Arduino.valueToCode(block, "CONTENT", Blockly.Arduino.ORDER_ATOMIC);
+	var hexcode1 = block.getFieldValue("TEXT1");
+	Blockly.Arduino.includes_["soft_write_ttl_uart"+hexcode1]=" 	char x"+hexcode1+"m [13] ={0x5A, 0xA5, 0x0B, 0x82, 0x03, 0x10, 0x5A, 0xA5, 0x01, 0x00, 0x0"+hexcode1+", 0x01, 0x00}; \n int x"+hexcode1+"w = 0; \n	";
+    return " 	x"+hexcode1+"w = " + content + "; \n    mySerial.write(x"+hexcode1+"m , 13); \n    mySerial.write(x"+hexcode1+"w); \n  "
+};
+
+Blockly.Arduino['dwin_box_ttl']=function(block){
+
+    Blockly.Arduino.definitions_["definitions_dwin_box_ttl"] = '  #include <Arduino.h> \n #ifdef ARDUINO_ARCH_ESP32 \n   #include "designerDWIN.h"  \n   #else \n    #include "arduinoDWINbox.h"  \n   #endif \n ';
+    Blockly.Arduino.setups_["setups_dwin_box_ttl"]='   #ifdef ARDUINO_ARCH_ESP32  \n    \n  #else  \n    dwinSerial.begin(115200);   \n  ClearDisplayDwin(); \n   #endif  \n ';    
+  
+    var code = ' ';
+    return code
+};
+Blockly.Arduino['dwin_box_none']=function(block){
+    var code = 'ClearDisplayDwin(); \n ';
+    return code
+};
+Blockly.Arduino['dwin_box_data']=function(block){
+    var code = 'ReadSerial(); \n ';
+    return code
+};
+ 
+ Blockly.Arduino['dwin_box_icon']=function(block){
+    var valueicon_text = block.getFieldValue('icon_text');
+    var valuex_text = block.getFieldValue('x_text');
+    var valuey_text = block.getFieldValue('y_text');
+    var code = 'setIconDwin('+valueicon_text+', '+valuex_text+', '+valuey_text+'); \n';
+    return code
+};
+
+
+Blockly.Arduino['dwin_box_text']=function(block){
+    var valueid_text = block.getFieldValue('id_text');
+    var valuex_text = block.getFieldValue('x_text');
+    var valuey_text = block.getFieldValue('y_text');
+    var valueh_text = block.getFieldValue('h_text');
+    var valuecolor_dropdown = block.getFieldValue('color_dropdown');
+
+    var code = 'cutStringDwinActiv('+valuex_text+', '+valuey_text+', '+valueh_text+', '+valuecolor_dropdown+', "'+valueid_text+'" ); \n';
+    return code
+};
+
+Blockly.Arduino['dwin_box_bot']=function(block){
+    var valueidn_text = block.getFieldValue('idn_text');
+    var valueid_text = block.getFieldValue('id_text');
+    var valuex_text = block.getFieldValue('x_text');
+    var valuey_text = block.getFieldValue('y_text');
+    var valuetext_text = block.getFieldValue('text_text');
+    var valuecolor_dropdown = block.getFieldValue('color_dropdown'); 
+    Blockly.Arduino.setups_['setups_dwin_box_bot'+valueidn_text]='setBtnDwin('+valueid_text+', '+valuex_text+', '+valuey_text+', '+valuecolor_dropdown+', "'+valuetext_text+'");  \n';
+    var bb_dropdown = block.getFieldValue('bb_dropdown'); 
+	if(bb_dropdown == 0){
+	var code = 'setBtnActivDwin('+valueidn_text+', '+valueid_text+', '+valuex_text+', '+valuey_text+', '+valuecolor_dropdown+', "'+valuetext_text+'"); \n bool stek_bool'+valueidn_text+' = stek_bool_bt['+valueidn_text+']; \n';
+	}else{
+	var code = 'setSwichActivDwin('+valueidn_text+', '+valueid_text+', '+valuex_text+', '+valuey_text+', '+valuecolor_dropdown+', "'+valuetext_text+'"); \n bool stek_bool'+valueidn_text+' = stek_bool_sw['+valueidn_text+']; \n';
+	} 
+	return code
+};
+
+Blockly.Arduino['dwin_box_bot_id']=function(block){
+    var valueidn_text = block.getFieldValue('idn_text');
+    var code = 'stek_bool'+valueidn_text+'';
+    return [code, Blockly.Arduino.ORDER_ATOMIC];
+};
+
+Blockly.Arduino['dwin_box_bot1']=function(block){
+    var valueidn_text = block.getFieldValue('idn_text');
+    var valueid_text = block.getFieldValue('id_text');
+    var valuex_text = block.getFieldValue('x_text');
+    var valuey_text = block.getFieldValue('y_text');
+    var valuetext_text = block.getFieldValue('text_text');
+    var valuecolor_dropdown = block.getFieldValue('color_dropdown'); 
+	var bot_statement = Blockly.Arduino.statementToCode(block, 'bot_statement');  
+	var bot_statement1 = Blockly.Arduino.statementToCode(block, 'bot_statement1');
+	
+    Blockly.Arduino.setups_['setups_dwin_box_bot1'+valueidn_text]='setBtnDwin('+valueid_text+', '+valuex_text+', '+valuey_text+', '+valuecolor_dropdown+', "'+valuetext_text+'");  \n';
+    
+	var bb_dropdown = block.getFieldValue('bb_dropdown');
+	
+	if(bb_dropdown == 0){
+	var code = '  \n   '+
+ ' setBtnActivDwin('+valueidn_text+', '+valueid_text+', '+valuex_text+', '+valuey_text+', '+valuecolor_dropdown+', "'+valuetext_text+'");  \n   '+
+ ' static bool last_bt'+valueidn_text+'; \n   '+
+ '   if (stek_bool_bt['+valueidn_text+'] && !last_bt'+valueidn_text+') \n   '+
+ '   { \n   '+
+  '    last_bt'+valueidn_text+' = true; \n   '+
+ ' '+bot_statement+' \n   '+
+  '  } \n   '+
+  '  else  if (!stek_bool_bt['+valueidn_text+'] && last_bt'+valueidn_text+'){ \n   '+
+  '    last_bt'+valueidn_text+' = false; \n   '+
+ ' '+bot_statement1+'    \n   '+
+ '   }  \n   '+
+ ' 	';
+	}else{
+	var code = '  \n   '+
+ ' setSwichActivDwin('+valueidn_text+', '+valueid_text+', '+valuex_text+', '+valuey_text+', '+valuecolor_dropdown+', "'+valuetext_text+'");  \n   '+
+ ' static bool last_sw'+valueidn_text+'; \n   '+
+ '   if (stek_bool_sw['+valueidn_text+'] && !last_sw'+valueidn_text+') \n   '+
+ '   { \n   '+
+  '    last_sw'+valueidn_text+' = true; \n   '+
+ ' '+bot_statement+' \n   '+
+  '  } \n   '+
+  '  else  if (!stek_bool_sw['+valueidn_text+'] && last_sw'+valueidn_text+'){ \n   '+
+  '    last_sw'+valueidn_text+' = false; \n   '+
+ ' '+bot_statement1+'    \n   '+
+ '   }  \n   '+
+ ' 	';	
+	} 
+	return code
+};
+
+ Blockly.Arduino['dwin_box_bot2']=function(block){
+    var valueidn_text = block.getFieldValue('idn_text');
+    var valueid_text1 = block.getFieldValue('id_text1');
+	var valueid_text2 = block.getFieldValue('id_text2');
+    var valuex_text = block.getFieldValue('x_text');
+    var valuey_text = block.getFieldValue('y_text');
+    var valuetext_text1 = block.getFieldValue('text_text1');
+	var valuetext_text2 = block.getFieldValue('text_text2');
+    var valuecolor_dropdown1 = block.getFieldValue('color_dropdown1'); 
+	var valuecolor_dropdown2 = block.getFieldValue('color_dropdown2'); 
+	var bot_statement = Blockly.Arduino.statementToCode(block, 'bot_statement');  
+	var bot_statement1 = Blockly.Arduino.statementToCode(block, 'bot_statement1');
+	Blockly.Arduino.definitions_['definitions_dwin_box_bot2'+valueidn_text]='int xb'+valueidn_text+'n = 0;  \n';
+    Blockly.Arduino.setups_['setups_dwin_box_bot2'+valueidn_text]='setBtnDwin('+valueid_text1+', '+valuex_text+', '+valuey_text+', '+valuecolor_dropdown1+', "'+valuetext_text1+'");  \n';
+    
+
+	var code = '  \n   '+
+ '     if (xb'+valueidn_text+'n == 1) { \n   '+
+'       setSwichActivDwin('+valueidn_text+', '+valueid_text1+', '+valuex_text+', '+valuey_text+', '+valuecolor_dropdown1+', "'+valuetext_text1+'"); \n   '+
+'        bool stek_bool'+valueidn_text+' = stek_bool_sw['+valueidn_text+']; \n   '+
+'       xb'+valueidn_text+'n = stek_bool'+valueidn_text+'; \n   '+
+ ' '+bot_statement+'    \n   '+
+ '    } \n   '+
+ '    if (xb'+valueidn_text+'n == 0) { \n   '+
+'       setSwichActivDwin('+valueidn_text+', '+valueid_text2+', '+valuex_text+', '+valuey_text+', '+valuecolor_dropdown2+', "'+valuetext_text2+'"); \n   '+
+'        bool stek_bool'+valueidn_text+' = stek_bool_sw['+valueidn_text+']; \n   '+
+'       xb'+valueidn_text+'n = stek_bool'+valueidn_text+'; \n   '+
+ ' '+bot_statement1+'    \n   '+
+ '    } \n   '+
+ '    \n  	';	
+	 
+	return code
+};
+ 
+
+Blockly.Arduino['dwin_box_var']=function(block){
+    var value_block = Blockly.Arduino.valueToCode(block, 'var_block', Blockly.Arduino.ORDER_ATOMIC);
+    var valuex_text = block.getFieldValue('x_text');
+    var valuey_text = block.getFieldValue('y_text');
+    var valuetext_text = block.getFieldValue('text_text');
+    var valuecolor_dropdown = block.getFieldValue('color_dropdown');
+
+    var code = 'setNumberDwin('+value_block+', '+valuex_text+', '+valuey_text+', '+valuecolor_dropdown+', '+valuetext_text+'); \n ';
+    return code
+};
+
+Blockly.Arduino['dwin_box_varsl']=function(block){
+    var value_block = Blockly.Arduino.valueToCode(block, 'var_block', Blockly.Arduino.ORDER_ATOMIC);
+    var valuex_text = block.getFieldValue('x_text');
+    var valuey_text = block.getFieldValue('y_text');
+    var valuecolor_dropdown = block.getFieldValue('color_dropdown');
+
+    var code = ' setSliderDwin('+valuecolor_dropdown+', '+valuex_text+', '+valuey_text+', '+value_block+' ); \n';
+    return code
+};
+Blockly.Arduino['dwin_box_led']=function(block){
+    var value_block = Blockly.Arduino.valueToCode(block, 'var_block', Blockly.Arduino.ORDER_ATOMIC);
+
+    var code = ' cutBrightnessDwin('+value_block+'); \n';
+    return code
+};
+Blockly.Arduino['dwin_box_zum']=function(block){
+    var value_block = Blockly.Arduino.valueToCode(block, 'var_block', Blockly.Arduino.ORDER_ATOMIC);
+
+    var code = ' cutBuzzerDwin('+value_block+'); \n';
+    return code
+};
+
+ 
+ Blockly.Arduino['ledi_ws2812'] = function(block) {
+	
+  var numberstrip = block.getFieldValue('pin'); // номер
+  var pin_ledrgb = block.getFieldValue('pin'); // пин ленты
+  var numpixels = block.getFieldValue('led'); // количество пикселей в ленте
+ 
+ Blockly.Arduino.definitions_['define_ledRGB_WS2812B'] = ' #include <Adafruit_NeoPixel.h> \n #ifdef __AVR__ \n  #include <avr/power.h>  \n #endif \n long Pixcil = 0; \n long NeoPix = 0; \n';
+Blockly.Arduino.definitions_['define_ledRGB_WS2812B_top' + numberstrip] = ' Adafruit_NeoPixel strip'+numberstrip+'('+numpixels+', '+pin_ledrgb+', NEO_GRB + NEO_KHZ800);   \n ';
+
+
+ Blockly.Arduino.setups_['setup_ledRGB_WS2812B_top'] = ' #if defined(__AVR_ATtiny85__) && (F_CPU == 16000000) \n   clock_prescale_set(clock_div_1); \n #endif \n ';
+  
+ Blockly.Arduino.setups_['setup_ledRGB_WS2812B_top'+numberstrip] = '  strip'+numberstrip+'.begin();  \n  strip'+numberstrip+'.show();  \n  strip'+numberstrip+'.setBrightness(50);  \n';
+  
+    var valueledon = block.getFieldValue('ledon'); //start
+    var valueledoff = block.getFieldValue('ledoff'); //stop
+	 
+	 
+  var pixel_number = block.getFieldValue('delayled'); // задержка
+  
+  var colorall = block.getFieldValue('RGBCOLOR'); // цвет ленты
+  var valuews = block.getFieldValue('ws'); // выбор ленты модели
+  if(valuews == 0){
+  var red = parseInt(colorall.substring(1,3),16);
+  var green = parseInt(colorall.substring(3,5),16);
+  var blue = parseInt(colorall.substring(5,7),16);
+  }
+  if(valuews == 1){
+  var red = parseInt(colorall.substring(1,3),16);
+  var blue = parseInt(colorall.substring(3,5),16);
+  var green = parseInt(colorall.substring(5,7),16);
+  }
+  
+  
+   var number = this.getFieldValue('RE_NUMBER'); // программа ленты
+   
+
+if(number == 6){
+  var code = ' Pixcil = '+valueledon+'; \n NeoPix = '+valueledoff+' - Pixcil; \n  for (int count = 0; count < NeoPix; count++) { \n    Pixcil = Pixcil + 1; \n   strip'+numberstrip+'.setBrightness(255); \n     strip'+numberstrip+'.setPixelColor(Pixcil-1, strip'+numberstrip+'.Color('+red+','+green+','+blue+')); \n    strip'+numberstrip+'.show(); \n      } \n   Pixcil = '+valueledon+'; \n   delay('+pixel_number+'); \n ';
+}
+
+if(number == 7){
+  var code = ' Pixcil = '+valueledon+'; \n NeoPix = '+valueledoff+' - Pixcil; \n   for (int count = 0; count < NeoPix; count++) { \n    Pixcil = Pixcil + 1; \n     strip'+numberstrip+'.setBrightness(255); \n      strip'+numberstrip+'.setPixelColor(Pixcil-1, strip'+numberstrip+'.Color('+red+','+green+','+blue+')); \n     strip'+numberstrip+'.show(); \n     delay('+pixel_number+'); \n    strip'+numberstrip+'.setBrightness(255); \n      strip'+numberstrip+'.setPixelColor(Pixcil-1, strip'+numberstrip+'.Color(0,0,0)); \n      strip'+numberstrip+'.show(); \n      } \n      Pixcil = '+valueledon+'; \n ';
+ } 
+ 
+if(number == 8){
+  var code = '  Pixcil = '+valueledoff+'; \n  NeoPix = '+valueledoff+' - '+valueledon+'; \n //Pixcil = NeoPix; \n for (int count = 0; count < NeoPix; count++) { \n   strip'+numberstrip+'.setBrightness(255); \n      strip'+numberstrip+'.setPixelColor(Pixcil-1, strip'+numberstrip+'.Color('+red+','+green+','+blue+')); \n     strip'+numberstrip+'.show(); \n    delay('+pixel_number+'); \n    strip'+numberstrip+'.setBrightness(255); \n      strip'+numberstrip+'.setPixelColor(Pixcil-1, strip'+numberstrip+'.Color(0,0,0)); \n      strip'+numberstrip+'.show(); \n   Pixcil = Pixcil - 1; \n   } \n     Pixcil = '+valueledoff+'; \n ';
+ }  
+ 
+ if(number == 10){ 
+ var code = ' Pixcil = '+valueledoff+' + 1; \n NeoPix = '+valueledoff+' - '+valueledon+'; \n    for (int count = 0; count < NeoPix*Pixcil; count++) { \n    for (int count = 0; count < NeoPix; count++) { \n       Pixcil = Pixcil - 1; \n       strip'+numberstrip+'.setBrightness(255); \n        strip'+numberstrip+'.setPixelColor(Pixcil-1, strip'+numberstrip+'.Color('+red+','+green+','+blue+')); \n       strip'+numberstrip+'.show(); \n       delay('+pixel_number+'); \n      strip'+numberstrip+'.setBrightness(255); \n       strip'+numberstrip+'.setPixelColor(Pixcil-1, strip'+numberstrip+'.Color(0,0,0)); \n        strip'+numberstrip+'.show(); \n        } \n     strip'+numberstrip+'.setBrightness(255); \n      strip'+numberstrip+'.setPixelColor(Pixcil-1, strip'+numberstrip+'.Color('+red+','+green+','+blue+')); \n      strip'+numberstrip+'.show(); \n      Pixcil = Pixcil + NeoPix; \n NeoPix = NeoPix - 1; \n   } \n   Pixcil = '+valueledoff+' + 1; \n ';
+}
+ if(number == 11){ 
+ var code = ' Pixcil = '+valueledon+'+1; \n NeoPix = '+valueledoff+' - Pixcil; \n     for (int count = 0; count < '+valueledoff+'; count++) { \n     for (int count = 0; count < NeoPix; count++) { \n      strip'+numberstrip+'.setBrightness(255); \n       strip'+numberstrip+'.setPixelColor(Pixcil-1, strip'+numberstrip+'.Color('+red+','+green+','+blue+')); \n        strip'+numberstrip+'.show(); \n         delay('+pixel_number+'); \n       strip'+numberstrip+'.setBrightness(255); \n        strip'+numberstrip+'.setPixelColor(Pixcil-1, strip'+numberstrip+'.Color(0,0,0)); \n       strip'+numberstrip+'.show(); \n       Pixcil = Pixcil + 1; \n    } \n    strip'+numberstrip+'.setBrightness(255); \n      strip'+numberstrip+'.setPixelColor(Pixcil-1, strip'+numberstrip+'.Color('+red+','+green+','+blue+')); \n     strip'+numberstrip+'.show(); \n      Pixcil = '+valueledon+'+1; \n     NeoPix = NeoPix - 1; \n   } \n   Pixcil = '+valueledon+'; \n   ';
+} 
+ if(number == 12){ 
+ var code = ' Pixcil = '+valueledon+'; \n NeoPix = '+valueledoff+' - Pixcil; \n     for (int count = 0; count < NeoPix; count++) { \n     Pixcil = Pixcil + 1; \n     strip'+numberstrip+'.setBrightness(255); \n     strip'+numberstrip+'.setPixelColor(Pixcil-1, strip'+numberstrip+'.Color('+red+','+green+','+blue+')); \n     strip'+numberstrip+'.show(); \n      delay('+pixel_number+'); \n } \n   Pixcil = '+valueledon+';  \n    ';
+} 
+ if(number == 13){ 
+ var code = ' Pixcil = '+valueledoff+'; \n  NeoPix = '+valueledoff+' - '+valueledon+'; \n   //    Pixcil = NeoPix; \n   for (int count = 0; count < NeoPix; count++) { \n    strip'+numberstrip+'.setBrightness(255); \n     strip'+numberstrip+'.setPixelColor(Pixcil-1, strip'+numberstrip+'.Color('+red+','+green+','+blue+')); \n     strip'+numberstrip+'.show(); \n     delay('+pixel_number+'); \n     Pixcil = Pixcil - 1; \n   } \n   Pixcil = '+valueledon+'; \n       ';
+} 
+  return code;
+ 
+};
+
+
+ Blockly.Arduino['ledi_ws2812x2'] = function(block) {
+	
+  var numberstrip = block.getFieldValue('pin'); // номер
+  var pin_ledrgb = block.getFieldValue('pin'); // пин ленты
+  var numberstrip1 = block.getFieldValue('pin1'); // номер
+  var pin_ledrgb1 = block.getFieldValue('pin1'); // пин ленты
+  var numpixels = block.getFieldValue('led'); // количество пикселей в ленте
+ 
+ Blockly.Arduino.definitions_['define_ledRGB_WS2812B'] = ' #include <Adafruit_NeoPixel.h> \n #ifdef __AVR__ \n  #include <avr/power.h>  \n #endif \n long Pixcil = 0; \n long NeoPix = 0; \n';
+Blockly.Arduino.definitions_['define_ledRGB_WS2812B_top' + numberstrip] = ' Adafruit_NeoPixel strip'+numberstrip+'('+numpixels+', '+pin_ledrgb+', NEO_GRB + NEO_KHZ800); \n  ';
+Blockly.Arduino.definitions_['define_ledRGB_WS2812B_top' + numberstrip1] = ' Adafruit_NeoPixel strip'+numberstrip1+'('+numpixels+', '+pin_ledrgb1+', NEO_GRB + NEO_KHZ800);   \n ';
+
+
+ Blockly.Arduino.setups_['setup_ledRGB_WS2812B_top'] = ' #if defined(__AVR_ATtiny85__) && (F_CPU == 16000000) \n   clock_prescale_set(clock_div_1); \n #endif \n ';
+  
+ Blockly.Arduino.setups_['setup_ledRGB_WS2812B_top'+numberstrip] = '  strip'+numberstrip+'.begin();  \n  strip'+numberstrip+'.show();  \n  strip'+numberstrip+'.setBrightness(50);  \n';
+  Blockly.Arduino.setups_['setup_ledRGB_WS2812B_top'+numberstrip1] = '  strip'+numberstrip1+'.begin();  \n  strip'+numberstrip1+'.show();  \n  strip'+numberstrip1+'.setBrightness(50);  \n';
+  
+    var valueledon = block.getFieldValue('ledon'); //start
+    var valueledoff = block.getFieldValue('ledoff'); //stop
+	 
+	 
+  var pixel_number = block.getFieldValue('delayled'); // задержка
+  
+  var colorall = block.getFieldValue('RGBCOLOR'); // цвет ленты
+    var colorall1 = block.getFieldValue('RGBCOLOR1'); // цвет ленты2
+  var valuews = block.getFieldValue('ws'); // выбор ленты модели
+  if(valuews == 0){
+  var red = parseInt(colorall.substring(1,3),16);
+  var green = parseInt(colorall.substring(3,5),16);
+  var blue = parseInt(colorall.substring(5,7),16);
+  
+  var red1 = parseInt(colorall1.substring(1,3),16);
+  var green1 = parseInt(colorall1.substring(3,5),16);
+  var blue1 = parseInt(colorall1.substring(5,7),16);
+  }
+  if(valuews == 1){
+  var red = parseInt(colorall.substring(1,3),16);
+  var blue = parseInt(colorall.substring(3,5),16);
+  var green = parseInt(colorall.substring(5,7),16);
+  
+  var red1 = parseInt(colorall1.substring(1,3),16);
+  var blue1 = parseInt(colorall1.substring(3,5),16);
+  var green1 = parseInt(colorall1.substring(5,7),16);
+  }
+  
+  
+   var number = this.getFieldValue('RE_NUMBER'); // программа ленты
+   
+ 
+if(number == 6){
+  var code = ' Pixcil = '+valueledon+'; \n NeoPix = '+valueledoff+' - Pixcil; \n  for (int count = 0; count < NeoPix; count++) { \n    Pixcil = Pixcil + 1; \n   strip'+numberstrip+'.setBrightness(255); \n  strip'+numberstrip1+'.setBrightness(255); \n   strip'+numberstrip+'.setPixelColor(Pixcil-1, strip'+numberstrip+'.Color('+red+','+green+','+blue+')); \n  strip'+numberstrip1+'.setPixelColor(Pixcil-1, strip'+numberstrip1+'.Color('+red1+','+green1+','+blue1+')); \n   strip'+numberstrip+'.show(); \n  strip'+numberstrip1+'.show(); \n    } \n   Pixcil = '+valueledon+'; \n   delay('+pixel_number+'); \n ';
+  }
+
+if(number == 7){
+  var code = ' Pixcil = '+valueledon+'; \n NeoPix = '+valueledoff+' - Pixcil; \n   for (int count = 0; count < NeoPix; count++) { \n    Pixcil = Pixcil + 1; \n     strip'+numberstrip+'.setBrightness(255); \n  strip'+numberstrip1+'.setBrightness(255); \n      strip'+numberstrip+'.setPixelColor(Pixcil-1, strip'+numberstrip+'.Color('+red+','+green+','+blue+')); \n   strip'+numberstrip1+'.setPixelColor(Pixcil-1, strip'+numberstrip1+'.Color('+red1+','+green1+','+blue1+')); \n   strip'+numberstrip+'.show(); \n strip'+numberstrip1+'.show(); \n     delay('+pixel_number+'); \n    strip'+numberstrip+'.setBrightness(255); \n strip'+numberstrip1+'.setBrightness(255); \n      strip'+numberstrip+'.setPixelColor(Pixcil-1, strip'+numberstrip+'.Color(0,0,0)); \n strip'+numberstrip1+'.setPixelColor(Pixcil-1, strip'+numberstrip1+'.Color(0,0,0)); \n      strip'+numberstrip+'.show(); \n  strip'+numberstrip1+'.show(); \n      } \n      Pixcil = '+valueledon+'; \n ';
+ } 
+ 
+if(number == 8){
+  var code = '  Pixcil = '+valueledoff+'; \n  NeoPix = '+valueledoff+' - '+valueledon+'; \n   for (int count = 0; count < NeoPix; count++) { \n   strip'+numberstrip+'.setBrightness(255); \n strip'+numberstrip1+'.setBrightness(255); \n      strip'+numberstrip+'.setPixelColor(Pixcil-1, strip'+numberstrip+'.Color('+red+','+green+','+blue+')); \n  strip'+numberstrip1+'.setPixelColor(Pixcil-1, strip'+numberstrip1+'.Color('+red1+','+green1+','+blue1+')); \n     strip'+numberstrip+'.show(); \n   strip'+numberstrip1+'.show(); \n    delay('+pixel_number+'); \n    strip'+numberstrip+'.setBrightness(255); \n strip'+numberstrip1+'.setBrightness(255); \n      strip'+numberstrip+'.setPixelColor(Pixcil-1, strip'+numberstrip+'.Color(0,0,0)); \n   strip'+numberstrip1+'.setPixelColor(Pixcil-1, strip'+numberstrip1+'.Color(0,0,0)); \n      strip'+numberstrip+'.show(); \n   strip'+numberstrip1+'.show(); \n   Pixcil = Pixcil - 1; \n   } \n     Pixcil = '+valueledoff+'; \n ';
+ }  
+ 
+ if(number == 10){ 
+ var code = ' Pixcil = '+valueledoff+' + 1; \n NeoPix = '+valueledoff+' - '+valueledon+'; \n    for (int count = 0; count < NeoPix*Pixcil; count++) { \n    for (int count = 0; count < NeoPix; count++) { \n       Pixcil = Pixcil - 1; \n       strip'+numberstrip+'.setBrightness(255); \n  strip'+numberstrip1+'.setBrightness(255); \n        strip'+numberstrip+'.setPixelColor(Pixcil-1, strip'+numberstrip+'.Color('+red+','+green+','+blue+')); \n    strip'+numberstrip1+'.setPixelColor(Pixcil-1, strip'+numberstrip1+'.Color('+red1+','+green1+','+blue1+')); \n       strip'+numberstrip+'.show(); \n     strip'+numberstrip1+'.show(); \n       delay('+pixel_number+'); \n      strip'+numberstrip+'.setBrightness(255); \n   strip'+numberstrip1+'.setBrightness(255); \n       strip'+numberstrip+'.setPixelColor(Pixcil-1, strip'+numberstrip+'.Color(0,0,0)); \n    strip'+numberstrip1+'.setPixelColor(Pixcil-1, strip'+numberstrip1+'.Color(0,0,0)); \n        strip'+numberstrip+'.show(); \n    strip'+numberstrip1+'.show(); \n        } \n     strip'+numberstrip+'.setBrightness(255); \n   strip'+numberstrip1+'.setBrightness(255); \n      strip'+numberstrip+'.setPixelColor(Pixcil-1, strip'+numberstrip+'.Color('+red+','+green+','+blue+')); \n    strip'+numberstrip1+'.setPixelColor(Pixcil-1, strip'+numberstrip1+'.Color('+red1+','+green1+','+blue1+')); \n      strip'+numberstrip+'.show(); \n    strip'+numberstrip1+'.show(); \n      Pixcil = Pixcil + NeoPix; \n NeoPix = NeoPix - 1; \n   } \n   Pixcil = '+valueledoff+' + 1; \n ';
+}
+ if(number == 11){ 
+ var code = ' Pixcil = '+valueledon+'+1; \n NeoPix = '+valueledoff+' - Pixcil; \n     for (int count = 0; count < '+valueledoff+'; count++) { \n     for (int count = 0; count < NeoPix; count++) { \n      strip'+numberstrip+'.setBrightness(255); \n      strip'+numberstrip1+'.setBrightness(255); \n       strip'+numberstrip+'.setPixelColor(Pixcil-1, strip'+numberstrip+'.Color('+red+','+green+','+blue+')); \n      strip'+numberstrip1+'.setPixelColor(Pixcil-1, strip'+numberstrip1+'.Color('+red1+','+green1+','+blue1+')); \n        strip'+numberstrip+'.show(); \n       strip'+numberstrip1+'.show(); \n         delay('+pixel_number+'); \n       strip'+numberstrip+'.setBrightness(255); \n      strip'+numberstrip1+'.setBrightness(255); \n        strip'+numberstrip+'.setPixelColor(Pixcil-1, strip'+numberstrip+'.Color(0,0,0)); \n    strip'+numberstrip1+'.setPixelColor(Pixcil-1, strip'+numberstrip1+'.Color(0,0,0)); \n       strip'+numberstrip+'.show(); \n   strip'+numberstrip1+'.show(); \n       Pixcil = Pixcil + 1; \n    } \n    strip'+numberstrip+'.setBrightness(255); \n   strip'+numberstrip1+'.setBrightness(255); \n      strip'+numberstrip+'.setPixelColor(Pixcil-1, strip'+numberstrip+'.Color('+red+','+green+','+blue+')); \n    strip'+numberstrip1+'.setPixelColor(Pixcil-1, strip'+numberstrip1+'.Color('+red1+','+green1+','+blue1+')); \n     strip'+numberstrip+'.show(); \n   strip'+numberstrip1+'.show(); \n      Pixcil = '+valueledon+'+1; \n     NeoPix = NeoPix - 1; \n   } \n   Pixcil = '+valueledon+'; \n   ';
+} 
+ if(number == 12){ 
+ var code = ' Pixcil = '+valueledon+'; \n NeoPix = '+valueledoff+' - Pixcil; \n     for (int count = 0; count < NeoPix; count++) { \n     Pixcil = Pixcil + 1; \n     strip'+numberstrip+'.setBrightness(255); \n   strip'+numberstrip1+'.setBrightness(255); \n     strip'+numberstrip+'.setPixelColor(Pixcil-1, strip'+numberstrip+'.Color('+red+','+green+','+blue+')); \n   strip'+numberstrip1+'.setPixelColor(Pixcil-1, strip'+numberstrip1+'.Color('+red1+','+green1+','+blue1+')); \n     strip'+numberstrip+'.show(); \n     strip'+numberstrip1+'.show(); \n      delay('+pixel_number+'); \n } \n   Pixcil = '+valueledon+';  \n    ';
+} 
+ if(number == 13){ 
+ var code = ' Pixcil = '+valueledoff+'; \n  NeoPix = '+valueledoff+' - '+valueledon+'; \n      for (int count = 0; count < NeoPix; count++) { \n    strip'+numberstrip+'.setBrightness(255); \n    strip'+numberstrip1+'.setBrightness(255); \n     strip'+numberstrip+'.setPixelColor(Pixcil-1, strip'+numberstrip+'.Color('+red+','+green+','+blue+')); \n    strip'+numberstrip1+'.setPixelColor(Pixcil-1, strip'+numberstrip1+'.Color('+red1+','+green1+','+blue1+')); \n     strip'+numberstrip+'.show(); \n   strip'+numberstrip1+'.show(); \n     delay('+pixel_number+'); \n     Pixcil = Pixcil - 1; \n   } \n   Pixcil = '+valueledon+'; \n       ';
+} 
+  return code;
+ 
+};
+
+Blockly.Arduino['ledi_ws2812x4'] = function(block) {
+	
+  var numberstrip = block.getFieldValue('pin'); // номер
+  var pin_ledrgb = block.getFieldValue('pin'); // пин ленты
+  
+  var numberstrip1 = block.getFieldValue('pin1'); // номер
+  var pin_ledrgb1 = block.getFieldValue('pin1'); // пин ленты
+  
+    var numberstrip2 = block.getFieldValue('pin2'); // номер
+  var pin_ledrgb2 = block.getFieldValue('pin2'); // пин ленты
+  
+    var numberstrip3 = block.getFieldValue('pin3'); // номер
+  var pin_ledrgb3 = block.getFieldValue('pin3'); // пин ленты
+  
+  var numpixels = block.getFieldValue('led'); // количество пикселей в ленте
+ 
+ Blockly.Arduino.definitions_['define_ledRGB_WS2812B'] = ' #include <Adafruit_NeoPixel.h> \n #ifdef __AVR__ \n  #include <avr/power.h>  \n #endif \n long Pixcil = 0; \n long NeoPix = 0; \n';
+Blockly.Arduino.definitions_['define_ledRGB_WS2812B_top' + numberstrip] = ' Adafruit_NeoPixel strip'+numberstrip+'('+numpixels+', '+pin_ledrgb+', NEO_GRB + NEO_KHZ800); \n  ';
+Blockly.Arduino.definitions_['define_ledRGB_WS2812B_top' + numberstrip1] = ' Adafruit_NeoPixel strip'+numberstrip1+'('+numpixels+', '+pin_ledrgb1+', NEO_GRB + NEO_KHZ800);   \n ';
+Blockly.Arduino.definitions_['define_ledRGB_WS2812B_top' + numberstrip2] = ' Adafruit_NeoPixel strip'+numberstrip2+'('+numpixels+', '+pin_ledrgb2+', NEO_GRB + NEO_KHZ800);   \n ';
+Blockly.Arduino.definitions_['define_ledRGB_WS2812B_top' + numberstrip3] = ' Adafruit_NeoPixel strip'+numberstrip3+'('+numpixels+', '+pin_ledrgb3+', NEO_GRB + NEO_KHZ800);   \n ';
+
+
+ Blockly.Arduino.setups_['setup_ledRGB_WS2812B_top'] = ' #if defined(__AVR_ATtiny85__) && (F_CPU == 16000000) \n   clock_prescale_set(clock_div_1); \n #endif \n ';
+  
+ Blockly.Arduino.setups_['setup_ledRGB_WS2812B_top'+numberstrip] = '  strip'+numberstrip+'.begin();  \n  strip'+numberstrip+'.show();  \n  strip'+numberstrip+'.setBrightness(50);  \n';
+  Blockly.Arduino.setups_['setup_ledRGB_WS2812B_top'+numberstrip1] = '  strip'+numberstrip1+'.begin();  \n  strip'+numberstrip1+'.show();  \n  strip'+numberstrip1+'.setBrightness(50);  \n';
+    Blockly.Arduino.setups_['setup_ledRGB_WS2812B_top'+numberstrip2] = '  strip'+numberstrip2+'.begin();  \n  strip'+numberstrip2+'.show();  \n  strip'+numberstrip2+'.setBrightness(50);  \n';
+    Blockly.Arduino.setups_['setup_ledRGB_WS2812B_top'+numberstrip3] = '  strip'+numberstrip3+'.begin();  \n  strip'+numberstrip3+'.show();  \n  strip'+numberstrip3+'.setBrightness(50);  \n';
+  
+    var valueledon = block.getFieldValue('ledon'); //start
+    var valueledoff = block.getFieldValue('ledoff'); //stop
+	 
+	 
+  var pixel_number = block.getFieldValue('delayled'); // задержка
+  
+  var colorall = block.getFieldValue('RGBCOLOR'); // цвет ленты
+    var colorall1 = block.getFieldValue('RGBCOLOR1'); // цвет ленты2
+	var colorall2 = block.getFieldValue('RGBCOLOR2'); // цвет ленты2
+	var colorall3 = block.getFieldValue('RGBCOLOR3'); // цвет ленты2
+	
+  var valuews = block.getFieldValue('ws'); // выбор ленты модели
+  if(valuews == 0){
+  var red = parseInt(colorall.substring(1,3),16);
+  var green = parseInt(colorall.substring(3,5),16);
+  var blue = parseInt(colorall.substring(5,7),16);
+  
+  var red1 = parseInt(colorall1.substring(1,3),16);
+  var green1 = parseInt(colorall1.substring(3,5),16);
+  var blue1 = parseInt(colorall1.substring(5,7),16);
+  
+    var red2 = parseInt(colorall2.substring(1,3),16);
+  var green2 = parseInt(colorall2.substring(3,5),16);
+  var blue2 = parseInt(colorall2.substring(5,7),16);
+  
+    var red3 = parseInt(colorall3.substring(1,3),16);
+  var green3 = parseInt(colorall3.substring(3,5),16);
+  var blue3 = parseInt(colorall3.substring(5,7),16);
+  }
+  if(valuews == 1){
+  var red = parseInt(colorall.substring(1,3),16);
+  var blue = parseInt(colorall.substring(3,5),16);
+  var green = parseInt(colorall.substring(5,7),16);
+  
+  var red1 = parseInt(colorall1.substring(1,3),16);
+  var blue1 = parseInt(colorall1.substring(3,5),16);
+  var green1 = parseInt(colorall1.substring(5,7),16);
+  
+    var red2 = parseInt(colorall2.substring(1,3),16);
+  var blue2 = parseInt(colorall2.substring(3,5),16);
+  var green2 = parseInt(colorall2.substring(5,7),16);
+  
+    var red3 = parseInt(colorall3.substring(1,3),16);
+  var blue3 = parseInt(colorall3.substring(3,5),16);
+  var green3 = parseInt(colorall3.substring(5,7),16);
+  }
+  
+  
+   var number = this.getFieldValue('RE_NUMBER'); // программа ленты
+   
+ 
+if(number == 6){
+  var code = ' Pixcil = '+valueledon+'; \n NeoPix = '+valueledoff+' - Pixcil; \n  for (int count = 0; count < NeoPix; count++) { \n    Pixcil = Pixcil + 1; \n   strip'+numberstrip+'.setBrightness(255); \n  strip'+numberstrip1+'.setBrightness(255); \n strip'+numberstrip2+'.setBrightness(255); \n strip'+numberstrip3+'.setBrightness(255); \n  strip'+numberstrip+'.setPixelColor(Pixcil-1, strip'+numberstrip+'.Color('+red+','+green+','+blue+')); \n  strip'+numberstrip1+'.setPixelColor(Pixcil-1, strip'+numberstrip1+'.Color('+red1+','+green1+','+blue1+')); \n  strip'+numberstrip2+'.setPixelColor(Pixcil-1, strip'+numberstrip2+'.Color('+red2+','+green2+','+blue2+')); \n  strip'+numberstrip3+'.setPixelColor(Pixcil-1, strip'+numberstrip3+'.Color('+red3+','+green3+','+blue3+')); \n   strip'+numberstrip+'.show(); \n  strip'+numberstrip1+'.show(); \n   strip'+numberstrip2+'.show(); \n   strip'+numberstrip3+'.show(); \n    } \n   Pixcil = '+valueledon+'; \n   delay('+pixel_number+'); \n ';
+  }
+
+if(number == 7){
+  var code = ' Pixcil = '+valueledon+'; \n NeoPix = '+valueledoff+' - Pixcil; \n   for (int count = 0; count < NeoPix; count++) { \n    Pixcil = Pixcil + 1; \n     strip'+numberstrip+'.setBrightness(255); \n  strip'+numberstrip1+'.setBrightness(255); \n  strip'+numberstrip2+'.setBrightness(255); \n  strip'+numberstrip3+'.setBrightness(255); \n      strip'+numberstrip+'.setPixelColor(Pixcil-1, strip'+numberstrip+'.Color('+red+','+green+','+blue+')); \n   strip'+numberstrip1+'.setPixelColor(Pixcil-1, strip'+numberstrip1+'.Color('+red1+','+green1+','+blue1+')); \n  strip'+numberstrip2+'.setPixelColor(Pixcil-1, strip'+numberstrip2+'.Color('+red2+','+green2+','+blue2+')); \n  strip'+numberstrip3+'.setPixelColor(Pixcil-1, strip'+numberstrip3+'.Color('+red3+','+green3+','+blue3+')); \n   strip'+numberstrip+'.show(); \n strip'+numberstrip1+'.show(); \n  strip'+numberstrip2+'.show(); \n  strip'+numberstrip3+'.show(); \n     delay('+pixel_number+'); \n    strip'+numberstrip+'.setBrightness(255); \n strip'+numberstrip1+'.setBrightness(255); \n  strip'+numberstrip2+'.setBrightness(255); \n  strip'+numberstrip3+'.setBrightness(255); \n      strip'+numberstrip+'.setPixelColor(Pixcil-1, strip'+numberstrip+'.Color(0,0,0)); \n strip'+numberstrip1+'.setPixelColor(Pixcil-1, strip'+numberstrip1+'.Color(0,0,0)); \n  strip'+numberstrip2+'.setPixelColor(Pixcil-1, strip'+numberstrip2+'.Color(0,0,0)); \n strip'+numberstrip3+'.setPixelColor(Pixcil-1, strip'+numberstrip3+'.Color(0,0,0)); \n       strip'+numberstrip+'.show(); \n  strip'+numberstrip1+'.show(); \n   strip'+numberstrip2+'.show(); \n   strip'+numberstrip3+'.show(); \n      } \n      Pixcil = '+valueledon+'; \n ';
+ } 
+ 
+if(number == 8){
+  var code = '  Pixcil = '+valueledoff+'; \n  NeoPix = '+valueledoff+' - '+valueledon+'; \n   for (int count = 0; count < NeoPix; count++) { \n    strip'+numberstrip+'.setBrightness(255); \n   strip'+numberstrip1+'.setBrightness(255); \n       strip'+numberstrip2+'.setBrightness(255); \n   strip'+numberstrip3+'.setBrightness(255); \n     strip'+numberstrip+'.setPixelColor(Pixcil-1, strip'+numberstrip+'.Color('+red+','+green+','+blue+')); \n    strip'+numberstrip1+'.setPixelColor(Pixcil-1, strip'+numberstrip1+'.Color('+red1+','+green1+','+blue1+')); \n     strip'+numberstrip2+'.setPixelColor(Pixcil-1, strip'+numberstrip2+'.Color('+red2+','+green2+','+blue2+')); \n    strip'+numberstrip3+'.setPixelColor(Pixcil-1, strip'+numberstrip3+'.Color('+red3+','+green3+','+blue3+')); \n      strip'+numberstrip+'.show(); \n     strip'+numberstrip1+'.show(); \n   strip'+numberstrip2+'.show(); \n   strip'+numberstrip3+'.show(); \n     delay('+pixel_number+'); \n     strip'+numberstrip+'.setBrightness(255); \n   strip'+numberstrip1+'.setBrightness(255); \n    strip'+numberstrip2+'.setBrightness(255); \n    strip'+numberstrip3+'.setBrightness(255); \n      strip'+numberstrip+'.setPixelColor(Pixcil-1, strip'+numberstrip+'.Color(0,0,0)); \n     strip'+numberstrip1+'.setPixelColor(Pixcil-1, strip'+numberstrip1+'.Color(0,0,0)); \n     strip'+numberstrip2+'.setPixelColor(Pixcil-1, strip'+numberstrip2+'.Color(0,0,0)); \n    strip'+numberstrip3+'.setPixelColor(Pixcil-1, strip'+numberstrip3+'.Color(0,0,0)); \n      strip'+numberstrip+'.show(); \n     strip'+numberstrip1+'.show(); \n    strip'+numberstrip2+'.show(); \n    strip'+numberstrip3+'.show(); \n      Pixcil = Pixcil - 1; \n   } \n     Pixcil = '+valueledoff+'; \n ';
+ }  
+ 
+ if(number == 10){ 
+ var code = ' Pixcil = '+valueledoff+' + 1; \n NeoPix = '+valueledoff+' - '+valueledon+'; \n    for (int count = 0; count < NeoPix*Pixcil; count++) { \n    for (int count = 0; count < NeoPix; count++) { \n       Pixcil = Pixcil - 1; \n      strip'+numberstrip+'.setBrightness(255); \n  strip'+numberstrip1+'.setBrightness(255); \n    strip'+numberstrip2+'.setBrightness(255); \n  strip'+numberstrip3+'.setBrightness(255); \n   strip'+numberstrip+'.setPixelColor(Pixcil-1, strip'+numberstrip+'.Color('+red+','+green+','+blue+')); \n  strip'+numberstrip1+'.setPixelColor(Pixcil-1, strip'+numberstrip1+'.Color('+red1+','+green1+','+blue1+')); \n   strip'+numberstrip2+'.setPixelColor(Pixcil-1, strip'+numberstrip1+'.Color('+red2+','+green2+','+blue2+')); \n   strip'+numberstrip3+'.setPixelColor(Pixcil-1, strip'+numberstrip1+'.Color('+red3+','+green3+','+blue3+')); \n    strip'+numberstrip+'.show(); \n    strip'+numberstrip1+'.show(); \n   strip'+numberstrip2+'.show(); \n   strip'+numberstrip3+'.show(); \n    delay('+pixel_number+'); \n    strip'+numberstrip+'.setBrightness(255); \n   strip'+numberstrip1+'.setBrightness(255); \n     strip'+numberstrip2+'.setBrightness(255); \n     strip'+numberstrip3+'.setBrightness(255); \n     strip'+numberstrip+'.setPixelColor(Pixcil-1, strip'+numberstrip+'.Color(0,0,0)); \n   strip'+numberstrip1+'.setPixelColor(Pixcil-1, strip'+numberstrip1+'.Color(0,0,0)); \n    strip'+numberstrip2+'.setPixelColor(Pixcil-1, strip'+numberstrip2+'.Color(0,0,0)); \n    strip'+numberstrip3+'.setPixelColor(Pixcil-1, strip'+numberstrip3+'.Color(0,0,0)); \n     strip'+numberstrip+'.show(); \n   strip'+numberstrip1+'.show(); \n     strip'+numberstrip2+'.show(); \n     strip'+numberstrip3+'.show(); \n      } \n    strip'+numberstrip+'.setBrightness(255); \n   strip'+numberstrip1+'.setBrightness(255); \n     strip'+numberstrip2+'.setBrightness(255); \n     strip'+numberstrip3+'.setBrightness(255); \n     strip'+numberstrip+'.setPixelColor(Pixcil-1, strip'+numberstrip+'.Color('+red+','+green+','+blue+')); \n   strip'+numberstrip1+'.setPixelColor(Pixcil-1, strip'+numberstrip1+'.Color('+red1+','+green1+','+blue1+')); \n   strip'+numberstrip2+'.setPixelColor(Pixcil-1, strip'+numberstrip2+'.Color('+red2+','+green2+','+blue2+')); \n   strip'+numberstrip3+'.setPixelColor(Pixcil-1, strip'+numberstrip3+'.Color('+red3+','+green3+','+blue3+')); \n   strip'+numberstrip+'.show(); \n   strip'+numberstrip1+'.show(); \n     strip'+numberstrip2+'.show(); \n      strip'+numberstrip3+'.show(); \n    Pixcil = Pixcil + NeoPix; \n NeoPix = NeoPix - 1; \n   } \n   Pixcil = '+valueledoff+' + 1; \n ';
+}
+ if(number == 11){ 
+ var code = ' Pixcil = '+valueledon+'+1; \n NeoPix = '+valueledoff+' - Pixcil; \n  for (int count = 0; count < '+valueledoff+'; count++) { \n    for (int count = 0; count < NeoPix; count++) { \n     strip'+numberstrip+'.setBrightness(255); \n    strip'+numberstrip1+'.setBrightness(255); \n  strip'+numberstrip2+'.setBrightness(255); \n  strip'+numberstrip3+'.setBrightness(255); \n   strip'+numberstrip+'.setPixelColor(Pixcil-1, strip'+numberstrip+'.Color('+red+','+green+','+blue+')); \n    strip'+numberstrip1+'.setPixelColor(Pixcil-1, strip'+numberstrip1+'.Color('+red1+','+green1+','+blue1+')); \n   strip'+numberstrip2+'.setPixelColor(Pixcil-1, strip'+numberstrip2+'.Color('+red2+','+green2+','+blue2+')); \n   strip'+numberstrip3+'.setPixelColor(Pixcil-1, strip'+numberstrip3+'.Color('+red3+','+green3+','+blue3+')); \n     strip'+numberstrip+'.show(); \n    strip'+numberstrip1+'.show(); \n    strip'+numberstrip2+'.show(); \n    strip'+numberstrip3+'.show(); \n     delay('+pixel_number+'); \n     strip'+numberstrip+'.setBrightness(255); \n     strip'+numberstrip1+'.setBrightness(255); \n    strip'+numberstrip2+'.setBrightness(255); \n   strip'+numberstrip3+'.setBrightness(255); \n    strip'+numberstrip+'.setPixelColor(Pixcil-1, strip'+numberstrip+'.Color(0,0,0)); \n   strip'+numberstrip1+'.setPixelColor(Pixcil-1, strip'+numberstrip1+'.Color(0,0,0)); \n   strip'+numberstrip2+'.setPixelColor(Pixcil-1, strip'+numberstrip2+'.Color(0,0,0)); \n   strip'+numberstrip3+'.setPixelColor(Pixcil-1, strip'+numberstrip3+'.Color(0,0,0)); \n   strip'+numberstrip+'.show(); \n   strip'+numberstrip1+'.show(); \n   strip'+numberstrip2+'.show(); \n    strip'+numberstrip3+'.show(); \n   Pixcil = Pixcil + 1; \n    } \n   strip'+numberstrip+'.setBrightness(255); \n   strip'+numberstrip1+'.setBrightness(255); \n  strip'+numberstrip2+'.setBrightness(255); \n   strip'+numberstrip3+'.setBrightness(255); \n   strip'+numberstrip+'.setPixelColor(Pixcil-1, strip'+numberstrip+'.Color('+red+','+green+','+blue+')); \n   strip'+numberstrip1+'.setPixelColor(Pixcil-1, strip'+numberstrip1+'.Color('+red1+','+green1+','+blue1+')); \n    strip'+numberstrip2+'.setPixelColor(Pixcil-1, strip'+numberstrip2+'.Color('+red2+','+green2+','+blue2+')); \n    strip'+numberstrip3+'.setPixelColor(Pixcil-1, strip'+numberstrip3+'.Color('+red3+','+green3+','+blue3+')); \n     strip'+numberstrip+'.show(); \n   strip'+numberstrip1+'.show(); \n   strip'+numberstrip2+'.show(); \n    strip'+numberstrip3+'.show(); \n   Pixcil = '+valueledon+'+1; \n     NeoPix = NeoPix - 1; \n   } \n   Pixcil = '+valueledon+'; \n   ';
+} 
+ if(number == 12){ 
+ var code = ' Pixcil = '+valueledon+'; \n NeoPix = '+valueledoff+' - Pixcil; \n    for (int count = 0; count < NeoPix; count++) { \n     Pixcil = Pixcil + 1; \n    strip'+numberstrip+'.setBrightness(255); \n   strip'+numberstrip1+'.setBrightness(255); \n  strip'+numberstrip2+'.setBrightness(255); \n  strip'+numberstrip3+'.setBrightness(255); \n   strip'+numberstrip+'.setPixelColor(Pixcil-1, strip'+numberstrip+'.Color('+red+','+green+','+blue+')); \n   strip'+numberstrip1+'.setPixelColor(Pixcil-1, strip'+numberstrip1+'.Color('+red1+','+green1+','+blue1+')); \n     strip'+numberstrip2+'.setPixelColor(Pixcil-1, strip'+numberstrip2+'.Color('+red2+','+green2+','+blue2+')); \n      strip'+numberstrip3+'.setPixelColor(Pixcil-1, strip'+numberstrip3+'.Color('+red3+','+green3+','+blue3+')); \n    strip'+numberstrip+'.show(); \n   strip'+numberstrip1+'.show(); \n  strip'+numberstrip2+'.show(); \n   strip'+numberstrip3+'.show(); \n    delay('+pixel_number+'); \n } \n   Pixcil = '+valueledon+';  \n    ';
+} 
+ if(number == 13){  var code = ' Pixcil = '+valueledoff+'; \n  NeoPix = '+valueledoff+' - '+valueledon+'; \n    for (int count = 0; count < NeoPix; count++) { \n    strip'+numberstrip+'.setBrightness(255); \n   strip'+numberstrip1+'.setBrightness(255); \n    strip'+numberstrip2+'.setBrightness(255); \n     strip'+numberstrip3+'.setBrightness(255); \n   strip'+numberstrip+'.setPixelColor(Pixcil-1, strip'+numberstrip+'.Color('+red+','+green+','+blue+')); \n   strip'+numberstrip1+'.setPixelColor(Pixcil-1, strip'+numberstrip1+'.Color('+red1+','+green1+','+blue1+')); \n   strip'+numberstrip2+'.setPixelColor(Pixcil-1, strip'+numberstrip2+'.Color('+red2+','+green2+','+blue2+')); \n    strip'+numberstrip3+'.setPixelColor(Pixcil-1, strip'+numberstrip3+'.Color('+red3+','+green3+','+blue3+')); \n  strip'+numberstrip+'.show(); \n  strip'+numberstrip1+'.show(); \n   strip'+numberstrip2+'.show(); \n     strip'+numberstrip3+'.show(); \n   delay('+pixel_number+'); \n     Pixcil = Pixcil - 1; \n   } \n   Pixcil = '+valueledon+'; \n       ';
+} 
+  return code;
+ 
+};
+
+
+Blockly.Arduino["soft_write_ttl_uart_led"]=function(block){
+    var content=Blockly.Arduino.valueToCode(block, "CONTENT", Blockly.Arduino.ORDER_ATOMIC);
+	Blockly.Arduino.includes_["includes_soft_write_ttl_uart_led"]=" char leddwin [10] ={0x5A,0xA5,0x07,0x82,0x00,0x82,0x00,0x00,0x00,0x00}; \n ";
+     var code = "  leddwin[6]=" + content + "; \n    leddwin[7]=" + content + "; \n     mySerial.write(leddwin,10); \n  ";
+	 return code
+};
+Blockly.Arduino["soft_write_ttl_uart_reset"]=function(block){
+    var content=Blockly.Arduino.valueToCode(block, "CONTENT", Blockly.Arduino.ORDER_ATOMIC);
+	Blockly.Arduino.includes_["includes_soft_write_ttl_uart_reset"]=" char resetdwin [10] ={0x5A,0xA5,0x07,0x82,0x00,0x04,0x55,0xAA,0x5A,0xA5}; \n ";
+     var code = "   mySerial.write(resetdwin,10); \n  ";
+	 return code
+};
+ 
+ 
+  Blockly.Arduino["soft_write_ttl_uart2"]=function(block){
+    var content=Blockly.Arduino.valueToCode(block, "CONTENT", Blockly.Arduino.ORDER_ATOMIC);
+	var hexcode1 = block.getFieldValue("TEXT1");
+	var hexcode2 = block.getFieldValue("TEXT2");
+	var hexcode3 = block.getFieldValue("TEXT3");
+	var hexcode4 = block.getFieldValue("TEXT4");
+	Blockly.Arduino.includes_["soft_write_ttl_uart2"]=" int nb = 0; \n  int xb = 0; \n ";
+	Blockly.Arduino.includes_["soft_write_ttl_uart"+hexcode1+hexcode2+hexcode3+hexcode4]=" 	char x"+hexcode1+hexcode2+hexcode3+hexcode4+"m [6] ={0x5A,0xA5,0x05,0x82,0x"+hexcode1+""+hexcode2+",0x"+hexcode3+""+hexcode4+"}; \n int x"+hexcode1+hexcode2+hexcode3+hexcode4+"w = 0; \n	";
+    return ' 	x'+hexcode1+hexcode2+hexcode3+hexcode4+'w = '+content+'; \n '+
+' nb = int(x'+hexcode1+hexcode2+hexcode3+hexcode4+'w / 255); \n '+
+' xb = int(x'+hexcode1+hexcode2+hexcode3+hexcode4+'w - (nb * 255)-nb); \n '+
+' mySerial.write(x'+hexcode1+hexcode2+hexcode3+hexcode4+'m , 6); \n '+
+' mySerial.write(nb); \n '+
+' mySerial.write(xb); \n ';
+ 
+};
+
+
+// controle
+Blockly.Arduino['controls_switch']=function(block){
+    var n = 0;
+    var switchvar = Blockly.Arduino.variableDB_.getName(block.getFieldValue('SWVAR'), Blockly.Variables.NAME_TYPE);
+    var argument = Blockly.Arduino.valueToCode(block, 'CASE' + n, Blockly.Arduino.ORDER_NONE);
+    var branch = Blockly.Arduino.statementToCode(block, 'DO' + n);
+    var code = 'switch (' + switchvar + ') {\n' + 'case ' + argument + ': \n' + branch + '  break;\n';
+    for (n = 1; n <= block.casebreakCount_; n++) {
+        argument = Blockly.Arduino.valueToCode(block, 'CASE' + n, Blockly.Arduino.ORDER_NONE);
+        branch = Blockly.Arduino.statementToCode(block, 'DO' + n);
+        code += ' case ' + argument + ': \n' + branch + '  break;\n';
+    }
+    if (block.defaultCount_) {
+        branch = Blockly.Arduino.statementToCode(block, 'DEFAULT');
+        code += ' default :\n' + branch + ' ';
+    }
+    code += '}\n'
+    return code;
+};
+Blockly.Arduino["controls_for"]=function(block){
+    var variable0 = Blockly.Arduino.variableDB_.getName(block.getFieldValue("VAR"), Blockly.Variables.NAME_TYPE);
+    var argument0 = Blockly.Arduino.valueToCode(block, "FROM", Blockly.Arduino.ORDER_ASSIGNMENT);
+    var argument1 = Blockly.Arduino.valueToCode(block, "TO", Blockly.Arduino.ORDER_ASSIGNMENT);
+    var argument2 = Blockly.Arduino.valueToCode(block, "BY", Blockly.Arduino.ORDER_ASSIGNMENT);
+    var branch = Blockly.Arduino.statementToCode(block, "DO");
+    if (Blockly.Arduino.INFINITE_LOOP_TRAP) branch = Blockly.Arduino.INFINITE_LOOP_TRAP.replace(/%1/g, "'" + block.id + "'") + branch;
+    return "for (" + variable0 + "=" + argument0 + " ; " + variable0 + "<=" + argument1 + " ; " + variable0 + "=" + variable0 + "+" + argument2 + ") {\n" + branch + "}\n"
+};
+Blockly.Arduino["controls_if"]=function(block){
+    var n = 0;
+    var argument = Blockly.Arduino.valueToCode(block, "IF" + n, Blockly.Arduino.ORDER_NONE);
+    var branch = Blockly.Arduino.statementToCode(block, "DO" + n);
+    var code = "if (" + argument + ") {\n" + branch + "}";
+    for (n = 1; n <= block.elseifCount_; n++) {
+        argument = Blockly.Arduino.valueToCode(block, "IF" + n, Blockly.Arduino.ORDER_NONE);
+        branch = Blockly.Arduino.statementToCode(block, "DO" + n);
+        code += " else if (" + argument + ") {\n" + branch + "}"
+    }
+    if (block.elseCount_) {
+        branch = Blockly.Arduino.statementToCode(block, "ELSE");
+        code += " else {\n" + branch + "}"
+    }
+    return code + "\n"
+};
+Blockly.Arduino["controls_repeat_ext"]=function(block){
+    var repeats = Blockly.Arduino.valueToCode(block, "TIMES", Blockly.Arduino.ORDER_ASSIGNMENT);
+    var branch = Blockly.Arduino.statementToCode(block, "DO");
+    if (Blockly.Arduino.INFINITE_LOOP_TRAP) branch = Blockly.Arduino.INFINITE_LOOP_TRAP.replace(/%1/g, "'" + block.id + "'") + branch;
+    var loopVar = Blockly.Arduino.variableDB_.getName("count", Blockly.Variables.NAME_TYPE);
+    var code = "for (int " + loopVar + "=0 ; " + loopVar + "<" + repeats + " ; " + loopVar + "++) {\n" + branch + "}\n";
+    return code
+};
+Blockly.Arduino["controls_whileUntil"]=function(block){
+    var argument0 = Blockly.Arduino.valueToCode(block, "BOOL", Blockly.Arduino.ORDER_NONE);
+    var branch = Blockly.Arduino.statementToCode(block, "DO");
+    if (Blockly.Arduino.INFINITE_LOOP_TRAP) branch = Blockly.Arduino.INFINITE_LOOP_TRAP.replace(/%1/g, "'" + block.id + "'") + branch;
+    if (block.getFieldValue("MODE") == "UNTIL") {
+        if (!argument0.match(/^\w+$/)) argument0 = "(" + argument0 + ")";
+        argument0 = "!" + argument0
+    }
+    return "while (" + argument0 + ") {\n" + branch + "}\n"
+};
+Blockly.Arduino["controls_forEach"]=function(block){
+    var variable0 = Blockly.Arduino.variableDB_.getName(block.getFieldValue("VAR"), Blockly.Variables.NAME_TYPE);
+    var argument0 = Blockly.Arduino.valueToCode(block, "LIST", Blockly.Arduino.ORDER_ASSIGNMENT);
+    var branch = Blockly.Arduino.statementToCode(block, "DO");
+    if (Blockly.Arduino.INFINITE_LOOP_TRAP) branch = Blockly.Arduino.INFINITE_LOOP_TRAP.replace(/%1/g, "'" + block.id + "'") + branch;
+    var code = "for (var " + variable0 + " in  " + argument0 + ") {\n" + branch + "}\n";
+    return code
+};
+Blockly.Arduino["controls_flow_statements"]=function(block){
+    switch (block.getFieldValue("FLOW")) {
+        case "BREAK":
+            return "break;\n";
+        case "CONTINUE":
+            return "continue;\n"
+    }
+    throw "Unknown flow statement.";
+};
+Blockly.Arduino["logic_operation"]=function(block){
+    var mode = block.getFieldValue("OP");
+	var operator = Blockly.Arduino.logic_operation.OPERATORS[mode];
+    var order = operator == "&&" ? Blockly.Arduino.ORDER_LOGICAL_AND : Blockly.Arduino.ORDER_LOGICAL_OR;
+    var argument0 = Blockly.Arduino.valueToCode(block, "A", order);
+    var argument1 = Blockly.Arduino.valueToCode(block, "B", order);
+    var code = argument0 + " " + operator + " " + argument1;
+    return [code, order]
+};
+Blockly.Arduino.logic_operation.OPERATORS = {and: "&", and2: "&&", or: "|", or2: "||", xor: "^", shiftL: "<<", shiftR: ">>"};
+Blockly.Arduino["logic_negate"]=function(block){
+    var order = Blockly.Arduino.ORDER_UNARY_PREFIX;
+    var argument0 = Blockly.Arduino.valueToCode(block, "BOOL", order);
+    var code = "!" + argument0;
+    return [code, order]
+};
+Blockly.Arduino["logic_null"]=function(block){
+    var code = "NULL";
+    return [code, Blockly.Arduino.ORDER_ATOMIC]
+};
+Blockly.Arduino["inout_onoff"]=function(block){
+    var code=block.getFieldValue("BOOL") == "HIGH" ? "HIGH" : "LOW";
+    return [code, Blockly.Arduino.ORDER_ATOMIC]
+};
+// math
+Blockly.Arduino["logic_compare_log"]=function(block){
+    var mode = block.getFieldValue("OP");
+    var operator = Blockly.Arduino.logic_compare.OPERATORS[mode];
+    var order = operator == "==" || operator == "!=" ? Blockly.Arduino.ORDER_EQUALITY : Blockly.Arduino.ORDER_RELATIONAL;
+    var argument0 = Blockly.Arduino.valueToCode(block, "A", order);
+    var argument1 = Blockly.Arduino.valueToCode(block, "B", order);
+    var code = argument0 + " " + operator + " " + argument1;
+    return [code, order]
+};
+Blockly.Arduino["logic_compare"]=function(block){
+    var mode = block.getFieldValue("OP");
+    var operator = Blockly.Arduino.logic_compare.OPERATORS[mode];
+    var order = operator == "==" || operator == "!=" ? Blockly.Arduino.ORDER_EQUALITY : Blockly.Arduino.ORDER_RELATIONAL;
+    var argument0 = Blockly.Arduino.valueToCode(block, "A", order);
+    var argument1 = Blockly.Arduino.valueToCode(block, "B", order);
+    var code = argument0 + " " + operator + " " + argument1;
+    return [code, order]
+};
+Blockly.Arduino.logic_compare.OPERATORS = {EQ: "==", NEQ: "!=", LT: "<", LTE: "<=", GT: ">", GTE: ">="};
+Blockly.Arduino['intervalle']=function(block){
+    var OPERATORS = {
+        'LT': '<',
+        'LTE': '<=',
+        'GT': '>',
+        'GTE': '>='
+    };
+    var value_inf = Blockly.Arduino.valueToCode(block, 'inf', Blockly.Arduino.ORDER_ATOMIC);
+    var dropdown_comp_inf = block.getFieldValue('comp_inf');
+    var value_valeur = Blockly.Arduino.valueToCode(block, 'valeur', Blockly.Arduino.ORDER_ATOMIC);
+    var dropdown_comp_sup = OPERATORS[block.getFieldValue('comp_sup')];
+    var value_sup = Blockly.Arduino.valueToCode(block, 'sup', Blockly.Arduino.ORDER_ATOMIC);
+    var code = '';
+    if (dropdown_comp_inf == 'LT') {
+        code += '(' + value_valeur + ' > ' + value_inf + ')';
+    }
+    if (dropdown_comp_inf == 'GT') {
+        code += '(' + value_valeur + ' < ' + value_inf + ' )';
+    }
+    if (dropdown_comp_inf == 'GTE') {
+        code += '(' + value_valeur + ' <= ' + value_inf + ' )';
+    }
+    if (dropdown_comp_inf == 'LTE') {
+        code += '(' + value_valeur + ' >= ' + value_inf + ' )';
+    }
+    code += ' && ( ' + value_valeur + ' ' + dropdown_comp_sup + ' ' + value_sup + ')';
+    return [code, Blockly.Arduino.ORDER_NONE]
+};
+Blockly.Arduino["math_number"]=function(block){
+    var code = window.parseFloat(block.getFieldValue("NUM"));
+    var order = code < 0 ? Blockly.Arduino.ORDER_UNARY_PREFIX : Blockly.Arduino.ORDER_ATOMIC;
+    return [code, order]
+};
+Blockly.Arduino["math_arithmetic"]=function(block){
+    var mode = block.getFieldValue("OP");
+    var tuple = Blockly.Arduino.math_arithmetic.OPERATORS[mode];
+    var operator = tuple[0];
+    var order = tuple[1];
+    var argument0 = Blockly.Arduino.valueToCode(block, "A", order);
+    var argument1 = Blockly.Arduino.valueToCode(block, "B", order);
+    var code;
+    if (!operator) {
+        code = "pow(" + argument0 + ", " + argument1 + ")";
+        return [code, Blockly.Arduino.ORDER_UNARY_POSTFIX]
+    }
+    code = argument0 + operator + argument1;
+    return [code, order]
+};
+Blockly.Arduino.math_arithmetic.OPERATORS = {ADD: [" + ", Blockly.Arduino.ORDER_ADDITIVE],MINUS: [" - ", Blockly.Arduino.ORDER_ADDITIVE], MULTIPLY: [" * ", Blockly.Arduino.ORDER_MULTIPLICATIVE], DIVIDE: [" / ", Blockly.Arduino.ORDER_MULTIPLICATIVE], POWER: [null, Blockly.Arduino.ORDER_NONE]};
+Blockly.Arduino["math_single"]=function(block){
+    var operator = block.getFieldValue("OP");
+    var code;
+    var arg;
+    if (operator == "NEG") {
+        arg = Blockly.Arduino.valueToCode(block, "NUM", Blockly.Arduino.ORDER_UNARY_NEGATION);
+        if (arg[0] == "-") arg = " " + arg;
+        code = "-" + arg;
+        return [code, Blockly.Arduino.ORDER_UNARY_NEGATION]
+    }
+    if (operator == "SIN" || operator == "COS" || operator == "TAN") arg = Blockly.Arduino.valueToCode(block, "NUM", Blockly.Arduino.ORDER_DIVISION);
+    else arg = Blockly.Arduino.valueToCode(block, "NUM", Blockly.Arduino.ORDER_NONE);
+    switch (operator) {
+        case "ABS":
+            code = "abs(" + arg + ")";
+            break;
+        case "ROOT":
+            code = "sqrt(" + arg + ")";
+            break;
+        case "ROUND":
+            code = "round(" + arg + ")";
+            break;
+        case "ROUNDUP":
+            code = "ceil(" + arg + ")";
+            break;
+        case "ROUNDDOWN":
+            code = "floor(" + arg + ")";
+            break;
+        case "SIN":
+            code = "sin(" + arg + ")";
+            break;
+        case "COS":
+            code = "cos(" + arg + ")";
+            break;
+        case "TAN":
+            code = "tan(" + arg + ")";
+            break;
+        default:
+            throw "Unknown math operator: " + operator;
+    }
+    if (code) return [code, Blockly.Arduino.ORDER_FUNCTION_CALL];
+    return [code, Blockly.Arduino.ORDER_DIVISION]
+};
+Blockly.Arduino["math_constant"]=function(block){
+    var CONSTANTS = {
+        PI: ["PI", Blockly.Arduino.ORDER_MEMBER],
+        E: ["E", Blockly.Arduino.ORDER_MEMBER],
+        GOLDEN_RATIO: ["(1 + sqrt(5)) / 2", Blockly.Arduino.ORDER_DIVISION],
+        SQRT2: ["SQRT2", Blockly.Arduino.ORDER_MEMBER],
+        SQRT1_2: ["SQRT1_2", Blockly.Arduino.ORDER_MEMBER],
+        INFINITY: ["Infinity", Blockly.Arduino.ORDER_ATOMIC]
+    };
+    return CONSTANTS[block.getFieldValue("CONSTANT")]
+};
+Blockly.Arduino["math_number_property"]=function(block){
+    var number_to_check = Blockly.Arduino.valueToCode(block, "NUMBER_TO_CHECK", Blockly.Arduino.ORDER_MODULUS);
+    var dropdown_property = block.getFieldValue("PROPERTY");
+    var code;
+    if (dropdown_property == "PRIME") {
+        var functionName = Blockly.Arduino.provideFunction_("math_isPrime", ["function " + Blockly.Arduino.FUNCTION_NAME_PLACEHOLDER_ + "(n) {", "  // https://en.wikipedia.org/wiki/Primality_test#Naive_methods", "  if (n == 2 || n == 3) {", "    return true;", "  }", "  // False if n is NaN, negative, is 1, or not whole.", "  // And false if n is divisible by 2 or 3.", "  if (isNaN(n) || n <= 1 || n % 1 != 0 || n % 2 == 0 ||" + " n % 3 == 0) {", "    return false;", "  }", "  // Check all the numbers of form 6k +/- 1, up to sqrt(n).", "  for (var x = 6; x <= sqrt(n) + 1; x += 6) {", "    if (n % (x - 1) == 0 || n % (x + 1) == 0) {", "      return false;", "    }", "  }", "  return true;", "}"]);
+        code = functionName + "(" + number_to_check + ")";
+        return [code, Blockly.Arduino.ORDER_FUNCTION_CALL]
+    }
+    switch (dropdown_property) {
+        case "EVEN":
+            code = number_to_check + " % 2 == 0";
+            break;
+        case "ODD":
+            code = number_to_check + " % 2 == 1";
+            break;
+        case "WHOLE":
+            code = number_to_check + " % 1 == 0";
+            break;
+        case "POSITIVE":
+            code = number_to_check + " > 0";
+            break;
+        case "NEGATIVE":
+            code = number_to_check + " < 0";
+            break;
+        case "DIVISIBLE_BY":
+            var divisor = Blockly.Arduino.valueToCode(block, "DIVISOR", Blockly.Arduino.ORDER_MODULUS);
+            code = number_to_check + " % " + divisor + " == 0";
+            break
+    }
+    return [code, Blockly.Arduino.ORDER_EQUALITY]
+};
+Blockly.Arduino["math_round"] = Blockly.Arduino["math_single"];
+Blockly.Arduino["math_trig"] = Blockly.Arduino["math_single"];
+Blockly.Arduino["math_modulo"]=function(block){
+    var argument0 = Blockly.Arduino.valueToCode(block, "DIVIDEND", Blockly.Arduino.ORDER_MODULUS);
+    var argument1 = Blockly.Arduino.valueToCode(block, "DIVISOR", Blockly.Arduino.ORDER_MODULUS);
+    var code = argument0 + " % " + argument1;
+    return [code, Blockly.Arduino.ORDER_MODULUS]
+};
+Blockly.Arduino["math_random_int"]=function(block){
+    var argument0 = Blockly.Arduino.valueToCode(block, "FROM", Blockly.Arduino.ORDER_COMMA);
+//  var arg = Blockly.Arduino.valueToCode(block, "TO", Blockly.Arduino.ORDER_COMMA);
+//	var argument1 = parseInt(arg) + 1 ;
+	var argument1 = Blockly.Arduino.valueToCode(block, "TO", Blockly.Arduino.ORDER_COMMA);
+    var functionName = Blockly.Arduino.provideFunction_("random_int", ["long " + Blockly.Arduino.FUNCTION_NAME_PLACEHOLDER_ + "(int a,int b) {", "  if (a > b) {",  "    int c = a;", "    a = b;", "    b = c;", "  }", "  return random(a,b);", "}"]);
+    Blockly.Arduino.setups_["randomseed"] = "randomSeed(analogRead(0));";
+	var code = functionName + "(" + argument0 + ", " + argument1 + ")";
+    return [code, Blockly.Arduino.ORDER_FUNCTION_CALL]
+};
+Blockly.Arduino["math_random_int_g"]=function(block){
+    var argument0 = Blockly.Arduino.valueToCode(block, "FROM", Blockly.Arduino.ORDER_COMMA);
+	var argument1 = Blockly.Arduino.valueToCode(block, "TO", Blockly.Arduino.ORDER_COMMA);
+    var code = "random("+argument0+","+argument1+")";
+    return [code, Blockly.Arduino.ORDER_FUNCTION_CALL]
+};
+Blockly.Arduino["math_random_int_map"]=function(block){
+    var mi1 = Blockly.Arduino.valueToCode(block, "Mi1", Blockly.Arduino.ORDER_COMMA);
+    var mi2 = Blockly.Arduino.valueToCode(block, "Mi2", Blockly.Arduino.ORDER_COMMA);
+    var mi3 = Blockly.Arduino.valueToCode(block, "Mi3", Blockly.Arduino.ORDER_COMMA);
+    var mi4 = Blockly.Arduino.valueToCode(block, "Mi4", Blockly.Arduino.ORDER_COMMA);
+    var mi5 = Blockly.Arduino.valueToCode(block, "Mi5", Blockly.Arduino.ORDER_COMMA);	
+	
+	var code = "map(" + mi1 + ", " + mi2 + ", " + mi3 + ", " + mi4 + ", " + mi5 + ")";   
+    return [code, Blockly.Arduino.ORDER_FUNCTION_CALL]
+};
+// texte
+Blockly.Arduino['text_char']=function(block){
+    var code = '\'' + block.getFieldValue('TEXT') + '\'';
+    return [code, Blockly.Arduino.ORDER_ATOMIC];
+};
+Blockly.Arduino["text"]=function(block){
+    var code = Blockly.Arduino.quote_(block.getFieldValue("TEXT"));
+    return [code, Blockly.Arduino.ORDER_ATOMIC]
+};
+Blockly.Arduino["text_join"]=function(block){
+    var code;
+    if (block.itemCount_ == 0) return ['""', Blockly.Arduino.ORDER_ATOMIC];
+    else if (block.itemCount_ == 1) {
+        var argument0 = Blockly.Arduino.valueToCode(block, "ADD0", Blockly.Arduino.ORDER_UNARY_POSTFIX);
+        code = "String(" + argument0 + ")";
+        return [code, Blockly.Arduino.ORDER_UNARY_POSTFIX]
+    } else {
+        var argument;
+        code = [];
+        for (var n = 0; n < block.itemCount_; n++) {
+            argument = Blockly.Arduino.valueToCode(block, "ADD" + n, Blockly.Arduino.ORDER_NONE);
+            if (argument == "") code[n] = '""';
+            else code[n] = "String(" + argument + ")"
+        }
+        code = code.join(" + ");
+        return [code, Blockly.Arduino.ORDER_UNARY_POSTFIX]
+    }
+};
+Blockly.Arduino["text_length"]=function(block){
+    var argument0 = Blockly.Arduino.valueToCode(block, "VALUE", Blockly.Arduino.ORDER_UNARY_POSTFIX);
+    var code = "String(" + argument0 + ").length()";
+    return [code, Blockly.Arduino.ORDER_UNARY_POSTFIX]
+};
+Blockly.Arduino["text_isEmpty"]=function(block){
+    var func = [];
+    func.push("boolean " + Blockly.Arduino.DEF_FUNC_NAME + "(String msg) {");
+    func.push("  if (msg.length() > 0) {");
+    func.push("    return true;");
+    func.push("  } else {");
+    func.push("    return false;");
+    func.push("  }");
+    func.push("}");
+    var funcName = Blockly.Arduino.addFunction("isStringEmpty", func.join("\n"));
+    var argument0 = Blockly.Arduino.valueToCode(block, "PIN", Blockly.Arduino.ORDER_ATOMIC);
+    if (argument0 == "") argument0 = '""';
+    else argument0 = "String(" + argument0 + ")";
+    var code = funcName + "(" + argument0 + ")";
+    return [code, Blockly.Arduino.ORDER_UNARY_POSTFIX]
+};
+// variable
+Blockly.Arduino["math_change"]=function(block){
+    var argument0 = Blockly.Arduino.valueToCode(block, "DELTA", Blockly.Arduino.ORDER_ADDITIVE);
+    var varName = Blockly.Arduino.variableDB_.getName(block.getFieldValue("VAR"), Blockly.Variables.NAME_TYPE);
+    var code = varName + " = " + varName + " + " + argument0 + ";\n";
+    return code
+};
+Blockly.Arduino['variables_get']=function(block){
+    var code = Blockly.Arduino.variableDB_.getName(block.getFieldValue('VAR'), Blockly.Variables.NAME_TYPE);
+    return [code, Blockly.Arduino.ORDER_ATOMIC];
+};
+Blockly.Arduino['variables_set']=function(block){
+    var argument0 = Blockly.Arduino.valueToCode(block, 'VALUE', Blockly.Arduino.ORDER_ASSIGNMENT);
+    var varName = Blockly.Arduino.variableDB_.getName(block.getFieldValue('VAR'), Blockly.Variables.NAME_TYPE);
+    var code = varName + ' = ' + argument0 + ';\n';
+    return code;
+};
+Blockly.Arduino['variables_set_init']=function(block){
+	var argument0 = Blockly.Arduino.valueToCode(block, 'VALUE', Blockly.Arduino.ORDER_ASSIGNMENT);
+	var varName = Blockly.Arduino.variableDB_.getName(block.getFieldValue('VAR'), Blockly.Variables.NAME_TYPE);
+	var typeBlock = Blockly.Arduino.getArduinoType_(Blockly.Types[block.getFieldValue('VARIABLE_SETTYPE_TYPE')]);
+	Blockly.Arduino.variables_[varName] = typeBlock + ' ' + varName + ' = ' + argument0 + ';';
+	return "";
+};
+Blockly.Arduino["base_define_const"]=function(block){
+    var value_text1 = Blockly.Arduino.variableDB_.getName(block.getFieldValue('VAR'), Blockly.Variables.NAME_TYPE);
+    var value_text2 = Blockly.Arduino.valueToCode(block, "TEXT2", Blockly.Arduino.ORDER_ATOMIC);
+    Blockly.Arduino.variables_[value_text1] = "#define " + value_text1 + " " + value_text2;
+    return ""
+};
+Blockly.Arduino["variables_const"]=function(block){
+  var argument0 = Blockly.Arduino.valueToCode(block, 'VAL_CONST', Blockly.Arduino.ORDER_ASSIGNMENT);
+  var varName = Blockly.Arduino.variableDB_.getName(block.getFieldValue('VAR'), Blockly.Variables.NAME_TYPE);
+  var typeBlock = Blockly.Arduino.getArduinoType_(Blockly.Types[block.getFieldValue('VARIABLE_SETTYPE_TYPE')]);
+  Blockly.Arduino.variables_[varName] = 'const ' + typeBlock + ' ' + varName + ' = ' + argument0 + ';';
+  return "";  
+};
+// fonction
+Blockly.Arduino['procedures_defnoreturn'] = function(block){
+    var funcName = Blockly.Arduino.variableDB_.getName(block.getFieldValue('NAME'), Blockly.Procedures.NAME_TYPE);
+    var branch = Blockly.Arduino.statementToCode(block, 'STACK');
+    if (Blockly.Arduino.INFINITE_LOOP_TRAP) {
+        branch = Blockly.Arduino.INFINITE_LOOP_TRAP.replace(/%1/g, '\'' + block.id + '\'') + branch;
+    }
+	var args = [];
+	for (var x = 0; x < block.arguments_.length; x++) {
+		args[x] = Blockly.Arduino.getArduinoType_(Blockly.Types[block.argumentstype_[x]]) + ' ' + block.arguments_[x];
+	}
+    var code = 'void ' + funcName + '(' + args.join(',') + ') {\n' + branch + '}\n';
+    code = Blockly.Arduino.scrub_(block, code);
+    Blockly.Arduino.codeFunctions_[funcName] = code;
+    return "";
+};
+Blockly.Arduino['procedures_defreturn']=function(block){
+    var funcName = Blockly.Arduino.variableDB_.getName(block.getFieldValue('NAME'), Blockly.Procedures.NAME_TYPE);
+    var branch = Blockly.Arduino.statementToCode(block, 'STACK');
+    if (Blockly.Arduino.INFINITE_LOOP_TRAP) {
+        branch = Blockly.Arduino.INFINITE_LOOP_TRAP.replace(/%1/g, '\'' + block.id + '\'') + branch;
+    }
+    var returnValue = Blockly.Arduino.valueToCode(block, 'RETURN', Blockly.Arduino.ORDER_NONE) || '';
+    if (returnValue) {
+        returnValue = '  return ' + returnValue + ';\n';
+    }
+    var returnType = Blockly.Arduino.getArduinoType_(Blockly.Types[block.getFieldValue('type')]);
+    var args = [];
+	for (var x = 0; x < block.arguments_.length; x++) {
+		args[x] = Blockly.Arduino.getArduinoType_(Blockly.Types[block.argumentstype_[x]]) + ' ' + Blockly.Arduino.variableDB_.getName(block.arguments_[x], Blockly.Variables.NAME_TYPE);
+	}
+    var code = returnType + ' ' + funcName + '(' + args.join(',') + ') {\n' + branch + returnValue + '}\n';
+    code = Blockly.Arduino.scrub_(block, code);
+    Blockly.Arduino.codeFunctions_[funcName] = code;
+    return '';
+};
+Blockly.Arduino['procedures_callreturn']=function(block){
+    var funcName = Blockly.Arduino.variableDB_.getName(block.getFieldValue('NAME'), Blockly.Procedures.NAME_TYPE);
+    var args = [];
+    for (var x = 0; x < block.arguments_.length; x++) {
+        args[x] = Blockly.Arduino.valueToCode(block, 'ARG' + x, Blockly.Arduino.ORDER_NONE) || 'null';
+    }
+    var code = funcName + '(' + args.join(', ') + ')';
+    return [code, Blockly.Arduino.ORDER_UNARY_POSTFIX];
+};
+Blockly.Arduino['procedures_callnoreturn']=function(block){
+    var funcName = Blockly.Arduino.variableDB_.getName(block.getFieldValue('NAME'),
+        Blockly.Procedures.NAME_TYPE);
+    var args = [];
+    for (var x = 0; x < block.arguments_.length; x++) {
+        args[x] = Blockly.Arduino.valueToCode(block, 'ARG' + x,
+            Blockly.Arduino.ORDER_NONE) || 'null';
+    }
+    var code = funcName + '(' + args.join(', ') + ');\n';
+    return code;
+};
+Blockly.Arduino['procedures_ifreturn']=function(block){
+    if (block.hasReturnValue_) {
+        var value = Blockly.Arduino.valueToCode(block, 'VALUE', Blockly.Arduino.ORDER_NONE) || 'null';
+        var code = '  return ' + value + ';\n';
+    } else {
+        var code = '  return;\n';
+    }
+    return code;
+};
+// tableau
+Blockly.Arduino['creer_tableau']=function(block){
+	var varName = Blockly.Arduino.variableDB_.getName(block.getFieldValue('VAR'), Blockly.Variables.NAME_TYPE);
+	var typeBlock = Blockly.Arduino.getArduinoType_(Blockly.Types[block.getFieldValue('type')]);
+	var menu = "c2";
+	var dimension = block.getFieldValue("dim");
+	var l = "" ;
+	var k = "" ;
+	switch (menu) {
+        case "c1":
+            for (var i = 0; i < dimension; i++) {
+				var j = Blockly.Arduino.valueToCode(block, "D" + i, Blockly.Arduino.ORDER_ASSIGNMENT);
+				k += "[" + j + "]"
+			}
+			Blockly.Arduino.variables_[varName] = typeBlock + ' ' + varName + k + ';';
+			break;
+        case "c2":
+			k += "{" ;
+			for (var i = 0; i < dimension; i++) {
+				var j = Blockly.Arduino.valueToCode(block, "D" + i, Blockly.Arduino.ORDER_ASSIGNMENT);
+				var nb = j.split(',');
+				k += j + ",";
+				l += "[" + nb.length + "]";
+			}
+			k=k.substr(0,k.length-1);
+			k+="}";
+			Blockly.Arduino.variables_[varName] = typeBlock + ' ' + varName +' [' + dimension +'] =' + k + ';';
+			break;
+		}
+	return '';
+};
+Blockly.Arduino['fixer_tableau']=function(block){
+    var value_value = Blockly.Arduino.valueToCode(block, 'value', Blockly.Arduino.ORDER_ATOMIC);
+	var code = Blockly.Arduino.variableDB_.getName(block.getFieldValue('VAR'), Blockly.Variables.NAME_TYPE);
+	var dimension = block.getFieldValue("Number");
+	var dimension = dimension - 1;
+	 
+	 var code = ''+code+'[' + dimension +']='+value_value+';\n';
+    return code;
+};
+Blockly.Arduino["array_getIndex"]=function(block){
+    var code = Blockly.Arduino.variableDB_.getName(block.getFieldValue('VAR'), Blockly.Variables.NAME_TYPE);
+	var dimension = block.getFieldValue("Number");
+	var dimension = dimension - 1;
+		var code = ''+code+'[' + dimension +']';
+ 
+	return [code, Blockly.Arduino.ORDER_ATOMIC] ;
+};
+Blockly.Arduino["array_getsize"]=function(block){
+    var list = Blockly.Arduino.variableDB_.getName(block.getFieldValue('VAR'), Blockly.Variables.NAME_TYPE);
+    var code = 'sizeof('+list+')/sizeof('+list+'[0])';
+	return [code, Blockly.Arduino.ORDER_ATOMIC] ;
+};
+Blockly.Arduino["array_create_with"]=function(block){
+    var code = new Array(block.itemCount_);
+    for (var n = 0; n < block.itemCount_; n++) {
+        code[n] = Blockly.Arduino.valueToCode(block, 'ADD' + n, Blockly.Arduino.ORDER_COMMA) || 'null';
+    }
+    code = '{' + code.join(',') + '}';
+    return [code, Blockly.Arduino.ORDER_ATOMIC];
+};
+
+
+Blockly.Arduino['arduino_b_code']=function(block){
+    var valuetext = block.getFieldValue('text');
+    var valueincludes = block.getFieldValue('includes');
+    var valuevariables = block.getFieldValue('variables');
+    var valuedefinitions = block.getFieldValue('definitions');
+    var valueuserfunctions = block.getFieldValue('userFunctions');
+    var valuesetups = block.getFieldValue('setups');
+    var valuecode = block.getFieldValue('code');
+    Blockly.Arduino.includes_['includes'+valueincludes] = ''+valueincludes+' \n';
+    Blockly.Arduino.variables_['variables'+valuevariables] = ''+valuevariables+' \n';
+    Blockly.Arduino.definitions_['definitions'+valuedefinitions] = ''+valuedefinitions+' \n';
+    Blockly.Arduino.userFunctions_['userFunctions'+valueuserfunctions] = ''+valueuserfunctions+' \n';
+    Blockly.Arduino.setups_['setups'+valuesetups]=''+valuesetups+' \n';
+    var code = ''+valuecode+' \n';
+    return code
+};
+
+ Blockly.Arduino['arduino_a_code']=function(block){
+    var valuetext = block.getFieldValue('text');
+    var valueincludes = block.getFieldValue('includes');
+    var valuevariables = block.getFieldValue('variables');
+    var valuedefinitions = block.getFieldValue('definitions');
+    var valueuserfunctions = block.getFieldValue('userFunctions');
+    var valuesetups = block.getFieldValue('setups');
+    var valuecode = block.getFieldValue('code');
+    Blockly.Arduino.includes_['includes'+valueincludes] = ''+valueincludes+' \n';
+    Blockly.Arduino.variables_['variables'+valuevariables] = ''+valuevariables+' \n';
+    Blockly.Arduino.definitions_['definitions'+valuedefinitions] = ''+valuedefinitions+' \n';
+    Blockly.Arduino.userFunctions_['userFunctions'+valueuserfunctions] = ''+valueuserfunctions+' \n';
+    Blockly.Arduino.setups_['setups'+valuesetups]=''+valuesetups+' \n';
+    var code = ''+valuecode+'';
+    return [code, Blockly.Arduino.ORDER_ATOMIC];
+};
+
+Blockly.Arduino["serial_init"]=function(block){
+    var dropdown_speed=block.getFieldValue("SPEED");
+	var dropdown_pin=block.getFieldValue("pin");
+	window.localStorage.baudrate=dropdown_speed;
+	switch (dropdown_pin) {
+        case "0":
+            Blockly.Arduino.setups_["serial_begin"]="Serial.begin(" + dropdown_speed + ");";
+            break;
+        case "19":
+            Blockly.Arduino.setups_["serial_begin"]="Serial1.begin(" + dropdown_speed + ");";
+            break;
+        case "17":
+            Blockly.Arduino.setups_["serial_begin"]="Serial2.begin(" + dropdown_speed + ");";
+            break
+        case "15":
+            Blockly.Arduino.setups_["serial_begin"]="Serial3.begin(" + dropdown_speed + ");";
+            break
+	}
+  return ""
+};
+
+ 
+
+Blockly.Arduino["GPS_init_ss"] = function(block) {
+	
+ var pin_rx = this.getFieldValue('PIN_RX');
+ var pin_tx = this.getFieldValue('PIN_TX');
+  
+ Blockly.Arduino.includes_['define_softwareserial_library'] = '#include <SoftwareSerial.h>';
+ Blockly.Arduino.includes_['define_gps_library'] = '#include <TinyGPSPlus.h>';
+ Blockly.Arduino.definitions_['define_GPS_variable'] = 'TinyGPSPlus gps;\n';
+ Blockly.Arduino.definitions_['define_softwareserial_gps'] = 'SoftwareSerial mySoftwareSerialgps('+pin_tx+','+pin_rx+');\n';
+ Blockly.Arduino.definitions_['gps_variables'] ='float flat,flon,falt,fc,fk,fmph,fmps,fkmph;\n'+
+'int year;\n'+ 
+'byte month, day, hour, minutes, second, hundredths,nsat;\n'+ 
+'unsigned long fix_age; \n';   
+ 
+ Blockly.Arduino.setups_['setup_sserial_gps_baudios'] = 'mySoftwareSerialgps.begin(9600);\n';
+ 
+
+  var code='';
+  return code;
+   
+};
+
+
+
+Blockly.Arduino["GPS_read_save_values"] = function(block) {
+ 		
+ var code = 'while (mySoftwareSerialgps.available()>0)\n'+
+' {\n'+ 
+'  if (gps.encode(mySoftwareSerialgps.read())) \n'+
+'   {\n'+
+'	  if (gps.location.isValid()) \n'+
+'		{	\n'+
+'		  flat= gps.location.lat();\n'+
+'		  flon =gps.location.lng();\n'+
+'       }\n'+
+'	  if (gps.altitude.isValid()) \n'+
+'		{	\n'+
+'		  falt= gps.altitude.meters();\n'+
+'       }\n'+
+'	  if (gps.course.isValid()) \n'+
+'		{	\n'+
+'		  fc= gps.course.deg();\n'+
+'       }\n'+
+'	  if (gps.satellites.isValid()) \n'+
+'		{	\n'+
+'		  nsat=gps.satellites.value();\n'+
+'       }\n'+
+'	  if (gps.speed.isValid()) \n'+
+'		{	\n'+
+'		  fk=gps.speed.knots();\n'+
+'		  fmph=gps.speed.mph();\n'+
+'		  fmps= gps.speed.mps();\n'+
+'		  fkmph =gps.speed.kmph();\n'+
+'       }\n'+
+'	  if (gps.date.isValid()) \n'+
+'		{	\n'+
+'		  year=gps.date.year();\n'+
+'		  month=gps.date.month();\n'+
+'		  day=gps.date.day();\n'+
+'       }\n'+
+'	  if (gps.time.isValid()) \n'+
+'		{	\n'+
+'		  hour=gps.time.hour();\n'+
+'		  minutes=gps.time.minute();\n'+
+'		  second=gps.time.second();\n'+
+'       }\n'+
+'   }\n'+
+'  }\n';
+
+  return code;
+};
+
+
+
+Blockly.Arduino["GPS_location"] = function(block) {
+	
+ var parameter = this.getFieldValue('PARAMETERS1'); 
+ 
+ 
+  if(parameter ==0)
+   var code='flat';
+  else  if(parameter ==1)
+   var code='flon';
+	else  if(parameter ==2)
+		 var code='falt';
+	 else if(parameter ==3)
+		 var code='fc';
+		else
+	      var code='nsat';
+	  
+   return [code, Blockly.Arduino.ORDER_ATOMIC];
+
+};
+
+
+Blockly.Arduino["GPS_speed"] = function(block) {
+	
+ var parameter = this.getFieldValue('PARAMETERS2'); 
+ 
+ 
+  if(parameter ==0)
+   var code='fk';
+  else  if(parameter ==1)
+   var code='fmph';
+	else  if(parameter ==2)
+		 var code='fmps';
+		else
+	      var code='fkmph';
+	  
+   return [code, Blockly.Arduino.ORDER_ATOMIC];
+
+};
+
+
+Blockly.Arduino["GPS_datetime"] = function(block) {
+	
+ var parameter = this.getFieldValue('PARAMETERS3'); 
+ 
+ 
+  if(parameter ==0)
+   var code='year';
+  else  if(parameter ==1)
+   var code='month';
+	else  if(parameter ==2)
+		 var code='day';
+	 else if(parameter ==3)
+		 var code='hour';
+		else if(parameter ==4)
+			var code='minutes';
+			else
+				var code='second';
+	  
+   return [code, Blockly.Arduino.ORDER_ATOMIC];
+
+};
+
+
+Blockly.Arduino["x9c103s"]=function(block){
+    var valuen4_number = block.getFieldValue('n4_number');
+    var valuen3_number = block.getFieldValue('n3_number');
+    var valuen2_number = block.getFieldValue('n2_number');
+    var value_block = Blockly.Arduino.valueToCode(block, '_block', Blockly.Arduino.ORDER_ATOMIC);
+
+    Blockly.Arduino.variables_["variables_x9c103s"] = 'long zen = 0; \n long zenm = 0; \n ';
+    Blockly.Arduino.setups_["setups_x9c103s"]='  pinMode('+valuen2_number+', OUTPUT);  \n  pinMode('+valuen3_number+', OUTPUT);  \n  pinMode('+valuen4_number+', OUTPUT);  \n  digitalWrite('+valuen4_number+', 1);  \n';
+    var code = 'zen = '+value_block+';   \n'+
+ '    if (zen > zenm ) {   \n'+
+ '      zenm = zenm + 1;   \n'+
+ '  digitalWrite('+valuen2_number+', HIGH);     \n'   +       
+ '  digitalWrite('+valuen3_number+', HIGH);     \n'  +       
+ '  digitalWrite('+valuen4_number+', LOW);     \n'  +         
+ '  delayMicroseconds(1);                   \n'+
+ '  digitalWrite('+valuen3_number+', LOW);     \n' +         
+ '  delayMicroseconds(1);   \n'+
+ '  digitalWrite('+valuen3_number+', HIGH);   \n'+
+ '  delayMicroseconds(1);   \n'+
+ '  digitalWrite('+valuen4_number+', HIGH);    \n'+
+ '    }   \n'+
+ '    if (zen < zenm) {   \n'+
+ '      zenm = zenm - 1;   \n'+
+ '  digitalWrite('+valuen2_number+', LOW);   \n'+
+ '  digitalWrite('+valuen3_number+', HIGH);   \n'+
+ '  digitalWrite('+valuen4_number+', LOW);   \n'+
+ '  delayMicroseconds(1);   \n'+
+ '  digitalWrite('+valuen3_number+', LOW);   \n'+
+ '  delayMicroseconds(1);   \n'+
+ '  digitalWrite('+valuen3_number+', HIGH);   \n'+
+ '  delayMicroseconds(1);   \n'+
+ '  digitalWrite('+valuen4_number+', HIGH);   \n'+
+ '    }   \n';
+
+    return code
+};
+
+
+//sim 800
+
+Blockly.Arduino["sim800_init_ss"]=function(block){
+    var valuen8_number = block.getFieldValue('n8_number');
+    var valuen9_number = block.getFieldValue('n9_number');
+
+    Blockly.Arduino.variables_["variables_sim800_init_ss"] = '#include <SoftwareSerial.h>  \n  SoftwareSerial sim800l('+valuen8_number+', '+valuen9_number+');  \n 	String currStr = "";     \n   boolean isStringMessage = false;  \n ';
+    Blockly.Arduino.setups_["setups_sim800_init_ss"]='sim800l.begin(19200);  \n   '+      
+ ' delay(2000); \n '+
+ '   sim800l.print("AT+CMGF=1\\r");  \n   '+      
+ '     delay(100); \n '+
+ '   sim800l.print("AT+IFC=1, 1\\r");  \n '+     
+ '     delay(100); \n '+
+ '   sim800l.print("AT+CPBS=\\"SM\\"\\r");   \n '+  
+ '     delay(100); \n '+
+ '   sim800l.print("AT+GSMBUSY=1, 1\\r");   \n '+
+ '     delay(100); \n '+
+ '   sim800l.print("AT+CNMI=1,2,2,1,0\\r");  \n '+
+ '     delay(300); \n '+
+ '   sim800l.print("AT+CMGDA=«DEL ALL»\\r");  \n';
+    var code = ' ';
+    return code
+};
+Blockly.Arduino['sim800_send']=function(block){
+    var valuetext_block = Blockly.Arduino.valueToCode(block, 'text_block', Blockly.Arduino.ORDER_ATOMIC);
+    var valuetell_number = block.getFieldValue('tell_number');
+
+    var code = ' sim800l.print("AT+CMGF=1\\r"); \n '+
+ '   delay(100); \n '+
+ '   sim800l.println("AT + CMGS = \\"+'+valuetell_number+'\\"\\r");   \n '+
+ '   delay(100);  \n '+
+ '   sim800l.print('+valuetext_block+'); \n '+ 
+ '   delay(100); \n '+
+ '   sim800l.println((char)26);   \n '+                    
+ '   delay(5000); \n '+
+ '   sim800l.print("AT+CMGDA=«DEL ALL»\\r");   \n '+
+ '   delay (2000);  \n';
+    return code
+};
+Blockly.Arduino['sim800_send_sms']=function(block){
+    var valuesms_statement = Blockly.Arduino.statementToCode(block, 'sms_statement');
+var dio="'";
+    var code = '  if (!sim800l.available()) return; \n '+
+  '    char currSymb = sim800l.read();    \n '+ 
+  '    if ('+dio+'\\r'+dio+' == currSymb) \n '+
+ '        { \n '+
+ '          if (isStringMessage) \n '+
+ '            { \n '+
+ '   '+valuesms_statement+'           \n '+
+ '             isStringMessage = false; \n '+
+ '            } \n '+
+ '          else { if (currStr.startsWith("+CMT")) { isStringMessage = true;}} \n '+
+ '         currStr = ""; \n '+
+ '       }  \n '+
+ '     else if ('+dio+'\\n'+dio+' != currSymb) { currStr += String(currSymb); \n '+
+ '     }    \n  ';
+    return code
+};
+
+Blockly.Arduino['sim800_init_sms']=function(block){
+    var valuesms_statement = Blockly.Arduino.statementToCode(block, 'sms_statement');
+    var valuesss_text = block.getFieldValue('sss_text');
+
+    var code = 'if (!currStr.compareTo("'+valuesss_text+'"))   { \n         '+valuesms_statement+' \n     } \n ';
+    return code
+};
+ 
+ Blockly.Arduino['initread_acs712']=function(block){
+    var value_dropdown = block.getFieldValue('_dropdown');
+    var valuepin_text = block.getFieldValue('pin_text');
+ 
+    Blockly.Arduino.includes_['includes_initread_acs712'] = '#include <ACS712.h> \n ACS712 sensor('+value_dropdown+', '+valuepin_text+');  \n  ';
+    Blockly.Arduino.setups_['setups_initread_acs712']='sensor.calibrate();  \n ';
+    var code = 'sensor.getCurrentDC()';
+    return [code, Blockly.Arduino.ORDER_ATOMIC];
+};
+
+
+Blockly.Arduino['init_temp_ds18b20_1']=function(block){
+    var valuepin = block.getFieldValue('pin');
+    Blockly.Arduino.includes_["includes_init_temp_ds18b20_1"] = '#include <OneWire.h> \n #include <DallasTemperature.h> \n #define ONE_WIRE_BUS '+valuepin+' \n OneWire oneWire(ONE_WIRE_BUS); \n DallasTemperature sensors(&oneWire); \n DeviceAddress Thermometer;   \n int deviceCount = 0;   \n ';
+    Blockly.Arduino.userFunctions_["userFunctions_init_temp_ds18b20_1"] = 'void printAddress(DeviceAddress deviceAddress) \n { \n for (uint8_t i = 0; i < 8; i++) \n { \n Serial.print("0x"); \n if (deviceAddress[i] < 0x10) Serial.print("0"); \n Serial.print(deviceAddress[i], HEX); \n if (i < 7) Serial.print(", "); \n } \n Serial.println(""); \n } \n ';
+	
+    Blockly.Arduino.setups_["setups_init_temp_ds18b20_1"]='Serial.begin(9600); \n  sensors.begin(); \n  Serial.println("Locating devices..."); \n  Serial.print("Found "); \n  deviceCount = sensors.getDeviceCount(); \n  Serial.print(deviceCount, DEC); \n  Serial.println(" devices."); \n  Serial.println(""); \n  Serial.println("Printing addresses..."); \n  for (int i = 0; i < deviceCount; i++) \n  { \n  Serial.print("Sensor "); \n  Serial.print(i+1); \n  Serial.print(" : "); \n  sensors.getAddress(Thermometer, i); \n  printAddress(Thermometer); \n  } \n  ';
+    var code = ' ';
+    return code
+};
+
+Blockly.Arduino['init_temp_ds18b20_2']=function(block){
+    var valuepin = block.getFieldValue('pin');
+    var valuenomer = block.getFieldValue('nomer');
+    var valueadres = block.getFieldValue('adres');
+    Blockly.Arduino.includes_['includes_ds18b20_2'] = '#include <OneWire.h> \n #include <DallasTemperature.h> \n ';
+    Blockly.Arduino.definitions_['includes_ds18b20_2'+valuepin] = 'OneWire oneWireBus'+valuepin+'('+valuepin+'); \n  DallasTemperature sensors'+valuepin+'(&oneWireBus'+valuepin+');  \n ';
+	Blockly.Arduino.variables_['variables_ds18b20_2'+valuenomer] = ' int T'+valuenomer+'[8] = {'+valueadres+'};  \n ';
+    Blockly.Arduino.setups_['setups_ds18b20_2'+valuepin]='  sensors'+valuepin+'.begin(); \n ';
+    var code = ' ';
+    return code   
+};
+Blockly.Arduino['init_temp_ds18b20_3']=function(block){
+    var valuepin = block.getFieldValue('pin');
+    var code = 'sensors'+valuepin+'.requestTemperatures();  \n ';
+    return code
+};
+
+Blockly.Arduino['init_temp_ds18b20_4']=function(block){
+    var valuenomer = block.getFieldValue('nomer');
+    var valuepin = block.getFieldValue('pin');
+    var code = 'sensors'+valuepin+'.getTempCByIndex(T'+valuenomer+')';
+    return [code, Blockly.Arduino.ORDER_ATOMIC];
+};
+
+
+
+
+Blockly.Arduino['ESP_DeepSleep'] = function(block) {
+ 		
+ var value = Blockly.Arduino.valueToCode(this, 'Value', Blockly.Arduino.ORDER_ATOMIC);
+  
+   if ( value== "0")
+	   var code = 'ESP.deepSleep(0);\n';
+	else
+		var code = 'ESP.deepSleep('+value+'e6);\n';
+ 
+  return code;
+};
+
+Blockly.Arduino["digital_mcp_write1"]=function(block){
+    var dropdown_pin=block.getFieldValue("PIN");
+    var dropdown_stat=block.getFieldValue("STAT");
+
+Blockly.Arduino.includes_['include_MCP23X08'] = '#include <Wire.h> \n #include <Adafruit_MCP23X17.h> \n  ';
+ Blockly.Arduino.definitions_['define_MCP23X08'] = 'Adafruit_MCP23X17 mcp;\n ';
+
+Blockly.Arduino.setups_['mcp_begin'] = 'mcp.begin_I2C();\n';
+
+    Blockly.Arduino.setups_["setup_mcp_output_" + dropdown_pin]="mcp.pinMode(" + dropdown_pin + ", OUTPUT);";
+    return "mcp.digitalWrite(" + dropdown_pin + ", " + dropdown_stat + ");\n";
+};
+
+Blockly.Arduino["digital_mcp_read"]=function(block){
+    var pull_up=block.getFieldValue('pullup') == 'TRUE';
+    var dropdown_pin=block.getFieldValue("PIN");
+
+Blockly.Arduino.includes_['include_MCP23X08'] = '#include <Wire.h> \n #include <Adafruit_MCP23X17.h> \n  ';
+ Blockly.Arduino.definitions_['define_MCP23X08'] = 'Adafruit_MCP23X17 mcp;\n ';
+
+Blockly.Arduino.setups_['mcp_begin'] = 'mcp.begin_I2C();\n';
+
+    if (pull_up) {
+
+        Blockly.Arduino.setups_["setup_mcp_input_" + dropdown_pin]="mcp.pinMode(" + dropdown_pin + ", INPUT_PULLUP);"
+    } else {
+
+        Blockly.Arduino.setups_["setup_mcp_input_" + dropdown_pin]="mcp.pinMode(" + dropdown_pin + ", INPUT);"
+    };
+
+    var code="mcp.digitalRead(" + dropdown_pin + ")";
+    return [code, Blockly.Arduino.ORDER_ATOMIC]
+};
+
+Blockly.Arduino['wifi_init_sta'] = function(block) {
+	
+   var ssid = block.getFieldValue('SSID');  
+   var wifipassword = block.getFieldValue('PASSWORD');  
+   var logic = this.getFieldValue('LOGIC');
+  
+  Blockly.Arduino.includes_['include_wifi'] = '#include "ESP8266WiFi.h"\n';
+  
+  Blockly.Arduino.variables_['define_wifi_variables'] = 'const char wifi_ssid[]="'+ssid+'";\n'+
+'const char wifi_pass[]="'+wifipassword+'";\n';
+
+  
+if(logic=='TRUE')
+{
+ var code= 'Serial.begin(115200);\n'+
+'	delay(2000);\n'+
+'	WiFi.begin(wifi_ssid,wifi_pass);\n'+
+'	Serial.println("Conectando");\n'+
+'	while (WiFi.status() != WL_CONNECTED){\n'+
+'	Serial.print(".");\n'+
+'	delay(500);\n'+
+'	}\n'+
+'	Serial.println("ESP8266 MAC Address:  ");\n'+
+'	Serial.println(WiFi.macAddress());\n'+
+'   Serial.println();\n'+
+'   Serial.print("Conectado a:\t");\n'+
+'   Serial.println(WiFi.SSID()); \n'+
+'   Serial.print("IP address:\t");\n'+
+'   Serial.println(WiFi.localIP());\n';
+
+}
+else{
+ var code= 'delay(2000);\n'+
+'	WiFi.begin(wifi_ssid,wifi_pass);\n'+
+'	while (WiFi.status() != WL_CONNECTED){\n'+
+'	delay(500);\n'+
+'	}\n';
+}
+
+  return code;
+};
+
+Blockly.Arduino['wifi_sta_staticip'] = function(block) {
+	
+ var IP_sta = block.getFieldValue('IP'); 
+ var Mask_sta = block.getFieldValue('Mask'); 
+ var Gateway_sta = block.getFieldValue('Gateway');  
+     
+    
+Blockly.Arduino.variables_['define_wifi_static_ip_sta'] = 'IPAddress staticIP_sta('+IP_sta+');\n'+
+'IPAddress gateway_sta('+Gateway_sta+');\n'+
+'IPAddress subnet_sta('+Mask_sta+');\n';
+ 
+  var code='WiFi.config(staticIP_sta, gateway_sta, subnet_sta);\n';
+
+  return code;
+};
+
+Blockly.Arduino['wifi_init_ap'] = function(block) {
+	
+   var ssid = block.getFieldValue('SSID');  
+   var wifipassword = block.getFieldValue('PASSWORD');  
+   var logic = this.getFieldValue('LOGIC');
+  
+  Blockly.Arduino.includes_['include_wifi'] = '#include "ESP8266WiFi.h"\n';
+  
+  Blockly.Arduino.variables_['define_wifi_variables'] = 'const char wifi_ssid[]="'+ssid+'";\n'+
+'const char wifi_pass[]="'+wifipassword+'";\n';
+
+  
+if(logic=='TRUE')
+{
+ var code= 'Serial.begin(115200);\n'+
+'delay(2000);\n'+
+'WiFi.mode(WIFI_AP);\n'+
+'Serial.println("Conectando como modo punto de acceso");\n'+
+'while (!WiFi.softAP(wifi_ssid,wifi_pass)){\n'+
+'	Serial.print(".");\n'+
+'	delay(500);\n'+
+'	}\n'+
+'Serial.println("ESP8266 MAC Address:  ");\n'+
+'Serial.println(WiFi.macAddress());\n'+
+'Serial.println();\n'+
+'Serial.print("Iniciado Access point:\t");\n'+
+'Serial.println(wifi_ssid); \n'+
+'Serial.print("with this IP address:\t");\n'+
+'Serial.println(WiFi.softAPIP());\n';
+
+}
+else{
+ var code= 'delay(2000);\n'+
+'   WiFi.mode(WIFI_AP);\n'+
+'	while (!WiFi.softAP(wifi_ssid,wifi_pass)){\n'+
+'	delay(500);\n'+
+'	}\n';
+}
+
+  return code;
+};
+
+
+Blockly.Arduino['wifi_ap_staticip'] = function(block) {
+	
+ var IP_ap = block.getFieldValue('IP'); 
+ var Mask_ap = block.getFieldValue('Mask'); 
+ var Gateway_ap = block.getFieldValue('Gateway');  
+     
+    
+Blockly.Arduino.variables_['define_wifi_static_ip_ap'] = 'IPAddress staticIP_ap('+IP_ap+');\n'+
+'IPAddress gateway_ap('+Gateway_ap+');\n'+
+'IPAddress subnet_ap('+Mask_ap+');\n';
+ 
+  var code='WiFi.softAPConfig(staticIP_ap, gateway_ap, subnet_ap);\n';
+
+  return code;
+};
+
+
+
+Blockly.Arduino['wifi_init_sta_ap'] = function(block) {
+	
+   var ssid = block.getFieldValue('SSID');  
+   var wifipassword = block.getFieldValue('PASSWORD');  
+   var ssid2 = block.getFieldValue('SSID2');  
+   var wifipassword2 = block.getFieldValue('PASSWORD2');  
+     
+   var logic = this.getFieldValue('LOGIC');
+  
+  Blockly.Arduino.includes_['include_wifi'] = '#include "ESP8266WiFi.h"\n';
+  
+  Blockly.Arduino.variables_['define_wifi_variables'] = 'const char wifi_ssid[]="'+ssid+'";\n'+
+'const char wifi_ssid2[]="'+ssid2+'";\n'+
+'const char wifi_pass[]="'+wifipassword+'";\n'+
+'const char wifi_pass2[]="'+wifipassword2+'";\n';
+ 
+if(logic=='TRUE')
+{
+ var code= 'Serial.begin(115200);\n'+
+'	delay(2000);\n'+
+'   WiFi.mode(WIFI_AP_STA);\n'+
+'	WiFi.softAP(wifi_ssid2,wifi_pass2);\n'+
+'	WiFi.begin(wifi_ssid,wifi_pass);\n'+
+'	Serial.println("Conectando");\n'+
+'	while (WiFi.status() != WL_CONNECTED){\n'+
+'	Serial.print(".");\n'+
+'	delay(500);\n'+
+'	}\n'+
+'	WiFi.setAutoReconnect(true);\n'+
+'   Serial.println();\n'+
+'	Serial.println("ESP8266 MAC Address:  ");\n'+
+'	Serial.println(WiFi.macAddress());\n'+
+'   Serial.print("Conectado a:\t");\n'+
+'   Serial.println(WiFi.SSID()); \n'+
+'   Serial.print("IP address:\t");\n'+
+'   Serial.println(WiFi.localIP());\n'+
+'   Serial.print("Iniciado Access point:\t");\n'+
+'   Serial.println(wifi_ssid2); \n'+
+' 	Serial.print("AP dirección IP: ");\n'+
+'	Serial.println(WiFi.softAPIP());\n';
+}
+else{
+var code= 'delay(2000);\n'+
+'   WiFi.mode(WIFI_AP_STA);\n'+
+'	WiFi.softAP(wifi_ssid2,wifi_pass2);\n'+
+'	WiFi.begin(wifi_ssid,wifi_pass);\n'+
+'	while (WiFi.status() != WL_CONNECTED){\n'+
+'	delay(500);\n'+
+'	}\n'+
+'	WiFi.setAutoReconnect(true);\n';
+}
+
+
+  return code;
+};
+
+
+Blockly.Arduino['wifiserver_port'] = function(block) {
+  var server_port = Blockly.Arduino.valueToCode(block, 'server_port', Blockly.Arduino.ORDER_ATOMIC);
+  
+  Blockly.Arduino.variables_['define_wifiserver_port'] = 'WiFiServer server('+server_port+');\n';
+  
+  var code = 'server.begin();\n';
+  
+  return code;
+};
+
+
+Blockly.Arduino['wifiserver_waitconnection'] = function(block) {
+	 
+ var code ='WiFiClient client = server.available();\n'+
+    'if (!client) { return; }\n'+
+    'while(!client.available()){  delay(1); }\n';
+    	
+  return code;
+};
+
+
+
+Blockly.Arduino['wifiserver_ip'] = function(block) {
+ 
+  
+  var code = 'client.remoteIP()';
+    
+  
+  return [code, Blockly.Arduino.ORDER_ATOMIC];
+};
+
+Blockly.Arduino['wifiserver_request'] = function(block) {
+ 
+  
+  var code = 'client.readStringUntil(\'\\r\')';
+    
+  
+  return [code, Blockly.Arduino.ORDER_ATOMIC];
+};
+
+Blockly.Arduino['wifiserver_answer'] = function(block) {
+  var server_answer = Blockly.Arduino.valueToCode(block, 'server_answer', Blockly.Arduino.ORDER_ATOMIC);
+  
+   var code ='client.println("HTTP/1.1 200 OK");\n'+
+    'client.println("Content-Type: text/html");\n'+
+	'client.println("");\n'+
+	'client.println("<!DOCTYPE HTML>");\n'+
+	'client.println("<html>");\n'+
+	'client.println('+server_answer+');\n'+
+	'client.println("</html>");\n'+
+	'delay(1);\n';
+	 
+  
+  return code;
+};
+Blockly.Arduino['wifiserver_stop'] = function(block) {
+	 
+ var code ='client.stop();\n';
+        	
+  return code;
+};
+
+Blockly.Arduino['wifiserver_flush'] = function(block) {
+	 
+ var code ='client.flush();\n';
+        	
+  return code;
+};
+
+Blockly.Arduino['wifiserver_port_library'] = function(block) {
+  var server_port = Blockly.Arduino.valueToCode(block, 'server_port', Blockly.Arduino.ORDER_ATOMIC);
+  
+  Blockly.Arduino.includes_['define_esp8266webserver'] = '#include<ESP8266WebServer.h>\n';
+  
+  Blockly.Arduino.variables_['define_wifiserver_port'] = 'ESP8266WebServer server('+server_port+');\n';
+  
+  var code = 'server.begin();\n';
+  
+  return code;
+};
+
+
+Blockly.Arduino['esp8266_handle_request'] = function(block) {
+	 
+  var code='server.handleClient();\n';
+        	
+  return code;
+};
+
+Blockly.Arduino['esp8266_send']=function(block){
+	
+	var pagina=block.getFieldValue('text');
+    var direccion=block.getFieldValue('address');
+    var ordenes=Blockly.Arduino.statementToCode(block, "ORDERS");
+
+	  Blockly.Arduino.definitions_["esp8266_server"+pagina]='void serve'+pagina+'() {\n'
+	  +"server.send(200,\"text/html\",p"+pagina+"());\n"+ordenes+"\n}\n";
+
+	  Blockly.Arduino.setups_["esp8266_query"+pagina]='server.on(\"/'+direccion+'\",serve'+pagina+');';
+
+ 
+    var code='';
+    return code;
+};
+
+Blockly.Arduino['esp8266_getArg']=function(block){
+	var arg=block.getFieldValue("arg");
+    var code="String "+arg+"=server.arg(\""+arg+"\");\n"
+	
+	return code;
+};
+
+
+Blockly.Arduino['esp8266_useArg']=function(block){
+    var arg=block.getFieldValue("arg");
+    var code=arg;
+	
+	return [code,Blockly.Arduino.ORDER_ATOMIC];
+};
+
+Blockly.Arduino['mqtt_init'] = function(block) {
+	
+   var ssid = block.getFieldValue('SSID');  
+   var wifipassword = block.getFieldValue('PASSWORD');  
+   var server = block.getFieldValue('SERVER');  
+   var port = block.getFieldValue('PORT');  
+   var usermqtt = block.getFieldValue('USER');  
+   var APIKey = block.getFieldValue('APIKEY');  
+   var Idclient = block.getFieldValue('IDCLIENT'); 
+   var logic = this.getFieldValue('LOGIC');
+  
+  Blockly.Arduino.includes_['include_mqtt'] = '#include "ESP8266WiFi.h"\n'+
+  '#include "PubSubClient.h"\n';
+  
+  Blockly.Arduino.variables_['define_mqtt_variables'] = 'const char mqtt_wifi_ssid[]="'+ssid+'";\n'+
+'const char mqtt_wifi_pass[]="'+wifipassword+'";\n'+
+'const char mqtt_broker[]="'+server+'";\n'+
+'const int mqtt_port='+port+';\n'+
+'const char mqtt_user[]="'+usermqtt+'";\n'+
+'const char mqtt_pass[]="'+APIKey+'";\n'+
+'const char mqtt_clientid[]="'+Idclient+'";\n'+
+'\n'+
+'WiFiClient mqtt_wifiClient;\n'+
+'PubSubClient mqtt_client(mqtt_wifiClient);\n'+
+'\n'+
+'char mqtt_payload[64];\n';
+
+Blockly.Arduino.definitions_['define_mqtt_loop'] = 'void mqtt_loop(){\n'+
+'	if (!mqtt_client.connected()) {\n'+
+'		mqtt_client.connect(mqtt_clientid,mqtt_user,mqtt_pass);\n'+
+'		mqtt_subscribe();\n'+
+'	}\n'+
+'	if (mqtt_client.connected()) {\n'+
+' 	mqtt_client.loop();\n'+
+'	}\n'+
+'}\n';
+
+Blockly.Arduino.definitions_['define_mqtt_subscribe'] = 'void mqtt_subscribe(){\n'+
+'}\n';
+
+  
+Blockly.Arduino.definitions_['define_mqtt_otherfunctions'] = 'double mqtt_payload2double(unsigned char *_payload, int _length)\n'+
+'{\n'+
+'  int i;\n'+
+'  for (i = 0; i<_length && i<64; i++){\n'+
+'    mqtt_payload[i] = _payload[i];\n'+
+'  }\n'+
+'  mqtt_payload[i] = 0;\n'+
+'  return atof(mqtt_payload);\n'+
+'}\n'+
+'\n'+
+'String mqtt_payload2string(unsigned char *_payload, int _length)\n'+
+'{\n'+
+'  int i;\n'+
+'  for (i = 0; i<_length && i<64; i++){\n'+
+'    mqtt_payload[i] = _payload[i];\n'+
+'  }\n'+
+'  mqtt_payload[i] = 0;\n'+
+'  return String(mqtt_payload);\n'+
+'}\n';
+
+Blockly.Arduino.definitions_['define_mqtt_callback'] = 'void mqtt_callback(char* _topic, unsigned char* _payload, unsigned int _payloadlength){\n'+
+'	double varNum=mqtt_payload2double(_payload,_payloadlength);\n'+
+'	String varText=mqtt_payload2string(_payload,_payloadlength);\n'+
+'}\n';
+  
+if(logic=='TRUE')
+{
+Blockly.Arduino.setups_['setup_mqtt_setup'] = 'Serial.begin(115200);\n'+
+'	delay(2000);\n'+
+'	WiFi.begin(mqtt_wifi_ssid,mqtt_wifi_pass);\n'+
+'	Serial.println("Conectando");\n'+
+'	while (WiFi.status() != WL_CONNECTED){\n'+
+'	Serial.print(".");\n'+
+'	delay(500);\n'+
+'	}\n'+
+'   Serial.println();\n'+
+'   Serial.print("Conectado a:\t");\n'+
+'   Serial.println(WiFi.SSID()); \n'+
+'   Serial.print("IP address:\t");\n'+
+'   Serial.println(WiFi.localIP());\n'+
+'	randomSeed(micros());\n'+
+'	mqtt_client.setServer(mqtt_broker, mqtt_port);\n'+
+'	mqtt_client.setCallback(mqtt_callback);\n'+
+'	mqtt_subscribe();\n';
+}
+else{
+Blockly.Arduino.setups_['setup_mqtt_setup'] = '	delay(2000);\n'+
+'	WiFi.begin(mqtt_wifi_ssid,mqtt_wifi_pass);\n'+
+'	while (WiFi.status() != WL_CONNECTED){\n'+
+'	delay(500);\n'+
+'	}\n'+
+'	randomSeed(micros());\n'+
+'	mqtt_client.setServer(mqtt_broker, mqtt_port);\n'+
+'	mqtt_client.setCallback(mqtt_callback);\n'+
+'	mqtt_subscribe();\n';	
+}
+
+
+  var code='';
+  return code;
+};
+
+Blockly.Arduino['mqtt_loop'] = function(block) {
+
+  var code = 'mqtt_loop();\n';
+  return code;
+};
+
+Blockly.Arduino['mqtt_subscribe_num'] = function(block) {
+
+ var topic = block.getFieldValue('TOPIC');  
+ var varName = Blockly.Arduino.valueToCode(block, 'variable', Blockly.Arduino.ORDER_ATOMIC);
+ 
+ 
+ 
+//Insert in mqtt_subscribe 
+ if (typeof(Blockly.Arduino.definitions_['define_mqtt_subscribe']) == "undefined")
+	{
+		Blockly.Arduino.definitions_['define_mqtt_subscribe'] = 'void mqtt_subscribe(){\n'+
+		' mqtt_client.subscribe(String(String("'+topic+'")).c_str());\n'+
+		'}\n';
+	}
+else 
+	{
+		Blockly.Arduino.definitions_['define_mqtt_subscribe']=Blockly.Arduino.definitions_['define_mqtt_subscribe'].split("}",1);
+		Blockly.Arduino.definitions_['define_mqtt_subscribe']=Blockly.Arduino.definitions_['define_mqtt_subscribe'] + 
+		'mqtt_client.subscribe(String(String("'+topic+'")).c_str());\n'+
+		'}\n'; 
+	}
+ 
+ //Insert in mqtt_callback
+ 
+ 
+ if (typeof(Blockly.Arduino.definitions_['define_mqtt_callback']) == "undefined")
+	{
+		Blockly.Arduino.definitions_['define_mqtt_callback'] = 'void mqtt_callback(char* _topic, unsigned char* _payload, unsigned int _payloadlength){\n'+
+'	double varNum=mqtt_payload2double(_payload,_payloadlength);\n'+
+'	String varText=mqtt_payload2string(_payload,_payloadlength);\n'+
+'   if(String(_topic)==String(String("'+topic+'")))'+varName+'=varNum;\n'+
+'}\n';
+	}
+else 
+	{
+		Blockly.Arduino.definitions_['define_mqtt_callback']=Blockly.Arduino.definitions_['define_mqtt_callback'].split("}",1);
+		Blockly.Arduino.definitions_['define_mqtt_callback']=Blockly.Arduino.definitions_['define_mqtt_callback'] + 
+		'   if(String(_topic)==String(String("'+topic+'")))'+varName+'=varNum;\n'+
+		'}\n';
+	}
+  
+    
+  var code = '';
+  return code;
+};
+
+
+Blockly.Arduino['mqtt_subscribe_text'] = function(block) {
+
+ var topic = block.getFieldValue('TOPIC');  
+ var varName = Blockly.Arduino.valueToCode(block, 'variable', Blockly.Arduino.ORDER_ATOMIC);
+ 
+ 
+ 
+//Insert in mqtt_subscribe 
+ if (typeof(Blockly.Arduino.definitions_['define_mqtt_subscribe']) == "undefined")
+	{
+		Blockly.Arduino.definitions_['define_mqtt_subscribe'] = 'void mqtt_subscribe(){\n'+
+		' mqtt_client.subscribe(String(String("'+topic+'")).c_str());\n'+
+		'}\n';
+	}
+
+else 
+	{
+		Blockly.Arduino.definitions_['define_mqtt_subscribe']=Blockly.Arduino.definitions_['define_mqtt_subscribe'].split("}",1);
+		Blockly.Arduino.definitions_['define_mqtt_subscribe']=Blockly.Arduino.definitions_['define_mqtt_subscribe'] + '\n mqtt_client.subscribe(String(String("'+topic+'")).c_str());\n'+
+		'}\n';
+	}
+ 
+ //Insert in mqtt_callback
+ if (typeof(Blockly.Arduino.definitions_['define_mqtt_callback']) == "undefined")
+	{
+		Blockly.Arduino.definitions_['define_mqtt_callback'] = 'void mqtt_callback(char* _topic, unsigned char* _payload, unsigned int _payloadlength){\n'+
+'	double varNum=mqtt_payload2double(_payload,_payloadlength);\n'+
+'	String varText=mqtt_payload2string(_payload,_payloadlength);\n'+
+'   if(String(_topic)==String(String("'+topic+'")))'+varName+'=varText;\n'+
+'}\n';
+	}
+
+else 
+	{
+		Blockly.Arduino.definitions_['define_mqtt_callback']=Blockly.Arduino.definitions_['define_mqtt_callback'].split("}",1);
+		Blockly.Arduino.definitions_['define_mqtt_callback']=Blockly.Arduino.definitions_['define_mqtt_callback'] + 
+		'   if(String(_topic)==String(String("'+topic+'")))'+varName+'=varText;\n'+
+		'}\n';
+	}
+  
+    
+  var code = '';
+  return code;
+};
+
+Blockly.Arduino['mqtt_publish'] = function(block) {
+
+ var topic = block.getFieldValue('TOPIC');  
+ var variable = Blockly.Arduino.valueToCode(block, 'variable', Blockly.Arduino.ORDER_ATOMIC);
+ 
+    
+  var code = 'mqtt_client.publish(String(String("'+topic+'")).c_str(),String(String('+variable+')).c_str());\n';
+  return code;
+};
+
+Blockly.Arduino['ifttt_init'] = function(block) {
+	
+	var api_key = block.getFieldValue('API_KEY');  
+
+	Blockly.Arduino.definitions_['define_IFTTT'] = '#define IFTTTKEY "'+api_key+'"\n';
+
+	//Blockly.Arduino.variables_['ifttt_client'] = 'WiFiClientSecure clientIFTTT;\n';
+
+	var code='';
+	return code;
+};
+
+
+
+Blockly.Arduino['ifttt_send'] = function(block) {
+  var value1 = Blockly.Arduino.valueToCode(block, 'value1', Blockly.Arduino.ORDER_ATOMIC);
+  var value2 = Blockly.Arduino.valueToCode(block, 'value2', Blockly.Arduino.ORDER_ATOMIC);
+  var value3 = Blockly.Arduino.valueToCode(block, 'value3', Blockly.Arduino.ORDER_ATOMIC);
+  var evento = Blockly.Arduino.valueToCode(block, 'evento', Blockly.Arduino.ORDER_ATOMIC); 
+  
+  
+Blockly.Arduino.includes_['include_httpclient'] = '#include "ESP8266HTTPClient.h"\n';  
+  
+    
+Blockly.Arduino.codeFunctions_['send_ifttt_function'] = 'void enviar_ifttt(String evento,String valor1, String valor2, String valor3)\n'+
+'{\n'+
+' // Cerramos cualquier conexión anterior\n'+
+' HTTPClient http;\n'+
+' WiFiClient client;\n'+
+'\n'+
+'String servername=\"http://maker.ifttt.com/trigger/\"+evento+\"/with/key/\"+IFTTTKEY;\n'+
+'http.begin(client,servername);\n'+
+'\n'+
+' http.addHeader(\"Content-Type\",\"application/x-www-form-urlencoded\");\n'+
+'\n'+
+' // Hacemos la petición final\n'+
+'String httpRequestData = \"value1=\"+String(valor1)+"&value2=\"+String(valor2)+\"&value3=\"+String(valor3);\n'+
+     
+' // Send HTTP POST request\n'+
+' http.POST(httpRequestData);\n'+
+' http.end();\n'+
+'}\n';
+
+
+  var code= 'enviar_ifttt('+evento+','+value1+','+value2+','+value3+');\n';
+  return code;
+};
+
+
+
+Blockly.Arduino['Init_NTP'] = function(block) {
+	
+	var gmt_local = this.getFieldValue('GMT');
+
+	Blockly.Arduino.includes_['include_NTPClient'] = '#include <NTPClient.h>\n'+
+  '#include <WiFiUdp.h>\n';
+
+  Blockly.Arduino.definitions_['definition_NTPClient'] = 'WiFiUDP ntpUDP;\n'+
+  'NTPClient timeClient(ntpUDP, "pool.ntp.org",(int)('+gmt_local+'*3600), 60000);\n'+
+  'unsigned long epochTime;\n'+
+  'struct tm *ptm;\n'+
+  'String weekDays[7]={"Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"};\n'+
+  'String months[12]={"January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"};\n';
+  
+    
+  Blockly.Arduino.setups_['setup_NTPClient'] = 'timeClient.begin();\n';
+
+	var code='';
+	return code;
+};
+
+
+Blockly.Arduino['order_read_NTP_server'] = function(block) {
+  // TODO: Assemble Python into code variable.
+  
+  var code = 'timeClient.update();\n'+
+  'epochTime = timeClient.getEpochTime();\n'+
+  'ptm = gmtime ((time_t *)&(epochTime));\n'
+   
+  return code;
+};
+
+
+
+Blockly.Arduino['values_NTP_server'] = function(block) {
+  var Output_Value = this.getFieldValue('OUTPUT_VALUE'); 	
+  
+  if (Output_Value==6)
+	  var code = 'timeClient.getSeconds()';
+  else if (Output_Value==5)
+		var code = 'timeClient.getMinutes()';
+   else if (Output_Value==4)
+			var code = 'timeClient.getHours()';
+    else if (Output_Value==3)
+				var code = 'ptm->tm_mday';
+	 else if (Output_Value==2)
+				var code = 'ptm->tm_mon+1';
+			else if (Output_Value==1)
+					var code = 'ptm->tm_year+1900';
+				else
+					var code = 'timeClient.getEpochTime()';
+  
+  return [code, Blockly.Arduino.ORDER_ATOMIC];
+};
+
+
+
+Blockly.Arduino['values_text_NTP_server'] = function(block) {
+  var Output_Value = this.getFieldValue('OUTPUT_VALUE'); 	
+  
+  if (Output_Value==1)
+	  var code = 'months[ptm->tm_mon]';
+   else if (Output_Value==0)
+	   var code = 'weekDays[timeClient.getDay()]';
+     else 
+	    var code = 'timeClient.getFormattedTime()';
+    
+  
+  return [code, Blockly.Arduino.ORDER_ATOMIC];
+};
+
+
+Blockly.Arduino['Init_OpenWeather'] = function(block) {
+	
+	var api_key = this.getFieldValue('API_KEY');
+
+	Blockly.Arduino.includes_['include_OpenWeather'] = '#include <ESP8266HTTPClient.h>\n'+
+  '#include <WiFiClient.h>\n'+
+  '#include <ArduinoJson.h>\n';
+
+  Blockly.Arduino.definitions_['definition_OpenWeather'] = 'String openWeatherMapApiKey = "'+api_key+'";\n'+
+'String city;\n'+
+'String country_code;\n'+
+'String location;\n'+
+'String country;\n'+
+'String icono;\n'+
+'String weather;\n'+
+'String description;\n'+
+'float temperature;\n'+
+'float humidity;\n'+
+'float pressure;\n'+
+'int sunrise;\n'+
+'int sunset;\n'+
+'float temp_min;\n'+
+'float temp_max;\n'+
+'float feels_like;\n'+
+'float Cloud;\n'+
+'float visibility;\n'+
+'float wind_speed;\n'+
+'float wind_angle;\n'+
+'int id;\n'+
+'\n'+
+'String jsonBuffer;\n';
+ 
+ Blockly.Arduino.codeFunctions_['functions_OpenWeather'] = 'String httpGETRequest(const char* serverName) {\n'+
+  'HTTPClient http;\n'+
+  'http.begin(serverName);\n'+
+  'int httpResponseCode = http.GET();\n'+
+  'String payload = "{}";\n'+ 
+  'if (httpResponseCode>0) {\n'+
+  '  payload = http.getString();\n'+
+  '}\n'+
+ 'http.end();\n'+
+ '\n'+
+  'return payload;\n'+
+ '}\n'+
+ '\n'+
+'void GetValuesWeather (String jsonBuffer)\n'+
+'{\n'+
+'   jsonBuffer.replace(\'[\', \' \');\n'+
+'   jsonBuffer.replace(\']\', \' \');\n'+ 
+'   char jsonArray [jsonBuffer.length()+1];\n'+
+'   jsonBuffer.toCharArray(jsonArray,sizeof(jsonArray));\n'+
+'   jsonArray[jsonBuffer.length() + 1] = \'\\0\';\n'+ 
+'\n'+
+'   DynamicJsonDocument root(1024);\n'+
+'   DeserializationError error = deserializeJson(root, jsonArray);\n'+
+'   if (error)\n'+
+'      return;\n'+
+'    location = (const char *)root["name"];\n'+
+'    country = (const char *)root["sys"]["country"];\n'+
+'    temperature = root["main"]["temp"];\n'+
+'    humidity = root["main"]["humidity"];\n'+
+'    weather = (const char *)root["weather"]["main"];\n'+
+'    description = (const char *)root["weather"]["description"];\n'+
+'    pressure = root["main"]["pressure"];\n'+
+'    sunrise = root["sys"]["sunrise"];\n'+
+'    sunset = root["sys"]["sunset"];\n'+
+'    feels_like = root["main"]["feels_like"];\n'+
+'    temp_min = root["main"]["temp_min"];\n'+
+'    temp_max = root["main"]["temp_max"];\n'+
+'    Cloud = root["clouds"]["all"];\n'+
+'    visibility = root["visibility"];\n'+
+'    wind_angle = root["wind"]["deg"];\n'+
+'    wind_speed = root["wind"]["speed"];\n'+
+'    icono = (const char *)root["weather"]["icon"];\n'+
+'    id= root["weather"]["id"];\n'+
+'}\n';
+
+  
+	var code='';
+	return code;
+};
+
+
+Blockly.Arduino['order_read_OpenWeather_server'] = function(block) {
+	
+  var city = Blockly.Arduino.valueToCode(block, 'city', Blockly.Arduino.ORDER_ATOMIC);
+  var countrycode = Blockly.Arduino.valueToCode(block, 'countrycode', Blockly.Arduino.ORDER_ATOMIC);
+   
+  var code = 'if(WiFi.status()== WL_CONNECTED){\n'+
+    'city='+city+';\n'+
+	'country_code='+countrycode+';\n'+
+    'String serverPath = "http://api.openweathermap.org/data/2.5/weather?q="+city+","+country_code+"&lang='+window.localStorage.lang+'&APPID="+openWeatherMapApiKey;\n'+
+    'jsonBuffer = httpGETRequest(serverPath.c_str());\n'+
+    'GetValuesWeather (jsonBuffer);\n'+
+    '}\n';
+   
+  return code;
+};
+
+
+Blockly.Arduino['values_OpenWeather_server'] = function(block) {
+  var Output_Value = this.getFieldValue('OUTPUT_VALUE'); 	
+  
+  if (Output_Value==0)
+	var code = '(temperature-273.15)';
+	else if (Output_Value==1)
+		var code = 'humidity';
+		else if (Output_Value==2)
+			var code = 'pressure';
+			else if (Output_Value==3)
+				var code = '(temp_max-273.15)';
+				else if (Output_Value==4)
+					var code = '(temp_min-273.15)';
+					else if (Output_Value==5)
+						var code = '(feels_like-273.15)';
+						else if (Output_Value==6)
+							var code = 'Cloud/100.00';
+							else if (Output_Value==7)
+								var code = 'wind_speed';
+								else if (Output_Value==8)
+									var code = 'wind_angle';
+									else if (Output_Value==9)
+										var code = 'id';
+										else if (Output_Value==10)
+											var code = 'visibility/100.00';
+											else if (Output_Value==11)
+												var code = 'sunrise';
+												else
+													var code = 'sunset';
+  
+  return [code, Blockly.Arduino.ORDER_ATOMIC];
+};
+
+
+Blockly.Arduino['values_text_OpenWeather_server'] = function(block) {
+  var Output_Value = this.getFieldValue('OUTPUT_VALUE'); 	
+  
+  if (Output_Value==0)
+	  var code = 'description';
+   else if (Output_Value==1)
+	   var code = 'weather';
+		else if (Output_Value==2)
+			var code = 'icono';
+			else if (Output_Value==3)
+				var code = 'country';
+					else 
+						var code = 'location';
+    
+  
+  return [code, Blockly.Arduino.ORDER_ATOMIC];
+};
+
+
+Blockly.Arduino['thingspeak_init'] = function(block) {
+	 
+   var Channel = block.getFieldValue('CHANNEL');  
+   var APIWriteKey = block.getFieldValue('API_WRITE_KEY');  
+   var APIReadKey = block.getFieldValue('API_READ_KEY');  
+
+   Blockly.Arduino.includes_['include_thingspeak'] = '#include "ThingSpeak.h"\n';
+  
+  
+  Blockly.Arduino.variables_['define_thingspeak_variables'] = 'WiFiClient client;\n'+
+'unsigned long myChannelNumber ='+Channel+';\n'+
+'const char * myWriteAPIKey ="'+APIWriteKey+'";\n'+
+'const char * myReadAPIKey="'+APIReadKey+'";\n';
+
+
+Blockly.Arduino.setups_['setup_thingspeak'] = 'ThingSpeak.begin(client);\n';
+
+  var code='';
+  return code;
+};
+
+Blockly.Arduino['thingspeak_write'] = function(block) {
+
+ var variable = Blockly.Arduino.valueToCode(block, 'variable', Blockly.Arduino.ORDER_ATOMIC);
+ var field = this.getFieldValue('FIELD');
+    
+  var code = 'ThingSpeak.writeField(myChannelNumber,'+field+','+variable+', myWriteAPIKey);\n';
+  return code;
+};
+
+Blockly.Arduino['thingspeak_write_long'] = function(block) {
+  var field = this.getFieldValue('FIELD');	
+  
+  var code = 'ThingSpeak.readLongField(myChannelNumber,'+field+',myReadAPIKey)';
+  
+  return [code, Blockly.Arduino.ORDER_ATOMIC];
+};
+
+
+Blockly.Arduino['thingspeak_write_float'] = function(block) {
+  var field = this.getFieldValue('FIELD');	
+  
+  var code = 'ThingSpeak.readFloatField(myChannelNumber,'+field+',myReadAPIKey)';
+  
+  return [code, Blockly.Arduino.ORDER_ATOMIC];
+};
+
+
+Blockly.Arduino['telegram_init'] = function(block) {
+	 
+ var BotToken = block.getFieldValue('BOT_TOKEN');  
+ var ChatID = block.getFieldValue('CHAT_ID'); 
+ 
+  Blockly.Arduino.includes_['include_telegram'] = '#include <WiFiClientSecure.h>\n'+
+  '#include <UniversalTelegramBot.h>\n';
+  
+  Blockly.Arduino.variables_['define_telegram'] = '#define BOT_TOKEN "'+BotToken+'"\n'+
+ '#define CHAT_ID "'+ChatID+'"\n';
+  
+  Blockly.Arduino.variables_['define_telegram_variables'] = 'X509List cert(TELEGRAM_CERTIFICATE_ROOT);\n'+
+	'WiFiClientSecure secured_client;\n'+
+	'UniversalTelegramBot bot(BOT_TOKEN, secured_client);\n'+
+	'int numNewMessages=0;\n';
+
+  Blockly.Arduino.setups_['setup_telegram'] = 'secured_client.setTrustAnchors(&cert);\n';
+
+  var code='';
+  return code;
+};
+
+
+Blockly.Arduino['telegram_loop_message'] = function(block) {
+    
+  var code ='numNewMessages = bot.getUpdates(bot.last_message_received + 1);\n'+
+    'while (numNewMessages)\n'+
+    '{\n'+
+    '  handleNewMessages(numNewMessages);\n'+
+    '  numNewMessages = bot.getUpdates(bot.last_message_received + 1);\n'+
+    '}\n';
+	
+  return code;
+};
+
+
+
+Blockly.Arduino["telegram_reception_function"]=function(block){
+	
+
+	var branch=Blockly.Arduino.statementToCode(block, 'DO' );
+	Blockly.Arduino.codeFunctions_['telegram_reception_function'] ='void handleNewMessages(int numNewMessages){\n'+
+	 'for (int i = 0; i < numNewMessages; i++)\n'+
+		'{\n'+
+		'	String text = bot.messages[i].text;\n'+	branch + '}\n'+
+	'}\n';
+	
+	return "";
+};
+
+
+Blockly.Arduino['telegram_sendmessage'] = function(block) {
+  var texttosend = Blockly.Arduino.valueToCode(block, 'texttosend', Blockly.Arduino.ORDER_ATOMIC);
+  
+  var code = 'bot.sendMessage(CHAT_ID, '+ texttosend+', "");\n';
+  
+  return code;
+};
+
+
+Blockly.Arduino['telegram_message_name_received'] = function(block) {
+   
+  var code = 'bot.messages[i].from_name';
+  
+  return [code, Blockly.Arduino.ORDER_ATOMIC];
+};
+
+Blockly.Arduino['telegram_message_received'] = function(block) {
+  
+  var code = 'text';
+  
+  return [code, Blockly.Arduino.ORDER_ATOMIC];
+};
+
+
+Blockly.Arduino['emptytext'] = function(block) {
+    var text_content = block.getFieldValue('content');
+    return looseEscape(text_content)
+};
+  Blockly.Arduino['esp_dig_pin'] = function(block) {
+    var estado =Blockly.Arduino.valueToCode(block, "estado");
+    var code=')=====\"+'+estado+'+R\"=====(\n';
+    return code;
+};
+
+Blockly.Arduino['textmod'] = function(block){
+    var content = Blockly.Arduino.statementToCode(block,'content');
+    var type = block.getFieldValue("type");
+    return '<' + type + '>' + content + '</' + type + '>'
+};
+
+Blockly.Arduino['paragraph'] = function(block) {
+    var statements_content = Blockly.Arduino.statementToCode(block, 'content');
+    var block_modifier = Blockly.Arduino.statementToCode(block, 'modifier');
+    return '<p' + block_modifier + '>' + statements_content + '</p>\n'
+};
+
+Blockly.Arduino['header'] = function(block) {
+    var statements_content = Blockly.Arduino.statementToCode(block, 'content');
+    var header_size = block.getFieldValue("size");
+    var block_modifier = Blockly.Arduino.statementToCode(block, 'modifier', Blockly.Arduino.ORDER_ATOMIC);
+    return '<h' + header_size + block_modifier + '>' + statements_content + '</h' + header_size + '>\n'
+};
+
+Blockly.Arduino['link'] = function(block){
+    var text = Blockly.Arduino.statementToCode(block, 'content');
+    var link = block.getFieldValue('target');
+    var block_modifier = Blockly.Arduino.statementToCode(block, 'modifier', Blockly.Arduino.ORDER_ATOMIC);
+    return '<a href=\"' + link + '\" target=\"_blank\"' + block_modifier + '>' + text + '</a>'
+};
+
+Blockly.Arduino['table'] = function(block){
+    var content = Blockly.Arduino.statementToCode(block, 'content');
+    var block_modifier = Blockly.Arduino.statementToCode(block, 'modifier', Blockly.Arduino.ORDER_ATOMIC);
+    return '<table' + block_modifier + '>' + content + '</table>");\n'
+};
+
+Blockly.Arduino['tablerow'] = function(block){
+    var content = Blockly.Arduino.statementToCode(block, 'content');
+    var block_modifier = Blockly.Arduino.statementToCode(block, 'modifier', Blockly.Arduino.ORDER_ATOMIC);
+    return '<tr' + block_modifier + '>' + content + '</tr>'
+};
+
+Blockly.Arduino['tableheading'] = function(block){
+    var content = Blockly.Arduino.statementToCode(block, 'content');
+    var block_modifier = Blockly.Arduino.statementToCode(block, 'modifier', Blockly.Arduino.ORDER_ATOMIC);
+    return '<th' + block_modifier + '>' + content + '</th>'
+};
+
+Blockly.Arduino['tabledata'] = function(block){
+    var content = Blockly.Arduino.statementToCode(block, 'content');
+    var block_modifier = Blockly.Arduino.statementToCode(block, 'modifier', Blockly.Arduino.ORDER_ATOMIC);
+    return '<td' + block_modifier + '>' + content + '</td>'
+};
+
+Blockly.Arduino['image'] = function(block){
+    var source = block.getFieldValue('source');
+    var code = '<img src=\"' + URLInput(source) + '\">\n';
+    return code
+};
+Blockly.Arduino['args'] = function(block) {
+    var code = Blockly.Arduino.statementToCode(block, 'content');
+    return 'style=\"' + code + '\"'
+};
+Blockly.Arduino['color'] = function(block){
+    var color = block.getFieldValue('value');
+    return 'color : ' + color + ' ; '
+};
+Blockly.Arduino['bgcolor'] = function(block){
+    var color = block.getFieldValue('value');
+    return 'background-color : ' + color + ' ; '
+};
+Blockly.Arduino['textalign'] = function(block){
+    var value = block.getFieldValue('value');
+    return 'text-align : ' + value + ' ; '
+};
+Blockly.Arduino['border'] = function(block){
+    var width = fullEscape(block.getFieldValue('width'));
+    var type =  block.getFieldValue('type');
+    var color = block.getFieldValue('color');
+    return 'border : ' + width + 'px ' + type + ' ' + color + ' ; '
+};
+Blockly.Arduino['input'] = function(block){
+    var type = block.getFieldValue('type');
+    var name=looseEscape(block.getFieldValue('name'))
+    var value = looseEscape(block.getFieldValue('value'));
+    return '<input type=\"' + type + '\" name=\"'+name+'\" value=\"' + value + '\" name=\"' + value + '\">';
+};
+
+Blockly.Arduino['form'] = function(block){
+	var action = block.getFieldValue('action');
+	var method = block.getFieldValue('method');
+    var content = Blockly.Arduino.statementToCode(block, 'content');
+/*     Blockly.Arduino.setups_["esp8266_query"]='server.on(\"/'+action+'\",HTTP_'+method+','+method+action+');\n';
+    Blockly.Arduino.includes_["esp8266query"]='void '+method+action+'(){\n//Here goes the code\n}\n'; */
+    var block_modifier = Blockly.Arduino.statementToCode(block, 'modifier', Blockly.Arduino.ORDER_ATOMIC);
+    return '<form action=\"' + action + '\" method=\"' + method + '\" ' + block_modifier + '>\n' + content + '\n</form>\n'
+};
+
+Blockly.Arduino['label'] = function(block){
+    var content = looseEscape(block.getFieldValue('value'));
+    var for_value = block.getFieldValue('for');
+    return '<label for=' + for_value + '>' + content + '</label>\n'
+};
+
+Blockly.Arduino['br'] = function(block){
+    return '<br>'
+};
+
+Blockly.Arduino['esp8266_html']=function(block){
+	var htmlhead=block.getFieldValue("HEAD");
+	var htmlbody=Blockly.Arduino.statementToCode(block, "BODY");
+    Blockly.Arduino.definitions_["esp8266_pag"+htmlhead] ='String p'+htmlhead+'(){\nString cadena=(String) R\"=====(\n'
+    +'<!DOCTYPE HTML>\n'
+    +' <html>\n<head><title>'+htmlhead+'</title></head>\n<body>\n'
+    +htmlbody
+    +'\n</body>\n</html>\n'
+    +')=====\";\n return cadena;\n}\n ';
+   
+	return ''
+};
+
+  ////////////////
+ /*  function  */
+////////////////
+function fullEscape(input){
+    return escape(input)
+        .replace(/%25/g, "%");
+}
+function looseEscape(input) {
+    return input
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;")
+        .replace(/"/g, "&quot;")
+        .replace(/'/g, "&#039;")
+        .replace(/á/g, "&aacute;")
+        .replace(/é/g, "&eacute;")
+        .replace(/í/g, "&iacute;")
+        .replace(/ó/g, "&oacute;")
+        .replace(/ú/g, "&uacute;")
+        .replace(/Á/g, "&Aacute;")
+        .replace(/É/g, "&Eacute;")
+        .replace(/Í/g, "&Iacute;")
+        .replace(/Ó/g, "&Oacute;")
+        .replace(/Ú/g, "&Uacute;")
+        .replace(/Ñ/g, "&Ntilde;")
+        .replace(/ñ/g, "&ntilde;")
+        .replace(/Ú/g, "&Uacute;")
+        .replace(/º/g,"&deg;");
+}
+function CSSEscape(input) {
+    return input
+        .replace(/;/g, "")
+        .replace(/{/g, "")
+        .replace(/}/g, "")
+        .replace(/</g, "")
+        .replace(/:/g, "")
+}
+function URLInput(input){
+    var URLRegex = new RegExp(/https?:\/\/(www\.)?[-a-zA-Z0-9@:%._\+~#=]{2,256}\.[a-z]{2,6}\b([-a-zA-Z0-9@:%_\+.~#?&//=]*)/g);
+    if(URLRegex.test(input)){
+        return input;
+    }
+}
+
+Blockly.Arduino['emptyVar'] = function(block) {
+    var value = block.getFieldValue('VAR');
+    //console.log("Variable: "+value);
+    
+    var code=')=====\"+'+value+'+R\"=====(\n';
+    return code
+};
+
+Blockly.Arduino['rfid_init22'] = function(block) {
+
+   var pin_RST = Blockly.Arduino.valueToCode(block, 'PIN_RST', Blockly.Arduino.ORDER_ATOMIC);   
+   var pin_SDA = Blockly.Arduino.valueToCode(block, 'PIN_SDA', Blockly.Arduino.ORDER_ATOMIC);   
+   var PIN_KOD = Blockly.Arduino.valueToCode(block, 'PIN_KOD', Blockly.Arduino.ORDER_ATOMIC);
+	
+   Blockly.Arduino.definitions_['define_spi'] = '#include <SPI.h>';
+   Blockly.Arduino.definitions_['define_MRFC522'] = '#include <MFRC522.h>';
+    
+   Blockly.Arduino.definitions_['define_mrfc522'] = 'MFRC522 mfrc522('+pin_SDA+','+pin_RST+'); \n byte cardx[4]= {0x3F,0x01,0x23,0x44}; \n String cardreaded(byte *buffer,byte bufferSize) \n { \n String card=""; \n for (byte i=0; i<bufferSize; i++) \n { \n card+=String(buffer[i]<0x10 ? " 0" : " "); \n card+=String(buffer[i],HEX); \n } \n return card; \n  } \n ';
+ 
+   Blockly.Arduino.setups_['setup_spi']='SPI.begin();\n ';
+   Blockly.Arduino.setups_['setup_mrfc522']='mfrc522.PCD_Init();\n';
+
+  var code = ' if (mfrc522.PICC_ReadCardSerial() == 1 | mfrc522.PICC_IsNewCardPresent() == 1) { \n  '+PIN_KOD+' = cardreaded(mfrc522.uid.uidByte, mfrc522.uid.size); \n  } \n   ';
+ // Serial.println(mfrc522.PICC_ReadCardSerial()); \n   Serial.println(mfrc522.PICC_IsNewCardPresent()); \n 
+  return code;
+};
+
+
+Blockly.Arduino['st7735_backgroundcolor'] = function(block) {
+
+  var Color = block.getFieldValue('COLOR');
+	   
+  var code = 'tft1.fillScreen('+Color+');\n';
+  return code;
+};
+
+Blockly.Arduino['st7735_icon'] = function(block) {
+
+   var IconName = block.getFieldValue('NAME');  
+   var Var_Codes = block.getFieldValue('CODES');
+
+   Blockly.Arduino.includes_['define_pgmspace'] = '#include <avr/pgmspace.h>\n';   
+   Blockly.Arduino.definitions_['define_iconvalus_'+IconName+''] = 'const unsigned char '+IconName+'[] PROGMEM= {'+Var_Codes+'};\n';
+ 
+  var code = '';
+  return code;
+};
+
+Blockly.Arduino['st7735_drawicon'] = function(block) {
+
+  var x0 = Blockly.Arduino.valueToCode(this, 'x0', Blockly.Arduino.ORDER_ATOMIC) || '0';
+  var y0 = Blockly.Arduino.valueToCode(this, 'y0', Blockly.Arduino.ORDER_ATOMIC) || '0';
+  var width = Blockly.Arduino.valueToCode(this, 'width', Blockly.Arduino.ORDER_ATOMIC) || '0';
+  var height = Blockly.Arduino.valueToCode(this, 'height', Blockly.Arduino.ORDER_ATOMIC) || '0';
+  var IconName = block.getFieldValue('NAME');
+  var Color = block.getFieldValue('COLOR');
+
+
+  
+  var code = 'tft1.drawBitmap('+x0+','+y0+','+IconName+','+width+','+height+','+Color+');\n';
+ 
+  return code;
+};
+
+Blockly.Arduino['otto_configuration'] = function(block) {
+
+  var PIN_YL= block.getFieldValue('PIN_YL');
+  var PIN_YR= block.getFieldValue('PIN_YR');
+  var PIN_RL= block.getFieldValue('PIN_RL');
+  var PIN_RR= block.getFieldValue('PIN_RR');
+  var PIN_Buzzer= block.getFieldValue('PIN_Buzzer');
+
+  Blockly.Arduino.includes_['otto_lib'] = '#include <Otto.h>\n'
+	+ 'Otto Otto;';
+
+  Blockly.Arduino.definitions_['otto_legs'] = '#define LeftLeg '+ PIN_YL +' // left leg pin, servo[0]\n'
+ 	+ '#define RightLeg '+ PIN_YR +' // right leg pin, servo[1]\n'
+	+ '#define LeftFoot '+ PIN_RL +' // left foot pin, servo[2]\n'
+    + '#define RightFoot '+ PIN_RR +' // right foot pin, servo[3]\n'
+    + '#define Buzzer '+ PIN_Buzzer +' //buzzer pin \n';
+
+  Blockly.Arduino.setups_['otto_init']='Otto.init(LeftLeg, RightLeg, LeftFoot, RightFoot, true, Buzzer);\n'
+  + 'Otto.home();\n';
+  var code = '';
+  return code;
+};
+
+Blockly.Arduino['otto_home'] = function(block) {
+
+  var code = 'Otto.home();\n';
+  return code;
+};
+
+ Blockly.Arduino['otto_move'] = function(block) {
+  var dropdown_otto_move_sens = block.getFieldValue('otto_move_sens');
+  var dropdown_otto_move_speed = block.getFieldValue('otto_move_speed');
+
+  var code = '';
+  switch(dropdown_otto_move_sens) {
+	case 'FORWARD':
+		code = 'Otto.walk(1,' + dropdown_otto_move_speed + ',1); // FORWARD\n';
+		break;
+	case 'BACKWARD':
+		code = 'Otto.walk(1,' + dropdown_otto_move_speed + ',-1); // BACKWARD\n';
+		break;
+	case 'LEFT':
+		code = 'Otto.turn(1,' + dropdown_otto_move_speed + ',1); // LEFT\n';
+		break;
+	case 'RIGHT':
+		code = 'Otto.turn(1,' + dropdown_otto_move_speed + ',-1); // RIGHT\n';
+		break;
+	case 'BENDLEFT':
+		code = 'Otto.bend(1,' + dropdown_otto_move_speed + ',1);\n';
+		break;
+	case 'BENDRIGHT':
+		code = 'Otto.bend(1,' + dropdown_otto_move_speed + ',-1);\n';
+		break;
+	case 'SHAKERIGHT':
+		code = 'Otto.shakeLeg(1,' + dropdown_otto_move_speed + ',1);\n';
+		break;
+	case 'SHAKELEFT':
+		code = 'Otto.shakeLeg(1,' + dropdown_otto_move_speed + ',-1);\n';
+    break;
+    case 'jump':
+		code = 'Otto.jump(1,' + dropdown_otto_move_speed + ');\n';
+		break;
+  }
+  return code;
+};
+
+Blockly.Arduino['otto_dance'] = function(block) {
+  var dropdown_otto_dance_movement = block.getFieldValue('otto_dance_movement');
+  var dropdown_otto_move_speed = block.getFieldValue('otto_move_speed');
+  var dropdown_otto_dance_size = block.getFieldValue('otto_dance_size');
+
+  var code = '';
+  switch(dropdown_otto_dance_movement) {
+    case 'moonwalkerLEFT':
+      code = 'Otto.moonwalker(1, ' + dropdown_otto_move_speed + ', ' + dropdown_otto_dance_size + ', 1);\n';
+      break;
+    case 'moonwalkerRIGHT':
+      code = 'Otto.moonwalker(1, ' + dropdown_otto_move_speed + ', ' + dropdown_otto_dance_size + ', -1);\n';
+      break;
+    case 'crusaitoLEFT':
+      code = 'Otto.crusaito(1, ' + dropdown_otto_move_speed + ', ' + dropdown_otto_dance_size + ', 1);\n';
+      break;
+    case 'crusaitoRIGHT':
+      code = 'Otto.crusaito(1, ' + dropdown_otto_move_speed + ', ' + dropdown_otto_dance_size + ', -1);\n';
+      break;
+    case 'flappingFRONT':
+      code = 'Otto.flapping(1, ' + dropdown_otto_move_speed + ', ' + dropdown_otto_dance_size + ', 1);\n';
+      break;
+    case 'flappingBACK':
+      code = 'Otto.flapping(1, ' + dropdown_otto_move_speed + ', ' + dropdown_otto_dance_size + ', -1);\n';
+      break;
+    }
+  return code;
+};
+Blockly.Arduino['otto_do'] = function(block) {
+  var dropdown_otto_do_movement = block.getFieldValue('otto_do_movement');
+  var dropdown_otto_move_speed = block.getFieldValue('otto_move_speed');
+  var dropdown_otto_dance_size = block.getFieldValue('otto_dance_size');
+
+  var code = 'Otto.' + dropdown_otto_do_movement + '(1, ' + dropdown_otto_move_speed + ', ' + dropdown_otto_dance_size + ');\n';
+  return code;
+};
+
+
+Blockly.Arduino['otto_sound'] = function(block) {
+  var dropdown_otto_sound = block.getFieldValue('otto_sound');
+
+  var code = 'Otto.sing(' + dropdown_otto_sound + ');\n';
+  return code;
+};
+
+
+

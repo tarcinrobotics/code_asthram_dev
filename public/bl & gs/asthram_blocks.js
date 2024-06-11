@@ -1,1 +1,1063 @@
-'use strict';function _0x3e8d(_0x193afd,_0x2ef7ce){var _0x5db921=_0x5db9();return _0x3e8d=function(_0x3e8dc8,_0xf0e2){_0x3e8dc8=_0x3e8dc8-0x16e;var _0x597e49=_0x5db921[_0x3e8dc8];return _0x597e49;},_0x3e8d(_0x193afd,_0x2ef7ce);}var _0x8f6f90=_0x3e8d;function _0x5db9(){var _0x586c4a=['nano1_control_23','KEY_MEDIA_MUTE','left','CONTROL\x20CONFIGURATION','miniLCD_I2C_print_T','YMCA','680kLijBK','nano1_control_51','DHT_NAME','NAME','HELPURL_035','Looney','stepROTSERVO_Speed','594192jXrIVL','AllIWant','Muppets','HELPURLesp_004','nano1_control_10','setHelpUrl','Toccata','VOLUME\x20UP','espMap2','bot_statement','TEXT','bt_key_cliker','160','setPreviousStatement','soft_read2','dht_sensor11','HELPURL_060','LCD_I2C_setup','Pin','ardublock_block1','next','ardublock_block10','ledstrip_WS11','PIN2','44059UGhXIO','JingleBell','LetItSnow','ARDUINO_INOUT_ledpwmesp32','270°','Pix3e4','3000','thCenFox','nano1_control_58','nano1_control_18','MP3_name','String','miniLCD_I2C_setupsds','nano1_control_17','PinkPanther','150','SSERIAL_Available','#867B9A','WWW\x20BOOKMARKS','220','miniLCD_I2C_print_x','HELPURLesp_006','OLED_init','0x3C','Boolean','170','ARDUINO_RTTTL_BLOCK','soft_available2','CALCULATOR','ardublock_block532','ledoff','gradus','potenwiometre','ardublock_block11ww','SPEED','Entertainer','card','SSERIAL_Write','KEY_MEDIA_LOCAL_MACHINE_BROWSER','TRUE','lcdi2c_setBacklight','Board','#4B886A','\x20Tx','316040XXwpRa','FieldDropdown','height','bt_key_cliker2','TheSimpsons','ultrasonic_ranger_sensor32w','#A5675B','ESP\x20Block\x202.0','WinterWonderland','KEY_RETURN','HELPURLesp_011','Pix0e3','Gadget','deistvie','dwin_box_ttl2','setColour','KEY_LEFT_CTRL','ardublock_block','nano1_control_25','bt_key7','OUTPUT_VALUE','nano1_control_56','Pix5e3','LEFT','setAlign','texttoprint','GoodBad','nano1_control_19','180°','SSERIAL_Read','Pix6e2','nano1_control_37','espMap3','espled7','500','LCD_setup_ROWS','Serial_available','MIDDLE','55rfMxXa','nano1_control_60','MP3_name11','Board\x202','espMap1','WWW\x20HOME','LCD_lcdi2c_print','adr','694348QgUJjg','Jeopardy','Number','Pix6e0','nano1_control_1','delay','LCDP_setBcklight','OLED_rotate','MOUSE_MIDDLE','nano1_control_59','Short','0x3E','setTooltip','nano1_control_47','PLAY\x20PAUSE','230','Pix5e1','Pix2e2','ardublock_block12','_dropdown','#7CB5D3','nano1_control_12','STAT','setInputsInline','RE_NUMBER','colour','nano1_control_52','Pix7e2','nano1_control_38','100','setNextStatement','0x0D,0,1','miniLCD_I2C_print_y','ardublock_block8','#AE5D74','nano1_control_21','serial_available2','90°','inout_analog_write32wLed','bt_key4','Pix3e0','espled9','ardublock_block5','DHT_Type11','#82638E','ROWS','ALIGN_RIGHT','_statement','ardublock_block6','nano1_control_34','espled11','120','pi2','espled2','300','stepservo_continuos_move_ru32n2','appendField','dropdown','LeisureSuit','Pix2e1','#CD9B37','nano1_control_31','setOutput','localStorage','0x3D','mLCDP_Print','serial','repl_read','nano1_control_32','880155uNdjdt','HELPURLesp_001','bt_key_press','nano1_control_26','soft_init2','1500','DFPplayerMp3_init_serial132','pi1','10sRkyoR','0x27','CONTENT','EMAIL\x20READER','setCheck','HELPURL_047','Pix1e2','1045539LSNpVk','HELPURLesp_002','5000','FieldCheckbox','HELPURLesp_010','_text','pi4','HELPURL_078','nano1_control_9','bt_key_delay','ATeam','MOUSE_LEFT','espled10','Pix1e4','Pix6e4','eeprom_read_byteesp','HELPURLesp_007','forrobot','nano1_control_42','Pix7e4','700','#5B99A5','COLUMNS','240','BACK','nano1_control_30','miniLCD_I2C_setuprotate','RTTTL_music','esp32ledi_ws2812','WeWishYou','DHT_Type','ANGLE','255','bt_key_modifikation','FORWARD','python','OLED_clear','LCD_setup_COLUMNS','Rudolph','print_x','dht_sensor11ww','#4b779f','DFPplayerMp3_init_serial432','lcdi2c_setcursor_draw32','Pix5e2','TakeOnMe','Blocks','RGBCOLOR','#2CB396','Board\x201','LastChristmas','RTTTL_music1','6mPEYXT','180','Pix6e3','#6D7497','ardublock_block11','block','DELETE','KEY_MEDIA_WWW_HOME','Pix4e3','#B39E2C','bt_key3','Pix4e1','0x3B','nano1_control_53','miniLCD_I2C_print_drawnone','KEY_MEDIA_WWW_BOOKMARKS','lcdi2c_setup32','nano1_control_5','FALSE','2\x20-\x2010','bt_key5','#697888','110','miniLCD_I2C_setup','text_char32','TonePin23','MOUSE_BACK','CTRL','FieldTextInput','pause','KEY_MEDIA_VOLUME_DOWN','appendStatementInput','#A66E96','HELPURLesp_014','#5B80A5','MUTE','PIN','OhDennenboom','nano1_control_41','Msg','#5BA599','LOCAL\x20MACHINE\x20BROWSER','PIN_DHT','KEY_MEDIA_NEXT_TRACK','lcdi2c_setup','TonePin','HELPURL_036','address','4096','OFF','bt_key6','Bond','SilentNight','ardublock_block7','stepPIN','bt_key_print','nano1_control_57','StarWars','1023','eeprom_write_byteesp','nano1_control_29','inout_analog_write32w','31129PqqAbt','KEY_MEDIA_STOP','sig','OUTPUT_TYPE','STORAGE_EEPROM_WRITE_BYTE','soft_write2','Pix3e3','#00929f','vitesse','enjoyesp2','_AT','Pix3e1','PIN_GR','KEY_LEFT_ALT','Pix7e0','#0060aa','WWW\x20BACK','AmazingGrace','Pix7e3','HELPURLesp_008','nano1_control_39','nano1_control_33','Pix4e0','DHT_Type21','lcdi2c_setcursor32','nano1_control_8','appendDummyInput','FieldAngle','statement','190','miniLCD_I2C_print_F','MP3_name2','ledstrip_WS9','MELODY','prev','bb_dropdown','lcdi2c_clear','SpeedServo','espMap4','210','DHT_Humi','nano1_control_13','KEY_MEDIA_PREVIOUS_TRACK','1000','nano1_control_48','nano1_control_0','0x78','200','MOUSE_RIGHT','Pix7e1','0x01,0,1','KEY_MEDIA_PLAY_PAUSE','ardublock_block13','ardublock_block9','math_random_int_map32','ledstrip_WS10','ARDUINO_INOUT_motoresp','Flinstones','0x7B','#ff0000','nano1_control_55','top','Pix6e1','nano1_control_7','PIN1','0x3F','HELPURLesp_003','KEY_MEDIA_CALCULATOR','WWW\x20SEARCH','stepservo_continuos_move_ru32n','NOM','PREVIOUS\x20TRACK','Serial_read','stepservo_continuos_move_ru32ww','bt_key9','ardublock_block3','140','MissionImp','nano1_control_46','#50A0CC','uni','right','OLED_data','130','Smurfs','nano1_control_45','nano1_control_14','enjoyesp1','Pix2e3','Frosty','appendValueInput','0x7A','CHECK_CHAR','Pix0e2','STORAGE_EEPROM_READ_VARIABLE','Indiana','HELPURLesp_013','OUTPUT_DISPLAY','MahnaMahna','KEY_MEDIA_WWW_STOP','espled5','DHT_Type22','column','inout_angle_maths22','down','serial_read2','nano1_control_44','play','bt_key_cliker1','Pix0e1','stepROTSERVO_Direction','nano1_control_49','KEY_MEDIA_WWW_SEARCH','4HVYkjC','nano1_control_28','nano1_control_3'];_0x5db9=function(){return _0x586c4a;};return _0x5db9();}(function(_0x1fd3a3,_0x45c7ad){var _0x398bea=_0x3e8d,_0x272bc9=_0x1fd3a3();while(!![]){try{var _0x58427b=-parseInt(_0x398bea(0x1af))/0x1+-parseInt(_0x398bea(0x209))/0x2+-parseInt(_0x398bea(0x24e))/0x3*(-parseInt(_0x398bea(0x187))/0x4)+-parseInt(_0x398bea(0x1db))/0x5*(-parseInt(_0x398bea(0x291))/0x6)+-parseInt(_0x398bea(0x2cf))/0x7*(-parseInt(_0x398bea(0x190))/0x8)+parseInt(_0x398bea(0x25d))/0x9*(parseInt(_0x398bea(0x256))/0xa)+parseInt(_0x398bea(0x201))/0xb*(-parseInt(_0x398bea(0x197))/0xc);if(_0x58427b===_0x45c7ad)break;else _0x272bc9['push'](_0x272bc9['shift']());}catch(_0x19dc74){_0x272bc9['push'](_0x272bc9['shift']());}}}(_0x5db9,0x33bea));Blockly[_0x8f6f90(0x28b)][_0x8f6f90(0x1ec)]={'init':function(){var _0x450f53=_0x8f6f90;this[_0x450f53(0x2e9)]()['appendField'](Blockly[_0x450f53(0x2b8)]['nano1_control_15'])[_0x450f53(0x241)](new Blockly['FieldDropdown']([[Blockly['Msg'][_0x450f53(0x2fc)],'0'],[Blockly[_0x450f53(0x2b8)][_0x450f53(0x20d)],'1'],[Blockly[_0x450f53(0x2b8)]['nano1_control_2'],'2'],[Blockly[_0x450f53(0x2b8)][_0x450f53(0x189)],'3'],[Blockly[_0x450f53(0x2b8)]['nano1_control_4'],'4'],[Blockly[_0x450f53(0x2b8)][_0x450f53(0x2a2)],'5'],[Blockly['Msg']['nano1_control_6'],'6'],[Blockly[_0x450f53(0x2b8)][_0x450f53(0x30e)],'7'],[Blockly['Msg'][_0x450f53(0x2e8)],'8'],[Blockly['Msg'][_0x450f53(0x265)],'9'],[Blockly['Msg'][_0x450f53(0x19b)],'10'],[Blockly[_0x450f53(0x2b8)]['nano1_control_11'],'11'],[Blockly[_0x450f53(0x2b8)][_0x450f53(0x21e)],'12']]),'deistvie')[_0x450f53(0x241)](new Blockly[(_0x450f53(0x1dc))]([[Blockly[_0x450f53(0x2b8)][_0x450f53(0x2f8)],'1'],[Blockly[_0x450f53(0x2b8)][_0x450f53(0x325)],'2']]),_0x450f53(0x20e)),this[_0x450f53(0x220)](!![]),this[_0x450f53(0x1a4)](!![]),this[_0x450f53(0x227)](!![]),this[_0x450f53(0x1ea)](_0x450f53(0x21d)),this['setHelpUrl'](Blockly[_0x450f53(0x2b8)][_0x450f53(0x24f)]);}},Blockly[_0x8f6f90(0x28b)][_0x8f6f90(0x1aa)]={'init':function(){var _0x4a0d6e=_0x8f6f90;this[_0x4a0d6e(0x2e9)]()['appendField'](Blockly[_0x4a0d6e(0x2b8)]['nano1_control_16'])[_0x4a0d6e(0x241)](new Blockly[(_0x4a0d6e(0x1dc))]([[Blockly['Msg'][_0x4a0d6e(0x1b8)],'1'],[Blockly['Msg'][_0x4a0d6e(0x1f6)],'5'],[Blockly[_0x4a0d6e(0x2b8)]['nano1_control_20'],'2'],[Blockly[_0x4a0d6e(0x2b8)][_0x4a0d6e(0x22c)],'6'],[Blockly[_0x4a0d6e(0x2b8)]['nano1_control_22'],'3'],[Blockly[_0x4a0d6e(0x2b8)][_0x4a0d6e(0x18a)],'4'],[Blockly[_0x4a0d6e(0x2b8)]['nano1_control_24'],'7']]),'deistvie')[_0x4a0d6e(0x241)](new Blockly[(_0x4a0d6e(0x1dc))]([[Blockly[_0x4a0d6e(0x2b8)][_0x4a0d6e(0x2f8)],'1'],[Blockly[_0x4a0d6e(0x2b8)][_0x4a0d6e(0x325)],'2']]),_0x4a0d6e(0x20e))[_0x4a0d6e(0x241)](Blockly[_0x4a0d6e(0x2b8)][_0x4a0d6e(0x1bc)])[_0x4a0d6e(0x241)](new Blockly[(_0x4a0d6e(0x1dc))]([['1','1'],['2','2'],['3','3'],['4','4'],['5','5'],['6','6'],['7','7'],['8','8'],['9','9'],['10','10']]),_0x4a0d6e(0x26e)),this[_0x4a0d6e(0x220)](!![]),this[_0x4a0d6e(0x1a4)](!![]),this[_0x4a0d6e(0x227)](!![]),this[_0x4a0d6e(0x1ea)](0xb9),this[_0x4a0d6e(0x19c)](Blockly[_0x4a0d6e(0x2b8)][_0x4a0d6e(0x25e)]);}},Blockly['Blocks']['ardublock_block4']={'init':function(){var _0x1638cc=_0x8f6f90;this[_0x1638cc(0x2e9)]()[_0x1638cc(0x241)](Blockly['Msg'][_0x1638cc(0x1ed)])['appendField'](new Blockly[(_0x1638cc(0x1dc))]([['5','5'],['10','10'],['15','15'],['20','20'],['25','25'],['30','30'],['35','35'],['40','40']]),_0x1638cc(0x31f))[_0x1638cc(0x241)](Blockly[_0x1638cc(0x2b8)][_0x1638cc(0x251)]),this['appendStatementInput'](_0x1638cc(0x2eb)),this[_0x1638cc(0x220)](![]),this[_0x1638cc(0x1a4)](!![]),this[_0x1638cc(0x227)](!![]),this[_0x1638cc(0x1ea)](_0x1638cc(0x294)),this[_0x1638cc(0x215)](Blockly[_0x1638cc(0x2b8)]['nano1_control_27']),this[_0x1638cc(0x19c)](Blockly[_0x1638cc(0x2b8)][_0x1638cc(0x311)]);}},Blockly['Blocks'][_0x8f6f90(0x31a)]={'init':function(){var _0x477108=_0x8f6f90;this[_0x477108(0x2e9)]()['appendField'](Blockly['Msg']['nano1_control_28'])[_0x477108(0x241)](new Blockly[(_0x477108(0x1dc))]([['2','2'],['3','3'],['4','4'],['5','5'],['6','6'],['7','7'],['8','8'],['9','9']]),_0x477108(0x1e8))['appendField'](Blockly['Msg'][_0x477108(0x2cd)])['appendField'](new Blockly[(_0x477108(0x1dc))]([['10','10'],['20','20'],['30','30'],['40','40'],['50','50'],['60','60'],['70','70'],['80','80'],['90','90'],['100',_0x477108(0x226)],['110',_0x477108(0x2a7)],['120','120'],[_0x477108(0x322),_0x477108(0x322)],[_0x477108(0x31b),_0x477108(0x31b)],['150','150'],[_0x477108(0x1a3),_0x477108(0x1a3)],['170',_0x477108(0x1c8)]]),_0x477108(0x1ce))[_0x477108(0x241)](Blockly[_0x477108(0x2b8)][_0x477108(0x276)])['appendField'](new Blockly['FieldDropdown']([['10','10'],['20','20'],['30','30'],['40','40'],['50','50'],['60','60'],['70','70'],['80','80'],['90','90'],[_0x477108(0x226),'100'],[_0x477108(0x2a7),'110'],[_0x477108(0x23c),_0x477108(0x23c)],[_0x477108(0x322),_0x477108(0x322)],['140',_0x477108(0x31b)],[_0x477108(0x1be),_0x477108(0x1be)],[_0x477108(0x1a3),_0x477108(0x1a3)],[_0x477108(0x1c8),'170'],[_0x477108(0x292),_0x477108(0x292)],[_0x477108(0x2ec),_0x477108(0x2ec)],['200',_0x477108(0x2fe)],[_0x477108(0x2f6),'210'],['220',_0x477108(0x1c2)],[_0x477108(0x218),_0x477108(0x218)],['240',_0x477108(0x274)]]),'delay'),this[_0x477108(0x220)](!![]),this[_0x477108(0x1a4)](!![]),this[_0x477108(0x227)](!![]),this[_0x477108(0x1ea)](_0x477108(0x21d)),this[_0x477108(0x19c)](Blockly['Msg'][_0x477108(0x1c4)]);}},Blockly[_0x8f6f90(0x28b)][_0x8f6f90(0x233)]={'init':function(){var _0x51a3e9=_0x8f6f90;this[_0x51a3e9(0x2e9)]()[_0x51a3e9(0x241)](Blockly['Msg'][_0x51a3e9(0x246)])[_0x51a3e9(0x241)](new Blockly[(_0x51a3e9(0x1dc))]([['100','100'],[_0x51a3e9(0x23f),_0x51a3e9(0x23f)],[_0x51a3e9(0x1fd),_0x51a3e9(0x1fd)],[_0x51a3e9(0x271),_0x51a3e9(0x271)],[_0x51a3e9(0x2fa),_0x51a3e9(0x2fa)],['1500',_0x51a3e9(0x253)],[_0x51a3e9(0x1b5),_0x51a3e9(0x1b5)],[_0x51a3e9(0x25f),_0x51a3e9(0x25f)]]),_0x51a3e9(0x20e))['appendField'](Blockly['Msg'][_0x51a3e9(0x24d)]),this[_0x51a3e9(0x220)](!![]),this[_0x51a3e9(0x1a4)](!![]),this[_0x51a3e9(0x227)](!![]),this['setColour'](_0x51a3e9(0x272)),this[_0x51a3e9(0x19c)](Blockly['Msg'][_0x51a3e9(0x26d)]);}},Blockly['Blocks'][_0x8f6f90(0x239)]={'init':function(){var _0x2e3326=_0x8f6f90;this[_0x2e3326(0x2e9)]()[_0x2e3326(0x241)](Blockly['Msg'][_0x2e3326(0x2e4)]),this['appendStatementInput'](_0x2e3326(0x238)),this[_0x2e3326(0x220)](![]),this[_0x2e3326(0x1a4)](!![]),this[_0x2e3326(0x227)](!![]),this[_0x2e3326(0x1ea)](_0x2e3326(0x2d6)),this[_0x2e3326(0x19c)](Blockly[_0x2e3326(0x2b8)][_0x2e3326(0x19a)]);}},Blockly['Blocks'][_0x8f6f90(0x2c6)]={'init':function(){var _0x15f032=_0x8f6f90;this['appendDummyInput']()[_0x15f032(0x241)](Blockly[_0x15f032(0x2b8)][_0x15f032(0x23a)])[_0x15f032(0x241)](new Blockly[(_0x15f032(0x1dc))]([[Blockly['Msg']['nano1_control_35'],'1'],[Blockly[_0x15f032(0x2b8)]['nano1_control_36'],'0']]),'digitallled'),this['setInputsInline'](!![]),this[_0x15f032(0x1a4)](!![]),this[_0x15f032(0x227)](!![]),this[_0x15f032(0x1ea)](_0x15f032(0x1e1)),this['setHelpUrl'](Blockly[_0x15f032(0x2b8)][_0x15f032(0x2e2)]);}},Blockly[_0x8f6f90(0x28b)][_0x8f6f90(0x22a)]={'init':function(){var _0x540ac6=_0x8f6f90;this[_0x540ac6(0x2e9)]()[_0x540ac6(0x241)](Blockly[_0x540ac6(0x2b8)][_0x540ac6(0x1fa)])[_0x540ac6(0x241)](new Blockly[(_0x540ac6(0x1dc))]([[Blockly['Msg'][_0x540ac6(0x225)],_0x540ac6(0x23c)],[Blockly[_0x540ac6(0x2b8)][_0x540ac6(0x2e3)],'50'],[Blockly[_0x540ac6(0x2b8)]['nano1_control_40'],'20']]),_0x540ac6(0x1ce)),this['setInputsInline'](!![]),this[_0x540ac6(0x1a4)](!![]),this[_0x540ac6(0x227)](!![]),this[_0x540ac6(0x1ea)](_0x540ac6(0x2d6)),this['setTooltip'](Blockly[_0x540ac6(0x2b8)][_0x540ac6(0x2b7)]),this[_0x540ac6(0x19c)](Blockly[_0x540ac6(0x2b8)][_0x540ac6(0x2b2)]);}},Blockly[_0x8f6f90(0x28b)][_0x8f6f90(0x304)]={'init':function(){var _0x38c9f2=_0x8f6f90;this[_0x38c9f2(0x2e9)]()['appendField'](Blockly['Msg'][_0x38c9f2(0x188)])[_0x38c9f2(0x241)](new Blockly['FieldDropdown']([['3','3'],['4','4'],['5','5'],['6','6'],['7','7']]),_0x38c9f2(0x1e8))[_0x38c9f2(0x241)](Blockly['Msg'][_0x38c9f2(0x2cd)])[_0x38c9f2(0x241)](new Blockly[(_0x38c9f2(0x1dc))]([['10','10'],['20','20'],['30','30'],['40','40'],['50','50'],['60','60'],['70','70'],['80','80'],['90','90'],[_0x38c9f2(0x226),_0x38c9f2(0x226)],['110',_0x38c9f2(0x2a7)],['120',_0x38c9f2(0x23c)],[_0x38c9f2(0x322),'130'],['140',_0x38c9f2(0x31b)],[_0x38c9f2(0x1be),_0x38c9f2(0x1be)],[_0x38c9f2(0x1a3),'160'],[_0x38c9f2(0x1c8),'170']]),'gradus')[_0x38c9f2(0x241)](Blockly[_0x38c9f2(0x2b8)]['nano1_control_30'])[_0x38c9f2(0x241)](new Blockly['FieldDropdown']([['10','10'],['20','20'],['30','30'],['40','40'],['50','50'],['60','60'],['70','70'],['80','80'],['90','90'],[_0x38c9f2(0x226),_0x38c9f2(0x226)],['110',_0x38c9f2(0x2a7)],['120',_0x38c9f2(0x23c)],[_0x38c9f2(0x322),_0x38c9f2(0x322)],['140',_0x38c9f2(0x31b)],[_0x38c9f2(0x1be),_0x38c9f2(0x1be)],[_0x38c9f2(0x1a3),'160'],[_0x38c9f2(0x1c8),_0x38c9f2(0x1c8)],[_0x38c9f2(0x292),'180'],[_0x38c9f2(0x2ec),_0x38c9f2(0x2ec)],['200',_0x38c9f2(0x2fe)],[_0x38c9f2(0x2f6),_0x38c9f2(0x2f6)],[_0x38c9f2(0x1c2),'220'],[_0x38c9f2(0x218),_0x38c9f2(0x218)],[_0x38c9f2(0x274),_0x38c9f2(0x274)]]),'delay'),this['setInputsInline'](!![]),this[_0x38c9f2(0x1a4)](!![]),this[_0x38c9f2(0x227)](!![]),this['setColour']('#7CB5D3'),this[_0x38c9f2(0x19c)](Blockly[_0x38c9f2(0x2b8)]['HELPURLesp_009']);}},Blockly[_0x8f6f90(0x28b)][_0x8f6f90(0x1ac)]={'init':function(){var _0x523270=_0x8f6f90;this['appendDummyInput']()['appendField'](Blockly[_0x523270(0x2b8)][_0x523270(0x26f)])[_0x523270(0x241)](new Blockly[(_0x523270(0x1dc))]([['10','10'],['40','40'],['90','90'],[_0x523270(0x31b),_0x523270(0x31b)],[_0x523270(0x1c8),'170']]),_0x523270(0x1ce))[_0x523270(0x241)](Blockly[_0x523270(0x2b8)][_0x523270(0x276)])[_0x523270(0x241)](new Blockly[(_0x523270(0x1dc))]([['10','10'],['20','20'],['30','30'],['40','40'],['50','50'],['60','60'],['70','70'],['80','80'],['90','90'],[_0x523270(0x226),_0x523270(0x226)]]),_0x523270(0x20e)),this[_0x523270(0x220)](!![]),this[_0x523270(0x1a4)](!![]),this[_0x523270(0x227)](!![]),this[_0x523270(0x1ea)](_0x523270(0x2d6)),this[_0x523270(0x215)](Blockly[_0x523270(0x2b8)]['nano1_control_43']),this[_0x523270(0x19c)](Blockly[_0x523270(0x2b8)][_0x523270(0x176)]);}},Blockly[_0x8f6f90(0x28b)][_0x8f6f90(0x295)]={'init':function(){var _0x15f992=_0x8f6f90;this[_0x15f992(0x2e9)]()['appendField'](Blockly[_0x15f992(0x2b8)][_0x15f992(0x180)])['appendField'](new Blockly['FieldDropdown']([[Blockly['Msg'][_0x15f992(0x324)],'0'],[Blockly[_0x15f992(0x2b8)][_0x15f992(0x31d)],'1']]),'bb_dropdown'),this[_0x15f992(0x2b0)](_0x15f992(0x1a0)),this[_0x15f992(0x2b0)]('bot_statement1'),this[_0x15f992(0x220)](!![]),this['setPreviousStatement'](!![]),this[_0x15f992(0x227)](!![]),this['setColour'](_0x15f992(0x1c0)),this[_0x15f992(0x215)](Blockly[_0x15f992(0x2b8)][_0x15f992(0x216)]),this['setHelpUrl'](Blockly[_0x15f992(0x2b8)][_0x15f992(0x1e5)]);}},Blockly[_0x8f6f90(0x28b)][_0x8f6f90(0x21b)]={'init':function(){var _0x39f155=_0x8f6f90;this[_0x39f155(0x2e9)]()[_0x39f155(0x241)](Blockly[_0x39f155(0x2b8)][_0x39f155(0x2fb)]),this['appendStatementInput'](_0x39f155(0x30c))[_0x39f155(0x241)]('↑'),this['appendStatementInput']('bot')[_0x39f155(0x241)]('↓'),this['appendStatementInput'](_0x39f155(0x18c))['appendField']('←'),this[_0x39f155(0x2b0)]('righit')[_0x39f155(0x241)]('→'),this[_0x39f155(0x2b0)]('noneboz')[_0x39f155(0x241)]('\x20o'),this[_0x39f155(0x220)](!![]),this[_0x39f155(0x1a4)](!![]),this[_0x39f155(0x227)](!![]),this[_0x39f155(0x1ea)](_0x39f155(0x2d6)),this[_0x39f155(0x215)](Blockly[_0x39f155(0x2b8)][_0x39f155(0x185)]),this[_0x39f155(0x19c)](Blockly[_0x39f155(0x2b8)][_0x39f155(0x261)]);}},Blockly[_0x8f6f90(0x28b)][_0x8f6f90(0x303)]={'init':function(){var _0x36408c=_0x8f6f90;this[_0x36408c(0x2e9)]()[_0x36408c(0x241)](Blockly[_0x36408c(0x2b8)]['nano1_control_50'])[_0x36408c(0x241)](new Blockly[(_0x36408c(0x1dc))]([[Blockly[_0x36408c(0x2b8)][_0x36408c(0x191)],'1'],[Blockly[_0x36408c(0x2b8)][_0x36408c(0x223)],'2'],[Blockly[_0x36408c(0x2b8)][_0x36408c(0x29e)],'3'],[Blockly[_0x36408c(0x2b8)]['nano1_control_54'],'4'],[Blockly[_0x36408c(0x2b8)][_0x36408c(0x30b)],'5'],[Blockly[_0x36408c(0x2b8)][_0x36408c(0x1f0)],'6']]),_0x36408c(0x242))['appendField'](Blockly[_0x36408c(0x2b8)][_0x36408c(0x2c9)])[_0x36408c(0x241)](new Blockly[(_0x36408c(0x1dc))]([[Blockly[_0x36408c(0x2b8)][_0x36408c(0x1b7)],'1'],[Blockly['Msg'][_0x36408c(0x212)],'2']]),'delay'),this[_0x36408c(0x220)](!![]),this['setPreviousStatement'](!![]),this[_0x36408c(0x227)](!![]),this['setColour'](_0x36408c(0x2d6)),this[_0x36408c(0x215)](Blockly[_0x36408c(0x2b8)][_0x36408c(0x202)]),this[_0x36408c(0x19c)](Blockly[_0x36408c(0x2b8)]['HELPURLesp_012']);}},Blockly[_0x8f6f90(0x28b)][_0x8f6f90(0x326)]={'init':function(){var _0x4a351b=_0x8f6f90;this[_0x4a351b(0x2e9)]()[_0x4a351b(0x241)](Blockly[_0x4a351b(0x2b8)]['espled1'])[_0x4a351b(0x241)](new Blockly[(_0x4a351b(0x1dc))]([['Board\x201','13'],[_0x4a351b(0x204),'15'],['J1','25'],['J2','32'],['J3','12'],['J4','14'],['J5','18'],['J6','19'],['J7','16'],['J8','4']]),'nomer')[_0x4a351b(0x241)](new Blockly[(_0x4a351b(0x1dc))]([[Blockly[_0x4a351b(0x2b8)][_0x4a351b(0x23e)],'1'],[Blockly[_0x4a351b(0x2b8)]['espled3'],'0']]),_0x4a351b(0x2d1)),this['setInputsInline'](![]),this['setPreviousStatement'](!![]),this[_0x4a351b(0x227)](!![]),this[_0x4a351b(0x1ea)](_0x4a351b(0x31e));}},Blockly[_0x8f6f90(0x28b)][_0x8f6f90(0x2d8)]={'init':function(){var _0x3e8e4c=_0x8f6f90;this[_0x3e8e4c(0x2e9)]()['appendField'](Blockly[_0x3e8e4c(0x2b8)]['espled4'])['appendField'](new Blockly['FieldColour'](_0x3e8e4c(0x30a)),_0x3e8e4c(0x222)),this[_0x3e8e4c(0x220)](![]),this[_0x3e8e4c(0x1a4)](!![]),this[_0x3e8e4c(0x227)](!![]),this['setColour'](_0x3e8e4c(0x31e));}},Blockly[_0x8f6f90(0x28b)][_0x8f6f90(0x279)]={'init':function(){var _0x1995cb=_0x8f6f90;this[_0x1995cb(0x1ea)](_0x1995cb(0x31e)),this[_0x1995cb(0x2e9)]()[_0x1995cb(0x241)](Blockly[_0x1995cb(0x2b8)][_0x1995cb(0x17a)])[_0x1995cb(0x241)](new Blockly['FieldDropdown']([['J1','25'],['J2','32'],['J3','12'],['J4','14'],['J5','18'],['J6','19'],['J7','4'],['J8','16']]),_0x1995cb(0x1a9)),this['appendDummyInput']()['appendField'](Blockly[_0x1995cb(0x2b8)][_0x1995cb(0x2ef)])['appendField'](new Blockly[(_0x1995cb(0x1dc))]([['0','0'],['1','1'],['2','2'],['3','3'],['4','4'],['5','5'],['6','6'],['7','7'],['8','8'],['9','9'],['10','10'],['11','11'],['12','12'],['13','13'],['14','14'],['15','15'],['16','16'],['17','17'],['18','18'],['19','19'],['20','20']]),'ledon')[_0x1995cb(0x241)](Blockly[_0x1995cb(0x2b8)][_0x1995cb(0x306)])['appendField'](new Blockly['FieldDropdown']([['0','0'],['1','1'],['2','2'],['3','3'],['4','4'],['5','5'],['6','6'],['7','7'],['8','8'],['9','9'],['10','10'],['11','11'],['12','12'],['13','13'],['14','14'],['15','15'],['16','16'],['17','17'],['18','18'],['19','19'],['20','20']]),_0x1995cb(0x1cd))[_0x1995cb(0x241)](Blockly['Msg'][_0x1995cb(0x1ad)])['appendField'](new Blockly['FieldColour'](_0x1995cb(0x30a)),_0x1995cb(0x28c))['appendField'](new Blockly['FieldDropdown']([[Blockly[_0x1995cb(0x2b8)]['espled6'],'6'],[Blockly['Msg'][_0x1995cb(0x1fc)],'7'],[Blockly[_0x1995cb(0x2b8)]['espled8'],'8'],[Blockly[_0x1995cb(0x2b8)][_0x1995cb(0x232)],'10'],[Blockly[_0x1995cb(0x2b8)][_0x1995cb(0x269)],'11'],[Blockly['Msg'][_0x1995cb(0x23b)],'12'],[Blockly[_0x1995cb(0x2b8)]['espled12'],'13']]),_0x1995cb(0x221)),this[_0x1995cb(0x220)](!![]),this['setPreviousStatement'](!![],null),this[_0x1995cb(0x227)](!![],null);}},Blockly['Blocks'][_0x8f6f90(0x17f)]={'init':function(){var _0x1d1d87=_0x8f6f90,_0x1f1a4e=window[_0x1d1d87(0x248)][_0x1d1d87(0x1d3)];this['setColour'](_0x1d1d87(0x2b9)),this[_0x1d1d87(0x19c)](Blockly[_0x1d1d87(0x2b8)][_0x1d1d87(0x194)]),_0x1f1a4e!=_0x1d1d87(0x280)?this['appendDummyInput']()[_0x1d1d87(0x241)](Blockly['Msg'][_0x1d1d87(0x317)]):this['appendDummyInput']()[_0x1d1d87(0x241)](Blockly['Msg'][_0x1d1d87(0x24c)]),this['setInputsInline'](!![]),this['setOutput'](!![],_0x1d1d87(0x20b));}},Blockly['Blocks'][_0x8f6f90(0x22d)]={'init':function(){var _0x49ae2f=_0x8f6f90;this['setColour'](_0x49ae2f(0x2b9)),this['setHelpUrl'](Blockly[_0x49ae2f(0x2b8)][_0x49ae2f(0x194)]),this[_0x49ae2f(0x2e9)]()[_0x49ae2f(0x241)](Blockly['Msg'][_0x49ae2f(0x1ff)]),this['setInputsInline'](!![]),this['setOutput'](!![],_0x49ae2f(0x20b));}},Blockly[_0x8f6f90(0x28b)][_0x8f6f90(0x252)]={'init':function(){var _0x48b765=_0x8f6f90,_0xf30f93=window[_0x48b765(0x248)]['card'];this[_0x48b765(0x1ea)](_0x48b765(0x2de)),this['setHelpUrl'](Blockly['Msg'][_0x48b765(0x2bf)]),this[_0x48b765(0x2e9)]()['appendField'](Blockly[_0x48b765(0x2b8)]['SSERIAL_Init']),this[_0x48b765(0x170)](_0x48b765(0x30f),_0x48b765(0x20b)),this[_0x48b765(0x2e9)]()[_0x48b765(0x241)](_0x48b765(0x1da)),this[_0x48b765(0x170)](_0x48b765(0x1ae),_0x48b765(0x20b)),this[_0x48b765(0x2e9)]()[_0x48b765(0x1f3)](Blockly[_0x48b765(0x237)])[_0x48b765(0x241)](Blockly['Msg'][_0x48b765(0x2d7)])[_0x48b765(0x241)](new Blockly[(_0x48b765(0x1dc))](profile[_0xf30f93][_0x48b765(0x24b)]),_0x48b765(0x1d1)),this['setInputsInline'](!![]),this['setPreviousStatement'](!![],null),this[_0x48b765(0x227)](!![],null);}},Blockly['Blocks'][_0x8f6f90(0x2d4)]={'init':function(){var _0x18b46c=_0x8f6f90;this[_0x18b46c(0x19c)](Blockly[_0x18b46c(0x2b8)][_0x18b46c(0x2bf)]),this[_0x18b46c(0x1ea)](_0x18b46c(0x2de)),this['appendValueInput'](_0x18b46c(0x258),_0x18b46c(0x1ba))[_0x18b46c(0x241)](Blockly[_0x18b46c(0x2b8)][_0x18b46c(0x1d4)]),this['setPreviousStatement'](!![],null),this[_0x18b46c(0x227)](!![],null);}},Blockly[_0x8f6f90(0x28b)][_0x8f6f90(0x1a5)]={'init':function(){var _0x2a6ec1=_0x8f6f90;this[_0x2a6ec1(0x1ea)](_0x2a6ec1(0x2de)),this[_0x2a6ec1(0x19c)](Blockly[_0x2a6ec1(0x2b8)]['HELPURL_037']),this['appendDummyInput']()[_0x2a6ec1(0x241)](Blockly['Msg'][_0x2a6ec1(0x1f8)]),this[_0x2a6ec1(0x220)](!![]),this[_0x2a6ec1(0x247)](!![],_0x2a6ec1(0x1ba));}},Blockly[_0x8f6f90(0x28b)][_0x8f6f90(0x1ca)]={'init':function(){var _0x7a209=_0x8f6f90;this[_0x7a209(0x19c)](Blockly[_0x7a209(0x2b8)]['HELPURL_037']),this[_0x7a209(0x1ea)](_0x7a209(0x2de)),this[_0x7a209(0x2e9)]()[_0x7a209(0x241)](Blockly[_0x7a209(0x2b8)][_0x7a209(0x1bf)]),this[_0x7a209(0x220)](!![]),this[_0x7a209(0x247)](!![],'Number');}},Blockly[_0x8f6f90(0x28b)][_0x8f6f90(0x2cc)]={'init':function(){var _0x43b12a=_0x8f6f90;this['setColour'](0x64),this[_0x43b12a(0x170)](_0x43b12a(0x208))[_0x43b12a(0x25a)](_0x43b12a(0x20b))['appendField'](Blockly[_0x43b12a(0x2b8)][_0x43b12a(0x2d3)]),this['appendValueInput']('val')[_0x43b12a(0x25a)](_0x43b12a(0x20b))[_0x43b12a(0x241)](Blockly[_0x43b12a(0x2b8)]['STORAGE_DATA_BYTE']),this[_0x43b12a(0x220)](!![]),this[_0x43b12a(0x1a4)](!![],null),this['setNextStatement'](!![],null),this['setHelpUrl'](Blockly[_0x43b12a(0x2b8)][_0x43b12a(0x25b)]);}},Blockly[_0x8f6f90(0x28b)][_0x8f6f90(0x26c)]={'init':function(){var _0x2b3ed6=_0x8f6f90;this['setColour'](0x64),this[_0x2b3ed6(0x170)]('ADDRESS')[_0x2b3ed6(0x25a)](_0x2b3ed6(0x20b))[_0x2b3ed6(0x241)](Blockly[_0x2b3ed6(0x2b8)][_0x2b3ed6(0x174)]),this[_0x2b3ed6(0x247)](!![],Number),this[_0x2b3ed6(0x220)](!![]),this[_0x2b3ed6(0x19c)](Blockly[_0x2b3ed6(0x2b8)][_0x2b3ed6(0x25b)]);}},Blockly['Blocks'][_0x8f6f90(0x1a6)]={'init':function(){var _0x26a1f5=_0x8f6f90;this['setColour']('#6D7497'),this['appendDummyInput']()['appendField'](Blockly['Msg'][_0x26a1f5(0x192)])[_0x26a1f5(0x241)](Blockly['Msg'][_0x26a1f5(0x2b5)]),this[_0x26a1f5(0x170)](_0x26a1f5(0x2bb),_0x26a1f5(0x20b))['setCheck']('Number'),this['appendDummyInput']()[_0x26a1f5(0x241)](Blockly[_0x26a1f5(0x2b8)][_0x26a1f5(0x27b)])[_0x26a1f5(0x241)](new Blockly['FieldDropdown']([[Blockly[_0x26a1f5(0x2b8)][_0x26a1f5(0x234)],'0'],[Blockly[_0x26a1f5(0x2b8)][_0x26a1f5(0x2e6)],'1'],[Blockly[_0x26a1f5(0x2b8)][_0x26a1f5(0x17b)],'2']]),_0x26a1f5(0x2d2))[_0x26a1f5(0x241)](new Blockly['FieldDropdown']([[Blockly[_0x26a1f5(0x2b8)]['DHT_Temp'],'0'],[Blockly[_0x26a1f5(0x2b8)][_0x26a1f5(0x2f7)],'1']]),_0x26a1f5(0x1ef)),this[_0x26a1f5(0x247)](!![],_0x26a1f5(0x20b)),this[_0x26a1f5(0x19c)](Blockly['Msg'][_0x26a1f5(0x1a7)]);}},Blockly[_0x8f6f90(0x28b)][_0x8f6f90(0x2bd)]={'init':function(){var _0x394d67=_0x8f6f90;this[_0x394d67(0x1ea)](_0x394d67(0x1d9)),this['appendDummyInput']()['appendField'](Blockly[_0x394d67(0x2b8)][_0x394d67(0x1a8)]),this[_0x394d67(0x2e9)]()[_0x394d67(0x241)](new Blockly[(_0x394d67(0x2ad))](_0x394d67(0x257)),_0x394d67(0x193)),this[_0x394d67(0x170)](_0x394d67(0x273))[_0x394d67(0x25a)](_0x394d67(0x20b))[_0x394d67(0x241)](Blockly['Msg'][_0x394d67(0x282)]),this['appendValueInput'](_0x394d67(0x236))['setCheck'](_0x394d67(0x20b))[_0x394d67(0x241)](Blockly[_0x394d67(0x2b8)][_0x394d67(0x1fe)]),this[_0x394d67(0x220)](!![]),this[_0x394d67(0x1a4)](!![],null),this[_0x394d67(0x227)](!![],null);}},Blockly['Blocks'][_0x8f6f90(0x1d7)]={'init':function(){var _0x465b99=_0x8f6f90;this[_0x465b99(0x1ea)](_0x465b99(0x1d9)),this['appendDummyInput']()[_0x465b99(0x241)](Blockly['Msg'][_0x465b99(0x20f)])[_0x465b99(0x241)](new Blockly[(_0x465b99(0x1dc))]([['ON','1'],[_0x465b99(0x2c2),'0']]),_0x465b99(0x177)),this[_0x465b99(0x1a4)](!![],null),this[_0x465b99(0x227)](!![],null);}},Blockly[_0x8f6f90(0x28b)][_0x8f6f90(0x2f3)]={'init':function(){var _0x3ed0d6=_0x8f6f90;this[_0x3ed0d6(0x1ea)](_0x3ed0d6(0x1d9)),this[_0x3ed0d6(0x2e9)]()['appendField'](Blockly[_0x3ed0d6(0x2b8)]['LCDP_Clear']),this[_0x3ed0d6(0x1a4)](!![],null),this['setNextStatement'](!![],null);}},Blockly['Blocks'][_0x8f6f90(0x1c5)]={'init':function(){var _0x205bf9=_0x8f6f90;this['appendDummyInput']()[_0x205bf9(0x241)](Blockly[_0x205bf9(0x2b8)][_0x205bf9(0x2a8)]),this[_0x205bf9(0x2e9)]()[_0x205bf9(0x1f3)](Blockly[_0x205bf9(0x237)])['appendField'](new Blockly[(_0x205bf9(0x1dc))]([['64','64'],['32','32']]),_0x205bf9(0x1dd)),this[_0x205bf9(0x2e9)]()['appendField'](Blockly[_0x205bf9(0x2b8)][_0x205bf9(0x1bb)])[_0x205bf9(0x241)](new Blockly['FieldDropdown']([[_0x205bf9(0x1c6),_0x205bf9(0x1c6)],[_0x205bf9(0x249),_0x205bf9(0x249)],[_0x205bf9(0x171),_0x205bf9(0x171)],[_0x205bf9(0x309),_0x205bf9(0x309)],['0x78',_0x205bf9(0x2fd)]]),_0x205bf9(0x2c0)),this['setInputsInline'](!![]),this['setPreviousStatement'](!![]),this['setNextStatement'](!![]),this['setColour'](_0x205bf9(0x286));}},Blockly[_0x8f6f90(0x28b)][_0x8f6f90(0x210)]={'init':function(){var _0x1ee56d=_0x8f6f90;this[_0x1ee56d(0x2e9)]()[_0x1ee56d(0x241)](Blockly[_0x1ee56d(0x2b8)][_0x1ee56d(0x277)])[_0x1ee56d(0x241)](new Blockly[(_0x1ee56d(0x1dc))]([['0°','0'],[_0x1ee56d(0x22e),'1'],[_0x1ee56d(0x1f7),'2'],[_0x1ee56d(0x1b3),'3']]),'angle'),this['setInputsInline'](!![]),this['setPreviousStatement'](!![]),this[_0x1ee56d(0x227)](!![]),this['setColour'](_0x1ee56d(0x286));}},Blockly[_0x8f6f90(0x28b)][_0x8f6f90(0x321)]={'init':function(){var _0x1b3173=_0x8f6f90;Blockly[_0x1b3173(0x260)][_0x1b3173(0x172)]='✓',this[_0x1b3173(0x2e9)]()['appendField'](Blockly[_0x1b3173(0x2b8)][_0x1b3173(0x1c3)]),this['appendValueInput']('X')['setAlign'](Blockly[_0x1b3173(0x237)])[_0x1b3173(0x25a)](_0x1b3173(0x20b)),this[_0x1b3173(0x170)]('Y')[_0x1b3173(0x1f3)](Blockly[_0x1b3173(0x237)])[_0x1b3173(0x25a)](_0x1b3173(0x20b))['appendField'](Blockly[_0x1b3173(0x2b8)][_0x1b3173(0x229)]),this[_0x1b3173(0x2e9)]()[_0x1b3173(0x241)](Blockly[_0x1b3173(0x2b8)][_0x1b3173(0x2ed)])[_0x1b3173(0x241)](new Blockly[(_0x1b3173(0x1dc))]([['1','1'],['2','2'],['3','3']]),'height'),this[_0x1b3173(0x170)]('print')[_0x1b3173(0x1f3)](Blockly[_0x1b3173(0x237)])[_0x1b3173(0x241)](Blockly[_0x1b3173(0x2b8)][_0x1b3173(0x18e)]),this['setInputsInline'](!![]),this[_0x1b3173(0x1a4)](!![]),this[_0x1b3173(0x227)](!![]),this[_0x1b3173(0x1ea)](_0x1b3173(0x286));}},Blockly[_0x8f6f90(0x28b)][_0x8f6f90(0x281)]={'init':function(){var _0x3d6657=_0x8f6f90;this['appendDummyInput']()['appendField'](Blockly[_0x3d6657(0x2b8)][_0x3d6657(0x29f)]),this[_0x3d6657(0x220)](![]),this[_0x3d6657(0x1a4)](!![]),this[_0x3d6657(0x227)](!![]),this[_0x3d6657(0x1ea)](_0x3d6657(0x286));}},Blockly['Blocks'][_0x8f6f90(0x1e9)]={'init':function(){var _0x5bbbfe=_0x8f6f90;this['appendDummyInput']()[_0x5bbbfe(0x241)](Blockly['Msg']['Dwin_box']),this[_0x5bbbfe(0x220)](![]),this[_0x5bbbfe(0x1a4)](!![]),this[_0x5bbbfe(0x227)](!![]),this[_0x5bbbfe(0x1ea)]('#00929f'),this[_0x5bbbfe(0x215)](Blockly[_0x5bbbfe(0x2b8)]['Dwin_box_DWIN_SET']);}},Blockly[_0x8f6f90(0x28b)][_0x8f6f90(0x254)]={'init':function(){var _0x6d1809=_0x8f6f90;this[_0x6d1809(0x1ea)](_0x6d1809(0x2b1)),this[_0x6d1809(0x2e9)]()[_0x6d1809(0x241)](Blockly[_0x6d1809(0x2b8)][_0x6d1809(0x1b9)]),this[_0x6d1809(0x170)]('tx',_0x6d1809(0x20b))[_0x6d1809(0x25a)](_0x6d1809(0x20b)),this['appendDummyInput']()[_0x6d1809(0x241)](Blockly[_0x6d1809(0x2b8)][_0x6d1809(0x203)]),this['appendValueInput']('rx',_0x6d1809(0x20b))[_0x6d1809(0x25a)](_0x6d1809(0x20b)),this[_0x6d1809(0x220)](!![]),this[_0x6d1809(0x1a4)](!![],null),this['setNextStatement'](!![],null),this[_0x6d1809(0x19c)](Blockly[_0x6d1809(0x2b8)]['HELPURL_078']);}},Blockly[_0x8f6f90(0x28b)]['DFPplayerMp3_init_serial232']={'init':function(){var _0x34b2e3=_0x8f6f90;this[_0x34b2e3(0x1ea)](_0x34b2e3(0x2b1)),this[_0x34b2e3(0x2e9)]()[_0x34b2e3(0x241)](Blockly[_0x34b2e3(0x2b8)][_0x34b2e3(0x2ee)]),this[_0x34b2e3(0x170)](_0x34b2e3(0x315),'Number')[_0x34b2e3(0x25a)](_0x34b2e3(0x20b)),this[_0x34b2e3(0x220)](!![]),this[_0x34b2e3(0x1a4)](!![],null),this['setNextStatement'](!![],null),this[_0x34b2e3(0x19c)](Blockly[_0x34b2e3(0x2b8)][_0x34b2e3(0x264)]);}},Blockly[_0x8f6f90(0x28b)][_0x8f6f90(0x287)]={'init':function(){var _0x3df362=_0x8f6f90;this[_0x3df362(0x1ea)](_0x3df362(0x2b1)),this['appendDummyInput']()[_0x3df362(0x241)](Blockly[_0x3df362(0x2b8)]['MP3_name4'])['appendField'](new Blockly['FieldDropdown']([[_0x3df362(0x181),_0x3df362(0x228)],[_0x3df362(0x1ab),_0x3df362(0x301)],[_0x3df362(0x2f1),'0x02,0,1'],[_0x3df362(0x2ae),'0x0E,0,0']]),'dp'),this['setInputsInline'](!![]),this[_0x3df362(0x1a4)](!![],null),this[_0x3df362(0x227)](!![],null),this['setHelpUrl'](Blockly[_0x3df362(0x2b8)][_0x3df362(0x264)]);}},Blockly['Blocks'][_0x8f6f90(0x2c8)]={'init':function(){var _0x59b4dc=_0x8f6f90;this[_0x59b4dc(0x2e9)]()[_0x59b4dc(0x241)](Blockly['Msg']['bt_key1'])[_0x59b4dc(0x241)](new Blockly[(_0x59b4dc(0x2ad))](_0x59b4dc(0x1e2)),_0x59b4dc(0x262)),this[_0x59b4dc(0x220)](!![]),this[_0x59b4dc(0x1a4)](!![]),this[_0x59b4dc(0x227)](!![]),this[_0x59b4dc(0x1ea)]('#697888');}},Blockly[_0x8f6f90(0x28b)][_0x8f6f90(0x27e)]={'init':function(){var _0x1c73d0=_0x8f6f90;this[_0x1c73d0(0x2e9)]()[_0x1c73d0(0x241)](Blockly['Msg']['bt_key2'])[_0x1c73d0(0x241)](new Blockly[(_0x1c73d0(0x1dc))]([['RETURN',_0x1c73d0(0x1e4)],['NEXT\x20TRACK',_0x1c73d0(0x2bc)],[_0x1c73d0(0x316),_0x1c73d0(0x2f9)],['STOP',_0x1c73d0(0x2d0)],[_0x1c73d0(0x217),_0x1c73d0(0x302)],[_0x1c73d0(0x2b4),_0x1c73d0(0x18b)],[_0x1c73d0(0x19e),'KEY_MEDIA_VOLUME_UP'],['VOLUME\x20DOWN',_0x1c73d0(0x2af)],[_0x1c73d0(0x206),_0x1c73d0(0x298)],[_0x1c73d0(0x2ba),_0x1c73d0(0x1d5)],[_0x1c73d0(0x1cb),_0x1c73d0(0x312)],[_0x1c73d0(0x1c1),_0x1c73d0(0x2a0)],[_0x1c73d0(0x313),_0x1c73d0(0x186)],['WWW\x20STOP',_0x1c73d0(0x179)],[_0x1c73d0(0x2df),'KEY_MEDIA_WWW_BACK'],[_0x1c73d0(0x18d),'KEY_MEDIA_CONSUMER_CONTROL_CONFIGURATION'],[_0x1c73d0(0x259),'KEY_MEDIA_EMAIL_READER']]),_0x1c73d0(0x21c)),this[_0x1c73d0(0x220)](!![]),this[_0x1c73d0(0x1a4)](!![]),this[_0x1c73d0(0x227)](!![]),this[_0x1c73d0(0x1ea)](_0x1c73d0(0x2a6));}},Blockly[_0x8f6f90(0x28b)][_0x8f6f90(0x250)]={'init':function(){var _0x63ea00=_0x8f6f90;this[_0x63ea00(0x2e9)]()[_0x63ea00(0x241)](Blockly[_0x63ea00(0x2b8)][_0x63ea00(0x29b)])['appendField'](new Blockly[(_0x63ea00(0x1dc))]([[_0x63ea00(0x2ac),_0x63ea00(0x1eb)],['ALT',_0x63ea00(0x2dc)],['DELETE','KEY_DELETE']]),_0x63ea00(0x21c)),this[_0x63ea00(0x220)](!![]),this['setPreviousStatement'](!![]),this['setNextStatement'](!![]),this['setColour'](_0x63ea00(0x2a6));}},Blockly[_0x8f6f90(0x28b)]['bt_key_release']={'init':function(){var _0x37bfab=_0x8f6f90;this[_0x37bfab(0x2e9)]()[_0x37bfab(0x241)](Blockly[_0x37bfab(0x2b8)][_0x37bfab(0x230)]),this[_0x37bfab(0x220)](!![]),this[_0x37bfab(0x1a4)](!![]),this['setNextStatement'](!![]),this[_0x37bfab(0x1ea)]('#697888');}},Blockly[_0x8f6f90(0x28b)][_0x8f6f90(0x266)]={'init':function(){var _0x478452=_0x8f6f90;this[_0x478452(0x2e9)]()[_0x478452(0x241)](Blockly[_0x478452(0x2b8)][_0x478452(0x2a5)])['appendField'](new Blockly[(_0x478452(0x2ad))]('8'),_0x478452(0x262)),this['setInputsInline'](!![]),this[_0x478452(0x1a4)](!![]),this[_0x478452(0x227)](!![]),this[_0x478452(0x1ea)]('#697888'),this['setTooltip'](_0x478452(0x2a4));}},Blockly['Blocks']['bt_key_cliker']={'init':function(){var _0x4a2b9b=_0x8f6f90;this[_0x4a2b9b(0x2e9)]()[_0x4a2b9b(0x241)](Blockly['Msg'][_0x4a2b9b(0x2c3)])['appendField'](new Blockly[(_0x4a2b9b(0x1dc))]([['CTRL','KEY_LEFT_CTRL'],['ALT',_0x4a2b9b(0x2dc)],[_0x4a2b9b(0x297),'KEY_DELETE']]),_0x4a2b9b(0x21c)),this[_0x4a2b9b(0x220)](!![]),this[_0x4a2b9b(0x1a4)](!![]),this['setNextStatement'](!![]),this[_0x4a2b9b(0x1ea)](_0x4a2b9b(0x2a6));}},Blockly[_0x8f6f90(0x28b)][_0x8f6f90(0x1a2)]={'init':function(){var _0x3aaa5b=_0x8f6f90;this[_0x3aaa5b(0x2e9)]()[_0x3aaa5b(0x241)](Blockly['Msg'][_0x3aaa5b(0x2c3)])[_0x3aaa5b(0x241)](new Blockly[(_0x3aaa5b(0x1dc))]([[_0x3aaa5b(0x1f2),_0x3aaa5b(0x268)],['RIGHT',_0x3aaa5b(0x2ff)],[_0x3aaa5b(0x200),_0x3aaa5b(0x211)],[_0x3aaa5b(0x275),_0x3aaa5b(0x2ab)],[_0x3aaa5b(0x27f),'MOUSE_FORWARD']]),_0x3aaa5b(0x21c)),this['setInputsInline'](!![]),this[_0x3aaa5b(0x1a4)](!![]),this[_0x3aaa5b(0x227)](!![]),this[_0x3aaa5b(0x1ea)](_0x3aaa5b(0x2a6));}},Blockly[_0x8f6f90(0x28b)][_0x8f6f90(0x182)]={'init':function(){var _0x4b0f5b=_0x8f6f90;this[_0x4b0f5b(0x2e9)]()[_0x4b0f5b(0x241)](Blockly[_0x4b0f5b(0x2b8)][_0x4b0f5b(0x1ee)])[_0x4b0f5b(0x241)](new Blockly[(_0x4b0f5b(0x1dc))]([['up','up'],[_0x4b0f5b(0x17e),_0x4b0f5b(0x17e)],[_0x4b0f5b(0x18c),'left'],[_0x4b0f5b(0x320),'right']]),_0x4b0f5b(0x21c))[_0x4b0f5b(0x241)](Blockly['Msg'][_0x4b0f5b(0x319)])[_0x4b0f5b(0x241)](new Blockly[(_0x4b0f5b(0x2ad))]('50'),_0x4b0f5b(0x262)),this['setInputsInline'](!![]),this[_0x4b0f5b(0x1a4)](!![]),this[_0x4b0f5b(0x227)](!![]),this[_0x4b0f5b(0x1ea)](_0x4b0f5b(0x2a6));}},Blockly[_0x8f6f90(0x28b)][_0x8f6f90(0x1de)]={'init':function(){var _0xab9820=_0x8f6f90;this[_0xab9820(0x2e9)]()[_0xab9820(0x241)](Blockly[_0xab9820(0x2b8)]['bt_key8'])[_0xab9820(0x241)](new Blockly['FieldDropdown']([['up','up'],['down',_0xab9820(0x17e)],[_0xab9820(0x18c),_0xab9820(0x18c)],[_0xab9820(0x320),_0xab9820(0x320)]]),_0xab9820(0x21c))['appendField'](Blockly[_0xab9820(0x2b8)][_0xab9820(0x319)])[_0xab9820(0x241)](new Blockly[(_0xab9820(0x2ad))]('50'),'_text')[_0xab9820(0x241)](Blockly[_0xab9820(0x2b8)]['bt_key10']),this[_0xab9820(0x220)](!![]),this[_0xab9820(0x1a4)](!![]),this[_0xab9820(0x227)](!![]),this[_0xab9820(0x1ea)](_0xab9820(0x2a6));}},Blockly[_0x8f6f90(0x28b)][_0x8f6f90(0x278)]={'init':function(){var _0x2a10a7=_0x8f6f90;this[_0x2a10a7(0x1ea)](_0x2a10a7(0x235)),this[_0x2a10a7(0x2e9)]()[_0x2a10a7(0x241)](Blockly[_0x2a10a7(0x2b8)][_0x2a10a7(0x2be)]),this[_0x2a10a7(0x170)](_0x2a10a7(0x2b5),'Number')[_0x2a10a7(0x25a)]('Number'),this[_0x2a10a7(0x2e9)]()['appendField'](Blockly[_0x2a10a7(0x2b8)][_0x2a10a7(0x1c9)])[_0x2a10a7(0x241)](new Blockly[(_0x2a10a7(0x1dc))]([[_0x2a10a7(0x2ca),_0x2a10a7(0x2ca)],[_0x2a10a7(0x178),_0x2a10a7(0x178)],['LeisureSuit','LeisureSuit'],[_0x2a10a7(0x31c),'MissionImp'],[_0x2a10a7(0x1d2),_0x2a10a7(0x1d2)],[_0x2a10a7(0x199),_0x2a10a7(0x199)],[_0x2a10a7(0x308),_0x2a10a7(0x308)],['YMCA',_0x2a10a7(0x18f)],[_0x2a10a7(0x1df),'TheSimpsons'],[_0x2a10a7(0x175),_0x2a10a7(0x175)],[_0x2a10a7(0x28a),_0x2a10a7(0x28a)],[_0x2a10a7(0x195),_0x2a10a7(0x195)],[_0x2a10a7(0x1b6),'thCenFox'],[_0x2a10a7(0x2c4),'Bond'],[_0x2a10a7(0x1f5),_0x2a10a7(0x1f5)],[_0x2a10a7(0x1bd),_0x2a10a7(0x1bd)],[_0x2a10a7(0x267),'ATeam'],[_0x2a10a7(0x20a),_0x2a10a7(0x20a)],[_0x2a10a7(0x1e7),'Gadget'],[_0x2a10a7(0x323),_0x2a10a7(0x323)],['Toccata',_0x2a10a7(0x19d)],[_0x2a10a7(0x213),'Short'],[_0x2a10a7(0x1b0),'JingleBell'],[_0x2a10a7(0x283),_0x2a10a7(0x283)],[_0x2a10a7(0x27a),'WeWishYou'],[_0x2a10a7(0x1e3),_0x2a10a7(0x1e3)],['OhDennenboom',_0x2a10a7(0x2b6)],[_0x2a10a7(0x1b1),'LetItSnow'],['Frosty',_0x2a10a7(0x16f)],[_0x2a10a7(0x2c5),_0x2a10a7(0x2c5)],[_0x2a10a7(0x28f),_0x2a10a7(0x28f)],[_0x2a10a7(0x198),_0x2a10a7(0x198)],[_0x2a10a7(0x2e0),_0x2a10a7(0x2e0)]]),'MELODY'),this['setInputsInline'](!![]),this[_0x2a10a7(0x1a4)](!![],null),this[_0x2a10a7(0x227)](!![],null);}},Blockly[_0x8f6f90(0x28b)][_0x8f6f90(0x290)]={'init':function(){var _0x7e510b=_0x8f6f90;this[_0x7e510b(0x1ea)](_0x7e510b(0x22b)),this[_0x7e510b(0x2e9)]()['appendField'](Blockly[_0x7e510b(0x2b8)][_0x7e510b(0x2aa)]),this[_0x7e510b(0x2e9)]()[_0x7e510b(0x241)](Blockly[_0x7e510b(0x2b8)][_0x7e510b(0x1c9)])['appendField'](new Blockly['FieldDropdown']([[_0x7e510b(0x2ca),_0x7e510b(0x2ca)],['MahnaMahna',_0x7e510b(0x178)],[_0x7e510b(0x243),_0x7e510b(0x243)],['MissionImp',_0x7e510b(0x31c)],[_0x7e510b(0x1d2),'Entertainer'],[_0x7e510b(0x199),_0x7e510b(0x199)],['Flinstones',_0x7e510b(0x308)],[_0x7e510b(0x18f),_0x7e510b(0x18f)],[_0x7e510b(0x1df),_0x7e510b(0x1df)],[_0x7e510b(0x175),_0x7e510b(0x175)],['TakeOnMe',_0x7e510b(0x28a)],[_0x7e510b(0x195),_0x7e510b(0x195)],[_0x7e510b(0x1b6),'thCenFox'],['Bond','Bond'],['GoodBad',_0x7e510b(0x1f5)],[_0x7e510b(0x1bd),_0x7e510b(0x1bd)],['ATeam',_0x7e510b(0x267)],[_0x7e510b(0x20a),_0x7e510b(0x20a)],[_0x7e510b(0x1e7),'Gadget'],[_0x7e510b(0x323),_0x7e510b(0x323)],[_0x7e510b(0x19d),_0x7e510b(0x19d)],[_0x7e510b(0x213),_0x7e510b(0x213)],[_0x7e510b(0x1b0),'JingleBell'],[_0x7e510b(0x283),_0x7e510b(0x283)],[_0x7e510b(0x27a),_0x7e510b(0x27a)],['WinterWonderland',_0x7e510b(0x1e3)],[_0x7e510b(0x2b6),_0x7e510b(0x2b6)],[_0x7e510b(0x1b1),_0x7e510b(0x1b1)],[_0x7e510b(0x16f),_0x7e510b(0x16f)],[_0x7e510b(0x2c5),_0x7e510b(0x2c5)],['LastChristmas','LastChristmas'],[_0x7e510b(0x198),'AllIWant'],[_0x7e510b(0x2e0),_0x7e510b(0x2e0)]]),_0x7e510b(0x2f0)),this[_0x7e510b(0x220)](!![]),this[_0x7e510b(0x1a4)](!![],null),this[_0x7e510b(0x227)](!![],null);}},Blockly[_0x8f6f90(0x28b)]['stepservo_continuos_move_ru32']={'init':function(){var _0x338105=_0x8f6f90;this[_0x338105(0x1ea)](0x50),this[_0x338105(0x220)](!![]),this['appendDummyInput']()[_0x338105(0x241)](Blockly[_0x338105(0x2b8)]['stepPIN'])[_0x338105(0x241)](new Blockly['FieldDropdown']([['25','1'],['32','2'],['14','3'],['12','4'],['18','5'],['19','6'],['16','7'],['4','8']]),_0x338105(0x2b5)),this[_0x338105(0x2e9)]()[_0x338105(0x241)](Blockly[_0x338105(0x2b8)]['stepROTSERVO_Direction'])[_0x338105(0x241)](new Blockly[(_0x338105(0x1dc))]([['10','16'],['20','15'],['30','14'],['40','13'],['50','12'],['60','11'],['70','10'],['80','9'],['90','8'],[_0x338105(0x226),'7']]),'PIN_GR'),this['appendValueInput'](_0x338105(0x2f4))['setCheck'](_0x338105(0x20b))[_0x338105(0x241)](Blockly[_0x338105(0x2b8)][_0x338105(0x196)]),this[_0x338105(0x1a4)](!![],null),this[_0x338105(0x227)](!![],null);}},Blockly[_0x8f6f90(0x28b)][_0x8f6f90(0x318)]={'init':function(){var _0x489f73=_0x8f6f90;this[_0x489f73(0x1ea)](_0x489f73(0x29a)),this[_0x489f73(0x220)](!![]),this['appendDummyInput']()[_0x489f73(0x241)](Blockly[_0x489f73(0x2b8)][_0x489f73(0x2c7)])['appendField'](new Blockly[(_0x489f73(0x1dc))]([['J1','1'],['J2','2'],['J3','4'],['J4','3'],['J5','5'],['J6','6'],['J7','8'],['J8','7']]),'PIN'),this[_0x489f73(0x2e9)]()['appendField'](Blockly['Msg'][_0x489f73(0x184)])['appendField'](new Blockly['FieldDropdown']([['10','16'],['20','15'],['30','14'],['40','13'],['50','12'],['60','11'],['70','10'],['80','9'],['90','8'],['100','7']]),_0x489f73(0x2db)),this[_0x489f73(0x170)](_0x489f73(0x2f4))[_0x489f73(0x25a)](_0x489f73(0x20b))['appendField'](Blockly[_0x489f73(0x2b8)][_0x489f73(0x196)]),this[_0x489f73(0x1a4)](!![],null),this[_0x489f73(0x227)](!![],null);}},Blockly[_0x8f6f90(0x28b)][_0x8f6f90(0x314)]={'init':function(){var _0x1f29cb=_0x8f6f90;this['setColour'](0x50),this[_0x1f29cb(0x220)](!![]),this[_0x1f29cb(0x2e9)]()[_0x1f29cb(0x241)](Blockly['Msg'][_0x1f29cb(0x2c7)])[_0x1f29cb(0x241)](new Blockly[(_0x1f29cb(0x1dc))]([['25','1'],['32','2'],['14','3'],['12','4'],['18','5'],['19','6'],['16','7'],['4','8']]),_0x1f29cb(0x2b5)),this[_0x1f29cb(0x2e9)](),this[_0x1f29cb(0x170)](_0x1f29cb(0x2f4))[_0x1f29cb(0x25a)](_0x1f29cb(0x20b))[_0x1f29cb(0x241)](Blockly['Msg'][_0x1f29cb(0x196)]),this['setPreviousStatement'](!![],null),this[_0x1f29cb(0x227)](!![],null);}},Blockly['Blocks'][_0x8f6f90(0x240)]={'init':function(){var _0x1a9831=_0x8f6f90;this['setColour'](_0x1a9831(0x29a)),this[_0x1a9831(0x220)](!![]),this[_0x1a9831(0x2e9)]()[_0x1a9831(0x241)](Blockly[_0x1a9831(0x2b8)][_0x1a9831(0x2c7)])[_0x1a9831(0x241)](new Blockly[(_0x1a9831(0x1dc))]([['J1','1'],['J2','2'],['J3','4'],['J4','3'],['J5','5'],['J6','6'],['J7','8'],['J8','7']]),_0x1a9831(0x2b5)),this[_0x1a9831(0x2e9)](),this[_0x1a9831(0x170)]('SpeedServo')['setCheck']('Number')['appendField'](Blockly['Msg']['stepROTSERVO_Speed']),this[_0x1a9831(0x1a4)](!![],null),this[_0x1a9831(0x227)](!![],null);}},Blockly[_0x8f6f90(0x28b)][_0x8f6f90(0x17d)]={'init':function(){var _0x2d2e60=_0x8f6f90;this['setColour']('#B39E2C'),this[_0x2d2e60(0x2e9)]('')[_0x2d2e60(0x241)](new Blockly[(_0x2d2e60(0x2ea))]('90'),_0x2d2e60(0x27c)),this[_0x2d2e60(0x247)](!![],_0x2d2e60(0x20b));}},Blockly[_0x8f6f90(0x28b)][_0x8f6f90(0x1e0)]={'init':function(){var _0x18f582=_0x8f6f90;this['setColour'](_0x18f582(0x28d)),this[_0x18f582(0x2e9)]()['appendField'](Blockly[_0x18f582(0x2b8)]['ultrasonic_ranger']),this[_0x18f582(0x247)](!![],'Number');}},Blockly[_0x8f6f90(0x28b)][_0x8f6f90(0x285)]={'init':function(){var _0x2b88fe=_0x8f6f90;this[_0x2b88fe(0x1ea)](_0x2b88fe(0x28d)),this['appendDummyInput']()[_0x2b88fe(0x241)](Blockly[_0x2b88fe(0x2b8)][_0x2b88fe(0x192)])[_0x2b88fe(0x241)](Blockly[_0x2b88fe(0x2b8)]['PIN'])[_0x2b88fe(0x241)](new Blockly[(_0x2b88fe(0x1dc))]([['J1','25'],['J2','32'],['J3','12'],['J4','14'],['J5','18'],['J6','19'],['J7','16'],['J8','4']]),_0x2b88fe(0x2bb))[_0x2b88fe(0x241)](Blockly[_0x2b88fe(0x2b8)]['DHT_Type'])[_0x2b88fe(0x241)](new Blockly[(_0x2b88fe(0x1dc))]([[Blockly[_0x2b88fe(0x2b8)][_0x2b88fe(0x234)],'0'],[Blockly['Msg'][_0x2b88fe(0x2e6)],'1'],[Blockly[_0x2b88fe(0x2b8)][_0x2b88fe(0x17b)],'2']]),'OUTPUT_TYPE')[_0x2b88fe(0x241)](new Blockly[(_0x2b88fe(0x1dc))]([[Blockly[_0x2b88fe(0x2b8)]['DHT_Temp'],'0'],[Blockly[_0x2b88fe(0x2b8)][_0x2b88fe(0x2f7)],'1']]),'OUTPUT_VALUE'),this[_0x2b88fe(0x247)](!![],_0x2b88fe(0x20b)),this[_0x2b88fe(0x19c)](Blockly[_0x2b88fe(0x2b8)][_0x2b88fe(0x1a7)]);}},Blockly[_0x8f6f90(0x28b)][_0x8f6f90(0x1d0)]={'init':function(){var _0x5e37c0=_0x8f6f90;this['appendDummyInput']()[_0x5e37c0(0x241)](Blockly['Msg'][_0x5e37c0(0x180)])['appendField'](new Blockly['FieldDropdown']([[_0x5e37c0(0x1d8),'0'],['J1','25'],['J2','32'],['J3','12'],['J4','14'],['J5','18'],['J6','19'],['J7','16'],['J8','4']]),'PIN')[_0x5e37c0(0x241)](new Blockly[(_0x5e37c0(0x1dc))]([[Blockly['Msg']['nano1_control_45'],'0'],[Blockly[_0x5e37c0(0x2b8)][_0x5e37c0(0x31d)],'1']]),_0x5e37c0(0x2f2)),this[_0x5e37c0(0x2b0)](_0x5e37c0(0x1a0)),this['appendStatementInput']('bot_statement1'),this[_0x5e37c0(0x220)](!![]),this[_0x5e37c0(0x1a4)](!![]),this[_0x5e37c0(0x227)](!![]),this[_0x5e37c0(0x1ea)](_0x5e37c0(0x245));}},Blockly['Blocks'][_0x8f6f90(0x2a9)]={'init':function(){var _0x1a9c81=_0x8f6f90;this['appendDummyInput']()[_0x1a9c81(0x241)](Blockly[_0x1a9c81(0x2b8)][_0x1a9c81(0x2a9)]),this['appendValueInput'](_0x1a9c81(0x296))['setCheck'](''),this[_0x1a9c81(0x220)](!![]),this[_0x1a9c81(0x1a4)](!![]),this[_0x1a9c81(0x227)](!![]),this[_0x1a9c81(0x1ea)]('#A5995B');}},Blockly['Blocks'][_0x8f6f90(0x1cc)]={'init':function(){var _0x14e2f6=_0x8f6f90;this[_0x14e2f6(0x2e9)]()['appendField'](Blockly[_0x14e2f6(0x2b8)][_0x14e2f6(0x246)])[_0x14e2f6(0x241)](new Blockly[(_0x14e2f6(0x1dc))]([[_0x14e2f6(0x226),_0x14e2f6(0x226)],[_0x14e2f6(0x23f),_0x14e2f6(0x23f)],[_0x14e2f6(0x1fd),_0x14e2f6(0x1fd)],['700',_0x14e2f6(0x271)],['1000',_0x14e2f6(0x2fa)],[_0x14e2f6(0x253),_0x14e2f6(0x253)],[_0x14e2f6(0x1b5),'3000'],[_0x14e2f6(0x25f),_0x14e2f6(0x25f)]]),_0x14e2f6(0x20e))['appendField'](Blockly['Msg'][_0x14e2f6(0x24d)]),this[_0x14e2f6(0x220)](!![]),this['setPreviousStatement'](!![]),this['setNextStatement'](!![]),this[_0x14e2f6(0x1ea)]('#A5995B');}},Blockly['Blocks'][_0x8f6f90(0x2a1)]={'init':function(){var _0x51834f=_0x8f6f90;this['setColour'](_0x51834f(0x1d9)),this[_0x51834f(0x2e9)]()['appendField'](Blockly['Msg']['LCD_I2C_setup']),this[_0x51834f(0x2e9)]()['appendField'](new Blockly[(_0x51834f(0x1dc))]([[_0x51834f(0x310),_0x51834f(0x310)],['0x27','0x27'],[_0x51834f(0x249),_0x51834f(0x249)],[_0x51834f(0x29d),'0x3B'],[_0x51834f(0x214),'0x3E']]),_0x51834f(0x193))['appendField'](Blockly[_0x51834f(0x2b8)][_0x51834f(0x282)])[_0x51834f(0x241)](new Blockly['FieldDropdown']([['16','16'],['20','20'],['8','8']]),'COLUMNS')['appendField'](Blockly['Msg']['LCD_setup_ROWS'])[_0x51834f(0x241)](new Blockly[(_0x51834f(0x1dc))]([['2','2'],['4','4'],['1','1']]),_0x51834f(0x236)),this['setInputsInline'](!![]),this[_0x51834f(0x1a4)](!![],null),this[_0x51834f(0x227)](!![],null);}},Blockly[_0x8f6f90(0x28b)][_0x8f6f90(0x2e7)]={'init':function(){var _0x83bb74=_0x8f6f90;this[_0x83bb74(0x1ea)](_0x83bb74(0x1d9)),this['appendDummyInput']()[_0x83bb74(0x241)](Blockly[_0x83bb74(0x2b8)][_0x83bb74(0x207)])[_0x83bb74(0x241)](Blockly[_0x83bb74(0x2b8)][_0x83bb74(0x282)])[_0x83bb74(0x241)](new Blockly[(_0x83bb74(0x1dc))]([['1','0'],['2','1'],['3','2'],['4','3'],['5','4'],['6','5'],['7','6'],['8','7'],['9','8'],['10','9'],['11','10'],['12','11'],['13','12'],['14','13'],['15','14'],['16','15']]),_0x83bb74(0x17c))[_0x83bb74(0x241)](Blockly[_0x83bb74(0x2b8)][_0x83bb74(0x1fe)])['appendField'](new Blockly[(_0x83bb74(0x1dc))]([['1','0'],['2','1'],['3','2'],['4','3']]),'row'),this[_0x83bb74(0x170)](_0x83bb74(0x1f4))[_0x83bb74(0x25a)]('')[_0x83bb74(0x241)](Blockly['Msg'][_0x83bb74(0x24a)]),this[_0x83bb74(0x220)](!![]),this[_0x83bb74(0x1a4)](!![],null),this[_0x83bb74(0x227)](!![],null);}},Blockly['Blocks'][_0x8f6f90(0x288)]={'init':function(){var _0x3e1c8e=_0x8f6f90;this['setColour']('#4B886A'),this[_0x3e1c8e(0x2e9)]()['appendField'](Blockly[_0x3e1c8e(0x2b8)]['LCD_lcdi2c_print_gr232']),this['appendDummyInput']()[_0x3e1c8e(0x241)](new Blockly[(_0x3e1c8e(0x1dc))]([['1','1'],['2','2'],['3','3'],['4','4'],['5','5'],['6','6'],['7','7'],['8','8'],['9','9'],['10','10'],['11','11'],['12','12'],['13','13'],['14','14'],['15','15'],['16','16'],['17','17'],['18','18'],['19','19'],['20','20']]),_0x3e1c8e(0x1a1))[_0x3e1c8e(0x241)](new Blockly['FieldDropdown']([['1','0'],['2','1'],['3','2'],['4','3'],['5','4'],['6','5'],['7','6'],['8','7'],['9','8'],['10','9'],['11','10'],['12','11'],['13','12'],['14','13'],['15','14'],['16','15']]),_0x3e1c8e(0x284))[_0x3e1c8e(0x241)](new Blockly[(_0x3e1c8e(0x1dc))]([['1','0'],['2','1'],['3','2'],['4','3']]),'print_y'),this[_0x3e1c8e(0x2e9)]()[_0x3e1c8e(0x241)]('\x20')[_0x3e1c8e(0x241)](new Blockly[(_0x3e1c8e(0x260))](_0x3e1c8e(0x1d6)),'Pix0e0')[_0x3e1c8e(0x241)](new Blockly[(_0x3e1c8e(0x260))]('FALSE'),_0x3e1c8e(0x183))['appendField'](new Blockly[(_0x3e1c8e(0x260))](_0x3e1c8e(0x2a3)),_0x3e1c8e(0x173))[_0x3e1c8e(0x241)](new Blockly[(_0x3e1c8e(0x260))](_0x3e1c8e(0x2a3)),_0x3e1c8e(0x1e6))[_0x3e1c8e(0x241)](new Blockly['FieldCheckbox'](_0x3e1c8e(0x2a3)),'Pix0e4'),this[_0x3e1c8e(0x2e9)]()[_0x3e1c8e(0x241)]('\x20')['appendField'](new Blockly[(_0x3e1c8e(0x260))]('FALSE'),'Pix1e0')['appendField'](new Blockly[(_0x3e1c8e(0x260))](_0x3e1c8e(0x2a3)),'Pix1e1')[_0x3e1c8e(0x241)](new Blockly[(_0x3e1c8e(0x260))](_0x3e1c8e(0x2a3)),_0x3e1c8e(0x25c))[_0x3e1c8e(0x241)](new Blockly[(_0x3e1c8e(0x260))](_0x3e1c8e(0x2a3)),'Pix1e3')['appendField'](new Blockly[(_0x3e1c8e(0x260))](_0x3e1c8e(0x2a3)),_0x3e1c8e(0x26a)),this[_0x3e1c8e(0x2e9)]()['appendField']('\x20')[_0x3e1c8e(0x241)](new Blockly['FieldCheckbox'](_0x3e1c8e(0x2a3)),'Pix2e0')[_0x3e1c8e(0x241)](new Blockly[(_0x3e1c8e(0x260))](_0x3e1c8e(0x2a3)),_0x3e1c8e(0x244))[_0x3e1c8e(0x241)](new Blockly['FieldCheckbox'](_0x3e1c8e(0x2a3)),_0x3e1c8e(0x21a))['appendField'](new Blockly[(_0x3e1c8e(0x260))]('FALSE'),_0x3e1c8e(0x16e))[_0x3e1c8e(0x241)](new Blockly[(_0x3e1c8e(0x260))]('FALSE'),'Pix2e4'),this[_0x3e1c8e(0x2e9)]()['appendField']('\x20')[_0x3e1c8e(0x241)](new Blockly[(_0x3e1c8e(0x260))](_0x3e1c8e(0x2a3)),_0x3e1c8e(0x231))['appendField'](new Blockly['FieldCheckbox'](_0x3e1c8e(0x2a3)),_0x3e1c8e(0x2da))[_0x3e1c8e(0x241)](new Blockly[(_0x3e1c8e(0x260))](_0x3e1c8e(0x2a3)),'Pix3e2')[_0x3e1c8e(0x241)](new Blockly[(_0x3e1c8e(0x260))]('FALSE'),_0x3e1c8e(0x2d5))[_0x3e1c8e(0x241)](new Blockly[(_0x3e1c8e(0x260))](_0x3e1c8e(0x2a3)),_0x3e1c8e(0x1b4)),this['appendDummyInput']()[_0x3e1c8e(0x241)]('\x20')['appendField'](new Blockly[(_0x3e1c8e(0x260))](_0x3e1c8e(0x2a3)),_0x3e1c8e(0x2e5))['appendField'](new Blockly['FieldCheckbox'](_0x3e1c8e(0x2a3)),_0x3e1c8e(0x29c))[_0x3e1c8e(0x241)](new Blockly[(_0x3e1c8e(0x260))](_0x3e1c8e(0x2a3)),'Pix4e2')['appendField'](new Blockly[(_0x3e1c8e(0x260))](_0x3e1c8e(0x2a3)),_0x3e1c8e(0x299))['appendField'](new Blockly['FieldCheckbox'](_0x3e1c8e(0x2a3)),'Pix4e4'),this[_0x3e1c8e(0x2e9)]()[_0x3e1c8e(0x241)]('\x20')[_0x3e1c8e(0x241)](new Blockly[(_0x3e1c8e(0x260))](_0x3e1c8e(0x2a3)),'Pix5e0')[_0x3e1c8e(0x241)](new Blockly[(_0x3e1c8e(0x260))](_0x3e1c8e(0x2a3)),_0x3e1c8e(0x219))[_0x3e1c8e(0x241)](new Blockly[(_0x3e1c8e(0x260))](_0x3e1c8e(0x2a3)),_0x3e1c8e(0x289))[_0x3e1c8e(0x241)](new Blockly[(_0x3e1c8e(0x260))](_0x3e1c8e(0x2a3)),_0x3e1c8e(0x1f1))[_0x3e1c8e(0x241)](new Blockly['FieldCheckbox']('FALSE'),'Pix5e4'),this['appendDummyInput']()['appendField']('\x20')[_0x3e1c8e(0x241)](new Blockly[(_0x3e1c8e(0x260))](_0x3e1c8e(0x2a3)),_0x3e1c8e(0x20c))['appendField'](new Blockly[(_0x3e1c8e(0x260))]('FALSE'),_0x3e1c8e(0x30d))[_0x3e1c8e(0x241)](new Blockly[(_0x3e1c8e(0x260))](_0x3e1c8e(0x2a3)),_0x3e1c8e(0x1f9))[_0x3e1c8e(0x241)](new Blockly[(_0x3e1c8e(0x260))](_0x3e1c8e(0x2a3)),_0x3e1c8e(0x293))[_0x3e1c8e(0x241)](new Blockly[(_0x3e1c8e(0x260))](_0x3e1c8e(0x2a3)),_0x3e1c8e(0x26b)),this[_0x3e1c8e(0x2e9)]()['appendField']('\x20')[_0x3e1c8e(0x241)](new Blockly[(_0x3e1c8e(0x260))](_0x3e1c8e(0x2a3)),_0x3e1c8e(0x2dd))[_0x3e1c8e(0x241)](new Blockly[(_0x3e1c8e(0x260))](_0x3e1c8e(0x2a3)),_0x3e1c8e(0x300))[_0x3e1c8e(0x241)](new Blockly[(_0x3e1c8e(0x260))](_0x3e1c8e(0x2a3)),_0x3e1c8e(0x224))[_0x3e1c8e(0x241)](new Blockly['FieldCheckbox']('FALSE'),_0x3e1c8e(0x2e1))['appendField'](new Blockly[(_0x3e1c8e(0x260))](_0x3e1c8e(0x2a3)),_0x3e1c8e(0x270)),this[_0x3e1c8e(0x220)](![]),this['setPreviousStatement'](!![]),this['setNextStatement'](!![]);}},Blockly[_0x8f6f90(0x28b)][_0x8f6f90(0x2ce)]={'init':function(){var _0x3ec9b1=_0x8f6f90,_0x21943c=window['localStorage'][_0x3ec9b1(0x1d3)];this['setColour'](_0x3ec9b1(0x29a)),this['appendDummyInput']()[_0x3ec9b1(0x241)](Blockly[_0x3ec9b1(0x2b8)][_0x3ec9b1(0x307)])[_0x3ec9b1(0x241)](new Blockly[(_0x3ec9b1(0x1dc))]([['J1','1'],['J2','2'],['J3','3'],['J4','4'],['J5','5'],['J6','6'],['J7','7'],['J8','8']]),_0x3ec9b1(0x2b5)),this[_0x3ec9b1(0x170)](_0x3ec9b1(0x21f),_0x3ec9b1(0x1c7))[_0x3ec9b1(0x1f3)](Blockly[_0x3ec9b1(0x237)])[_0x3ec9b1(0x241)](Blockly[_0x3ec9b1(0x2b8)][_0x3ec9b1(0x2d9)]),this[_0x3ec9b1(0x220)](!![]),this[_0x3ec9b1(0x1a4)](!![],null),this[_0x3ec9b1(0x227)](!![],null);}},Blockly[_0x8f6f90(0x28b)]['inout_analog_read_esp32']={'init':function(){var _0x1f264c=_0x8f6f90;this[_0x1f264c(0x1ea)]('#2CB396'),this[_0x1f264c(0x2e9)]()['appendField'](Blockly[_0x1f264c(0x2b8)][_0x1f264c(0x1cf)])[_0x1f264c(0x241)](new Blockly[(_0x1f264c(0x1dc))]([['J1','25'],['J2','32'],['J3','12'],['J4','14'],['J5','18'],['J6','19'],['J7','16'],['J8','4']]),_0x1f264c(0x2b5)),this[_0x1f264c(0x220)](!![]),this[_0x1f264c(0x247)](!![],'Number');}},Blockly[_0x8f6f90(0x28b)][_0x8f6f90(0x305)]={'init':function(){var _0x293e6d=_0x8f6f90;this[_0x293e6d(0x2e9)]()[_0x293e6d(0x241)](Blockly[_0x293e6d(0x2b8)][_0x293e6d(0x205)]),this['appendValueInput'](_0x293e6d(0x296))[_0x293e6d(0x25a)](''),this['appendDummyInput']()[_0x293e6d(0x241)](Blockly['Msg'][_0x293e6d(0x19f)])[_0x293e6d(0x241)](new Blockly[(_0x293e6d(0x1dc))]([['0','0'],['1023',_0x293e6d(0x2cb)],[_0x293e6d(0x2c1),_0x293e6d(0x2c1)]]),_0x293e6d(0x255))[_0x293e6d(0x241)](Blockly[_0x293e6d(0x2b8)][_0x293e6d(0x1fb)])[_0x293e6d(0x241)](new Blockly[(_0x293e6d(0x1dc))]([[_0x293e6d(0x2c1),_0x293e6d(0x2c1)],['1023','1023'],['0','0']]),_0x293e6d(0x23d))[_0x293e6d(0x241)](Blockly['Msg'][_0x293e6d(0x2f5)])[_0x293e6d(0x241)](new Blockly[(_0x293e6d(0x1dc))]([['0','0'],['90','90'],[_0x293e6d(0x292),_0x293e6d(0x292)],[_0x293e6d(0x27d),'255']]),'pi3')['appendField'](Blockly[_0x293e6d(0x2b8)]['espMap5'])['appendField'](new Blockly[(_0x293e6d(0x1dc))]([[_0x293e6d(0x27d),_0x293e6d(0x27d)],[_0x293e6d(0x292),_0x293e6d(0x292)],['90','90'],['0','0']]),_0x293e6d(0x263)),this[_0x293e6d(0x220)](!![]),this[_0x293e6d(0x247)](!![]),this['setColour'](_0x293e6d(0x2b3));}},Blockly[_0x8f6f90(0x28b)][_0x8f6f90(0x22f)]={'init':function(){var _0x590eee=_0x8f6f90,_0x3accb4=window[_0x590eee(0x248)][_0x590eee(0x1d3)];this[_0x590eee(0x1ea)](_0x590eee(0x31e)),this[_0x590eee(0x2e9)]()['appendField'](Blockly[_0x590eee(0x2b8)][_0x590eee(0x1b2)])[_0x590eee(0x241)](new Blockly[(_0x590eee(0x1dc))]([[_0x590eee(0x28e),'9'],[_0x590eee(0x204),'10'],['J1','1'],['J2','2'],['J3','3'],['J4','4'],['J5','5'],['J6','6'],['J7','7'],['J8','8']]),_0x590eee(0x2b5)),this['appendValueInput'](_0x590eee(0x21f),'Boolean')[_0x590eee(0x1f3)](Blockly['ALIGN_RIGHT'])['appendField'](Blockly[_0x590eee(0x2b8)][_0x590eee(0x2d9)]),this['setInputsInline'](!![]),this[_0x590eee(0x1a4)](!![],null),this['setNextStatement'](!![],null);}};
+"use strict";
+
+
+Blockly.Blocks['ardublock_block']={init:function(){
+    this.appendDummyInput()
+       // .appendField(new Blockly.FieldImage("media/icon_block/001.png", 15, 15, null))
+        .appendField(Blockly.Msg.nano1_control_15)
+        .appendField(new Blockly.FieldDropdown([[Blockly.Msg.nano1_control_0, "0"],[Blockly.Msg.nano1_control_1, "1"], [Blockly.Msg.nano1_control_2, "2"], [Blockly.Msg.nano1_control_3, "3"], [Blockly.Msg.nano1_control_4, "4"],[Blockly.Msg.nano1_control_5, "5"], [Blockly.Msg.nano1_control_6, "6"], [Blockly.Msg.nano1_control_7, "7"], [Blockly.Msg.nano1_control_8, "8"],[Blockly.Msg.nano1_control_9, "9"], [Blockly.Msg.nano1_control_10, "10"], [Blockly.Msg.nano1_control_11, "11"], [Blockly.Msg.nano1_control_12, "12"]]), "deistvie")
+        .appendField(new Blockly.FieldDropdown([[Blockly.Msg.nano1_control_13, "1"], [Blockly.Msg.nano1_control_14, "2"]]), "delay");
+    this.setInputsInline(true);
+    this.setPreviousStatement(true);
+    this.setNextStatement(true);
+    this.setColour("#7CB5D3");
+    //this.setTooltip('help Vitaliy...');
+    this.setHelpUrl(Blockly.Msg.HELPURLesp_001)
+	}
+};
+
+Blockly.Blocks['ardublock_block1']={init:function(){
+    this.appendDummyInput()
+        //.appendField(new Blockly.FieldImage("media/icon_block/001.png", 15, 15, null))
+        .appendField(Blockly.Msg.nano1_control_16)
+        .appendField(new Blockly.FieldDropdown([[Blockly.Msg.nano1_control_18, "1"],[Blockly.Msg.nano1_control_19, "5"],[Blockly.Msg.nano1_control_20, "2"],[Blockly.Msg.nano1_control_21, "6"], [Blockly.Msg.nano1_control_22, "3"], [Blockly.Msg.nano1_control_23, "4"], [Blockly.Msg.nano1_control_24, "7"]]), "deistvie")
+        .appendField(new Blockly.FieldDropdown([[Blockly.Msg.nano1_control_13, "1"], [Blockly.Msg.nano1_control_14, "2"]]), "delay")
+		.appendField(Blockly.Msg.nano1_control_17)
+		.appendField(new Blockly.FieldDropdown([["1", "1"], ["2", "2"], ["3", "3"], ["4", "4"], ["5", "5"], ["6", "6"], ["7", "7"], ["8", "8"], ["9", "9"], ["10", "10"]]), "forrobot");
+    this.setInputsInline(true);
+    this.setPreviousStatement(true);
+    this.setNextStatement(true);
+    this.setColour(185);
+    //this.setTooltip('help Vitaliy...');
+    this.setHelpUrl(Blockly.Msg.HELPURLesp_002)
+	}
+};
+
+ 
+
+Blockly.Blocks['ardublock_block4']={init:function(){
+    this.appendDummyInput()
+       // .appendField(new Blockly.FieldImage("media/icon_block/002.png", 25, 20, null))
+        .appendField(Blockly.Msg.nano1_control_25)
+        //.appendField(new Blockly.FieldNumber("15"), "uni")
+		.appendField(new Blockly.FieldDropdown([["5", "5"], ["10", "10"], ["15", "15"], ["20", "20"], ["25", "25"], ["30", "30"], ["35", "35"], ["40", "40"]]), "uni")
+        .appendField(Blockly.Msg.nano1_control_26);
+    this.appendStatementInput("statement");
+    this.setInputsInline(false);
+    this.setPreviousStatement(true);
+    this.setNextStatement(true);
+    this.setColour("#6D7497");
+    this.setTooltip(Blockly.Msg.nano1_control_27);
+    this.setHelpUrl(Blockly.Msg.HELPURLesp_003)
+	}
+};
+
+Blockly.Blocks['ardublock_block3']={init:function(){
+    this.appendDummyInput()
+       // .appendField(new Blockly.FieldImage("media/icon_block/001.png", 15, 15, null))
+        .appendField(Blockly.Msg.nano1_control_28)
+        .appendField(new Blockly.FieldDropdown([["2", "2"], ["3", "3"], ["4", "4"], ["5", "5"],["6", "6"], ["7", "7"], ["8", "8"], ["9", "9"]]), "deistvie")
+        .appendField(Blockly.Msg.nano1_control_29)
+		.appendField(new Blockly.FieldDropdown([["10", "10"],["20", "20"],["30", "30"],["40", "40"],["50", "50"],["60", "60"],["70", "70"],["80", "80"],["90", "90"],["100", "100"],["110", "110"],["120", "120"],["130", "130"],["140", "140"],["150", "150"],["160", "160"],["170", "170"]]), "gradus")
+		.appendField(Blockly.Msg.nano1_control_30)
+		.appendField(new Blockly.FieldDropdown([["10", "10"],["20", "20"],["30", "30"],["40", "40"],["50", "50"],["60", "60"],["70", "70"],["80", "80"],["90", "90"],["100", "100"],["110", "110"],["120", "120"],["130", "130"],["140", "140"],["150", "150"],["160", "160"],["170", "170"],["180", "180"],["190", "190"],["200", "200"],["210", "210"],["220", "220"],["230", "230"],["240", "240"]]), "delay");
+    this.setInputsInline(true);
+    this.setPreviousStatement(true);
+    this.setNextStatement(true);
+    this.setColour("#7CB5D3");
+    //this.setTooltip('help Vitaliy...');
+    this.setHelpUrl(Blockly.Msg.HELPURLesp_006)
+	}
+};
+Blockly.Blocks['ardublock_block5']={init:function(){
+    this.appendDummyInput()
+       // .appendField(new Blockly.FieldImage("media/icon_block/001.png", 15, 15, null))
+        .appendField(Blockly.Msg.nano1_control_31)
+        .appendField(new Blockly.FieldDropdown([["100", "100"], ["300", "300"], ["500", "500"], ["700", "700"],["1000", "1000"], ["1500", "1500"], ["3000", "3000"], ["5000", "5000"]]), "delay")
+        .appendField(Blockly.Msg.nano1_control_32);
+    this.setInputsInline(true);
+    this.setPreviousStatement(true);
+    this.setNextStatement(true);
+    this.setColour("#5B99A5");
+    //this.setTooltip('help Vitaliy...');
+     this.setHelpUrl(Blockly.Msg.HELPURLesp_007)
+	}
+};
+
+Blockly.Blocks['ardublock_block6']={init:function(){
+    this.appendDummyInput()
+        .appendField(Blockly.Msg.nano1_control_33);
+    this.appendStatementInput("_statement");
+    this.setInputsInline(false);
+    this.setPreviousStatement(true);
+    this.setNextStatement(true);
+    this.setColour("#00929f");
+  //  this.setTooltip('help Vitaliy...');
+    this.setHelpUrl(Blockly.Msg.HELPURLesp_004)
+	}
+};
+
+Blockly.Blocks['ardublock_block7']={init:function(){
+    this.appendDummyInput()
+       // .appendField(new Blockly.FieldImage("media/icon_block/001.png", 15, 15, null))
+        .appendField(Blockly.Msg.nano1_control_34)
+        .appendField(new Blockly.FieldDropdown([[Blockly.Msg.nano1_control_35, "1"], [Blockly.Msg.nano1_control_36, "0"]]), "digitallled");
+    this.setInputsInline(true);
+    this.setPreviousStatement(true);
+    this.setNextStatement(true);
+    this.setColour("#A5675B");
+    //this.setTooltip('help Vitaliy...');
+    this.setHelpUrl(Blockly.Msg.HELPURLesp_008)
+	}
+};
+// робот манипулятор
+Blockly.Blocks['ardublock_block8']={init:function(){
+    this.appendDummyInput()
+        .appendField(Blockly.Msg.nano1_control_37)
+        .appendField(new Blockly.FieldDropdown([[Blockly.Msg.nano1_control_38, "120"], [Blockly.Msg.nano1_control_39, "50"], [Blockly.Msg.nano1_control_40, "20"]]), "gradus");
+    this.setInputsInline(true);
+    this.setPreviousStatement(true);
+    this.setNextStatement(true);
+    this.setColour("#00929f");
+    this.setTooltip(Blockly.Msg.nano1_control_41);
+ this.setHelpUrl(Blockly.Msg.HELPURLesp_014)
+	}
+};
+Blockly.Blocks['ardublock_block9']={init:function(){
+    this.appendDummyInput()
+       // .appendField(new Blockly.FieldImage("media/icon_block/001.png", 15, 15, null))
+        .appendField(Blockly.Msg.nano1_control_28)
+        .appendField(new Blockly.FieldDropdown([["3", "3"], ["4", "4"], ["5", "5"],["6", "6"], ["7", "7"]]), "deistvie")
+        .appendField(Blockly.Msg.nano1_control_29)
+		.appendField(new Blockly.FieldDropdown([["10", "10"],["20", "20"],["30", "30"],["40", "40"],["50", "50"],["60", "60"],["70", "70"],["80", "80"],["90", "90"],["100", "100"],["110", "110"],["120", "120"],["130", "130"],["140", "140"],["150", "150"],["160", "160"],["170", "170"]]), "gradus")
+		.appendField(Blockly.Msg.nano1_control_30)
+		.appendField(new Blockly.FieldDropdown([["10", "10"],["20", "20"],["30", "30"],["40", "40"],["50", "50"],["60", "60"],["70", "70"],["80", "80"],["90", "90"],["100", "100"],["110", "110"],["120", "120"],["130", "130"],["140", "140"],["150", "150"],["160", "160"],["170", "170"],["180", "180"],["190", "190"],["200", "200"],["210", "210"],["220", "220"],["230", "230"],["240", "240"]]), "delay");
+    this.setInputsInline(true);
+    this.setPreviousStatement(true);
+    this.setNextStatement(true);
+    this.setColour("#7CB5D3");
+    //this.setTooltip('help Vitaliy...');
+    this.setHelpUrl(Blockly.Msg.HELPURLesp_009)
+	}
+};
+Blockly.Blocks['ardublock_block10']={init:function(){
+    this.appendDummyInput()
+        .appendField(Blockly.Msg.nano1_control_42)
+		//.appendField(new Blockly.FieldAngle("90"), "gradus")
+		.appendField(new Blockly.FieldDropdown([["10", "10"],["40", "40"],["90", "90"],["140", "140"],["170", "170"]]), "gradus")
+		.appendField(Blockly.Msg.nano1_control_30)
+		.appendField(new Blockly.FieldDropdown([["10", "10"],["20", "20"],["30", "30"],["40", "40"],["50", "50"],["60", "60"],["70", "70"],["80", "80"],["90", "90"],["100", "100"]]), "delay");
+    this.setInputsInline(true);
+    this.setPreviousStatement(true);
+    this.setNextStatement(true);
+    this.setColour("#00929f");
+    this.setTooltip(Blockly.Msg.nano1_control_43);
+      this.setHelpUrl(Blockly.Msg.HELPURLesp_013)
+	}
+};
+
+ Blockly.Blocks['ardublock_block11']={init:function(){
+    this.appendDummyInput()
+        .appendField(Blockly.Msg.nano1_control_44)
+        .appendField(new Blockly.FieldDropdown([[Blockly.Msg.nano1_control_45, "0"], [Blockly.Msg.nano1_control_46, "1"]]), "bb_dropdown");   
+    this.appendStatementInput("bot_statement");
+	this.appendStatementInput("bot_statement1");
+	this.setInputsInline(true);
+    this.setPreviousStatement(true);
+    this.setNextStatement(true);
+    this.setColour("#867B9A");
+    this.setTooltip(Blockly.Msg.nano1_control_47);
+    this.setHelpUrl(Blockly.Msg.HELPURLesp_011)
+	}
+ };
+ 
+ Blockly.Blocks['ardublock_block12']={init:function(){
+    this.appendDummyInput()
+        .appendField(Blockly.Msg.nano1_control_48);
+    this.appendStatementInput("top")
+        .appendField("↑");
+    this.appendStatementInput("bot")
+        .appendField("↓");
+    this.appendStatementInput("left")
+        .appendField("←");
+    this.appendStatementInput("righit")
+        .appendField("→");
+    this.appendStatementInput("noneboz")
+        .appendField(" o");
+    this.setInputsInline(true);
+    this.setPreviousStatement(true);
+    this.setNextStatement(true);
+    this.setColour("#00929f");
+    this.setTooltip(Blockly.Msg.nano1_control_49);
+    this.setHelpUrl(Blockly.Msg.HELPURLesp_010)
+	}
+};
+
+Blockly.Blocks['ardublock_block13']={init:function(){
+    this.appendDummyInput()
+        .appendField(Blockly.Msg.nano1_control_50)
+        .appendField(new Blockly.FieldDropdown([[Blockly.Msg.nano1_control_51, "1"], [Blockly.Msg.nano1_control_52, "2"], [Blockly.Msg.nano1_control_53, "3"], [Blockly.Msg.nano1_control_54, "4"], [Blockly.Msg.nano1_control_55, "5"], [Blockly.Msg.nano1_control_56, "6"]]), "dropdown")
+		.appendField(Blockly.Msg.nano1_control_57)
+        .appendField(new Blockly.FieldDropdown([[Blockly.Msg.nano1_control_58, "1"], [Blockly.Msg.nano1_control_59, "2"]]), "delay");
+    this.setInputsInline(true);
+    this.setPreviousStatement(true);
+    this.setNextStatement(true);
+    this.setColour("#00929f");
+    this.setTooltip(Blockly.Msg.nano1_control_60);
+   this.setHelpUrl(Blockly.Msg.HELPURLesp_012)
+	}
+};
+
+// плата enjoy esp32  
+
+Blockly.Blocks['enjoyesp1']={init:function(){
+    this.appendDummyInput()
+        .appendField(Blockly.Msg.espled1)
+     .appendField(new Blockly.FieldDropdown([['Board 1', '13'],['Board 2', '15'],['J1', '25'],['J2', '32'],['J3', '12'],['J4', '14'],['J5', '18'],['J6', '19'],['J7', '16'],['J8', '4']]), "nomer")
+	 .appendField(new Blockly.FieldDropdown([[Blockly.Msg.espled2, "1"], [Blockly.Msg.espled3, "0"]]), "sig");
+    this.setInputsInline(false);
+    this.setPreviousStatement(true);
+    this.setNextStatement(true);
+    this.setColour("#50A0CC");
+   // this.setTooltip('help Vitaliy...');
+   // this.setHelpUrl('http://ardublock.ru/wiki')
+	}
+};Blockly.Blocks['enjoyesp2']={init:function(){
+    this.appendDummyInput()
+        .appendField(Blockly.Msg.espled4)
+        .appendField(new Blockly.FieldColour("#ff0000"), "colour");
+    this.setInputsInline(false);
+    this.setPreviousStatement(true);
+    this.setNextStatement(true);
+    this.setColour("#50A0CC");
+  //  this.setTooltip('help Vitaliy...');
+  //  this.setHelpUrl('http://ardublock.ru/wiki')
+	}
+};
+Blockly.Blocks["esp32ledi_ws2812"] = {
+  init: function() {
+  this.setColour("#50A0CC");
+  this.appendDummyInput()
+        .appendField(Blockly.Msg.espled5)
+		.appendField(new Blockly.FieldDropdown([["J1", "25"], ["J2", "32"], ["J3", "12"], ["J4", "14"], ["J5", "18"], ["J6", "19"], ["J7", "4"], ["J8", "16"]]), "Pin");
+  this.appendDummyInput()
+        .appendField(Blockly.Msg.ledstrip_WS9)
+        .appendField(new Blockly.FieldDropdown([["0", "0"],["1", "1"],["2", "2"],["3", "3"],["4", "4"],["5", "5"],["6", "6"],["7", "7"],["8", "8"],["9", "9"],["10", "10"],["11", "11"],["12", "12"],["13", "13"],["14", "14"],["15", "15"],["16", "16"],["17", "17"],["18", "18"],["19", "19"],["20", "20"]]), "ledon")
+        .appendField(Blockly.Msg.ledstrip_WS10)
+        .appendField(new Blockly.FieldDropdown([["0", "0"],["1", "1"],["2", "2"],["3", "3"],["4", "4"],["5", "5"],["6", "6"],["7", "7"],["8", "8"],["9", "9"],["10", "10"],["11", "11"],["12", "12"],["13", "13"],["14", "14"],["15", "15"],["16", "16"],["17", "17"],["18", "18"],["19", "19"],["20", "20"]]),  "ledoff")
+        .appendField(Blockly.Msg.ledstrip_WS11)
+        .appendField(new Blockly.FieldColour("#ff0000"), "RGBCOLOR")
+        .appendField(new Blockly.FieldDropdown([[Blockly.Msg.espled6,'6'],[Blockly.Msg.espled7,'7'],[Blockly.Msg.espled8,'8'],[Blockly.Msg.espled9,'10'],[Blockly.Msg.espled10,'11'],[Blockly.Msg.espled11,'12'],[Blockly.Msg.espled12,'13']]), "RE_NUMBER");	
+  this.setInputsInline(true);
+  this.setPreviousStatement(true, null);
+  this.setNextStatement(true, null);
+    //this.setTooltip('');
+  //this.setHelpUrl(Blockly.Msg.HELPURLesp_070);
+  }
+};       
+ 
+ 
+ 
+ 
+ Blockly.Blocks["serial_read2"]={init:function(){
+    var card=window.localStorage.card;
+        this.setColour("#5BA599");
+        this.setHelpUrl(Blockly.Msg.HELPURL_035);
+    if (card!="python"){this.appendDummyInput().appendField(Blockly.Msg.Serial_read);} else {this.appendDummyInput().appendField(Blockly.Msg.repl_read);}
+        this.setInputsInline(true);
+        this.setOutput(true, "Number");
+        //this.setTooltip(Blockly.Msg.Serial_read_tooltip)
+    }
+};
+
+Blockly.Blocks["serial_available2"]={init:function(){
+        this.setColour("#5BA599");
+        this.setHelpUrl(Blockly.Msg.HELPURL_035);
+        this.appendDummyInput().appendField(Blockly.Msg.Serial_available);
+        this.setInputsInline(true);
+        this.setOutput(true, "Number");
+        //this.setTooltip(Blockly.Msg.Serial_available_tooltip)
+    }
+};
+Blockly.Blocks["soft_init2"]={init:function(){
+    var card=window.localStorage.card;
+        this.setColour("#0060aa");
+         this.setHelpUrl(Blockly.Msg.HELPURL_036);
+        this.appendDummyInput()
+      .appendField(Blockly.Msg.SSERIAL_Init)
+      this.appendValueInput("PIN1", "Number");
+      this.appendDummyInput()
+	  .appendField(" Tx")
+      this.appendValueInput("PIN2", "Number");
+        this.appendDummyInput().setAlign(Blockly.ALIGN_RIGHT)
+      .appendField(Blockly.Msg.vitesse)
+      .appendField(new Blockly.FieldDropdown(profile[card].serial), "SPEED");
+        this.setInputsInline(true);
+    this.setPreviousStatement(true, null);
+        this.setNextStatement(true, null);
+       // this.setTooltip(Blockly.Msg.SSERIAL_tooltip)
+    }
+};
+Blockly.Blocks["soft_write2"]={init:function(){
+        this.setHelpUrl(Blockly.Msg.HELPURL_036);
+        this.setColour("#0060aa");
+        this.appendValueInput("CONTENT", "String").appendField(Blockly.Msg.SSERIAL_Write);
+        this.setPreviousStatement(true, null);
+        this.setNextStatement(true, null);
+        //this.setTooltip(Blockly.Msg.SSERIAL_Write_tooltip)
+    }
+};
+Blockly.Blocks["soft_read2"]={init:function(){
+        this.setColour("#0060aa");
+       this.setHelpUrl(Blockly.Msg.HELPURL_037);
+        this.appendDummyInput().appendField(Blockly.Msg.SSERIAL_Read);
+        this.setInputsInline(true);
+        this.setOutput(true, "String");
+        //this.setTooltip(Blockly.Msg.SSERIAL_Read_tooltip)
+    }
+};
+Blockly.Blocks["soft_available2"]={init:function(){
+        this.setHelpUrl(Blockly.Msg.HELPURL_037);
+        this.setColour("#0060aa");
+        this.appendDummyInput().appendField(Blockly.Msg.SSERIAL_Available);
+        this.setInputsInline(true);
+        this.setOutput(true, "Number");
+        //this.setTooltip(Blockly.Msg.SSERIAL_Available_tooltip)
+    }
+};
+
+Blockly.Blocks["eeprom_write_byteesp"] = {    
+  init: function() {
+    this.setColour(100);
+    this.appendValueInput("adr")
+    .setCheck("Number")
+        .appendField(Blockly.Msg.STORAGE_EEPROM_WRITE_BYTE);
+    this.appendValueInput("val")
+        .setCheck("Number")
+        .appendField(Blockly.Msg.STORAGE_DATA_BYTE);
+    this.setInputsInline(true);
+    this.setPreviousStatement(true, null);
+    this.setNextStatement(true, null);
+   // this.setTooltip('');
+  this.setHelpUrl(Blockly.Msg.HELPURL_047);
+  }
+};
+Blockly.Blocks["eeprom_read_byteesp"] = {  
+  init: function() {
+    this.setColour(100);
+    this.appendValueInput("ADDRESS")
+    .setCheck("Number")
+        .appendField(Blockly.Msg.STORAGE_EEPROM_READ_VARIABLE);
+    this.setOutput(true, Number);
+  this.setInputsInline(true);
+  //this.setTooltip('');
+  this.setHelpUrl(Blockly.Msg.HELPURL_047);
+  }
+};
+Blockly.Blocks["dht_sensor11"] = {
+  init: function() {
+     this.setColour("#6D7497");
+    this.appendDummyInput()
+      .appendField(Blockly.Msg.DHT_NAME)
+        .appendField(Blockly.Msg.PIN);
+  this.appendValueInput("PIN_DHT", 'Number')
+        .setCheck('Number');
+  this.appendDummyInput()
+    .appendField(Blockly.Msg.DHT_Type)
+        .appendField(new Blockly.FieldDropdown([[Blockly.Msg.DHT_Type11, "0"], [Blockly.Msg.DHT_Type21, "1"],[Blockly.Msg.DHT_Type22, "2"]]), "OUTPUT_TYPE")
+    .appendField(new Blockly.FieldDropdown([[Blockly.Msg.DHT_Temp, "0"], [Blockly.Msg.DHT_Humi, "1"]]), "OUTPUT_VALUE");
+    this.setOutput(true, 'Number');
+   // this.setTooltip('');
+  this.setHelpUrl(Blockly.Msg.HELPURL_060);
+  }
+};
+
+Blockly.Blocks['lcdi2c_setup'] = {
+   init: function() {
+   this.setColour("#4B886A");
+    this.appendDummyInput()
+        .appendField(Blockly.Msg.LCD_I2C_setup);
+    this.appendDummyInput()
+        .appendField(new Blockly.FieldTextInput("0x27"), "NAME");
+   this.appendValueInput("COLUMNS")
+        .setCheck("Number")
+        .appendField(Blockly.Msg.LCD_setup_COLUMNS);
+    this.appendValueInput("ROWS")
+        .setCheck("Number")
+        .appendField(Blockly.Msg.LCD_setup_ROWS);
+    this.setInputsInline(true);
+    this.setPreviousStatement(true, null);
+    this.setNextStatement(true, null);
+  //  this.setTooltip('');
+    
+  }
+};
+
+Blockly.Blocks['lcdi2c_setBacklight'] = {
+  init: function() {
+    this.setColour("#4B886A");
+    this.appendDummyInput()
+        .appendField(Blockly.Msg.LCDP_setBcklight)
+		.appendField(new Blockly.FieldDropdown([["ON", "1"], ["OFF", "0"]]), "OUTPUT_DISPLAY")
+    this.setPreviousStatement(true, null);
+    this.setNextStatement(true, null);
+  //  this.setTooltip('');
+  //  this.setHelpUrl('');
+  }
+};
+
+Blockly.Blocks['lcdi2c_clear'] = {
+  init: function() {
+    this.setColour("#4B886A");
+    this.appendDummyInput()
+        .appendField(Blockly.Msg.LCDP_Clear);
+    this.setPreviousStatement(true, null);
+    this.setNextStatement(true, null);
+   // this.setTooltip('');
+   // this.setHelpUrl('');
+  }
+};
+
+Blockly.Blocks['OLED_init'] = {
+  init: function() {
+  this.appendDummyInput()
+     .appendField(Blockly.Msg.miniLCD_I2C_setup)
+     this.appendDummyInput()
+     .setAlign(Blockly.ALIGN_RIGHT)
+     .appendField(new Blockly.FieldDropdown([["64", "64"], ["32", "32"]]), "height");
+	  this.appendDummyInput()
+     .appendField(Blockly.Msg.miniLCD_I2C_setupsds)
+	 
+     .appendField(new Blockly.FieldDropdown([["0x3C", "0x3C"], ["0x3D", "0x3D"], ["0x7A", "0x7A"], ["0x7B", "0x7B"], ["0x78", "0x78"]]), "address");
+     this.setInputsInline(true);
+	 this.setPreviousStatement(true);
+	 this.setNextStatement(true);
+     this.setColour("#4b779f");
+   //  this.setTooltip('');
+  //   this.setHelpUrl('');
+   }
+ };
+ 
+ Blockly.Blocks['OLED_rotate'] = {
+  init: function() {
+     this.appendDummyInput()
+     .appendField(Blockly.Msg.miniLCD_I2C_setuprotate)
+     .appendField(new Blockly.FieldDropdown([["0°", "0"], ["90°", "1"], ["180°", "2"], ["270°", "3"]]), "angle");
+  this.setInputsInline(true);
+  this.setPreviousStatement(true);
+  this.setNextStatement(true);
+     this.setColour("#4b779f");
+    // this.setTooltip('');
+   //  this.setHelpUrl('');
+   }
+ };
+ Blockly.Blocks['OLED_data'] = {
+  init: function() {
+    Blockly.FieldCheckbox.CHECK_CHAR= '✓'
+  this.appendDummyInput()  .appendField(Blockly.Msg.miniLCD_I2C_print_x)
+  this.appendValueInput("X") .setAlign(Blockly.ALIGN_RIGHT) .setCheck("Number") ;
+  this.appendValueInput("Y") .setAlign(Blockly.ALIGN_RIGHT)  .setCheck("Number")    .appendField(Blockly.Msg.miniLCD_I2C_print_y);
+ // this.appendValueInput("height")   .setAlign(Blockly.ALIGN_RIGHT)   .setCheck("Number")   .appendField(Blockly.Msg.miniLCD_I2C_print_F);
+   this.appendDummyInput()
+   .appendField(Blockly.Msg.miniLCD_I2C_print_F)
+   .appendField(new Blockly.FieldDropdown([["1", "1"], ["2", "2"], ["3", "3"]]), "height");
+  this.appendValueInput("print")  .setAlign(Blockly.ALIGN_RIGHT)  .appendField(Blockly.Msg.miniLCD_I2C_print_T);
+ // this.appendDummyInput() .appendField(Blockly.Msg.MAX7219_LM_Led) .appendField(new Blockly.FieldCheckbox("TRUE"), "draw");
+  this.setInputsInline(true);
+  this.setPreviousStatement(true);
+  this.setNextStatement(true);
+     this.setColour("#4b779f");
+  //   this.setTooltip('');
+  //   this.setHelpUrl('');
+   }
+ };
+ Blockly.Blocks['OLED_clear'] = {
+  init: function() {
+    this.appendDummyInput()  .appendField(Blockly.Msg.miniLCD_I2C_print_drawnone);
+    this.setInputsInline(false);
+    this.setPreviousStatement(true);
+    this.setNextStatement(true);
+    this.setColour("#4b779f");
+   // this.setTooltip('');
+   //  this.setHelpUrl('');
+  }
+};
+Blockly.Blocks['dwin_box_ttl2']={init:function(){
+    this.appendDummyInput()
+        .appendField(Blockly.Msg.Dwin_box);
+    this.setInputsInline(false);
+    this.setPreviousStatement(true);
+    this.setNextStatement(true);
+    this.setColour("#00929f");
+    this.setTooltip(Blockly.Msg.Dwin_box_DWIN_SET);
+    //this.setHelpUrl('http://ardublock.ru/wiki')
+	}
+};
+
+Blockly.Blocks["DFPplayerMp3_init_serial132"] = {
+  init: function() {
+  this.setColour("#A66E96");
+  this.appendDummyInput()
+        .appendField(Blockly.Msg.MP3_name);
+  this.appendValueInput("tx", "Number")
+        .setCheck("Number");
+		  this.appendDummyInput()
+        .appendField(Blockly.Msg.MP3_name11);
+  this.appendValueInput("rx", "Number")
+        .setCheck("Number");
+		  
+  this.setInputsInline(true);
+    this.setPreviousStatement(true, null);
+    this.setNextStatement(true, null);
+    //this.setTooltip('');
+  this.setHelpUrl(Blockly.Msg.HELPURL_078);
+  }
+};
+
+
+Blockly.Blocks["DFPplayerMp3_init_serial232"] = {
+  init: function() {
+  this.setColour("#A66E96");
+  this.appendDummyInput()
+        .appendField(Blockly.Msg.MP3_name2);
+  this.appendValueInput("NOM", "Number")
+        .setCheck("Number");   
+  this.setInputsInline(true);
+    this.setPreviousStatement(true, null);
+    this.setNextStatement(true, null);
+    //this.setTooltip('');
+  this.setHelpUrl(Blockly.Msg.HELPURL_078);
+  }
+};
+ 
+
+Blockly.Blocks["DFPplayerMp3_init_serial432"] = {
+  init: function() {
+  this.setColour("#A66E96");
+  this.appendDummyInput()
+   .appendField(Blockly.Msg.MP3_name4) 
+   .appendField(new Blockly.FieldDropdown([['play', '0x0D,0,1'],['next', '0x01,0,1'],['prev', '0x02,0,1'],['pause', '0x0E,0,0']]), "dp")  
+
+  this.setInputsInline(true);
+    this.setPreviousStatement(true, null);
+    this.setNextStatement(true, null);
+    //this.setTooltip('');
+  this.setHelpUrl(Blockly.Msg.HELPURL_078);
+  }
+};
+
+
+
+
+Blockly.Blocks['bt_key_print']={init:function(){
+    this.appendDummyInput()
+        .appendField(Blockly.Msg.bt_key1)
+        .appendField(new Blockly.FieldTextInput("ESP Block 2.0"), "_text");
+    this.setInputsInline(true);
+    this.setPreviousStatement(true);
+    this.setNextStatement(true);
+    this.setColour("#697888");
+   // this.setTooltip('help Vitaliy...');
+   // this.setHelpUrl('http://ardublock.ru/wiki')
+	}
+};
+Blockly.Blocks['bt_key_modifikation']={init:function(){
+    this.appendDummyInput()
+        .appendField(Blockly.Msg.bt_key2)
+        .appendField(new Blockly.FieldDropdown([["RETURN", "KEY_RETURN"],["NEXT TRACK", "KEY_MEDIA_NEXT_TRACK"],["PREVIOUS TRACK", "KEY_MEDIA_PREVIOUS_TRACK"],["STOP", "KEY_MEDIA_STOP"],["PLAY PAUSE", "KEY_MEDIA_PLAY_PAUSE"],["MUTE", "KEY_MEDIA_MUTE"],["VOLUME UP", "KEY_MEDIA_VOLUME_UP"],["VOLUME DOWN", "KEY_MEDIA_VOLUME_DOWN"],["WWW HOME", "KEY_MEDIA_WWW_HOME"],["LOCAL MACHINE BROWSER", "KEY_MEDIA_LOCAL_MACHINE_BROWSER"],["CALCULATOR", "KEY_MEDIA_CALCULATOR"],["WWW BOOKMARKS", "KEY_MEDIA_WWW_BOOKMARKS"],["WWW SEARCH", "KEY_MEDIA_WWW_SEARCH"],["WWW STOP", "KEY_MEDIA_WWW_STOP"],["WWW BACK", "KEY_MEDIA_WWW_BACK"],["CONTROL CONFIGURATION", "KEY_MEDIA_CONSUMER_CONTROL_CONFIGURATION"],["EMAIL READER", "KEY_MEDIA_EMAIL_READER"]]), "_dropdown");
+    this.setInputsInline(true);
+    this.setPreviousStatement(true);
+    this.setNextStatement(true);
+    this.setColour("#697888");
+  // this.setTooltip('help Vitaliy...');
+   // this.setHelpUrl('http://ardublock.ru/wiki')
+   }
+};
+Blockly.Blocks['bt_key_press']={init:function(){
+    this.appendDummyInput()
+        .appendField(Blockly.Msg.bt_key3)
+        .appendField(new Blockly.FieldDropdown([["CTRL", "KEY_LEFT_CTRL"],["ALT", "KEY_LEFT_ALT"],["DELETE", "KEY_DELETE"]]), "_dropdown");
+    this.setInputsInline(true);
+    this.setPreviousStatement(true);
+    this.setNextStatement(true);
+    this.setColour("#697888");
+  // this.setTooltip('help Vitaliy...');
+   // this.setHelpUrl('http://ardublock.ru/wiki')
+   }
+};
+Blockly.Blocks['bt_key_release']={init:function(){
+    this.appendDummyInput()
+        .appendField(Blockly.Msg.bt_key4);
+    this.setInputsInline(true);
+    this.setPreviousStatement(true);
+    this.setNextStatement(true);
+    this.setColour("#697888");
+  // this.setTooltip('help Vitaliy...');
+   // this.setHelpUrl('http://ardublock.ru/wiki')
+   }
+};
+
+Blockly.Blocks['bt_key_delay']={init:function(){
+    this.appendDummyInput()
+        .appendField(Blockly.Msg.bt_key5)
+        .appendField(new Blockly.FieldTextInput("8"), "_text");
+    this.setInputsInline(true);
+    this.setPreviousStatement(true);
+    this.setNextStatement(true);
+    this.setColour("#697888");
+    this.setTooltip('2 - 10');
+   // this.setHelpUrl('http://ardublock.ru/wiki')
+	}
+};
+
+
+Blockly.Blocks['bt_key_cliker']={init:function(){
+    this.appendDummyInput()
+        .appendField(Blockly.Msg.bt_key6)
+        .appendField(new Blockly.FieldDropdown([["CTRL", "KEY_LEFT_CTRL"],["ALT", "KEY_LEFT_ALT"],["DELETE", "KEY_DELETE"]]), "_dropdown");
+    this.setInputsInline(true);
+    this.setPreviousStatement(true);
+    this.setNextStatement(true);
+    this.setColour("#697888");
+   // this.setTooltip('help Vitaliy...');
+   // this.setHelpUrl('http://ardublock.ru/wiki')
+	}
+};
+
+Blockly.Blocks['bt_key_cliker']={init:function(){
+    this.appendDummyInput()
+        .appendField(Blockly.Msg.bt_key6)
+        .appendField(new Blockly.FieldDropdown([["LEFT", "MOUSE_LEFT"],["RIGHT", "MOUSE_RIGHT"],["MIDDLE", "MOUSE_MIDDLE"],["BACK", "MOUSE_BACK"],["FORWARD", "MOUSE_FORWARD"]]), "_dropdown");
+    this.setInputsInline(true);
+    this.setPreviousStatement(true);
+    this.setNextStatement(true);
+    this.setColour("#697888");
+   // this.setTooltip('help Vitaliy...');
+   // this.setHelpUrl('http://ardublock.ru/wiki')
+	}
+};
+Blockly.Blocks['bt_key_cliker1']={init:function(){
+    this.appendDummyInput()
+        .appendField(Blockly.Msg.bt_key7)
+        .appendField(new Blockly.FieldDropdown([["up", "up"],["down", "down"],["left", "left"],["right", "right"]]), "_dropdown")
+		.appendField(Blockly.Msg.bt_key9)
+		.appendField(new Blockly.FieldTextInput("50"), "_text");
+    this.setInputsInline(true);
+    this.setPreviousStatement(true);
+    this.setNextStatement(true);
+    this.setColour("#697888");
+   // this.setTooltip('help Vitaliy...');
+   // this.setHelpUrl('http://ardublock.ru/wiki')
+	}
+};
+Blockly.Blocks['bt_key_cliker2']={init:function(){
+    this.appendDummyInput()
+        .appendField(Blockly.Msg.bt_key8)
+        .appendField(new Blockly.FieldDropdown([["up", "up"],["down", "down"],["left", "left"],["right", "right"]]), "_dropdown")
+		.appendField(Blockly.Msg.bt_key9)
+		.appendField(new Blockly.FieldTextInput("50"), "_text")
+		.appendField(Blockly.Msg.bt_key10);
+    this.setInputsInline(true);
+    this.setPreviousStatement(true);
+    this.setNextStatement(true);
+    this.setColour("#697888");
+   // this.setTooltip('help Vitaliy...');
+   // this.setHelpUrl('http://ardublock.ru/wiki')
+	}
+};
+
+Blockly.Blocks['RTTTL_music'] = {
+  init: function() {
+  this.setColour("#82638E");
+    this.appendDummyInput()
+        .appendField(Blockly.Msg.TonePin);
+  this.appendValueInput("PIN", "Number")
+        .setCheck("Number");
+	this.appendDummyInput()	
+		.appendField(Blockly.Msg.ARDUINO_RTTTL_BLOCK)
+        .appendField(new Blockly.FieldDropdown([['StarWars','StarWars'],['MahnaMahna','MahnaMahna'],['LeisureSuit','LeisureSuit'],['MissionImp','MissionImp'],['Entertainer','Entertainer'],['Muppets','Muppets'],['Flinstones','Flinstones'],['YMCA','YMCA'],['TheSimpsons','TheSimpsons'],['Indiana','Indiana'],['TakeOnMe','TakeOnMe'],['Looney','Looney'],['thCenFox','thCenFox'],['Bond','Bond'],['GoodBad','GoodBad'],['PinkPanther','PinkPanther'],['ATeam','ATeam'],['Jeopardy','Jeopardy'],['Gadget','Gadget'],['Smurfs','Smurfs'],['Toccata','Toccata'],['Short','Short'],['JingleBell','JingleBell'],['Rudolph','Rudolph'],['WeWishYou','WeWishYou'],['WinterWonderland','WinterWonderland'],['OhDennenboom','OhDennenboom'],['LetItSnow','LetItSnow'],['Frosty','Frosty'],['SilentNight','SilentNight'],['LastChristmas','LastChristmas'],['AllIWant','AllIWant'],['AmazingGrace','AmazingGrace']]), "MELODY");
+	this.setInputsInline(true);
+    this.setPreviousStatement(true, null);
+    this.setNextStatement(true, null);
+   // this.setTooltip("Play RTTTL melody");
+	//this.setHelpUrl(''); 
+  }
+};
+Blockly.Blocks['RTTTL_music1'] = {
+  init: function() {
+  this.setColour("#AE5D74");
+    this.appendDummyInput()
+        .appendField(Blockly.Msg.TonePin23);
+  //this.appendValueInput("PIN", "Number")
+  //      .setCheck("Number");
+	this.appendDummyInput()	
+		.appendField(Blockly.Msg.ARDUINO_RTTTL_BLOCK)
+        .appendField(new Blockly.FieldDropdown([['StarWars','StarWars'],['MahnaMahna','MahnaMahna'],['LeisureSuit','LeisureSuit'],['MissionImp','MissionImp'],['Entertainer','Entertainer'],['Muppets','Muppets'],['Flinstones','Flinstones'],['YMCA','YMCA'],['TheSimpsons','TheSimpsons'],['Indiana','Indiana'],['TakeOnMe','TakeOnMe'],['Looney','Looney'],['thCenFox','thCenFox'],['Bond','Bond'],['GoodBad','GoodBad'],['PinkPanther','PinkPanther'],['ATeam','ATeam'],['Jeopardy','Jeopardy'],['Gadget','Gadget'],['Smurfs','Smurfs'],['Toccata','Toccata'],['Short','Short'],['JingleBell','JingleBell'],['Rudolph','Rudolph'],['WeWishYou','WeWishYou'],['WinterWonderland','WinterWonderland'],['OhDennenboom','OhDennenboom'],['LetItSnow','LetItSnow'],['Frosty','Frosty'],['SilentNight','SilentNight'],['LastChristmas','LastChristmas'],['AllIWant','AllIWant'],['AmazingGrace','AmazingGrace']]), "MELODY");
+	this.setInputsInline(true);
+    this.setPreviousStatement(true, null);
+    this.setNextStatement(true, null);
+   // this.setTooltip("Play RTTTL melody");
+	//this.setHelpUrl(''); 
+  }
+};
+//сервомотор  32
+  Blockly.Blocks["stepservo_continuos_move_ru32"] = {
+  init: function() {
+    this.setColour(80);
+  this.setInputsInline(true);
+    this.appendDummyInput()
+        .appendField(Blockly.Msg.stepPIN)
+		.appendField(new Blockly.FieldDropdown([['25', '1'],['32', '2'],['14', '3'],['12', '4'],['18', '5'],['19', '6'],['16', '7'],['4', '8']]), "PIN");
+        //this.appendValueInput("PIN", "Number");
+  this.appendDummyInput()
+    .appendField(Blockly.Msg.stepROTSERVO_Direction)
+   // this.appendValueInput("PIN_GR", "Number");
+      .appendField(new Blockly.FieldDropdown([['10', '16'],['20', '15'],['30', '14'],['40', '13'],['50', '12'],['60', '11'],['70', '10'],['80', '9'],['90', '8'],['100', '7']]), "PIN_GR");
+    this.appendValueInput("SpeedServo")
+        .setCheck('Number')
+    .appendField(Blockly.Msg.stepROTSERVO_Speed);
+    this.setPreviousStatement(true, null);
+    this.setNextStatement(true, null);
+    //this.setTooltip('');
+ // this.setHelpUrl(Blockly.Msg.HELPURL_050);
+  }
+};
+//сервомотор  32
+  Blockly.Blocks["stepservo_continuos_move_ru32ww"] = {
+  init: function() {
+    this.setColour("#B39E2C");
+  this.setInputsInline(true);
+    this.appendDummyInput()
+        .appendField(Blockly.Msg.stepPIN)
+		.appendField(new Blockly.FieldDropdown([['J1', '1'],['J2', '2'],['J3', '4'],['J4', '3'],['J5', '5'],['J6', '6'],['J7', '8'],['J8', '7']]), "PIN");
+        //this.appendValueInput("PIN", "Number");
+  this.appendDummyInput()
+    .appendField(Blockly.Msg.stepROTSERVO_Direction)
+   // this.appendValueInput("PIN_GR", "Number");
+      .appendField(new Blockly.FieldDropdown([['10', '16'],['20', '15'],['30', '14'],['40', '13'],['50', '12'],['60', '11'],['70', '10'],['80', '9'],['90', '8'],['100', '7']]), "PIN_GR");
+    this.appendValueInput("SpeedServo")
+        .setCheck('Number')
+    .appendField(Blockly.Msg.stepROTSERVO_Speed);
+    this.setPreviousStatement(true, null);
+    this.setNextStatement(true, null);
+    //this.setTooltip('');
+ // this.setHelpUrl(Blockly.Msg.HELPURL_050);
+  }
+};
+
+//сервомотор  32n
+  Blockly.Blocks["stepservo_continuos_move_ru32n"] = {
+  init: function() {
+    this.setColour(80);
+  this.setInputsInline(true);
+    this.appendDummyInput()
+        .appendField(Blockly.Msg.stepPIN)
+		.appendField(new Blockly.FieldDropdown([['25', '1'],['32', '2'],['14', '3'],['12', '4'],['18', '5'],['19', '6'],['16', '7'],['4', '8']]), "PIN");
+        //this.appendValueInput("PIN", "Number");
+  this.appendDummyInput()
+   // .appendField(Blockly.Msg.stepROTSERVO_Direction)
+   // this.appendValueInput("PIN_GR", "Number");
+   //   .appendField(new Blockly.FieldDropdown([['10', '16'],['20', '15'],['30', '14'],['40', '13'],['50', '12'],['60', '11'],['70', '10'],['80', '9'],['90', '8'],['100', '7']]), "PIN_GR");
+    this.appendValueInput("SpeedServo")
+        .setCheck('Number')
+    .appendField(Blockly.Msg.stepROTSERVO_Speed);
+    this.setPreviousStatement(true, null);
+    this.setNextStatement(true, null);
+    //this.setTooltip('');
+  //this.setHelpUrl(Blockly.Msg.HELPURL_050);
+  }
+};
+//сервомотор  32n
+  Blockly.Blocks["stepservo_continuos_move_ru32n2"] = {
+  init: function() {
+    this.setColour('#B39E2C');
+  this.setInputsInline(true);
+    this.appendDummyInput()
+        .appendField(Blockly.Msg.stepPIN)
+		.appendField(new Blockly.FieldDropdown([['J1', '1'],['J2', '2'],['J3', '4'],['J4', '3'],['J5', '5'],['J6', '6'],['J7', '8'],['J8', '7']]), "PIN");
+        //this.appendValueInput("PIN", "Number");
+  this.appendDummyInput()
+   // .appendField(Blockly.Msg.stepROTSERVO_Direction)
+   // this.appendValueInput("PIN_GR", "Number");
+   //   .appendField(new Blockly.FieldDropdown([['10', '16'],['20', '15'],['30', '14'],['40', '13'],['50', '12'],['60', '11'],['70', '10'],['80', '9'],['90', '8'],['100', '7']]), "PIN_GR");
+    this.appendValueInput("SpeedServo")
+        .setCheck('Number')
+    .appendField(Blockly.Msg.stepROTSERVO_Speed);
+    this.setPreviousStatement(true, null);
+    this.setNextStatement(true, null);
+    //this.setTooltip('');
+ // this.setHelpUrl(Blockly.Msg.HELPURL_050);
+  }
+};
+ 
+ Blockly.Blocks["inout_angle_maths22"] = {
+    init: function() {
+        this.setColour('#B39E2C');
+       // this.setHelpUrl(Blockly.Msg.HELPURL_006);
+        this.appendDummyInput("").appendField(new Blockly.FieldAngle("90"), "ANGLE");
+        this.setOutput(true, "Number");
+        //this.setTooltip("angle")
+    }
+};
+Blockly.Blocks["ultrasonic_ranger_sensor32w"] = {
+  init: function() {
+     this.setColour("#2CB396");
+    this.appendDummyInput()
+      .appendField(Blockly.Msg.ultrasonic_ranger);
+    //    .appendField(Blockly.Msg.TRIG);
+  //this.appendValueInput("PIN_TRIG", 'Number')
+    //    .setCheck('Number');
+ // this.appendDummyInput()
+     //   .appendField(Blockly.Msg.Echo);
+ // this.appendValueInput("PIN_ECHO", 'Number')
+  //      .setCheck('Number');
+    this.setOutput(true, 'Number');
+    //this.setTooltip('');
+  //this.setHelpUrl(Blockly.Msg.HELPURL_059);
+  }
+};
+
+Blockly.Blocks["dht_sensor11ww"] = {
+  init: function() {
+     this.setColour("#2CB396");
+    this.appendDummyInput()
+        .appendField(Blockly.Msg.DHT_NAME)
+        .appendField(Blockly.Msg.PIN)
+        .appendField(new Blockly.FieldDropdown([['J1', '25'],['J2', '32'],['J3', '12'],['J4', '14'],['J5', '18'],['J6', '19'],['J7', '16'],['J8', '4']]), "PIN_DHT")
+        .appendField(Blockly.Msg.DHT_Type)
+        .appendField(new Blockly.FieldDropdown([[Blockly.Msg.DHT_Type11, "0"], [Blockly.Msg.DHT_Type21, "1"],[Blockly.Msg.DHT_Type22, "2"]]), "OUTPUT_TYPE")
+    .appendField(new Blockly.FieldDropdown([[Blockly.Msg.DHT_Temp, "0"], [Blockly.Msg.DHT_Humi, "1"]]), "OUTPUT_VALUE");
+    this.setOutput(true, 'Number');
+   // this.setTooltip('');
+  this.setHelpUrl(Blockly.Msg.HELPURL_060);
+  }
+};
+
+ Blockly.Blocks['ardublock_block11ww']={init:function(){
+    this.appendDummyInput()
+        .appendField(Blockly.Msg.nano1_control_44)
+        .appendField(new Blockly.FieldDropdown([['Board', '0'],['J1', '25'],['J2', '32'],['J3', '12'],['J4', '14'],['J5', '18'],['J6', '19'],['J7', '16'],['J8', '4']]), "PIN")
+        .appendField(new Blockly.FieldDropdown([[Blockly.Msg.nano1_control_45, "0"], [Blockly.Msg.nano1_control_46, "1"]]), "bb_dropdown");   
+    this.appendStatementInput("bot_statement");
+	this.appendStatementInput("bot_statement1");
+	this.setInputsInline(true);
+    this.setPreviousStatement(true);
+    this.setNextStatement(true);
+    this.setColour("#CD9B37");
+   // this.setTooltip(Blockly.Msg.nano1_control_47);
+   // this.setHelpUrl(Blockly.Msg.HELPURLesp_011)
+	}
+ };
+ 
+Blockly.Blocks['text_char32']={init:function(){
+    this.appendDummyInput()
+        .appendField(Blockly.Msg.text_char32);
+    this.appendValueInput("block")
+        .setCheck("");
+    this.setInputsInline(true);
+    this.setPreviousStatement(true);
+    this.setNextStatement(true);
+    this.setColour("#A5995B");
+  //  this.setTooltip('help Vitaliy...');
+   // this.setHelpUrl('http://ardublock.ru/wiki')
+   }
+};
+
+Blockly.Blocks['ardublock_block532']={init:function(){
+    this.appendDummyInput()
+       // .appendField(new Blockly.FieldImage("media/icon_block/001.png", 15, 15, null))
+        .appendField(Blockly.Msg.nano1_control_31)
+        .appendField(new Blockly.FieldDropdown([["100", "100"], ["300", "300"], ["500", "500"], ["700", "700"],["1000", "1000"], ["1500", "1500"], ["3000", "3000"], ["5000", "5000"]]), "delay")
+        .appendField(Blockly.Msg.nano1_control_32);
+    this.setInputsInline(true);
+    this.setPreviousStatement(true);
+    this.setNextStatement(true);
+    this.setColour("#A5995B");
+    //this.setTooltip('help Vitaliy...');
+    // this.setHelpUrl(Blockly.Msg.HELPURLesp_007)
+	}
+};
+Blockly.Blocks['lcdi2c_setup32'] = {
+   init: function() {
+   this.setColour("#4B886A");
+    this.appendDummyInput()
+        .appendField(Blockly.Msg.LCD_I2C_setup);
+    this.appendDummyInput()
+	.appendField(new Blockly.FieldDropdown([['0x3F', '0x3F'],['0x27', '0x27'],['0x3D', '0x3D'],['0x3B', '0x3B'],['0x3E', '0x3E']]), "NAME") 
+    .appendField(Blockly.Msg.LCD_setup_COLUMNS) 
+ 	.appendField(new Blockly.FieldDropdown([['16', '16'],['20', '20'],['8', '8']]), "COLUMNS") 
+    .appendField(Blockly.Msg.LCD_setup_ROWS) 
+ 	.appendField(new Blockly.FieldDropdown([['2', '2'],['4', '4'],['1', '1']]), "ROWS");
+    this.setInputsInline(true);
+    this.setPreviousStatement(true, null);
+    this.setNextStatement(true, null);
+  //  this.setTooltip('');
+    
+  }
+};
+
+ Blockly.Blocks["lcdi2c_setcursor32"] = {
+   init: function() {
+    this.setColour("#4B886A");
+   this.appendDummyInput()
+        .appendField(Blockly.Msg.LCD_lcdi2c_print) 
+        .appendField(Blockly.Msg.LCD_setup_COLUMNS)
+        .appendField(new Blockly.FieldDropdown([['1', '0'],['2', '1'],['3', '2'],['4', '3'],['5', '4'],['6', '5'],['7', '6'],['8', '7'],['9', '8'],['10', '9'],['11', '10'],['12', '11'],['13', '12'],['14', '13'],['15', '14'],['16', '15']]), "column") 
+        .appendField(Blockly.Msg.LCD_setup_ROWS)
+        .appendField(new Blockly.FieldDropdown([['1', '0'],['2', '1'],['3', '2'],['4', '3']]), "row"); 
+     this.appendValueInput("texttoprint")
+        .setCheck('')  
+    .appendField(Blockly.Msg.mLCDP_Print);
+    this.setInputsInline(true);
+    this.setPreviousStatement(true, null);
+    this.setNextStatement(true, null);
+    //this.setTooltip('');
+ // this.setHelpUrl(Blockly.Msg.HELPURL_084);
+  }
+};
+
+
+ Blockly.Blocks["lcdi2c_setcursor_draw32"] = {
+  init: function() {
+this.setColour("#4B886A");
+this.appendDummyInput()
+.appendField(Blockly.Msg.LCD_lcdi2c_print_gr232);
+this.appendDummyInput()
+.appendField(new Blockly.FieldDropdown([['1', '1'],['2', '2'],['3', '3'],['4', '4'],['5', '5'],['6', '6'],['7', '7'],['8', '8'],['9', '9'],['10', '10'],['11', '11'],['12', '12'],['13', '13'],['14', '14'],['15', '15'],['16', '16'],['17', '17'],['18', '18'],['19', '19'],['20', '20']]), "TEXT") 
+.appendField(new Blockly.FieldDropdown([['1', '0'],['2', '1'],['3', '2'],['4', '3'],['5', '4'],['6', '5'],['7', '6'],['8', '7'],['9', '8'],['10', '9'],['11', '10'],['12', '11'],['13', '12'],['14', '13'],['15', '14'],['16', '15']]), "print_x") 
+.appendField(new Blockly.FieldDropdown([['1', '0'],['2', '1'],['3', '2'],['4', '3']]), "print_y");
+		
+			this.appendDummyInput()
+		.appendField(' ')
+        .appendField(new Blockly.FieldCheckbox('TRUE'), 'Pix0e0')
+        .appendField(new Blockly.FieldCheckbox('FALSE'), 'Pix0e1')
+        .appendField(new Blockly.FieldCheckbox('FALSE'), 'Pix0e2')
+        .appendField(new Blockly.FieldCheckbox('FALSE'), 'Pix0e3')
+        .appendField(new Blockly.FieldCheckbox('FALSE'), 'Pix0e4');
+		  this.appendDummyInput()
+		  .appendField(' ')
+        .appendField(new Blockly.FieldCheckbox('FALSE'), 'Pix1e0')
+        .appendField(new Blockly.FieldCheckbox('FALSE'), 'Pix1e1')
+        .appendField(new Blockly.FieldCheckbox('FALSE'), 'Pix1e2')
+        .appendField(new Blockly.FieldCheckbox('FALSE'), 'Pix1e3')
+        .appendField(new Blockly.FieldCheckbox('FALSE'), 'Pix1e4');
+		  this.appendDummyInput()
+		  .appendField(' ')
+        .appendField(new Blockly.FieldCheckbox('FALSE'), 'Pix2e0')
+        .appendField(new Blockly.FieldCheckbox('FALSE'), 'Pix2e1')
+        .appendField(new Blockly.FieldCheckbox('FALSE'), 'Pix2e2')
+        .appendField(new Blockly.FieldCheckbox('FALSE'), 'Pix2e3')
+        .appendField(new Blockly.FieldCheckbox('FALSE'), 'Pix2e4');
+		  this.appendDummyInput()
+		  .appendField(' ')
+        .appendField(new Blockly.FieldCheckbox('FALSE'), 'Pix3e0')
+        .appendField(new Blockly.FieldCheckbox('FALSE'), 'Pix3e1')
+        .appendField(new Blockly.FieldCheckbox('FALSE'), 'Pix3e2')
+        .appendField(new Blockly.FieldCheckbox('FALSE'), 'Pix3e3')
+        .appendField(new Blockly.FieldCheckbox('FALSE'), 'Pix3e4');
+		  this.appendDummyInput()
+		  .appendField(' ')
+        .appendField(new Blockly.FieldCheckbox('FALSE'), 'Pix4e0')
+        .appendField(new Blockly.FieldCheckbox('FALSE'), 'Pix4e1')
+        .appendField(new Blockly.FieldCheckbox('FALSE'), 'Pix4e2')
+        .appendField(new Blockly.FieldCheckbox('FALSE'), 'Pix4e3')
+        .appendField(new Blockly.FieldCheckbox('FALSE'), 'Pix4e4');
+		  this.appendDummyInput()
+		  .appendField(' ')
+        .appendField(new Blockly.FieldCheckbox('FALSE'), 'Pix5e0')
+        .appendField(new Blockly.FieldCheckbox('FALSE'), 'Pix5e1')
+        .appendField(new Blockly.FieldCheckbox('FALSE'), 'Pix5e2')
+        .appendField(new Blockly.FieldCheckbox('FALSE'), 'Pix5e3')
+        .appendField(new Blockly.FieldCheckbox('FALSE'), 'Pix5e4');
+		  this.appendDummyInput()
+		  .appendField(' ')
+        .appendField(new Blockly.FieldCheckbox('FALSE'), 'Pix6e0')
+        .appendField(new Blockly.FieldCheckbox('FALSE'), 'Pix6e1')
+        .appendField(new Blockly.FieldCheckbox('FALSE'), 'Pix6e2')
+        .appendField(new Blockly.FieldCheckbox('FALSE'), 'Pix6e3')
+        .appendField(new Blockly.FieldCheckbox('FALSE'), 'Pix6e4');
+		  this.appendDummyInput()
+		  .appendField(' ')
+        .appendField(new Blockly.FieldCheckbox('FALSE'), 'Pix7e0')
+        .appendField(new Blockly.FieldCheckbox('FALSE'), 'Pix7e1')
+        .appendField(new Blockly.FieldCheckbox('FALSE'), 'Pix7e2')
+        .appendField(new Blockly.FieldCheckbox('FALSE'), 'Pix7e3')
+        .appendField(new Blockly.FieldCheckbox('FALSE'), 'Pix7e4');
+ 
+    this.setInputsInline(false);
+    this.setPreviousStatement(true);
+    this.setNextStatement(true);
+    //this.setTooltip('');
+  //this.setHelpUrl(Blockly.Msg.HELPURL_084);
+  }
+};
+
+Blockly.Blocks["inout_analog_write32w"]={init:function(){
+    var card=window.localStorage.card;
+        this.setColour("#B39E2C");
+       // this.setHelpUrl(Blockly.Msg.HELPURL_033);
+    this.appendDummyInput()
+	 .appendField(Blockly.Msg.ARDUINO_INOUT_motoresp)
+	 .appendField(new Blockly.FieldDropdown([['J1', '1'],['J2', '2'],['J3', '3'],['J4', '4'],['J5', '5'],['J6', '6'],['J7', '7'],['J8', '8']]), "PIN") ;
+
+        this.appendValueInput("STAT", "Boolean").setAlign(Blockly.ALIGN_RIGHT).appendField(Blockly.Msg._AT);
+        this.setInputsInline(true);
+        this.setPreviousStatement(true, null);
+        this.setNextStatement(true, null);
+        //this.setTooltip(Blockly.Msg.ARDUINO_INOUThelpb)
+		}
+};
+
+Blockly.Blocks["inout_analog_read_esp32"]={init:function(){
+   // var card=window.localStorage.card;
+   // var prog = window.localStorage.prog;
+        this.setColour("#2CB396");
+       // this.setHelpUrl(Blockly.Msg.HELPURL_031);
+    this.appendDummyInput()
+	 .appendField(Blockly.Msg.potenwiometre)
+	 .appendField(new Blockly.FieldDropdown([['J1', '25'],['J2', '32'],['J3', '12'],['J4', '14'],['J5', '18'],['J6', '19'],['J7', '16'],['J8', '4']]), "PIN") ;
+	  this.setInputsInline(true);
+     //   this.setPreviousStatement(true, null);
+     //   this.setNextStatement(true, null);
+    this.setOutput(true, "Number");
+        //this.setTooltip(Blockly.Msg.ARDUINO_INOUT_ANALOG_READ_TOOLTIP)
+    }
+};
+ 
+ Blockly.Blocks["math_random_int_map32"]={init:function(){
+    this.appendDummyInput()
+        .appendField(Blockly.Msg.espMap1);
+    this.appendValueInput("block")
+        .setCheck("");
+    this.appendDummyInput()
+        .appendField(Blockly.Msg.espMap2)
+        .appendField(new Blockly.FieldDropdown([["0", "0"], ["1023", "1023"], ["4096", "4096"]]), "pi1")
+        .appendField(Blockly.Msg.espMap3)
+        .appendField(new Blockly.FieldDropdown([["4096", "4096"], ["1023", "1023"], ["0", "0"]]), "pi2")
+        .appendField(Blockly.Msg.espMap4)
+        .appendField(new Blockly.FieldDropdown([["0", "0"], ["90", "90"], ["180", "180"], ["255", "255"]]), "pi3")
+        .appendField(Blockly.Msg.espMap5)
+        .appendField(new Blockly.FieldDropdown([["255", "255"], ["180", "180"], ["90", "90"], ["0", "0"]]), "pi4");
+    this.setInputsInline(true);
+    this.setOutput(true);
+    this.setColour("#5B80A5");
+    //this.setTooltip('help Vitaliy...');
+    //this.setHelpUrl('http://ardublock.ru/wiki')
+    }
+};
+
+Blockly.Blocks["inout_analog_write32wLed"]={init:function(){
+    var card=window.localStorage.card;
+        this.setColour("#50A0CC");
+       // this.setHelpUrl(Blockly.Msg.HELPURL_033);
+    this.appendDummyInput()
+	 .appendField(Blockly.Msg.ARDUINO_INOUT_ledpwmesp32)
+	 .appendField(new Blockly.FieldDropdown([['Board 1', '9'],['Board 2', '10'],['J1', '1'],['J2', '2'],['J3', '3'],['J4', '4'],['J5', '5'],['J6', '6'],['J7', '7'],['J8', '8']]), "PIN") ;
+
+        this.appendValueInput("STAT", "Boolean").setAlign(Blockly.ALIGN_RIGHT).appendField(Blockly.Msg._AT);
+        this.setInputsInline(true);
+        this.setPreviousStatement(true, null);
+        this.setNextStatement(true, null);
+        //this.setTooltip(Blockly.Msg.ARDUINO_INOUThelpb)
+		}
+};
