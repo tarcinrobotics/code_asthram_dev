@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <!-- Font Awesome CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="png" href="../public/media/favicon.png" type="image/x-icon">
+    <script type="text/javascript" src="/public/js/developer.js"></script>
+    <script type="text/javascript" src="/public/js/rightclick.js"></script>
+    <script type="text/javascript" src="/public/js/shortcut.js"></script>
+    <title>Signup</title>
+</head>
+<body>
+    <div class="form-container">
+        <img src="code_asthram.png" alt="caption" class="img5">
+        <form action="/signup" method="post">
+            <!-- For username -->
+                    <div class="input-container">
+                        <label for="username"><i class="fas fa-user"></i></label>
+                        <input type="text" id="username" name="username" placeholder="Create Username" required autocomplete="off">
+                    </div>
+
+                    <!-- For password -->
+                    <div class="input-container">
+                        <label for="password"><i class="fas fa-lock"></i></label>
+                        <input type="password" id="password" name="password" placeholder="Create password" required>
+                        <!-- Eye icon -->
+                        <i class="fas fa-eye" id="togglePassword"></i>
+                    </div>
+            <button type="submit"  class="submit-btn">Signup</button>
+        </form>
+        <p>Already have an account! <a href="/">Login</a></p>
+    </div>
+
+      <!-- JavaScript for password visibility toggle -->
+      <script>
+        document.getElementById('togglePassword').addEventListener('click', function() {
+            var passwordInput = document.getElementById('password');
+            var type = passwordInput.getAttribute('type') === 'password' ? 'text' : 'password';
+            passwordInput.setAttribute('type', type);
+        });
+    </script>
+</body>
+</html>

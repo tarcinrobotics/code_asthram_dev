@@ -1,0 +1,195 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: flex-start; /* Align content to the left */
+  align-items: center;
+  height: 100vh;
+  background-image: url(./media/backgroundtexture.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.form-container {
+  top: 20%;
+  background-color: rgba(209, 205, 205, 0.1); /* Semi-transparent white background */
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.9); /* Stronger shadow */
+  border: 1px solid #212020; /* Border */
+  padding: 20px;
+  width: 340px;
+  height: 500px;
+  margin: 0; /* Remove default margin */
+  margin-left: 127px; /* Adjust to move the form container to the left */
+  text-align: left; /* Align text to the left */
+}
+
+h2 {
+  margin-bottom: 20px; /* Add space below the h2 */
+  color: #333; /* Dark text color */
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  font-size: 14px;
+  margin-bottom: 5px;
+  color: #555; /* Medium gray text color */
+}
+
+input {
+  width: calc(100% - 5px); /* Adjust for padding and border */
+  padding: 20px 0; /* Adjust vertical padding to center the content vertically */
+  margin-bottom: 1px; /* Add space between each input field */
+  border: none; /* Remove border */
+  border-bottom: 1px solid #000000; /* Add bottom border */
+  background-color: transparent; /* Make background transparent */
+  font-size: 14px;
+  transition: border-color 0.3s ease; /* Smooth transition for border color change */
+  outline: none; /* Remove default focus outline */
+}
+
+
+input:focus {
+  border-bottom-color: #dddddd; /* Change bottom border color on focus */
+}
+
+button {
+  background-color: #c0c0c0;
+  color: #050505;
+  padding: 10px 100px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: bold;
+  transition: background-color 0.3s ease; /* Smooth transition for background color change */
+}
+
+button:hover {
+  background-color:  #4d4d4d;
+  color: #dddddd;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: bolder;
+}
+
+a:hover {
+  text-decoration: underline;
+  color:#756de4;
+}
+
+
+/*
+.image-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  position: absolute;
+  top: 20px; 
+  right: 10px;
+}
+
+/*.img1 {
+  padding-right: 35%;
+  width: 15%;
+  margin-bottom: 0px;
+}
+
+.img2,
+.img3
+ {
+  width: 30%;
+  padding-right: 35%;
+  margin: 0;
+}
+
+.image{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  position: absolute;
+  bottom: 20px; 
+  right: 10px; 
+}
+
+.img4{
+  width: 30%;
+  padding-right: 35%;
+  margin: 0;
+  bottom: 30%;
+}*/
+
+.img5{
+  width: 50%;
+  
+  margin-top: 20%;
+} 
+/* Icon styles */
+label i {
+  margin-right: 1px; /* Adjust spacing between icon and input field */
+
+}
+
+/* Adjust input field width to accommodate icon */
+input {
+  width: calc(100% - 40px); /* Adjust for icon width and padding */
+  padding-left: 30px; /* Add padding to the left to create space for the icon */
+}
+.input-container {
+    position: relative;
+    margin-bottom: 20px; /* Adjust spacing between input fields */
+}
+
+.input-container label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+.input-container input {
+  width: calc(100% - 40px); /* Adjust input width */
+  padding: 10px 30px; /* Adjust input padding */
+  margin-bottom: 10px;
+  border: none;
+  border-bottom: 1px solid #000000;
+  background-color: transparent;
+  font-size: 14px;
+  transition: border-color 0.3s ease;
+  outline: none;
+}
+
+.input-container input:focus {
+    border-bottom-color: #dddddd;
+}
+
+.input-container i {
+    position: absolute;
+    top: 50%;
+    color: black;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.input-container i.fa-user {
+  left: 5px; /* Adjust left position */
+  transform: translateY(-50%);
+}
+
+.input-container i.fa-lock {
+  left: 5px; /* Adjust left position */
+  transform: translateY(-50%);
+}
+
+.input-container i.fa-eye {
+    right: 10px; /* Align to the right */
+    transform: translateY(-50%);
+}
