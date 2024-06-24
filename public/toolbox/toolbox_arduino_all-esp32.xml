@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <toolbox>
  
-   <parametre id="defaultCategories1">CAT_LOGIC,CYCLESAR,CAT_MATH,CAT_TEXT,CAT_ARDUINO_TIME,CAT_ARDUINO,CAT_VARIABLESN,CAT_TAB,CAT_FUNCTIONS,CAT_ARDUINO_IN,CAT_ARDUINO_COMM_SERIAL,ESPWEB,CAT_BITEPROM,CAT_MOTORI,CAT_SENSOROUTP,CAT_LCDI2C,CAT_OLED_U8G,UART_Display,DWIN_BOX,CAT_WS2812B,CAT_INDIKATORI,CAT_SENSORRECORD,bt_key</parametre>
+   <parametre id="defaultCategories1">CAT_LOGIC,CYCLESAR,CAT_MATH,CAT_TEXT,CAT_ARDUINO_TIME,CAT_ARDUINO,CAT_VARIABLESN,CAT_TAB,CAT_FUNCTIONS,CAT_ARDUINO_IN,CAT_ARDUINO_COMM_SERIAL,ESPWEB,Blynk,CAT_BITEPROM,CAT_MOTORI,CAT_SENSOROUTP,CAT_LCDI2C,CAT_OLED_U8G,UART_Display,DWIN_BOX,CAT_WS2812B,CAT_INDIKATORI,CAT_SENSORRECORD,bt_key</parametre>
 
  
 	 <category name="bt_key" colour="#697888">
@@ -980,6 +980,17 @@
 	
   </category>  
   
+    <category name="Blynk" colour="210">
+  <block type="blynk_begin"></block>
+  <block type="blynk_run"></block>
+  <block type="blynk_virtual_write"></block>
+  
+    <block type="blynk_param_as_str"></block>
+      <block type="blynk_param_as_int"></block>
+        <block type="blynk_virtual_pin_function"></block>
+</category>
+
+
  
   
  

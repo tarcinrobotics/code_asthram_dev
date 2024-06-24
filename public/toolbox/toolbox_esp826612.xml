@@ -330,7 +330,7 @@
   <block type="lcd_128x128px_spi_text">
   <value name="X_Nokia"><shadow type="math_number"><field name="NUM">0</field></shadow></value>
    <value name="Y_Nokia"><shadow type="math_number"><field name="NUM">0</field></shadow></value>
-   <value name="texttoprint"><shadow type="text"> <field name="TEXT">TarBlock</field> </shadow></value>
+   <value name="texttoprint"><shadow type="text"> <field name="TEXT">CodeAsthram</field> </shadow></value>
  </block> 
  
 <block type="lcd_128x128px_spi_pix">
@@ -373,7 +373,7 @@
    <block type="lcd_tah_spi_text">
   <value name="X_Nokia"><shadow type="math_number"><field name="NUM">0</field></shadow></value>
    <value name="Y_Nokia"><shadow type="math_number"><field name="NUM">0</field></shadow></value>
-   <value name="texttoprint"><shadow type="text"> <field name="TEXT">TarBlock</field> </shadow></value>
+   <value name="texttoprint"><shadow type="text"> <field name="TEXT">CodeAsthram</field> </shadow></value>
  </block> 
     <block type="lcd_tah_spi_int">
   <value name="X_Nokia"><shadow type="math_number"><field name="NUM">0</field></shadow></value>
@@ -655,8 +655,8 @@
     </category>
 
   <category name="CAT_TEXT" colour="#5BA58C">
-    <block type="text"> <field name="TEXT">TarBlock</field>   </block>
-    <block type="text_char"> <field name="TEXT">TarBlock</field>   </block>
+    <block type="text"> <field name="TEXT">CodeAsthram</field>   </block>
+    <block type="text_char"> <field name="TEXT">CodeAsthram</field>   </block>
     <block type="text_join"></block>
 	  <block type="math_single_int_text"><value name="PIN"><shadow type="math_number"><field name="NUM">R</field></shadow></value></block>
       <block type="text_length"></block>
@@ -706,9 +706,9 @@
   <category name="CAT_ARDUINO_COMM_SERIAL" colour="#5BA599">
       <block type="serial_init8866"> <field name="SPEED">9600</field> </block>  
       <!--<block type="serial_write">
-      <value name="CONTENT">  <shadow type="text">  <field name="TEXT">TarBlock</field>  </shadow></value>
+      <value name="CONTENT">  <shadow type="text">  <field name="TEXT">CodeAsthram</field>  </shadow></value>
       </block>-->  
-      <block type="serial_write_ln">  <value name="CONTENT">  <shadow type="text">  <field name="TEXT">TarBlock</field>  </shadow></value>  </block>
+      <block type="serial_write_ln">  <value name="CONTENT">  <shadow type="text">  <field name="TEXT">CodeAsthram</field>  </shadow></value>  </block>
       <!--<block type="serial_input"></block>  -->
        <block type="serial_read2"></block>
       <block type="serial_available2"></block> 
@@ -774,7 +774,7 @@
     -->
     
      <block type="sd_init"><value name="PIN_CS">   <shadow type="math_number">   <field name="NUM">10</field>  </shadow>  </value>  </block> 
-     <block type="sd_printfile"><value name="filename"> <shadow type="text"><field name="TEXT">NAME.TXT</field></shadow> </value>  <value name="texttoprint">  <shadow type="text"> <field name="TEXT">TarBlock</field> </shadow>  </value> </block> 
+     <block type="sd_printfile"><value name="filename"> <shadow type="text"><field name="TEXT">NAME.TXT</field></shadow> </value>  <value name="texttoprint">  <shadow type="text"> <field name="TEXT">CodeAsthram</field> </shadow>  </value> </block> 
 	 <block type="sd_printfile1"><value name="filename"> <shadow type="text"><field name="TEXT">NAME.TXT</field></shadow> </value>    </block> 
 	 
 	 <block type="sd_printfile2"><value name="filename"> <shadow type="text"><field name="TEXT">NAME.TXT</field></shadow> </value>    </block> 
@@ -959,7 +959,7 @@
        </block>
    <block type="Init_MAX7219_ledmatrix4x_text">
   <value name="Y_Nokia"><shadow type="math_number"><field name="NUM">30</field></shadow></value>
-   <value name="texttoprint"><shadow type="text"> <field name="TEXT">TarBlock</field> </shadow></value>
+   <value name="texttoprint"><shadow type="text"> <field name="TEXT">CodeAsthram</field> </shadow></value>
  </block>  
  
  
@@ -979,7 +979,7 @@
     <block type="lcdm_setcursor">
       <value name="column"> <shadow type="math_number"> <field name="NUM">0</field>  </shadow> </value>
       <value name="row"> <shadow type="math_number"> <field name="NUM">0</field> </shadow>  </value>
-      <value name="texttoprint"><shadow type="text"> <field name="TEXT">TarBlock</field> </shadow></value>  
+      <value name="texttoprint"><shadow type="text"> <field name="TEXT">CodeAsthram</field> </shadow></value>  
         </block>
 	<block type="lcd_setcursor_draw_pl">
 	  <value name="print_x"> <shadow type="math_number"> <field name="NUM">0</field>  </shadow> </value>
@@ -993,7 +993,7 @@
     <block type="lcdi2c_setcursor">
       <value name="column"> <shadow type="math_number"> <field name="NUM">0</field>  </shadow> </value>
       <value name="row"> <shadow type="math_number"> <field name="NUM">0</field> </shadow>  </value>
-      <value name="texttoprint"><shadow type="text"> <field name="TEXT">TarBlock</field> </shadow></value>  
+      <value name="texttoprint"><shadow type="text"> <field name="TEXT">CodeAsthram</field> </shadow></value>  
         </block>  
 	<block type="lcdi2c_setcursor_draw_pl">
 	  <value name="print_x"> <shadow type="math_number"> <field name="NUM">0</field>  </shadow> </value>
@@ -1014,7 +1014,7 @@
  <block type="lcd_con_nokia_text">
   <value name="X_Nokia"><shadow type="math_number"><field name="NUM">0</field></shadow></value>
    <value name="Y_Nokia"><shadow type="math_number"><field name="NUM">0</field></shadow></value>
-   <value name="texttoprint"><shadow type="text"> <field name="TEXT">TarBlock</field> </shadow></value>
+   <value name="texttoprint"><shadow type="text"> <field name="TEXT">CodeAsthram</field> </shadow></value>
  </block> 
  
   <block type="lcd_con_nokia_number">
@@ -1050,7 +1050,7 @@
   <block type="lcd_128x64px_spi_text">
   <value name="X_Nokia"><shadow type="math_number"><field name="NUM">0</field></shadow></value>
    <value name="Y_Nokia"><shadow type="math_number"><field name="NUM">0</field></shadow></value>
-   <value name="texttoprint"><shadow type="text"> <field name="TEXT">TarBlock</field> </shadow></value>
+   <value name="texttoprint"><shadow type="text"> <field name="TEXT">CodeAsthram</field> </shadow></value>
  </block> 
    <block type="lcd_128x64px_spi_pix">
   <value name="X_Nokia"><shadow type="math_number"><field name="NUM">0</field></shadow></value>
@@ -1084,7 +1084,7 @@
     <block type="minilcdi2c_setcursor"> 
       <value name="print_x"> <shadow type="math_number"> <field name="NUM">0</field>  </shadow> </value>
       <value name="print_y"> <shadow type="math_number"> <field name="NUM">0</field> </shadow>  </value>
-      <value name="texttoprint"><shadow type="text"> <field name="TEXT">TarBlock</field> </shadow></value>  
+      <value name="texttoprint"><shadow type="text"> <field name="TEXT">CodeAsthram</field> </shadow></value>  
     </block>
     <block type="minilcdi2c_setcursorR"> 
       <value name="print_x"> <shadow type="math_number"> <field name="NUM">0</field>  </shadow> </value>
@@ -1115,7 +1115,7 @@
     <block type="lcd_128x128px_spi_tv"> </block>
 
   <block type="lcd_128x128px_spi_text_tv">
-  <value name="texttoprint"><shadow type="text"> <field name="TEXT">TarBlock</field> </shadow></value>
+  <value name="texttoprint"><shadow type="text"> <field name="TEXT">CodeAsthram</field> </shadow></value>
   <value name="X_Nokia"><shadow type="math_number"><field name="NUM">0</field></shadow></value>
    <value name="Y_Nokia"><shadow type="math_number"><field name="NUM">0</field></shadow></value> 
  </block> 
@@ -1141,7 +1141,7 @@
  
  <block type="lcd_128x128px_spi_tv_vga"> </block>
    <block type="lcd_128x128px_spi_text_tv_vga">
-  <value name="texttoprint"><shadow type="text"> <field name="TEXT">TarBlock</field> </shadow></value>
+  <value name="texttoprint"><shadow type="text"> <field name="TEXT">CodeAsthram</field> </shadow></value>
   <value name="X_Nokia"><shadow type="math_number"><field name="NUM">0</field></shadow></value>
    <value name="Y_Nokia"><shadow type="math_number"><field name="NUM">0</field></shadow></value> 
  </block>

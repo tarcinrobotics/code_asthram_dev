@@ -65,13 +65,13 @@ body {
 }
 #toptitle {
   -webkit-app-region: drag;
-//	height: 30px;
-//	text-align: center;
-//	line-height: 20px;
-//	vertical-align: middle;
-//	background-color: #2d2d64;
-//	padding: none;
-//	margin: 0px
+	height: 30px;
+	text-align: center;
+	line-height: 20px;
+	vertical-align: middle;
+	background-color: #2d2d64;
+	padding: none;
+	margin: 0px
 }
 #title {
 	position: fixed;

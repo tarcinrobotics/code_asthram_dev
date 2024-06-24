@@ -6,11 +6,11 @@ document.addEventListener('keydown', function (e) {
 });
 
 // Disable Ctrl key combinations for keyboard shortcuts
-document.addEventListener('keydown', function (e) {
-    if (e.ctrlKey) {
-        e.preventDefault(); // Prevent the default behavior
-    }
-});
+// document.addEventListener('keydown', function (e) {
+//     if (e.ctrlKey) {
+//         e.preventDefault(); // Prevent the default behavior
+//     }
+// });
 
 // Disable function key shortcuts (F1 to F12)
 document.addEventListener('keydown', function (e) {

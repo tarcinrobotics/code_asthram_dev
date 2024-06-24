@@ -1,1 +1,850 @@
-'use strict';function _0x18c7(){var _0x2c6f17=['Export\x20as\x20Binary\x20.hex','4220urtqlQ','selectedCard','createVariable','15523jyUXSN','VAR','toolbox_arduino_all','url','endsWith','cloneNode','GET','saveino','.txt','css','getMainWorkspace','variables_set_init','./examples/examples.json','render','#includedContent','childNodes','location','#configModal','toolbox_esp826612','#btn_factory','body','#boards','Check\x20the\x20code','toolbox_lycee','toggle','src','#btn_redo','save_com','savepy','#defaultCategories2','target','getElementById','image/png','#btn_new','</svg>','#btn_level2','esp826601','profile','height','toDataURL','capture','redo','removeChild','data:py/ino;charset=utf-8,','getItem','#btn_preview','addReplaceParamToUrl','textToDom','CONTENT','button','html','undefined','<tr><td>','<block\x20type=\x22base_setup_loop\x22\x20x=\x22-4\x22\x20y=\x2248\x22></block>','Redo','session','changelanguage','#warning','push','#defaultCategories3','show.bs.modal','focus','ajax','innerHTML','checkAll','setMode','esp826612','<a\x20href=\x27?url=./examples/','workspace_capture','blur','content_blocks','getValue','#portserie','level','change_card','#btn_level1','checkbox_','renderArduinoCodePreview','confirm','\x22\x20id=\x22checkbox_','#btn_bin','btn_save_ino','serializeToString','inject','outerHTML','data-modal-parent','svgBlockCanvas_','updateToolbox','#btn_undo','#btn_saveino','nano','registerButtonCallback','([?&])','#pinout','val','toolboxids','loadOnceBlocks','cortexM0','Python','a[href=\x22#content_blocks\x22]','initLanguage','\x22\x20height=\x22','1257KThCVl','search','3530TUbCmH','Xml','undo','opacity','createElementNS','clear','now','checked','cardPicture_change','onloadend','nanooptiboot','slide','empty','insertBefore','setValue','ace/mode/c_cpp','#languageMenu','download','survol','1928PZJoLh','show','</a>','#btn_level3','none','#codeORblock','arduino','getBBox','getStringParamFromUrl','width','join','toolbox_leo32u4','length','.py','./toolbox/','name','loadConfig','Blocks','get','media/','</xml>','done','remove','_blank','find','category','factory.html','lang','variableList','<input\x20type=\x22checkbox\x22\x20name=\x22checkbox_','arduino_card','a[href=\x22#content_code\x22]','split','changeToolboxDefinition','data:image/svg+xml;base64,','localStorage','json','=([^&]+)','170034FsNNrt','description','tab','domToWorkspace','\x22\x20viewBox=\x22','1801692IYOAjZ','CREATE_VARIABLE','toolbox','each','removeClass','hidden.bs.modal','#btn_valid_config','prog','loadToolboxDefinition','math_change','textContent','btn_preview_ino','.modal-child','.xml','#select_all','.ino','files','147axIMWW','setOptions','<xml\x20xmlns=\x22http://www.w3.org/1999/xhtml\x22>','5fQWFkN','toolbox_arduino_all-esp32','buildToolbox','#btn_example','content','result','addChangeListener','readAsText','ace/mode/python','string','display','firstChild','sort','variables_const','getAllBlocks','data:text/bloc;charset=utf-8,','http://www.w3.org/2000/svg','cpu','openConfigToolbox','NEW_VARIABLE','mouseover','xmlError','#toolboxes','hidden','domToPrettyText','Arduino','data:text/ino;charset=utf-8,','setAttribute','append','bootstrapToggle','xml','ceil','mainWorkspace','bindFunctions','5970528fpqUwh','indexOf','dom','13GWIByD','#arduino_card_mini_picture','match','caseInsensitiveCompare','workspace','visible','Variables','%20','esp32','style','=.*?(&|$)','31491zDAlIt','python','infoboard','Msg','#btn_print','#pre_previewArduino','off','block','load','hide','<xml\x20id=\x22toolbox\x22>','trigger','Upload\x20to\x20robot\x20board','domToText','backupBlocks','createTextNode','appendChild','workspaceToCode','#toolbox','ino','field','text','createElement','modal','#btn_flash','loadFile','#modal-body-config\x20input:checkbox[id^=checkbox_]','readyState','\x22/>\x20','leo32u4','btn_preview_py','createDom','reload','atmega328p-x','addClass','#defaultCategories1','href','card','drawImage','removeAttribute','2277BcUndX','variables_set','type','attr','change','loadBlocks','click','saveXmlFile','#modal-body-config','Undo','title','picture','#btn_search','selectedToolbox','buildExamples','getTargetWorkspace','open','getContext','gap','base_define_const','variables_get'];_0x18c7=function(){return _0x2c6f17;};return _0x18c7();}var _0x5f05b9=_0x24bf;(function(_0x57ccd1,_0x3261e4){var _0x30bb02=_0x24bf,_0x30f687=_0x57ccd1();while(!![]){try{var _0x1ca581=parseInt(_0x30bb02(0x103))/0x1+parseInt(_0x30bb02(0x16b))/0x2*(parseInt(_0x30bb02(0x169))/0x3)+parseInt(_0x30bb02(0x1a9))/0x4*(-parseInt(_0x30bb02(0x92))/0x5)+parseInt(_0x30bb02(0x1a4))/0x6*(parseInt(_0x30bb02(0x8f))/0x7)+parseInt(_0x30bb02(0x17e))/0x8*(-parseInt(_0x30bb02(0xc2))/0x9)+parseInt(_0x30bb02(0x100))/0xa*(-parseInt(_0x30bb02(0xea))/0xb)+parseInt(_0x30bb02(0xb4))/0xc*(parseInt(_0x30bb02(0xb7))/0xd);if(_0x1ca581===_0x3261e4)break;else _0x30f687['push'](_0x30f687['shift']());}catch(_0x57588e){_0x30f687['push'](_0x30f687['shift']());}}}(_0x18c7,0x71efd));function _0x24bf(_0x111027,_0x3e33da){var _0x18c717=_0x18c7();return _0x24bf=function(_0x24bf18,_0x14cdcf){_0x24bf18=_0x24bf18-0x86;var _0x22f0e1=_0x18c717[_0x24bf18];return _0x22f0e1;},_0x24bf(_0x111027,_0x3e33da);}var BlocklyDuino={};BlocklyDuino[_0x5f05b9(0xf7)]=_0x5f05b9(0x105),BlocklyDuino[_0x5f05b9(0x101)]='nano',BlocklyDuino['content']='on',BlocklyDuino[_0x5f05b9(0xbb)]=null,BlocklyDuino['init']=function(){var _0x238232=_0x5f05b9;Code[_0x238232(0x167)](),BlocklyDuino[_0x238232(0x18e)](),BlocklyDuino[_0x238232(0xbb)]=Blockly[_0x238232(0x156)](_0x238232(0x149),{'grid':{'snap':!![]},'sounds':!![],'media':_0x238232(0x191),'toolbox':BlocklyDuino['buildToolbox'](),'zoom':{'controls':!![],'wheel':!![]}}),BlocklyDuino[_0x238232(0xb3)](),BlocklyDuino['workspace']['render'](),BlocklyDuino['workspace'][_0x238232(0x98)](BlocklyDuino['renderArduinoCodePreview']),BlocklyDuino[_0x238232(0xdb)](),window['addEventListener']('unload',BlocklyDuino[_0x238232(0xd0)],![]);},BlocklyDuino[_0x5f05b9(0xdb)]=function(){var _0x18070d=_0x5f05b9,_0x2fbaef=BlocklyDuino['getStringParamFromUrl'](_0x18070d(0x106),'');_0x2fbaef['endsWith'](_0x18070d(0x18b))&&$[_0x18070d(0x190)](_0x2fbaef,function(_0x32e5f3){var _0x4960ef=_0x18070d;$(_0x4960ef(0x183))[_0x4960ef(0xaf)](_0x4960ef(0xc8)),$(_0x4960ef(0x19d))[_0x4960ef(0x1a6)](_0x4960ef(0x17f)),$(_0x4960ef(0xc6))[_0x4960ef(0xe4)]('hidden'),$(_0x4960ef(0x130))[_0x4960ef(0xe4)](_0x4960ef(0xa9)),$(_0x4960ef(0xf6))[_0x4960ef(0x1ad)]('hidden'),window[_0x4960ef(0x1a1)][_0x4960ef(0x96)]='off',editor['session'][_0x4960ef(0x144)](_0x4960ef(0x9a)),editor['setOptions']({'enableBasicAutocompletion':!![],'enableSnippets':!![],'enableLiveAutocompletion':!![]}),editor['setValue'](_0x32e5f3,0x1);},'text');_0x2fbaef[_0x18070d(0x107)](_0x18070d(0x8d))&&$[_0x18070d(0x190)](_0x2fbaef,function(_0x1e85cf){var _0x357252=_0x18070d;$(_0x357252(0x183))[_0x357252(0xaf)](_0x357252(0xc8)),$('a[href=\x22#content_code\x22]')[_0x357252(0x1a6)]('show'),$(_0x357252(0xc6))['addClass'](_0x357252(0xa9)),$(_0x357252(0x130))['addClass'](_0x357252(0xa9)),$('#btn_search')['removeClass'](_0x357252(0xa9)),window[_0x357252(0x1a1)][_0x357252(0x96)]='off',editor[_0x357252(0x13a)][_0x357252(0x144)]('ace/mode/c_cpp'),editor['setOptions']({'enableBasicAutocompletion':!![],'enableSnippets':!![],'enableLiveAutocompletion':!![]}),editor[_0x357252(0x179)](_0x1e85cf,0x1);},'text');var _0x28d9ec=null;try{_0x28d9ec=window[_0x18070d(0x1a1)][_0x18070d(0x163)];}catch(_0x27f5e6){}_0x2fbaef?$[_0x18070d(0x190)](_0x2fbaef,function(_0x1a27b0){var _0x18221b=_0x18070d;BlocklyDuino[_0x18221b(0xef)](_0x1a27b0);},_0x18070d(0xd7)):BlocklyDuino[_0x18070d(0xef)]();},BlocklyDuino[_0x5f05b9(0x11e)]=function(){var _0x133072=_0x5f05b9;$(_0x133072(0x14b))[_0x133072(0x148)]();var _0x1727cf=$('#portserie')[_0x133072(0x161)]();window[_0x133072(0x1a1)]['com']=_0x1727cf;},BlocklyDuino[_0x5f05b9(0x150)]=function(){var _0x3430b4=_0x5f05b9,_0x15edf5=window[_0x3430b4(0x1a1)][_0x3430b4(0x1b0)];_0x15edf5!=_0x3430b4(0xc3)?($('#pre_previewArduino')['text'](Blockly[_0x3430b4(0xab)]['workspaceToCode'](BlocklyDuino['workspace'])),$(_0x3430b4(0xc7))[_0x3430b4(0x135)](prettyPrintOne($(_0x3430b4(0xc7))[_0x3430b4(0x135)](),'cpp'))):($(_0x3430b4(0xc7))[_0x3430b4(0xd7)](Blockly[_0x3430b4(0x165)][_0x3430b4(0xd3)](BlocklyDuino[_0x3430b4(0xbb)])),$(_0x3430b4(0xc7))[_0x3430b4(0x135)](prettyPrintOne($('#pre_previewArduino')['html'](),'py')));},BlocklyDuino[_0x5f05b9(0x186)]=function(_0x4249f6,_0x49c85a){var _0x21056f=_0x5f05b9,_0x5f1ce4=location[_0x21056f(0x16a)][_0x21056f(0xb9)](new RegExp('[?&]'+_0x4249f6+_0x21056f(0x1a3)));return _0x5f1ce4?decodeURIComponent(_0x5f1ce4[0x1]['replace'](/\+/g,_0x21056f(0xbe))):_0x49c85a;},BlocklyDuino[_0x5f05b9(0x131)]=function(_0x27b33a,_0xcf4fc3,_0x5493e5){var _0x1dbcf2=_0x5f05b9,_0x5d37ef=new RegExp(_0x1dbcf2(0x15f)+_0xcf4fc3+_0x1dbcf2(0xc1),'i'),_0x49554c=_0x27b33a[_0x1dbcf2(0xb5)]('?')!==-0x1?'&':'?';return _0x27b33a[_0x1dbcf2(0xb9)](_0x5d37ef)?_0x27b33a['replace'](_0x5d37ef,'$1'+_0xcf4fc3+'='+_0x5493e5+'$2'):_0x27b33a+_0x49554c+_0xcf4fc3+'='+_0x5493e5;},BlocklyDuino[_0x5f05b9(0xef)]=function(_0x14f154){var _0x50ce3a=_0x5f05b9;if(_0x14f154){var _0x593877=Blockly[_0x50ce3a(0x16c)][_0x50ce3a(0x132)](_0x14f154);Blockly[_0x50ce3a(0x16c)]['domToWorkspace'](_0x593877,BlocklyDuino[_0x50ce3a(0xbb)]);}else{var _0xfb3c96=null;try{_0xfb3c96=window['localStorage'][_0x50ce3a(0x163)];}catch(_0x2c6020){}if(_0xfb3c96!=null){delete window['localStorage'][_0x50ce3a(0x163)];var _0x593877=Blockly['Xml'][_0x50ce3a(0x132)](_0xfb3c96);Blockly[_0x50ce3a(0x16c)][_0x50ce3a(0x1a7)](_0x593877,BlocklyDuino[_0x50ce3a(0xbb)]);}}},BlocklyDuino[_0x5f05b9(0xca)]=function(_0x2181bb){var _0x5e207b=_0x5f05b9,_0x1e4a62=_0x2181bb['target'][_0x5e207b(0x8e)];if(_0x1e4a62['length']!=0x1)return;var _0x494267=new FileReader();_0x494267[_0x5e207b(0x174)]=function(_0x13afa9){var _0x431ae9=_0x5e207b,_0x4f1a5e=_0x13afa9[_0x431ae9(0x121)];if(_0x4f1a5e[_0x431ae9(0xdd)]==0x2){_0x1e4a62[0x0][_0x431ae9(0x18d)]['endsWith'](_0x431ae9(0xd5))&&($(_0x431ae9(0x183))['bootstrapToggle']('off'),$(_0x431ae9(0x19d))[_0x431ae9(0x1a6)](_0x431ae9(0x17f)),$(_0x431ae9(0xc6))[_0x431ae9(0xe4)](_0x431ae9(0xa9)),$('#btn_preview')[_0x431ae9(0xe4)]('hidden'),$(_0x431ae9(0xf6))[_0x431ae9(0x1ad)]('hidden'),window[_0x431ae9(0x1a1)][_0x431ae9(0x96)]=_0x431ae9(0xc8),editor[_0x431ae9(0x13a)][_0x431ae9(0x144)](_0x431ae9(0x17a)),editor[_0x431ae9(0x90)]({'enableBasicAutocompletion':!![],'enableSnippets':!![],'enableLiveAutocompletion':!![]}),editor[_0x431ae9(0x179)](_0x4f1a5e[_0x431ae9(0x97)],0x1));_0x1e4a62[0x0]['name'][_0x431ae9(0x107)]('py')&&($(_0x431ae9(0x183))[_0x431ae9(0xaf)](_0x431ae9(0xc8)),$(_0x431ae9(0x19d))['tab']('show'),$(_0x431ae9(0xc6))[_0x431ae9(0xe4)](_0x431ae9(0xa9)),$(_0x431ae9(0x130))['addClass'](_0x431ae9(0xa9)),$('#btn_search')[_0x431ae9(0x1ad)](_0x431ae9(0xa9)),window[_0x431ae9(0x1a1)][_0x431ae9(0x96)]=_0x431ae9(0xc8),editor[_0x431ae9(0x13a)][_0x431ae9(0x144)](_0x431ae9(0x9a)),editor[_0x431ae9(0x90)]({'enableBasicAutocompletion':!![],'enableSnippets':!![],'enableLiveAutocompletion':!![]}),editor[_0x431ae9(0x179)](_0x4f1a5e[_0x431ae9(0x97)],0x1));try{var _0x3dcd9e=Blockly[_0x431ae9(0x16c)][_0x431ae9(0x132)](_0x4f1a5e[_0x431ae9(0x97)]);}catch(_0x5493df){alert(MSG[_0x431ae9(0xa7)]+'\x0a'+_0x5493df);return;}BlocklyDuino[_0x431ae9(0xbb)]['clear'](),Blockly[_0x431ae9(0x16c)][_0x431ae9(0x1a7)](_0x3dcd9e,BlocklyDuino[_0x431ae9(0xbb)]),BlocklyDuino[_0x431ae9(0xbb)][_0x431ae9(0x110)]();}},_0x494267[_0x5e207b(0x99)](_0x1e4a62[0x0]);},BlocklyDuino[_0x5f05b9(0xd0)]=function(){var _0x3cc803=_0x5f05b9;if(typeof Blockly!=_0x3cc803(0x136)&&window[_0x3cc803(0x1a1)]){var _0x1ac210=Blockly[_0x3cc803(0x16c)]['workspaceToDom'](BlocklyDuino[_0x3cc803(0xbb)]),_0x1686d1=Blockly['Xml'][_0x3cc803(0xcf)](_0x1ac210);window[_0x3cc803(0x1a1)][_0x3cc803(0x163)]=_0x1686d1;}},BlocklyDuino['loadConfig']=function(){var _0x178537=_0x5f05b9,_0x230d94=window[_0x178537(0x1a1)]['card'],_0x2ca33c=window[_0x178537(0x1a1)]['content'],_0x350e54=window[_0x178537(0x1a1)][_0x178537(0x1b0)];if(_0x230d94===undefined)window[_0x178537(0x1a1)]['card']=BlocklyDuino[_0x178537(0x101)],window[_0x178537(0x1a1)][_0x178537(0x1b0)]=profile[BlocklyDuino[_0x178537(0x101)]][_0x178537(0x1b0)],window[_0x178537(0x1a1)][_0x178537(0x1ab)]=BlocklyDuino[_0x178537(0xf7)],$(_0x178537(0x118))[_0x178537(0x161)](BlocklyDuino[_0x178537(0x101)]),$('#arduino_card_mini_picture')['attr']('src',profile[BlocklyDuino['selectedCard']][_0x178537(0xf5)]),BlocklyDuino[_0x178537(0x101)]==_0x178537(0x175)||BlocklyDuino[_0x178537(0x101)]==_0x178537(0x15d)?$(_0x178537(0x13c))['show']():$(_0x178537(0x13c))[_0x178537(0xcb)](),$('#toolboxes')[_0x178537(0x161)](BlocklyDuino[_0x178537(0xf7)]),BlocklyDuino[_0x178537(0x86)](BlocklyDuino[_0x178537(0xf7)]);else{var _0x3b5124=window[_0x178537(0x1a1)][_0x178537(0x1ab)];BlocklyDuino['selectedToolbox']=_0x3b5124,$(_0x178537(0x118))['val'](_0x230d94),$(_0x178537(0xb8))[_0x178537(0xed)](_0x178537(0x11c),profile[_0x230d94][_0x178537(0xf5)]),_0x230d94==_0x178537(0x175)||_0x230d94=='nano'?$(_0x178537(0x13c))[_0x178537(0x17f)]():$(_0x178537(0x13c))[_0x178537(0xcb)](),$(_0x178537(0xa8))[_0x178537(0x161)](_0x3b5124),BlocklyDuino[_0x178537(0x86)](_0x3b5124);}_0x2ca33c===undefined?(window['localStorage']['content']=BlocklyDuino[_0x178537(0x96)],$(_0x178537(0x183))[_0x178537(0xaf)](BlocklyDuino['content']),$(_0x178537(0xf6))[_0x178537(0xe4)](_0x178537(0xa9))):($(_0x178537(0x183))[_0x178537(0xaf)](_0x2ca33c),_0x2ca33c==_0x178537(0xc8)&&($(_0x178537(0x19d))[_0x178537(0x1a6)](_0x178537(0x17f)),$(_0x178537(0xf6))['removeClass'](_0x178537(0xa9))),$(_0x178537(0xf6))[_0x178537(0xe4)](_0x178537(0xa9))),_0x350e54==_0x178537(0xc3)&&$(_0x178537(0x153))['addClass'](_0x178537(0xa9));},BlocklyDuino[_0x5f05b9(0x14d)]=function(){var _0x3f6b10=_0x5f05b9;BlocklyDuino[_0x3f6b10(0xd0)]();var _0x4019c4=window[_0x3f6b10(0x1a1)][_0x3f6b10(0xe7)],_0x53d547=window[_0x3f6b10(0x1a1)][_0x3f6b10(0x1ab)];$(_0x3f6b10(0x118))[_0x3f6b10(0x148)]();var _0x341e70=$('#boards')[_0x3f6b10(0x161)](),_0x5a4e7d=window[_0x3f6b10(0x128)][_0x341e70][_0x3f6b10(0x1b0)];if(window['profile'][_0x341e70]['cpu']!=window[_0x3f6b10(0x128)][_0x4019c4][_0x3f6b10(0xa3)]){if(window['confirm'](MSG[_0x3f6b10(0x19c)]+window[_0x3f6b10(0x128)][_0x341e70][_0x3f6b10(0x1a5)]+'\x20?')){$('#arduino_card_mini_picture')[_0x3f6b10(0xed)](_0x3f6b10(0x11c),profile[_0x341e70][_0x3f6b10(0xf5)]);if(_0x5a4e7d!='python'){$('#btn_preview')[_0x3f6b10(0xed)](_0x3f6b10(0xf4),MSG[_0x3f6b10(0x89)]),$(_0x3f6b10(0x15c))['attr'](_0x3f6b10(0xf4),MSG[_0x3f6b10(0x154)]),$(_0x3f6b10(0x153))['removeClass'](_0x3f6b10(0xa9)),window[_0x3f6b10(0x1a1)][_0x3f6b10(0x1b0)]=_0x5a4e7d;var _0x259a0a='toolbox_arduino_all',_0x417cad;_0x417cad=_0x3f6b10(0x91),_0x417cad+=_0x3f6b10(0x138),_0x417cad+='</xml>';if(window['profile'][_0x341e70][_0x3f6b10(0xa3)]==_0x3f6b10(0x15d))_0x259a0a='toolbox_arduino_all';else{if(window['profile'][_0x341e70]['cpu']==_0x3f6b10(0xbf))_0x259a0a=_0x3f6b10(0x93);else{if(window['profile'][_0x341e70][_0x3f6b10(0xa3)]==_0x3f6b10(0xe3))_0x259a0a=_0x3f6b10(0x105);else{if(window[_0x3f6b10(0x128)][_0x341e70]['cpu']==_0x3f6b10(0x127))_0x259a0a='toolbox_esp826601';else{if(window['profile'][_0x341e70]['cpu']==_0x3f6b10(0x145))_0x259a0a=_0x3f6b10(0x115);else{if(window['profile'][_0x341e70][_0x3f6b10(0xa3)]==_0x3f6b10(0xdf))_0x259a0a=_0x3f6b10(0x189);}}}}}window[_0x3f6b10(0x1a1)][_0x3f6b10(0x1ab)]=_0x259a0a,BlocklyDuino[_0x3f6b10(0xbb)][_0x3f6b10(0x170)]();if(window[_0x3f6b10(0x128)][_0x341e70][_0x3f6b10(0xa3)]!=window['profile'][_0x4019c4][_0x3f6b10(0xa3)])BlocklyDuino['loadBlocks'](_0x417cad);else BlocklyDuino['loadBlocks']();BlocklyDuino[_0x3f6b10(0x86)](_0x259a0a),Blockly['getMainWorkspace']()[_0x3f6b10(0x15a)](BlocklyDuino[_0x3f6b10(0x94)]());if(window[_0x3f6b10(0x1a1)][_0x3f6b10(0x14c)]==0x1)$(_0x3f6b10(0x14e))[_0x3f6b10(0xcd)](_0x3f6b10(0xf0));else{if(window['localStorage'][_0x3f6b10(0x14c)]==0x2)$(_0x3f6b10(0x126))[_0x3f6b10(0xcd)](_0x3f6b10(0xf0));else $(_0x3f6b10(0x181))['trigger'](_0x3f6b10(0xf0));}BlocklyDuino[_0x3f6b10(0xbb)]['render']();}else{$(_0x3f6b10(0x130))[_0x3f6b10(0xed)](_0x3f6b10(0xf4),MSG[_0x3f6b10(0xe0)]),$('#btn_saveino')[_0x3f6b10(0xed)]('title',MSG['btn_save_py']),$(_0x3f6b10(0x153))['addClass']('hidden');if(window[_0x3f6b10(0x128)][_0x341e70][_0x3f6b10(0xa3)]==_0x3f6b10(0x164))var _0x259a0a='toolbox_microbit';else var _0x259a0a=_0x3f6b10(0x11a);window[_0x3f6b10(0x1a1)][_0x3f6b10(0x1b0)]=_0x5a4e7d,window[_0x3f6b10(0x1a1)][_0x3f6b10(0x1ab)]=_0x259a0a,BlocklyDuino['workspace']['clear'](),BlocklyDuino[_0x3f6b10(0x86)](_0x259a0a),Blockly[_0x3f6b10(0x10d)]()['updateToolbox'](BlocklyDuino[_0x3f6b10(0x94)]()),BlocklyDuino[_0x3f6b10(0xbb)][_0x3f6b10(0x110)]();}}else{$(_0x3f6b10(0x118))[_0x3f6b10(0x161)](_0x4019c4);return;}}window[_0x3f6b10(0x1a1)]['card']=_0x341e70;},BlocklyDuino['discard']=function(){var _0x3a6efe=_0x5f05b9,_0x3003ec=BlocklyDuino['workspace'][_0x3a6efe(0xa0)]()[_0x3a6efe(0x18a)];(_0x3003ec<0x4||window[_0x3a6efe(0x151)](MSG['discard']))&&(BlocklyDuino['workspace']['clear'](),BlocklyDuino[_0x3a6efe(0xbb)]['render']());},BlocklyDuino['Undo']=function(){var _0x4e875f=_0x5f05b9;localStorage[_0x4e875f(0x12f)]('content')=='on'?Blockly['mainWorkspace']['undo'](0x0):editor[_0x4e875f(0x16d)]();},BlocklyDuino[_0x5f05b9(0x139)]=function(){var _0x51442b=_0x5f05b9;localStorage[_0x51442b(0x12f)](_0x51442b(0x96))=='on'?Blockly[_0x51442b(0xb2)][_0x51442b(0x16d)](0x1):editor[_0x51442b(0x12c)]();},BlocklyDuino[_0x5f05b9(0x16a)]=function(){var _0x470b18=_0x5f05b9;editor['execCommand'](_0x470b18(0x196));},BlocklyDuino['bindFunctions']=function(){var _0x399bdf=_0x5f05b9;$(_0x399bdf(0x8a))['on'](_0x399bdf(0x13f),function(){var _0x12b40f=_0x399bdf,_0x4b76c9=$(this)[_0x12b40f(0xed)]('data-modal-parent');$(_0x4b76c9)[_0x12b40f(0x10c)]('opacity',0x0);}),$(_0x399bdf(0x8a))['on'](_0x399bdf(0x1ae),function(){var _0x4a74f2=_0x399bdf,_0x25b903=$(this)['attr'](_0x4a74f2(0x158));$(_0x25b903)[_0x4a74f2(0x10c)](_0x4a74f2(0x16e),0x1);}),$(_0x399bdf(0x124))['on']('click',BlocklyDuino['discard']),$(_0x399bdf(0x15b))['on'](_0x399bdf(0xf0),BlocklyDuino[_0x399bdf(0xf3)]),$(_0x399bdf(0x11d))['on'](_0x399bdf(0xf0),BlocklyDuino[_0x399bdf(0x139)]),$('#btn_print')['on']('click',BlocklyDuino[_0x399bdf(0x147)]),$('#btn_search')['on'](_0x399bdf(0xf0),BlocklyDuino[_0x399bdf(0x16a)]),$('#boards')['on'](_0x399bdf(0x140),function(){var _0x211f57=_0x399bdf;BlocklyDuino[_0x211f57(0x101)]=$(this)['val']();}),$(_0x399bdf(0x130))['on'](_0x399bdf(0xf0),function(){var _0x1c6e70=_0x399bdf;$('#toggle')[_0x1c6e70(0x11b)](_0x1c6e70(0x176));}),$(_0x399bdf(0x183))['on'](_0x399bdf(0xee),function(){var _0x1f1daf=_0x399bdf;window['localStorage'][_0x1f1daf(0x1b0)]!='python'?(editor[_0x1f1daf(0x13a)]['setMode'](_0x1f1daf(0x17a)),editor[_0x1f1daf(0x90)]({'enableBasicAutocompletion':!![],'enableSnippets':!![],'enableLiveAutocompletion':!![]})):(editor[_0x1f1daf(0x13a)][_0x1f1daf(0x144)](_0x1f1daf(0x9a)),editor[_0x1f1daf(0x90)]({'enableBasicAutocompletion':!![],'enableSnippets':!![],'enableLiveAutocompletion':!![]})),window[_0x1f1daf(0x1a1)]['content']=='on'?(editor[_0x1f1daf(0x179)]($(_0x1f1daf(0xc7))[_0x1f1daf(0xd7)](),0x1),$(_0x1f1daf(0x19d))[_0x1f1daf(0x1a6)](_0x1f1daf(0x17f)),$(_0x1f1daf(0xc6))['addClass'](_0x1f1daf(0xa9)),$(_0x1f1daf(0x130))[_0x1f1daf(0xe4)](_0x1f1daf(0xa9)),$(_0x1f1daf(0xf6))[_0x1f1daf(0x1ad)](_0x1f1daf(0xa9)),window[_0x1f1daf(0x1a1)][_0x1f1daf(0x96)]=_0x1f1daf(0xc8)):($(_0x1f1daf(0x166))['tab'](_0x1f1daf(0x17f)),$(_0x1f1daf(0xc6))['removeClass']('hidden'),$(_0x1f1daf(0x130))[_0x1f1daf(0x1ad)](_0x1f1daf(0xa9)),$('#btn_search')['addClass']('hidden'),window['localStorage'][_0x1f1daf(0x96)]='on');}),$('#btn_verify')[_0x399bdf(0xa6)](function(){var _0x311fda=_0x399bdf;document[_0x311fda(0x122)](_0x311fda(0x17d))['textContent']=_0x311fda(0x119);})['mouseout'](function(){var _0x55c26c=_0x399bdf;document['getElementById'](_0x55c26c(0x17d))[_0x55c26c(0x88)]='';}),$(_0x399bdf(0xda))[_0x399bdf(0xa6)](function(){var _0x4e9d37=_0x399bdf;document[_0x4e9d37(0x122)]('survol')['textContent']=_0x4e9d37(0xce);})['mouseout'](function(){var _0x4f6afe=_0x399bdf;document[_0x4f6afe(0x122)](_0x4f6afe(0x17d))[_0x4f6afe(0x88)]='';}),$(_0x399bdf(0x153))['mouseover'](function(){var _0x25dda6=_0x399bdf;document[_0x25dda6(0x122)](_0x25dda6(0x17d))['textContent']=_0x25dda6(0xff);})['mouseout'](function(){var _0x51a193=_0x399bdf;document['getElementById'](_0x51a193(0x17d))[_0x51a193(0x88)]='';}),$('#toolboxes')['on']('focus',function(){var _0x19a342=_0x399bdf;BlocklyDuino[_0x19a342(0xf7)]=$(this)[_0x19a342(0x161)]();}),$(_0x399bdf(0xa8))['on'](_0x399bdf(0xee),BlocklyDuino[_0x399bdf(0x19f)]),$(_0x399bdf(0x114))['on']('hidden.bs.modal',function(_0x357cee){var _0x4c1140=_0x399bdf;BlocklyDuino[_0x4c1140(0x86)](BlocklyDuino[_0x4c1140(0xf7)]);}),$('#load')['on']('change',BlocklyDuino[_0x399bdf(0xca)]),$('#btn_fakeload')['on'](_0x399bdf(0xf0),function(){$('#load')['click']();}),$('#btn_config')['on'](_0x399bdf(0xf0),BlocklyDuino['openConfigToolbox']),$('#btn_level1')['on']('click',BlocklyDuino['buildToolboxLevel1']),$(_0x399bdf(0x126))['on']('click',BlocklyDuino['buildToolboxLevel2']),$(_0x399bdf(0x181))['on'](_0x399bdf(0xf0),BlocklyDuino['buildToolboxLevel3']),$(_0x399bdf(0x8c))['on'](_0x399bdf(0xf0),BlocklyDuino['checkAll']),$(_0x399bdf(0x1af))['on'](_0x399bdf(0xf0),BlocklyDuino['changeToolbox']),$(_0x399bdf(0x95))['on'](_0x399bdf(0xf0),BlocklyDuino['buildExamples']),typeof process===_0x399bdf(0x136)&&($(_0x399bdf(0x116))['on']('click',function(){var _0x1d57de=_0x399bdf;window[_0x1d57de(0xfa)](_0x1d57de(0x198),_0x1d57de(0x195),null);}),$('#btn_saveXML')['on'](_0x399bdf(0xf0),BlocklyDuino['saveXmlFile']),$('#btn_saveino')['on'](_0x399bdf(0xf0),function(){var _0x2aaaf0=_0x399bdf;window[_0x2aaaf0(0x1a1)][_0x2aaaf0(0x1b0)]=='arduino'?BlocklyDuino[_0x2aaaf0(0x10a)]():BlocklyDuino[_0x2aaaf0(0x11f)]();}));},BlocklyDuino[_0x5f05b9(0x143)]=function(){var _0x55af51=_0x5f05b9;this['checked']?$(_0x55af51(0xdc))['each'](function(){this['checked']=!![];}):$(_0x55af51(0xdc))[_0x55af51(0x1ac)](function(){var _0x47b34f=_0x55af51;this[_0x47b34f(0x172)]=![];});},BlocklyDuino[_0x5f05b9(0xa4)]=function(){var _0x4df5fa=_0x5f05b9,_0x56ff15=$(_0x4df5fa(0xf2)),_0x36815a=window[_0x4df5fa(0x1a1)]['toolboxids'];(_0x36815a===undefined||_0x36815a==='')&&($(_0x4df5fa(0xe5))[_0x4df5fa(0x18a)]?_0x36815a=$(_0x4df5fa(0xe5))[_0x4df5fa(0x135)]():_0x36815a='');_0x56ff15[_0x4df5fa(0x177)]();var _0x3c3aa9=0x0,_0x58d016,_0x32403c='';$('#toolbox')['children']('category')['each'](function(){var _0x5535dd=_0x4df5fa;_0x58d016=_0x36815a[_0x5535dd(0x16a)]($(this)[_0x5535dd(0xed)]('id')),_0x58d016>=0x0?_0x32403c='<input\x20type=\x22checkbox\x22\x20checked=\x22checked\x22\x20name=\x22checkbox_'+_0x3c3aa9+'\x22\x20id=\x22checkbox_'+$(this)[_0x5535dd(0xed)]('id')+_0x5535dd(0xde)+Blockly[_0x5535dd(0xc5)][$(this)[_0x5535dd(0xed)]('id')]+'<br/>':_0x32403c=_0x5535dd(0x19b)+_0x3c3aa9+_0x5535dd(0x152)+$(this)[_0x5535dd(0xed)]('id')+'\x22/>\x20'+Blockly['Msg'][$(this)[_0x5535dd(0xed)]('id')]+'<br/>',_0x3c3aa9++,_0x56ff15[_0x5535dd(0xae)](_0x32403c);});},BlocklyDuino['changeToolbox']=function(){var _0x6ccc63=_0x5f05b9;BlocklyDuino[_0x6ccc63(0xd0)]();var _0x7d82df=[];window[_0x6ccc63(0x1a1)][_0x6ccc63(0x199)]=$('#languageMenu')['val'](),$(_0x6ccc63(0xdc))[_0x6ccc63(0x1ac)](function(){var _0x5d0d3e=_0x6ccc63;if(this[_0x5d0d3e(0x172)]==!![]){var _0x36bd3f=this['id'];_0x7d82df[_0x5d0d3e(0x13d)](_0x36bd3f['replace'](_0x5d0d3e(0x14f),''));}}),window[_0x6ccc63(0x1a1)][_0x6ccc63(0x162)]=_0x7d82df,Blockly[_0x6ccc63(0x10d)]()[_0x6ccc63(0x15a)](BlocklyDuino['buildToolbox']()),BlocklyDuino[_0x6ccc63(0xbb)][_0x6ccc63(0x110)](),$(_0x6ccc63(0x114))[_0x6ccc63(0xd9)]('hide'),window[_0x6ccc63(0x113)][_0x6ccc63(0xe2)]();},BlocklyDuino[_0x5f05b9(0x13b)]=function(){var _0x1ba903=_0x5f05b9;window[_0x1ba903(0x1a1)][_0x1ba903(0x199)]=$(_0x1ba903(0x17b))[_0x1ba903(0x161)](),window[_0x1ba903(0x113)][_0x1ba903(0xe2)]();},BlocklyDuino[_0x5f05b9(0x94)]=function(){var _0x19f936=_0x5f05b9,_0x2c645f=window[_0x19f936(0x1a1)][_0x19f936(0x162)];(_0x2c645f===undefined||_0x2c645f==='')&&($('#defaultCategories1')[_0x19f936(0x18a)]?_0x2c645f=$(_0x19f936(0xe5))[_0x19f936(0x135)]():_0x2c645f='');var _0x32a199='<xml\x20id=\x22toolbox\x22>',_0x3d0bb4=_0x2c645f[_0x19f936(0x19e)](',');for(var _0xdf9d7b=0x0;_0xdf9d7b<_0x3d0bb4[_0x19f936(0x18a)];_0xdf9d7b++){$('#'+_0x3d0bb4[_0xdf9d7b])[_0x19f936(0x18a)]&&(_0x32a199+=$('#'+_0x3d0bb4[_0xdf9d7b])[0x0][_0x19f936(0x157)]);}return _0x32a199+=_0x19f936(0x192),_0x32a199;},BlocklyDuino['buildToolboxLevel1']=function(){var _0x35ae0a=_0x5f05b9,_0x4ef55c=[];$(_0x35ae0a(0xe5))[_0x35ae0a(0x18a)]&&(_0x4ef55c=$(_0x35ae0a(0xe5))[_0x35ae0a(0x135)]());window['localStorage']['toolboxids']=_0x4ef55c,window[_0x35ae0a(0x1a1)][_0x35ae0a(0x14c)]=0x1;var _0x559ecd=_0x35ae0a(0xcc),_0x38b1e9=_0x4ef55c['split'](',');for(var _0x227ae7=0x0;_0x227ae7<_0x38b1e9[_0x35ae0a(0x18a)];_0x227ae7++){$('#'+_0x38b1e9[_0x227ae7])[_0x35ae0a(0x18a)]&&(_0x559ecd+=$('#'+_0x38b1e9[_0x227ae7])[0x0][_0x35ae0a(0x157)]);}_0x559ecd+='</xml>',Blockly[_0x35ae0a(0x10d)]()[_0x35ae0a(0x15a)](_0x559ecd);},BlocklyDuino['buildToolboxLevel2']=function(){var _0x156555=_0x5f05b9,_0x399b1a=[];$(_0x156555(0x120))[_0x156555(0x18a)]&&(_0x399b1a=$(_0x156555(0x120))[_0x156555(0x135)]());window['localStorage'][_0x156555(0x162)]=_0x399b1a,window[_0x156555(0x1a1)][_0x156555(0x14c)]=0x2;var _0x3cb0a9=_0x156555(0xcc),_0x17d7a3=_0x399b1a[_0x156555(0x19e)](',');for(var _0x4aae70=0x0;_0x4aae70<_0x17d7a3[_0x156555(0x18a)];_0x4aae70++){$('#'+_0x17d7a3[_0x4aae70])[_0x156555(0x18a)]&&(_0x3cb0a9+=$('#'+_0x17d7a3[_0x4aae70])[0x0][_0x156555(0x157)]);}_0x3cb0a9+='</xml>',Blockly[_0x156555(0x10d)]()['updateToolbox'](_0x3cb0a9);},BlocklyDuino['buildToolboxLevel3']=function(){var _0x33fb8d=_0x5f05b9,_0x1417bb=[];$(_0x33fb8d(0x13e))[_0x33fb8d(0x18a)]&&(_0x1417bb=$(_0x33fb8d(0x13e))[_0x33fb8d(0x135)]());window[_0x33fb8d(0x1a1)]['toolboxids']=_0x1417bb,window[_0x33fb8d(0x1a1)]['level']=0x3;var _0x17ff26=_0x33fb8d(0xcc),_0x33ceaf=_0x1417bb['split'](',');for(var _0x3377cc=0x0;_0x3377cc<_0x33ceaf[_0x33fb8d(0x18a)];_0x3377cc++){$('#'+_0x33ceaf[_0x3377cc])[_0x33fb8d(0x18a)]&&(_0x17ff26+=$('#'+_0x33ceaf[_0x3377cc])[0x0][_0x33fb8d(0x157)]);}_0x17ff26+=_0x33fb8d(0x192),Blockly[_0x33fb8d(0x10d)]()['updateToolbox'](_0x17ff26);},BlocklyDuino[_0x5f05b9(0x86)]=function(_0x4e0488){var _0x5c55d2=_0x5f05b9;$[_0x5c55d2(0x141)]({'type':_0x5c55d2(0x109),'url':_0x5c55d2(0x18c)+_0x4e0488+_0x5c55d2(0x8b),'dataType':_0x5c55d2(0xb0),'async':![]})[_0x5c55d2(0x193)](function(_0x33e786){var _0x2c7b9f=_0x5c55d2,_0x3f5f62='<xml\x20id=\x22toolbox\x22\x20style=\x22display:\x20none\x22>'+$(_0x33e786)[_0x2c7b9f(0x196)](_0x2c7b9f(0x1ab))[_0x2c7b9f(0x135)]()+_0x2c7b9f(0x192);$('#toolbox')[_0x2c7b9f(0x194)](),$(_0x2c7b9f(0x117))['append'](_0x3f5f62),$(_0x2c7b9f(0xb0))[_0x2c7b9f(0x196)](_0x2c7b9f(0x197))[_0x2c7b9f(0x1ac)](function(){var _0xb5a0a6=_0x2c7b9f;!$(this)['attr']('id')&&($(this)[_0xb5a0a6(0xed)]('id',$(this)['attr'](_0xb5a0a6(0x18d))),$(this)[_0xb5a0a6(0xed)](_0xb5a0a6(0x18d),Blockly[_0xb5a0a6(0xc5)][$(this)[_0xb5a0a6(0xed)](_0xb5a0a6(0x18d))]));});})['fail'](function(_0x30fd74){var _0x283ebe=_0x5c55d2;$(_0x283ebe(0xd4))[_0x283ebe(0x194)]();});},BlocklyDuino['changeToolboxDefinition']=function(){var _0x126e47=_0x5f05b9;BlocklyDuino[_0x126e47(0x86)]($(_0x126e47(0xa8))['val']()),BlocklyDuino[_0x126e47(0xa4)]();},BlocklyDuino[_0x5f05b9(0xf8)]=function(){var _0x4e2be2=_0x5f05b9;$[_0x4e2be2(0x141)]({'cache':![],'url':_0x4e2be2(0x10f),'dataType':_0x4e2be2(0x1a2),'success':function(_0x3ebde2){var _0x5e283c=_0x4e2be2;$(_0x5e283c(0x111))['empty'](),$[_0x5e283c(0x1ac)](_0x3ebde2,function(_0xc5f6fc,_0x4aecad){var _0x1a9669=_0x5e283c;if(_0x4aecad[_0x1a9669(0xbc)]){var _0x32065b=_0x1a9669(0x137)+_0x1a9669(0x146)+_0x4aecad['source_url']+'\x27>'+_0x4aecad['source_text']+_0x1a9669(0x180)+'</td></tr>';$('#includedContent')[_0x1a9669(0xae)](_0x32065b);}});}});},Blockly['Variables']['flyoutCategory']=function(_0x45dd24){var _0x12034c=_0x5f05b9,_0x385d87=_0x45dd24[_0x12034c(0x19a)];_0x385d87[_0x12034c(0x9e)](goog[_0x12034c(0x9b)][_0x12034c(0xba)]);var _0x5315ac=[],_0x524049=goog[_0x12034c(0xb6)]['createDom'](_0x12034c(0x134));_0x524049[_0x12034c(0xad)](_0x12034c(0xd7),Blockly[_0x12034c(0xc5)][_0x12034c(0xa5)]),_0x524049[_0x12034c(0xad)]('callbackKey','CREATE_VARIABLE'),Blockly[_0x12034c(0x15e)](_0x12034c(0x1aa),function(_0x43e2d9){var _0x1f4753=_0x12034c;Blockly[_0x1f4753(0xbd)][_0x1f4753(0x102)](_0x43e2d9[_0x1f4753(0xf9)]());}),_0x5315ac[_0x12034c(0x13d)](_0x524049);if(_0x385d87['length']>0x0){if(window[_0x12034c(0x1a1)][_0x12034c(0x1b0)]!=_0x12034c(0xc3)){if(Blockly[_0x12034c(0x18f)][_0x12034c(0x10e)]){var _0x577929=goog[_0x12034c(0xb6)][_0x12034c(0xe1)](_0x12034c(0xc9));_0x577929['setAttribute'](_0x12034c(0xec),_0x12034c(0x10e)),_0x577929[_0x12034c(0xad)]('gap',0x8);var _0xac6968=goog[_0x12034c(0xb6)][_0x12034c(0xe1)](_0x12034c(0xd6),null,_0x385d87[0x0]);_0xac6968[_0x12034c(0xad)](_0x12034c(0x18d),'VAR'),_0x577929[_0x12034c(0xd2)](_0xac6968),_0x5315ac['push'](_0x577929);}if(Blockly[_0x12034c(0x18f)][_0x12034c(0xeb)]){var _0x577929=goog[_0x12034c(0xb6)][_0x12034c(0xe1)]('block');_0x577929[_0x12034c(0xad)](_0x12034c(0xec),'variables_set'),_0x577929[_0x12034c(0xad)](_0x12034c(0xfc),0x8);var _0xac6968=goog[_0x12034c(0xb6)][_0x12034c(0xe1)]('field',null,_0x385d87[0x0]);_0xac6968[_0x12034c(0xad)](_0x12034c(0x18d),_0x12034c(0x104)),_0x577929[_0x12034c(0xd2)](_0xac6968),_0x5315ac[_0x12034c(0x13d)](_0x577929);}if(Blockly[_0x12034c(0x18f)][_0x12034c(0x87)]){var _0x577929=goog[_0x12034c(0xb6)][_0x12034c(0xe1)]('block');_0x577929[_0x12034c(0xad)](_0x12034c(0xec),'math_change'),_0x577929[_0x12034c(0xad)](_0x12034c(0xfc),0x8);var _0xac6968=goog[_0x12034c(0xb6)]['createDom'](_0x12034c(0xd6),null,_0x385d87[0x0]);_0xac6968['setAttribute'](_0x12034c(0x18d),_0x12034c(0x104)),_0x577929['appendChild'](_0xac6968),_0x5315ac[_0x12034c(0x13d)](_0x577929);}if(Blockly[_0x12034c(0x18f)]['variables_const']){var _0x577929=goog[_0x12034c(0xb6)][_0x12034c(0xe1)](_0x12034c(0xc9));_0x577929[_0x12034c(0xad)](_0x12034c(0xec),_0x12034c(0x9f)),_0x577929[_0x12034c(0xad)](_0x12034c(0xfc),0x8);var _0xac6968=goog[_0x12034c(0xb6)][_0x12034c(0xe1)](_0x12034c(0xd6),null,_0x385d87[0x0]);_0xac6968[_0x12034c(0xad)](_0x12034c(0x18d),'VAR'),_0x577929[_0x12034c(0xd2)](_0xac6968),_0x5315ac[_0x12034c(0x13d)](_0x577929);}if(Blockly['Blocks'][_0x12034c(0xfd)]){var _0x577929=goog['dom'][_0x12034c(0xe1)]('block');_0x577929[_0x12034c(0xad)](_0x12034c(0xec),_0x12034c(0xfd));Blockly[_0x12034c(0x18f)]['variables_get']&&_0x577929['setAttribute'](_0x12034c(0xfc),0x10);var _0xac6968=goog['dom']['createDom'](_0x12034c(0xd6),null,_0x385d87[0x0]);_0xac6968[_0x12034c(0xad)](_0x12034c(0x18d),_0x12034c(0x104)),_0x577929[_0x12034c(0xd2)](_0xac6968),_0x5315ac[_0x12034c(0x13d)](_0x577929);}for(var _0x267644=0x0;_0x267644<_0x385d87[_0x12034c(0x18a)];_0x267644++){if(Blockly[_0x12034c(0x18f)][_0x12034c(0xfe)]){var _0x577929=goog['dom'][_0x12034c(0xe1)](_0x12034c(0xc9));_0x577929[_0x12034c(0xad)](_0x12034c(0xec),_0x12034c(0xfe));Blockly[_0x12034c(0x18f)]['variables_set']&&_0x577929[_0x12034c(0xad)]('gap',0x8);var _0xac6968=goog[_0x12034c(0xb6)][_0x12034c(0xe1)](_0x12034c(0xd6),null,_0x385d87[_0x267644]);_0xac6968[_0x12034c(0xad)](_0x12034c(0x18d),'VAR'),_0x577929[_0x12034c(0xd2)](_0xac6968),_0x5315ac[_0x12034c(0x13d)](_0x577929);}}}else{if(Blockly[_0x12034c(0x18f)]['variables_set']){var _0x577929=goog[_0x12034c(0xb6)][_0x12034c(0xe1)](_0x12034c(0xc9));_0x577929[_0x12034c(0xad)](_0x12034c(0xec),_0x12034c(0xeb)),_0x577929['setAttribute']('gap',0x8);var _0xac6968=goog[_0x12034c(0xb6)][_0x12034c(0xe1)](_0x12034c(0xd6),null,_0x385d87[0x0]);_0xac6968[_0x12034c(0xad)](_0x12034c(0x18d),_0x12034c(0x104)),_0x577929[_0x12034c(0xd2)](_0xac6968),_0x5315ac[_0x12034c(0x13d)](_0x577929);}if(Blockly[_0x12034c(0x18f)][_0x12034c(0x87)]){var _0x577929=goog[_0x12034c(0xb6)][_0x12034c(0xe1)](_0x12034c(0xc9));_0x577929[_0x12034c(0xad)](_0x12034c(0xec),'math_change'),_0x577929[_0x12034c(0xad)]('gap',0x8);var _0xac6968=goog[_0x12034c(0xb6)][_0x12034c(0xe1)](_0x12034c(0xd6),null,_0x385d87[0x0]);_0xac6968[_0x12034c(0xad)](_0x12034c(0x18d),_0x12034c(0x104)),_0x577929[_0x12034c(0xd2)](_0xac6968),_0x5315ac[_0x12034c(0x13d)](_0x577929);}for(var _0x267644=0x0;_0x267644<_0x385d87[_0x12034c(0x18a)];_0x267644++){if(Blockly[_0x12034c(0x18f)][_0x12034c(0xfe)]){var _0x577929=goog[_0x12034c(0xb6)][_0x12034c(0xe1)](_0x12034c(0xc9));_0x577929[_0x12034c(0xad)](_0x12034c(0xec),_0x12034c(0xfe));Blockly[_0x12034c(0x18f)]['variables_set']&&_0x577929[_0x12034c(0xad)](_0x12034c(0xfc),0x8);var _0xac6968=goog[_0x12034c(0xb6)]['createDom']('field',null,_0x385d87[_0x267644]);_0xac6968[_0x12034c(0xad)](_0x12034c(0x18d),_0x12034c(0x104)),_0x577929['appendChild'](_0xac6968),_0x5315ac[_0x12034c(0x13d)](_0x577929);}}}}return _0x5315ac;},BlocklyDuino[_0x5f05b9(0x147)]=function(){var _0x5c5d38=_0x5f05b9,_0x3b0e39=BlocklyDuino[_0x5c5d38(0xbb)]['svgBlockCanvas_'][_0x5c5d38(0x108)](!![]);_0x3b0e39[_0x5c5d38(0xe9)](_0x5c5d38(0x187)),_0x3b0e39['removeAttribute'](_0x5c5d38(0x129)),_0x3b0e39['removeAttribute']('transform');var _0x346f9b=document[_0x5c5d38(0x16f)](_0x5c5d38(0xa2),_0x5c5d38(0xc0));_0x346f9b[_0x5c5d38(0x88)]=Blockly['Css'][_0x5c5d38(0x133)][_0x5c5d38(0x188)](''),_0x3b0e39['insertBefore'](_0x346f9b,_0x3b0e39[_0x5c5d38(0x9d)]);var _0x1cf5bf=BlocklyDuino[_0x5c5d38(0xbb)][_0x5c5d38(0x159)][_0x5c5d38(0x185)](),_0x5e0b72=document[_0x5c5d38(0xd8)]('canvas');_0x5e0b72[_0x5c5d38(0x187)]=Math[_0x5c5d38(0xb1)](_0x1cf5bf[_0x5c5d38(0x187)]+0xa),_0x5e0b72[_0x5c5d38(0x129)]=Math[_0x5c5d38(0xb1)](_0x1cf5bf[_0x5c5d38(0x129)]+0xa);var _0x195ed5=_0x5e0b72[_0x5c5d38(0xfb)]('2d'),_0x9e0c93=new XMLSerializer()[_0x5c5d38(0x155)](_0x3b0e39);_0x9e0c93='<svg\x20version=\x221.1\x22\x20xmlns=\x22http://www.w3.org/2000/svg\x22\x20xmlns:xlink=\x22http://www.w3.org/1999/xlink\x22\x20width=\x22'+_0x1cf5bf['width']+_0x5c5d38(0x168)+_0x1cf5bf['height']+_0x5c5d38(0x1a8)+_0x1cf5bf['x']+'\x20'+_0x1cf5bf['y']+'\x20'+_0x1cf5bf[_0x5c5d38(0x187)]+'\x20'+_0x1cf5bf['height']+'\x22><rect\x20width=\x22100%\x22\x20height=\x22100%\x22\x20fill=\x22white\x22></rect>'+_0x9e0c93+_0x5c5d38(0x125);var _0x3e9b24=new Image();_0x3e9b24[_0x5c5d38(0xad)](_0x5c5d38(0x11c),_0x5c5d38(0x1a0)+btoa(unescape(encodeURIComponent(_0x9e0c93)))),_0x3e9b24['onload']=function(){var _0x38c3fa=_0x5c5d38;_0x195ed5[_0x38c3fa(0xe8)](_0x3e9b24,0x5,0x5);var _0x251b3e=_0x5e0b72[_0x38c3fa(0x12a)](_0x38c3fa(0x123),0x1),_0x23bcb6=Date[_0x38c3fa(0x171)](),_0x400773=document['createElement']('a');_0x400773[_0x38c3fa(0x17c)]=_0x38c3fa(0x12b)+_0x23bcb6+'.png',_0x400773[_0x38c3fa(0xe6)]=_0x251b3e,document['body'][_0x38c3fa(0xd2)](_0x400773),_0x400773[_0x38c3fa(0xf0)]();};},BlocklyDuino[_0x5f05b9(0x173)]=function(){var _0x4d2c3a=_0x5f05b9;$(_0x4d2c3a(0x160))[_0x4d2c3a(0x161)]()?$(_0x4d2c3a(0xb8))[_0x4d2c3a(0xed)](_0x4d2c3a(0x11c),profile[$(_0x4d2c3a(0x160))[_0x4d2c3a(0x161)]()]['picture']):$(_0x4d2c3a(0xb8))['attr']('src','');if($(_0x4d2c3a(0x160))[_0x4d2c3a(0x161)]()==_0x4d2c3a(0x15d))document[_0x4d2c3a(0x122)]('infoboard')[_0x4d2c3a(0x142)]=MSG[$(_0x4d2c3a(0x160))['val']()];else document[_0x4d2c3a(0x122)](_0x4d2c3a(0xc4))[_0x4d2c3a(0x142)]='';},BlocklyDuino[_0x5f05b9(0x10a)]=function(){var _0x39d2a7=_0x5f05b9,_0x4eb50d=$('#pre_previewArduino')[_0x39d2a7(0xd7)](),_0x1007f9=Date['now'](),_0x333a45=_0x39d2a7(0x184)+_0x1007f9+_0x39d2a7(0x8d),_0x105052=document['createElement']('a');_0x105052[_0x39d2a7(0xad)](_0x39d2a7(0xe6),'data:text/ino;charset=utf-8,'+encodeURIComponent(_0x4eb50d)),_0x105052[_0x39d2a7(0xad)](_0x39d2a7(0x17c),_0x333a45),_0x105052[_0x39d2a7(0xc0)][_0x39d2a7(0x9c)]='none',document[_0x39d2a7(0x117)][_0x39d2a7(0xd2)](_0x105052),_0x105052[_0x39d2a7(0xf0)](),document[_0x39d2a7(0x117)][_0x39d2a7(0x12d)](_0x105052);},BlocklyDuino[_0x5f05b9(0x11f)]=function(){var _0x371f5d=_0x5f05b9,_0x2b26ce=$(_0x371f5d(0xc7))[_0x371f5d(0xd7)](),_0x102993=Date[_0x371f5d(0x171)](),_0x7be033='python'+_0x102993+_0x371f5d(0x18b),_0x41d425=document[_0x371f5d(0xd8)]('a');_0x41d425['setAttribute'](_0x371f5d(0xe6),_0x371f5d(0xac)+encodeURIComponent(_0x2b26ce)),_0x41d425[_0x371f5d(0xad)](_0x371f5d(0x17c),_0x7be033),_0x41d425[_0x371f5d(0xc0)][_0x371f5d(0x9c)]=_0x371f5d(0x182),document[_0x371f5d(0x117)][_0x371f5d(0xd2)](_0x41d425),_0x41d425[_0x371f5d(0xf0)](),document[_0x371f5d(0x117)][_0x371f5d(0x12d)](_0x41d425);},BlocklyDuino[_0x5f05b9(0xf1)]=function(){var _0x4b5c0a=_0x5f05b9;if(window[_0x4b5c0a(0x1a1)][_0x4b5c0a(0x96)]=='on'){var _0x42b7dc=Blockly[_0x4b5c0a(0x16c)]['workspaceToDom'](Blockly[_0x4b5c0a(0xb2)]),_0x3b3f55=window[_0x4b5c0a(0x1a1)]['toolbox'];!_0x3b3f55&&(_0x3b3f55=$(_0x4b5c0a(0xa8))['val']());if(_0x3b3f55){var _0x2c585d=document[_0x4b5c0a(0xd8)]('toolbox');_0x2c585d[_0x4b5c0a(0xd2)](document[_0x4b5c0a(0xd1)](_0x3b3f55)),_0x42b7dc[_0x4b5c0a(0x178)](_0x2c585d,_0x42b7dc[_0x4b5c0a(0x112)][0x0]);}var _0x4ea01f=window['localStorage']['toolboxids'];(_0x4ea01f===undefined||_0x4ea01f==='')&&($(_0x4b5c0a(0xe5))[_0x4b5c0a(0x18a)]&&(_0x4ea01f=$(_0x4b5c0a(0xe5))[_0x4b5c0a(0x135)]()));var _0x5db62c=Blockly[_0x4b5c0a(0x16c)][_0x4b5c0a(0xaa)](_0x42b7dc),_0x37ee32=Date['now'](),_0x363d41=_0x4b5c0a(0xc9)+_0x37ee32+_0x4b5c0a(0x10b),_0x10f104=document[_0x4b5c0a(0xd8)]('a');_0x10f104[_0x4b5c0a(0xad)](_0x4b5c0a(0xe6),_0x4b5c0a(0xa1)+encodeURIComponent(_0x5db62c)),_0x10f104['setAttribute'](_0x4b5c0a(0x17c),_0x363d41),_0x10f104[_0x4b5c0a(0xc0)]['display']=_0x4b5c0a(0x182),document[_0x4b5c0a(0x117)][_0x4b5c0a(0xd2)](_0x10f104),_0x10f104[_0x4b5c0a(0xf0)](),document[_0x4b5c0a(0x117)][_0x4b5c0a(0x12d)](_0x10f104);}else{if(window[_0x4b5c0a(0x1a1)][_0x4b5c0a(0x1b0)]=='arduino'){var _0x4ed39e=editor[_0x4b5c0a(0x14a)](),_0x37ee32=Date[_0x4b5c0a(0x171)](),_0x363d41='arduino'+_0x37ee32+_0x4b5c0a(0x8d),_0x10f104=document[_0x4b5c0a(0xd8)]('a');_0x10f104['setAttribute']('href',_0x4b5c0a(0xac)+encodeURIComponent(_0x4ed39e)),_0x10f104['setAttribute']('download',_0x363d41),_0x10f104['style']['display']=_0x4b5c0a(0x182),document['body'][_0x4b5c0a(0xd2)](_0x10f104),_0x10f104['click'](),document[_0x4b5c0a(0x117)][_0x4b5c0a(0x12d)](_0x10f104);}else{var _0x4ed39e=editor[_0x4b5c0a(0x14a)](),_0x37ee32=Date['now'](),_0x363d41=_0x4b5c0a(0xc3)+_0x37ee32+'.py',_0x10f104=document[_0x4b5c0a(0xd8)]('a');_0x10f104[_0x4b5c0a(0xad)](_0x4b5c0a(0xe6),_0x4b5c0a(0x12e)+encodeURIComponent(_0x4ed39e)),_0x10f104[_0x4b5c0a(0xad)]('download',_0x363d41),_0x10f104[_0x4b5c0a(0xc0)][_0x4b5c0a(0x9c)]=_0x4b5c0a(0x182),document[_0x4b5c0a(0x117)][_0x4b5c0a(0xd2)](_0x10f104),_0x10f104[_0x4b5c0a(0xf0)](),document['body'][_0x4b5c0a(0x12d)](_0x10f104);}}};
+'use strict';
+
+var BlocklyDuino = {};
+BlocklyDuino.selectedToolbox = "toolbox_arduino_all";
+BlocklyDuino.selectedCard = "nano";
+BlocklyDuino.content = "on";
+BlocklyDuino.workspace = null;
+
+BlocklyDuino.init = function() {
+	Code.initLanguage();
+	BlocklyDuino.loadConfig();
+	BlocklyDuino.workspace = Blockly.inject('content_blocks',{grid:{snap:true},sounds:true,media:'media/',toolbox:BlocklyDuino.buildToolbox(),zoom:{controls:true,wheel:true}});
+	BlocklyDuino.bindFunctions();
+	BlocklyDuino.workspace.render();
+	BlocklyDuino.workspace.addChangeListener(BlocklyDuino.renderArduinoCodePreview);
+	BlocklyDuino.loadFile();
+	window.addEventListener('unload', BlocklyDuino.backupBlocks, false);
+};
+BlocklyDuino.loadFile = function() {
+	var urlFile = BlocklyDuino.getStringParamFromUrl('url', '');
+	if (urlFile.endsWith(".py")) {
+		$.get(urlFile, function(data) { 
+			$('#codeORblock').bootstrapToggle("off");
+			$('a[href="#content_code"]').tab('show');
+			$('#btn_print').addClass("hidden");
+			$('#btn_preview').addClass("hidden");
+			$('#btn_search').removeClass("hidden");
+			window.localStorage.content="off";
+			editor.session.setMode("ace/mode/python");
+			editor.setOptions({
+				enableBasicAutocompletion: true,
+				enableSnippets: true,
+				enableLiveAutocompletion: true
+			});
+			editor.setValue(data,1)
+		}, 'text')
+	}
+	if (urlFile.endsWith(".ino")) {
+		$.get(urlFile, function(data) { 
+			$('#codeORblock').bootstrapToggle("off");
+			$('a[href="#content_code"]').tab('show');
+			$('#btn_print').addClass("hidden");
+			$('#btn_preview').addClass("hidden");
+			$('#btn_search').removeClass("hidden");
+			window.localStorage.content="off";
+			editor.session.setMode("ace/mode/c_cpp");
+			editor.setOptions({
+				enableBasicAutocompletion: true,
+				enableSnippets: true,
+				enableLiveAutocompletion: true
+			});
+			editor.setValue(data,1)
+		}, 'text')
+	}
+	var loadOnce = null;
+	try {loadOnce = window.localStorage.loadOnceBlocks} catch (e) {}
+	if (urlFile) {
+		$.get( urlFile, function(data){BlocklyDuino.loadBlocks(data)}, 'text')
+	} else {
+		BlocklyDuino.loadBlocks()
+	}
+};
+BlocklyDuino.save_com = function() {
+	$("#portserie").blur();
+	var com=$("#portserie").val();
+	window.localStorage.com = com;
+};
+BlocklyDuino.renderArduinoCodePreview = function() {
+	var prog = window.localStorage.prog;
+	if (prog != "python") {
+		$('#pre_previewArduino').text(Blockly.Arduino.workspaceToCode(BlocklyDuino.workspace));
+		$('#pre_previewArduino').html(prettyPrintOne($('#pre_previewArduino').html(), 'cpp'));
+	} else {
+		$('#pre_previewArduino').text(Blockly.Python.workspaceToCode(BlocklyDuino.workspace));
+		$('#pre_previewArduino').html(prettyPrintOne($('#pre_previewArduino').html(), 'py'));
+	}
+};
+BlocklyDuino.getStringParamFromUrl = function(name, defaultValue) {
+  var val = location.search.match(new RegExp('[?&]' + name + '=([^&]+)'));
+  return val ? decodeURIComponent(val[1].replace(/\+/g, '%20')) : defaultValue;
+};
+BlocklyDuino.addReplaceParamToUrl = function(url, param, value) {
+	var re = new RegExp("([?&])" + param + "=.*?(&|$)", "i");
+	var separator = url.indexOf('?') !== -1 ? "&" : "?";
+	if (url.match(re)) {
+		return url.replace(re, '$1' + param + "=" + value + '$2');
+	}
+	else {
+		return url + separator + param + "=" + value;
+	}
+};
+BlocklyDuino.loadBlocks = function(defaultXml) {
+	if (defaultXml) {
+		var xml = Blockly.Xml.textToDom(defaultXml);
+		Blockly.Xml.domToWorkspace(xml,BlocklyDuino.workspace);
+	} else {
+		var loadOnce = null;
+		try {
+			loadOnce = window.localStorage.loadOnceBlocks;
+		} catch (e) {}
+		if (loadOnce != null) {
+			delete window.localStorage.loadOnceBlocks;
+			var xml = Blockly.Xml.textToDom(loadOnce);
+			Blockly.Xml.domToWorkspace(xml,BlocklyDuino.workspace);
+		}
+	}
+};
+BlocklyDuino.load = function(event) {
+	var files = event.target.files;
+	if (files.length != 1) {
+		return;
+	}
+	var reader = new FileReader();
+	reader.onloadend = function(event) {
+		var target = event.target;
+		if (target.readyState == 2) {
+			if (files[0].name.endsWith("ino")) {
+				$('#codeORblock').bootstrapToggle("off");
+				$('a[href="#content_code"]').tab('show');
+				$('#btn_print').addClass("hidden");
+				$('#btn_preview').addClass("hidden");
+				$('#btn_search').removeClass("hidden");
+				window.localStorage.content="off";
+				editor.session.setMode("ace/mode/c_cpp");
+				editor.setOptions({
+					enableBasicAutocompletion: true,
+					enableSnippets: true,
+					enableLiveAutocompletion: true
+				});
+				editor.setValue(target.result,1)
+			}
+			if (files[0].name.endsWith("py")) {
+				$('#codeORblock').bootstrapToggle("off");
+				$('a[href="#content_code"]').tab('show');
+				$('#btn_print').addClass("hidden");
+				$('#btn_preview').addClass("hidden");
+				$('#btn_search').removeClass("hidden");
+				window.localStorage.content="off";
+				editor.session.setMode("ace/mode/python");
+				editor.setOptions({
+					enableBasicAutocompletion: true,
+					enableSnippets: true,
+					enableLiveAutocompletion: true
+				});
+				editor.setValue(target.result,1)
+			}
+			try {
+				var xml = Blockly.Xml.textToDom(target.result);
+				
+			} catch (e) {
+				alert(MSG['xmlError']+'\n' + e);
+				return
+			}
+			BlocklyDuino.workspace.clear();
+			Blockly.Xml.domToWorkspace(xml,BlocklyDuino.workspace);
+			BlocklyDuino.workspace.render();
+		}
+	};
+	reader.readAsText(files[0])
+};
+BlocklyDuino.backupBlocks = function() {
+  if (typeof Blockly != 'undefined' && window.localStorage) {
+    var xml = Blockly.Xml.workspaceToDom(BlocklyDuino.workspace);
+    var text = Blockly.Xml.domToText(xml);
+    window.localStorage.loadOnceBlocks = text;
+  }
+};
+BlocklyDuino.loadConfig = function() {
+	var card = window.localStorage.card;
+	var content=window.localStorage.content;
+	var prog = window.localStorage.prog;
+	if (card===undefined) {
+		window.localStorage.card = BlocklyDuino.selectedCard;
+		window.localStorage.prog = profile[BlocklyDuino.selectedCard].prog;
+		window.localStorage.toolbox = BlocklyDuino.selectedToolbox;
+		$("#boards").val(BlocklyDuino.selectedCard);
+		$('#arduino_card_mini_picture').attr("src", profile[BlocklyDuino.selectedCard]['picture']);
+		if(BlocklyDuino.selectedCard=="nanooptiboot"||BlocklyDuino.selectedCard=="nano"){
+			$("#warning").show();
+		}else{
+			$("#warning").hide();
+		}
+		$("#toolboxes").val(BlocklyDuino.selectedToolbox);
+		BlocklyDuino.loadToolboxDefinition(BlocklyDuino.selectedToolbox)
+	} else {
+		var toolbox = window.localStorage.toolbox;
+		BlocklyDuino.selectedToolbox = toolbox;
+		$("#boards").val(card);
+		$('#arduino_card_mini_picture').attr("src", profile[card]['picture']);
+		if(card=="nanooptiboot"||card=="nano"){
+			$("#warning").show();
+		}else{
+			$("#warning").hide();
+		}
+		$("#toolboxes").val(toolbox);
+		BlocklyDuino.loadToolboxDefinition(toolbox)
+	}
+	if (content===undefined) {
+		window.localStorage.content = BlocklyDuino.content;
+		$('#codeORblock').bootstrapToggle(BlocklyDuino.content);
+		$('#btn_search').addClass("hidden")
+	} else {
+		$('#codeORblock').bootstrapToggle(content);
+		if (content=="off") {
+			$('a[href="#content_code"]').tab('show');
+			$('#btn_search').removeClass("hidden")
+		}
+		$('#btn_search').addClass("hidden")
+	}
+	if (prog == "python") {
+		$('#btn_bin').addClass("hidden")
+	}
+};
+BlocklyDuino.change_card = function() {
+	BlocklyDuino.backupBlocks();
+	var card = window.localStorage.card;
+	var toolbox = window.localStorage.toolbox;
+	$("#boards").blur();
+	var new_card = $("#boards").val();
+	var new_prog = window.profile[new_card].prog;
+	if (window.profile[new_card].cpu != window.profile[card].cpu) {
+		if (window.confirm(MSG['arduino_card'] + window.profile[new_card].description + ' ?')){
+			$('#arduino_card_mini_picture').attr("src", profile[new_card]['picture']);
+			if (new_prog != "python") {
+				$('#btn_preview').attr('title', MSG['btn_preview_ino']);
+				$('#btn_saveino').attr('title', MSG['btn_save_ino']);
+				$('#btn_bin').removeClass("hidden");
+				
+				window.localStorage.prog = new_prog;
+				var new_toolbox = "toolbox_arduino_all"; //by default
+				var mystartfile;
+					mystartfile= '<xml xmlns="http://www.w3.org/1999/xhtml">';
+					mystartfile +=  '<block type="base_setup_loop" x="-4" y="48"></block>';
+					mystartfile += '</xml>';
+				
+				if (window.profile[new_card].cpu == "nano") 
+				     new_toolbox = "toolbox_arduino_all"
+					 
+				else if (window.profile[new_card].cpu == "esp32") 
+					new_toolbox = "toolbox_arduino_all-esp32"
+					
+				else if (window.profile[new_card].cpu == "atmega328p-x") 
+				    new_toolbox = "toolbox_arduino_all"	
+
+				else if (window.profile[new_card].cpu == "esp826601") 
+					new_toolbox = "toolbox_esp826601"
+				
+				else if (window.profile[new_card].cpu == "esp826612") 
+					new_toolbox = "toolbox_esp826612"
+
+ 				 else if (window.profile[new_card].cpu == "leo32u4") 
+				 	new_toolbox = "toolbox_leo32u4"
+					
+				window.localStorage.toolbox = new_toolbox;
+				BlocklyDuino.workspace.clear();
+				
+				// If CPU has changed and any of the 2 CPUs is an esp (32 or 8266) we need to load blocks for the new board
+				if ((window.profile[new_card].cpu != window.profile[card].cpu) /*&& ((window.profile[new_card].cpu.startsWith("esp")) || (window.profile[card].cpu.startsWith("esp")) ) */  )
+					BlocklyDuino.loadBlocks(mystartfile);
+			    else
+					BlocklyDuino.loadBlocks();
+				
+				BlocklyDuino.loadToolboxDefinition(new_toolbox);
+				Blockly.getMainWorkspace().updateToolbox(BlocklyDuino.buildToolbox());
+				if (window.localStorage.level==1)
+				  $("#btn_level1").trigger("click");
+			     else
+					 if (	window.localStorage.level==2)
+				  $("#btn_level2").trigger("click");
+			     else
+				  $("#btn_level3").trigger("click");
+				 
+				 
+				BlocklyDuino.workspace.render()
+			} else {
+				$('#btn_preview').attr('title', MSG['btn_preview_py']);
+				$('#btn_saveino').attr('title', MSG['btn_save_py']);
+				$('#btn_bin').addClass("hidden");
+				if ( window.profile[new_card].cpu == "cortexM0" ) {
+					var new_toolbox = "toolbox_microbit";
+				} else {
+					var new_toolbox = "toolbox_lycee";
+				}					
+				window.localStorage.prog = new_prog;
+				window.localStorage.toolbox = new_toolbox;
+				BlocklyDuino.workspace.clear();
+				BlocklyDuino.loadToolboxDefinition(new_toolbox);
+				Blockly.getMainWorkspace().updateToolbox(BlocklyDuino.buildToolbox());
+				BlocklyDuino.workspace.render()
+			}
+		} else {
+			$("#boards").val(card);
+			return
+		}
+	}
+	window.localStorage.card = new_card
+};
+BlocklyDuino.discard = function() {
+  var count = BlocklyDuino.workspace.getAllBlocks().length;
+  if (count < 4 || window.confirm(MSG['discard'])) {
+    BlocklyDuino.workspace.clear();
+    BlocklyDuino.workspace.render();
+  }
+};
+BlocklyDuino.Undo = function() {
+	if (localStorage.getItem("content") == "on") {
+		Blockly.mainWorkspace.undo(0)
+	} else {
+		editor.undo()
+	}
+};
+BlocklyDuino.Redo = function() {
+	if (localStorage.getItem("content") == "on") {
+		Blockly.mainWorkspace.undo(1)
+	} else {
+		editor.redo()
+	}	
+};
+BlocklyDuino.search = function() {
+	editor.execCommand("find")
+};
+BlocklyDuino.bindFunctions = function() {
+	$('.modal-child').on('show.bs.modal', function () {
+		var modalParent = $(this).attr('data-modal-parent');
+		$(modalParent).css('opacity', 0)
+	}); 
+	$('.modal-child').on('hidden.bs.modal', function () {
+		var modalParent = $(this).attr('data-modal-parent');
+		$(modalParent).css('opacity', 1)
+	});
+	$('#btn_new').on("click", BlocklyDuino.discard);
+	$('#btn_undo').on("click", BlocklyDuino.Undo);
+	$('#btn_redo').on("click", BlocklyDuino.Redo);
+	$('#btn_print').on("click", BlocklyDuino.workspace_capture);
+	$('#btn_search').on("click", BlocklyDuino.search);
+	$('#boards').on("focus", function() {
+		BlocklyDuino.selectedCard = $(this).val()
+	});
+	$('#btn_preview').on("click", function() {
+		$("#toggle").toggle("slide")
+	});
+	$('#codeORblock').on("change", function() {
+		if (window.localStorage.prog!="python") {
+			editor.session.setMode("ace/mode/c_cpp");
+			editor.setOptions({
+				enableBasicAutocompletion: true,
+				enableSnippets: true,
+				enableLiveAutocompletion: true
+			});
+		} else {
+			editor.session.setMode("ace/mode/python");
+			editor.setOptions({
+				enableBasicAutocompletion: true,
+				enableSnippets: true,
+				enableLiveAutocompletion: true
+			});
+		}
+		if (window.localStorage.content=="on") {
+			editor.setValue($('#pre_previewArduino').text(),1);
+			$('a[href="#content_code"]').tab('show');
+			$('#btn_print').addClass("hidden");
+			$('#btn_preview').addClass("hidden");
+			$('#btn_search').removeClass("hidden");
+			window.localStorage.content="off"
+		} else {
+			$('a[href="#content_blocks"]').tab('show');
+			$('#btn_print').removeClass("hidden");
+			$('#btn_preview').removeClass("hidden");
+			$('#btn_search').addClass("hidden");
+			window.localStorage.content="on"
+		}
+	});
+/* 	Keep code preview window visible when clicked to allow selection
+	$('#pre_previewArduino').on("click", function() {
+		$("#toggle").toggle("slide");
+	}); */
+	$('#btn_verify').mouseover(function() {
+		document.getElementById("survol").textContent = "Check the code";
+	}).mouseout(function() {
+		document.getElementById("survol").textContent = "";
+	});
+	$('#btn_flash').mouseover(function() {
+		document.getElementById("survol").textContent = "Upload to robot board";
+	}).mouseout(function() {
+		document.getElementById("survol").textContent = "";
+	});
+	$('#btn_bin').mouseover(function() {
+		document.getElementById("survol").textContent = "Export as Binary .hex";
+	}).mouseout(function() {
+		document.getElementById("survol").textContent = "";
+	});
+	$('#toolboxes').on("focus", function() {
+		BlocklyDuino.selectedToolbox = $(this).val();
+	});
+	$('#toolboxes').on("change", BlocklyDuino.changeToolboxDefinition);	
+	$('#configModal').on('hidden.bs.modal', function(e) {
+		BlocklyDuino.loadToolboxDefinition(BlocklyDuino.selectedToolbox);
+	});
+	$('#load').on("change", BlocklyDuino.load);
+	$('#btn_fakeload').on("click", function() {
+		$('#load').click()
+	});
+	$('#btn_config').on("click", BlocklyDuino.openConfigToolbox);
+	$('#btn_level1').on("click", BlocklyDuino.buildToolboxLevel1);
+	$('#btn_level2').on("click", BlocklyDuino.buildToolboxLevel2);
+	$('#btn_level3').on("click", BlocklyDuino.buildToolboxLevel3);
+	
+	$('#select_all').on("click", BlocklyDuino.checkAll);
+	$('#btn_valid_config').on("click", BlocklyDuino.changeToolbox);
+	$('#btn_example').on("click", BlocklyDuino.buildExamples);
+	if(typeof process === 'undefined') {
+		$('#btn_factory').on("click", function() {
+			window.open("factory.html","_blank", null);
+		});
+		$('#btn_saveXML').on("click", BlocklyDuino.saveXmlFile);
+		$('#btn_saveino').on("click", function () {
+			if (window.localStorage.prog == "arduino") {
+				BlocklyDuino.saveino()
+			} else {
+				BlocklyDuino.savepy()
+			}
+		});
+	}
+};
+BlocklyDuino.checkAll = function() {
+    if(this.checked) {
+        $('#modal-body-config input:checkbox[id^=checkbox_]').each(function() {
+            this.checked = true;
+        });
+    } 
+      else {
+      $('#modal-body-config input:checkbox[id^=checkbox_]').each(function() {
+            this.checked = false;
+        });
+    }
+};
+BlocklyDuino.openConfigToolbox = function() {
+	var modalbody = $("#modal-body-config");
+	var loadIds = window.localStorage.toolboxids;
+	if (loadIds === undefined || loadIds === "") {
+		if ($('#defaultCategories1').length) {
+			loadIds = $('#defaultCategories1').html();
+		} else {
+			loadIds = '';
+		}
+	}
+	modalbody.empty();
+	var i=0, n;
+	var ligne = "";
+	$("#toolbox").children("category").each(function() {
+		n = loadIds.search($(this).attr("id"));
+		if (n >= 0) {
+			ligne = '<input type="checkbox" checked="checked" name="checkbox_' +i+ '" id="checkbox_' +$(this).attr("id")+ '"/> ' +Blockly.Msg[$(this).attr("id")]+ '<br/>';
+		} else {
+			ligne = '<input type="checkbox" name="checkbox_' +i+ '" id="checkbox_' +$(this).attr("id")+ '"/> ' +Blockly.Msg[$(this).attr("id")]+ '<br/>';
+		}
+		i++;
+		modalbody.append(ligne);
+     });
+};
+BlocklyDuino.changeToolbox = function() {
+	BlocklyDuino.backupBlocks();
+	var toolboxIds = [];
+	window.localStorage.lang = $('#languageMenu').val();
+	$('#modal-body-config input:checkbox[id^=checkbox_]').each(function() {
+		if (this.checked == true) {
+			var xmlid = this.id;
+			toolboxIds.push(xmlid.replace("checkbox_", ""))
+		}
+	});
+	window.localStorage.toolboxids = toolboxIds;
+	Blockly.getMainWorkspace().updateToolbox(BlocklyDuino.buildToolbox());
+	BlocklyDuino.workspace.render();
+	$('#configModal').modal('hide')
+	window.location.reload();
+};
+
+BlocklyDuino.changelanguage = function() {
+	window.localStorage.lang = $('#languageMenu').val();
+	window.location.reload();
+};
+
+
+
+
+BlocklyDuino.buildToolbox = function() {
+	var loadIds = window.localStorage.toolboxids;
+	if (loadIds === undefined || loadIds === "") {
+		if ($('#defaultCategories1').length) {
+			loadIds = $('#defaultCategories1').html();
+		} else {
+			loadIds = '';
+		}
+	}
+	var xmlValue = '<xml id="toolbox">';	
+	var xmlids = loadIds.split(",");
+	for (var i = 0; i < xmlids.length; i++) {
+		if ($('#'+xmlids[i]).length) {
+			xmlValue += $('#'+xmlids[i])[0].outerHTML;
+		}
+	}
+	xmlValue += '</xml>';
+	return xmlValue;
+};
+
+
+BlocklyDuino.buildToolboxLevel1 = function() {
+	var loadIds = []; 
+	
+	if ($('#defaultCategories1').length) {
+			loadIds = $('#defaultCategories1').html();
+	} 
+	window.localStorage.toolboxids=loadIds;
+	window.localStorage.level=1;
+	
+	var xmlValue = '<xml id="toolbox">';	
+	var xmlids = loadIds.split(",");
+	for (var i = 0; i < xmlids.length; i++) {
+		if ($('#'+xmlids[i]).length) {
+			xmlValue += $('#'+xmlids[i])[0].outerHTML;
+		}
+	}
+	xmlValue += '</xml>';
+	Blockly.getMainWorkspace().updateToolbox(xmlValue);
+	
+};
+
+BlocklyDuino.buildToolboxLevel2 = function() {
+	var loadIds = []; 
+	
+	if ($('#defaultCategories2').length) {
+			loadIds = $('#defaultCategories2').html();
+	} 
+	window.localStorage.toolboxids=loadIds;
+	window.localStorage.level=2;
+	
+	
+	var xmlValue = '<xml id="toolbox">';	
+	var xmlids = loadIds.split(",");
+	for (var i = 0; i < xmlids.length; i++) {
+		if ($('#'+xmlids[i]).length) {
+			xmlValue += $('#'+xmlids[i])[0].outerHTML;
+		}
+	}
+	xmlValue += '</xml>';
+	Blockly.getMainWorkspace().updateToolbox(xmlValue);
+	
+};
+
+BlocklyDuino.buildToolboxLevel3 = function() {
+	var loadIds = []; 
+	
+	if ($('#defaultCategories3').length) {
+			loadIds = $('#defaultCategories3').html();
+	} 
+	
+	window.localStorage.toolboxids=loadIds;
+	window.localStorage.level=3;
+	
+	var xmlValue = '<xml id="toolbox">';	
+	var xmlids = loadIds.split(",");
+	for (var i = 0; i < xmlids.length; i++) {
+		if ($('#'+xmlids[i]).length) {
+			xmlValue += $('#'+xmlids[i])[0].outerHTML;
+		}
+	}
+	xmlValue += '</xml>';
+	Blockly.getMainWorkspace().updateToolbox(xmlValue);
+	
+	
+};
+
+
+
+BlocklyDuino.loadToolboxDefinition = function(toolboxFile) {
+	$.ajax({
+		type: "GET",
+		url: "./toolbox/" + toolboxFile + ".xml",
+		dataType: "xml",
+		async : false
+	}).done(function(data){
+		var toolboxXml = '<xml id="toolbox" style="display: none">' + $(data).find('toolbox').html() + '</xml>';
+		$("#toolbox").remove();
+		$('body').append(toolboxXml);	
+		$("xml").find("category").each(function() {
+			if (!$(this).attr('id')) {
+				$(this).attr('id', $(this).attr('name'));
+				$(this).attr('name', Blockly.Msg[$(this).attr('name')])
+			}
+		})
+	}).fail(function(data) {
+		$("#toolbox").remove()
+	})
+};
+BlocklyDuino.changeToolboxDefinition =  function() {
+	BlocklyDuino.loadToolboxDefinition($("#toolboxes").val());
+	BlocklyDuino.openConfigToolbox();
+};
+BlocklyDuino.buildExamples = function() {
+	$.ajax({
+	    cache: false,
+	    url: "./examples/examples.json",
+	    dataType: "json",
+	    success :  function(data) {
+			$("#includedContent").empty();
+			$.each(data, function(i, example){
+				if (example.visible) {
+					var line = "<tr><td>"
+							   + "<a href='?url=./examples/"+example.source_url+"'>" + example.source_text + "</a>"
+							  // + "</td><td>"
+							  // + "<a href='"+example.link_url+"' data-toggle='modal'>"
+							 //  + "<img class='vignette' src='./examples/"+example.image+"'></a>"
+							   + "</td></tr>";
+					$("#includedContent").append(line);
+				}
+			});
+		}
+	});
+};
+Blockly.Variables.flyoutCategory = function(workspace) {
+	var variableList = workspace.variableList;
+	variableList.sort(goog.string.caseInsensitiveCompare);
+	var xmlList = [];
+	var button = goog.dom.createDom('button');
+	button.setAttribute('text', Blockly.Msg.NEW_VARIABLE);
+	button.setAttribute('callbackKey', 'CREATE_VARIABLE');
+	Blockly.registerButtonCallback('CREATE_VARIABLE', function(button) {
+		Blockly.Variables.createVariable(button.getTargetWorkspace());
+	});
+	xmlList.push(button);
+	if (variableList.length > 0) {
+		if (window.localStorage.prog!="python") {
+			if (Blockly.Blocks['variables_set_init']) {
+				var block = goog.dom.createDom('block');
+				block.setAttribute('type', 'variables_set_init');
+				block.setAttribute('gap', 8);
+				var field = goog.dom.createDom('field', null, variableList[0]);
+				field.setAttribute('name', 'VAR');
+				block.appendChild(field);
+				xmlList.push(block);
+			}
+			if (Blockly.Blocks['variables_set']) {
+				var block = goog.dom.createDom('block');
+				block.setAttribute('type', 'variables_set');
+				block.setAttribute('gap', 8);
+				var field = goog.dom.createDom('field', null, variableList[0]);
+				field.setAttribute('name', 'VAR');
+				block.appendChild(field);
+				xmlList.push(block);
+			}
+			if (Blockly.Blocks['math_change']) {
+				var block = goog.dom.createDom('block');
+				block.setAttribute('type', 'math_change');
+				block.setAttribute('gap', 8);
+				var field = goog.dom.createDom('field', null, variableList[0]);
+				field.setAttribute('name', 'VAR');
+				block.appendChild(field);
+				xmlList.push(block);
+			}
+			if (Blockly.Blocks['variables_const']) {
+				var block = goog.dom.createDom('block');
+				block.setAttribute('type', 'variables_const');
+				block.setAttribute('gap', 8);
+				var field = goog.dom.createDom('field', null, variableList[0]);
+				field.setAttribute('name', 'VAR');
+				block.appendChild(field);
+				xmlList.push(block);
+			}
+			if (Blockly.Blocks['base_define_const']) {
+				var block = goog.dom.createDom('block');
+				block.setAttribute('type', 'base_define_const');
+				if (Blockly.Blocks['variables_get']) {
+					block.setAttribute('gap', 16);
+				}
+				var field = goog.dom.createDom('field', null, variableList[0]);
+				field.setAttribute('name', 'VAR');
+				block.appendChild(field);
+				xmlList.push(block);
+			}
+			for (var i = 0; i < variableList.length; i++) {
+			  if (Blockly.Blocks['variables_get']) {
+				var block = goog.dom.createDom('block');
+				block.setAttribute('type', 'variables_get');
+				if (Blockly.Blocks['variables_set']) {
+				  block.setAttribute('gap', 8);
+				}
+				var field = goog.dom.createDom('field', null, variableList[i]);
+				field.setAttribute('name', 'VAR');
+				block.appendChild(field);
+				xmlList.push(block);
+			  }
+			}
+		} else {
+			if (Blockly.Blocks['variables_set']) {
+				var block = goog.dom.createDom('block');
+				block.setAttribute('type', 'variables_set');
+				block.setAttribute('gap', 8);
+				var field = goog.dom.createDom('field', null, variableList[0]);
+				field.setAttribute('name', 'VAR');
+				block.appendChild(field);
+				xmlList.push(block);
+			}
+			if (Blockly.Blocks['math_change']) {
+				var block = goog.dom.createDom('block');
+				block.setAttribute('type', 'math_change');
+				block.setAttribute('gap', 8);
+				var field = goog.dom.createDom('field', null, variableList[0]);
+				field.setAttribute('name', 'VAR');
+				block.appendChild(field);
+				xmlList.push(block);
+			}
+			for (var i = 0; i < variableList.length; i++) {
+			  if (Blockly.Blocks['variables_get']) {
+				var block = goog.dom.createDom('block');
+				block.setAttribute('type', 'variables_get');
+				if (Blockly.Blocks['variables_set']) {
+				  block.setAttribute('gap', 8);
+				}
+				var field = goog.dom.createDom('field', null, variableList[i]);
+				field.setAttribute('name', 'VAR');
+				block.appendChild(field);
+				xmlList.push(block);
+			  }
+			}
+		}
+	}
+  return xmlList;
+};
+BlocklyDuino.workspace_capture = function() {
+	var ws = BlocklyDuino.workspace.svgBlockCanvas_.cloneNode(true);
+	ws.removeAttribute("width");
+	ws.removeAttribute("height");
+	ws.removeAttribute("transform");
+	var styleElem = document.createElementNS("http://www.w3.org/2000/svg", "style");
+	styleElem.textContent = Blockly.Css.CONTENT.join('') ;
+	ws.insertBefore(styleElem, ws.firstChild);
+	var bbox = BlocklyDuino.workspace.svgBlockCanvas_.getBBox();
+	var canvas = document.createElement( "canvas" );
+	canvas.width = Math.ceil(bbox.width+10);
+	canvas.height = Math.ceil(bbox.height+10);
+	var ctx = canvas.getContext( "2d" );
+	var xml = new XMLSerializer().serializeToString(ws);
+	xml = '<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="'+bbox.width+'" height="'+bbox.height+'" viewBox="' + bbox.x + ' ' + bbox.y + ' '  + bbox.width + ' ' + bbox.height + '"><rect width="100%" height="100%" fill="white"></rect>'+xml+'</svg>';
+	var img = new Image();
+	img.setAttribute( "src", 'data:image/svg+xml;base64,' + btoa(unescape(encodeURIComponent(xml))));
+	img.onload = function() {
+		ctx.drawImage( img, 5, 5 );
+		var canvasdata = canvas.toDataURL("image/png",1);
+		var datenow = Date.now();
+		var a = document.createElement("a");
+		a.download = "capture"+datenow+".png";
+		a.href = canvasdata;
+		document.body.appendChild(a);
+		a.click();
+	}	
+};
+BlocklyDuino.cardPicture_change = function() {
+//	if($("#pinout").val()=="nanooptiboot"||$("#pinout").val()=="nano"||$("#pinout").val()=="nona4809"){
+//		$("#warning").show();
+//	}else{
+//		$("#warning").hide();
+//	}
+	if ($("#pinout").val()) {
+		$('#arduino_card_mini_picture').attr("src", profile[$("#pinout").val()]['picture'])
+	} else {
+		$('#arduino_card_mini_picture').attr("src", "")
+	}
+	
+	if($("#pinout").val()=="nano")
+		document.getElementById('infoboard').innerHTML=MSG[$("#pinout").val()];
+	else
+		document.getElementById('infoboard').innerHTML="";
+		
+};
+BlocklyDuino.saveino = function() {
+    var code = $('#pre_previewArduino').text();
+	var datenow = Date.now();
+	var filename = "arduino"+datenow+".ino";
+ 	var element = document.createElement('a');
+	element.setAttribute('href', 'data:text/ino;charset=utf-8,' + encodeURIComponent(code));
+	element.setAttribute('download', filename);
+	element.style.display = 'none';
+	document.body.appendChild(element);
+	element.click();
+	document.body.removeChild(element);
+};
+BlocklyDuino.savepy = function() {
+    var code = $('#pre_previewArduino').text();
+	var datenow = Date.now();
+	var filename = "python"+datenow+".py";
+ 	var element = document.createElement('a');
+	element.setAttribute('href', 'data:text/ino;charset=utf-8,' + encodeURIComponent(code));
+	element.setAttribute('download', filename);
+	element.style.display = 'none';
+	document.body.appendChild(element);
+	element.click();
+	document.body.removeChild(element);
+};
+BlocklyDuino.saveXmlFile = function () {
+	if (window.localStorage.content=="on") {
+		var xml = Blockly.Xml.workspaceToDom(Blockly.mainWorkspace);
+		var toolbox = window.localStorage.toolbox;
+		if (!toolbox) {
+			toolbox = $("#toolboxes").val();
+		}
+		if (toolbox) {
+			var newel = document.createElement("toolbox");
+			newel.appendChild(document.createTextNode(toolbox));
+			xml.insertBefore(newel, xml.childNodes[0]);
+		}
+		var toolboxids = window.localStorage.toolboxids;
+		if (toolboxids === undefined || toolboxids === "") {
+			if ($('#defaultCategories1').length) {
+				toolboxids = $('#defaultCategories1').html();
+			}
+		}
+		var data = Blockly.Xml.domToPrettyText(xml);
+		var datenow = Date.now();
+		var filename = "block"+datenow+".txt";
+		var element = document.createElement('a');
+		element.setAttribute('href', 'data:text/bloc;charset=utf-8,' + encodeURIComponent(data));
+		element.setAttribute('download', filename);
+		element.style.display = 'none';
+		document.body.appendChild(element);
+		element.click();
+		document.body.removeChild(element)
+	} else if (window.localStorage.prog=="arduino"){
+		var code = editor.getValue();
+		var datenow = Date.now();
+		var filename = "arduino"+datenow+".ino";
+		var element = document.createElement('a');
+		element.setAttribute('href', 'data:text/ino;charset=utf-8,' + encodeURIComponent(code));
+		element.setAttribute('download', filename);
+		element.style.display = 'none';
+		document.body.appendChild(element);
+		element.click();
+		document.body.removeChild(element);
+	} else {
+		var code = editor.getValue();
+		var datenow = Date.now();
+		var filename = "python"+datenow+".py";
+		var element = document.createElement('a');
+		element.setAttribute('href', 'data:py/ino;charset=utf-8,' + encodeURIComponent(code));
+		element.setAttribute('download', filename);
+		element.style.display = 'none';
+		document.body.appendChild(element);
+		element.click();
+		document.body.removeChild(element);
+	}
+};
