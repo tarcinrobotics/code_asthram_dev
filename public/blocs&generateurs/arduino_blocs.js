@@ -11268,11 +11268,11 @@ Blockly.Blocks['blynk_begin'] = {
     this.appendDummyInput()
         .appendField("Blynk.begin")
         .appendField("Auth Token")
-        .appendField(new Blockly.FieldTextInput("z76YXbXlVMnJLeCtLiV7flJrdT43dFDO"), "AUTH_TOKEN")
+        .appendField(new Blockly.FieldTextInput("AUTH_TOKEN"), "AUTH_TOKEN")
         .appendField("SSID")
-        .appendField(new Blockly.FieldTextInput("AGF"), "SSID")
+        .appendField(new Blockly.FieldTextInput("SSID"), "SSID")
         .appendField("Password")
-        .appendField(new Blockly.FieldTextInput("09876543211"), "PASS");
+        .appendField(new Blockly.FieldTextInput("PASS"), "PASS");
     this.setPreviousStatement(true, null);
     this.setNextStatement(true, null);
     this.setColour(230);
@@ -11305,14 +11305,16 @@ Blockly.Blocks['blynk_virtual_write'] = {
         .appendField("Blynk.virtualWrite Pin");
     this.appendValueInput("DATA")
         .appendField("Data");
+    this.setInputsInline(true);
     this.setPreviousStatement(true, null);
     this.setNextStatement(true, null);
     this.setColour(230);
     this.setTooltip("Write data to a virtual pin");
     this.setHelpUrl("");
-    this.setInputsInline(true);
   }
 };
+
+
 
 // Blockly block for param.asStr()
 Blockly.Blocks['blynk_param_as_str'] = {
@@ -11338,12 +11340,12 @@ Blockly.Blocks['blynk_param_as_int'] = {
   }
 };
 
-
 Blockly.Blocks['blynk_virtual_pin_function'] = {
   init: function() {
     this.appendDummyInput()
         .appendField("BLYNK_WRITE(")
         .appendField(new Blockly.FieldDropdown([
+          ["V0", "V0"],
           ["V1", "V1"],
           ["V2", "V2"],
           ["V3", "V3"],
@@ -11363,5 +11365,20 @@ Blockly.Blocks['blynk_virtual_pin_function'] = {
   }
 };
 
+Blockly.Blocks['blynk_log_event'] = {
+  init: function() {
+    this.appendDummyInput()
+        .appendField("Blynk.logEvent(")
+        .appendField(new Blockly.FieldTextInput("event_name"), "EVENT_NAME")
+        .appendField(",")
+        .appendField(new Blockly.FieldTextInput("event_data"), "EVENT_DATA")
+        .appendField(");");
+    this.setPreviousStatement(true, null);
+    this.setNextStatement(true, null);
+    this.setColour(230);
+    this.setTooltip("Log an event to Blynk");
+    this.setHelpUrl("");
+  }
+};
 
 

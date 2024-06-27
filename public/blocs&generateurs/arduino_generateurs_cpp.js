@@ -8403,8 +8403,12 @@ Blockly.Arduino['blynk_virtual_write'] = function(block) {
   var data = Blockly.Arduino.valueToCode(block, 'DATA', Blockly.Arduino.ORDER_ATOMIC) || ''; // Empty string if no input
   
   var code = 'Blynk.virtualWrite(' + pin + ', ' + data + ');\n';
+  
   return code;
 };
+
+
+
 
 // Generator for param.asStr()
 Blockly.Arduino['blynk_param_as_str'] = function(block) {
@@ -8420,15 +8424,26 @@ Blockly.Arduino['blynk_param_as_int'] = function(block) {
 
 Blockly.Arduino['blynk_virtual_pin_function'] = function(block) {
   var virtualPin = block.getFieldValue('VIRTUAL_PIN');
-  var statements_function = Blockly.Arduino.statementToCode(block, 'FUNCTION');
+  var statementsFunction = Blockly.Arduino.statementToCode(block, 'FUNCTION');
 
+  // Generate the Blynk virtual pin function code
   var code = `BLYNK_WRITE(${virtualPin}) {\n`;
-  code += statements_function;
+  code += statementsFunction;
   code += '}\n\n';
+
+  Blockly.Arduino.addInclude('global_includes', code);
+
+  return '';
+};
+
+Blockly.Arduino['blynk_log_event'] = function(block) {
+  var event_name = block.getFieldValue('EVENT_NAME');
+  var event_data = block.getFieldValue('EVENT_DATA');
+
+  var code = `Blynk.logEvent("${event_name}", "${event_data}");\n`;
 
   return code;
 };
- 
 
 
 

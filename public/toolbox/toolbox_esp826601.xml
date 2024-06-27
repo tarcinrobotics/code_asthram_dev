@@ -1222,6 +1222,7 @@
     <block type="blynk_param_as_str"></block>
       <block type="blynk_param_as_int"></block>
         <block type="blynk_virtual_pin_function"></block>
+        <block type="blynk_log_event"></block>
 </category>
 
 
